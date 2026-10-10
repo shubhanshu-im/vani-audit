@@ -1,0 +1,122 @@
+{
+  "call_id": "838_90741691_U9PAIL4H5",
+  "file": "data/recordings/838_90741691_U9PAIL4H5.mp3",
+  "duration_s": 78.7,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आप वो के लिए metal EP speaker सिर्फ 22 inch की requirement है ना?",
+      "start": 0.01,
+      "end": 6.35
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ।",
+      "start": 1.17,
+      "end": 8.25
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available?",
+      "start": 9.53,
+      "end": 12.17
+    },
+    {
+      "role": "BUYER",
+      "text": "seller को call कर रहे थे वो available",
+      "start": 10.07,
+      "end": 11.75
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ गई दरअसल वो seller अभी available नहीं है और मैं IndiaMART से बोल रही हूँ।",
+      "start": 12.45,
+      "end": 17.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes Ma'am.",
+      "start": 18.67,
+      "end": 19.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको कितनी seat चाहिए होगी आपको?",
+      "start": 20.53,
+      "end": 22.99
+    },
+    {
+      "role": "BUYER",
+      "text": "उसी दिन की fees चाहिए मुझे total fees चाहिए।",
+      "start": 24.51,
+      "end": 31.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब base metal के बारे में बात कर लेते हैं। आपको कौन सा चाहिए nickel, aluminium या कुछ और?",
+      "start": 30.31,
+      "end": 35.69
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा उसकी finishing हो मेरे जैसी metal की हो। bronze bronze।",
+      "start": 37.55,
+      "end": 44.21
+    },
+    {
+      "role": "BOT",
+      "text": "मैं देख पा रही हूँ आपको color gold ही चाहिए। ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 43.53,
+      "end": 52.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello teacher. ठीक है ma'am कितना time में मुझे आएगा ये घर Kashmir?",
+      "start": 48.53,
+      "end": 59.33
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "start": 60.55,
+      "end": 63.25
+    },
+    {
+      "role": "BUYER",
+      "text": "मैंने बोला ये कितने time में कश्मीर पहुंचेगा ये parcel?",
+      "start": 63.63,
+      "end": 67.35
+    },
+    {
+      "role": "BOT",
+      "text": "delivery के समय के बारे में आप seller से बात कर सकते हैं वो आपको सही जानकारी दे देंगे। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 68.55,
+      "end": 76.15
+    },
+    {
+      "role": "BUYER",
+      "text": "IndiaMART. Okay okay thank you.",
+      "start": 73.21,
+      "end": 78.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

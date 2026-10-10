@@ -1,0 +1,147 @@
+{
+  "call_id": "713_90741650_CHYVHL4H5",
+  "file": "data/recordings/713_90741650_CHYVHL4H5.mp3",
+  "duration_s": 105.41,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको air और hanging car air freshener gel 99 MSP की requirement है ना?",
+      "start": 0.01,
+      "end": 5.39
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको। Hello.",
+      "start": 0.95,
+      "end": 9.97
+    },
+    {
+      "role": "BOT",
+      "text": "समझते आपको air और hanging car air freshener gel 99 MSP की requirement थी ना?",
+      "start": 11.75,
+      "end": 16.67
+    },
+    {
+      "role": "BUYER",
+      "text": "अंजीरें।",
+      "start": 17.99,
+      "end": 18.89
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 20.05,
+      "end": 25.91
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को मंत्री करीबन हज़ार के आस पास।",
+      "start": 27.85,
+      "end": 30.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं आपको product type gel ही चाहिए ना?",
+      "start": 31.51,
+      "end": 34.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी।",
+      "start": 35.99,
+      "end": 36.79
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब series के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे Air Power Pocket, Airmatic या कुछ और? Sorry आपकी आवाज़ नहीं आ रही।",
+      "start": 38.05,
+      "end": 51.47
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी आवाज बहुत चोवर।",
+      "start": 50.29,
+      "end": 51.71
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे समझ नहीं आया। आप series में क्या prefer करेंगे जैसे Air Power Pocket, Airmatic या कुछ और?",
+      "start": 52.87,
+      "end": 58.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नहीं इसमें क्या option है मेरे को मेरे को car चानी चाहिए।",
+      "start": 53.73,
+      "end": 64.97
+    },
+    {
+      "role": "BOT",
+      "text": "कार के लिए आप Aero या Air Twist ले सकते हैं। बताइए इनमें से क्या prefer करेंगे या कोई और?",
+      "start": 66.19,
+      "end": 71.23
+    },
+    {
+      "role": "BUYER",
+      "text": "ये रहा वो दे दो।",
+      "start": 73.61,
+      "end": 74.51
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख सकती हूं कि आपने fragrance में lavender चुना है, right?",
+      "start": 75.79,
+      "end": 79.59
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं lavender नहीं चाहिए मेरे को आप मेरे को मुफ्त दे सकते हैं या आप fragrance दे सकते हैं।",
+      "start": 81.03,
+      "end": 86.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप Musk fragrance ले लीजिए। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 88.07,
+      "end": 95.09
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 96.47,
+      "end": 97.17
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 98.29,
+      "end": 101.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 5.66,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 44.39,
+        "end": 50.05,
+        "duration_s": 5.66,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "call_id": "302_90797351_PDU6XXFH5",
+  "file": "data/recordings/302_90797351_PDU6XXFH5.mp3",
+  "duration_s": 89.06,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 800 ही चाहिए था plastic recycling machine की requirement है ना?",
+      "start": 0.01,
+      "end": 5.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 6.13,
+      "end": 6.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब production capacity के बारे में बात कर लेते हैं। आपको कौन सी चाहिए 100 kilograms per hour या 200 kilograms per hour या कुछ और?",
+      "start": 8.59,
+      "end": 24.69
+    },
+    {
+      "role": "BUYER",
+      "text": "दो सौ kilogram तक बराबर है।",
+      "start": 26.05,
+      "end": 28.13
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए आपको किस तरह का waste material चाहिए mixed plastic या HDPE या LDPE mix या कुछ और?",
+      "start": 30.25,
+      "end": 37.21
+    },
+    {
+      "role": "BUYER",
+      "text": "एलडी।",
+      "start": 38.87,
+      "end": 39.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब आपकी city और state भी बता दीजिए please।",
+      "start": 41.19,
+      "end": 43.73
+    },
+    {
+      "role": "BUYER",
+      "text": "ये तो Patna, Bihar. ठीक है। आप अपनी city और state भी बता दीजिए please। CP asset नहीं समझे।",
+      "start": 45.13,
+      "end": 57.15
+    },
+    {
+      "role": "BOT",
+      "text": "मतलब आप किस city और किस state से बात कर रहे हैं? example, पटना, बिहार। please बता दीजिए।",
+      "start": 58.93,
+      "end": 64.63
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। Patna Bihar.",
+      "start": 64.05,
+      "end": 65.75
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब अपना नाम भी बता दीजिए please।",
+      "start": 67.87,
+      "end": 70.33
+    },
+    {
+      "role": "BUYER",
+      "text": "गौतम कुमार।",
+      "start": 70.33,
+      "end": 71.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप [NAME] Kunwar जी बोल रहे हैं ना?",
+      "start": 73.99,
+      "end": 76.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 76.77,
+      "end": 77.21
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 79.15,
+      "end": 86.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.86,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

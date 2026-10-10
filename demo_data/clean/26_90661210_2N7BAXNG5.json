@@ -1,0 +1,117 @@
+{
+  "call_id": "26_90661210_2N7BAXNG5",
+  "file": "data/recordings/26_90661210_2N7BAXNG5.mp3",
+  "duration_s": 114.19,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 5 ml pharma glass bottle scrap की requirement है ना? हाँ hello. आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब size के बारे में बात करते हैं। आपको कौन सा चाहिए?",
+      "start": 0.21,
+      "end": 21.17
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे मुझे तो bottom में चाहिए मुझे उसकी rubber चाहिए bottom से जो rubber निकलती है ना वो चाहिए। समझ गई आपको rubber चाहिए? क्या आप मुझे बता सकते हैं कि आपको यह किस काम के लिए चाहिए? रबर जलाने के लिए चाहिए।",
+      "start": 23.61,
+      "end": 40.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब material के बारे में बताइए। आपको butyl rubber चाहिए या कोई और?",
+      "start": 41.15,
+      "end": 45.35
+    },
+    {
+      "role": "BUYER",
+      "text": "injection rubber चाहिए मुझे glucose की bottle की जाती है ना rubber stopper.",
+      "start": 47.07,
+      "end": 51.07
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं आपको application में glass bottle ही चाहिए ना?",
+      "start": 52.09,
+      "end": 56.61
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको application नहीं नहीं glass bottle में चाहिए मुझे glass bottle से contact चाहिए क्योंकि glass bottle वाला कहीं पास air bag मिलेगी।",
+      "start": 53.81,
+      "end": 64.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। मैं आपको सही seller से connect करने में मदद करूंगी। बस कुछ details confirm कर दीजिए।",
+      "start": 65.45,
+      "end": 70.99
+    },
+    {
+      "role": "BUYER",
+      "text": "मैंने detail already पहले ही confirm कर रखी है।",
+      "start": 72.33,
+      "end": 74.87
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूं पर एक बार फिर से confirm कर लीजिए ताकि मैं आपको एकदम सही seller से connect कर सकूं।",
+      "start": 76.35,
+      "end": 81.67
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या बताइए क्या details चाहिए?",
+      "start": 82.11,
+      "end": 83.99
+    },
+    {
+      "role": "BOT",
+      "text": "बताइए application में क्या prefer करेंगे glass bottle, blood tube या कोई और?",
+      "start": 85.55,
+      "end": 89.69
+    },
+    {
+      "role": "BUYER",
+      "text": "glass bottle में चाहिए glass bottle में scratch का काम करते हैं glass की bottle की सफाई करते हैं छटाई करते हैं मुझे ऐसे",
+      "start": 91.91,
+      "end": 99.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब मैं आपके लिए सही seller check करती हूं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 100.79,
+      "end": 111.69
+    },
+    {
+      "role": "BUYER",
+      "text": "अब मैं आपके लिए।",
+      "start": 101.27,
+      "end": 101.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 6.64,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 4.97,
+        "end": 11.61,
+        "duration_s": 6.64,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

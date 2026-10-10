@@ -1,0 +1,98 @@
+{
+  "call_id": "394_90852942_T37TLXVH5",
+  "file": "data/recordings/394_90852942_T37TLXVH5.mp3",
+  "duration_s": 60.55,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Fenolex electrical wires की requirement है ना?",
+      "start": 0.11,
+      "end": 4.55
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.61,
+      "end": 6.39
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने roll चाहिए?",
+      "start": 7.63,
+      "end": 13.31
+    },
+    {
+      "role": "BUYER",
+      "text": "एक करोड़ चाहिए था।",
+      "start": 15.65,
+      "end": 17.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब wire size के बारे में बात कर लेते हैं। आपको 2.5 millimeters चाहिए या कुछ और?",
+      "start": 18.07,
+      "end": 23.11
+    },
+    {
+      "role": "BUYER",
+      "text": "four mm या six mm दोनों grade चाहिए थे madam.",
+      "start": 25.03,
+      "end": 29.27
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको 4 millimeters और 6 millimeters दोनों चाहिए। अब length बताइए आपको 90 meters चाहिए या कुछ और?",
+      "start": 30.49,
+      "end": 36.73
+    },
+    {
+      "role": "BUYER",
+      "text": "पाँच सौ मीटर चाहिए madam मुझे।",
+      "start": 38.99,
+      "end": 41.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 42.11,
+      "end": 47.21
+    },
+    {
+      "role": "BUYER",
+      "text": "बैतूल की।",
+      "start": 48.25,
+      "end": 49.13
+    },
+    {
+      "role": "BOT",
+      "text": "जी। मैं कोशिश करूंगी कि आपको Betul के ही अच्छे sellers मिलें। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 50.51,
+      "end": 57.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Okay ma'am.",
+      "start": 57.07,
+      "end": 59.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

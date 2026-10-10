@@ -1,0 +1,93 @@
+{
+  "call_id": "229_90643075_87YXT3KG5",
+  "file": "data/recordings/229_90643075_87YXT3KG5.mp3",
+  "duration_s": 93.6,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो आपको कौन सा product चाहिए? हाँ वो बोल भी सकता है।",
+      "start": 0.01,
+      "end": 3.49
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन सा product चाहिए?",
+      "start": 0.61,
+      "end": 1.77
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं सिर्फ IndiaMART products requirements या खरीदारी में आपकी मदद कर सकती हूं। क्या आप किसी product के बारे में जानकारी लेना चाहते हैं?",
+      "start": 5.49,
+      "end": 13.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 14.29,
+      "end": 14.97
+    },
+    {
+      "role": "BOT",
+      "text": "कृपया बताइए आपको कौन सा product चाहिए?",
+      "start": 16.75,
+      "end": 18.81
+    },
+    {
+      "role": "BUYER",
+      "text": "जो robot है।",
+      "start": 21.09,
+      "end": 22.71
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप किसी specific machine या robotic product के बारे में पूछ रहे हैं? कृपया थोड़ा और clear बताइए कि आपको किस तरह का robot...",
+      "start": 25.17,
+      "end": 31.63
+    },
+    {
+      "role": "BUYER",
+      "text": "क्लियर बताइए कि आपको किस तरह का robot चाहिए? ये robot बोल भी सकता है। ठीक है? आप ऐसा robot ढूंढ रहे हैं जो बोल भी सके, सही समझा मैंने? क्या आप इसे घर, school या किसी industry में use करने के लिए लेना चाह रहे हैं?",
+      "start": 29.91,
+      "end": 46.85
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी call पे हैं? कृपया बता दीजिए आपको किस जगह के लिए यह बोलने वाला robot बहुत चाहिए। पहले उसको दिखाओगे तब ना। मैं सीधे product दिखाने की facility नहीं दे सकती लेकिन आपके requirement के हिसाब से best seller से connect करवाऊंगी। कृपया बताइए आप यह बोलने वाला robot किस काम के लिए लेना चाह रहे हैं? हाँ तो।",
+      "start": 55.03,
+      "end": 78.53
+    },
+    {
+      "role": "BUYER",
+      "text": "माफ़ कीजिए मैं सीधे product दिखा नहीं सकती लेकिन आपके requirement के हिसाब से best seller से connect करवाऊंगी। आप यह बोलने वाला robot? vote किस काम के लिए लेना चाह रहे हैं?",
+      "start": 80.43,
+      "end": 89.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 8.18,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 46.85,
+        "end": 55.03,
+        "duration_s": 8.18,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

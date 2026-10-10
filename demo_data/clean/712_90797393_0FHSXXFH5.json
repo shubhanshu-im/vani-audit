@@ -1,0 +1,164 @@
+{
+  "call_id": "712_90797393_0FHSXXFH5",
+  "file": "data/recordings/712_90797393_0FHSXXFH5.mp3",
+  "duration_s": 116.71,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.77
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं यही वाला चाहिए जो क्या कहते हैं बता रहे हैं।",
+      "start": 6.21,
+      "end": 9.87
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप किस product के बारे में बात... माफ़ कीजिए मैं समझ नहीं पा रही हूं। क्या आप बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 10.27,
+      "end": 18.83
+    },
+    {
+      "role": "BUYER",
+      "text": "आपके। Proto Active जो है ये माफ़ कीजिए मैं आपकी call...",
+      "start": 11.93,
+      "end": 25.75
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी call senior agent। आपको mixed fruit juice जो आमतौर पे पीने के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 24.35,
+      "end": 31.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ मैम ये fruit ये Apple TV वाला।",
+      "start": 33.23,
+      "end": 36.21
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितनी bottle चाहिए होगी आपको?",
+      "start": 37.93,
+      "end": 43.95
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 45.61,
+      "end": 46.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको product form में juice, pulpy juice या कुछ और चाहिए?",
+      "start": 47.31,
+      "end": 50.95
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा number 8 है।",
+      "start": 53.39,
+      "end": 54.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब यह बता दीजिए कि आपको sugar content में no added sugar with sugar या कुछ और चाहिए?",
+      "start": 56.23,
+      "end": 61.43
+    },
+    {
+      "role": "BUYER",
+      "text": "नौ सौ रुपए।",
+      "start": 63.61,
+      "end": 65.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब मैं आपकी city confirm करना चाहती हूं। ठीक है? आप अपनी city और state भी बता दीजिए please।",
+      "start": 66.25,
+      "end": 72.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am state UP Puragraj.",
+      "start": 74.29,
+      "end": 77.35
+    },
+    {
+      "role": "BOT",
+      "text": "आप Prayagraj Uttar Pradesh से बोल रहे हैं ना?",
+      "start": 78.47,
+      "end": 80.81
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 82.25,
+      "end": 82.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 83.97,
+      "end": 86.15
+    },
+    {
+      "role": "BUYER",
+      "text": "अगर",
+      "start": 88.83,
+      "end": 89.75
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप अपना नाम फिर से बता सकते हैं?",
+      "start": 91.05,
+      "end": 94.85
+    },
+    {
+      "role": "BUYER",
+      "text": "रजनीश।",
+      "start": 96.47,
+      "end": 97.61
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं समझ नहीं पाई। क्या आप अपना नाम बता सकते हैं please?",
+      "start": 98.61,
+      "end": 102.09
+    },
+    {
+      "role": "BUYER",
+      "text": "रजनी रजनी।",
+      "start": 103.67,
+      "end": 105.63
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 106.77,
+      "end": 114.57
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 11,
+    "longest_gap_s": 4.44,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

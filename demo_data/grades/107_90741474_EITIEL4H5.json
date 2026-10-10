@@ -1,0 +1,322 @@
+{
+  "call_id": "107_90741474_EITIEL4H5",
+  "duration_s": 51.55,
+  "graded_at": "2026-10-10T12:24:30+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed call without collecting requirement or creating lead",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो। हो। नहीं hello.",
+      "timestamp": 38.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed call without collecting requirement or creating lead",
+      "evidence_verified": true,
+      "llm_timestamp": 38.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "G4K USB या कोई और।",
+      "timestamp": 27.19,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer mentioned G4K USB but bot did not capture it",
+      "evidence_verified": true,
+      "llm_timestamp": 27.2
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी।",
+      "timestamp": 14.67,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to connect sellers but did not transfer or create lead",
+      "evidence_verified": true,
+      "llm_timestamp": 14.7
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है मैं Tania बोल रही हूं IndiaMART से।",
+      "timestamp": 14.67,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard '3000' as 'तीन हजार' in Hindi context",
+      "evidence_verified": true,
+      "llm_timestamp": 14.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो। हो। नहीं hello.",
+      "timestamp": 38.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed call without collecting requirement or creating lead",
+      "evidence_verified": true,
+      "llm_timestamp": 38.2
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity requested or provided"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "तीन हजार। ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 38.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 3000 lumens correctly"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 not asked or captured"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "G4K USB या कोई और।",
+      "timestamp": 27.19,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer mentioned G4K USB but bot did not capture it",
+      "evidence_verified": true,
+      "llm_timestamp": 27.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping observed"
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misheard words affecting lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details captured"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी।",
+      "timestamp": 14.67,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to connect sellers but did not transfer or create lead",
+      "evidence_verified": true,
+      "llm_timestamp": 14.7
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change requested"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air observed"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है मैं Tania बोल रही हूं IndiaMART से।",
+      "timestamp": 14.67,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard '3000' as 'तीन हजार' in Hindi context",
+      "evidence_verified": true,
+      "llm_timestamp": 14.7
+    }
+  ],
+  "captured_lead": {
+    "product": "Android 11 mini projector portable projector 4K 1080p support full HD smart projector 5G",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "resolution",
+        "value": "1080p"
+      },
+      {
+        "name": "brightness",
+        "value": "3000 lumens"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without confirming requirement or collecting contact details",
+      "timestamp": 38.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot abruptly closed call after capturing one spec, failing to collect quantity, name, or location, and not transferring or creating a lead.",
+  "analysis": "Buyer inquired about a portable 4K projector (Android 11, 5G, USB) and asked about availability/delivery timeline. The bot confirmed '3000 lumens' brightness but never captured quantity, name, or location before abruptly closing. The buyer never explicitly confirmed a requirement, and the bot closed without creating a lead or transferring.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3510,
+    "completion_tokens": 1299
+  },
+  "unresolved_problems": []
+}

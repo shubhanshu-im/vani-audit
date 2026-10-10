@@ -1,0 +1,290 @@
+{
+  "call_id": "84_90741468_MJ95EL4H5",
+  "duration_s": 70.7,
+  "graded_at": "2026-10-10T12:43:53+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Quantity Probing Error, Looping Behavior",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माफ़ कीजिए कितने piece चाहिए आपको?",
+      "timestamp": 28.53,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot re-asked quantity after buyer already provided it.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "कितने piece चाहिए आपको? quantity बता दीजिए please.",
+      "timestamp": 22.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked quantity twice, within limits but slightly repetitive.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded with lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 2 pieces correctly after probing."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माफ़ कीजिए कितने piece चाहिए आपको?",
+      "timestamp": 28.53,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot re-asked quantity after buyer already provided it.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.5
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's quantity of 2 was ultimately captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for thickness and buyer confirmed 8 inch."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for width but buyer did not provide a specific value."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for width but buyer did not provide a value to miss."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "कितने piece चाहिए आपको? quantity बता दीजिए please.",
+      "timestamp": 22.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked quantity twice, within limits but slightly repetitive.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant ASR errors visible in bot's readbacks."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered to connect to sellers and closed the call."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific spec options were clearly contradictory."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps attributed to the bot."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breaches or mispronunciations causing issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "hotel Pocket Spring mattress",
+    "quantity": "2",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "thickness",
+        "value": "8 inch"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot repeated quantity question twice after buyer already answered.",
+      "timestamp": 28.5,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot asked for quantity twice after buyer already stated it.",
+  "analysis": "Buyer requested 2 pieces of hotel pocket spring mattresses. Bot confirmed product, asked for quantity 3 times (including repetition), then asked thickness and width. Buyer confirmed 2 pieces, thickness 8 inch, and width 72 inch. Bot ended by promising to send seller details on WhatsApp. Outcome is a lead/transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3723,
+    "completion_tokens": 1260
+  },
+  "unresolved_problems": []
+}

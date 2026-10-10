@@ -1,0 +1,93 @@
+{
+  "call_id": "909_90741707_263IIL4H5",
+  "file": "data/recordings/909_90741707_263IIL4H5.mp3",
+  "duration_s": 95.33,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी car washer height spray gun की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.85
+    },
+    {
+      "role": "BUYER",
+      "text": "आह press press.",
+      "start": 8.39,
+      "end": 9.83
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मैं समझ नहीं पाया। क्या हम आपकी car washer high spray gun की requirements के बारे में बात कर सकते हैं?",
+      "start": 11.27,
+      "end": 16.49
+    },
+    {
+      "role": "BUYER",
+      "text": "तो sir press।",
+      "start": 20.49,
+      "end": 21.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब phase के बारे में बात कर लेते हैं। आपको कौन सा चाहिए single phase या कुछ और?",
+      "start": 22.87,
+      "end": 27.49
+    },
+    {
+      "role": "BUYER",
+      "text": "ओह, वह TC cover तो है। ठीक है। अब pressure के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 150 bar, 180 bar या कुछ और? एक घंटा बाद।",
+      "start": 30.51,
+      "end": 46.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे? क्या क्या आप अभी line पर हैं? क्या आप अपनी requirement के बारे में बातचीत जारी रखना चाहेंगे? आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 47.51,
+      "end": 92.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 9.74,
+    "gaps_over_5s": 4,
+    "long_gaps": [
+      {
+        "start": 39.65,
+        "end": 45.43,
+        "duration_s": 5.78,
+        "after_role": "BUYER"
+      },
+      {
+        "start": 52.73,
+        "end": 62.41,
+        "duration_s": 9.68,
+        "after_role": "BOT"
+      },
+      {
+        "start": 63.79,
+        "end": 73.23,
+        "duration_s": 9.44,
+        "after_role": "BOT"
+      },
+      {
+        "start": 76.03,
+        "end": 85.77,
+        "duration_s": 9.74,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

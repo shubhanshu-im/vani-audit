@@ -1,0 +1,261 @@
+{
+  "call_id": "974_90643235_AXY4W3KG5",
+  "duration_s": 77.11,
+  "graded_at": "2026-10-10T12:47:12+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: OnCall AstBuy Error",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp",
+      "timestamp": 58.35,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Offered seller on WhatsApp instead of live transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 58.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted product, bot created lead/transfer"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said one piece, bot asked one piece"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said piece/pair, bot used piece"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was given by buyer"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity clearly"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about size but buyer did not confirm"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Radial.",
+      "timestamp": 56.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said radial, bot accepted"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important spec missed; size was uncertain"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No harmful repetition"
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misheard words affecting lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp",
+      "timestamp": 58.35,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Offered seller on WhatsApp instead of live transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 58.4
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product consistent throughout"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific options contradicted"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data needed"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breach or mispronunciation issues"
+    }
+  ],
+  "captured_lead": {
+    "product": "7.50 R16 Apollo andure retread tire",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "construction",
+        "value": "Radial"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [],
+  "failure_description": "",
+  "analysis": "Buyer wanted one piece of 7.50 R16 Apollo andure retread tire; bot captured one piece and radial construction; bot sent seller details to WhatsApp and closed; no live transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3698,
+    "completion_tokens": 1124
+  },
+  "unresolved_problems": []
+}

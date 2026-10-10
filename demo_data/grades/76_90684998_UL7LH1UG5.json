@@ -1,0 +1,347 @@
+{
+  "call_id": "76_90684998_UL7LH1UG5",
+  "duration_s": 66.02,
+  "graded_at": "2026-10-10T12:41:37+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed the call without creating a lead or transferring to a seller.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Quantity Probing Error",
+    "Spec Missed Opportunity",
+    "OnCall AstBuy Error"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed the call without creating a lead or transferring to a seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed the call without asking for quantity or other lead details.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ended call without capturing name, city, state, and quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to send WhatsApp details but did not transfer to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send WhatsApp details instead of standard lead/transfer flow.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed the call without creating a lead or transferring to a seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed or asked."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed the call without asking for quantity or other lead details.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed or provided by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed 4x4 drive system correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Second spec was not asked or discussed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ended call without capturing name, city, state, and quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questioning or looping occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant mishearings detected."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to send WhatsApp details but did not transfer to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was correctly identified and confirmed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category-specific ISQ data is not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "System data not available for MCAT/Search verification."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air or bot silence detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send WhatsApp details instead of standard lead/transfer flow.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    }
+  ],
+  "captured_lead": {
+    "product": "open modified Willys Jeep Hunter",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "drive system",
+        "value": "4 by 4"
+      },
+      {
+        "name": "body style",
+        "value": "open"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed call without capturing quantity, name, or location.",
+      "timestamp": 55.9,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer gave minimal responses, possibly indicating low engagement.",
+      "timestamp": 44.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without creating a lead or transferring to a seller, failing to collect critical fields.",
+  "analysis": "Buyer wanted an open modified Willys Jeep Hunter with 4x4 drive system. Bot confirmed open body style and 4x4, but never asked for quantity, name, city, or state. It ended the call by promising to send seller details on WhatsApp, which is not a standard VANI flow (should be lead creation or live seller transfer). The call closed without collecting critical lead fields.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3597,
+    "completion_tokens": 1395
+  },
+  "unresolved_problems": []
+}

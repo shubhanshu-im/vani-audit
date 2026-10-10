@@ -1,0 +1,63 @@
+{
+  "call_id": "487_90685077_9B01K1UG5",
+  "file": "data/recordings/487_90685077_9B01K1UG5.mp3",
+  "duration_s": 56.02,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Azelaic Acid cream generic की requirement है ना?",
+      "start": 0.15,
+      "end": 5.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes Ma'am. बोलो जी इसका price कितना है?",
+      "start": 6.87,
+      "end": 11.87
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। Price आप seller से discuss कर सकते हैं। पहले quantity बता दीजिए कितने piece या pack चाहिए।",
+      "start": 13.53,
+      "end": 22.59
+    },
+    {
+      "role": "BUYER",
+      "text": "उसमें हमको one piece चाहिए। समझ गई। चलिए अब strength की बात कर लेते हैं। आपको 10% weight by weight चाहिए ना? Yes Ma'am.",
+      "start": 24.53,
+      "end": 35.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please। तो घर पर आएगा ना। मैं आपके घर नहीं आ सकती बस अपनी city और state बता दीजिए seller details भेज दूंगी।",
+      "start": 40.39,
+      "end": 53.11
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 5.3,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 35.09,
+        "end": 40.39,
+        "duration_s": 5.3,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

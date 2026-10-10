@@ -1,0 +1,50 @@
+{
+  "call_id": "365_90797565_ZBIRZXFH5",
+  "file": "data/recordings/365_90797565_ZBIRZXFH5.mp3",
+  "duration_s": 38.09,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको six seater golf cart की requirement है ना? जी आपको six seater golf cart की requirement थी ना? हाँ जी। क्षमा कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए क्या आपको six seater golf cart की requirement है? हाँ जी। क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया।",
+      "start": 0.17,
+      "end": 22.41
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप six seater golf cart के लिए inquiry कर रहे हैं?",
+      "start": 22.41,
+      "end": 25.65
+    },
+    {
+      "role": "BOT",
+      "text": "अभी। आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 26.27,
+      "end": 33.55
+    },
+    {
+      "role": "BUYER",
+      "text": "फिर",
+      "start": 35.41,
+      "end": 36.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.86,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

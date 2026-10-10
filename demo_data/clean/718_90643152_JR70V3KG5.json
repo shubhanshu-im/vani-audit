@@ -1,0 +1,74 @@
+{
+  "call_id": "718_90643152_JR70V3KG5",
+  "file": "data/recordings/718_90643152_JR70V3KG5.mp3",
+  "duration_s": 62.5,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Dadar ointment cream की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी। कितना detail confirm होगा? बस कुछ छोटी सी जानकारी लेनी है ताकि सही seller आपको best price दे सकें। क्या हम शुरू करें? चलिए अब brand के बारे में बात कर लेते हैं। आपको कौन सा चाहिए, Manmohan या कुछ और? चलिए अब brand के बारे में बात कर लेते हैं। आपको कौन सा चाहिए, Manmohan या कुछ और?",
+      "start": 0.01,
+      "end": 24.59
+    },
+    {
+      "role": "BUYER",
+      "text": "चलिए अब brand के बारे में बात। बात करने हमको सेना से बात करना है।",
+      "start": 15.23,
+      "end": 27.43
+    },
+    {
+      "role": "BOT",
+      "text": "जरूर but पहले बस एक दो details confirm कर लेते हैं ताकि seller आपकी requirements समझ सके।",
+      "start": 28.51,
+      "end": 33.59
+    },
+    {
+      "role": "BUYER",
+      "text": "वाइफमेंट चाहिए वाइफमेंट वाइफमेंट चाहिए वाइफमेंट।",
+      "start": 32.15,
+      "end": 35.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है ultimate note कर लिया है क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 36.91,
+      "end": 43.19
+    },
+    {
+      "role": "BUYER",
+      "text": "All details that नहीं हमको नहीं share करना है आप seller का मसला मत दे दीजिए अभी बात कराइए seller से।",
+      "start": 40.53,
+      "end": 51.13
+    },
+    {
+      "role": "BOT",
+      "text": "जी। देखिए मेरे पास seller का number नहीं होता है लेकिन मैं आपको best seller से connect करवा सकता हूं। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 49.01,
+      "end": 62.51
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन?",
+      "start": 62.21,
+      "end": 62.57
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.3,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

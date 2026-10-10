@@ -1,0 +1,46 @@
+{
+  "call_id": "127_90852832_Z4GEKXVH5",
+  "file": "data/recordings/127_90852832_Z4GEKXVH5.mp3",
+  "duration_s": 18.14,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.75
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे बना बनाया जो house आती है वो चाहिए था।",
+      "start": 3.79,
+      "end": 7.21
+    },
+    {
+      "role": "BOT",
+      "text": "समझने में थोड़ी दिक्कत हो रही है। क्या आप घर बनाने से जुड़ा कोई product या service ढूंढ रहे हैं? कृपया थोड़ा सा और details में बता सकते हैं?",
+      "start": 9.53,
+      "end": 16.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.32,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

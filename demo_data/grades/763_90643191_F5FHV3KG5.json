@@ -1,0 +1,290 @@
+{
+  "call_id": "763_90643191_F5FHV3KG5",
+  "duration_s": 64.22,
+  "graded_at": "2026-10-10T12:41:27+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "strawberry चाहिए या कुछ और?",
+      "timestamp": 24.63,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'GI' as 'strawberry' due to ASR error.",
+      "evidence_verified": true,
+      "llm_timestamp": 24.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 43.19,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send WhatsApp details, slightly deviating from prompt but not fatal.",
+      "evidence_verified": true,
+      "llm_timestamp": 43.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated product requirement and bot proceeded with collection."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not explicitly confirm the exact number, but asked for quantity and did not capture a wrong value."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit was not discussed or captured by the bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked once, within limits."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and buyer provided a range, so no missed opportunity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 (brand) was asked but not confirmed or captured accurately."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 (material) was asked but not confirmed or captured accurately."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for brand and material, so specs were not completely missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked product, quantity, and brand only once or twice, no harmful loops."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "strawberry चाहिए या कुछ और?",
+      "timestamp": 24.63,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'GI' as 'strawberry' due to ASR error.",
+      "evidence_verified": true,
+      "llm_timestamp": 24.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not state recording any additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer a live seller, only WhatsApp details."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed solar structure accessories."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "हाँ मैं ये कह रहा हूँ कहीं मेरे संग वो कोई forward तो नहीं हो जाएगा ना?",
+      "timestamp": 48.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air after buyer's question, bot responded immediately."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 43.19,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send WhatsApp details, slightly deviating from prompt but not fatal.",
+      "evidence_verified": true,
+      "llm_timestamp": 43.2
+    }
+  ],
+  "captured_lead": {
+    "product": "solar structure accessories",
+    "quantity": "200-300",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "brand",
+        "value": "GI"
+      },
+      {
+        "name": "material",
+        "value": "aluminum, stainless steel, GI, plastic"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Indore",
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot was cut off before finishing the sentence.",
+      "timestamp": 53.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot was cut off mid-sentence and failed to close the call properly.",
+  "analysis": "Buyer wants 200-300 pieces of solar structure accessories with GI brand for Indore door delivery. Bot asked quantity (2/3), then brand (1/2). Bot offered WhatsApp seller details and was cut off mid-sentence. Buyer was concerned about forwarding. Bot confirmed it's IndiaMART. Outcome is unclear as bot stopped speaking before closing.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.quantity = '200-300': number(s) ['200', '300'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3735,
+    "completion_tokens": 1261
+  },
+  "unresolved_problems": []
+}

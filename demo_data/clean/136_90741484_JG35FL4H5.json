@@ -1,0 +1,74 @@
+{
+  "call_id": "136_90741484_JG35FL4H5",
+  "file": "data/recordings/136_90741484_JG35FL4H5.mp3",
+  "duration_s": 105.62,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Vitsol कंसा wand bronze brush की handle body massager set की requirement है ना?",
+      "start": 0.15,
+      "end": 5.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 6.95,
+      "end": 7.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 9.81,
+      "end": 19.55
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 10.37,
+      "end": 10.87
+    },
+    {
+      "role": "BOT",
+      "text": "Hello. जी मैं सुन रही हूं। आपको कितने piece चाहिए होंगे? one one one. क्या आपको एक piece चाहिए? हाँ या नहीं मैं बता दीजिए।",
+      "start": 23.73,
+      "end": 36.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। समझ गए। चलिए अब product type के बारे में बताइए।",
+      "start": 36.99,
+      "end": 41.61
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। चाहिए आपको कौन सा चाहिए double side या single side double five बहुत बढ़िया। आप product type में double side या single side इनमें से क्या लेना पसंद करेंगे? चुनौती है। शायद आपको product type समझ नहीं आया। इसमें double side और single side जैसे options हैं। इनमें से क्या चाहिए? single side। ठीक है अब application के लिए बताइए face massage foot massage body massage या machine body massage ठीक है आप अपनी city और state भी बता दीजिए please। पाँच feet छः inch। आपने शायद city और state की जगह size बता दिया। कृपया अपनी city और state का नाम बता दीजिए। फरीदाबाद। आप फरीदाबाद हरियाणा से बोल रहे हैं ना? जी हां। बहुत बढ़िया आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं India Mart सुनने के लिए धन्यवाद आप Ballabhgarh के रहने वाले हैं Ballabhgarh",
+      "start": 39.51,
+      "end": 105.07
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद आप।",
+      "start": 100.71,
+      "end": 102.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 4.18,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

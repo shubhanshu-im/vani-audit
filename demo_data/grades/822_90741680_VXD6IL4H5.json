@@ -1,0 +1,255 @@
+{
+  "call_id": "822_90741680_VXD6IL4H5",
+  "duration_s": 100.73,
+  "graded_at": "2026-10-10T12:43:02+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "PASS",
+  "grade_reason": "no fatal issues",
+  "fatal_params": [],
+  "issues": [],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted product, bot proceeded."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not needed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity given."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "2 HP note कर लिया",
+      "timestamp": 36.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Correctly captured."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "समय automatic",
+      "timestamp": 44.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Correctly captured."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Two specs captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Within limits."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major errors."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "None recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No transfer needed."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No correction."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "10 HP coconut husk shredder and coir battery",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "motor power",
+        "value": "2 HP"
+      },
+      {
+        "name": "automation grade",
+        "value": "semi-automatic"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without collecting quantity or location.",
+      "timestamp": null,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wanted a 10 HP coconut husk shredder. Bot collected 2 HP and semi-automatic grade, but missed quantity and buyer details. Bot closed without a lead.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8759,
+    "completion_tokens": 5186
+  },
+  "unresolved_problems": []
+}

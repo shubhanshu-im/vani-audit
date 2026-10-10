@@ -1,0 +1,110 @@
+{
+  "call_id": "641_90741633_4LJMHL4H5",
+  "file": "data/recordings/641_90741633_4LJMHL4H5.mp3",
+  "duration_s": 112.61,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी iron rack manufacturer की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.33,
+      "end": 6.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Iron. अभी का rack का height है।",
+      "start": 1.61,
+      "end": 11.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं note कर लेता हूं। वैसे भाई आपको कितनी fees चाहिए होगी?",
+      "start": 12.73,
+      "end": 15.95
+    },
+    {
+      "role": "BUYER",
+      "text": "कर लेता हूं। अभी का track track का कितना पैसा देखिए क्या। देखिए price की जानकारी मेरे पास नहीं है लेकिन seller आपको best rates देंगे।",
+      "start": 13.39,
+      "end": 27.21
+    },
+    {
+      "role": "BOT",
+      "text": "बस आप अपनी quantity बता दीजिए ताकि मैं आपको सही seller से connect कर सकूं। आपको कितने piece चाहिए?",
+      "start": 27.21,
+      "end": 32.06
+    },
+    {
+      "role": "BUYER",
+      "text": "पांच विषय।",
+      "start": 33.93,
+      "end": 34.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है, 5 piece note कर लिए हैं। चलिए अब lot capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 500 kg glass shelf या कुछ और?",
+      "start": 36.05,
+      "end": 42.55
+    },
+    {
+      "role": "BUYER",
+      "text": "शैल की नहीं। मेरा मतलब है कि एक shelf पर कितना वज़न रखने की क्षमता होनी चाहिए जैसे 500 kilogram प्रति shelf या कुछ और। एक shelf पर कितने एसी साल का कितना कितना weight है?",
+      "start": 44.57,
+      "end": 57.65
+    },
+    {
+      "role": "BOT",
+      "text": "ये आप seller से discuss कर सकते हैं। आप बस ये बता दीजिए कि आपको कितनी load capacity चाहिए जैसे 500 kilogram या कुछ और।",
+      "start": 58.75,
+      "end": 64.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। hundred gram hundred gram କାଟିଛ?",
+      "start": 61.63,
+      "end": 70.57
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ गया। आपकी load capacity note कर ली है। अब बताइए कि आपको rack की height कितनी चाहिए जैसे छह feet या सात feet या कुछ और।",
+      "start": 71.53,
+      "end": 78.19
+    },
+    {
+      "role": "BUYER",
+      "text": "आपके। ठीक है। आपकी lot capacity 100 kilogram note कर ली है। अब बस ये बता दीजिए कि आपको rack की height कितनी चाहिए जैसे 6 feet या 7 feet या कुछ और। आपकी lot capacity. అది ఇప్పుడు మేడం ఆ అక్కడ ఎనిమిది అడుగులు ఎనిమిది అడుగులు eight eight feet.",
+      "start": 71.95,
+      "end": 101.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गया आपकी details note कर ली गई है और जल्द ही एक seller आपसे contact करेंगे India Mart चुनने के लिए धन्यवाद आपका दिन शुभ हो।",
+      "start": 102.47,
+      "end": 110.03
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी। कर ली गई है और Okay.",
+      "start": 103.55,
+      "end": 110.65
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.06,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

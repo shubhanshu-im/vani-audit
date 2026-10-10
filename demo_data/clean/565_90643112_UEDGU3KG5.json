@@ -1,0 +1,104 @@
+{
+  "call_id": "565_90643112_UEDGU3KG5",
+  "file": "data/recordings/565_90643112_UEDGU3KG5.mp3",
+  "duration_s": 62.42,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको Happy Summer Laila Hair Ties की requirement है ना?",
+      "start": 0.47,
+      "end": 4.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 7.05,
+      "end": 7.81
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 9.09,
+      "end": 14.95
+    },
+    {
+      "role": "BUYER",
+      "text": "को call कर रहे थे। मुझे लगभग तीस ही।",
+      "start": 9.85,
+      "end": 19.29
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए कि आपको कितनी quantity चाहिए?",
+      "start": 20.39,
+      "end": 25.11
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी नहीं सर तुम्हारा। दो दो सौ केजी चाहिए।",
+      "start": 21.05,
+      "end": 27.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब material के बारे में बात कर लेते हैं। आपको nylon चाहिए या कुछ और?",
+      "start": 29.15,
+      "end": 33.53
+    },
+    {
+      "role": "BUYER",
+      "text": "मालूम चाहिए।",
+      "start": 35.53,
+      "end": 36.87
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए product type में क्या prefer करेंगे raw material, round या कोई और?",
+      "start": 37.89,
+      "end": 42.83
+    },
+    {
+      "role": "BUYER",
+      "text": "raw material. नहीं नहीं।",
+      "start": 40.81,
+      "end": 47.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है, मैं समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 48.53,
+      "end": 54.53
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। ठीक है ठीक है। ठीक है thank you।",
+      "start": 54.11,
+      "end": 59.13
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद।",
+      "start": 60.27,
+      "end": 62.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

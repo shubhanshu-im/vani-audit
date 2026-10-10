@@ -112,7 +112,8 @@ _incoming/                git-ignored clones of teammates' repos (reference only
 .venv/bin/streamlit run pipeline/dashboard.py
 # single steps: transcribe_all, normalise, signals (--force), grade (--files/--limit/--force/--workers),
 # agreement, root_causes, rank, prompt_fix (--top/--cause), test_fix ([C1] --max-target --n-reg --turns --combined),
-# voice, summary; helpers: make_label_set, convert_prompt, audit_sample, export_cowork
+# voice, summary; helpers: make_label_set, convert_prompt, audit_sample, export_cowork,
+# export_demo_data (masked copy of the dashboard's inputs in demo_data/, used when outputs/grades/ is empty)
 ```
 
 **`data/labels/human_labels.csv`** (UTF-8 with BOM, so read it with `encoding="utf-8-sig"`). Columns:

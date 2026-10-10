@@ -1,0 +1,33 @@
+{
+  "call_id": "181_90741492_M93DFL4H5",
+  "file": "data/recordings/181_90741492_M93DFL4H5.mp3",
+  "duration_s": 4.25,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको hydrated lime powder की requirement है ना?",
+      "start": 0.31,
+      "end": 3.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

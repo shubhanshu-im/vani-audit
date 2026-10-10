@@ -1,0 +1,268 @@
+{
+  "call_id": "478_90685066_GPSRJ1UG5",
+  "duration_s": 60.98,
+  "graded_at": "2026-10-10T12:33:46+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "PASS",
+  "grade_reason": "no fatal issues",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BUYER: hit करे।",
+      "timestamp": 43.8,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer utterance unclear, bot didn't clarify",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated product need, bot proceeded"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 30, bot captured 30"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 30 pads captured correctly"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity immediately"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 30 was captured"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Packaging size not answered"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "BUYER: Sample only.",
+      "timestamp": 51.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clearly said sample only"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important spec missed"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BUYER: hit करे।",
+      "timestamp": 43.8,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer utterance unclear, bot didn't clarify",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change occurred"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "BOT: ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "timestamp": 54.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Call ended abruptly, no dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No issues in language or pronunciation"
+    }
+  ],
+  "captured_lead": {
+    "product": "reusable menstrual cloth sanitary pad",
+    "quantity": "30",
+    "quantity_unit": "pads",
+    "specs": [
+      {
+        "name": "type of requirement",
+        "value": "Sample only"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer said hit kare unclear, bot didn't clarify",
+      "timestamp": 43.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wants reusable menstrual cloth sanitary pads. Buyer said 2 free panty and 30 sanitary pads. Bot asked for packaging size and type of requirement, then city and state. Call ended abruptly.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 13270,
+    "completion_tokens": 3482
+  },
+  "unresolved_problems": [
+    "WER: evidence_quote not found verbatim in any transcript line: 'BUYER: hit करे।'"
+  ]
+}

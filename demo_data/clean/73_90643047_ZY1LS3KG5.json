@@ -1,0 +1,80 @@
+{
+  "call_id": "73_90643047_ZY1LS3KG5",
+  "file": "data/recordings/73_90643047_ZY1LS3KG5.mp3",
+  "duration_s": 22.75,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME]. आपको 300 GSM double cotton bed comforter की requirement है ना?",
+      "start": 0.39,
+      "end": 5.31
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.49,
+      "end": 1.03
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ जी। ठीक है मैं Tania बोल रही हूं IndiaMART से।",
+      "start": 5.99,
+      "end": 10.68
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारे पास कई...",
+      "start": 10.68,
+      "end": 11.53
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा।",
+      "start": 11.53,
+      "end": 11.85
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 11.55,
+      "end": 11.79
+    },
+    {
+      "role": "BOT",
+      "text": "tailors available हैं जिनसे अभी connect करवाऊंगी बस कुछ details confirm कर दीजिए आपको कितने piece या set चाहिए होंगे?",
+      "start": 11.85,
+      "end": 18.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Instant delivery हो जाएगी।",
+      "start": 15.23,
+      "end": 20.11
+    },
+    {
+      "role": "BOT",
+      "text": "delivery हो जाएगी नहीं होगी? अरे फर्जी है India Mart का।",
+      "start": 19.57,
+      "end": 22.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.72,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

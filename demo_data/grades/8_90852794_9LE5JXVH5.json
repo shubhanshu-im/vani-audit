@@ -1,0 +1,263 @@
+{
+  "call_id": "8_90852794_9LE5JXVH5",
+  "duration_s": 24.26,
+  "graded_at": "2026-10-10T12:45:05+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Dead air",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello आपको online CRM software की requirement है ना? आप अभी line पर हैं क्या? अगर आपको online CRM software चाहिए तो बता दीजिए।",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot-side silence or abrupt end before buyer could respond.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer intent was product inquiry; call ended before lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not needed or discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity stated by buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs provided."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Call ended before any looping."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No ASR errors observed."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No details collected."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never in question."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello आपको online CRM software की requirement है ना? आप अभी line पर हैं क्या? अगर आपको online CRM software चाहिए तो बता दीजिए।",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot-side silence or abrupt end before buyer could respond.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "not returned by the grader"
+    }
+  ],
+  "captured_lead": {
+    "product": null,
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Call ended abruptly after bot's opening question.",
+      "timestamp": null,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Call ended abruptly after the bot's opening question without collecting any buyer details.",
+  "analysis": "Buyer called to inquire about online CRM software. The bot asked if the buyer had a requirement and if they were on the line. The call abruptly ended after the bot's first turn with no buyer response recorded.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3305,
+    "completion_tokens": 1077
+  },
+  "unresolved_problems": []
+}

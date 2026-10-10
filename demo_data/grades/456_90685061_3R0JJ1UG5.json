@@ -1,0 +1,302 @@
+{
+  "call_id": "456_90685061_3R0JJ1UG5",
+  "duration_s": 153.43,
+  "graded_at": "2026-10-10T12:33:10+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Buyer clearly stated 7 sets but bot completely ignored this in the lead.",
+  "fatal_params": [
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "side भी है तो की सात set।",
+      "timestamp": 35.99,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 7 sets but bot completely ignored this in the lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब कृपया अपनी city और state बता दीजिए।",
+      "timestamp": 100.15,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for city/state twice, but buyer provided state on the second prompt.",
+      "evidence_verified": true,
+      "llm_timestamp": 100.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपकी details इसी हिसाब से भेजी जाएंगी। अब कृपया अपनी city और state बता दीजिए।",
+      "timestamp": 100.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded to lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not provide a clear numeric quantity; dimensions and sets were given."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was captured or discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity as per standard flow."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "side भी है तो की सात set।",
+      "timestamp": 35.99,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 7 sets but bot completely ignored this in the lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.0
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ठीक है आपने एक सौ पचास ग्राम प्रति वर्ग मीटर और लगभग दो सौ ग्राम प्रति वर्ग मीटर दोनों बताए हैं",
+      "timestamp": 84.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured GSM specs (150 and 200) read back to buyer."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "समझ गए। शुक्रिया आपने height सात feet बताई है।",
+      "timestamp": 42.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured dimensions (100ft x 40ft x 7ft) and sets in conversation."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Dimensions were discussed, even if not perfectly structured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब कृपया अपनी city और state बता दीजिए।",
+      "timestamp": 100.15,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for city/state twice, but buyer provided state on the second prompt.",
+      "evidence_verified": true,
+      "llm_timestamp": 100.2
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions that affected the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was correctly identified as poultry farm curtain."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot handled price inquiry correctly by deferring to seller."
+    }
+  ],
+  "captured_lead": {
+    "product": "poultry farm curtain",
+    "quantity": "7",
+    "quantity_unit": "set",
+    "specs": [
+      {
+        "name": "weight",
+        "value": "150 GSM and approx 200 GSM"
+      },
+      {
+        "name": "length",
+        "value": "100 feet"
+      },
+      {
+        "name": "width",
+        "value": "40 feet"
+      },
+      {
+        "name": "height",
+        "value": "7 feet"
+      }
+    ],
+    "name": "[NAME]",
+    "city": null,
+    "state": "UP"
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer specified 7 sets, bot ignored it in the lead.",
+      "timestamp": 36.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot ignored buyer's quantity of 7 sets in the lead. Buyer's dimensions and GSM specs were correctly captured.",
+  "analysis": "Buyer wanted poultry farm shed curtains. Bot correctly identified the product. Buyer gave dimensions (100 ft x 40 ft) and sets (7), but bot captured quantity as 7 sets and ignored dimensions in the lead. Buyer also mentioned GSM (150 and ~200), which bot captured. Buyer asked for price, bot correctly deferred. Bot asked for city/state repeatedly, buyer gave state UP and district Adigan, bot confirmed Aligarh, UP. Call ended with a lead created via WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[weight] = '150 GSM and approx 200 GSM': number(s) ['150'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)",
+    "captured_lead.specs[length] = '100 feet': number(s) ['100'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)",
+    "captured_lead.specs[width] = '40 feet': number(s) ['40'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4146,
+    "completion_tokens": 1800
+  },
+  "unresolved_problems": []
+}

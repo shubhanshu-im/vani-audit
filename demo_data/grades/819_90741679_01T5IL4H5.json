@@ -1,0 +1,286 @@
+{
+  "call_id": "819_90741679_01T5IL4H5",
+  "duration_s": 85.61,
+  "graded_at": "2026-10-10T12:42:54+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Buyer stated a style, bot ignored it and closed",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अब तो आप समझ लीजिए।",
+      "timestamp": 62.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated a style, bot ignored it and closed",
+      "evidence_verified": true,
+      "llm_timestamp": 62.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब height के बारे में बात कर लेते हैं।",
+      "timestamp": 36.25,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated spec question once",
+      "evidence_verified": true,
+      "llm_timestamp": 36.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed in the transcript"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed in the transcript"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity, buyer provided 1 piece"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 1 piece was captured by bot"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No height spec was read back or confirmed"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No style spec was read back or confirmed"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अब तो आप समझ लीजिए।",
+      "timestamp": 62.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated a style, bot ignored it and closed",
+      "evidence_verified": true,
+      "llm_timestamp": 62.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब height के बारे में बात कर लेते हैं।",
+      "timestamp": 36.25,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated spec question once",
+      "evidence_verified": true,
+      "llm_timestamp": 36.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognition shown in transcript"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was not changed or corrected"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major compliance breach or mispronunciation"
+    }
+  ],
+  "captured_lead": {
+    "product": "marble काली माता statue",
+    "quantity": "1 piece",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "height",
+        "value": "5 feet"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without capturing buyer's style preference",
+      "timestamp": 62.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture the buyer's style preference and closed the call. Also buyer's quantity '1 piece' was not confirmed.",
+  "analysis": "Buyer wanted a 5 feet Shankar ji marble idol, quantity 1 piece. Bot asked for quantity, height, and style. Bot captured product, quantity 1 piece, height 5 feet, but failed to capture the style. Bot closed with seller contact. Buyer said 'Sir' at the end.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3806,
+    "completion_tokens": 1133
+  },
+  "unresolved_problems": []
+}

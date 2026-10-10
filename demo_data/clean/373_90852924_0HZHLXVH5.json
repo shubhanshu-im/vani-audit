@@ -1,0 +1,134 @@
+{
+  "call_id": "373_90852924_0HZHLXVH5",
+  "file": "data/recordings/373_90852924_0HZHLXVH5.mp3",
+  "duration_s": 72.86,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको double sided cloth tape की requirement है ना?",
+      "start": 0.15,
+      "end": 3.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 5.95,
+      "end": 6.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece की जरूरत है?",
+      "start": 7.51,
+      "end": 17.63
+    },
+    {
+      "role": "BUYER",
+      "text": "जी दो piece।",
+      "start": 21.05,
+      "end": 22.13
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मैं समझ नहीं पाई आपको कितनी quantity चाहिए please एक बार फिर से बता दीजिए।",
+      "start": 22.97,
+      "end": 27.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Two. जी दो तीन piece चाहिए।",
+      "start": 29.19,
+      "end": 35.47
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको दो piece चाहिए?",
+      "start": 36.39,
+      "end": 37.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 38.17,
+      "end": 38.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं आपको question hardness medium ही चाहिए ना?",
+      "start": 40.07,
+      "end": 43.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 44.01,
+      "end": 44.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "start": 45.87,
+      "end": 48.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जे नूह निवास।",
+      "start": 51.45,
+      "end": 53.37
+    },
+    {
+      "role": "BOT",
+      "text": "आप नू हरियाणा से बोल रहे हैं ना?",
+      "start": 54.25,
+      "end": 56.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 56.41,
+      "end": 57.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप [NAME] जी बोल रहे हैं ना?",
+      "start": 58.09,
+      "end": 60.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 61.11,
+      "end": 61.79
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 62.63,
+      "end": 70.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 72.27,
+      "end": 72.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.8,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

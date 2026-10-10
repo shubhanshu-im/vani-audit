@@ -1,0 +1,272 @@
+{
+  "call_id": "88_90852826_AZX8KXVH5",
+  "duration_s": 175.46,
+  "graded_at": "2026-10-10T12:44:49+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "PASS",
+  "grade_reason": "no fatal issues",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "[00:00.0 t=0.0] BOT: तो आपको jumping slide bouncy की requirement है ना?",
+      "timestamp": 0.0,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Short silence after buyer confirmation, but call continued normally.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's requirement was clearly captured and a lead was created."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 2 pieces correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'piece' was captured correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and captured it correctly."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was missed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ठीक है walking type चाहिए",
+      "timestamp": 124.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured walking type correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ठीक है? आपने Mickey Mouse doll बताया है",
+      "timestamp": 42.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured Mickey Mouse theme correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important specs were missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop or repeat questions excessively."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant ASR errors that affected the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer a live seller, but closed with a standard lead-creation closing."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot adapted to the buyer's product change from bouncy slide to Mickey Mouse doll."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category-specific questions not visible in the transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system search errors evident in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "[00:00.0 t=0.0] BOT: तो आपको jumping slide bouncy की requirement है ना?",
+      "timestamp": 0.0,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Short silence after buyer confirmation, but call continued normally.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major compliance breaches or mispronunciations that derailed the call."
+    }
+  ],
+  "captured_lead": {
+    "product": "Mickey Mouse theme inflatable mascot dress",
+    "quantity": "2",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "type",
+        "value": "walking"
+      },
+      {
+        "name": "character_theme",
+        "value": "Mickey Mouse"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer used mixed Hindi/English, causing initial confusion.",
+      "timestamp": 28.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wanted a Mickey Mouse themed inflatable mascot dress/suit for events. Bot initially misunderstood as a doll, then clarified to a costume/mascot. Buyer requested 2 pieces, walking type, from Hyderabad, Telangana, named [NAME]. Bot confirmed walking, theme, and location, then promised to send seller details on WhatsApp and ended the call.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 16350,
+    "completion_tokens": 4554
+  },
+  "unresolved_problems": [
+    "Dead air: evidence_quote not found verbatim in any transcript line: '[00:00.0 t=0.0] BOT: तो आपको jumping slide bouncy की requirement है ना?'"
+  ]
+}

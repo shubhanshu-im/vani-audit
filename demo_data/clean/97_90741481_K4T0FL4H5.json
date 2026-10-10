@@ -1,0 +1,75 @@
+{
+  "call_id": "97_90741481_K4T0FL4H5",
+  "file": "data/recordings/97_90741481_K4T0FL4H5.mp3",
+  "duration_s": 55.73,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको White Resort Tent की requirement है ना?",
+      "start": 0.15,
+      "end": 3.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 12.57,
+      "end": 13.13
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपकी मदद के लिए यहां हूं। आपको White Resort tent चाहिए था ना? आप अभी भी call पे हैं क्या? अगर चाहिए तो बस बता दीजिए। क्या आप बातचीत जारी रखना चाहते हैं? अगर हां तो please बता दीजिए।",
+      "start": 14.99,
+      "end": 45.41
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। Sorry आपकी।",
+      "start": 51.93,
+      "end": 55.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 10.12,
+    "gaps_over_5s": 4,
+    "long_gaps": [
+      {
+        "start": 3.55,
+        "end": 12.57,
+        "duration_s": 9.02,
+        "after_role": "BOT"
+      },
+      {
+        "start": 18.81,
+        "end": 28.93,
+        "duration_s": 10.12,
+        "after_role": "BOT"
+      },
+      {
+        "start": 32.03,
+        "end": 41.77,
+        "duration_s": 9.74,
+        "after_role": "BOT"
+      },
+      {
+        "start": 45.41,
+        "end": 51.93,
+        "duration_s": 6.52,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

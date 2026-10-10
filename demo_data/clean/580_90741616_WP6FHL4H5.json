@@ -1,0 +1,80 @@
+{
+  "call_id": "580_90741616_WP6FHL4H5",
+  "file": "data/recordings/580_90741616_WP6FHL4H5.mp3",
+  "duration_s": 61.34,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी cotton party wear कुर्ता for men की request IndiaMART पर raise है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.49
+    },
+    {
+      "role": "BUYER",
+      "text": "जी बोलिए।",
+      "start": 8.47,
+      "end": 9.31
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब color के बारे में बात कर लेते हैं आपको कौन सा चाहिए जैसे white maroon या कुछ और।",
+      "start": 11.01,
+      "end": 15.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म जो color मैंने photo भेजा है वही color चाहिए।",
+      "start": 17.35,
+      "end": 20.29
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकता हूँ आप photo वाला color ही चाहते हैं। आप ये details सीधे seller के साथ share कर सकते हैं। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 21.67,
+      "end": 31.03
+    },
+    {
+      "role": "BUYER",
+      "text": "ये product का price कितना है?",
+      "start": 33.63,
+      "end": 36.21
+    },
+    {
+      "role": "BOT",
+      "text": "price के लिए आप सीधे seller से बात कर सकते हैं। वो आपको best deal दे देंगे। क्या आप इस product के बारे में कोई और details share करना चाहेंगे?",
+      "start": 37.47,
+      "end": 43.91
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं seller से कैसे बात कर सकता हूँ?",
+      "start": 48.61,
+      "end": 50.31
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 51.25,
+      "end": 57.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 4.7,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

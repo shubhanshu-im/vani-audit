@@ -1,0 +1,310 @@
+{
+  "call_id": "533_90685080_48L1K1UG5",
+  "duration_s": 87.7,
+  "graded_at": "2026-10-10T12:35:13+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec1 Accuracy, Spec Missed Opportunity, WER",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको पतला normal basmati चाहिए।",
+      "timestamp": 54.05,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'normal thin rice' as 'normal basmati' and missed 'not broken'",
+      "evidence_verified": true,
+      "llm_timestamp": 54.0
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "हाँ broken नहीं होना चाहिए लेकिन।",
+      "timestamp": 42.81,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot ignored buyer's requirement of not broken rice",
+      "evidence_verified": true,
+      "llm_timestamp": 42.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको पतला normal basmati चाहिए।",
+      "timestamp": 54.05,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Misheard 'normal thin rice' as 'normal basmati' but still captured 'normal'",
+      "evidence_verified": true,
+      "llm_timestamp": 54.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had clear requirement and bot created a lead"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed 2 quintal correctly"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit quintal captured correctly"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer provided quantity without prompting"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको पतला normal basmati चाहिए।",
+      "timestamp": 54.05,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'normal thin rice' as 'normal basmati' and missed 'not broken'",
+      "evidence_verified": true,
+      "llm_timestamp": 54.0
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 was sortex/non-sortex and was captured"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "हाँ broken नहीं होना चाहिए लेकिन।",
+      "timestamp": 42.81,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot ignored buyer's requirement of not broken rice",
+      "evidence_verified": true,
+      "llm_timestamp": 42.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको पतला normal basmati चाहिए।",
+      "timestamp": 54.05,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Misheard 'normal thin rice' as 'normal basmati' but still captured 'normal'",
+      "evidence_verified": true,
+      "llm_timestamp": 54.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was rice and not changed"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breach or price promise"
+    }
+  ],
+  "captured_lead": {
+    "product": "rice",
+    "quantity": "2",
+    "quantity_unit": "quintal",
+    "specs": [
+      {
+        "name": "type",
+        "value": "normal"
+      },
+      {
+        "name": "sortex",
+        "value": "non"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot misheard normal thin rice as normal basmati",
+      "timestamp": 54.0,
+      "source": "llm"
+    },
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot missed buyer's requirement of not broken rice",
+      "timestamp": 42.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard 'normal thin rice' as 'normal basmati' and missed 'not broken'. Lead has incorrect specs.",
+  "analysis": "Buyer called for 2 quintal normal thin rice, not basmati and not broken. Bot captured 2 quintal and normal rice, but misheard 'non-sortex' as 'non' and missed 'not broken' and 'not basmati'. Bot closed with WhatsApp lead.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3714,
+    "completion_tokens": 1524
+  },
+  "unresolved_problems": []
+}

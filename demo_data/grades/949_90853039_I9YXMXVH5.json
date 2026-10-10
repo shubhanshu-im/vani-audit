@@ -1,0 +1,320 @@
+{
+  "call_id": "949_90853039_I9YXMXVH5",
+  "duration_s": 78.77,
+  "graded_at": "2026-10-10T12:46:34+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Bot skipped recording size/spec and closed without creating a BL or live transfer.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot skipped recording size/spec and closed without creating a BL or live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको नारियल जो आमतौर पे आपको नारियल जो आमतौर पे आगे बेचने",
+      "timestamp": 30.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated 'aapko nariyal' due to ASR/re-transcription echo.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp instead of live seller transfer or BL creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed by offering WhatsApp instead of BL or live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a product requirement and bot closed appropriately."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 300 but unit/context unclear; bot did not read it back."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was captured or confirmed by the bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for quantity."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 300 but bot did not capture or read back quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for size but buyer said 'game'; bot did not capture it."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for a second spec."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot skipped recording size/spec and closed without creating a BL or live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked product twice, then size once. No looping."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको नारियल जो आमतौर पे आपको नारियल जो आमतौर पे आगे बेचने",
+      "timestamp": 30.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated 'aapko nariyal' due to ASR/re-transcription echo.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp instead of live seller transfer or BL creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.6
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly identified coconut."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "not returned by the grader"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed by offering WhatsApp instead of BL or live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.6
+    }
+  ],
+  "captured_lead": {
+    "product": "नारियल",
+    "quantity": "300",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "purpose",
+        "value": "पूजा"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer's 'game' for size was ignored by bot.",
+      "timestamp": 66.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed call without creating a lead or live transfer after buyer stated a size preference. Buyer's quantity '300' was not captured.",
+  "analysis": "Buyer wants coconut for selling/wholesale and puja. Bot confirmed 'nariyal' for puja. Buyer gave quantity '300' (likely 300 pieces or ₹300). Bot asked about size, buyer said 'game' (likely 'genda' or a type), bot did not capture this spec and closed. Bot offered to send seller details on WhatsApp, ending the call without creating a live transfer or a proper BL.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '300': number(s) ['300'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3740,
+    "completion_tokens": 1397
+  },
+  "unresolved_problems": []
+}

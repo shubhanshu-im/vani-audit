@@ -1,0 +1,134 @@
+{
+  "call_id": "199_90797308_266NVXFH5",
+  "file": "data/recordings/199_90797308_266NVXFH5.mp3",
+  "duration_s": 97.63,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको water bottle filling machine की requirement है ना? ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं आपको connect कराऊंगी। बस कुछ details confirm कर दीजिए। Automation grade में आपको क्या चाहिए automatic, semi-automatic या manual?",
+      "start": 0.17,
+      "end": 20.57
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा okay.",
+      "start": 22.55,
+      "end": 23.43
+    },
+    {
+      "role": "BOT",
+      "text": "मेरा नाम Tanya है। मैं IndiaMART से बात कर रही हूं। Automation grade में क्या चाहिए? Automatic, semi-automatic या manual?",
+      "start": 26.65,
+      "end": 33.21
+    },
+    {
+      "role": "BUYER",
+      "text": "manual manual.",
+      "start": 33.07,
+      "end": 34.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? manual select कर रही हूं। अब बताइए production capacity में आपको कौन सी चाहिए? 40 BPM या 60 BPM?",
+      "start": 36.15,
+      "end": 42.61
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन अच्छा होगा?",
+      "start": 45.01,
+      "end": 46.23
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आपको कम production चाहिए तो 40 BPM अच्छा रहेगा। ज्यादा चाहिए तो 60 BPM चुन सकते हैं। आपको कौन सी चाहिए?",
+      "start": 48.19,
+      "end": 54.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म। ਥੋੜ੍ਹਾ ਜਿਹਾ ਕਰ ਦਿਓ ਜੀ ਬਹੁਤ ਹੀ ਕਰ ਦਿਓ ਜੀ।",
+      "start": 54.11,
+      "end": 58.15
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। 60 BPM select कर लिया। अब आपकी city और state बता दीजिए please।",
+      "start": 60.03,
+      "end": 64.39
+    },
+    {
+      "role": "BUYER",
+      "text": "बिहार।",
+      "start": 65.31,
+      "end": 66.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपनी city का नाम भी बता दीजिए। Bihar state तो हो गया।",
+      "start": 69.87,
+      "end": 73.59
+    },
+    {
+      "role": "BUYER",
+      "text": "मेधाली जिला।",
+      "start": 73.87,
+      "end": 75.11
+    },
+    {
+      "role": "BOT",
+      "text": "आप वैशाली बिहार से बोल रहे हैं ना?",
+      "start": 77.07,
+      "end": 79.01
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 79.35,
+      "end": 80.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप [NAME] जी बोल रहे हैं ना?",
+      "start": 82.01,
+      "end": 84.09
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 84.67,
+      "end": 85.45
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 87.63,
+      "end": 95.23
+    },
+    {
+      "role": "BUYER",
+      "text": "सुनने के। कितना दिन आएगा वो सब?",
+      "start": 92.95,
+      "end": 97.05
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.7,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

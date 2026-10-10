@@ -1,0 +1,34 @@
+{
+  "call_id": "583_90853006_6YVKMXVH5",
+  "file": "data/recordings/583_90853006_6YVKMXVH5.mp3",
+  "duration_s": 1.3,
+  "language_code": "en-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Kamaleshwar.",
+      "start": 0.33,
+      "end": 1.35
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker",
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "call_id": "94_90741475_Z8MKEL4H5",
+  "file": "data/recordings/94_90741475_Z8MKEL4H5.mp3",
+  "duration_s": 50.76,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "हो।",
+      "start": 0.01,
+      "end": 0.43
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको belt grinding machine की requirement है ना? हाँ जी Ma'am। ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए आपको कितने horsepower चाहिए?",
+      "start": 0.37,
+      "end": 19.19
+    },
+    {
+      "role": "BUYER",
+      "text": "जैसे three HP two HP या कुछ और। तो तू आज की आशावत थी। समझ गई? 2 horse power के करीब चाहिए। अब बताइए machine configuration में क्या पसंद करेंगे? double side, single side या conveyor?",
+      "start": 19.19,
+      "end": 35.27
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 30.81,
+      "end": 31.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ बोल साहेब।",
+      "start": 36.61,
+      "end": 37.39
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 39.49,
+      "end": 47.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.3,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

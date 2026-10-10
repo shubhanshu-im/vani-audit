@@ -1,0 +1,92 @@
+{
+  "call_id": "938_90685211_IETYL1UG5",
+  "file": "data/recordings/938_90685211_IETYL1UG5.mp3",
+  "duration_s": 49.03,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको chemical drum transportation service की requirement है ना?",
+      "start": 0.01,
+      "end": 4.51
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं मेरे को Kolhapur में जो है ना Ballavi Transport उससे बात कर रहा हूँ।",
+      "start": 4.93,
+      "end": 11.39
+    },
+    {
+      "role": "BOT",
+      "text": "मेरे पास उनके number नहीं है लेकिन मैं दूसरे अच्छे seller से connect करने में मदद करूंगी। पहले आप details confirm कर दीजिए please।",
+      "start": 12.55,
+      "end": 19.05
+    },
+    {
+      "role": "BUYER",
+      "text": "क्षमा कीजिए आपकी आवाज़।",
+      "start": 21.21,
+      "end": 23.07
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज।",
+      "start": 21.23,
+      "end": 22.91
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं समझ सकती हूं पर मेरे पास उनका number नहीं है। मैं आपको दूसरे अच्छे sellers से connect करा दूंगी।",
+      "start": 24.05,
+      "end": 29.56
+    },
+    {
+      "role": "BOT",
+      "text": "बस details confirm कर दीजिए।",
+      "start": 29.56,
+      "end": 31.11
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे पास। हम्म। ठीक है मेरे को clear बताओ Balaji Transport Kolhapur में है ना?",
+      "start": 25.07,
+      "end": 36.79
+    },
+    {
+      "role": "BOT",
+      "text": "जी वो Kolhapur में ही है पर अभी available नहीं है। मैं आपको दूसरे अच्छे seller से connect करा दूंगी बस details confirm कर दीजिए।",
+      "start": 37.99,
+      "end": 45.31
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं बोलिए।",
+      "start": 46.47,
+      "end": 47.73
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं।",
+      "start": 48.51,
+      "end": 49.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.16,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

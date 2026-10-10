@@ -1,0 +1,322 @@
+{
+  "call_id": "183_90741495_70YEFL4H5",
+  "duration_s": 83.16,
+  "graded_at": "2026-10-10T12:26:21+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, WER, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "वो बारीक सुपारी जो है ना बारीक cut करने का है बारीक।",
+      "timestamp": 11.95,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer specified fine cut but bot only captured generic 'small pieces'.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "काम सुना।",
+      "timestamp": 56.51,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer's speech was likely misheard as 'kaam suna'.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.5
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए।",
+      "timestamp": 11.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to connect sellers but closed without doing so.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.7
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माझं नाव आहे राजेश लिंबाजी समोणजी।",
+      "timestamp": 68.35,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot switched language to Marathi without confirming preference.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared product need and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed by buyer."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed by buyer."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not required for this product type."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed by buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपकी बात सुन समझ गई आपको छोटे-छोटे टुकड़ों में cutting चाहिए। अब capacity के बारे में बता दीजिए। बीस किलो प्रति घंटा, पच्चीस किलो प्रति घंटा या कुछ और?",
+      "timestamp": 31.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured fine cutting requirement and offered capacity options."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Second spec was not asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "वो बारीक सुपारी जो है ना बारीक cut करने का है बारीक।",
+      "timestamp": 11.95,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer specified fine cut but bot only captured generic 'small pieces'.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not repeat questions excessively."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "काम सुना।",
+      "timestamp": 56.51,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer's speech was likely misheard as 'kaam suna'.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.5
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were explicitly recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए।",
+      "timestamp": 11.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to connect sellers but closed without doing so.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.7
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed small betel nut cutting machine and bot proceeded."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data is not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available to verify."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माझं नाव आहे राजेश लिंबाजी समोणजी।",
+      "timestamp": 68.35,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot switched language to Marathi without confirming preference.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.3
+    }
+  ],
+  "captured_lead": {
+    "product": "small size सुपारी cutting machine",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "cutting type",
+        "value": "fine cut"
+      },
+      {
+        "name": "capacity",
+        "value": "10-15 kg per hour"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer spoke in Marathi, bot switched language without confirming preference.",
+      "timestamp": 61.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without transferring to a live seller or creating a lead, instead promising WhatsApp details.",
+  "analysis": "Buyer from Pune, Maharashtra wanted a small betel nut cutting machine for fine cuts, capacity 10-15 kg/hr, named [NAME] [NAME] [NAME]. Bot captured product, capacity, city, state, and name, but missed quantity (pieces/units) and exact cutting type (diamond/chips). Bot closed by promising to send seller details on WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[capacity] = '10-15 kg per hour': number(s) ['10', '15'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8774,
+    "completion_tokens": 2480
+  },
+  "unresolved_problems": []
+}

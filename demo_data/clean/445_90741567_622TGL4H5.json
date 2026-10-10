@@ -1,0 +1,80 @@
+{
+  "call_id": "445_90741567_622TGL4H5",
+  "file": "data/recordings/445_90741567_622TGL4H5.mp3",
+  "duration_s": 51.55,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Derma KT skin cream 60 gm की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.21,
+      "end": 6.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। बोलिए।",
+      "start": 9.01,
+      "end": 11.69
+    },
+    {
+      "role": "BOT",
+      "text": "कितनी tube या piece चाहिए होगी आपको?",
+      "start": 13.17,
+      "end": 15.01
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे सात ग्राम चाहिए।",
+      "start": 17.09,
+      "end": 19.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है पर क्या आप बता सकते हैं कि आपको कितनी tube या piece चाहिए?",
+      "start": 20.51,
+      "end": 23.29
+    },
+    {
+      "role": "BUYER",
+      "text": "दो या तीन तीन।",
+      "start": 26.11,
+      "end": 27.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तीन piece note कर लिया है। चलिए अब इस बात पर बात कर लेते हैं कि आपको यह medicine किस लिए चाहिए जैसे personal use के लिए या कुछ और।",
+      "start": 28.77,
+      "end": 35.63
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं ये दाद खाज खुजली के लिए।",
+      "start": 37.73,
+      "end": 40.45
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गया खुजली के लिए चाहिए। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 41.73,
+      "end": 49.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.82,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

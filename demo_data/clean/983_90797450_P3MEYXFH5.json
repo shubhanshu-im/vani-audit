@@ -1,0 +1,147 @@
+{
+  "call_id": "983_90797450_P3MEYXFH5",
+  "file": "data/recordings/983_90797450_P3MEYXFH5.mp3",
+  "duration_s": 89.93,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "आपको manual cement concrete mixer machine की requirement है ना?",
+      "start": 0.01,
+      "end": 4.13
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 4.65,
+      "end": 5.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब mixing capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 1 bag, 0.5 bag या कुछ और?",
+      "start": 6.17,
+      "end": 20.73
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं इसका थोड़ा actually क्या है मेरे को इसमें idea कम है तो ये one pack क्या होता है पहले ये मेरे को बता दो आप।",
+      "start": 21.71,
+      "end": 30.23
+    },
+    {
+      "role": "BOT",
+      "text": "mixing capacity का मतलब है कि machine एक बार में कितना मसाला मिला सकती है। आप अपनी जरूरत बताइए मैं ठीक है मैं देख सकती हूं कि आपने power source में manual चुना है right?",
+      "start": 29.43,
+      "end": 39.25
+    },
+    {
+      "role": "BUYER",
+      "text": "तो फिर हाँ। हम्म।",
+      "start": 33.87,
+      "end": 40.57
+    },
+    {
+      "role": "BOT",
+      "text": "Hello क्या आप अभी line पे हैं?",
+      "start": 48.95,
+      "end": 50.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी।",
+      "start": 51.11,
+      "end": 51.83
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख सकती हूं कि आपने power source में manual चुना है right?",
+      "start": 52.99,
+      "end": 56.71
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 57.51,
+      "end": 58.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 59.23,
+      "end": 61.93
+    },
+    {
+      "role": "BUYER",
+      "text": "ये district हो रही है उत्तर प्रदेश।",
+      "start": 63.31,
+      "end": 65.67
+    },
+    {
+      "role": "BOT",
+      "text": "आप औरैया उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 66.81,
+      "end": 68.81
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 69.41,
+      "end": 69.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 70.93,
+      "end": 73.39
+    },
+    {
+      "role": "BUYER",
+      "text": "[NAME] [NAME] यादव।",
+      "start": 74.03,
+      "end": 75.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? और आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 76.07,
+      "end": 81.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay okay.",
+      "start": 83.13,
+      "end": 83.93
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 84.81,
+      "end": 87.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 8.38,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 40.57,
+        "end": 48.95,
+        "duration_s": 8.38,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

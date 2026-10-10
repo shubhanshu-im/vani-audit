@@ -1,0 +1,128 @@
+{
+  "call_id": "42_90852808_KATKJXVH5",
+  "file": "data/recordings/42_90852808_KATKJXVH5.mp3",
+  "duration_s": 188.42,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको effluent treatment chemical की requirement है ना?",
+      "start": 0.01,
+      "end": 4.13
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.83,
+      "end": 6.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप आराम से बता दीजिए जब तैयार हों।",
+      "start": 8.57,
+      "end": 11.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 14.79,
+      "end": 15.25
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं यही हूं। जब भी आप बताना चाहें मैं सुन रही हूं।",
+      "start": 17.45,
+      "end": 20.57
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा यही से बात हो रही है क्या?",
+      "start": 21.79,
+      "end": 23.97
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं मैं आपकी मदद के लिए IndiaMART help desk पे हूं। बताइए आपकी effluent treatment chemical में क्या जरूरत है?",
+      "start": 26.57,
+      "end": 33.15
+    },
+    {
+      "role": "BUYER",
+      "text": "जो sweet मिठाई की जो दुकान होती है, उसमें छेना, पनीर, ये जो फाड़ा जाता है, उससे जो problem create होती है, bad order, अगल-बगल जो लोग problem create करते हैं, उनकी दुर्गंध को कैसे दूर किया जाए और उसका water का treatment कैसे solve किया जाए, इसके बारे में कुछ हमको बता सकती हैं?",
+      "start": 33.71,
+      "end": 58.67
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई मिठाई की दुकान में छेना या पनीर बनाने के बाद जो पानी में दुर्गंध और गंदगी आ जाती है उसके treatment के लिए effluent treatment chemical इस्तेमाल होता है। आपको कितने kilogram चाहिए होगा?",
+      "start": 61.17,
+      "end": 71.85
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी तो मुझे idea नहीं है लेकिन मैं दुकान को खोल रहा हूं तो लोग बता रहे हैं कि problem आती है तो उसको लिए मैं search कर रहा था तो देखा तो मैंने आपसे पूछना चाहा कि क्या मेरी समस्या दूर हो सकती है cost effective हो सकती है कि क्या होगा मेरे लिए यह बताइए।",
+      "start": 73.79,
+      "end": 97.01
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत अच्छा सवाल है। इसका सबसे किफायती और असरदार solution effluent treatment chemical से हो सकता है। quantity कितनी चाहिए होगी? कोई approx number बता दीजिए। seller आपको सही guide कर देंगे।",
+      "start": 99.99,
+      "end": 110.61
+    },
+    {
+      "role": "BUYER",
+      "text": "तो मान लीजिए अगर दो सौ लीटर पानी अगर निकलता है तो कितना हमको चाहिए?",
+      "start": 111.73,
+      "end": 119.41
+    },
+    {
+      "role": "BOT",
+      "text": "अगर 200 liter पानी निकलता है तो लगभग 1 या 2 kilogram effluent treatment chemical से शुरुआत कर सकते हैं। seller आपको exact quantity बता देंगे। चलिए अब बताइए इसमें function में क्या चाहिए flocculent या coagulant या कुछ और?",
+      "start": 121.67,
+      "end": 134.15
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं हमको पता नहीं है क्या क्या chemical लगेगा लेकिन मुझे इतना इतनी जानकारी मुझे चाहिए कि मेरा ये जो एक किलो या दो किलो आप बता रही हैं क्या वह एक किलो दो किलो पूरा per day use किया जाएगा कि वो उसका जो है महीने में use होगा कैसे इस्तेमाल होता है?",
+      "start": 135.15,
+      "end": 156.69
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत अच्छा सवाल है। यह chemical आमतौर पर पानी की quantity और गंदगी के according dose किया जाता है। seller आपको usage की पूरी details समझा देंगे। चलिए यह बता दीजिए आपका industry type कौन सा है? जैसे मिठाई, dairy या कुछ और?",
+      "start": 159.39,
+      "end": 172.21
+    },
+    {
+      "role": "BUYER",
+      "text": "मिठाई dairy से संबंधित कुछ रहेगा।",
+      "start": 172.65,
+      "end": 175.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मिठाई और dairy से जुड़ा industry है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 177.85,
+      "end": 188.01
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 3.68,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

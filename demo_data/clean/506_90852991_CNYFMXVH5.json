@@ -1,0 +1,86 @@
+{
+  "call_id": "506_90852991_CNYFMXVH5",
+  "file": "data/recordings/506_90852991_CNYFMXVH5.mp3",
+  "duration_s": 63.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपकी 24 inch flour mill red emerald stone की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 7.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी अभी call किया है नहर वालों को उनको call लगा दो।",
+      "start": 9.59,
+      "end": 13.35
+    },
+    {
+      "role": "BOT",
+      "text": "जरूर but पहले बस एक दो details confirm कर लेते हैं ताकि seller आपकी requirement समझ सकें। बताइए diameter में क्या prefer करेंगे 24 inch 20 inch या कोई और?",
+      "start": 14.85,
+      "end": 23.37
+    },
+    {
+      "role": "BUYER",
+      "text": "24 inch.",
+      "start": 25.11,
+      "end": 26.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब orientation के बारे में बात कर लेते हैं। आपको कौन सा चाहिए vertical, horizontal, pad या कुछ और?",
+      "start": 28.11,
+      "end": 33.29
+    },
+    {
+      "role": "BUYER",
+      "text": "കിട്ടാവോ മണെ? ആഹ് വാട്ടിക്കല്. किया जाईदा थोड़ा सा पत्थर मिलदा कल्ला का।",
+      "start": 34.95,
+      "end": 42.03
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ गया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 43.03,
+      "end": 48.29
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं जी नायर वालों के साथ बात करा दो।",
+      "start": 49.77,
+      "end": 52.07
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 53.11,
+      "end": 59.25
+    },
+    {
+      "role": "BUYER",
+      "text": "होगा फिर।",
+      "start": 58.83,
+      "end": 59.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.42,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

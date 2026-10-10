@@ -1,0 +1,155 @@
+{
+  "call_id": "567_90643174_MI78V3KG5",
+  "file": "data/recordings/567_90643174_MI78V3KG5.mp3",
+  "duration_s": 109.44,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.51,
+      "end": 0.95
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको big size river pebble stones की requirement है ना?",
+      "start": 0.57,
+      "end": 4.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 5.89,
+      "end": 6.45
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 7.69,
+      "end": 13.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Mujhe wo big size around so do size ka chahiye ek to very big size means thousand mm sorry around four fifty mm three hundred mm wo size ka chahiye around eight piece.",
+      "start": 15.85,
+      "end": 32.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको कितने kilograms चाहिए कृपया बता दीजिए ताकि मैं आगे बढ़ सकूं।",
+      "start": 33.35,
+      "end": 37.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Sorry आपकी आवाज़।",
+      "start": 39.39,
+      "end": 43.15
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। ज़रा दोबारा बताइए कि आपको कितनी quantity चाहिए?",
+      "start": 42.09,
+      "end": 46.39
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे वो big size के eight pieces चाहिए।",
+      "start": 48.13,
+      "end": 50.61
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए color में क्या prefer करेंगे white, black या कोई और?",
+      "start": 51.87,
+      "end": 55.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Next.",
+      "start": 56.57,
+      "end": 57.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब size के बारे में बात कर लेते हैं। आपको 10 से 20 millimeters, 25 से 40 millimeters या कुछ और चाहिए?",
+      "start": 58.77,
+      "end": 65.49
+    },
+    {
+      "role": "BUYER",
+      "text": "200 300 300 to 450 millimeters.",
+      "start": 67.25,
+      "end": 70.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 71.85,
+      "end": 76.95
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी Bangalore में है क्या?",
+      "start": 78.01,
+      "end": 79.49
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपको अच्छे sellers से connect करने में मदद करूंगी। बस एक minute line पे बने रहिए।",
+      "start": 80.63,
+      "end": 85.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 86.61,
+      "end": 87.07
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते, क्या आप अभी line पर हैं?",
+      "start": 94.61,
+      "end": 96.35
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 97.39,
+      "end": 97.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पे भेज दी जाएंगी। Please line पे बने रहें।",
+      "start": 99.45,
+      "end": 106.23
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 7.54,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 87.07,
+        "end": 94.61,
+        "duration_s": 7.54,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 5
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

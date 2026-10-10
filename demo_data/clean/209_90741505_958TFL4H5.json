@@ -1,0 +1,165 @@
+{
+  "call_id": "209_90741505_958TFL4H5",
+  "file": "data/recordings/209_90741505_958TFL4H5.mp3",
+  "duration_s": 195.91,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको GK Tech को V5L face attendance biometric की requirement",
+      "start": 0.01,
+      "end": 4.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Environment है ना? जी। माफ़ कीजिए आपकी बात पूरी तरह से समझ नहीं पाए। क्या आप मुझे बता सकते हैं कि आपको किस चीज की जरूरत है या किसकी जानकारी चाहिए? एक ओके से तो income होता है।",
+      "start": 4.81,
+      "end": 20.79
+    },
+    {
+      "role": "BOT",
+      "text": "देखो। माफ़ कीजिए मैं सिर्फ IndiaMART से जुड़ी जानकारी में आपकी मदद कर सकती हूँ। क्या आपको कोई product या service चाहिए? हाँ मैं हाथ से अपना mobile कर सकता हूँ ना phone कर सकता हूँ। मैं आपकी बात पूरी तरह से समझ नहीं पाई। क्या आप बताना चाहेंगे कि आपको किस product या service की जरूरत है? IndiaMART पर मैं उसी में मदद कर सकती हूं।",
+      "start": 20.79,
+      "end": 45.17
+    },
+    {
+      "role": "BUYER",
+      "text": "आप किसी को किसी को link भेजा है ना?",
+      "start": 48.71,
+      "end": 51.21
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आपको किसी product का link भेजना है या seller से जुड़ना है तो कृपया अपनी जरूरत या product का नाम बता दीजिए। IndiaMART पर मैं आपकी मदद करूंगी।",
+      "start": 53.17,
+      "end": 61.93
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा ठीक।",
+      "start": 63.73,
+      "end": 65.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए होंगे?",
+      "start": 68.27,
+      "end": 78.25
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या चीज का?",
+      "start": 79.99,
+      "end": 80.89
+    },
+    {
+      "role": "BOT",
+      "text": "व्यक्ति को V5L face attendance biometric के लिए पूछ रही हूं। कितने piece चाहिए होंगे आपको?",
+      "start": 82.93,
+      "end": 88.01
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को दस चाहिए। बहुत बढ़िया। अब type of attendance के लिए पूछ रही हूं फिर यही चाहिए ना? [change] हां जी।",
+      "start": 88.01,
+      "end": 97.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए। date भी बता दीजिए please.",
+      "start": 100.57,
+      "end": 103.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ठीक है।",
+      "start": 103.51,
+      "end": 104.79
+    },
+    {
+      "role": "BOT",
+      "text": "अपनी city और state का नाम बता दीजिए ताकि मैं आगे बढ़ सकूं।",
+      "start": 104.79,
+      "end": 109.81
+    },
+    {
+      "role": "BUYER",
+      "text": "सोनू। शायद आपने नाम बताया है लेकिन मुझे आपकी city और state की जानकारी चाहिए थी। कृपया अपनी city और state का नाम बताइए। मैं भी सबसे करके मैं बताया।",
+      "start": 110.75,
+      "end": 122.17
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आप आराम से city और state का नाम check करके बता दीजिए।",
+      "start": 124.43,
+      "end": 127.91
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं WhatsApp कर दे रहा हूँ ना।",
+      "start": 129.17,
+      "end": 138.95
+    },
+    {
+      "role": "BOT",
+      "text": "आपके city और state की जानकारी सिर्फ यहां बताइए ताकि seller details भेज सकूं। WhatsApp पर अभी नहीं हो पाएगा। बस नाम बता दीजिए।",
+      "start": 140.67,
+      "end": 148.27
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या चीज का नाम बताओ?",
+      "start": 150.17,
+      "end": 151.43
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी city और state का नाम चाहिए जिससे आप बात कर रहे हैं बस वो बता दीजिए।",
+      "start": 153.25,
+      "end": 160.01
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा।",
+      "start": 161.99,
+      "end": 163.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है जब भी आप तैयार हों अपनी city और state का नाम बता दीजिए। ठीक है मैं बता रहा। बिल्कुल आप बता दीजिए। मैं इंतज़ार कर रही हूँ।",
+      "start": 165.33,
+      "end": 175.13
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। जैसे ही आप city और state बताएंगे मैं आगे बढ़ जाऊंगी। दिमाग खराब है।",
+      "start": 178.77,
+      "end": 195.73
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 7.96,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 181.95,
+        "end": 189.91,
+        "duration_s": 7.96,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 6,
+    "cue_hits_by_speaker": {
+      "1": 6,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

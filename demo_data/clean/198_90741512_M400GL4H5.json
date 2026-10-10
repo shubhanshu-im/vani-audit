@@ -1,0 +1,122 @@
+{
+  "call_id": "198_90741512_M400GL4H5",
+  "file": "data/recordings/198_90741512_M400GL4H5.mp3",
+  "duration_s": 192.1,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए? अब तो।",
+      "start": 0.01,
+      "end": 4.79
+    },
+    {
+      "role": "BUYER",
+      "text": "नमस्ते आपको कौन सा product चाहिए?",
+      "start": 6.77,
+      "end": 8.71
+    },
+    {
+      "role": "BOT",
+      "text": "मतलब। Hello का मतलब है नमस्ते या Hello। ये greeting के लिए बोला जाता है। अब बताइए आपको कौन सा product चाहिए? बाईक वाला। आपको battery चाहिए जो आमतौर पे electric devices को चलाने के लिए इस्तेमाल होती है। यही product चाहिए ना?",
+      "start": 11.73,
+      "end": 30.77
+    },
+    {
+      "role": "BUYER",
+      "text": "करना।",
+      "start": 30.21,
+      "end": 30.53
+    },
+    {
+      "role": "BOT",
+      "text": "Yes. ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 31.55,
+      "end": 45.33
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझको cycle चाहिए।",
+      "start": 47.21,
+      "end": 48.57
+    },
+    {
+      "role": "BOT",
+      "text": "आपको battery नहीं cycle चाहिए। cycle आमतौर पे चलने फिरने या transport के लिए इस्तेमाल होती है। सही समझा मैंने? कितना में? ठीक है मैं Tanya बोल रही हूँ।",
+      "start": 50.69,
+      "end": 64.11
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है मैं Tanya",
+      "start": 62.83,
+      "end": 63.57
+    },
+    {
+      "role": "BOT",
+      "text": "cycle कितना में मिल जाएगा? साइकिल की price seller से discuss कर सकते हैं लेकिन आपकी requirement process करने के लिए quantity बताना जरूरी है जरूरी है। आपको कितने piece चाहिए? एक। बिल्कुल मैं इंतज़ार कर रही हूँ। यहां पर आना पड़ेगा। आपको कहीं आने की जरूरत नहीं है। seller details आपको WhatsApp पे भेज दिए जाएंगे। बस अपनी city और quantity बता दीजिए। जाओ चलका। ठीक है आप अपनी city और state भी बता दीजिए please. गाँव के अंदर post करना था लोगों को। ठीक है। आपके गांव का नाम और किस state में है यह भी बता दीजिए ताकि seller details भेज सकूं। करके। क्या आपका गांव चांद का Uttar Pradesh में है या किसी और state में? Please state का नाम भी बता दीजिए। चार में पांच जाना था। ठीक है? आपके गांव चांदका का state कौन सा है? बस state का नाम बता दीजिए seller details भेजने के लिए। दावा चानका post cleaner।",
+      "start": 65.77,
+      "end": 134.57
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है? बना किस state में है? सिर्फ state का नाम बता दीजिए ताकि seller details भेज सकूं।",
+      "start": 136.63,
+      "end": 141.83
+    },
+    {
+      "role": "BOT",
+      "text": "घाव चांगला पचतो या खारा रोगात. बिहार में। धन्यवाद आप चाँद का बिहार से बोल रहे हैं ना? अब अपना नाम भी बता दीजिए please ताकि।",
+      "start": 144.43,
+      "end": 159.39
+    },
+    {
+      "role": "BUYER",
+      "text": "नाम भी बता",
+      "start": 157.67,
+      "end": 158.39
+    },
+    {
+      "role": "BOT",
+      "text": "आपका नाम भी बता दीजिए please ताकि seller details भेज सकूं। साइकिल की price seller से discuss कर सकते हैं बस नाम बता दें।",
+      "start": 160.97,
+      "end": 167.51
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका नाम भी बता।",
+      "start": 161.03,
+      "end": 161.87
+    },
+    {
+      "role": "BOT",
+      "text": "मैं सुभानम्मा। आपका नाम मनप्रीत सिंह है या सुभान अम्मा? कृपया एक नाम confirm कर दें जिससे seller details भेज सकूं। शुभम। धन्यवाद शुभम जी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 169.49,
+      "end": 191.21
+    },
+    {
+      "role": "BUYER",
+      "text": "के लिए।",
+      "start": 188.69,
+      "end": 189.03
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 4.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 9,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

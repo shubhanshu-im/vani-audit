@@ -1,0 +1,134 @@
+{
+  "call_id": "775_90685156_5K45L1UG5",
+  "file": "data/recordings/775_90685156_5K45L1UG5.mp3",
+  "duration_s": 119.02,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Tenarsu ji, you are looking for AL aluminium topay, right?",
+      "start": 0.01,
+      "end": 4.23
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes. Yes ma'am.",
+      "start": 1.25,
+      "end": 6.91
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk. How many kilogram piece of set do you need?",
+      "start": 8.19,
+      "end": 18.23
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am I need 7 pieces.",
+      "start": 18.23,
+      "end": 21.21
+    },
+    {
+      "role": "BOT",
+      "text": "Do you need 70 pieces?",
+      "start": 22.27,
+      "end": 23.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes ma'am. Parveen, Parveen, yes ma'am.",
+      "start": 22.55,
+      "end": 27.77
+    },
+    {
+      "role": "BOT",
+      "text": "You can discuss the price with the seller and they'll give you the best rate. What size do you need like ten eighteen no nineteen twenty four no? Or something else?",
+      "start": 28.75,
+      "end": 37.31
+    },
+    {
+      "role": "BUYER",
+      "text": "Like. I I did I did it in an eight liter aluminum can. It is rupees one sixty.",
+      "start": 33.31,
+      "end": 47.23
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Which size would you prefer like 10 18? No 19 20 no? Or something else?",
+      "start": 48.15,
+      "end": 54.15
+    },
+    {
+      "role": "BUYER",
+      "text": "No. My budget is my budget is thirty two hundred.",
+      "start": 52.31,
+      "end": 58.13
+    },
+    {
+      "role": "BOT",
+      "text": "Alright, let's talk about surface finish now. Would you prefer Dhulai, Polish or something else?",
+      "start": 59.03,
+      "end": 64.39
+    },
+    {
+      "role": "BUYER",
+      "text": "No no ma'am. I only want to seven rupees in my budget per piece two hundred. I understand. Regarding the surface finish, would you prefer dulai, polish or something else? I don't know Boris. What is Boris?",
+      "start": 65.85,
+      "end": 82.39
+    },
+    {
+      "role": "BOT",
+      "text": "Polish finish makes the surface smooth and shiny. Would you prefer that dulay or something else?",
+      "start": 83.51,
+      "end": 88.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am I have no idea but the police any photo or any detail will tell you what to do.",
+      "start": 90.41,
+      "end": 97.33
+    },
+    {
+      "role": "BOT",
+      "text": "You can share the photo directly with the seller. I can't view photos. I'll send you the seller details on WhatsApp.",
+      "start": 98.45,
+      "end": 104.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay, ma'am.",
+      "start": 106.27,
+      "end": 107.87
+    },
+    {
+      "role": "BOT",
+      "text": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly. Okay, okay, okay. Thank you for choosing.",
+      "start": 108.93,
+      "end": 115.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Okay okay okay okay okay ma'am. What are you?",
+      "start": 112.17,
+      "end": 119.15
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 1.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

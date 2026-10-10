@@ -1,0 +1,122 @@
+{
+  "call_id": "822_90741680_VXD6IL4H5",
+  "file": "data/recordings/822_90741680_VXD6IL4H5.mp3",
+  "duration_s": 100.73,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको 10 HP coconut husk shredder cocopeat making machine and coir battery की requirement है ना?",
+      "start": 0.01,
+      "end": 6.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 7.69,
+      "end": 8.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब motor power के बारे में बात कर लेते हैं। आपको कौन सा चाहिए? 5 HP या कुछ और?",
+      "start": 9.33,
+      "end": 22.71
+    },
+    {
+      "role": "BUYER",
+      "text": "और कम होने से चलेगा।",
+      "start": 25.23,
+      "end": 26.59
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप motor power के लिए क्या prefer करेंगे size HP या कोई और?",
+      "start": 27.83,
+      "end": 33.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। 2 HP हो रहा है क्या?",
+      "start": 30.51,
+      "end": 35.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है, 2 HP note कर लिया। अब बताइए automation grade में आप क्या prefer करेंगे? fully automatic, semi automatic या कुछ और?",
+      "start": 36.39,
+      "end": 43.11
+    },
+    {
+      "role": "BUYER",
+      "text": "समय automatic।",
+      "start": 44.23,
+      "end": 45.19
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं आपको production capacity 100 kilograms per hour ही चाहिए ना?",
+      "start": 46.27,
+      "end": 51.15
+    },
+    {
+      "role": "BUYER",
+      "text": "एक सौ कुछ ग्राम। ठीक है 100 kilograms per hour आप हमें चाहिए। ज्यादा चाहिए madam। ज्यादा चाहिए madam।",
+      "start": 52.79,
+      "end": 60.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है 100 kilograms per hour आपको मैं समझ गई। आप production capacity के लिए क्या prefer करेंगे जैसे 1 ton per hour या कोई और?",
+      "start": 55.13,
+      "end": 66.11
+    },
+    {
+      "role": "BUYER",
+      "text": "आवंटन पा रहा है। क्षमा कीजिए मैं समझ नहीं पाई। आप production capacity के लिए क्या prefer करेंगे 1 ton per hour या कुछ और? हाँ हाँ। नंबर एक।",
+      "start": 67.59,
+      "end": 77.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? seller आपकी इस detail में मदद कर देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 78.91,
+      "end": 86.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay okay okay thank you.",
+      "start": 87.59,
+      "end": 89.51
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 90.63,
+      "end": 93.45
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। Thank you.",
+      "start": 95.17,
+      "end": 100.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 3.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

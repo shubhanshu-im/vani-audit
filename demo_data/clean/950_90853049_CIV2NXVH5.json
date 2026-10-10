@@ -1,0 +1,123 @@
+{
+  "call_id": "950_90853049_CIV2NXVH5",
+  "file": "data/recordings/950_90853049_CIV2NXVH5.mp3",
+  "duration_s": 93.46,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Loganathan ji. You were looking for 20 feet industrial mild steel shipping container right?",
+      "start": 0.25,
+      "end": 5.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah.",
+      "start": 6.65,
+      "end": 7.07
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I am Tanya from IndiaMART. We have many good sellers available and I will connect you with the most suitable one shortly. First I would just like to confirm a few details. I can see you wanted twenty feet for length, right?",
+      "start": 8.69,
+      "end": 21.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay price price list delivery.",
+      "start": 23.29,
+      "end": 27.29
+    },
+    {
+      "role": "BOT",
+      "text": "You can discuss the price and delivery with the seller and they'll give you the best rate. Which width do you want like 8 feet, 10 feet or something else?",
+      "start": 28.51,
+      "end": 36.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Discuss. Okay.",
+      "start": 28.83,
+      "end": 37.53
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry, I couldn't catch that clearly. Could you please repeat which which you prefer?",
+      "start": 38.43,
+      "end": 42.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Tamil Telugu.",
+      "start": 45.55,
+      "end": 47.87
+    },
+    {
+      "role": "BOT",
+      "text": "I apologize, but I can only communicate in English or Hindi. Which width do you prefer like 8 feet, 10 feet or something else?",
+      "start": 48.81,
+      "end": 55.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 57.25,
+      "end": 57.89
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry I still couldn't get that. Could you please tell me if you need 8 feet or 10 feet width?",
+      "start": 58.77,
+      "end": 63.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Twenty thousand area adi kodunga.",
+      "start": 65.99,
+      "end": 68.03
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I didn't quite catch that. The seller will help you with those details. I'll send you the seller details on WhatsApp where you can discuss the details and price directly. Are you still there?",
+      "start": 68.91,
+      "end": 87.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 91.21,
+      "end": 92.01
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you.",
+      "start": 93.07,
+      "end": 93.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 8.94,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 78.01,
+        "end": 86.95,
+        "duration_s": 8.94,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

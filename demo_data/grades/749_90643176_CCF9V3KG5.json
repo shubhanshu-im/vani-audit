@@ -1,0 +1,362 @@
+{
+  "call_id": "749_90643176_CCF9V3KG5",
+  "duration_s": 95.54,
+  "graded_at": "2026-10-10T12:41:00+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Looping Behavior: Bot looped on power after buyer stated diesel and size.",
+  "fatal_params": [
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको power में क्या prefer करेंगे जैसे 13 HP, 10 HP या कुछ और?",
+      "timestamp": 41.97,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard diesel engine as 13 HP/10 HP options.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.0
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ये जो मैं select करा था ना thirty thousand का बोलके उसमें diesel का है ना।",
+      "timestamp": 36.37,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated diesel engine and 30-inch size, bot ignored.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अभी आप power बता दीजिए 13 HP, 10 HP या कुछ और?",
+      "timestamp": 54.65,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on power after buyer stated diesel and size.",
+      "evidence_verified": true,
+      "llm_timestamp": 54.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे समझ नहीं आया आप कर्नाटक में किस city से बोल रहे हैं कृपया फिर से बता दीजिए sorry मु",
+      "timestamp": 84.01,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Yadugiri' as 'Yagyela' and cut off.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.0
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे समझ नहीं आया आप कर्नाटक में किस city से बोल रहे हैं कृपया फिर से बता दीजिए sorry मु",
+      "timestamp": 84.01,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot cut off abruptly after 5s of silence.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे समझ नहीं आया आप कर्नाटक में किस city से बोल रहे हैं कृपया फिर से बता दीजिए sorry मु",
+      "timestamp": 84.01,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard city and cut off abruptly.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a machine, bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity probed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity given."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको power में क्या prefer करेंगे जैसे 13 HP, 10 HP या कुछ और?",
+      "timestamp": 41.97,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard diesel engine as 13 HP/10 HP options.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.0
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ये जो मैं select करा था ना thirty thousand का बोलके उसमें diesel का है ना।",
+      "timestamp": 36.37,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated diesel engine and 30-inch size, bot ignored.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अभी आप power बता दीजिए 13 HP, 10 HP या कुछ और?",
+      "timestamp": 54.65,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on power after buyer stated diesel and size.",
+      "evidence_verified": true,
+      "llm_timestamp": 54.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे समझ नहीं आया आप कर्नाटक में किस city से बोल रहे हैं कृपया फिर से बता दीजिए sorry मु",
+      "timestamp": 84.01,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Yadugiri' as 'Yagyela' and cut off.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details captured."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी।",
+      "timestamp": 13.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered live seller connection."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे समझ नहीं आया आप कर्नाटक में किस city से बोल रहे हैं कृपया फिर से बता दीजिए sorry मु",
+      "timestamp": 84.01,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot cut off abruptly after 5s of silence.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे समझ नहीं आया आप कर्नाटक में किस city से बोल रहे हैं कृपया फिर से बता दीजिए sorry मु",
+      "timestamp": 84.01,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard city and cut off abruptly.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.0
+    }
+  ],
+  "captured_lead": {
+    "product": "concrete roof cutting machine",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "power",
+        "value": "13 HP or 10 HP"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": "Karnataka"
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer stated specs clearly but bot looped on power.",
+      "timestamp": 54.6,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot looped on power and city fields.",
+      "timestamp": 28.9,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot cut off after failing to hear the city.",
+      "timestamp": 84.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on power and city, misheard specs and city, and cut off abruptly.",
+  "analysis": "Buyer wanted a concrete roof cutting machine with a diesel engine, specifically the 30-inch model for ₹30,000. The bot misheard the city as 'Yagyela' and then 'Yadugiri', failing to capture the correct location. The bot looped on power (asking 13HP/10HP after the buyer specified diesel) and city (asking 4 times). The bot also misheard 'Yadugiri' and then cut off abruptly at 84s.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9777,
+    "completion_tokens": 2848
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,303 @@
+{
+  "call_id": "993_90797540_RF5IZXFH5",
+  "duration_s": 91.94,
+  "graded_at": "2026-10-10T12:47:55+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=7.5 BOT: आपको कितने piece चाहिए?",
+      "timestamp": 7.5,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity after buyer said one item.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=17.9 BOT: वैसे आपको कितने piece चाहिए?",
+      "timestamp": 17.9,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question twice.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=01:12.9 BOT: बहुत बढ़िया मैं समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 72.87,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 72.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No numeric quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=7.5 BOT: आपको कितने piece चाहिए?",
+      "timestamp": 7.5,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity after buyer said one item.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No numeric quantity missed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "t=26.2 BOT: ... umbrella या tailor machine या कुछ और?",
+      "timestamp": 26.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed umbrella."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked or captured clearly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major spec missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=17.9 BOT: वैसे आपको कितने piece चाहिए?",
+      "timestamp": 17.9,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question twice.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant ASR errors impacting lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained sewing machine."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air issues."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=01:12.9 BOT: बहुत बढ़िया मैं समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 72.87,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 72.9
+    }
+  ],
+  "captured_lead": {
+    "product": "sewing machine",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "sewing machine type",
+        "value": "umbrella"
+      },
+      {
+        "name": "included components",
+        "value": "saade teen"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot repeated quantity question twice.",
+      "timestamp": 7.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on quantity and promised WhatsApp details.",
+  "analysis": "Buyer wants a single sewing machine for home use. Bot asked for quantity twice despite buyer saying one item. Bot asked for umbrella/tailor type, buyer chose umbrella. Bot asked for included components and buyer said 'saade teen'. Bot captured 'merit' as brand and promised seller details on WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14805,
+    "completion_tokens": 4750
+  },
+  "unresolved_problems": [
+    "Quantity Probing Error: evidence_quote not found verbatim in any transcript line: 't=7.5 BOT: आपको कितने piece चाहिए?'",
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 't=17.9 BOT: वैसे आपको कितने piece चाहिए?'"
+  ]
+}

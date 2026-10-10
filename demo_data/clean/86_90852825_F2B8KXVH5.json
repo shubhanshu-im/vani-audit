@@ -1,0 +1,141 @@
+{
+  "call_id": "86_90852825_F2B8KXVH5",
+  "file": "data/recordings/86_90852825_F2B8KXVH5.mp3",
+  "duration_s": 109.44,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Nima electric grinder की requirement है ना?",
+      "start": 0.01,
+      "end": 3.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. हाँ जी।",
+      "start": 5.51,
+      "end": 9.67
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ जी। आपको Nima electric grinder की requirement थी ना?",
+      "start": 9.23,
+      "end": 12.67
+    },
+    {
+      "role": "BUYER",
+      "text": "जी madam मेरे को ये चाहिए लेकिन वो charging वाली चीजें नहीं चाहिए।",
+      "start": 14.09,
+      "end": 18.21
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको charging से चलने वाला चाहिए था? Nima electric grinder नहीं। क्या आप electric rechargeable grinder की बात कर रहे हैं जो बिना direct बिजली के चल सके? यही चाहिए ना?",
+      "start": 19.79,
+      "end": 29.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ वही के लिए लेकिन उसमें मसाला काला करके खाया करते थे।",
+      "start": 22.99,
+      "end": 34.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। rechargeable electric grinder जो charging से चलता है और मसाले वगैरह पीस सकता है। यही चाहिए था ना? आपको कितने पीस चाहिए होंगे?",
+      "start": 37.15,
+      "end": 44.77
+    },
+    {
+      "role": "BUYER",
+      "text": "होएंगे। और जो फलन का पूछ सकता है।",
+      "start": 43.97,
+      "end": 47.61
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपकी जरूरत समझ गई। कितने piece चाहिए होंगे आपको?",
+      "start": 49.23,
+      "end": 52.47
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब एक चीज का तो।",
+      "start": 54.23,
+      "end": 56.53
+    },
+    {
+      "role": "BOT",
+      "text": "आप अभी भी line पर हैं? कितने piece चाहिए होंगे? बता दीजिए please.",
+      "start": 62.97,
+      "end": 66.39
+    },
+    {
+      "role": "BUYER",
+      "text": "एक एक चीज के लिए मौका नहीं।",
+      "start": 67.43,
+      "end": 74.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको एक piece चाहिए? आप अपनी city और state भी बता दीजिए please।",
+      "start": 76.11,
+      "end": 80.17
+    },
+    {
+      "role": "BUYER",
+      "text": "आप madam पहले मेरा price तो बताइए।",
+      "start": 81.19,
+      "end": 84.09
+    },
+    {
+      "role": "BOT",
+      "text": "price seller से ही discuss होगी आपको अच्छे rates मिलेंगे। जल्दी से अपनी city और state बता दीजिए ताकि connect करवा सकूं।",
+      "start": 86.47,
+      "end": 93.19
+    },
+    {
+      "role": "BUYER",
+      "text": "तो अभी order मत करना ठीक है?",
+      "start": 94.99,
+      "end": 96.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अभी order नहीं करना चाहते। आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 98.99,
+      "end": 106.67
+    },
+    {
+      "role": "BUYER",
+      "text": "रुको तो Madam मेरी बात तो सुनिए।",
+      "start": 107.27,
+      "end": 109.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 6.44,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 56.53,
+        "end": 62.97,
+        "duration_s": 6.44,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

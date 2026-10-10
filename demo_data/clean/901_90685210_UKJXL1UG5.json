@@ -1,0 +1,34 @@
+{
+  "call_id": "901_90685210_UKJXL1UG5",
+  "file": "data/recordings/901_90685210_UKJXL1UG5.mp3",
+  "duration_s": 5.33,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Ahuja SSR 250 M 250 watts mixer amplifier की request।",
+      "start": 0.01,
+      "end": 5.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker",
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

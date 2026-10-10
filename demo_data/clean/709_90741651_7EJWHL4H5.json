@@ -1,0 +1,69 @@
+{
+  "call_id": "709_90741651_7EJWHL4H5",
+  "file": "data/recordings/709_90741651_7EJWHL4H5.mp3",
+  "duration_s": 53.64,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी 1000 LPH RO plant for dialysis की request IndiaMART पर raise है बस उसी के लिए कुछ details confirm करनी थी। चलिए अब material के बारे में बात कर लेते हैं। आपको कौन सा चाहिए FRP या stainless steel या कुछ और?",
+      "start": 0.01,
+      "end": 23.77
+    },
+    {
+      "role": "BUYER",
+      "text": "जो double filter में आता है जो हजार एक घंटे में जो बाईस सौ liter नहीं खींचते हैं।",
+      "start": 25.47,
+      "end": 30.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 31.91,
+      "end": 37.19
+    },
+    {
+      "role": "BUYER",
+      "text": "ना हम तो नया हैं हम इसके बारे में कुछ जानकारी नहीं है हम लगाना चाह रहे हैं।",
+      "start": 38.71,
+      "end": 42.63
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 43.45,
+      "end": 49.79
+    },
+    {
+      "role": "BUYER",
+      "text": "pressure कितना हो गया जी?",
+      "start": 50.93,
+      "end": 52.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 10.98,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 7.93,
+        "end": 18.91,
+        "duration_s": 10.98,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

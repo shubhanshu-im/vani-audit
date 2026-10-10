@@ -1,0 +1,123 @@
+{
+  "call_id": "650_90685109_1AIEK1UG5",
+  "file": "data/recordings/650_90685109_1AIEK1UG5.mp3",
+  "duration_s": 92.59,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको Vaseline gel की requirement है ना?",
+      "start": 0.05,
+      "end": 3.37
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 5.31,
+      "end": 6.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने tube चाहिए?",
+      "start": 7.83,
+      "end": 13.65
+    },
+    {
+      "role": "BUYER",
+      "text": "एक चीज चाहिए पर इसके साथ मेरे को कुछ और भी दवाई नहीं चाहिए थी।",
+      "start": 15.17,
+      "end": 18.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अभी मैं सिर्फ एक product की details ले सकती हूं तो पहले इसे complete कर लेते हैं। packaging size में क्या prefer करेंगे? 3 grams, 5 grams या कुछ और?",
+      "start": 19.69,
+      "end": 28.33
+    },
+    {
+      "role": "BUYER",
+      "text": "पांच ग्राम।",
+      "start": 31.67,
+      "end": 32.51
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई? अब बताइए इसे किस उपयोग के लिए चाहिए जैसे reselling, hospital use या कुछ और?",
+      "start": 33.67,
+      "end": 38.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Personal use के लिए।",
+      "start": 39.61,
+      "end": 41.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 42.13,
+      "end": 47.95
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है पर ऐसे एक एक product पे जो order करो तो मेरा तो दिन निकल जाएगा तो ये तो फालतू app है।",
+      "start": 50.07,
+      "end": 55.85
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूं but यहां आपको verified sellers मिलते हैं।",
+      "start": 57.13,
+      "end": 60.53
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको verify करने के लिए तो मैं तीन बार ही call करूँ।",
+      "start": 58.61,
+      "end": 61.47
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं आप एक ही seller से अपनी सारी दवाइयों की list discuss कर सकते हैं। मैं अभी आपकी details confirm कर रही हूं। क्या आप अभी line पर हैं?",
+      "start": 62.61,
+      "end": 78.91
+    },
+    {
+      "role": "BUYER",
+      "text": "online पे हो।",
+      "start": 80.33,
+      "end": 81.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 82.35,
+      "end": 90.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 9.06,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 68.59,
+        "end": 77.65,
+        "duration_s": 9.06,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

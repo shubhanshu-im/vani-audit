@@ -1,0 +1,134 @@
+{
+  "call_id": "273_90797314_4BG1WXFH5",
+  "file": "data/recordings/273_90797314_4BG1WXFH5.mp3",
+  "duration_s": 115.92,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको rayon printed fabric Ahmedabad की requirement है ना?",
+      "start": 0.01,
+      "end": 4.25
+    },
+    {
+      "role": "BUYER",
+      "text": "जी madam जी। madam जी मैंने आपका number WhatsApp पे निकाला है अभी। जी Rion print 58 पन्ना भी मिलता है ना तुम्हारे यहां पे?",
+      "start": 4.91,
+      "end": 13.19
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ आपको fabric के width और print type दोनों options मिल जाएँगे। कितने meter या kilogram चाहिए होंगे आपको?",
+      "start": 15.19,
+      "end": 21.05
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam जी ये साढ़े सत्रह kilometer का है हमारे यहां। चालीस सत्रह किलो।",
+      "start": 21.43,
+      "end": 27.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपने बताया 17.5 kilogram में आता है। अब बताइए fabric width में आपको कौन सा चाहिए? 58 inch, 44 inch या कुछ और?",
+      "start": 26.35,
+      "end": 34.15
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। हाँ। अठावन अठावन inch बना रहता है इसका लेकिन छप्पन ही निकलता है लेकिन अठावन बोल के आता है अपना ये। और madam हजार से पंद्रह सौ meter daily कपड़ा कटता है मेरे यहां पे। Bombay से बोल रहा मैं। Javed।",
+      "start": 30.15,
+      "end": 47.61
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपने अपनी daily requirement भी बता दी। आप अपनी...",
+      "start": 51.35,
+      "end": 55.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Madam जी देखो जी और पूरा payment cash में होता है Madam जी उधारी पे कोई काम नहीं होता।",
+      "start": 54.53,
+      "end": 60.77
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए आप सिर्फ cash payment पे काम करते हैं। अब आप अपनी पूरी state भी बताइए।",
+      "start": 63.03,
+      "end": 67.15
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं आप सिर्फ cash payment पे काम करती हूँ। जी। Bombay Bandra.",
+      "start": 63.31,
+      "end": 70.95
+    },
+    {
+      "role": "BOT",
+      "text": "आप बम्बई महाराष्ट्र से बोल रहे हैं ना?",
+      "start": 72.59,
+      "end": 74.63
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी जी।",
+      "start": 74.87,
+      "end": 76.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 78.03,
+      "end": 80.49
+    },
+    {
+      "role": "BUYER",
+      "text": "जावेद Madam जी।",
+      "start": 81.01,
+      "end": 82.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है धन्यवाद जावेद जी। अब print type में आपको कौन सा चाहिए जैसे foil या discharge या कुछ और?",
+      "start": 84.25,
+      "end": 89.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam जी आप मेरे number पे आपके यहाँ पे जो print रहते हैं 58 print में भेज सकते हैं मुझे। इसी number पे भेज दो। मैं आपको अभी बोल दूंगा या मैं अपना भेज दूंगा इधर से zone से मुझे लगता है।",
+      "start": 89.95,
+      "end": 103.39
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी पसंद के print seller को भेज दीजिएगा। seller आपकी पूरी मदद करेंगे। मैं seller details WhatsApp पर भेज दूंगी जिनसे आप detail और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 105.43,
+      "end": 116.03
+    },
+    {
+      "role": "BUYER",
+      "text": "करते हैं।",
+      "start": 114.63,
+      "end": 115.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

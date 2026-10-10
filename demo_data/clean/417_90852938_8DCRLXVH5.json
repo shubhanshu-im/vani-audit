@@ -1,0 +1,46 @@
+{
+  "call_id": "417_90852938_8DCRLXVH5",
+  "file": "data/recordings/417_90852938_8DCRLXVH5.mp3",
+  "duration_s": 26.57,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 4.17,
+      "end": 4.75
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं IndiaMART से बात कर रही हूं। क्या आप बता सकते हैं कि आपको कौन सा product चाहिए? What is finance? मैं आपकी इस बात में मदद नहीं कर पाऊँगी। चलिए IndiaMART पे focus करते हैं। क्या आप बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 6.09,
+      "end": 21.69
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.56,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

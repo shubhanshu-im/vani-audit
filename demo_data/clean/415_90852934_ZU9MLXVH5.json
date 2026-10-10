@@ -1,0 +1,153 @@
+{
+  "call_id": "415_90852934_ZU9MLXVH5",
+  "file": "data/recordings/415_90852934_ZU9MLXVH5.mp3",
+  "duration_s": 87.19,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको intravenous infusion की requirement है ना?",
+      "start": 0.01,
+      "end": 4.69
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 5.09,
+      "end": 5.63
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece या box की जरूरत है?",
+      "start": 6.73,
+      "end": 13.51
+    },
+    {
+      "role": "BUYER",
+      "text": "ten to twenty.",
+      "start": 16.51,
+      "end": 17.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब usage के बारे में बात कर लेते हैं। आपको clinical या hospital के लिए चाहिए या कुछ और?",
+      "start": 18.29,
+      "end": 23.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Like clinical situation.",
+      "start": 26.45,
+      "end": 29.35
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए कि आप इसे किस उपयोग के लिए लेना चाहते हैं जैसे PCD, Pharma, Franchise, Personal Use या कुछ और?",
+      "start": 30.49,
+      "end": 37.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Pharma research.",
+      "start": 39.47,
+      "end": 40.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब आप अपनी city और state भी बता दीजिए please.",
+      "start": 41.93,
+      "end": 44.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Bangalore Karnataka.",
+      "start": 46.77,
+      "end": 49.03
+    },
+    {
+      "role": "BOT",
+      "text": "आप Bengaluru Karnataka से बोल रहे हैं ना?",
+      "start": 50.15,
+      "end": 52.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 53.43,
+      "end": 53.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब आप अपना नाम भी बता दीजिए please।",
+      "start": 54.85,
+      "end": 57.13
+    },
+    {
+      "role": "BUYER",
+      "text": "सुबेगना।",
+      "start": 59.53,
+      "end": 60.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी बोल रहे हैं ना?",
+      "start": 61.49,
+      "end": 63.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 65.51,
+      "end": 65.91
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी line पर हैं?",
+      "start": 72.37,
+      "end": 73.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes yes.",
+      "start": 74.99,
+      "end": 75.75
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 76.95,
+      "end": 84.65
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 86.51,
+      "end": 87.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 6.46,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 65.91,
+        "end": 72.37,
+        "duration_s": 6.46,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

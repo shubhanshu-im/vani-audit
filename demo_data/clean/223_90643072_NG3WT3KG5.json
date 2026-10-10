@@ -1,0 +1,63 @@
+{
+  "call_id": "223_90643072_NG3WT3KG5",
+  "file": "data/recordings/223_90643072_NG3WT3KG5.mp3",
+  "duration_s": 63.72,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको Artificial Intelligence software की requirement है ना? हं। ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए होंगे?",
+      "start": 0.01,
+      "end": 20.03
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 22.23,
+      "end": 22.77
+    },
+    {
+      "role": "BOT",
+      "text": "कृपया बताइए आपको कितने piece चाहिए होंगे? आप अभी line पर हैं? कितने piece चाहिए होंगे बता दीजिए।",
+      "start": 24.73,
+      "end": 41.03
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप बात जारी रखना चाहेंगे? अगर quantity बता सकें तो आगे बढ़ सकते हैं।",
+      "start": 50.87,
+      "end": 54.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 10.76,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 27.09,
+        "end": 37.85,
+        "duration_s": 10.76,
+        "after_role": "BOT"
+      },
+      {
+        "start": 41.03,
+        "end": 50.87,
+        "duration_s": 9.84,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

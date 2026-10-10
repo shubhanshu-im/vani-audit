@@ -1,0 +1,304 @@
+{
+  "call_id": "302_90797351_PDU6XXFH5",
+  "duration_s": 89.06,
+  "graded_at": "2026-10-10T12:29:17+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मतलब आप किस city और किस state से बात कर रहे हैं? example, पटना, बिहार। please बता दीजिए।",
+      "timestamp": 58.93,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot re-asked for city/state after buyer already provided it.",
+      "evidence_verified": true,
+      "llm_timestamp": 58.9
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 79.15,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send seller details on WhatsApp instead of transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 79.15,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp, which is a minor deviation from standard closing.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product requirement and bot proceeded with it."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed 200 kg/hr after buyer said 'दो सौ kilogram तक बराबर है'."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 'kilogram' unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not discussed as a numeric quantity, but as a spec."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specific quantity was mentioned by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 'LD' as the waste material spec."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask a second spec question."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional specs were provided or missed by the buyer."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मतलब आप किस city और किस state से बात कर रहे हैं? example, पटना, बिहार। please बता दीजिए।",
+      "timestamp": 58.93,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot re-asked for city/state after buyer already provided it.",
+      "evidence_verified": true,
+      "llm_timestamp": 58.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 79.15,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send seller details on WhatsApp instead of transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.2
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed plastic recycling machine and bot proceeded with it."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory category-specific questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or MCAT data available to evaluate."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air occurred."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 79.15,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp, which is a minor deviation from standard closing.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.2
+    }
+  ],
+  "captured_lead": {
+    "product": "plastic recycling machine",
+    "quantity": "200",
+    "quantity_unit": "kilogram per hour",
+    "specs": [
+      {
+        "name": "production capacity",
+        "value": "200 kilogram per hour"
+      },
+      {
+        "name": "waste material",
+        "value": "LD"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Patna",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for city/state again, bot re-asked instead of human.",
+      "timestamp": 58.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to offer a live seller transfer and closed by promising WhatsApp details. Minor looping occurred on city/state.",
+  "analysis": "Buyer wanted a plastic recycling machine. Bot confirmed product, then asked for production capacity (200 kg/hr confirmed), waste material (LDPE confirmed), city/state (Patna, Bihar confirmed), and name ([NAME] [NAME] confirmed). Bot then closed by promising to send seller details on WhatsApp. No live seller was offered or transferred.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3757,
+    "completion_tokens": 1386
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,298 @@
+{
+  "call_id": "422_90852949_XIWWLXVH5",
+  "duration_s": 230.98,
+  "graded_at": "2026-10-10T12:32:19+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए समझ नहीं आया। आपको कितने pieces चाहिए? ठीक है। Seller इस detail में आपकी मदद करेंगे। अब बताइए pouch style में क्या prefer करेंगे?",
+      "timestamp": 140.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated pouch style question after buyer clarified 100g.",
+      "evidence_verified": true,
+      "llm_timestamp": 140.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Madam जी जो बोल रहा है मेरे को समझ में नहीं आ रहा है क्या बोल रहा है।",
+      "timestamp": 180.39,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer expressed confusion, bot apologized and rephrased.",
+      "evidence_verified": true,
+      "llm_timestamp": 180.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आप 100 grams के packet चाहते हैं?",
+      "timestamp": 162.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer mentioned 100g packets and 500 cases, bot captured 100g."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit was asked or recorded for the 500 cases."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "quality grade में आपको Singapore 99, Europe quality या कोई और options चाहिए?",
+      "timestamp": 54.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered options, buyer chose good quality."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "तीन side seal stand up या कुछ और?",
+      "timestamp": 162.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked pouch style, buyer gave no specific preference."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "All requested specs captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए समझ नहीं आया। आपको कितने pieces चाहिए? ठीक है। Seller इस detail में आपकी मदद करेंगे। अब बताइए pouch style में क्या prefer करेंगे?",
+      "timestamp": 140.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated pouch style question after buyer clarified 100g.",
+      "evidence_verified": true,
+      "llm_timestamp": 140.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear misrecognition affecting the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product confirmed correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Madam जी जो बोल रहा है मेरे को समझ में नहीं आ रहा है क्या बोल रहा है।",
+      "timestamp": 180.39,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer expressed confusion, bot apologized and rephrased.",
+      "evidence_verified": true,
+      "llm_timestamp": 180.4
+    }
+  ],
+  "captured_lead": {
+    "product": "cumin seed jeera whole seeds",
+    "quantity": "500",
+    "quantity_unit": "cases",
+    "specs": [
+      {
+        "name": "quality grade",
+        "value": "good quality"
+      },
+      {
+        "name": "packaging type",
+        "value": "empty packet"
+      },
+      {
+        "name": "pouch style",
+        "value": ""
+      },
+      {
+        "name": "quality grade",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer said bot's words were not understood",
+      "timestamp": 180.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wanted cumin seeds (jeera) whole seeds in 100g empty packets for resale/packing. Bot confirmed product, quantity 500 cases, quality (good), packaging (empty packet/bag), and application (spices). Bot created a lead and offered WhatsApp details. Buyer was slightly confused at the end but accepted.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '500': number(s) ['500'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4788,
+    "completion_tokens": 1676
+  },
+  "unresolved_problems": []
+}

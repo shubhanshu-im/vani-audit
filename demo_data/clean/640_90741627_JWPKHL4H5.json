@@ -1,0 +1,194 @@
+{
+  "call_id": "640_90741627_JWPKHL4H5",
+  "file": "data/recordings/640_90741627_JWPKHL4H5.mp3",
+  "duration_s": 142.85,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको groundnuts की requirement है ना?",
+      "start": 0.31,
+      "end": 3.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Yes. Hello.",
+      "start": 0.65,
+      "end": 7.91
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms या ton चाहिए?",
+      "start": 9.07,
+      "end": 15.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Call. semester",
+      "start": 10.07,
+      "end": 18.65
+    },
+    {
+      "role": "BOT",
+      "text": "Sure. I can speak in English. The seller you were calling is unavailable and I am calling from IndiaMART. How many kilograms or tons do you need?",
+      "start": 19.63,
+      "end": 27.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. I want to I'm sorry I didn't catch that.",
+      "start": 26.89,
+      "end": 32.87
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I couldn't catch that. Could you I'm sorry I couldn't quite understand. Could you please tell me how many kilograms or tons you require?",
+      "start": 31.35,
+      "end": 39.43
+    },
+    {
+      "role": "BUYER",
+      "text": "I'm sorry I couldn't quite understand. I need 100 kilos.",
+      "start": 34.15,
+      "end": 41.43
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Now let's talk about the form. Would you prefer it with shell, shelled or something else?",
+      "start": 42.39,
+      "end": 47.31
+    },
+    {
+      "role": "BUYER",
+      "text": "No no just I want that phone number I want to I want to see that the product how is the this product is the quality and. You can discuss the.",
+      "start": 49.09,
+      "end": 59.93
+    },
+    {
+      "role": "BOT",
+      "text": "You can discuss the quality and. I understand. You can discuss the quality and other details with the seller. Please let me know if you prefer with shell or shells.",
+      "start": 58.91,
+      "end": 68.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah. What what is the meaning of guide owner app? What is the thing explained upon after that I will say.",
+      "start": 66.51,
+      "end": 76.37
+    },
+    {
+      "role": "BOT",
+      "text": "Shelled means the nuts are removed from their outer shell. Would you prefer them with shell or shelled?",
+      "start": 77.63,
+      "end": 82.85
+    },
+    {
+      "role": "BUYER",
+      "text": "What are you selling?",
+      "start": 84.53,
+      "end": 85.47
+    },
+    {
+      "role": "BOT",
+      "text": "Great. Now which variety would you prefer like Java, Bold Runner, Spanish or something else?",
+      "start": 86.51,
+      "end": 91.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah it needs pot for taking the oil from that one.",
+      "start": 93.13,
+      "end": 98.39
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I couldn't quite catch that. Could you please tell me which variety you prefer like Java, Boulder Runner or Spanish?",
+      "start": 99.27,
+      "end": 105.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Bold runner.",
+      "start": 107.45,
+      "end": 108.79
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, could you please tell me your city and state?",
+      "start": 110.19,
+      "end": 112.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Hyderabad and Telangana.",
+      "start": 114.01,
+      "end": 115.87
+    },
+    {
+      "role": "BOT",
+      "text": "You are speaking from Hyderabad Telangana right?",
+      "start": 116.63,
+      "end": 119.15
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah yeah.",
+      "start": 120.13,
+      "end": 120.85
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, could you please tell me your name as well?",
+      "start": 121.91,
+      "end": 124.17
+    },
+    {
+      "role": "BUYER",
+      "text": "[NAME].",
+      "start": 125.91,
+      "end": 127.11
+    },
+    {
+      "role": "BOT",
+      "text": "You are Giriji speaking right?",
+      "start": 128.27,
+      "end": 129.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah.",
+      "start": 131.05,
+      "end": 131.59
+    },
+    {
+      "role": "BOT",
+      "text": "I will send the seller details to you on WhatsApp where you can discuss the details and price. Thank you for choosing IndiaMART. Have a great day.",
+      "start": 132.67,
+      "end": 140.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 141.89,
+      "end": 142.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 14,
+    "buyer_turns": 14,
+    "longest_gap_s": 1.9,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

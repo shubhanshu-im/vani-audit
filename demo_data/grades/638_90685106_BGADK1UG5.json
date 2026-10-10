@@ -1,0 +1,324 @@
+{
+  "call_id": "638_90685106_BGADK1UG5",
+  "duration_s": 124.56,
+  "graded_at": "2026-10-10T12:37:57+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec2 Accuracy",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Buyer: अस्सी ग्राम में हो सौ में हो अस्सी माता का पहले थे",
+      "timestamp": 86.03,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Buyer's spec for pack size was unclear but bot inferred 80g.",
+      "evidence_verified": true,
+      "llm_timestamp": 86.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Buyer: जी Ma'am.",
+      "timestamp": 9.6,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer repeated greeting, bot asked for quantity twice.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Buyer: ਮੇਰੇ ਕੋਲ ਕੀ ਨਾਮ ਹੈ ਪਾਰਸ਼ਕ ਬਹੱਤਰ",
+      "timestamp": 20.6,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot did not understand buyer's response due to ASR error.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Buyer: ਮੇਰੇ ਕੋਲ ਕੀ ਨਾਮ ਹੈ ਪਾਰਸ਼ਕ ਬਹੱਤਰ",
+      "timestamp": 20.6,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to understand buyer's speech.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot collected details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specific numeric quantity captured or read back."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specific quantity unit captured or read back."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer gave a range."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Buyer: करीब समझो सत्तर सत्तर अस्सी के बीच में",
+      "timestamp": 60.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the approximate quantity range."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured brand Denton."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Buyer: अस्सी ग्राम में हो सौ में हो अस्सी माता का पहले थे",
+      "timestamp": 86.03,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Buyer's spec for pack size was unclear but bot inferred 80g.",
+      "evidence_verified": true,
+      "llm_timestamp": 86.0
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for pack size and buyer responded."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Buyer: जी Ma'am.",
+      "timestamp": 9.6,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer repeated greeting, bot asked for quantity twice.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Buyer: ਮੇਰੇ ਕੋਲ ਕੀ ਨਾਮ ਹੈ ਪਾਰਸ਼ਕ ਬਹੱਤਰ",
+      "timestamp": 20.6,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot did not understand buyer's response due to ASR error.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never in question."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Buyer: ਮੇਰੇ ਕੋਲ ਕੀ ਨਾਮ ਹੈ ਪਾਰਸ਼ਕ ਬਹੱਤਰ",
+      "timestamp": 20.6,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to understand buyer's speech.",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "toothpaste",
+    "quantity": "70-80",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "brand",
+        "value": "Denton"
+      },
+      {
+        "name": "pack size",
+        "value": "80 grams"
+      },
+      {
+        "name": "type",
+        "value": "tight paste"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot failed to understand buyer's response.",
+      "timestamp": 20.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to understand buyer's speech and did not capture name or location.",
+  "analysis": "Buyer requested 70-80 pieces of a specific brand toothpaste (Denton). Bot asked for quantity, brand, and pack size. Bot confirmed tight paste and offered to send seller details via WhatsApp, closing the call. Buyer's name/location were not captured.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.quantity = '70-80': number(s) ['70'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15068,
+    "completion_tokens": 4083
+  },
+  "unresolved_problems": [
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: \"Buyer: जी Ma'am.\"",
+    "WER: evidence_quote not found verbatim in any transcript line: 'Buyer: ਮੇਰੇ ਕੋਲ ਕੀ ਨਾਮ ਹੈ ਪਾਰਸ਼ਕ ਬਹੱਤਰ'",
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: 'Buyer: ਮੇਰੇ ਕੋਲ ਕੀ ਨਾਮ ਹੈ ਪਾਰਸ਼ਕ ਬਹੱਤਰ'"
+  ]
+}

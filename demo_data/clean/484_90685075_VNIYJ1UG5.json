@@ -1,0 +1,80 @@
+{
+  "call_id": "484_90685075_VNIYJ1UG5",
+  "file": "data/recordings/484_90685075_VNIYJ1UG5.mp3",
+  "duration_s": 58.39,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.11,
+      "end": 4.63
+    },
+    {
+      "role": "BUYER",
+      "text": "के house के लिए एक generator चाहिए।",
+      "start": 6.67,
+      "end": 8.85
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो बिजली जाने पर backup के लिए इस्तेमाल होता है वही चाहिए ना? confirm कर दें।",
+      "start": 10.77,
+      "end": 15.35
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। हाँ हाँ हाँ हाँ। कितना ये आता है कितना voltage देगा? उसके बारे में थोड़ा बताओ। हमारे पास अलग-अलग options हैं।",
+      "start": 11.23,
+      "end": 28.24
+    },
+    {
+      "role": "BOT",
+      "text": "पहले बताइए आपको कितनी क्षमता वाला चाहिए जैसे 15 KV या 25 KV या कुछ और?",
+      "start": 28.24,
+      "end": 32.75
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं home के लिए छोटा वाला चाहिए ज्यादा नहीं है।",
+      "start": 34.21,
+      "end": 37.33
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपके घर के लिए छोटा वाला चाहिए। बताइए आपको किस तरह का चाहिए? silent या non-silent?",
+      "start": 38.85,
+      "end": 44.33
+    },
+    {
+      "role": "BUYER",
+      "text": "ये silent वाला।",
+      "start": 45.41,
+      "end": 46.33
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 48.01,
+      "end": 56.25
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

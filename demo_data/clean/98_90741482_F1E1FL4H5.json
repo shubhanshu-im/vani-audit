@@ -1,0 +1,110 @@
+{
+  "call_id": "98_90741482_F1E1FL4H5",
+  "file": "data/recordings/98_90741482_F1E1FL4H5.mp3",
+  "duration_s": 108.86,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको GI square pipe की requirement है ना?",
+      "start": 0.01,
+      "end": 3.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 5.35,
+      "end": 5.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने ton चाहिए?",
+      "start": 8.35,
+      "end": 18.11
+    },
+    {
+      "role": "BUYER",
+      "text": "कम नहीं चाहिए madam. डेढ़ क्विंटल।",
+      "start": 21.25,
+      "end": 24.97
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको 1.5 quintal चाहिए। चलिए अब section size के बारे में बता दीजिए आपको कौन सा चाहिए 2 inch by 2 inch या 50 by 50 millimeter या कुछ और?",
+      "start": 28.65,
+      "end": 37.09
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको डेढ़ quintal चाहिए। मेरे को bore pipe चाहिए ma'am GI।",
+      "start": 29.09,
+      "end": 41.15
+    },
+    {
+      "role": "BOT",
+      "text": "आपको गोल pipe चाहिए जिसमें आमतौर से तरल या gas का प्रवाह किया जाता है यही चाहिए ना?",
+      "start": 44.57,
+      "end": 49.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ GI steel में चाहिए। और thickness तो ये उसकी 6 mm।",
+      "start": 50.05,
+      "end": 58.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको Just Steel में 6 millimeter मोटाई वाला गोल pipe चाहिए। अब आपको कौन सा size चाहिए? आधा inch, दो inch, तीन inch या कोई और?",
+      "start": 60.91,
+      "end": 68.45
+    },
+    {
+      "role": "BUYER",
+      "text": "उसमें। एक inch. एक inch का तो ये अपने को 50% 70% और 30% तो ये दो inch का।",
+      "start": 70.85,
+      "end": 84.67
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपने एक inch और दो inch दोनों बताए हैं। क्या आपको दोनों size चाहिए या कोई एक ही चाहिए?",
+      "start": 86.83,
+      "end": 92.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Don't fifty fifty ବି ଚଲେଇବ Don't.",
+      "start": 93.11,
+      "end": 96.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपकी details note कर ली है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 98.23,
+      "end": 108.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म। के लिए। हो।",
+      "start": 99.23,
+      "end": 108.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.68,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

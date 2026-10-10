@@ -1,0 +1,63 @@
+{
+  "call_id": "101_90741485_EDP5FL4H5",
+  "file": "data/recordings/101_90741485_EDP5FL4H5.mp3",
+  "duration_s": 47.09,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको Konica Minolta Flex printing machine Prime model 512 Y की requirement है ना?",
+      "start": 0.63,
+      "end": 6.73
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Sir.",
+      "start": 8.67,
+      "end": 9.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। अब print head model में आपको 512 Y ही चाहिए ना? बहुत बढ़िया।",
+      "start": 13.93,
+      "end": 31.25
+    },
+    {
+      "role": "BUYER",
+      "text": "printing width में आपको दस feet चाहिए ना?",
+      "start": 31.25,
+      "end": 33.33
+    },
+    {
+      "role": "BOT",
+      "text": "जी Ma'am. आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 34.35,
+      "end": 46.23
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 5.04,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 25.45,
+        "end": 30.49,
+        "duration_s": 5.04,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

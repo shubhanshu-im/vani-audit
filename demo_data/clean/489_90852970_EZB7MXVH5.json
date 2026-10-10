@@ -1,0 +1,135 @@
+{
+  "call_id": "489_90852970_EZB7MXVH5",
+  "file": "data/recordings/489_90852970_EZB7MXVH5.mp3",
+  "duration_s": 74.09,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Rajkumar, you were looking for Gold Winner refined sunflower oil, right?",
+      "start": 0.23,
+      "end": 4.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 6.09,
+      "end": 6.43
+    },
+    {
+      "role": "BOT",
+      "text": "Are you still there?",
+      "start": 13.95,
+      "end": 14.93
+    },
+    {
+      "role": "BUYER",
+      "text": "No.",
+      "start": 16.21,
+      "end": 16.85
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry, I didn't quite catch that. You had a requirement for Gold Winner refined sunflower oil, right?",
+      "start": 17.79,
+      "end": 23.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes, yes, yes.",
+      "start": 24.49,
+      "end": 25.73
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk. How many liters or kilogram do you need?",
+      "start": 26.83,
+      "end": 34.83
+    },
+    {
+      "role": "BUYER",
+      "text": "liters 1500 liters.",
+      "start": 36.03,
+      "end": 38.17
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Let's talk about packaging right now. Which one would you like, tin or something else?",
+      "start": 39.21,
+      "end": 44.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Only package. One rupee pouch.",
+      "start": 43.33,
+      "end": 47.15
+    },
+    {
+      "role": "BOT",
+      "text": "Perfect. What would you prefer for volume 15 liters, 1 liter or something else?",
+      "start": 48.15,
+      "end": 53.49
+    },
+    {
+      "role": "BUYER",
+      "text": "One letter one letter.",
+      "start": 53.81,
+      "end": 55.31
+    },
+    {
+      "role": "BOT",
+      "text": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 56.29,
+      "end": 61.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 62.43,
+      "end": 62.93
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you for choosing IndiaMART. Have a nice day.",
+      "start": 64.19,
+      "end": 66.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Thank you.",
+      "start": 67.03,
+      "end": 69.21
+    },
+    {
+      "role": "BOT",
+      "text": "நீங்கள் அழைக்கும் நபர் உங்கள் call-ஐ hold-இல் வைத்துள்ளார்.",
+      "start": 70.77,
+      "end": 74.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 7.52,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 6.43,
+        "end": 13.95,
+        "duration_s": 7.52,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

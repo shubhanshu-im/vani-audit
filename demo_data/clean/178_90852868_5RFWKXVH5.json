@@ -1,0 +1,122 @@
+{
+  "call_id": "178_90852868_5RFWKXVH5",
+  "file": "data/recordings/178_90852868_5RFWKXVH5.mp3",
+  "duration_s": 83.59,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Crossley ji, you are looking for acoustic wall panel installation service right?",
+      "start": 0.01,
+      "end": 4.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 8.97,
+      "end": 10.25
+    },
+    {
+      "role": "BOT",
+      "text": "You had a requirement for acoustic wall panel installation service, right?",
+      "start": 11.41,
+      "end": 15.23
+    },
+    {
+      "role": "BUYER",
+      "text": "For example. Okay okay okay.",
+      "start": 12.43,
+      "end": 17.49
+    },
+    {
+      "role": "BOT",
+      "text": "Alright.",
+      "start": 18.45,
+      "end": 18.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Right right clear I can.",
+      "start": 19.09,
+      "end": 21.35
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk. I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 22.55,
+      "end": 33.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Network time.",
+      "start": 36.25,
+      "end": 37.35
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry, I couldn't catch that clearly. Could you please repeat?",
+      "start": 38.35,
+      "end": 41.47
+    },
+    {
+      "role": "BUYER",
+      "text": "It's broken, will it be some? I want it immediately.",
+      "start": 41.73,
+      "end": 47.23
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I'm still having trouble understanding. Could you please tell me if you are still interested in the service?",
+      "start": 48.21,
+      "end": 53.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Please, I'm asking to contact immediately. I want to solve this immediately.",
+      "start": 55.25,
+      "end": 60.01
+    },
+    {
+      "role": "BOT",
+      "text": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 61.05,
+      "end": 65.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay well the duty will be available 24 hours.",
+      "start": 68.11,
+      "end": 73.95
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you for choosing IndiaMART. Have a nice day.",
+      "start": 75.11,
+      "end": 77.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay okay.",
+      "start": 78.25,
+      "end": 79.69
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 4.28,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

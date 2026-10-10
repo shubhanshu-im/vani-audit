@@ -1,0 +1,88 @@
+{
+  "call_id": "579_90741613_1UJEHL4H5",
+  "file": "data/recordings/579_90741613_1UJEHL4H5.mp3",
+  "duration_s": 56.95,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको air coolers की requirement है ना?",
+      "start": 0.01,
+      "end": 3.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.97,
+      "end": 6.45
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.67,
+      "end": 13.53
+    },
+    {
+      "role": "BUYER",
+      "text": "शांति।",
+      "start": 15.99,
+      "end": 16.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब cooler type के बारे में बात कर लेते हैं।",
+      "start": 18.05,
+      "end": 20.79
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको portable चाहिए या कुछ और?",
+      "start": 20.79,
+      "end": 22.59
+    },
+    {
+      "role": "BOT",
+      "text": "portable। समझ गई। tank capacity में आप क्या prefer करेंगे? 100 liters, 150 liters या कोई और?",
+      "start": 25.35,
+      "end": 32.93
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है ठीक है। ठीक है, मैं समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। Okay.",
+      "start": 35.01,
+      "end": 45.83
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 46.85,
+      "end": 49.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 51.71,
+      "end": 52.11
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.76,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

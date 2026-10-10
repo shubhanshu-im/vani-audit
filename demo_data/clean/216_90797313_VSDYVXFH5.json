@@ -1,0 +1,170 @@
+{
+  "call_id": "216_90797313_VSDYVXFH5",
+  "file": "data/recordings/216_90797313_VSDYVXFH5.mp3",
+  "duration_s": 118.87,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको mustard oil pouch packing machine की requirement है ना?",
+      "start": 0.01,
+      "end": 4.11
+    },
+    {
+      "role": "BUYER",
+      "text": "पाऊँगी। हाँ। Hello.",
+      "start": 1.81,
+      "end": 10.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको filling capacity 200 milliliters ही चाहिए ना?",
+      "start": 12.51,
+      "end": 24.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam वो किधर है company?",
+      "start": 26.13,
+      "end": 27.57
+    },
+    {
+      "role": "BOT",
+      "text": "seller से जुड़ी जानकारी और location आप seller से directly discuss कर सकते हैं। पहले filling capacity confirm कर दें आपको 200 milliliters ही चाहिए ना?",
+      "start": 30.65,
+      "end": 38.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 39.61,
+      "end": 40.03
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ नहीं पाई आप filling capacity 200 milliliters ही चाहते हैं ना? confirm कर दीजिए please।",
+      "start": 42.01,
+      "end": 48.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 48.25,
+      "end": 48.79
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। चलिए अब product capacity के बारे में बताइए आपको कौन सी चाहिए 2000 pouches प्रति घंटे या 3000 pouches प्रति घंटे या कुछ और?",
+      "start": 50.59,
+      "end": 59.13
+    },
+    {
+      "role": "BUYER",
+      "text": "करो। तीन हजार रुपये की घंटी।",
+      "start": 58.65,
+      "end": 61.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब आपकी city और state बता दीजिए please.",
+      "start": 64.03,
+      "end": 66.57
+    },
+    {
+      "role": "BUYER",
+      "text": "ये Swastik Nagar Tehsgaon के पास।",
+      "start": 67.89,
+      "end": 70.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? Swastik Nagar Tejgaon किस state में है? state का नाम भी बता दीजिए please.",
+      "start": 74.19,
+      "end": 78.75
+    },
+    {
+      "role": "BUYER",
+      "text": "बता ये Yes Club.",
+      "start": 77.53,
+      "end": 80.43
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी city और state समझ नहीं आई। कृपया साफ़-साफ़ अपना city और state का नाम बता दीजिए।",
+      "start": 82.19,
+      "end": 88.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। औरंगाबाद औरंगाबाद औरंगाबाद में।",
+      "start": 85.85,
+      "end": 89.69
+    },
+    {
+      "role": "BOT",
+      "text": "आप Aurangabad Maharashtra से बोल रहे हैं ना?",
+      "start": 91.73,
+      "end": 94.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 94.71,
+      "end": 95.25
+    },
+    {
+      "role": "BOT",
+      "text": "संभाजी नगर। ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 95.25,
+      "end": 100.29
+    },
+    {
+      "role": "BUYER",
+      "text": "आसन करो।",
+      "start": 101.17,
+      "end": 102.19
+    },
+    {
+      "role": "BOT",
+      "text": "आप [NAME] जी बोल रहे हैं ना?",
+      "start": 104.05,
+      "end": 105.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 106.21,
+      "end": 106.73
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART करने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 108.39,
+      "end": 116.09
+    },
+    {
+      "role": "BUYER",
+      "text": "करने के लिए। कंपनी का है? कंपनी किधर है?",
+      "start": 113.79,
+      "end": 118.83
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 12,
+    "longest_gap_s": 4.82,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

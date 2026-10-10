@@ -1,0 +1,53 @@
+{
+  "call_id": "603_90741606_2G9AHL4H5",
+  "file": "data/recordings/603_90741606_2G9AHL4H5.mp3",
+  "duration_s": 24.84,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको fully refined paraffin wax की requirement है ना?",
+      "start": 0.21,
+      "end": 4.27
+    },
+    {
+      "role": "BUYER",
+      "text": "चलो। Hello क्या आप वहाँ हैं? Hello.",
+      "start": 7.17,
+      "end": 18.49
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। आपको fully refined paraffin wax की requirement थी ना?",
+      "start": 19.71,
+      "end": 23.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 6.4,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 8.11,
+        "end": 14.51,
+        "duration_s": 6.4,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

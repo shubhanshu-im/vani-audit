@@ -1,0 +1,53 @@
+{
+  "call_id": "483_90852961_KPE2MXVH5",
+  "file": "data/recordings/483_90852961_KPE2MXVH5.mp3",
+  "duration_s": 88.85,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको 18 AM rechargeable rock crawling 4WD 2.4 यह है 4x4 rally car remote control monster truck kits की requirement है ना? Hello क्या आप सुन पा रहे हैं? आपको इस product की requirement है ना? आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने piece चाहिए होंगे आपको? Okay next next. क्षमा कीजिए मैं समझ नहीं पाई। आप कितनी quantity चाहते हैं? बस एक number बता दीजिए।",
+      "start": 2.05,
+      "end": 47.39
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 49.99,
+      "end": 50.65
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं quantity के बारे में seller आपसे discuss कर लेंगे। आपको vehicle type में क्या चाहिए rock crawler monster car या कुछ और? क्षमा कीजिए मैं समझ नहीं पाई। आपको vehicle type में क्या चाहिए rock crawler, monster car या कुछ और? मोस्ट ऑफ का। ठीक है तो remote control वाला control type ठीक रहेगा ना? Yes आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो। हं।",
+      "start": 51.95,
+      "end": 88.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 11.1,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 12.41,
+        "end": 23.51,
+        "duration_s": 11.1,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

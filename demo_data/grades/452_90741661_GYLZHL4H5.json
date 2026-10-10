@@ -1,0 +1,340 @@
+{
+  "call_id": "452_90741661_GYLZHL4H5",
+  "duration_s": 58.61,
+  "graded_at": "2026-10-10T12:33:04+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Bot read back 1200mm instead of buyer's 3x4 (3600mm) width.",
+  "fatal_params": [
+    "Spec1 Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए 1200 millimeters या कुछ और?",
+      "timestamp": 10.01,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot read back 1200mm instead of buyer's 3x4 (3600mm) width.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.3
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "डेटन ठीक है।",
+      "timestamp": 34.43,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave capacity response but bot did not capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाया। क्या आप lot capacity?",
+      "timestamp": 20.29,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot repeated question due to ASR misunderstanding, but no loop escalation.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.3
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप lot capacity?",
+      "timestamp": 20.29,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard '3x4' as 'lot capacity'.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 36.71,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used the banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product requirement."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए 1200 millimeters या कुछ और?",
+      "timestamp": 10.01,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot read back 1200mm instead of buyer's 3x4 (3600mm) width.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.3
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Second spec not asked or relevant to product."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "डेटन ठीक है।",
+      "timestamp": 34.43,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave capacity response but bot did not capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाया। क्या आप lot capacity?",
+      "timestamp": 20.29,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot repeated question due to ASR misunderstanding, but no loop escalation.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.3
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप lot capacity?",
+      "timestamp": 20.29,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard '3x4' as 'lot capacity'.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.3
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never in question."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No bot-side silence after buyer spoke."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 36.71,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used the banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.7
+    }
+  ],
+  "captured_lead": {
+    "product": "industrial plastic pallet",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "width",
+        "value": "1200 millimeters"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer got confused by bot's questions and asked to be guided.",
+      "timestamp": 37.3,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot struggled to understand buyer's width and capacity details.",
+      "timestamp": 20.3,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard width as 1200mm and failed to capture capacity, leading to a banned open-ended question and abrupt call end.",
+  "analysis": "Buyer called about industrial plastic pallets, confirmed availability, and provided width as 3x4 (3600mm). Bot misheard width, asked for lot capacity, buyer said 'डेटन ठीक है' (don't know/understand). Bot asked a banned open-ended question at t=36.7. Buyer got confused and asked to be guided. Call ended abruptly with bot waiting for answer.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3672,
+    "completion_tokens": 1315
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,122 @@
+{
+  "call_id": "549_90853015_KJBNMXVH5",
+  "file": "data/recordings/549_90853015_KJBNMXVH5.mp3",
+  "duration_s": 79.06,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 12 inch green dish laminated banana leaf paper plate की requirement है ना?",
+      "start": 0.01,
+      "end": 6.03
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं paper plate की नहीं मुझे वो paper plate making machine जो है उस machine का एक control panel में जो heater वाला switch है उस switch का requirement था।",
+      "start": 7.69,
+      "end": 18.89
+    },
+    {
+      "role": "BOT",
+      "text": "आपको paper plate making machine का heater switch चाहिए जो machine के control panel में लगता है यही चाहिए ना?",
+      "start": 20.03,
+      "end": 25.85
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। जी जी जी जी जी।",
+      "start": 24.43,
+      "end": 28.15
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं है।",
+      "start": 30.55,
+      "end": 32.47
+    },
+    {
+      "role": "BUYER",
+      "text": "जी MD में।",
+      "start": 31.73,
+      "end": 32.67
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ नहीं आ रही।",
+      "start": 33.81,
+      "end": 35.21
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या ये मुझे मिलेगा क्या?",
+      "start": 34.29,
+      "end": 37.77
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आवाज़ साफ़ नहीं आ रही है क्या आप ज़रा शांत जगह जाकर या थोड़ा ज़ोर से बोल सकते हैं?",
+      "start": 37.17,
+      "end": 42.25
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे यह कुछ मिलेगा क्या cash stock में?",
+      "start": 44.03,
+      "end": 48.25
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिल्कुल मिल जाएगा। बस कुछ details confirm कर दीजिए ताकि मैं आपको सही seller से connect कर सकूं। आपको कितने piece चाहिए?",
+      "start": 47.45,
+      "end": 54.35
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे पाँच छह piece चाहिए।",
+      "start": 56.53,
+      "end": 59.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 60.01,
+      "end": 65.13
+    },
+    {
+      "role": "BUYER",
+      "text": "ঠিক আছে।",
+      "start": 66.75,
+      "end": 69.69
+    },
+    {
+      "role": "BOT",
+      "text": "इसी amount सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 68.91,
+      "end": 71.83
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। ठीक है। ठीक है।",
+      "start": 72.37,
+      "end": 78.21
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

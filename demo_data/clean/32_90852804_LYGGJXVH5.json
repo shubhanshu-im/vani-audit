@@ -1,0 +1,69 @@
+{
+  "call_id": "32_90852804_LYGGJXVH5",
+  "file": "data/recordings/32_90852804_LYGGJXVH5.mp3",
+  "duration_s": 61.92,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको automatic pasta extruder machine की requirement है ना?",
+      "start": 0.39,
+      "end": 4.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नमस्ते।",
+      "start": 13.85,
+      "end": 17.59
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते आपको automatic pasta extruder machine की जरूरत थी ना?",
+      "start": 16.77,
+      "end": 20.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. क्या मेरी आवाज़ आ रही है? आपको automatic pasta extruder machine चाहिए थी ना? जी। हाँ हाँ हाँ हाँ। जैसे ये machine जो है इसके साथ-साथ जानकारी लेना चाह रहे थे आपसे। की जैसे माल सुखाने के लिए oven जो है वो अलग से लेना पड़ेगा की इसी में आएगा?",
+      "start": 22.59,
+      "end": 49.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक सवाल है। इस machine में oven अलग से लेना होता है।",
+      "start": 51.09,
+      "end": 54.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हलो। oven का क्या दाम rate पड़ जाएगा?",
+      "start": 51.49,
+      "end": 57.83
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 9.02,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 4.83,
+        "end": 13.85,
+        "duration_s": 9.02,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

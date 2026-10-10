@@ -1,0 +1,98 @@
+{
+  "call_id": "878_90853041_836ZMXVH5",
+  "file": "data/recordings/878_90853041_836ZMXVH5.mp3",
+  "duration_s": 57.96,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको lightweight ARS block की requirement है ना?",
+      "start": 0.09,
+      "end": 3.57
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 4.35,
+      "end": 4.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece की जरूरत है?",
+      "start": 5.99,
+      "end": 16.11
+    },
+    {
+      "role": "BUYER",
+      "text": "जी एक हज़ार piece की ज़रूरत है।",
+      "start": 17.33,
+      "end": 18.91
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब thickness के बारे में बात कर लेते हैं। आपको 4 inch तो mm चाहिए या कुछ और?",
+      "start": 19.91,
+      "end": 25.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Sixteen, sixteen, eight or twenty four.",
+      "start": 25.77,
+      "end": 28.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब length के बारे में बताइए। आपको चौबीस inch छह सौ mm चाहिए या पच्चीस inch छह सौ पच्चीस mm?",
+      "start": 29.59,
+      "end": 35.25
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मुझे चाहिए चौबीस इंच का आठ इंच और छह इंच चौबीस आठ छह।",
+      "start": 36.23,
+      "end": 42.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब आपकी city और state भी बता दीजिए please। ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 43.95,
+      "end": 49.29
+    },
+    {
+      "role": "BUYER",
+      "text": "देखिये जय की क्षमा करें आपकी।",
+      "start": 50.35,
+      "end": 53.91
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें आपकी आवाज़ clear आप Srinagar Jammu और Kashmir से बोल रहे हैं।",
+      "start": 52.83,
+      "end": 57.89
+    },
+    {
+      "role": "BUYER",
+      "text": "जम्मू",
+      "start": 56.25,
+      "end": 56.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 1.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

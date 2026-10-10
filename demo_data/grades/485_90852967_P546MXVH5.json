@@ -1,0 +1,342 @@
+{
+  "call_id": "485_90852967_P546MXVH5",
+  "duration_s": 47.52,
+  "graded_at": "2026-10-10T12:34:02+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Bot misheard 'rice' as product type instead of 'multicolor'.",
+  "fatal_params": [
+    "Spec1 Accuracy",
+    "Spec2 Accuracy",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए LED या pixel LED या कुछ और?",
+      "timestamp": 10.19,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'rice' as product type instead of 'multicolor'.",
+      "evidence_verified": true,
+      "llm_timestamp": 10.2
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है आपकी पसंद note कर लिया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.89,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot skipped capturing length specs (15m/20m).",
+      "evidence_verified": true,
+      "llm_timestamp": 21.9
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है आपकी पसंद note कर लिया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.89,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ignored and never captured the 15m/20m length requirement.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए LED या pixel LED या कुछ और?",
+      "timestamp": 10.19,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard 'multicolor' as 'rice' which changed product focus.",
+      "evidence_verified": true,
+      "llm_timestamp": 10.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.89,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Used banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot proceeded to close."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed for the service."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए LED या pixel LED या कुछ और?",
+      "timestamp": 10.19,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'rice' as product type instead of 'multicolor'.",
+      "evidence_verified": true,
+      "llm_timestamp": 10.2
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है आपकी पसंद note कर लिया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.89,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot skipped capturing length specs (15m/20m).",
+      "evidence_verified": true,
+      "llm_timestamp": 21.9
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है आपकी पसंद note कर लिया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.89,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ignored and never captured the 15m/20m length requirement.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repetitive questioning."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए LED या pixel LED या कुछ और?",
+      "timestamp": 10.19,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard 'multicolor' as 'rice' which changed product focus.",
+      "evidence_verified": true,
+      "llm_timestamp": 10.2
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained RGB lights."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.89,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Used banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.9
+    }
+  ],
+  "captured_lead": {
+    "product": "RGB lights",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "bulb type",
+        "value": "LED or pixel LED or something else"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer interrupted bot's closing to provide missed details.",
+      "timestamp": 29.9,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard 'multicolor' as 'rice' at start.",
+      "timestamp": 10.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard 'multicolor' as 'rice' and failed to capture the 15m/20m length specs.",
+  "analysis": "Buyer wants RGB lights, specifically 15m and 20m multicolor and single color bulbs. Bot captured the product but failed to capture the length specs (15m/20m), quantity, and name/location. Bot used a banned open-ended question. The call ended abruptly with the buyer speaking over the bot's closing.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3529,
+    "completion_tokens": 1319
+  },
+  "unresolved_problems": []
+}

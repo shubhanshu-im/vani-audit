@@ -1,0 +1,111 @@
+{
+  "call_id": "19_90661242_TXRFJXNG5",
+  "file": "data/recordings/19_90661242_TXRFJXNG5.mp3",
+  "duration_s": 82.8,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी organic coconut oil की request IndiaMART पर registered है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.09,
+      "end": 6.05
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन काम कर रहे थे?",
+      "start": 10.19,
+      "end": 11.63
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिल्कुल पूछिए। मैं आपकी क्या मदद कर सकता हूं? नमस्ते क्या आप अभी line पर हैं?",
+      "start": 13.01,
+      "end": 27.75
+    },
+    {
+      "role": "BUYER",
+      "text": "तो मैं copy में लिख ली।",
+      "start": 30.95,
+      "end": 33.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप वो document सीधे seller के साथ share कर सकते हैं but उससे पहले मुझे कुछ details confirm करनी होंगी आपको।",
+      "start": 34.39,
+      "end": 39.85
+    },
+    {
+      "role": "BUYER",
+      "text": "के साथ share कर सकते हैं। कर क्षमा करें मुझे आपकी बात समझ नहीं आई। क्या आप बता सकते हैं कि आपको कितने liter या kilogram organic coconut oil बंदा। कोक। क्लियर है क्लियर है।",
+      "start": 35.77,
+      "end": 47.59
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मैं आपकी बात समझ नहीं पा रहा हूं। क्या आप बता सकते हैं कि आपको कितनी liter",
+      "start": 48.69,
+      "end": 53.15
+    },
+    {
+      "role": "BUYER",
+      "text": "कि आपको कितनी",
+      "start": 51.47,
+      "end": 52.57
+    },
+    {
+      "role": "BOT",
+      "text": "मैं India Mart से जतिन बात कर रहा हूँ। क्या आप बता सकते हैं कि आपको कितने लीटर या किलोग्राम organic coconut oil की जरूरत है?",
+      "start": 53.27,
+      "end": 59.93
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं बात कर रहा हूं। आपको कितने liter എവിടെ പോയിരുന്നു? ഇവിടെ ഇപ്പോഴത്തെ സ്ഥിതി എന്താ?",
+      "start": 54.67,
+      "end": 62.77
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मैं ये भाषा नहीं समझ पा रहा हूँ कृपया हिंदी या अंग्रेजी में बात करें।",
+      "start": 64.07,
+      "end": 68.29
+    },
+    {
+      "role": "BUYER",
+      "text": "क्षमा करें मैं यह भाषा नहीं समझ पा रहा हूँ। कृपया हिंदी या अंग्रेजी में बात करें। Sorry our team will contact you in your.",
+      "start": 64.13,
+      "end": 75.13
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry, our team will contact you in your preferred language. down opening India mart.",
+      "start": 73.33,
+      "end": 77.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 10.4,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 15.67,
+        "end": 26.07,
+        "duration_s": 10.4,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

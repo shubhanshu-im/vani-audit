@@ -1,0 +1,34 @@
+{
+  "call_id": "977_90643250_ITBCW3KG5",
+  "file": "data/recordings/977_90643250_ITBCW3KG5.mp3",
+  "duration_s": 1.66,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपकी MP",
+      "start": 0.01,
+      "end": 1.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker",
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

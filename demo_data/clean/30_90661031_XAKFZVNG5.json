@@ -1,0 +1,327 @@
+{
+  "call_id": "30_90661031_XAKFZVNG5",
+  "file": "data/recordings/30_90661031_XAKFZVNG5.mp3",
+  "duration_s": 309.43,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको business making machine की requirement है ना? Hello क्या आप अभी line पे हैं?",
+      "start": 0.01,
+      "end": 15.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ बोलिए।",
+      "start": 16.57,
+      "end": 17.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब production capacity के बारे में बात कर लेते हैं। आपको 100 kilograms per hour चाहिए या कुछ और?",
+      "start": 18.65,
+      "end": 32.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ सौ किलो ग्राम एक घंटा में चाहिए तो उसमें जो है ना जैसे machine हमको है ये है।",
+      "start": 34.09,
+      "end": 41.41
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए motor power में क्या prefer करेंगे? 5 ampere hour, 10 ampere hour या कोई और?",
+      "start": 42.47,
+      "end": 47.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारे जो दस दस वो जो है ना Eicher machine है ये 14 HP का है तो इस पर हम चलाना चाह रहे थे कि वो चक्की वही आती वाला hammer वाला।",
+      "start": 48.79,
+      "end": 61.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गई। बस एक आखरी detail आप अपनी city और state भी बता दीजिए please।",
+      "start": 62.29,
+      "end": 66.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 67.75,
+      "end": 68.43
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी city और state बता दीजिए please.",
+      "start": 69.27,
+      "end": 71.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ये मधेपुरा जिला हुआ।",
+      "start": 72.15,
+      "end": 74.51
+    },
+    {
+      "role": "BOT",
+      "text": "आप मधेपुरा बिहार से बोल रहे हैं ना?",
+      "start": 75.83,
+      "end": 77.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ हाँ।",
+      "start": 78.13,
+      "end": 79.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 80.17,
+      "end": 82.65
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा नाम है नरेश कुमार यादव।",
+      "start": 83.39,
+      "end": 85.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? नरेश कुमार यादव जी। अभी line पे काफी अच्छे seller available हैं। आप उनसे अपने हिसाब से price और बाकी details discuss कर लीजिए। क्या मैं आपकी बात उनसे करवा दूं?",
+      "start": 86.37,
+      "end": 96.41
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी। हाँ करवाइए ना पूछ लेते हैं कि क्या कीमत पड़ेगा तब वो जानकारी होने के बाद ही ना कुछ करेंगे।",
+      "start": 88.57,
+      "end": 104.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पे भेज दी जाएंगी। Please line पे बने रहें।",
+      "start": 105.21,
+      "end": 112.01
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक ठीक। Hello. हाँ hello हम हम मधेपुरा district से बोल रहे हैं नरेश कुमार यादव हमें लिए तो वो hammer वाला आटा चक्की लेना था जो machine हमको ICAR का जो है ना उपलब्ध है।",
+      "start": 112.89,
+      "end": 147.81
+    },
+    {
+      "role": "BOT",
+      "text": "हम हम करते हैं।",
+      "start": 132.17,
+      "end": 139.69
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। तो हम सोच रहे थे कि वो आके लेकर के उसी में अपना machine set करके उसको चला गए। हमारे यहाँ से machine लेना है या फिर क्या लेना है? पीसने वाला जो hammer वाला आता है ना वो अठारह inch चलेगा ना जो कम से कम सौ kilo के ऊपर दे या सौ kilo दे",
+      "start": 148.43,
+      "end": 171.35
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा।",
+      "start": 165.79,
+      "end": 166.37
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 168.97,
+      "end": 169.77
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ हाँ।",
+      "start": 172.35,
+      "end": 173.07
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो हमको चक्की वाले जो वहाँ से वो hammer वाला लेना है machine तो मेरे पास है लेकिन foundation के साथे लेना है कि ताकि उसको machine adjust कर सकें।",
+      "start": 173.47,
+      "end": 182.21
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा दस ऐसी motor के साथ।",
+      "start": 183.99,
+      "end": 187.67
+    },
+    {
+      "role": "BUYER",
+      "text": "और चौदह HP का है Hiace का engine tractor वाला नहीं होता है।",
+      "start": 188.59,
+      "end": 191.97
+    },
+    {
+      "role": "BOT",
+      "text": "माने पाठ पूजा आपको कुछ और चाहिए यही ना?",
+      "start": 194.69,
+      "end": 197.33
+    },
+    {
+      "role": "BUYER",
+      "text": "पाँच पुर्जा नहीं वो चक्की चाहिए उसमे foundation रहेगा की हम machine उस पर set करके अपना वाले fanwell से अपना चलाएंगे। safety होती है ना।",
+      "start": 198.73,
+      "end": 210.79
+    },
+    {
+      "role": "BOT",
+      "text": "video भेजते हैं देख लीजिए एक बार।",
+      "start": 210.05,
+      "end": 212.47
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा।",
+      "start": 213.43,
+      "end": 214.17
+    },
+    {
+      "role": "BOT",
+      "text": "video देख लीजिएगा।",
+      "start": 215.11,
+      "end": 217.53
+    },
+    {
+      "role": "BUYER",
+      "text": "काहे इसी का माने जो उसमें आएगा तो माने जो वो 50 100 kg निकालेगा।",
+      "start": 217.67,
+      "end": 224.37
+    },
+    {
+      "role": "BOT",
+      "text": "कितना inch का है आपके पास?",
+      "start": 226.13,
+      "end": 228.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हम तो इक्कीस चला रहे थे तो बोले जो line के disturb रहने चलते जो है सब machine उस पर लगाए हैं तो हम तो इक्कीस का पहले चला रहे थे अब बीस का चला रहे थे ताकि बीस के। उस bus में।",
+      "start": 229.83,
+      "end": 244.91
+    },
+    {
+      "role": "BOT",
+      "text": "जी हम पूरा detail आपको send कर दे रहे हैं देख लीजिएगा।",
+      "start": 244.85,
+      "end": 249.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाय निश्चय भजता पड़ेगा क्या?",
+      "start": 246.29,
+      "end": 253.87
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं हम कर देना इधर से।",
+      "start": 254.79,
+      "end": 256.31
+    },
+    {
+      "role": "BUYER",
+      "text": "कर दीजिए हम देख लेते हैं। [change] अच्छा क्या कीमत पड़ जाता है? कितना inch दीजिएगा?",
+      "start": 257.57,
+      "end": 262.79
+    },
+    {
+      "role": "BOT",
+      "text": "हम ही कर देंगे। ये pulplizer में लेना है या फिर ये hopper वाला?",
+      "start": 258.47,
+      "end": 269.07
+    },
+    {
+      "role": "BUYER",
+      "text": "ना ना पार्टी में लड़ा है। पट लगत है।",
+      "start": 269.69,
+      "end": 275.01
+    },
+    {
+      "role": "BOT",
+      "text": "Pulplizer में।",
+      "start": 276.51,
+      "end": 277.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो उद्देश्य।",
+      "start": 279.01,
+      "end": 280.43
+    },
+    {
+      "role": "BOT",
+      "text": "देख लीजिये न।",
+      "start": 279.63,
+      "end": 282.15
+    },
+    {
+      "role": "BUYER",
+      "text": "आता",
+      "start": 282.15,
+      "end": 283.35
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा।",
+      "start": 282.17,
+      "end": 283.75
+    },
+    {
+      "role": "BUYER",
+      "text": "और देख करके तब फिर आप अपना number देते तब ना। हाँ हाँ number है मेरा आपका number है मेरे पास। number है। हाँ तो आपका number नहीं। आपका number मेरे पास है। सुनिए ना हम जो आपको करना चाहेंगे देख के तो मतलब हम कैसे करेंगे number का?",
+      "start": 284.35,
+      "end": 300.37
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। call करेंगे अभी हम करते हैं ना call आपको आपको हम call कर रहे हैं।",
+      "start": 298.59,
+      "end": 304.93
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। ठीक है भेज देता हूँ।",
+      "start": 303.53,
+      "end": 307.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 24,
+    "buyer_turns": 24,
+    "longest_gap_s": 15.72,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 3.51,
+        "end": 14.01,
+        "duration_s": 10.5,
+        "after_role": "BOT"
+      },
+      {
+        "start": 113.79,
+        "end": 129.51,
+        "duration_s": 15.72,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 5,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

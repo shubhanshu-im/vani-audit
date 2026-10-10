@@ -1,0 +1,62 @@
+{
+  "call_id": "31_90661302_2MEI1YNG5",
+  "file": "data/recordings/31_90661302_2MEI1YNG5.mp3",
+  "duration_s": 34.85,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको disposable plate की requirement है ना?",
+      "start": 0.01,
+      "end": 3.77
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 5.75,
+      "end": 6.31
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते मैं IndiaMART से बोल रही हूं। आपको disposable plate की requirement थी ना?",
+      "start": 7.57,
+      "end": 12.13
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मुझे requirement नहीं है मेरे पे दोना plate की cutting रहती है। तो मुझे मुजफ्फरनगर का कोई ऐसा dealer ढूंढ रहा हूं मैं जो direct cutting लेगी मेरे से।",
+      "start": 13.29,
+      "end": 23.37
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप अपना सामान बेचना चाहते हैं। selling related information के लिए कृपया।",
+      "start": 24.55,
+      "end": 29.23
+    },
+    {
+      "role": "BUYER",
+      "text": "बेचना चाहते हैं। हाँ जी।",
+      "start": 25.67,
+      "end": 28.51
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 1.98,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

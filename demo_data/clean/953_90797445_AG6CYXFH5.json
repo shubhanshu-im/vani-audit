@@ -1,0 +1,33 @@
+{
+  "call_id": "953_90797445_AG6CYXFH5",
+  "file": "data/recordings/953_90797445_AG6CYXFH5.mp3",
+  "duration_s": 4.03,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको sand की requirement है ना?",
+      "start": 0.25,
+      "end": 2.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

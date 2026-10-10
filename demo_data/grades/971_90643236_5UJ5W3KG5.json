@@ -1,0 +1,324 @@
+{
+  "call_id": "971_90643236_5UJ5W3KG5",
+  "duration_s": 68.54,
+  "graded_at": "2026-10-10T12:47:07+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Buyer gave a spec (Mahindra model), bot ignored it.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Mahindra के एक आती है।",
+      "timestamp": 36.29,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer gave a spec (Mahindra model), bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.3
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको Mahindra Treo Yari SFT चाहिए या HRT?",
+      "timestamp": 29.35,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated product question once due to buyer's unclear response.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप जेहानाबाद बिहार से।",
+      "timestamp": 47.99,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard Dhanbad as Jehanabad, corrected next turn.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब गणेश जी बोल रहे हैं।",
+      "timestamp": 53.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard Dhanbad as [NAME] ji.",
+      "evidence_verified": true,
+      "llm_timestamp": 53.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clearly stated requirement, bot closed with lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not needed for this call flow."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was provided."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec1 asked."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec2 asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Mahindra के एक आती है।",
+      "timestamp": 36.29,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer gave a spec (Mahindra model), bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.3
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको Mahindra Treo Yari SFT चाहिए या HRT?",
+      "timestamp": 29.35,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated product question once due to buyer's unclear response.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप जेहानाबाद बिहार से।",
+      "timestamp": 47.99,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard Dhanbad as Jehanabad, corrected next turn.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ issues observed."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No MCAT/search errors visible."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब गणेश जी बोल रहे हैं।",
+      "timestamp": 53.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard Dhanbad as [NAME] ji.",
+      "evidence_verified": true,
+      "llm_timestamp": 53.4
+    }
+  ],
+  "captured_lead": {
+    "product": "Mahindra Treo Yaari SFT",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "model",
+        "value": "Mahindra Treo Yaari SFT"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Jehanabad",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot recorded Jehanabad instead of Dhanbad.",
+      "timestamp": 48.0,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated product question twice due to buyer's unclear response.",
+      "timestamp": 29.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard Dhanbad as Jehanabad, misheard buyer's name as [NAME] ji, and missed the buyer's model spec.",
+  "analysis": "Buyer wanted a Mahindra Treo Yaari SFT e-rickshaw. Bot asked product model, buyer was unclear. Bot moved to location, buyer said Dhanbad, Bihar. Bot misheard 'Dhanbad' as '[NAME] ji', then closed with WhatsApp lead without confirming quantity, specs, or name.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3749,
+    "completion_tokens": 1318
+  },
+  "unresolved_problems": []
+}

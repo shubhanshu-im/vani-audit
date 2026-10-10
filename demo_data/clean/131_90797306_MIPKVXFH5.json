@@ -1,0 +1,45 @@
+{
+  "call_id": "131_90797306_MIPKVXFH5",
+  "file": "data/recordings/131_90797306_MIPKVXFH5.mp3",
+  "duration_s": 17.5,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको GI square pipe की requirement है ना?",
+      "start": 0.01,
+      "end": 3.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 6.23,
+      "end": 6.83
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। आपको किसी product की जरूरत थी क्या? यह Square Pipe की requirement थी ना?",
+      "start": 9.37,
+      "end": 14.23
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.54,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

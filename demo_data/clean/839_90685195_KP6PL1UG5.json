@@ -1,0 +1,134 @@
+{
+  "call_id": "839_90685195_KP6PL1UG5",
+  "file": "data/recordings/839_90685195_KP6PL1UG5.mp3",
+  "duration_s": 96.91,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "तो आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello नमस्कार।",
+      "start": 3.93,
+      "end": 5.15
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते आप बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 6.07,
+      "end": 9.09
+    },
+    {
+      "role": "BUYER",
+      "text": "ये कंपन chain वाली।",
+      "start": 11.53,
+      "end": 14.11
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कंपन chain जो आमतौर पे मशीनों में vibration कम करने के लिए इस्तेमाल होती है वही product चाहिए ना?",
+      "start": 15.11,
+      "end": 20.81
+    },
+    {
+      "role": "BUYER",
+      "text": "धान काटने वाली।",
+      "start": 22.79,
+      "end": 23.83
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तो आपको फसल या दाना कटाई वाली machine की compensation चाहिए सही ना?",
+      "start": 24.93,
+      "end": 28.99
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 30.35,
+      "end": 30.81
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। ठीक है? आप अपनी city और state भी बता दीजिए please।",
+      "start": 32.61,
+      "end": 39.81
+    },
+    {
+      "role": "BUYER",
+      "text": "उत्तर प्रदेश।",
+      "start": 43.23,
+      "end": 44.91
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए क्या आप अपनी city का नाम बता सकते हैं? आपने state उत्तर प्रदेश बताया है।",
+      "start": 45.99,
+      "end": 51.03
+    },
+    {
+      "role": "BUYER",
+      "text": "तास फिल्म जी तास फिल्म जी। माफ़ कीजिए मुझे city का नाम समझ नहीं आ रहा है। क्या आप कृपया अपने city का नाम फिर से बता सकते हैं? कास्टगंज। मुझे खेद है लेकिन सात second किसी city का नाम नहीं लग रहा है। क्या आप कृपया अपने city का नाम फिर से बता सकते हैं? एटा, अलीगढ़, कासगंज।",
+      "start": 53.05,
+      "end": 74.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप बेटा Uttar Pradesh से बोल रहे हैं ना?",
+      "start": 75.85,
+      "end": 78.15
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 79.49,
+      "end": 80.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपना नाम भी बता दीजिए please.",
+      "start": 81.25,
+      "end": 83.37
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं किशोर।",
+      "start": 85.09,
+      "end": 85.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है किशोर जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 87.07,
+      "end": 95.99
+    },
+    {
+      "role": "BUYER",
+      "text": "सत्रह। उसका price.",
+      "start": 94.31,
+      "end": 96.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.42,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

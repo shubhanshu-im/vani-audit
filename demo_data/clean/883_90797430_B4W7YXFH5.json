@@ -1,0 +1,64 @@
+{
+  "call_id": "883_90797430_B4W7YXFH5",
+  "file": "data/recordings/883_90797430_B4W7YXFH5.mp3",
+  "duration_s": 24.98,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपकी Panasonic CF33 rugged laptop convertible to tablet की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.23,
+      "end": 8.79
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी।",
+      "start": 1.47,
+      "end": 1.89
+    },
+    {
+      "role": "BOT",
+      "text": "हम्म। बिल्कुल मैं इंतज़ार कर रहा हूँ।",
+      "start": 10.75,
+      "end": 14.33
+    },
+    {
+      "role": "BUYER",
+      "text": "इंतजार।",
+      "start": 13.21,
+      "end": 13.77
+    },
+    {
+      "role": "BOT",
+      "text": "आप free में laptop देंगे क्या?",
+      "start": 16.37,
+      "end": 18.49
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मैं सिर्फ एक help desk agent हूं। laptop के price और deals के लिए मैं आपकी बात seller से करवा सकता हूं।",
+      "start": 19.51,
+      "end": 24.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 2.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

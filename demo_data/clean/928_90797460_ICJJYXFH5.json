@@ -1,0 +1,98 @@
+{
+  "call_id": "928_90797460_ICJJYXFH5",
+  "file": "data/recordings/928_90797460_ICJJYXFH5.mp3",
+  "duration_s": 62.57,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको oil immersed star delta starter की requirement है ना?",
+      "start": 0.01,
+      "end": 4.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी Madam हमें एक सौ बीस HP motor के लिए call किया था।",
+      "start": 5.35,
+      "end": 10.63
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं ठीक है। कितनी piece चाहिए होगी आपको?",
+      "start": 12.03,
+      "end": 18.23
+    },
+    {
+      "role": "BUYER",
+      "text": "आप जो seller को call कर रहे थे वो। हमको दो piece चाहिए oil starter एक सौ बीस HP motor के लिए।",
+      "start": 12.61,
+      "end": 24.59
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। मैं देख पा रही हूं आपको phase three phase ही चाहिए ना?",
+      "start": 25.89,
+      "end": 29.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी जी three phase चार सौ पंद्रह volt voltage चाहिए।",
+      "start": 30.63,
+      "end": 34.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख सकती हूं कि आपने starting method में star delta चुना है right?",
+      "start": 35.73,
+      "end": 39.45
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है आपने। जी जी जी।",
+      "start": 36.57,
+      "end": 41.37
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी। ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 42.15,
+      "end": 50.05
+    },
+    {
+      "role": "BUYER",
+      "text": "details WhatsApp. हाँ। हाँ यही WhatsApp number है।",
+      "start": 42.95,
+      "end": 53.03
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 53.03,
+      "end": 56.01
+    },
+    {
+      "role": "BUYER",
+      "text": "जी इसमें।",
+      "start": 57.03,
+      "end": 57.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 1.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

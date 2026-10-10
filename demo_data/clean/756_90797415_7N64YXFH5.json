@@ -1,0 +1,164 @@
+{
+  "call_id": "756_90797415_7N64YXFH5",
+  "file": "data/recordings/756_90797415_7N64YXFH5.mp3",
+  "duration_s": 109.73,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 2.81
+    },
+    {
+      "role": "BUYER",
+      "text": "fiber वाली बीस inch fan वाला।",
+      "start": 6.01,
+      "end": 11.81
+    },
+    {
+      "role": "BOT",
+      "text": "आपको fiber वाला exhaust fan चाहिए जो आमतौर पे हवा बाहर निकालने के काम आता है। यही product चाहिए ना?",
+      "start": 12.93,
+      "end": 18.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ fiber body।",
+      "start": 19.55,
+      "end": 21.01
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 22.67,
+      "end": 28.41
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं वैसे तो एक piece चाहिए मात्र।",
+      "start": 31.07,
+      "end": 34.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको sweep size कितनी चाहिए जैसे 18 inch, 12 inch या कुछ और?",
+      "start": 35.25,
+      "end": 39.07
+    },
+    {
+      "role": "BUYER",
+      "text": "बीस inch.",
+      "start": 40.29,
+      "end": 41.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? motor phase single phase चाहिए या three phase?",
+      "start": 42.45,
+      "end": 45.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Single single.",
+      "start": 48.23,
+      "end": 51.73
+    },
+    {
+      "role": "BOT",
+      "text": "binding material copper चाहिए या aluminium?",
+      "start": 50.31,
+      "end": 53.03
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं Pfizer vaccine ही चाहिए मुझे।",
+      "start": 55.71,
+      "end": 59.07
+    },
+    {
+      "role": "BOT",
+      "text": "जी fiber body ही रहेगा। अब ये बताइए कि winding material copper चाहिए या aluminium?",
+      "start": 60.25,
+      "end": 65.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हं। कापर कापर।",
+      "start": 63.11,
+      "end": 70.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "start": 71.75,
+      "end": 74.43
+    },
+    {
+      "role": "BUYER",
+      "text": "State छत्तीसगढ़। City छत्तीसगढ़।",
+      "start": 77.09,
+      "end": 80.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। छत्तीसगढ़ में आप किस city से बोल रहे हैं? please बता दीजिए।",
+      "start": 80.17,
+      "end": 83.91
+    },
+    {
+      "role": "BUYER",
+      "text": "करसीं।",
+      "start": 86.27,
+      "end": 87.03
+    },
+    {
+      "role": "BOT",
+      "text": "आप खरसिया छत्तीसगढ़ से बोल रहे हैं ना?",
+      "start": 88.17,
+      "end": 90.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 92.09,
+      "end": 92.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] जी बोल रहे हैं ना?",
+      "start": 93.73,
+      "end": 95.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म हम्म।",
+      "start": 97.81,
+      "end": 98.61
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 99.79,
+      "end": 107.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 11,
+    "longest_gap_s": 4.1,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

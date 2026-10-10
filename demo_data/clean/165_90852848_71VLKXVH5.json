@@ -1,0 +1,146 @@
+{
+  "call_id": "165_90852848_71VLKXVH5",
+  "file": "data/recordings/165_90852848_71VLKXVH5.mp3",
+  "duration_s": 91.51,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Betta fighter aquarium fish की requirement है ना?",
+      "start": 0.01,
+      "end": 3.75
+    },
+    {
+      "role": "BUYER",
+      "text": "నేను తెలుగు హిందీ. హిందీనే తెలుగు ఆంధ్రప్రదేశ్.",
+      "start": 6.47,
+      "end": 11.21
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं सिर्फ हिंदी या English में बात कर सकती हूं। क्या हम हिंदी में बात करें?",
+      "start": 13.01,
+      "end": 17.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. English English.",
+      "start": 14.03,
+      "end": 20.43
+    },
+    {
+      "role": "BOT",
+      "text": "Sure. I can speak in English. You are looking for better fighter aquarium fish, right?",
+      "start": 21.41,
+      "end": 26.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 27.89,
+      "end": 28.57
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were calling is unavailable and I am calling from IndiaMART. How many pieces of pears do you need?",
+      "start": 29.47,
+      "end": 35.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Only one case.",
+      "start": 38.01,
+      "end": 39.23
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I see you selected fighter for the brief. That's what you need, right?",
+      "start": 40.07,
+      "end": 43.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 46.73,
+      "end": 47.47
+    },
+    {
+      "role": "BOT",
+      "text": "Great. Now what size would you prefer? I'm sorry I couldn't quite catch that. Which size do you prefer like 1 inch or 2 inch?",
+      "start": 48.51,
+      "end": 55.71
+    },
+    {
+      "role": "BUYER",
+      "text": "I will do it. One inch.",
+      "start": 49.57,
+      "end": 58.97
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, could you please tell me your city and state?",
+      "start": 60.21,
+      "end": 63.21
+    },
+    {
+      "role": "BUYER",
+      "text": "ఆంధ్రప్రదేశ్ కృష్ణా District బంటిమిల్లి.",
+      "start": 65.35,
+      "end": 68.75
+    },
+    {
+      "role": "BOT",
+      "text": "You are speaking from Krishna, Andhra Pradesh, right?",
+      "start": 69.67,
+      "end": 72.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Oh.",
+      "start": 74.17,
+      "end": 74.73
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, are you [NAME] [NAME] ji?",
+      "start": 75.85,
+      "end": 77.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 79.81,
+      "end": 80.45
+    },
+    {
+      "role": "BOT",
+      "text": "I will send the seller details on WhatsApp where you can discuss the price and other details. Thank you for choosing IndiaMart, have a good day.",
+      "start": 81.35,
+      "end": 89.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 91.19,
+      "end": 92.33
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.86,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

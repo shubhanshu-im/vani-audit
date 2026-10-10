@@ -1,0 +1,316 @@
+{
+  "call_id": "18_90643029_3JU3S3KG5",
+  "duration_s": 140.47,
+  "graded_at": "2026-10-10T12:26:27+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Quantity Probing Error, Looping Behavior, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=11.6 आपको कितने piece या kilogram चाहिए?",
+      "timestamp": 11.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot re-asked quantity after buyer already gave it.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=11.6 आपको कितने piece या kilogram चाहिए?",
+      "timestamp": 11.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question after buyer already gave it.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=39.2 मैं एक इंसान जैसी आवाज़ में आपकी मदद कर रही हूँ।",
+      "timestamp": 39.23,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot disclosed AI identity, violating prompt rules.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot proceeded with collection."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 10 pieces."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit piece was correctly captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=11.6 आपको कितने piece या kilogram चाहिए?",
+      "timestamp": 11.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot re-asked quantity after buyer already gave it.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.6
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed 6mm thickness correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured length as 10 feet from 'das page' (10 feet)."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 and Spec2 were captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=11.6 आपको कितने piece या kilogram चाहिए?",
+      "timestamp": 11.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question after buyer already gave it.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.6
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's 'page' and bot's 'feet' are equivalent in this context."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed and remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=39.2 मैं एक इंसान जैसी आवाज़ में आपकी मदद कर रही हूँ।",
+      "timestamp": 39.23,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot disclosed AI identity, violating prompt rules.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.2
+    }
+  ],
+  "captured_lead": {
+    "product": "6 mm recycled plastic corrugated sheet",
+    "quantity": "10",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "thickness",
+        "value": "6 millimeter"
+      },
+      {
+        "name": "length",
+        "value": "10 feet"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked if bot is AI or human multiple times.",
+      "timestamp": 32.1,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot failed to capture city/state due to low ASR confidence.",
+      "timestamp": 124.6,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: quantity 5/3",
+      "timestamp": 11.61,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot disclosed AI identity. Failed to capture location. Abruptly ended call without creating lead or transferring.",
+  "analysis": "Buyer wanted 10 pieces of 6mm recycled plastic corrugated sheets. Bot confirmed 10 pieces and 6mm thickness, but misheard length as 10 feet (from 'das page' = 10 feet). Buyer gave location as 'Arrah, Bhojpur, Bihar'. Bot failed to capture city/state correctly and ended abruptly. No lead was created due to location failure and abrupt end.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 10565,
+    "completion_tokens": 3347
+  },
+  "unresolved_problems": []
+}

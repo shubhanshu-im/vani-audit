@@ -1,0 +1,74 @@
+{
+  "call_id": "514_90852979_UKT9MXVH5",
+  "file": "data/recordings/514_90852979_UKT9MXVH5.mp3",
+  "duration_s": 40.75,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी digital multimeter Fluke 102A की request IndiaMART पर रही है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.21,
+      "end": 7.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 9.95,
+      "end": 10.57
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब max voltage के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 1000 volts या कुछ और?",
+      "start": 12.09,
+      "end": 16.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Z T one O two.",
+      "start": 18.85,
+      "end": 21.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 22.49,
+      "end": 27.69
+    },
+    {
+      "role": "BUYER",
+      "text": "के बारे में। नहीं नहीं।",
+      "start": 24.23,
+      "end": 29.69
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 30.73,
+      "end": 36.87
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हो।",
+      "start": 36.99,
+      "end": 39.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.36,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

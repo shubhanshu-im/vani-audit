@@ -1,0 +1,122 @@
+{
+  "call_id": "144_90741487_NXS8FL4H5",
+  "file": "data/recordings/144_90741487_NXS8FL4H5.mp3",
+  "duration_s": 129.96,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको zero gravity massage chair की requirement है ना? माफ़ कीजिए मैं सिर्फ product से जुड़ी जानकारी में आपकी मदद कर सकती हूं। आपको zero gravity massage chair की requirement है ना?",
+      "start": 0.01,
+      "end": 15.25
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 8.43,
+      "end": 8.79
+    },
+    {
+      "role": "BOT",
+      "text": "जी। मैं सिर्फ product से जुड़ी जानकारी में आपकी मदद कर सकती हूं। क्या आपको zero gravity massage chair की जरूरत है? हां ma'am। ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। सबसे पहले बताइए आपको इसका इस्तेमाल किसके लिए चाहिए personal salon या कुछ और?",
+      "start": 16.21,
+      "end": 42.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 36.39,
+      "end": 36.91
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ जी। समझ गई। आप बताइए इसका इस्तेमाल किसके लिए चाहिए? personal, salon या कुछ और? ओम शांति। ठीक है? अब बताइए handling में क्या prefer करेंगे portable, fixed या कोई और?",
+      "start": 43.65,
+      "end": 58.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 61.85,
+      "end": 62.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state",
+      "start": 65.23,
+      "end": 67.11
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। आप अपनी city और state भी बता।",
+      "start": 65.61,
+      "end": 67.55
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ बिल्कुल आपसे city और state पूछ रही थी please बता दीजिए। Double four. Sorry आपकी आवाजें थोड़ी unclear आई कृपया अपनी city और state का नाम बता दीजिए।",
+      "start": 69.35,
+      "end": 81.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ मैं Charles के लिए।",
+      "start": 82.77,
+      "end": 85.05
+    },
+    {
+      "role": "BOT",
+      "text": "price और charges seller से discuss कर सकते हैं। पहले अपनी city और state बता दीजिए ताकि मैं आपको सही seller से connect कर सकूं। हाँ जी बोलतो।",
+      "start": 86.91,
+      "end": 96.35
+    },
+    {
+      "role": "BUYER",
+      "text": "माफ़ कीजिए आपकी city और state का नाम clear नहीं हुआ। कृपया एक बार फिर से अपना city और state बता दें।",
+      "start": 98.19,
+      "end": 103.63
+    },
+    {
+      "role": "BOT",
+      "text": "जी।",
+      "start": 98.97,
+      "end": 99.25
+    },
+    {
+      "role": "BUYER",
+      "text": "MP double four. बहुत बढ़िया आप जबलपुर मध्य प्रदेश से बोल रहे हैं ना? ठीक है? अब आप कंजी बोल रहे हैं ना?",
+      "start": 105.05,
+      "end": 115.87
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 117.17,
+      "end": 127.11
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 127.89,
+      "end": 128.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 4.26,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 6,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

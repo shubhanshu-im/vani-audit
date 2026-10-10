@@ -1,0 +1,112 @@
+{
+  "call_id": "105_90852813_N3TUJXVH5",
+  "file": "data/recordings/105_90852813_N3TUJXVH5.mp3",
+  "duration_s": 62.28,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको पच्चीस ton lifting crane की requirement है ना?",
+      "start": 0.01,
+      "end": 4.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.41,
+      "end": 0.73
+    },
+    {
+      "role": "BOT",
+      "text": "जी। पच्चीस से की requirement है ना?",
+      "start": 1.11,
+      "end": 4.29
+    },
+    {
+      "role": "BUYER",
+      "text": "नाही हो आपल्या मागे नाव लावलं का? अहो लवकर येते गाडी जाऊ दे. Hello.",
+      "start": 5.77,
+      "end": 13.35
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए, मैं सिर्फ हिंदी या English में ही बात कर सकती हूं। अगर आपको 25 ton lifting crane की ज़रूरत है तो बताइए, मैं seller details भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 15.29,
+      "end": 25.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 26.89,
+      "end": 27.43
+    },
+    {
+      "role": "BOT",
+      "text": "नाही ते फसली त्यांची गाडी hello.",
+      "start": 28.57,
+      "end": 33.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 32.19,
+      "end": 32.77
+    },
+    {
+      "role": "BOT",
+      "text": "आपको seller का पता चाहिए या कुछ और जानकारी चाहिए?",
+      "start": 35.55,
+      "end": 40.11
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको seller का पता चाहिए या कुछ और जानकारी?",
+      "start": 35.83,
+      "end": 38.29
+    },
+    {
+      "role": "BOT",
+      "text": "मुझे सिर्फ IndiaMART से जुड़ी product या seller की जानकारी में आपकी मदद कर सकती हूं। कृपया बताइए आपको और...",
+      "start": 42.37,
+      "end": 48.83
+    },
+    {
+      "role": "BUYER",
+      "text": "कृपया बताइए।",
+      "start": 46.91,
+      "end": 51.55
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं सिर्फ IndiaMART से जुड़ी product या seller की जानकारी दे सकती हूं। बाकी जानकारी के लिए seller से बात कर सकते हैं।",
+      "start": 53.85,
+      "end": 60.91
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 54.17,
+      "end": 54.69
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.3,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 5
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

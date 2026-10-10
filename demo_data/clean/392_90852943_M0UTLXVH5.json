@@ -1,0 +1,34 @@
+{
+  "call_id": "392_90852943_M0UTLXVH5",
+  "file": "data/recordings/392_90852943_M0UTLXVH5.mp3",
+  "duration_s": 7.49,
+  "language_code": "en-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Shivji, you were looking for bio coal briquetting machine right?",
+      "start": 0.31,
+      "end": 5.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker",
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

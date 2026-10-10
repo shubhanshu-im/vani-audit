@@ -1,0 +1,303 @@
+{
+  "call_id": "570_90685086_IV24K1UG5",
+  "duration_s": 66.1,
+  "graded_at": "2026-10-10T12:36:16+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "WER: Severe misrecognition of buyer's language preference causing abrupt cutoff.",
+  "fatal_params": [
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello, आपको Hyundai Creta 2020 full LED tail lamp OEM की requirement है ना?",
+      "timestamp": 0.23,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated product question after initial misunderstanding.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.4
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "बारे में आपके Okay Tamil.",
+      "timestamp": 47.45,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Severe misrecognition of buyer's language preference causing abrupt cutoff.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बारे में आपके Okay Tamil.",
+      "timestamp": 47.45,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misrecognized buyer's language preference and abruptly terminated call.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No lead was created or transferred due to call termination."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed or captured."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed or captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Specs were never discussed or captured."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Specs were never discussed or captured."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were asked or captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello, आपको Hyundai Creta 2020 full LED tail lamp OEM की requirement है ना?",
+      "timestamp": 0.23,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated product question after initial misunderstanding.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.4
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "बारे में आपके Okay Tamil.",
+      "timestamp": 47.45,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Severe misrecognition of buyer's language preference causing abrupt cutoff.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.5
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were captured."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered due to call termination."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was correctly identified at the start."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search was performed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बारे में आपके Okay Tamil.",
+      "timestamp": 47.45,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misrecognized buyer's language preference and abruptly terminated call.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.5
+    }
+  ],
+  "captured_lead": {
+    "product": "Hyundai Creta 2020 full LED tail lamp OEM",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer stated language preference twice, bot cut off.",
+      "timestamp": 47.5,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot failed to understand buyer's language preference.",
+      "timestamp": 12.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to understand buyer's language preference and abruptly terminated the call.",
+  "analysis": "Buyer wanted Hyundai Creta 2020 full LED tail lamp OEM. Bot misidentified language as Tamil despite buyer saying Hindi/English. Bot failed to collect quantity, specs, or contact details due to severe ASR issues and abrupt cutoff at 47.5s. Buyer clarified language preference but bot cut off.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3741,
+    "completion_tokens": 1193
+  },
+  "unresolved_problems": []
+}

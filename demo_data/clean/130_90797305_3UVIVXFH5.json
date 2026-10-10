@@ -1,0 +1,86 @@
+{
+  "call_id": "130_90797305_3UVIVXFH5",
+  "file": "data/recordings/130_90797305_3UVIVXFH5.mp3",
+  "duration_s": 59.98,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको wireless GSM intrusion alarm kit की requirement है ना?",
+      "start": 0.11,
+      "end": 4.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हो गया madam.",
+      "start": 5.49,
+      "end": 6.33
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी बात पूरी तरह समझ नहीं पाई। आपको wireless GSM intrusion alarm kit चाहिए थी ना?",
+      "start": 9.57,
+      "end": 14.67
+    },
+    {
+      "role": "BUYER",
+      "text": "गाड़ के हम करे इसलिए बोल रहे थे इसलिए मैंने call किया। घर पर guard की जरूरत है ना?",
+      "start": 16.37,
+      "end": 23.11
+    },
+    {
+      "role": "BOT",
+      "text": "आपको security guard या घर की security से जुड़ा कोई product चाहिए था क्या? कृपया थोड़ा clear बता दें किस चीज की जरूरत है?",
+      "start": 25.19,
+      "end": 31.87
+    },
+    {
+      "role": "BUYER",
+      "text": "जी किसी security guard का नौकरी का तलाश है।",
+      "start": 32.45,
+      "end": 35.91
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं job या काम दिलाने में मदद नहीं कर सकती। IndiaMART सिर्फ products खरीदने बेचने का platform है। क्या आपको कोई product खरीदना था?",
+      "start": 37.77,
+      "end": 46.27
+    },
+    {
+      "role": "BUYER",
+      "text": "No Madam.",
+      "start": 46.95,
+      "end": 47.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 50.57,
+      "end": 56.31
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay Madam.",
+      "start": 56.91,
+      "end": 57.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

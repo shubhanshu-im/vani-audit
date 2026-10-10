@@ -1,0 +1,81 @@
+{
+  "call_id": "122_90852829_JH0CKXVH5",
+  "file": "data/recordings/122_90852829_JH0CKXVH5.mp3",
+  "duration_s": 56.66,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको coffee and tea vending machine की requirement है ना?",
+      "start": 0.01,
+      "end": 3.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.15,
+      "end": 0.63
+    },
+    {
+      "role": "BOT",
+      "text": "आप अभी line पे हैं? अगर आपको coffee and tea vending machine चाहिए तो बताइए please.",
+      "start": 14.31,
+      "end": 18.47
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं है क्या भाई?",
+      "start": 20.17,
+      "end": 21.63
+    },
+    {
+      "role": "BOT",
+      "text": "price की जानकारी seller ही देंगे। बस कुछ details confirm कर दीजिए फिर मैं आपको best seller से connect करवा दूंगी। चलिए number of lanes में आपको कौन सा चाहिए दो तीन या four lanes?",
+      "start": 23.41,
+      "end": 33.07
+    },
+    {
+      "role": "BUYER",
+      "text": "बहुत बढ़िया seller आप।",
+      "start": 35.69,
+      "end": 40.25
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया seller आपको जल्दी जवाब देंगे। पहले बताइए number of lane इसमें आपको कौन सा चाहिए दो तीन या चार? माफ़ कीजिए आपकी आवाज़ clear नहीं आई। number of lens में कौन सा चाहिए दो तीन या चार?",
+      "start": 39.23,
+      "end": 55.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 10.36,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 3.95,
+        "end": 14.31,
+        "duration_s": 10.36,
+        "after_role": "BOT"
+      },
+      {
+        "start": 45.21,
+        "end": 51.05,
+        "duration_s": 5.84,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

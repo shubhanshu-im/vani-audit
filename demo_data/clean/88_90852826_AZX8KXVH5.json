@@ -1,0 +1,213 @@
+{
+  "call_id": "88_90852826_AZX8KXVH5",
+  "file": "data/recordings/88_90852826_AZX8KXVH5.mp3",
+  "duration_s": 175.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "तो आपको jumping slide bouncy की requirement है ना?",
+      "start": 0.01,
+      "end": 3.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 4.11,
+      "end": 4.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए पहले dimensions के बारे में बताइए। आपको कौन सा चाहिए 12 बाय 18 feet, 14 बाय 22 feet या कुछ और?",
+      "start": 6.21,
+      "end": 20.57
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मेरेको bounce ही नहीं चाहिए। इस दिन को डालना रहते देखिए Mickey Mouse को ये।",
+      "start": 21.05,
+      "end": 26.31
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए आपको कोई और product चाहिए था? क्या आप Mickey Mouse या slogan doll के बारे में बात कर रहे हैं? कृपया साफ-साफ product का नाम बता दीजिए ताकि मैं सही तरीके से आपकी मदद कर सकूं।",
+      "start": 28.01,
+      "end": 37.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। कृपया साफ। जी। हाँ वो Mickey Mouse doll चाहिए था हमको।",
+      "start": 30.51,
+      "end": 41.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपने Mickey Mouse doll बताया है। यह वो खिलौना है जो बच्चों के खेलने के लिए होता है। यही चाहिए।",
+      "start": 42.65,
+      "end": 48.43
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं नहीं वो suit रहता देखिए। आपने",
+      "start": 48.81,
+      "end": 54.97
+    },
+    {
+      "role": "BOT",
+      "text": "आप Mickey Mouse doll.",
+      "start": 54.09,
+      "end": 55.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ हाँ theme वो रहता ना doll वो जो event में रहता देखिए।",
+      "start": 56.87,
+      "end": 61.41
+    },
+    {
+      "role": "BOT",
+      "text": "ओह आप Mickey Mouse theme वाला costume या event में use होने वाला बड़ा doll mascot dress मांग रहे हैं ना? यही चाहिए आपको?",
+      "start": 63.23,
+      "end": 70.03
+    },
+    {
+      "role": "BUYER",
+      "text": "यही चाहिए आपको। जी जी हां।",
+      "start": 68.95,
+      "end": 70.97
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए आपको कितने piece या set चाहिए होंगे?",
+      "start": 77.03,
+      "end": 80.11
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को दो piece चाहिए।",
+      "start": 81.09,
+      "end": 82.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है दो piece चाहिए। अब बता दीजिए आपको किस तरह का चाहिए inflatable या walking?",
+      "start": 84.55,
+      "end": 89.13
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मैं अभी photos choice का ये बात की बोलूंगा ना। अभी photos नहीं है ना इसपे Google Pay।",
+      "start": 90.19,
+      "end": 97.29
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं अभी photo की जरूरत नहीं है। बस बता दीजिए आपको किस type का mascot चाहिए inflatable या walking या फिर कुछ और?",
+      "start": 99.99,
+      "end": 107.05
+    },
+    {
+      "role": "BUYER",
+      "text": "ऐसा event में जैसा रहता ना वैसा चाहिए हमको।",
+      "start": 110.17,
+      "end": 112.93
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई events में आमतौर पे walking type use होता है। क्या यही चाहिए या आपको कोई और type चाहिए?",
+      "start": 114.53,
+      "end": 120.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Walking time.",
+      "start": 121.49,
+      "end": 122.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है walking type चाहिए। अब बता दीजिए character theme में आपको Mickey Mouse चाहिए या कुछ और?",
+      "start": 124.61,
+      "end": 129.99
+    },
+    {
+      "role": "BUYER",
+      "text": "फिर मैं select नहीं कराना madam मुझे। select करने के बाद ही बोलूंगा ना मैं कौन सा कौन सा home का available है।",
+      "start": 132.73,
+      "end": 138.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। seller आपको सारे character themes के options बता देंगे। आप वहीं select कर लीजिएगा। अब आप अपना city और state बता दीजिए please।",
+      "start": 141.37,
+      "end": 148.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Hyderabad, Charminar.",
+      "start": 149.45,
+      "end": 151.19
+    },
+    {
+      "role": "BOT",
+      "text": "आप Hyderabad Telangana से बोल रहे हैं ना?",
+      "start": 153.61,
+      "end": 155.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हां Hyderabad Telangana।",
+      "start": 156.11,
+      "end": 157.53
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आप मोहम्मद जी बोल रहे हैं ना?",
+      "start": 159.69,
+      "end": 161.85
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Mohammed।",
+      "start": 162.55,
+      "end": 163.57
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 164.95,
+      "end": 172.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Okay thank you Madam.",
+      "start": 170.13,
+      "end": 175.03
+    }
+  ],
+  "stats": {
+    "bot_turns": 15,
+    "buyer_turns": 15,
+    "longest_gap_s": 6.06,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 70.97,
+        "end": 77.03,
+        "duration_s": 6.06,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

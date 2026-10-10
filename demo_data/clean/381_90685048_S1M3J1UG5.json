@@ -1,0 +1,56 @@
+{
+  "call_id": "381_90685048_S1M3J1UG5",
+  "file": "data/recordings/381_90685048_S1M3J1UG5.mp3",
+  "duration_s": 46.8,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको Co2 fractional laser machine की requirement है ना?",
+      "start": 0.01,
+      "end": 4.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हं। नमस्ते आपको photo fractional laser machine की requirement थी ना?",
+      "start": 6.87,
+      "end": 12.85
+    },
+    {
+      "role": "BOT",
+      "text": "ये हम देख रहे थे क्या चीज है ये। ठीक है? GoTo fractional laser machine एक advanced medical device जो वो ले आए थे। आइए जो skin treatments के लिए इस्तेमाल होती है जैसे दाग धब्बे हटाना या चेहरे की rejuvenation। आपको...",
+      "start": 14.97,
+      "end": 30.41
+    },
+    {
+      "role": "BUYER",
+      "text": "यही चाहिए ना? नहीं।",
+      "start": 30.41,
+      "end": 32.63
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आप किस product या service के लिए बात करना चाह रहे थे? product का नाम बता दीजिए।",
+      "start": 34.55,
+      "end": 39.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

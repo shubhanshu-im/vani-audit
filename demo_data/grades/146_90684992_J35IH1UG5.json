@@ -1,0 +1,279 @@
+{
+  "call_id": "146_90684992_J35IH1UG5",
+  "duration_s": 69.12,
+  "graded_at": "2026-10-10T12:25:36+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Bot ignored buyer's correction of strength to 1050 mg.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी हां 1050 mg चाहिए और वो मेरे personal use के लिए चाहिए",
+      "timestamp": 28.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ignored buyer's correction of strength to 1050 mg.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "strength 15 mg ही चाहिए ना",
+      "timestamp": 20.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for wrong strength.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and bot closed with seller details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said two boxes, bot didn't mishear it."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said boxes, bot handled it."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity before bot asked."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about strength but buyer corrected to 1050 mg and bot dropped it."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Usage was captured as personal."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी हां 1050 mg चाहिए और वो मेरे personal use के लिए चाहिए",
+      "timestamp": 28.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ignored buyer's correction of strength to 1050 mg.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misheard words that affected the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot didn't record extra details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 50.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered seller details, no live transfer."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed as Lupiflex 4 mg."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant silence."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "strength 15 mg ही चाहिए ना",
+      "timestamp": 20.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for wrong strength.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.1
+    }
+  ],
+  "captured_lead": {
+    "product": "Lupiflex 4 mg tablets",
+    "quantity": "2",
+    "quantity_unit": "box",
+    "specs": [
+      {
+        "name": "use",
+        "value": "personal use"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Pune",
+    "state": null
+  },
+  "risk_flags": [],
+  "failure_description": "Bot failed to capture buyer's corrected strength (1050 mg).",
+  "analysis": "Buyer wanted Lupiflex 4 mg tablets for personal use, prescribed by a doctor, for Pune. Bot captured product, quantity (2 boxes), and use (personal). Bot closed by offering seller details via WhatsApp, implying a lead was created. No live seller was transferred.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3658,
+    "completion_tokens": 1143
+  },
+  "unresolved_problems": []
+}

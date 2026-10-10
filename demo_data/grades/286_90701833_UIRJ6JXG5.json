@@ -1,0 +1,311 @@
+{
+  "call_id": "286_90701833_UIRJ6JXG5",
+  "duration_s": 61.06,
+  "graded_at": "2026-10-10T12:28:59+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer stated requirement but call ended unresolved before any lead or transfer.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको power में क्या prefer करेंगे जैसे one",
+      "timestamp": 55.85,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated requirement but call ended unresolved before any lead or transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको power में क्या prefer करेंगे जैसे one",
+      "timestamp": 55.85,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's clarification about needing 'light' and repeated the power question, leading to abrupt end.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको power में क्या prefer करेंगे जैसे one",
+      "timestamp": 55.85,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to understand buyer's clarification about 'light' and repeated the question.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको power में क्या prefer करेंगे जैसे one",
+      "timestamp": 55.85,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated requirement but call ended unresolved before any lead or transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was read back or confirmed by the bot before the call ended."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was read back or confirmed by the bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was stated, but the bot did not capture or read it back before the call ended."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for power spec but did not read back or confirm a value before call ended."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for a second spec before the call ended."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not get to capture name, city, or state before the call ended."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated loops occurred; the call ended abruptly."
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको power में क्या prefer करेंगे जैसे one",
+      "timestamp": 55.85,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's clarification about needing 'light' and repeated the power question, leading to abrupt end.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were captured before the call ended."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered before the call ended."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never in question or changed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory spec options were presented."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors were evident in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air was detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको power में क्या prefer करेंगे जैसे one",
+      "timestamp": 55.85,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to understand buyer's clarification about 'light' and repeated the question.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.9
+    }
+  ],
+  "captured_lead": {
+    "product": "rechargeable torch",
+    "quantity": "20-25",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "power",
+        "value": "100 watts or other"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot could not understand buyer's clarification about light.",
+      "timestamp": 55.9,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer gave quantity and spec but call ended unresolved.",
+      "timestamp": 26.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard buyer's clarification and abruptly ended the call without collecting name, city, or state. No lead was created or transferred.",
+  "analysis": "Buyer wants 20-25 rechargeable torches, 2-4 quality. Bot asks for power spec (100W or other), then abruptly ends without resolving buyer's clarification about 'light'. Bot did not collect name, city, or state. Outcome is unclear because the call ended before confirming a requirement or creating a lead.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '20-25': number(s) ['20', '25'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3607,
+    "completion_tokens": 1733
+  },
+  "unresolved_problems": []
+}

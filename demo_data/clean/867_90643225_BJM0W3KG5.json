@@ -1,0 +1,92 @@
+{
+  "call_id": "867_90643225_BJM0W3KG5",
+  "file": "data/recordings/867_90643225_BJM0W3KG5.mp3",
+  "duration_s": 77.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको tempered glass making machine की requirement है ना?",
+      "start": 0.01,
+      "end": 4.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म बोलिए।",
+      "start": 5.73,
+      "end": 6.93
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब automation grade के बारे में बात कर लेते हैं। आपको semi-automatic चाहिए या automatic?",
+      "start": 8.11,
+      "end": 17.65
+    },
+    {
+      "role": "BUYER",
+      "text": "इसके बारे में जानकारी हमको नहीं आप हमको बताएं इससे नहीं automatic क्या होता है और automatic क्या होता है?",
+      "start": 19.71,
+      "end": 24.63
+    },
+    {
+      "role": "BOT",
+      "text": "semi-automatic में कुछ काम आपको खुद करने होंगे जबकि automatic machine सारा काम अपने आप करती है। अब बताइए आप क्या prefer करेंगे?",
+      "start": 25.83,
+      "end": 32.99
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे दोनों के बारे में पहले बताइए। इसमें automatic में जिस type किस type का काम करना होगा? means बताइए तो खोल के हमको।",
+      "start": 34.67,
+      "end": 40.87
+    },
+    {
+      "role": "BOT",
+      "text": "semi-automatic में आपको glass slot करने और finishing जैसे कुछ steps manually करने होंगे। बाकी काम machine करेगी। अब बताइए आपको कौन सा चाहिए?",
+      "start": 42.11,
+      "end": 50.25
+    },
+    {
+      "role": "BUYER",
+      "text": "semi automatic ही बताइए।",
+      "start": 52.43,
+      "end": 53.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए production capacity में आप क्या prefer करेंगे?",
+      "start": 54.99,
+      "end": 58.45
+    },
+    {
+      "role": "BUYER",
+      "text": "production में means समझ नहीं पा रहा मैं क्या बोल रहा हूं।",
+      "start": 62.37,
+      "end": 66.13
+    },
+    {
+      "role": "BOT",
+      "text": "Production capacity का मतलब है कि एक दिन में machine कितने glass बना सकती है इसके बारे में आप seller से discuss कर सकते हैं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price...",
+      "start": 67.41,
+      "end": 77.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.92,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

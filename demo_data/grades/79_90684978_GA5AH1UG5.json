@@ -1,0 +1,318 @@
+{
+  "call_id": "79_90684978_GA5AH1UG5",
+  "duration_s": 66.67,
+  "graded_at": "2026-10-10T12:42:34+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed without collecting quantity, name, or location; created a vague WhatsApp lead.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Quantity Probing Error",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्या आप अभी ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 35.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without collecting quantity, name, or location; created a vague WhatsApp lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 35.1
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 8.35,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity but buyer's response was vague; bot never confirmed or followed up correctly.",
+      "evidence_verified": true,
+      "llm_timestamp": 8.3
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मैं देख पा रही हूं आपको condition use ही चाहिए ना?",
+      "timestamp": 35.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot captured condition but failed to record it in the lead, and skipped name/location entirely.",
+      "evidence_verified": true,
+      "llm_timestamp": 35.1
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=40.4 9.4s silence after BUYER",
+      "timestamp": 40.4,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot-side silence of more than 5 seconds, but buyer did not hang up.",
+      "evidence_verified": true
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्या आप अभी ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 35.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without collecting quantity, name, or location; created a vague WhatsApp lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 35.1
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity or unit was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 8.35,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity but buyer's response was vague; bot never confirmed or followed up correctly.",
+      "evidence_verified": true,
+      "llm_timestamp": 8.3
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was provided by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for brand but buyer did not provide a specific brand value."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for brand but buyer did not provide a specific brand value."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मैं देख पा रही हूं आपको condition use ही चाहिए ना?",
+      "timestamp": 35.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot captured condition but failed to record it in the lead, and skipped name/location entirely.",
+      "evidence_verified": true,
+      "llm_timestamp": 35.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping behavior occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions that impacted the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent (used mobiles)."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available to judge this."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search was performed or system data available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=40.4 9.4s silence after BUYER",
+      "timestamp": 40.4,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot-side silence of more than 5 seconds, but buyer did not hang up.",
+      "evidence_verified": true
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "not returned by the grader"
+    }
+  ],
+  "captured_lead": {
+    "product": "used mobiles",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "condition",
+        "value": "use"
+      }
+    ],
+    "name": null,
+    "city": "Delhi",
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot failed to collect essential buyer details like quantity and name.",
+      "timestamp": null,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without collecting critical lead fields (quantity, name, state) and failed to create a proper buy lead.",
+  "analysis": "Buyer wanted used mobiles in Delhi. Bot failed to collect quantity or brand. Buyer confirmed 'use hi chahiye' (condition). Bot offered WhatsApp lead and closed without creating a proper BL or asking for name/city/state. Call ended with a closing line implying no requirement was captured.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3538,
+    "completion_tokens": 1270
+  },
+  "unresolved_problems": []
+}

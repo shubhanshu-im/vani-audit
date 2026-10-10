@@ -1,0 +1,290 @@
+{
+  "call_id": "932_90685217_MVG2M1UG5",
+  "duration_s": 134.21,
+  "graded_at": "2026-10-10T12:45:55+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, Looping Behavior",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Ma'am यही था कि मतलब कि एक बार जैसे अगर इसका sample जैसे कभी चाय मंगवाते हैं तो जैसे sample कितने का चाय का अगर वो मिल जाता तो फिर उसी according वही मंगवा लेते",
+      "timestamp": 110.03,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer asked about sample price, which bot deferred to seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 110.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "कोई बात नहीं मैं समझा देती हूँ।",
+      "timestamp": 76.87,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated 'koi baat nahi' twice to explain tea forms.",
+      "evidence_verified": true,
+      "llm_timestamp": 76.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 20 kg correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 20 kg correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was discussed and captured."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 20 kg was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about form and buyer selected dust and granules."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about grade (OF) and buyer didn't know."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Ma'am यही था कि मतलब कि एक बार जैसे अगर इसका sample जैसे कभी चाय मंगवाते हैं तो जैसे sample कितने का चाय का अगर वो मिल जाता तो फिर उसी according वही मंगवा लेते",
+      "timestamp": 110.03,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer asked about sample price, which bot deferred to seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 110.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "कोई बात नहीं मैं समझा देती हूँ।",
+      "timestamp": 76.87,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated 'koi baat nahi' twice to explain tea forms.",
+      "evidence_verified": true,
+      "llm_timestamp": 76.9
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No critical misrecognized words affecting the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained tea throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot handled language and explanations well."
+    }
+  ],
+  "captured_lead": {
+    "product": "tea",
+    "quantity": "20",
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "form",
+        "value": "dust and granules"
+      },
+      {
+        "name": "grade",
+        "value": "OF"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer didn't understand grade OF.",
+      "timestamp": 92.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "The buyer wanted to start a new tea business and asked about the minimum quantity to order (20 kg). The bot asked for quantity twice, captured 20 kg, and explained tea forms (leaf/dust/granules). The buyer requested both dust and granules. The bot then asked about the grade (OF), which the buyer didn't understand. The call ended with the bot offering to send seller details on WhatsApp for sample and price discussion.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '20': number(s) ['20'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4162,
+    "completion_tokens": 1501
+  },
+  "unresolved_problems": []
+}

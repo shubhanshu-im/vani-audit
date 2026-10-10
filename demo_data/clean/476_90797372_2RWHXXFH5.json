@@ -1,0 +1,74 @@
+{
+  "call_id": "476_90797372_2RWHXXFH5",
+  "file": "data/recordings/476_90797372_2RWHXXFH5.mp3",
+  "duration_s": 41.04,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको four blade ceiling fan North Face 24 600 mm aluminium की requirement है ना?",
+      "start": 0.23,
+      "end": 7.01
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 8.33,
+      "end": 9.11
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने piece? चाहिए होगी आपको।",
+      "start": 10.85,
+      "end": 16.95
+    },
+    {
+      "role": "BUYER",
+      "text": "एक।",
+      "start": 18.55,
+      "end": 19.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब seat size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 1200 mm 48 inch या कुछ और?",
+      "start": 20.23,
+      "end": 26.71
+    },
+    {
+      "role": "BUYER",
+      "text": "एक हज़ार।",
+      "start": 28.07,
+      "end": 28.83
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे clear नहीं हो पाया। please एक बार फिर बता दीजिए sweet size में आपको क्या prefer करेंगे?",
+      "start": 29.89,
+      "end": 35.55
+    },
+    {
+      "role": "BUYER",
+      "text": "एक हज़ार। ठीक है? seller इस detail में आपकी मदद...",
+      "start": 36.89,
+      "end": 41.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

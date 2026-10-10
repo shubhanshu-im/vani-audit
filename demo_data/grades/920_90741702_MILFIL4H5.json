@@ -1,0 +1,330 @@
+{
+  "call_id": "920_90741702_MILFIL4H5",
+  "duration_s": 88.99,
+  "graded_at": "2026-10-10T12:45:32+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "WER: Bot misheard buyer's city 'बारन' as seller name 'Sandeep'.",
+  "fatal_params": [
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं अभी भी आपकी city का नाम नहीं समझ पा रही हूं। क्या आप कृपया अपनी city का नाम साफ बता सकते हैं?",
+      "timestamp": 64.29,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated city question twice, buyer provided city on third try.",
+      "evidence_verified": true,
+      "llm_timestamp": 64.3
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है कोई बात नहीं। अब Sandeep जी बोल रहे हैं ना?",
+      "timestamp": 73.67,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's city 'बारन' as seller name 'Sandeep'.",
+      "evidence_verified": true,
+      "llm_timestamp": 73.7
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 79.03,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp lead instead of live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 79.03,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp lead instead of live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clearly stated product and quantity, bot created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 300 kg as buyer stated."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'kg' captured correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured sulfur content 90% correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured packaging 5 kg correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No other critical specs were missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं अभी भी आपकी city का नाम नहीं समझ पा रही हूं। क्या आप कृपया अपनी city का नाम साफ बता सकते हैं?",
+      "timestamp": 64.29,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated city question twice, buyer provided city on third try.",
+      "evidence_verified": true,
+      "llm_timestamp": 64.3
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है कोई बात नहीं। अब Sandeep जी बोल रहे हैं ना?",
+      "timestamp": 73.67,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's city 'बारन' as seller name 'Sandeep'.",
+      "evidence_verified": true,
+      "llm_timestamp": 73.7
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 79.03,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp lead instead of live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.0
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change occurred."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "System data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 79.03,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp lead instead of live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.0
+    }
+  ],
+  "captured_lead": {
+    "product": "Sulfur bentonite",
+    "quantity": "300",
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "sulfur_content",
+        "value": "90%"
+      },
+      {
+        "name": "packaging_size",
+        "value": "5 kg"
+      }
+    ],
+    "name": null,
+    "city": "Barn",
+    "state": "Rajasthan"
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeated city name twice before bot understood.",
+      "timestamp": 60.2,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard city 'बारन' as 'Sandeep'.",
+      "timestamp": 73.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misidentified the buyer's city 'बारन' as 'Sandeep' due to ASR error. Bot offered WhatsApp lead instead of live seller transfer.",
+  "analysis": "Buyer wanted Sulfur Bentonite 90%. Bot captured product, quantity (300 kg), unit (kg), state (Rajasthan), and city (Barn). Bot misheard 'बारन' as 'Sandeep'. Bot offered WhatsApp lead instead of live seller transfer. Buyer confirmed all specs and quantity. Call ended with lead creation.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '300': number(s) ['300'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8904,
+    "completion_tokens": 2656
+  },
+  "unresolved_problems": []
+}

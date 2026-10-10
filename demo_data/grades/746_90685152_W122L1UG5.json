@@ -1,0 +1,288 @@
+{
+  "call_id": "746_90685152_W122L1UG5",
+  "duration_s": 75.89,
+  "graded_at": "2026-10-10T12:40:54+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Two four",
+      "timestamp": 45.03,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'Two four' for poles, bot asked for clarification.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 55.97,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp, which is a minor deviation.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product requirement and bot proceeded with lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated 'ek testing' and bot captured 1 piece."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 'piece' from buyer's context."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No missed quantity; bot captured buyer's 'ek' (one) piece."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for rated current and buyer said 'one six Mbps' which bot mapped to 16 ampere."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for number of poles and buyer confirmed 'Two pole two pole'."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No missed opportunity; bot captured both specs."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for poles twice due to ASR issue but resolved it."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Two four",
+      "timestamp": 45.03,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'Two four' for poles, bot asked for clarification.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained Legrand double pole MCB throughout."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 55.97,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp, which is a minor deviation.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.0
+    }
+  ],
+  "captured_lead": {
+    "product": "Legrand double pole MCB",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "rated current",
+        "value": "16 ampere"
+      },
+      {
+        "name": "number of poles",
+        "value": "two"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wanted a Legrand double pole MCB for testing (1 piece). Bot confirmed product and captured quantity as 1 piece, rated current 16 ampere, and number of poles as two. Buyer clarified 'two four' and 'two pole two pole'. Bot closed by saying it would share seller details on WhatsApp, implying lead creation without explicit lead confirmation. Call ended with bot thanking buyer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3733,
+    "completion_tokens": 1461
+  },
+  "unresolved_problems": []
+}

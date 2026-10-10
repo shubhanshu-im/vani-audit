@@ -1,0 +1,74 @@
+{
+  "call_id": "36_90797304_8X8IVXFH5",
+  "file": "data/recordings/36_90797304_8X8IVXFH5.mp3",
+  "duration_s": 54.14,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "आपको Hikvision video door phone की requirement है ना?",
+      "start": 0.01,
+      "end": 3.39
+    },
+    {
+      "role": "BUYER",
+      "text": "security guard से ये बोला।",
+      "start": 6.69,
+      "end": 8.25
+    },
+    {
+      "role": "BOT",
+      "text": "आपको security से जुड़ा कोई product चाहिए? क्या आप Hikvision video door phone की बात कर रहे हैं या कोई और security product चाहिए?",
+      "start": 10.31,
+      "end": 17.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Security product चाहिए।",
+      "start": 13.33,
+      "end": 19.49
+    },
+    {
+      "role": "BOT",
+      "text": "security product में आपको specifically कौन सा product चाहिए? जैसे camera, alarm, door phone या कुछ और? कृपया नाम साफ-साफ बता दीजिए।",
+      "start": 21.25,
+      "end": 29.15
+    },
+    {
+      "role": "BUYER",
+      "text": "घर का security रहिए बोला guard के लिए। security guard। room घर देखने के लिए।",
+      "start": 30.21,
+      "end": 36.77
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं सिर्फ products जैसे camera, door phone, alarm वगैरह में मदद कर सकती हूं। security guard इस service के लिए मैं सहायता नहीं कर पाऊंगी। अगर आपको camera, door phone या कोई और security device चाहिए तो बताइए।",
+      "start": 38.75,
+      "end": 50.99
+    },
+    {
+      "role": "BUYER",
+      "text": "होना ही चाहिए अब।",
+      "start": 51.91,
+      "end": 53.45
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 3.3,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

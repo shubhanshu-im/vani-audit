@@ -1,0 +1,4007 @@
+{
+  "created_at": "2026-10-10T12:49:41+05:30",
+  "method": "batch map-reduce",
+  "batch_size": 40,
+  "n_batches": 15,
+  "n_audited": 713,
+  "n_failed": 567,
+  "causes": [
+    {
+      "id": "C1",
+      "name": "Bot promises WhatsApp instead of live seller or lead",
+      "description": "The bot deviates from the workflow by offering to send details on WhatsApp rather than creating a proper buy lead or transferring to a live seller.",
+      "type": "FLOW",
+      "patterns": [
+        "b1p1",
+        "b2p4",
+        "b3p1",
+        "b4p1",
+        "b5p1",
+        "b6p1",
+        "b7p1",
+        "b8p1",
+        "b9p5",
+        "b10p1",
+        "b11p3",
+        "b12p1",
+        "b13p1",
+        "b14p5",
+        "b15p2"
+      ],
+      "n_calls": 150,
+      "fatal_calls": 83,
+      "n_batches": 15,
+      "batch_names": [
+        "Bot closes call or creates vague lead instead of transferring to live seller",
+        "Bot closes call without creating lead or transferring to live seller, often promising WhatsApp instead",
+        "Bot closes prematurely without collecting lead details or transferring to seller",
+        "Bot closes with WhatsApp promise instead of live seller or lead",
+        "Bot offers WhatsApp details instead of live seller transfer",
+        "Bot offers WhatsApp instead of live seller or lead"
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "Bot closes call or creates lead without collecting details",
+      "description": "The bot ends the call or creates an incomplete lead without gathering the required buyer details like quantity, specs, name, or city.",
+      "type": "FLOW",
+      "patterns": [
+        "b9p6",
+        "b10p3",
+        "b11p1",
+        "b11p6",
+        "b12p2",
+        "b13p6",
+        "b14p1",
+        "b14p4",
+        "b14p6"
+      ],
+      "n_calls": 70,
+      "fatal_calls": 52,
+      "n_batches": 6,
+      "batch_names": [
+        "Bot closed the call or created a lead without capturing critical fields like quantity, product, or specs",
+        "Bot closes call without collecting required details or creating a lead",
+        "Bot closes call without creating lead or live transfer",
+        "Bot closes prematurely without collecting lead details",
+        "Bot closes without collecting required lead fields or creating a lead",
+        "Bot fails to capture buyer name, city, or state"
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "Bot loops on the same question instead of moving forward",
+      "description": "The bot repeats the same question multiple times without making progress, causing buyer frustration and call drops.",
+      "type": "PROMPT",
+      "patterns": [
+        "b1p2",
+        "b2p1",
+        "b3p4",
+        "b5p2",
+        "b6p2",
+        "b7p3",
+        "b8p2",
+        "b9p3",
+        "b10p2",
+        "b11p2",
+        "b12p4",
+        "b13p3",
+        "b14p3",
+        "b15p4"
+      ],
+      "n_calls": 112,
+      "fatal_calls": 64,
+      "n_batches": 14,
+      "batch_names": [
+        "Bot looped excessively on the same question after the buyer already answered",
+        "Bot loops excessively on a question instead of moving forward or closing",
+        "Bot loops excessively or prematurely on location or product details",
+        "Bot loops on a question and exceeds retry limits",
+        "Bot loops on asking for details without progressing or closing",
+        "Bot loops on city/state or other repeated questions"
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Bot mishears or misses buyer's quantity and specs",
+      "description": "The bot fails to correctly capture the buyer's stated quantity or technical specifications due to ASR errors or not probing correctly.",
+      "type": "ASR",
+      "patterns": [
+        "b1p3",
+        "b2p2",
+        "b2p5",
+        "b3p5",
+        "b4p4",
+        "b5p3",
+        "b5p4",
+        "b5p5",
+        "b6p4",
+        "b6p5",
+        "b7p2",
+        "b7p4",
+        "b8p3",
+        "b9p2",
+        "b9p4",
+        "b10p4",
+        "b11p4",
+        "b12p3",
+        "b13p2",
+        "b13p4",
+        "b13p5",
+        "b14p2",
+        "b15p3"
+      ],
+      "n_calls": 177,
+      "fatal_calls": 110,
+      "n_batches": 15,
+      "batch_names": [
+        "Bot abruptly ends the call or closes without collecting required details",
+        "Bot closes the call or goes silent before collecting details",
+        "Bot ignores buyer's stated specs and asks banned open-ended questions",
+        "Bot misheard product names, numbers, or quantities leading to wrong lead data",
+        "Bot mishears buyer's product, quantity, or specs",
+        "Bot mishears buyer's quantity or spec and records incorrect value"
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Bot asks banned or irrelevant open-ended questions",
+      "description": "The bot goes off-topic or uses a question type that is not allowed by its instructions, derailing the conversation.",
+      "type": "PROMPT",
+      "patterns": [
+        "b1p4",
+        "b4p6",
+        "b6p6",
+        "b8p6",
+        "b10p5",
+        "b12p6",
+        "b15p1",
+        "b15p5",
+        "b15p6"
+      ],
+      "n_calls": 33,
+      "fatal_calls": 19,
+      "n_batches": 7,
+      "batch_names": [
+        "Bot asks off-topic or banned open-ended questions",
+        "Bot ignores buyer's product or quantity correction and continues with wrong item",
+        "Bot introduces itself incorrectly or asks irrelevant questions",
+        "Bot misclassifies buyer intent or product category",
+        "Bot offers seller connection but never actually transfers the call",
+        "Bot used banned open-ended questions during the conversation"
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "Bot misidentifies buyer's product or intent",
+      "description": "The bot misunderstands what the buyer wants, capturing the wrong product category or treating a seller as a buyer.",
+      "type": "KNOWLEDGE",
+      "patterns": [
+        "b1p5",
+        "b2p6",
+        "b4p5",
+        "b8p5",
+        "b11p5",
+        "b12p5"
+      ],
+      "n_calls": 33,
+      "fatal_calls": 23,
+      "n_batches": 6,
+      "batch_names": [
+        "Bot captures wrong product or ignores buyer's product change",
+        "Bot gets stuck on the wrong product or category and ignores buyer's corrections",
+        "Bot ignores or misses critical product specifications and use cases",
+        "Bot misidentifies or changes the product requirement",
+        "Bot misidentifies the buyer's intent or product category",
+        "Bot misunderstands the buyer's intent and asks irrelevant questions"
+      ]
+    },
+    {
+      "id": "C7",
+      "name": "Bot fails to collect required lead details like name and location",
+      "description": "Bot closes the call or creates a lead without capturing the buyer's name and city/state, which are required before connecting to a seller.",
+      "type": "FLOW",
+      "patterns": [
+        "b1p6"
+      ],
+      "n_calls": 3,
+      "fatal_calls": 0,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot fails to collect required lead details like name and location"
+      ]
+    },
+    {
+      "id": "C8",
+      "name": "Bot ignores or fails to capture critical buyer requirements",
+      "description": "The bot misses important details like quantity, specific sizes, or buyer intent, and closes the call too early.",
+      "type": "PROMPT",
+      "patterns": [
+        "b2p3"
+      ],
+      "n_calls": 7,
+      "fatal_calls": 2,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot ignores or fails to capture critical buyer requirements"
+      ]
+    },
+    {
+      "id": "C9",
+      "name": "Bot asks for quantity or specs when buyer is asking for photos or verification",
+      "description": "Bot ignores the buyer's request for visual verification or photos and continues asking for quantity or specifications.",
+      "type": "PROMPT",
+      "patterns": [
+        "b3p2"
+      ],
+      "n_calls": 2,
+      "fatal_calls": 0,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot asks for quantity or specs when buyer is asking for photos or verification"
+      ]
+    },
+    {
+      "id": "C10",
+      "name": "Bot closes call as no requirement despite buyer stating a product need",
+      "description": "Bot incorrectly determines there is no requirement and closes the call without collecting quantity, name, or location.",
+      "type": "FLOW",
+      "patterns": [
+        "b3p3"
+      ],
+      "n_calls": 2,
+      "fatal_calls": 2,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes call as no requirement despite buyer stating a product need"
+      ]
+    },
+    {
+      "id": "C11",
+      "name": "Bot fails to capture critical specs and closes with vague WhatsApp offer",
+      "description": "Bot asks for specifications but fails to capture the buyer's answers and closes the call with a vague promise to send details via WhatsApp.",
+      "type": "FLOW",
+      "patterns": [
+        "b3p6"
+      ],
+      "n_calls": 2,
+      "fatal_calls": 2,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot fails to capture critical specs and closes with vague WhatsApp offer"
+      ]
+    },
+    {
+      "id": "C12",
+      "name": "Bot closes without collecting quantity, specs, or buyer details",
+      "description": "Bot ends the call without capturing the buyer's quantity, specifications, name, or location, failing to create a lead.",
+      "type": "FLOW",
+      "patterns": [
+        "b4p2"
+      ],
+      "n_calls": 11,
+      "fatal_calls": 8,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes without collecting quantity, specs, or buyer details"
+      ]
+    },
+    {
+      "id": "C13",
+      "name": "Bot loops on product confirmation or specs",
+      "description": "Bot gets stuck repeatedly asking for product confirmation or specifications even when the buyer has already provided them.",
+      "type": "FLOW",
+      "patterns": [
+        "b4p3"
+      ],
+      "n_calls": 6,
+      "fatal_calls": 4,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot loops on product confirmation or specs"
+      ]
+    },
+    {
+      "id": "C14",
+      "name": "Bot asks banned questions or fails to handle buyer's language preference",
+      "description": "Bot asks questions that are not allowed in the prompt or refuses to speak the buyer's requested language, causing the call to fail.",
+      "type": "PROMPT",
+      "patterns": [
+        "b5p6"
+      ],
+      "n_calls": 5,
+      "fatal_calls": 1,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot asks banned questions or fails to handle buyer's language preference"
+      ]
+    },
+    {
+      "id": "C15",
+      "name": "Bot closes call without collecting any lead details",
+      "description": "Bot ends the conversation before gathering product, quantity, or buyer information, failing to create a lead or transfer.",
+      "type": "PROMPT",
+      "patterns": [
+        "b6p3"
+      ],
+      "n_calls": 8,
+      "fatal_calls": 6,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes call without collecting any lead details"
+      ]
+    },
+    {
+      "id": "C16",
+      "name": "Bot fails to collect name, city, or state before closing",
+      "description": "Bot ends the call without gathering basic buyer details like name, city, or state, and does not create a lead.",
+      "type": "FLOW",
+      "patterns": [
+        "b7p5"
+      ],
+      "n_calls": 5,
+      "fatal_calls": 3,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot fails to collect name, city, or state before closing"
+      ]
+    },
+    {
+      "id": "C17",
+      "name": "Bot asks for quantity after buyer already stated it",
+      "description": "Bot misses the buyer's initial quantity statement and asks for it again later, missing the opportunity to confirm.",
+      "type": "FLOW",
+      "patterns": [
+        "b7p6"
+      ],
+      "n_calls": 7,
+      "fatal_calls": 6,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot asks for quantity after buyer already stated it"
+      ]
+    },
+    {
+      "id": "C18",
+      "name": "Bot closes the call or creates a lead without collecting required details",
+      "description": "The bot ends the conversation or generates a lead prematurely without gathering the buyer's name, location, quantity, or product specifications.",
+      "type": "FLOW",
+      "patterns": [
+        "b8p4"
+      ],
+      "n_calls": 7,
+      "fatal_calls": 6,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes the call or creates a lead without collecting required details"
+      ]
+    },
+    {
+      "id": "C19",
+      "name": "Bot closes prematurely without collecting required lead details",
+      "description": "The bot ends the call or promises WhatsApp without capturing quantity, name, location, or transferring to a live seller.",
+      "type": "FLOW",
+      "patterns": [
+        "b9p1"
+      ],
+      "n_calls": 13,
+      "fatal_calls": 8,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes prematurely without collecting required lead details"
+      ]
+    },
+    {
+      "id": "C20",
+      "name": "Bot failed to capture stated quantity and specs, moving on without recording them",
+      "description": "Bot skipped over or ignored the quantity and specific product details provided by the buyer.",
+      "type": "FLOW",
+      "patterns": [
+        "b10p6"
+      ],
+      "n_calls": 4,
+      "fatal_calls": 3,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot failed to capture stated quantity and specs, moving on without recording them"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "key": "b1p1",
+      "batch": 1,
+      "name": "Bot closes call or creates vague lead instead of transferring to live seller",
+      "description": "Bot ends the call or only sends WhatsApp details instead of connecting the buyer to a live seller or creating a proper buy lead.",
+      "type": "FLOW",
+      "calls": [
+        "1000_90643234_F0C4W3KG5",
+        "101_90741485_EDP5FL4H5",
+        "104_90684996_4UZJH1UG5",
+        "107_90741474_EITIEL4H5",
+        "112_90643038_KZ9ES3KG5",
+        "128_90852833_U13FKXVH5",
+        "13_90852800_HHTCJXVH5",
+        "140_90852922_ANRGLXVH5",
+        "142_90684990_V9XGH1UG5",
+        "145_90643053_2S1VS3KG5",
+        "147_90741494_C3BEFL4H5",
+        "154_90685001_IFFMH1UG5",
+        "159_90741519_SJN3GL4H5",
+        "160_90643050_H17TS3KG5"
+      ]
+    },
+    {
+      "key": "b1p2",
+      "batch": 1,
+      "name": "Bot repeatedly asks for the same information or gets stuck in a loop",
+      "description": "Bot asks the same question multiple times or repeats the same canned response without making progress or resolving the buyer's answer.",
+      "type": "FLOW",
+      "calls": [
+        "105_90852813_N3TUJXVH5",
+        "115_90643039_ATHFS3KG5",
+        "122_90852829_JH0CKXVH5",
+        "128_90852833_U13FKXVH5",
+        "131_90797306_MIPKVXFH5",
+        "132_90741479_6HBYEL4H5",
+        "141_90643052_7VEUS3KG5",
+        "143_90643051_CYTTS3KG5",
+        "144_90741487_NXS8FL4H5",
+        "150_90643056_W0ZZS3KG5",
+        "156_90685005_Y2XPH1UG5",
+        "160_90643050_H17TS3KG5"
+      ]
+    },
+    {
+      "key": "b1p3",
+      "batch": 1,
+      "name": "Bot mishears or fails to capture buyer's specifications and quantity",
+      "description": "Bot misinterprets or completely misses the buyer's product specs, quantity, or key details due to ASR errors, language confusion, or not probing correctly.",
+      "type": "ASR",
+      "calls": [
+        "103_90684987_AJ2FH1UG5",
+        "106_90684997_ZPKKH1UG5",
+        "107_90741474_EITIEL4H5",
+        "128_90852833_U13FKXVH5",
+        "134_90741480_WAJZEL4H5",
+        "137_90684989_0DAGH1UG5",
+        "143_90643051_CYTTS3KG5",
+        "156_90685005_Y2XPH1UG5"
+      ]
+    },
+    {
+      "key": "b1p4",
+      "batch": 1,
+      "name": "Bot asks off-topic or banned open-ended questions",
+      "description": "Bot goes off-topic with the buyer or uses a question type that is not allowed by its instructions, derailing the conversation.",
+      "type": "PROMPT",
+      "calls": [
+        "1000_90643234_F0C4W3KG5",
+        "150_90643056_W0ZZS3KG5",
+        "140_90852922_ANRGLXVH5",
+        "160_90643050_H17TS3KG5"
+      ]
+    },
+    {
+      "key": "b1p5",
+      "batch": 1,
+      "name": "Bot captures wrong product or ignores buyer's product change",
+      "description": "Bot processes or confirms the wrong product category or ignores when the buyer changes their product request.",
+      "type": "KNOWLEDGE",
+      "calls": [
+        "10_90797297_EMBDVXFH5",
+        "133_90852837_DSXGKXVH5",
+        "134_90741480_WAJZEL4H5"
+      ]
+    },
+    {
+      "key": "b1p6",
+      "batch": 1,
+      "name": "Bot fails to collect required lead details like name and location",
+      "description": "Bot closes the call or creates a lead without capturing the buyer's name and city/state, which are required before connecting to a seller.",
+      "type": "FLOW",
+      "calls": [
+        "112_90643038_KZ9ES3KG5",
+        "135_90852838_8NIHKXVH5",
+        "142_90684990_V9XGH1UG5"
+      ]
+    },
+    {
+      "key": "b2p1",
+      "batch": 2,
+      "name": "Bot loops on questions instead of moving forward",
+      "description": "The bot repeats the same question multiple times when it doesn't understand or gets an unexpected answer, frustrating the buyer.",
+      "type": "PROMPT",
+      "calls": [
+        "162_90643054_BA4YS3KG5",
+        "170_90852863_R30UKXVH5",
+        "171_90685015_SBUVH1UG5",
+        "177_90852858_6D5SKXVH5",
+        "202_90797307_79JMVXFH5",
+        "209_90741505_958TFL4H5",
+        "218_90741525_W0D7GL4H5"
+      ]
+    },
+    {
+      "key": "b2p2",
+      "batch": 2,
+      "name": "Bot mishears numbers, units, and product names",
+      "description": "The bot transcribes or confirms wrong details like weight, size, or product names, leading to incorrect leads.",
+      "type": "ASR",
+      "calls": [
+        "170_90852863_R30UKXVH5",
+        "184_90741496_2XIFFL4H5",
+        "186_90741497_XT5GFL4H5",
+        "198_90741512_M400GL4H5",
+        "221_90797315_U4P2WXFH5"
+      ]
+    },
+    {
+      "key": "b2p3",
+      "batch": 2,
+      "name": "Bot ignores or fails to capture critical buyer requirements",
+      "description": "The bot misses important details like quantity, specific sizes, or buyer intent, and closes the call too early.",
+      "type": "PROMPT",
+      "calls": [
+        "171_90685015_SBUVH1UG5",
+        "176_90741491_YFVBFL4H5",
+        "183_90741495_70YEFL4H5",
+        "191_90741506_ZYFUFL4H5",
+        "213_90852853_LMAPKXVH5",
+        "214_90741514_7VU1GL4H5",
+        "220_90643070_J1EST3KG5"
+      ]
+    },
+    {
+      "key": "b2p4",
+      "batch": 2,
+      "name": "Bot promises WhatsApp instead of connecting to a live seller or lead",
+      "description": "The bot deviates from the workflow by promising to send details on WhatsApp instead of creating a proper buy lead or transferring to a seller.",
+      "type": "PROMPT",
+      "calls": [
+        "164_90643058_E346T3KG5",
+        "176_90741491_YFVBFL4H5",
+        "183_90741495_70YEFL4H5",
+        "186_90741497_XT5GFL4H5",
+        "213_90852853_LMAPKXVH5",
+        "216_90797313_VSDYVXFH5",
+        "220_90643070_J1EST3KG5",
+        "221_90797315_U4P2WXFH5",
+        "223_90643072_NG3WT3KG5",
+        "225_90741533_0G2BGL4H5"
+      ]
+    },
+    {
+      "key": "b2p5",
+      "batch": 2,
+      "name": "Bot closes the call or goes silent before collecting details",
+      "description": "The bot ends the call abruptly, drops to dead air, or stops responding before getting the buyer's basic information.",
+      "type": "FLOW",
+      "calls": [
+        "171_90685015_SBUVH1UG5",
+        "188_90741499_GI0IFL4H5",
+        "189_90741503_VHSPFL4H5",
+        "19_90661242_TXRFJXNG5",
+        "200_90685016_L8FWH1UG5",
+        "205_90741504_PEDRFL4H5",
+        "212_90741509_DKXWFL4H5",
+        "214_90741514_7VU1GL4H5",
+        "223_90643072_NG3WT3KG5"
+      ]
+    },
+    {
+      "key": "b2p6",
+      "batch": 2,
+      "name": "Bot misidentifies the buyer's intent or product category",
+      "description": "The bot assumes the wrong product or business intent (like selling instead of buying) and proceeds with the wrong questions.",
+      "type": "KNOWLEDGE",
+      "calls": [
+        "176_90741491_YFVBFL4H5",
+        "198_90741512_M400GL4H5",
+        "220_90643070_J1EST3KG5",
+        "223_90643072_NG3WT3KG5"
+      ]
+    },
+    {
+      "key": "b3p1",
+      "batch": 3,
+      "name": "Bot closes call without creating lead or transferring to live seller, often promising WhatsApp instead",
+      "description": "Bot ends the conversation by promising to send details via WhatsApp instead of creating a buy lead or connecting to a live seller.",
+      "type": "FLOW",
+      "calls": [
+        "231_90643076_34JYT3KG5",
+        "233_90797322_74G9WXFH5",
+        "245_90741536_J6XCGL4H5",
+        "254_90643069_V76RT3KG5",
+        "256_90643071_4S8UT3KG5",
+        "258_90643077_Y06ZT3KG5",
+        "268_90741540_ZTCFGL4H5",
+        "273_90797314_4BG1WXFH5",
+        "276_90685035_D7Z9I1UG5"
+      ]
+    },
+    {
+      "key": "b3p2",
+      "batch": 3,
+      "name": "Bot asks for quantity or specs when buyer is asking for photos or verification",
+      "description": "Bot ignores the buyer's request for visual verification or photos and continues asking for quantity or specifications.",
+      "type": "PROMPT",
+      "calls": [
+        "233_90797322_74G9WXFH5",
+        "272_90741538_905EGL4H5"
+      ]
+    },
+    {
+      "key": "b3p3",
+      "batch": 3,
+      "name": "Bot closes call as no requirement despite buyer stating a product need",
+      "description": "Bot incorrectly determines there is no requirement and closes the call without collecting quantity, name, or location.",
+      "type": "FLOW",
+      "calls": [
+        "243_90852860_1ASSKXVH5",
+        "268_90741540_ZTCFGL4H5"
+      ]
+    },
+    {
+      "key": "b3p4",
+      "batch": 3,
+      "name": "Bot loops on name or location instead of moving forward or closing",
+      "description": "Bot repeatedly asks for the same mandatory field (name or city/state) beyond the allowed limit, causing the call to end without a lead.",
+      "type": "PROMPT",
+      "calls": [
+        "277_90797323_XXNAWXFH5",
+        "282_90685047_X413J1UG5"
+      ]
+    },
+    {
+      "key": "b3p5",
+      "batch": 3,
+      "name": "Bot mishears buyer's quantity or spec and records incorrect value",
+      "description": "Bot mishears the buyer's quantity or specification and records an incorrect value, leading to an inaccurate lead.",
+      "type": "ASR",
+      "calls": [
+        "241_90741518_XM23GL4H5",
+        "249_90741553_HWHLGL4H5",
+        "266_90741534_P9ACGL4H5",
+        "295_90741530_FR79GL4H5",
+        "296_90741528_RXZ7GL4H5"
+      ]
+    },
+    {
+      "key": "b3p6",
+      "batch": 3,
+      "name": "Bot fails to capture critical specs and closes with vague WhatsApp offer",
+      "description": "Bot asks for specifications but fails to capture the buyer's answers and closes the call with a vague promise to send details via WhatsApp.",
+      "type": "FLOW",
+      "calls": [
+        "273_90797314_4BG1WXFH5",
+        "286_90701833_UIRJ6JXG5"
+      ]
+    },
+    {
+      "key": "b4p1",
+      "batch": 4,
+      "name": "Bot promises WhatsApp instead of live seller transfer or lead creation",
+      "description": "Bot ends the call by promising to send seller details on WhatsApp instead of creating a buy lead or transferring to a live seller.",
+      "type": "FLOW",
+      "calls": [
+        "2_90741461_KEZSDL4H5",
+        "302_90797351_PDU6XXFH5",
+        "315_90852892_3F25LXVH5",
+        "320_90852901_2TC9LXVH5",
+        "326_90685037_HMMDI1UG5",
+        "328_90797332_NW7PWXFH5",
+        "332_90797336_H55VWXFH5",
+        "337_90797340_XSKXWXFH5",
+        "33_90741471_GU6AEL4H5",
+        "349_90685039_X94GI1UG5",
+        "360_90852898_H2I7LXVH5",
+        "366_90852902_XNZ9LXVH5"
+      ]
+    },
+    {
+      "key": "b4p2",
+      "batch": 4,
+      "name": "Bot closes without collecting quantity, specs, or buyer details",
+      "description": "Bot ends the call without capturing the buyer's quantity, specifications, name, or location, failing to create a lead.",
+      "type": "FLOW",
+      "calls": [
+        "312_90852886_UWZ1LXVH5",
+        "313_90852891_8IF4LXVH5",
+        "328_90797332_NW7PWXFH5",
+        "337_90797340_XSKXWXFH5",
+        "339_90797343_6BN0XXFH5",
+        "352_90797355_41A9XXFH5",
+        "353_90741550_392JGL4H5",
+        "357_90797563_9IAPZXFH5",
+        "360_90852898_H2I7LXVH5",
+        "365_90797565_ZBIRZXFH5",
+        "366_90852902_XNZ9LXVH5"
+      ]
+    },
+    {
+      "key": "b4p3",
+      "batch": 4,
+      "name": "Bot loops on product confirmation or specs",
+      "description": "Bot gets stuck repeatedly asking for product confirmation or specifications even when the buyer has already provided them.",
+      "type": "FLOW",
+      "calls": [
+        "310_90852876_E9IZKXVH5",
+        "319_90852904_SKKALXVH5",
+        "341_90797345_W4X1XXFH5",
+        "343_90797347_KY43XXFH5",
+        "347_90797352_JAF7XXFH5",
+        "365_90797565_ZBIRZXFH5"
+      ]
+    },
+    {
+      "key": "b4p4",
+      "batch": 4,
+      "name": "Bot mishears the buyer's quantity or product",
+      "description": "Bot mishears or mis-transcribes the buyer's words, leading to incorrect quantity or product details being captured.",
+      "type": "ASR",
+      "calls": [
+        "2_90741461_KEZSDL4H5",
+        "30_90661031_XAKFZVNG5",
+        "314_90852894_T8A6LXVH5",
+        "315_90852892_3F25LXVH5",
+        "319_90852904_SKKALXVH5",
+        "325_90741544_NLKGGL4H5",
+        "336_90797339_2WZWWXFH5",
+        "347_90797352_JAF7XXFH5",
+        "348_90852889_DLU3LXVH5",
+        "349_90685039_X94GI1UG5",
+        "352_90797355_41A9XXFH5",
+        "368_90852913_15NDLXVH5"
+      ]
+    },
+    {
+      "key": "b4p5",
+      "batch": 4,
+      "name": "Bot misidentifies or changes the product requirement",
+      "description": "Bot misunderstands the buyer's product and either asks about a completely different category or creates a lead for the wrong item.",
+      "type": "KNOWLEDGE",
+      "calls": [
+        "301_90701921_L1D2PJXG5",
+        "318_90852900_7WR8LXVH5",
+        "36_90797304_8X8IVXFH5",
+        "368_90852913_15NDLXVH5"
+      ]
+    },
+    {
+      "key": "b4p6",
+      "batch": 4,
+      "name": "Bot uses banned or irrelevant open-ended questions",
+      "description": "Bot asks open-ended questions or irrelevant questions that deviate from the standard prompt instructions, derailing the conversation.",
+      "type": "PROMPT",
+      "calls": [
+        "305_90741542_UPZFGL4H5",
+        "312_90852886_UWZ1LXVH5",
+        "338_90797342_LKUYWXFH5",
+        "348_90852889_DLU3LXVH5",
+        "357_90797563_9IAPZXFH5",
+        "360_90852898_H2I7LXVH5"
+      ]
+    },
+    {
+      "key": "b5p1",
+      "batch": 5,
+      "name": "Bot promises WhatsApp details instead of creating a lead or transferring to a seller",
+      "description": "Bot closes the call by offering to send details on WhatsApp rather than connecting the buyer to a live seller or creating a buy lead.",
+      "type": "FLOW",
+      "calls": [
+        "373_90852924_0HZHLXVH5",
+        "379_90797357_ZXW9XXFH5",
+        "387_90852921_FS4GLXVH5",
+        "388_90852923_5KCHLXVH5",
+        "389_90852928_J7UJLXVH5",
+        "394_90852942_T37TLXVH5",
+        "39_90684981_B7SAH1UG5",
+        "400_90685049_WGB7J1UG5",
+        "411_90741561_G8URGL4H5",
+        "415_90852934_ZU9MLXVH5",
+        "418_90852935_NMHNLXVH5",
+        "426_90643088_6XI6U3KG5",
+        "428_90797390_AL9RXXFH5"
+      ]
+    },
+    {
+      "key": "b5p2",
+      "batch": 5,
+      "name": "Bot loops excessively or prematurely on location or product details",
+      "description": "Bot gets stuck repeating questions for city, state, or product name even after the buyer has already provided the information.",
+      "type": "FLOW",
+      "calls": [
+        "375_90643086_G3B5U3KG5",
+        "389_90852928_J7UJLXVH5",
+        "38_90852805_BSPHJXVH5",
+        "398_90685046_MKYZI1UG5",
+        "405_90852927_PA7JLXVH5",
+        "410_90797364_3DKDXXFH5",
+        "420_90852941_Y6KSLXVH5",
+        "422_90852949_XIWWLXVH5",
+        "427_90797368_CXMGXXFH5"
+      ]
+    },
+    {
+      "key": "b5p3",
+      "batch": 5,
+      "name": "Bot misses or ignores key buyer specifications (quantity, product type, color, etc.)",
+      "description": "Bot fails to capture critical details the buyer stated, such as quantity, product model, color, or packaging, leading to an incomplete or incorrect lead.",
+      "type": "FLOW",
+      "calls": [
+        "375_90643086_G3B5U3KG5",
+        "376_90685044_KFMLI1UG5",
+        "37_90684982_64DBH1UG5",
+        "383_90797363_8GZCXXFH5",
+        "384_90852912_682DLXVH5",
+        "388_90852923_5KCHLXVH5",
+        "389_90852928_J7UJLXVH5",
+        "393_90852933_4YMLLXVH5",
+        "394_90852942_T37TLXVH5",
+        "39_90684981_B7SAH1UG5",
+        "400_90685049_WGB7J1UG5",
+        "405_90852927_PA7JLXVH5",
+        "407_90797359_NR4BXXFH5",
+        "412_90852932_912LLXVH5",
+        "417_90852938_8DCRLXVH5",
+        "426_90643088_6XI6U3KG5",
+        "428_90797390_AL9RXXFH5"
+      ]
+    },
+    {
+      "key": "b5p4",
+      "batch": 5,
+      "name": "Bot mishears or mis-transcribes buyer's words (ASR errors)",
+      "description": "Bot fails to understand or incorrectly transcribes the buyer's speech, leading to wrong product, quantity, or unit assumptions.",
+      "type": "ASR",
+      "calls": [
+        "373_90852924_0HZHLXVH5",
+        "373_90852924_0HZHLXVH5",
+        "381_90685048_S1M3J1UG5",
+        "385_90852915_W1AELXVH5",
+        "388_90852923_5KCHLXVH5",
+        "393_90852933_4YMLLXVH5",
+        "395_90852944_HXEULXVH5",
+        "3_90797294_1NJ6VXFH5",
+        "41_90852807_WGJJJXVH5",
+        "426_90643088_6XI6U3KG5",
+        "428_90797390_AL9RXXFH5"
+      ]
+    },
+    {
+      "key": "b5p5",
+      "batch": 5,
+      "name": "Bot abruptly ends the call or closes without collecting required details",
+      "description": "Bot cuts the call short, ends prematurely, or provides a generic policy statement without gathering the buyer's name, city, quantity, or specs.",
+      "type": "FLOW",
+      "calls": [
+        "376_90685044_KFMLI1UG5",
+        "383_90797363_8GZCXXFH5",
+        "390_90852936_IJ4PLXVH5",
+        "398_90685046_MKYZI1UG5",
+        "405_90852927_PA7JLXVH5",
+        "407_90797359_NR4BXXFH5",
+        "410_90797364_3DKDXXFH5",
+        "412_90852932_912LLXVH5",
+        "415_90852934_ZU9MLXVH5",
+        "427_90797368_CXMGXXFH5",
+        "430_90741558_XHZNGL4H5"
+      ]
+    },
+    {
+      "key": "b5p6",
+      "batch": 5,
+      "name": "Bot asks banned questions or fails to handle buyer's language preference",
+      "description": "Bot asks questions that are not allowed in the prompt or refuses to speak the buyer's requested language, causing the call to fail.",
+      "type": "PROMPT",
+      "calls": [
+        "391_90852937_DGRPLXVH5",
+        "393_90852933_4YMLLXVH5",
+        "405_90852927_PA7JLXVH5",
+        "410_90797364_3DKDXXFH5",
+        "417_90852938_8DCRLXVH5"
+      ]
+    },
+    {
+      "key": "b6p1",
+      "batch": 6,
+      "name": "Bot promises WhatsApp instead of live seller or lead creation",
+      "description": "Bot closes the call by offering to send details on WhatsApp rather than connecting to a live seller or creating a formal buy lead.",
+      "type": "PROMPT",
+      "calls": [
+        "436_90643093_FFL9U3KG5",
+        "448_90741632_9PYLHL4H5",
+        "458_90685063_23BNJ1UG5",
+        "465_90852973_9WY7MXVH5",
+        "481_90852958_10K0MXVH5",
+        "484_90685075_VNIYJ1UG5"
+      ]
+    },
+    {
+      "key": "b6p2",
+      "batch": 6,
+      "name": "Bot loops on city/state or other repeated questions",
+      "description": "Bot gets stuck asking the same question multiple times, causing frustration and sometimes losing the lead.",
+      "type": "PROMPT",
+      "calls": [
+        "431_90643090_WPS7U3KG5",
+        "437_90643097_PZNCU3KG5",
+        "439_90797396_P8RTXXFH5",
+        "444_90797367_M3FFXXFH5",
+        "447_90741609_G3RCHL4H5",
+        "456_90685061_3R0JJ1UG5",
+        "479_90852959_WW61MXVH5",
+        "483_90852961_KPE2MXVH5"
+      ]
+    },
+    {
+      "key": "b6p3",
+      "batch": 6,
+      "name": "Bot closes call without collecting any lead details",
+      "description": "Bot ends the conversation before gathering product, quantity, or buyer information, failing to create a lead or transfer.",
+      "type": "PROMPT",
+      "calls": [
+        "431_90643090_WPS7U3KG5",
+        "435_90797400_4W6WXXFH5",
+        "436_90643093_FFL9U3KG5",
+        "439_90797396_P8RTXXFH5",
+        "442_90741570_WV9UGL4H5",
+        "470_90685058_U6YFJ1UG5",
+        "477_90685064_XZXNJ1UG5",
+        "481_90852958_10K0MXVH5"
+      ]
+    },
+    {
+      "key": "b6p4",
+      "batch": 6,
+      "name": "Bot mishears or misses buyer's quantity",
+      "description": "Bot fails to correctly capture the buyer's stated quantity, either ignoring it, mishearing it, or asking again unnecessarily.",
+      "type": "ASR",
+      "calls": [
+        "431_90643090_WPS7U3KG5",
+        "436_90643093_FFL9U3KG5",
+        "445_90741567_622TGL4H5",
+        "454_90852946_7RMVLXVH5",
+        "456_90685061_3R0JJ1UG5",
+        "469_90643091_RLD8U3KG5",
+        "474_90685062_MFVKJ1UG5"
+      ]
+    },
+    {
+      "key": "b6p5",
+      "batch": 6,
+      "name": "Bot mishears or misses buyer's product specs",
+      "description": "Bot fails to capture important product specifications like thickness, length, capacity, or material, sometimes mishearing them entirely.",
+      "type": "ASR",
+      "calls": [
+        "431_90643090_WPS7U3KG5",
+        "435_90797400_4W6WXXFH5",
+        "447_90741609_G3RCHL4H5",
+        "452_90741661_GYLZHL4H5",
+        "468_90852951_LC4YLXVH5",
+        "474_90685062_MFVKJ1UG5",
+        "476_90797372_2RWHXXFH5",
+        "485_90852967_P546MXVH5",
+        "486_90852966_0CW4MXVH5"
+      ]
+    },
+    {
+      "key": "b6p6",
+      "batch": 6,
+      "name": "Bot misclassifies buyer intent or product category",
+      "description": "Bot misunderstands what the buyer wants, offering the wrong product or treating a seller as a buyer.",
+      "type": "KNOWLEDGE",
+      "calls": [
+        "435_90797400_4W6WXXFH5",
+        "439_90797396_P8RTXXFH5"
+      ]
+    },
+    {
+      "key": "b7p1",
+      "batch": 7,
+      "name": "Bot closes with WhatsApp promise instead of live seller or lead",
+      "description": "Bot ends the call by promising to send details on WhatsApp instead of connecting a live seller or creating a buy lead.",
+      "type": "FLOW",
+      "calls": [
+        "48_90797301_U9TFVXFH5",
+        "500_90852984_Y1HDMXVH5",
+        "510_90797373_XLHIXXFH5",
+        "511_90797381_66KLXXFH5",
+        "517_90685081_Z482K1UG5",
+        "51_90741466_I4K1EL4H5",
+        "520_90643095_06GBU3KG5",
+        "521_90643098_JWADU3KG5",
+        "532_90852982_35WCMXVH5",
+        "537_90853007_1VGLMXVH5",
+        "541_90797377_LFRJXXFH5"
+      ]
+    },
+    {
+      "key": "b7p2",
+      "batch": 7,
+      "name": "Bot mishears buyer's product, quantity, or specs",
+      "description": "ASR errors cause the bot to capture completely wrong product names, quantities, or technical specifications.",
+      "type": "ASR",
+      "calls": [
+        "490_90852977_ZN69MXVH5",
+        "494_90685068_1FLTJ1UG5",
+        "505_90852992_7KJGMXVH5",
+        "510_90797373_XLHIXXFH5",
+        "514_90852979_UKT9MXVH5",
+        "519_90852981_IE1BMXVH5",
+        "529_90741581_P47ZGL4H5",
+        "533_90685080_48L1K1UG5",
+        "547_90741574_AHRWGL4H5"
+      ]
+    },
+    {
+      "key": "b7p3",
+      "batch": 7,
+      "name": "Bot loops on a question and exceeds retry limits",
+      "description": "Bot repeats the same question multiple times without understanding the buyer, frustrating the buyer and ending the call.",
+      "type": "FLOW",
+      "calls": [
+        "4_90852792_A941JXVH5",
+        "510_90797373_XLHIXXFH5",
+        "528_90741583_EYE0HL4H5",
+        "529_90741581_P47ZGL4H5",
+        "545_90741573_FK4WGL4H5"
+      ]
+    },
+    {
+      "key": "b7p4",
+      "batch": 7,
+      "name": "Bot ignores buyer's stated specs and asks banned open-ended questions",
+      "description": "Bot skips over product details the buyer already provided, asks an unscripted question, and fails to capture key requirements.",
+      "type": "PROMPT",
+      "calls": [
+        "506_90852991_CNYFMXVH5",
+        "507_90852996_XDTHMXVH5",
+        "514_90852979_UKT9MXVH5",
+        "530_90852990_HSBFMXVH5",
+        "534_90643101_ETXDU3KG5",
+        "53_90852812_4DYSJXVH5",
+        "548_90853017_FGYNMXVH5"
+      ]
+    },
+    {
+      "key": "b7p5",
+      "batch": 7,
+      "name": "Bot fails to collect name, city, or state before closing",
+      "description": "Bot ends the call without gathering basic buyer details like name, city, or state, and does not create a lead.",
+      "type": "FLOW",
+      "calls": [
+        "509_90797369_7U9HXXFH5",
+        "517_90685081_Z482K1UG5",
+        "518_90643096_V23CU3KG5",
+        "538_90643102_9PIEU3KG5",
+        "544_90702687_3GLNAPXG5"
+      ]
+    },
+    {
+      "key": "b7p6",
+      "batch": 7,
+      "name": "Bot asks for quantity after buyer already stated it",
+      "description": "Bot misses the buyer's initial quantity statement and asks for it again later, missing the opportunity to confirm.",
+      "type": "FLOW",
+      "calls": [
+        "497_90685069_WB8UJ1UG5",
+        "509_90797369_7U9HXXFH5",
+        "512_90685076_EED0K1UG5",
+        "517_90685081_Z482K1UG5",
+        "519_90852981_IE1BMXVH5",
+        "540_90702700_G4JEGPXG5",
+        "547_90741574_AHRWGL4H5"
+      ]
+    },
+    {
+      "key": "b8p1",
+      "batch": 8,
+      "name": "Bot offers WhatsApp instead of live seller transfer or lead creation",
+      "description": "The bot repeatedly promises to send details on WhatsApp or asks the buyer to share details there, instead of creating a buy lead or connecting a live seller.",
+      "type": "FLOW",
+      "calls": [
+        "549_90853015_KJBNMXVH5",
+        "556_90643108_ZHSFU3KG5",
+        "56_90684976_LDI9H1UG5",
+        "588_90643114_I8LHU3KG5",
+        "591_90685097_C409K1UG5",
+        "604_90741602_HRE8HL4H5",
+        "606_90741611_6XYDHL4H5",
+        "607_90741605_7JM9HL4H5"
+      ]
+    },
+    {
+      "key": "b8p2",
+      "batch": 8,
+      "name": "Bot loops on quantity or product questions beyond allowed limits",
+      "description": "The bot asks the same question multiple times, often exceeding the allowed number of attempts, causing the buyer to become frustrated and hang up.",
+      "type": "FLOW",
+      "calls": [
+        "553_90741571_RSWUGL4H5",
+        "555_90741586_9V11HL4H5",
+        "572_90741589_4SM1HL4H5",
+        "586_90853034_UFPWMXVH5",
+        "602_90741599_Y0K6HL4H5",
+        "607_90741605_7JM9HL4H5"
+      ]
+    },
+    {
+      "key": "b8p3",
+      "batch": 8,
+      "name": "Bot mishears or ignores critical product specs and quantities",
+      "description": "The bot misrecognizes or fails to capture important details like quantity, size, material, or product type, resulting in an inaccurate or useless lead.",
+      "type": "ASR",
+      "calls": [
+        "555_90741586_9V11HL4H5",
+        "559_90852997_SAEIMXVH5",
+        "565_90643112_UEDGU3KG5",
+        "566_90643146_KDXVU3KG5",
+        "567_90643174_MI78V3KG5",
+        "588_90643114_I8LHU3KG5",
+        "595_90685099_2Y7AK1UG5",
+        "600_90741598_34Z5HL4H5",
+        "604_90741602_HRE8HL4H5"
+      ]
+    },
+    {
+      "key": "b8p4",
+      "batch": 8,
+      "name": "Bot closes the call or creates a lead without collecting required details",
+      "description": "The bot ends the conversation or generates a lead prematurely without gathering the buyer's name, location, quantity, or product specifications.",
+      "type": "FLOW",
+      "calls": [
+        "556_90643108_ZHSFU3KG5",
+        "559_90852997_SAEIMXVH5",
+        "58_90852822_XZ52KXVH5",
+        "597_90643127_HKXLU3KG5",
+        "56_90684976_LDI9H1UG5",
+        "593_90685100_XUUAK1UG5",
+        "579_90741613_1UJEHL4H5"
+      ]
+    },
+    {
+      "key": "b8p5",
+      "batch": 8,
+      "name": "Bot gets stuck on the wrong product or category and ignores buyer's corrections",
+      "description": "The bot assumes a specific product or category and continues asking about it even after the buyer changes their mind, asks for a different item, or corrects the bot.",
+      "type": "KNOWLEDGE",
+      "calls": [
+        "586_90853034_UFPWMXVH5",
+        "568_90643179_26NAV3KG5"
+      ]
+    },
+    {
+      "key": "b8p6",
+      "batch": 8,
+      "name": "Bot uses banned or open-ended questions, or asks irrelevant questions",
+      "description": "The bot asks questions that are prohibited by its instructions, or asks unrelated questions that derail the conversation and confuse the buyer.",
+      "type": "PROMPT",
+      "calls": [
+        "561_90685090_3KX5K1UG5",
+        "569_90853005_B19KMXVH5",
+        "594_90685098_71L9K1UG5",
+        "597_90643127_HKXLU3KG5",
+        "580_90741616_WP6FHL4H5",
+        "607_90741605_7JM9HL4H5",
+        "5_90741464_ENWXDL4H5"
+      ]
+    },
+    {
+      "key": "b9p1",
+      "batch": 9,
+      "name": "Bot closes prematurely without collecting required lead details",
+      "description": "The bot ends the call or promises WhatsApp without capturing quantity, name, location, or transferring to a live seller.",
+      "type": "FLOW",
+      "calls": [
+        "613_90685095_H7D8K1UG5",
+        "615_90685183_SF9JL1UG5",
+        "617_90685202_V89TL1UG5",
+        "618_90643122_TSNKU3KG5",
+        "630_90685103_SRFBK1UG5",
+        "642_90741638_NBEPHL4H5",
+        "648_90741631_ETBLHL4H5",
+        "650_90685109_1AIEK1UG5",
+        "657_90685196_FLTPL1UG5",
+        "662_90685231_1V89M1UG5",
+        "667_90741637_UETNHL4H5",
+        "668_90643138_GY7SU3KG5",
+        "671_90741639_I81RHL4H5"
+      ]
+    },
+    {
+      "key": "b9p2",
+      "batch": 9,
+      "name": "Bot mishears or misunderstands product and specs",
+      "description": "The bot captures the wrong product, ignores buyer's specs, or mishears numeric values like quantity and size.",
+      "type": "ASR",
+      "calls": [
+        "614_90797391_5IWRXXFH5",
+        "617_90685202_V89TL1UG5",
+        "619_90685205_EZ3VL1UG5",
+        "622_90741617_RLTFHL4H5",
+        "62_90684984_RU7DH1UG5",
+        "638_90685106_BGADK1UG5",
+        "640_90741627_JWPKHL4H5",
+        "652_90643141_6SFTU3KG5",
+        "655_90685112_FXZGK1UG5",
+        "660_90685229_6YL8M1UG5",
+        "663_90797389_FPMPXXFH5",
+        "668_90643138_GY7SU3KG5",
+        "672_90685116_JCNKK1UG5"
+      ]
+    },
+    {
+      "key": "b9p3",
+      "batch": 9,
+      "name": "Bot loops on questions instead of moving forward",
+      "description": "The bot repeats the same question multiple times, causing buyer frustration and wasting time.",
+      "type": "PROMPT",
+      "calls": [
+        "613_90685095_H7D8K1UG5",
+        "614_90797391_5IWRXXFH5",
+        "616_90643120_82VIU3KG5",
+        "618_90643122_TSNKU3KG5",
+        "622_90741617_RLTFHL4H5",
+        "641_90741633_4LJMHL4H5",
+        "642_90741638_NBEPHL4H5",
+        "650_90685109_1AIEK1UG5",
+        "652_90643141_6SFTU3KG5",
+        "655_90685112_FXZGK1UG5",
+        "657_90685196_FLTPL1UG5",
+        "658_90685199_5F1SL1UG5",
+        "660_90685229_6YL8M1UG5",
+        "662_90685231_1V89M1UG5",
+        "663_90797389_FPMPXXFH5",
+        "667_90741637_UETNHL4H5",
+        "669_90685113_AUKHK1UG5",
+        "671_90741639_I81RHL4H5"
+      ]
+    },
+    {
+      "key": "b9p4",
+      "batch": 9,
+      "name": "Bot uses banned open-ended questions or violates identity rules",
+      "description": "The bot asks questions it is not allowed to ask or claims to transfer to a human team when it should not.",
+      "type": "PROMPT",
+      "calls": [
+        "616_90643120_82VIU3KG5",
+        "642_90741638_NBEPHL4H5",
+        "669_90685113_AUKHK1UG5"
+      ]
+    },
+    {
+      "key": "b9p5",
+      "batch": 9,
+      "name": "Bot promises WhatsApp instead of creating a lead or transferring",
+      "description": "The bot offers to send details via WhatsApp instead of following the required flow to create a formal buy lead or connect a live seller.",
+      "type": "FLOW",
+      "calls": [
+        "615_90685183_SF9JL1UG5",
+        "616_90643120_82VIU3KG5",
+        "650_90685109_1AIEK1UG5",
+        "655_90685112_FXZGK1UG5",
+        "657_90685196_FLTPL1UG5",
+        "668_90643138_GY7SU3KG5",
+        "674_90643143_WJNUU3KG5"
+      ]
+    },
+    {
+      "key": "b9p6",
+      "batch": 9,
+      "name": "Bot fails to transfer to a live seller when requested",
+      "description": "The bot does not connect the buyer to a live seller even when the buyer asks for it, and instead closes with a lead or WhatsApp.",
+      "type": "FLOW",
+      "calls": [
+        "616_90643120_82VIU3KG5",
+        "650_90685109_1AIEK1UG5",
+        "658_90685199_5F1SL1UG5",
+        "669_90685113_AUKHK1UG5"
+      ]
+    },
+    {
+      "key": "b10p1",
+      "batch": 10,
+      "name": "Bot promised WhatsApp details instead of live seller transfer or lead creation",
+      "description": "Bot deviated from standard flow by offering WhatsApp details instead of connecting to a live seller or creating a buy lead.",
+      "type": "PROMPT",
+      "calls": [
+        "679_90685126_IPZPK1UG5",
+        "67_90684986_FMFEH1UG5",
+        "683_90685132_3FUSK1UG5",
+        "701_90685130_8I7SK1UG5",
+        "703_90643161_N6X3V3KG5",
+        "712_90797393_0FHSXXFH5",
+        "718_90643152_JR70V3KG5",
+        "720_90741696_3USDIL4H5",
+        "723_90685138_CZWVK1UG5",
+        "726_90685142_XNRXK1UG5",
+        "727_90685139_7WHWK1UG5"
+      ]
+    },
+    {
+      "key": "b10p2",
+      "batch": 10,
+      "name": "Bot looped excessively on the same question after the buyer already answered",
+      "description": "Bot repeated the same question multiple times even after the buyer had already provided a clear answer.",
+      "type": "FLOW",
+      "calls": [
+        "67_90684986_FMFEH1UG5",
+        "680_90685124_NTCPK1UG5",
+        "683_90685132_3FUSK1UG5",
+        "684_90685137_M5NUK1UG5",
+        "68_90852827_5WI9KXVH5",
+        "690_90643140_BVUSU3KG5",
+        "697_90741652_2B6XHL4H5",
+        "70_90684988_5GNFH1UG5",
+        "710_90741654_S4EYHL4H5",
+        "731_90643150_PUKZU3KG5",
+        "733_90817471_KBSBAIKH5"
+      ]
+    },
+    {
+      "key": "b10p3",
+      "batch": 10,
+      "name": "Bot closed the call or created a lead without capturing critical fields like quantity, product, or specs",
+      "description": "Bot ended the interaction or created a blank/incomplete lead even though the buyer had already stated essential details.",
+      "type": "FLOW",
+      "calls": [
+        "675_90685117_96XLK1UG5",
+        "686_90853011_RMPMMXVH5",
+        "689_90643137_L1LRU3KG5",
+        "718_90643152_JR70V3KG5",
+        "719_90741697_YPDEIL4H5",
+        "720_90741696_3USDIL4H5",
+        "722_90685141_2T4XK1UG5",
+        "733_90817471_KBSBAIKH5"
+      ]
+    },
+    {
+      "key": "b10p4",
+      "batch": 10,
+      "name": "Bot misheard product names, numbers, or quantities leading to wrong lead data",
+      "description": "ASR errors caused the bot to capture incorrect product names, phone models, or numeric values.",
+      "type": "ASR",
+      "calls": [
+        "679_90685126_IPZPK1UG5",
+        "680_90685124_NTCPK1UG5",
+        "684_90685137_M5NUK1UG5",
+        "705_90685136_T82UK1UG5",
+        "70_90684988_5GNFH1UG5",
+        "725_90643164_D055V3KG5",
+        "727_90685139_7WHWK1UG5",
+        "73_90643047_ZY1LS3KG5"
+      ]
+    },
+    {
+      "key": "b10p5",
+      "batch": 10,
+      "name": "Bot used banned open-ended questions during the conversation",
+      "description": "Bot asked questions that were explicitly forbidden in its instructions.",
+      "type": "PROMPT",
+      "calls": [
+        "675_90685117_96XLK1UG5",
+        "684_90685137_M5NUK1UG5",
+        "687_90853024_JXLTMXVH5",
+        "709_90741651_7EJWHL4H5",
+        "718_90643152_JR70V3KG5"
+      ]
+    },
+    {
+      "key": "b10p6",
+      "batch": 10,
+      "name": "Bot failed to capture stated quantity and specs, moving on without recording them",
+      "description": "Bot skipped over or ignored the quantity and specific product details provided by the buyer.",
+      "type": "FLOW",
+      "calls": [
+        "675_90685117_96XLK1UG5",
+        "686_90853011_RMPMMXVH5",
+        "719_90741697_YPDEIL4H5",
+        "727_90685139_7WHWK1UG5"
+      ]
+    },
+    {
+      "key": "b11p1",
+      "batch": 11,
+      "name": "Bot closes call without collecting required details or creating a lead",
+      "description": "The bot ends the conversation or offers WhatsApp without collecting product, quantity, specs, name, or city, leaving the buyer unfulfilled.",
+      "type": "FLOW",
+      "calls": [
+        "742_90643167_3UC6V3KG5",
+        "745_90685153_RYM2L1UG5",
+        "748_90643171_YPZ6V3KG5",
+        "758_90643183_SZWBV3KG5",
+        "766_90643201_4BZMV3KG5",
+        "76_90684998_UL7LH1UG5",
+        "773_90685166_IJWBL1UG5",
+        "774_90685164_URMAL1UG5",
+        "779_90685172_Y6CEL1UG5",
+        "791_90685177_HX6GL1UG5",
+        "794_90643192_5ZMIV3KG5",
+        "796_90643196_PNHKV3KG5"
+      ]
+    },
+    {
+      "key": "b11p2",
+      "batch": 11,
+      "name": "Bot loops on the same question instead of moving forward",
+      "description": "The bot repeats the same question multiple times, frustrating the buyer and causing the call to end without progress.",
+      "type": "FLOW",
+      "calls": [
+        "755_90685168_3ARDL1UG5",
+        "767_90643198_EHRLV3KG5",
+        "773_90685166_IJWBL1UG5",
+        "778_90685159_J7K7L1UG5",
+        "783_90853018_ADJPMXVH5",
+        "791_90685177_HX6GL1UG5",
+        "792_90643190_K8UGV3KG5",
+        "794_90643192_5ZMIV3KG5"
+      ]
+    },
+    {
+      "key": "b11p3",
+      "batch": 11,
+      "name": "Bot promises WhatsApp instead of connecting a live seller or creating a lead",
+      "description": "The bot offers to send details on WhatsApp, which is an off-protocol commitment that prevents a live seller connection or lead creation.",
+      "type": "FLOW",
+      "calls": [
+        "742_90643167_3UC6V3KG5",
+        "748_90643171_YPZ6V3KG5",
+        "755_90685168_3ARDL1UG5",
+        "758_90643183_SZWBV3KG5",
+        "75_90684999_NIULH1UG5",
+        "765_90685155_ANH4L1UG5",
+        "767_90643198_EHRLV3KG5",
+        "76_90684998_UL7LH1UG5",
+        "774_90685164_URMAL1UG5",
+        "779_90685172_Y6CEL1UG5",
+        "78_90685003_89NNH1UG5",
+        "792_90643190_K8UGV3KG5",
+        "796_90643196_PNHKV3KG5"
+      ]
+    },
+    {
+      "key": "b11p4",
+      "batch": 11,
+      "name": "Bot mishears product names or specifications due to ASR errors",
+      "description": "The bot misrecognizes the buyer's product, quantity, or specs, leading to incorrect capture or looping on the wrong item.",
+      "type": "ASR",
+      "calls": [
+        "749_90643176_CCF9V3KG5",
+        "751_90643177_792AV3KG5",
+        "762_90643189_1IZEV3KG5",
+        "775_90685156_5K45L1UG5",
+        "778_90685159_J7K7L1UG5",
+        "782_90741665_BV80IL4H5",
+        "78_90685003_89NNH1UG5",
+        "792_90643190_K8UGV3KG5",
+        "796_90643196_PNHKV3KG5"
+      ]
+    },
+    {
+      "key": "b11p5",
+      "batch": 11,
+      "name": "Bot misunderstands the buyer's intent and asks irrelevant questions",
+      "description": "The bot interprets the buyer's request incorrectly, such as treating a job requirement as a product requirement or asking for irrelevant specs.",
+      "type": "KNOWLEDGE",
+      "calls": [
+        "743_90685144_SKCYK1UG5",
+        "751_90643177_792AV3KG5",
+        "756_90797415_7N64YXFH5",
+        "761_90741658_L11ZHL4H5",
+        "765_90685155_ANH4L1UG5",
+        "766_90643201_4BZMV3KG5",
+        "782_90741665_BV80IL4H5",
+        "791_90685177_HX6GL1UG5",
+        "792_90643190_K8UGV3KG5",
+        "796_90643196_PNHKV3KG5"
+      ]
+    },
+    {
+      "key": "b11p6",
+      "batch": 11,
+      "name": "Bot goes silent or gets cut off mid-sentence before collecting details",
+      "description": "The bot experiences dead air or gets cut off, preventing it from collecting the buyer's requirement or closing the call properly.",
+      "type": "FLOW",
+      "calls": [
+        "740_90685145_LHZYK1UG5",
+        "745_90685153_RYM2L1UG5",
+        "749_90643176_CCF9V3KG5",
+        "758_90643183_SZWBV3KG5",
+        "763_90643191_F5FHV3KG5",
+        "764_90643193_0W9JV3KG5",
+        "784_90797401_ZSTWXXFH5",
+        "791_90685177_HX6GL1UG5"
+      ]
+    },
+    {
+      "key": "b12p1",
+      "batch": 12,
+      "name": "Bot promises WhatsApp details instead of live seller transfer or buy lead",
+      "description": "Bot ends the call by promising to send seller details on WhatsApp rather than connecting to a live seller or creating a proper buy lead.",
+      "type": "FLOW",
+      "calls": [
+        "797_90685181_2M1IL1UG5",
+        "800_90685185_LCWJL1UG5",
+        "814_90741669_RGP2IL4H5",
+        "815_90685179_7REHL1UG5",
+        "819_90741679_01T5IL4H5",
+        "839_90685195_KP6PL1UG5",
+        "841_90685197_AIERL1UG5",
+        "848_90797387_KT1PXXFH5",
+        "849_90741721_WE0NIL4H5",
+        "853_90741728_VSATIL4H5"
+      ]
+    },
+    {
+      "key": "b12p2",
+      "batch": 12,
+      "name": "Bot closes without collecting required lead fields or creating a lead",
+      "description": "Bot terminates the call or goes silent without gathering critical details like quantity, name, city, state, or product specs, and fails to create a buy lead.",
+      "type": "FLOW",
+      "calls": [
+        "79_90684978_GA5AH1UG5",
+        "7_90797295_A7M9VXFH5",
+        "808_90797403_UNEXXXFH5",
+        "80_90701796_CMIF2JXG5",
+        "817_90685182_XIMIL1UG5",
+        "821_90741677_A7J4IL4H5",
+        "828_90797409_8BWZXXFH5",
+        "840_90643220_XX6YV3KG5",
+        "844_90741666_6SV0IL4H5",
+        "850_90797398_E2ZUXXFH5"
+      ]
+    },
+    {
+      "key": "b12p3",
+      "batch": 12,
+      "name": "Bot mishears quantity, specs, or product due to ASR errors",
+      "description": "Automatic speech recognition (ASR) fails to correctly capture numeric quantities, dimensions, or product names, leading to wrong data being recorded.",
+      "type": "ASR",
+      "calls": [
+        "797_90685181_2M1IL1UG5",
+        "799_90643202_Z7KNV3KG5",
+        "800_90685185_LCWJL1UG5",
+        "815_90685179_7REHL1UG5",
+        "816_90741678_5465IL4H5",
+        "818_90643211_MD4VV3KG5",
+        "826_90797404_NK1YXXFH5",
+        "827_90797407_DE9ZXXFH5",
+        "835_90685193_WWYML1UG5",
+        "836_90685189_63RLL1UG5",
+        "838_90741691_U9PAIL4H5",
+        "847_90741717_6LSLIL4H5"
+      ]
+    },
+    {
+      "key": "b12p4",
+      "batch": 12,
+      "name": "Bot loops excessively on a question instead of moving forward or closing",
+      "description": "Bot repeats the same question multiple times (e.g., for city, quantity, or specs) without successfully capturing the answer or advancing the conversation.",
+      "type": "FLOW",
+      "calls": [
+        "797_90685181_2M1IL1UG5",
+        "808_90797403_UNEXXXFH5",
+        "818_90643211_MD4VV3KG5",
+        "845_90643205_N1UPV3KG5",
+        "850_90797398_E2ZUXXFH5",
+        "851_90643251_DPYCW3KG5"
+      ]
+    },
+    {
+      "key": "b12p5",
+      "batch": 12,
+      "name": "Bot ignores or misses critical product specifications and use cases",
+      "description": "Buyer provides important product details, applications, or requirements, but the bot fails to ask for them, captures them incorrectly, or ignores them entirely.",
+      "type": "KNOWLEDGE",
+      "calls": [
+        "799_90643202_Z7KNV3KG5",
+        "808_90797403_UNEXXXFH5",
+        "80_90701796_CMIF2JXG5",
+        "808_90797403_UNEXXXFH5",
+        "816_90741678_5465IL4H5",
+        "819_90741679_01T5IL4H5",
+        "828_90797409_8BWZXXFH5",
+        "832_90685188_B64LL1UG5",
+        "838_90741691_U9PAIL4H5",
+        "841_90685197_AIERL1UG5",
+        "851_90643251_DPYCW3KG5"
+      ]
+    },
+    {
+      "key": "b12p6",
+      "batch": 12,
+      "name": "Bot uses banned open-ended or unnatural language and phrasing",
+      "description": "Bot asks questions that are not allowed by the prompt or uses unnatural, confusing, or repetitive phrasing that disrupts the conversation.",
+      "type": "PROMPT",
+      "calls": [
+        "799_90643202_Z7KNV3KG5",
+        "818_90643211_MD4VV3KG5",
+        "832_90685188_B64LL1UG5",
+        "845_90643205_N1UPV3KG5",
+        "851_90643251_DPYCW3KG5"
+      ]
+    },
+    {
+      "key": "b13p1",
+      "batch": 13,
+      "name": "Bot offers WhatsApp instead of live seller or lead",
+      "description": "Bot promises to send details via WhatsApp instead of connecting to a live seller or creating a buy lead.",
+      "type": "FLOW",
+      "calls": [
+        "861_90797413_T1R1YXFH5",
+        "864_90853031_9RVUMXVH5",
+        "867_90643225_BJM0W3KG5",
+        "871_90853032_4MGVMXVH5",
+        "893_90797421_SD16YXFH5",
+        "904_90643223_SUTYV3KG5",
+        "915_90797444_FJJBYXFH5",
+        "925_90685214_35M0M1UG5",
+        "926_90685213_8810M1UG5"
+      ]
+    },
+    {
+      "key": "b13p2",
+      "batch": 13,
+      "name": "Bot mishears quantity and ignores buyer's answer",
+      "description": "Bot fails to capture the buyer's stated quantity, often mishearing large numbers, and then closes or loops.",
+      "type": "ASR",
+      "calls": [
+        "855_90643282_ZXDXW3KG5",
+        "881_90853065_FBVANXVH5",
+        "897_90797429_G797YXFH5",
+        "907_90741703_CCVGIL4H5",
+        "909_90741707_263IIL4H5",
+        "919_90685212_DBEZL1UG5"
+      ]
+    },
+    {
+      "key": "b13p3",
+      "batch": 13,
+      "name": "Bot loops on product or spec without understanding",
+      "description": "Bot repeatedly asks the same product or spec question without progressing, causing frustration and call drops.",
+      "type": "PROMPT",
+      "calls": [
+        "860_90797414_HVY2YXFH5",
+        "861_90797413_T1R1YXFH5",
+        "868_90643224_GM10W3KG5",
+        "882_90797424_LAM6YXFH5",
+        "898_90643217_74ZWV3KG5",
+        "908_90741692_N6BBIL4H5",
+        "922_90797451_J09FYXFH5"
+      ]
+    },
+    {
+      "key": "b13p4",
+      "batch": 13,
+      "name": "Bot misidentifies or ignores buyer's product",
+      "description": "Bot confirms a wrong product name or ignores the buyer's correction, leading to an incorrect or no lead.",
+      "type": "ASR",
+      "calls": [
+        "855_90643282_ZXDXW3KG5",
+        "860_90797414_HVY2YXFH5",
+        "861_90797413_T1R1YXFH5",
+        "868_90643224_GM10W3KG5",
+        "86_90852825_F2B8KXVH5",
+        "882_90797424_LAM6YXFH5"
+      ]
+    },
+    {
+      "key": "b13p5",
+      "batch": 13,
+      "name": "Bot mishears specs like size, color, or capacity",
+      "description": "Bot fails to capture or mishears specific technical specs like dimensions, colors, or capacity requirements.",
+      "type": "ASR",
+      "calls": [
+        "862_90685203_P5WTL1UG5",
+        "878_90853041_836ZMXVH5",
+        "893_90797421_SD16YXFH5",
+        "897_90797429_G797YXFH5",
+        "904_90643223_SUTYV3KG5",
+        "919_90685212_DBEZL1UG5",
+        "926_90685213_8810M1UG5"
+      ]
+    },
+    {
+      "key": "b13p6",
+      "batch": 13,
+      "name": "Bot closes prematurely without collecting lead details",
+      "description": "Bot ends the call or closes the conversation before collecting quantity, name, city, or other required details.",
+      "type": "FLOW",
+      "calls": [
+        "85_90643032_H6A6S3KG5",
+        "86_90852825_F2B8KXVH5",
+        "869_90853033_ZI3WMXVH5",
+        "879_90853073_EN5FNXVH5",
+        "89_90741472_F6HEEL4H5",
+        "8_90852794_9LE5JXVH5",
+        "898_90643217_74ZWV3KG5",
+        "905_90741694_I3YBIL4H5",
+        "918_90741700_TL0FIL4H5",
+        "927_90797463_86TKYXFH5"
+      ]
+    },
+    {
+      "key": "b14p1",
+      "batch": 14,
+      "name": "Bot closes call without creating lead or live transfer",
+      "description": "Bot promises WhatsApp or hangs up instead of collecting details and connecting to a seller.",
+      "type": "FLOW",
+      "calls": [
+        "937_90685209_ZNYWL1UG5",
+        "93_90852834_NYNFKXVH5",
+        "940_90853047_MPL1NXVH5",
+        "944_90643229_R643W3KG5",
+        "949_90853039_I9YXMXVH5",
+        "94_90741475_Z8MKEL4H5",
+        "950_90853049_CIV2NXVH5",
+        "961_90741722_RBLNIL4H5",
+        "96_90741476_YKYPEL4H5",
+        "978_90643243_JF18W3KG5",
+        "979_90685225_L7T6M1UG5",
+        "982_90797447_5DTCYXFH5",
+        "983_90797450_P3MEYXFH5",
+        "984_90797469_HPVNYXFH5",
+        "989_90797496_FEGYYXFH5"
+      ]
+    },
+    {
+      "key": "b14p2",
+      "batch": 14,
+      "name": "Bot mishears product or critical spec and creates wrong lead",
+      "description": "ASR errors cause the bot to record the wrong product, capacity, or specification.",
+      "type": "ASR",
+      "calls": [
+        "934_90741727_0WNSIL4H5",
+        "935_90741726_5Z2SIL4H5",
+        "965_90817687_KNT7VJKH5",
+        "971_90643236_5UJ5W3KG5",
+        "979_90685225_L7T6M1UG5",
+        "984_90797469_HPVNYXFH5",
+        "98_90741482_F1E1FL4H5"
+      ]
+    },
+    {
+      "key": "b14p3",
+      "batch": 14,
+      "name": "Bot loops on unanswered or clarified questions",
+      "description": "Bot repeats the same question or prompt multiple times instead of moving on or closing.",
+      "type": "FLOW",
+      "calls": [
+        "932_90685217_MVG2M1UG5",
+        "934_90741727_0WNSIL4H5",
+        "938_90685211_IETYL1UG5",
+        "939_90685219_CNP3M1UG5",
+        "940_90853047_MPL1NXVH5",
+        "952_90741719_1IDMIL4H5",
+        "955_90741724_F5VPIL4H5",
+        "961_90741722_RBLNIL4H5",
+        "967_90817738_0UNR5KKH5",
+        "978_90643243_JF18W3KG5",
+        "982_90797447_5DTCYXFH5",
+        "985_90797480_BZSUYXFH5"
+      ]
+    },
+    {
+      "key": "b14p4",
+      "batch": 14,
+      "name": "Bot misses critical spec or quantity while collecting details",
+      "description": "Bot fails to capture key specifications like capacity, model, or quantity.",
+      "type": "FLOW",
+      "calls": [
+        "934_90741727_0WNSIL4H5",
+        "940_90853047_MPL1NXVH5",
+        "944_90643229_R643W3KG5",
+        "949_90853039_I9YXMXVH5",
+        "94_90741475_Z8MKEL4H5",
+        "950_90853049_CIV2NXVH5",
+        "967_90817738_0UNR5KKH5",
+        "968_90853063_RHL9NXVH5",
+        "979_90685225_L7T6M1UG5",
+        "982_90797447_5DTCYXFH5",
+        "983_90797450_P3MEYXFH5",
+        "984_90797469_HPVNYXFH5",
+        "985_90797480_BZSUYXFH5",
+        "98_90741482_F1E1FL4H5"
+      ]
+    },
+    {
+      "key": "b14p5",
+      "batch": 14,
+      "name": "Bot offers WhatsApp details instead of live seller transfer",
+      "description": "Bot deflects the buyer to WhatsApp rather than completing a live transfer or lead.",
+      "type": "FLOW",
+      "calls": [
+        "933_90797468_MT8NYXFH5",
+        "937_90685209_ZNYWL1UG5",
+        "93_90852834_NYNFKXVH5",
+        "940_90853047_MPL1NXVH5",
+        "944_90643229_R643W3KG5",
+        "94_90741475_Z8MKEL4H5",
+        "950_90853049_CIV2NXVH5",
+        "978_90643243_JF18W3KG5",
+        "979_90685225_L7T6M1UG5",
+        "982_90797447_5DTCYXFH5",
+        "983_90797450_P3MEYXFH5",
+        "985_90797480_BZSUYXFH5",
+        "98_90741482_F1E1FL4H5"
+      ]
+    },
+    {
+      "key": "b14p6",
+      "batch": 14,
+      "name": "Bot fails to capture buyer name, city, or state",
+      "description": "Bot closes the call or transfers without collecting required location or identity fields.",
+      "type": "FLOW",
+      "calls": [
+        "934_90741727_0WNSIL4H5",
+        "940_90853047_MPL1NXVH5",
+        "944_90643229_R643W3KG5",
+        "96_90741476_YKYPEL4H5",
+        "978_90643243_JF18W3KG5",
+        "980_90685227_B118M1UG5",
+        "982_90797447_5DTCYXFH5"
+      ]
+    },
+    {
+      "key": "b15p1",
+      "batch": 15,
+      "name": "Bot ignores buyer's product or quantity correction and continues with wrong item",
+      "description": "Bot fails to update product or quantity when buyer corrects it, and proceeds with the wrong details.",
+      "type": "PROMPT",
+      "calls": [
+        "999_90853050_7FG3NXVH5",
+        "992_90797524_CGDBZXFH5"
+      ]
+    },
+    {
+      "key": "b15p2",
+      "batch": 15,
+      "name": "Bot closes prematurely without collecting lead details or transferring to seller",
+      "description": "Bot ends the call or promises WhatsApp transfer without gathering required details or completing a live handoff.",
+      "type": "PROMPT",
+      "calls": [
+        "997_90643246_46W9W3KG5",
+        "999_90853050_7FG3NXVH5",
+        "99_90741483_AY02FL4H5",
+        "991_90643244_ECM8W3KG5"
+      ]
+    },
+    {
+      "key": "b15p3",
+      "batch": 15,
+      "name": "Bot mishears spoken numbers or product names and does not recover",
+      "description": "Bot incorrectly transcribes numbers or product names and fails to ask again or accept the buyer's correction.",
+      "type": "PROMPT",
+      "calls": [
+        "992_90797524_CGDBZXFH5",
+        "990_90797518_3YA8ZXFH5",
+        "999_90853050_7FG3NXVH5"
+      ]
+    },
+    {
+      "key": "b15p4",
+      "batch": 15,
+      "name": "Bot loops on asking for details without progressing or closing",
+      "description": "Bot repeatedly asks for the same information without moving forward, transferring, or ending the call.",
+      "type": "PROMPT",
+      "calls": [
+        "993_90797540_RF5IZXFH5"
+      ]
+    },
+    {
+      "key": "b15p5",
+      "batch": 15,
+      "name": "Bot offers seller connection but never actually transfers the call",
+      "description": "Bot promises to connect a live seller but fails to complete the transfer or create a lead.",
+      "type": "PROMPT",
+      "calls": [
+        "992_90797524_CGDBZXFH5",
+        "993_90797540_RF5IZXFH5"
+      ]
+    },
+    {
+      "key": "b15p6",
+      "batch": 15,
+      "name": "Bot introduces itself incorrectly or asks irrelevant questions",
+      "description": "Bot misidentifies itself or asks questions unrelated to the required lead collection flow.",
+      "type": "PROMPT",
+      "calls": [
+        "991_90643244_ECM8W3KG5"
+      ]
+    }
+  ],
+  "assignments": {
+    "1000_90643234_F0C4W3KG5": "C1",
+    "1001_90853053_X8P4NXVH5": "Other",
+    "101_90741485_EDP5FL4H5": "C1",
+    "103_90684987_AJ2FH1UG5": "C4",
+    "104_90684996_4UZJH1UG5": "C1",
+    "105_90852813_N3TUJXVH5": "C3",
+    "106_90684997_ZPKKH1UG5": "C4",
+    "107_90741474_EITIEL4H5": "C4",
+    "109_90701601_91KGNHXG5": "Other",
+    "10_90797297_EMBDVXFH5": "C6",
+    "111_90852814_8ULWJXVH5": "Other",
+    "112_90643038_KZ9ES3KG5": "C1",
+    "115_90643039_ATHFS3KG5": "C3",
+    "122_90852829_JH0CKXVH5": "C3",
+    "127_90852832_Z4GEKXVH5": "Other",
+    "128_90852833_U13FKXVH5": "C4",
+    "12_90797300_ZC6FVXFH5": "Other",
+    "131_90797306_MIPKVXFH5": "C3",
+    "132_90741479_6HBYEL4H5": "C3",
+    "133_90852837_DSXGKXVH5": "C6",
+    "134_90741480_WAJZEL4H5": "C4",
+    "135_90852838_8NIHKXVH5": "C7",
+    "136_90741484_JG35FL4H5": "Other",
+    "137_90684989_0DAGH1UG5": "C4",
+    "13_90852800_HHTCJXVH5": "C1",
+    "140_90852922_ANRGLXVH5": "C1",
+    "141_90643052_7VEUS3KG5": "C3",
+    "142_90684990_V9XGH1UG5": "C1",
+    "143_90643051_CYTTS3KG5": "C4",
+    "144_90741487_NXS8FL4H5": "C3",
+    "145_90643053_2S1VS3KG5": "C1",
+    "146_90684992_J35IH1UG5": "Other",
+    "147_90741494_C3BEFL4H5": "C1",
+    "149_90643059_4XB7T3KG5": "Other",
+    "150_90643056_W0ZZS3KG5": "C3",
+    "154_90685001_IFFMH1UG5": "C1",
+    "156_90685005_Y2XPH1UG5": "C4",
+    "159_90741519_SJN3GL4H5": "C1",
+    "15_90852801_CEEDJXVH5": "Other",
+    "160_90643050_H17TS3KG5": "C1",
+    "162_90643054_BA4YS3KG5": "C3",
+    "164_90643058_E346T3KG5": "C1",
+    "165_90852848_71VLKXVH5": "Other",
+    "166_90852850_SRNNKXVH5": "Other",
+    "170_90852863_R30UKXVH5": "C4",
+    "171_90685015_SBUVH1UG5": "C4",
+    "176_90741491_YFVBFL4H5": "C1",
+    "177_90852858_6D5SKXVH5": "C3",
+    "178_90852868_5RFWKXVH5": "Other",
+    "180_90685008_HTRSH1UG5": "Other",
+    "183_90741495_70YEFL4H5": "C1",
+    "184_90741496_2XIFFL4H5": "C4",
+    "186_90741497_XT5GFL4H5": "C4",
+    "188_90741499_GI0IFL4H5": "C4",
+    "189_90741503_VHSPFL4H5": "C4",
+    "18_90643029_3JU3S3KG5": "Other",
+    "191_90741506_ZYFUFL4H5": "C8",
+    "196_90741511_T7DZFL4H5": "Other",
+    "198_90741512_M400GL4H5": "C4",
+    "199_90797308_266NVXFH5": "Other",
+    "19_90661242_TXRFJXNG5": "C4",
+    "200_90685016_L8FWH1UG5": "C4",
+    "202_90797307_79JMVXFH5": "C3",
+    "205_90741504_PEDRFL4H5": "C4",
+    "206_90852846_H7LKKXVH5": "Other",
+    "207_90852847_C48LKXVH5": "Other",
+    "209_90741505_958TFL4H5": "C3",
+    "20_90797293_6SY5VXFH5": "Other",
+    "210_90852849_XU2NKXVH5": "Other",
+    "212_90741509_DKXWFL4H5": "C4",
+    "213_90852853_LMAPKXVH5": "C1",
+    "214_90741514_7VU1GL4H5": "C4",
+    "216_90797313_VSDYVXFH5": "C1",
+    "218_90741525_W0D7GL4H5": "C3",
+    "21_90852793_PWJ3JXVH5": "Other",
+    "220_90643070_J1EST3KG5": "C1",
+    "221_90797315_U4P2WXFH5": "C4",
+    "222_90797316_N1B3WXFH5": "Other",
+    "223_90643072_NG3WT3KG5": "C4",
+    "225_90741533_0G2BGL4H5": "C1",
+    "226_90643073_IDPWT3KG5": "Other",
+    "229_90643075_87YXT3KG5": "Other",
+    "231_90643076_34JYT3KG5": "C1",
+    "232_90797321_C7V8WXFH5": "Other",
+    "233_90797322_74G9WXFH5": "C1",
+    "237_90797326_W90FWXFH5": "Other",
+    "240_90685029_AEZ1I1UG5": "Other",
+    "241_90741518_XM23GL4H5": "C4",
+    "243_90852860_1ASSKXVH5": "C10",
+    "245_90741536_J6XCGL4H5": "C1",
+    "246_90797310_1IGTVXFH5": "Other",
+    "249_90741553_HWHLGL4H5": "C4",
+    "253_90797311_K8BVVXFH5": "Other",
+    "254_90643069_V76RT3KG5": "C1",
+    "256_90643071_4S8UT3KG5": "C1",
+    "258_90643077_Y06ZT3KG5": "C1",
+    "25_90797296_01WAVXFH5": "Other",
+    "262_90797312_F5YVVXFH5": "Other",
+    "263_90741516_2SF2GL4H5": "Other",
+    "265_90741537_E3IDGL4H5": "Other",
+    "266_90741534_P9ACGL4H5": "C4",
+    "267_90643084_2GV2U3KG5": "Other",
+    "268_90741540_ZTCFGL4H5": "C1",
+    "269_90685030_V4U3I1UG5": "Other",
+    "26_90661210_2N7BAXNG5": "Other",
+    "271_90643123_MNALU3KG5": "Other",
+    "272_90741538_905EGL4H5": "C9",
+    "273_90797314_4BG1WXFH5": "C1",
+    "275_90685033_EVM5I1UG5": "Other",
+    "276_90685035_D7Z9I1UG5": "C1",
+    "277_90797323_XXNAWXFH5": "C3",
+    "282_90685047_X413J1UG5": "C3",
+    "283_90685032_JY15I1UG5": "Other",
+    "284_90797317_IYX3WXFH5": "Other",
+    "285_90797324_SUABWXFH5": "Other",
+    "286_90701833_UIRJ6JXG5": "C11",
+    "28_90661270_PTXRPXNG5": "Other",
+    "294_90741531_AMU9GL4H5": "Other",
+    "295_90741530_FR79GL4H5": "C4",
+    "296_90741528_RXZ7GL4H5": "C4",
+    "298_90797318_8S55WXFH5": "Other",
+    "2_90741461_KEZSDL4H5": "C4",
+    "301_90701921_L1D2PJXG5": "C6",
+    "302_90797351_PDU6XXFH5": "C1",
+    "305_90741542_UPZFGL4H5": "C5",
+    "307_90852875_PFAYKXVH5": "Other",
+    "30_90661031_XAKFZVNG5": "C4",
+    "310_90852876_E9IZKXVH5": "C13",
+    "312_90852886_UWZ1LXVH5": "C5",
+    "313_90852891_8IF4LXVH5": "C12",
+    "314_90852894_T8A6LXVH5": "C4",
+    "315_90852892_3F25LXVH5": "C4",
+    "318_90852900_7WR8LXVH5": "C6",
+    "319_90852904_SKKALXVH5": "C4",
+    "320_90852901_2TC9LXVH5": "C1",
+    "325_90741544_NLKGGL4H5": "C4",
+    "326_90685037_HMMDI1UG5": "C1",
+    "328_90797332_NW7PWXFH5": "C1",
+    "332_90797336_H55VWXFH5": "C1",
+    "333_90797337_C2SVWXFH5": "Other",
+    "336_90797339_2WZWWXFH5": "C4",
+    "337_90797340_XSKXWXFH5": "C1",
+    "338_90797342_LKUYWXFH5": "C5",
+    "339_90797343_6BN0XXFH5": "C12",
+    "33_90741471_GU6AEL4H5": "C1",
+    "341_90797345_W4X1XXFH5": "C13",
+    "343_90797347_KY43XXFH5": "C13",
+    "346_90643085_L6P4U3KG5": "Other",
+    "347_90797352_JAF7XXFH5": "C4",
+    "348_90852889_DLU3LXVH5": "C4",
+    "349_90685039_X94GI1UG5": "C4",
+    "352_90797355_41A9XXFH5": "C4",
+    "353_90741550_392JGL4H5": "C12",
+    "357_90797563_9IAPZXFH5": "C5",
+    "360_90852898_H2I7LXVH5": "C1",
+    "365_90797565_ZBIRZXFH5": "C12",
+    "366_90852902_XNZ9LXVH5": "C1",
+    "367_90797576_8WKUZXFH5": "Other",
+    "368_90852913_15NDLXVH5": "C4",
+    "36_90797304_8X8IVXFH5": "C6",
+    "373_90852924_0HZHLXVH5": "C4",
+    "375_90643086_G3B5U3KG5": "C4",
+    "376_90685044_KFMLI1UG5": "C4",
+    "379_90797357_ZXW9XXFH5": "C1",
+    "37_90684982_64DBH1UG5": "C4",
+    "381_90685048_S1M3J1UG5": "C4",
+    "383_90797363_8GZCXXFH5": "C4",
+    "384_90852912_682DLXVH5": "C4",
+    "385_90852915_W1AELXVH5": "C4",
+    "386_90797365_Y97EXXFH5": "Other",
+    "387_90852921_FS4GLXVH5": "C1",
+    "388_90852923_5KCHLXVH5": "C4",
+    "389_90852928_J7UJLXVH5": "C4",
+    "38_90852805_BSPHJXVH5": "C3",
+    "390_90852936_IJ4PLXVH5": "C4",
+    "391_90852937_DGRPLXVH5": "C14",
+    "393_90852933_4YMLLXVH5": "C4",
+    "394_90852942_T37TLXVH5": "C4",
+    "395_90852944_HXEULXVH5": "C4",
+    "398_90685046_MKYZI1UG5": "C4",
+    "39_90684981_B7SAH1UG5": "C4",
+    "3_90797294_1NJ6VXFH5": "C4",
+    "400_90685049_WGB7J1UG5": "C4",
+    "405_90852927_PA7JLXVH5": "C4",
+    "407_90797359_NR4BXXFH5": "C4",
+    "410_90797364_3DKDXXFH5": "C4",
+    "411_90741561_G8URGL4H5": "C1",
+    "412_90852932_912LLXVH5": "C4",
+    "415_90852934_ZU9MLXVH5": "C4",
+    "417_90852938_8DCRLXVH5": "C4",
+    "418_90852935_NMHNLXVH5": "C1",
+    "41_90852807_WGJJJXVH5": "C4",
+    "420_90852941_Y6KSLXVH5": "C3",
+    "421_90852950_SFHXLXVH5": "Other",
+    "422_90852949_XIWWLXVH5": "C3",
+    "426_90643088_6XI6U3KG5": "C4",
+    "427_90797368_CXMGXXFH5": "C4",
+    "428_90797390_AL9RXXFH5": "C4",
+    "42_90852808_KATKJXVH5": "Other",
+    "430_90741558_XHZNGL4H5": "C4",
+    "431_90643090_WPS7U3KG5": "C4",
+    "432_90797395_VB4TXXFH5": "Other",
+    "435_90797400_4W6WXXFH5": "C4",
+    "436_90643093_FFL9U3KG5": "C4",
+    "437_90643097_PZNCU3KG5": "C3",
+    "439_90797396_P8RTXXFH5": "C3",
+    "43_90852809_A41MJXVH5": "Other",
+    "442_90741570_WV9UGL4H5": "C15",
+    "444_90797367_M3FFXXFH5": "C3",
+    "445_90741567_622TGL4H5": "C4",
+    "447_90741609_G3RCHL4H5": "C4",
+    "448_90741632_9PYLHL4H5": "C1",
+    "449_90685057_Z9BFJ1UG5": "Other",
+    "44_90852810_VUVNJXVH5": "Other",
+    "451_90741642_829SHL4H5": "Other",
+    "452_90741661_GYLZHL4H5": "C4",
+    "453_90685060_DXSHJ1UG5": "Other",
+    "454_90852946_7RMVLXVH5": "C4",
+    "456_90685061_3R0JJ1UG5": "C4",
+    "457_90852954_B6CZLXVH5": "Other",
+    "458_90685063_23BNJ1UG5": "C1",
+    "459_90852952_G9RYLXVH5": "Other",
+    "465_90852973_9WY7MXVH5": "C1",
+    "468_90852951_LC4YLXVH5": "C4",
+    "469_90643091_RLD8U3KG5": "C4",
+    "470_90685058_U6YFJ1UG5": "C15",
+    "473_90741565_B5FSGL4H5": "Other",
+    "474_90685062_MFVKJ1UG5": "C4",
+    "475_90741569_1ZMTGL4H5": "Other",
+    "476_90797372_2RWHXXFH5": "C4",
+    "477_90685064_XZXNJ1UG5": "C15",
+    "479_90852959_WW61MXVH5": "C3",
+    "480_90685067_6I0TJ1UG5": "Other",
+    "481_90852958_10K0MXVH5": "C1",
+    "483_90852961_KPE2MXVH5": "C3",
+    "484_90685075_VNIYJ1UG5": "C1",
+    "485_90852967_P546MXVH5": "C4",
+    "486_90852966_0CW4MXVH5": "C4",
+    "487_90685077_9B01K1UG5": "Other",
+    "489_90852970_EZB7MXVH5": "Other",
+    "48_90797301_U9TFVXFH5": "C1",
+    "490_90852977_ZN69MXVH5": "C4",
+    "493_90643092_KI09U3KG5": "Other",
+    "494_90685068_1FLTJ1UG5": "C4",
+    "497_90685069_WB8UJ1UG5": "C17",
+    "4_90852792_A941JXVH5": "C3",
+    "500_90852984_Y1HDMXVH5": "C1",
+    "505_90852992_7KJGMXVH5": "C4",
+    "506_90852991_CNYFMXVH5": "C4",
+    "507_90852996_XDTHMXVH5": "C4",
+    "509_90797369_7U9HXXFH5": "C17",
+    "510_90797373_XLHIXXFH5": "C4",
+    "511_90797381_66KLXXFH5": "C1",
+    "512_90685076_EED0K1UG5": "C17",
+    "514_90852979_UKT9MXVH5": "C4",
+    "515_90797378_GCCKXXFH5": "Other",
+    "517_90685081_Z482K1UG5": "C1",
+    "518_90643096_V23CU3KG5": "C16",
+    "519_90852981_IE1BMXVH5": "C4",
+    "51_90741466_I4K1EL4H5": "C1",
+    "520_90643095_06GBU3KG5": "C1",
+    "521_90643098_JWADU3KG5": "C1",
+    "528_90741583_EYE0HL4H5": "C3",
+    "529_90741581_P47ZGL4H5": "C4",
+    "52_90643030_TC25S3KG5": "Other",
+    "530_90852990_HSBFMXVH5": "C4",
+    "532_90852982_35WCMXVH5": "C1",
+    "533_90685080_48L1K1UG5": "C4",
+    "534_90643101_ETXDU3KG5": "C4",
+    "536_90685082_U1V2K1UG5": "Other",
+    "537_90853007_1VGLMXVH5": "C1",
+    "538_90643102_9PIEU3KG5": "C16",
+    "53_90852812_4DYSJXVH5": "C4",
+    "540_90702700_G4JEGPXG5": "C17",
+    "541_90797377_LFRJXXFH5": "C1",
+    "543_90853004_L71JMXVH5": "Other",
+    "544_90702687_3GLNAPXG5": "C16",
+    "545_90741573_FK4WGL4H5": "C3",
+    "547_90741574_AHRWGL4H5": "C4",
+    "548_90853017_FGYNMXVH5": "C4",
+    "549_90853015_KJBNMXVH5": "C1",
+    "553_90741571_RSWUGL4H5": "C3",
+    "555_90741586_9V11HL4H5": "C4",
+    "556_90643108_ZHSFU3KG5": "C1",
+    "557_90741601_MUT7HL4H5": "Other",
+    "559_90852997_SAEIMXVH5": "C4",
+    "55_90852817_MF3ZJXVH5": "Other",
+    "561_90685090_3KX5K1UG5": "C5",
+    "565_90643112_UEDGU3KG5": "C4",
+    "566_90643146_KDXVU3KG5": "C4",
+    "567_90643174_MI78V3KG5": "C4",
+    "568_90643179_26NAV3KG5": "C6",
+    "569_90853005_B19KMXVH5": "C5",
+    "56_90684976_LDI9H1UG5": "C1",
+    "570_90685086_IV24K1UG5": "Other",
+    "572_90741589_4SM1HL4H5": "C3",
+    "574_90741593_ID44HL4H5": "Other",
+    "579_90741613_1UJEHL4H5": "C18",
+    "57_90643033_C3X6S3KG5": "Other",
+    "580_90741616_WP6FHL4H5": "C5",
+    "586_90853034_UFPWMXVH5": "C3",
+    "587_90853054_S5B5NXVH5": "Other",
+    "588_90643114_I8LHU3KG5": "C4",
+    "589_90643113_NB0HU3KG5": "Other",
+    "58_90852822_XZ52KXVH5": "C18",
+    "590_90643116_D58IU3KG5": "Other",
+    "591_90685097_C409K1UG5": "C1",
+    "593_90685100_XUUAK1UG5": "C18",
+    "594_90685098_71L9K1UG5": "C5",
+    "595_90685099_2Y7AK1UG5": "C4",
+    "597_90643127_HKXLU3KG5": "C5",
+    "5_90741464_ENWXDL4H5": "C5",
+    "600_90741598_34Z5HL4H5": "C4",
+    "602_90741599_Y0K6HL4H5": "C3",
+    "603_90741606_2G9AHL4H5": "Other",
+    "604_90741602_HRE8HL4H5": "C4",
+    "605_90741608_L64CHL4H5": "Other",
+    "606_90741611_6XYDHL4H5": "C1",
+    "607_90741605_7JM9HL4H5": "C1",
+    "60_90643036_BF7BS3KG5": "Other",
+    "613_90685095_H7D8K1UG5": "C3",
+    "614_90797391_5IWRXXFH5": "C4",
+    "615_90685183_SF9JL1UG5": "C1",
+    "616_90643120_82VIU3KG5": "C4",
+    "617_90685202_V89TL1UG5": "C4",
+    "618_90643122_TSNKU3KG5": "C3",
+    "619_90685205_EZ3VL1UG5": "C4",
+    "622_90741617_RLTFHL4H5": "C4",
+    "62_90684984_RU7DH1UG5": "C4",
+    "630_90685103_SRFBK1UG5": "C19",
+    "632_90643136_S40RU3KG5": "Other",
+    "635_90741626_PZ3KHL4H5": "Other",
+    "636_90685108_6DXDK1UG5": "Other",
+    "638_90685106_BGADK1UG5": "C4",
+    "63_90643040_5P4GS3KG5": "Other",
+    "640_90741627_JWPKHL4H5": "C4",
+    "641_90741633_4LJMHL4H5": "C3",
+    "642_90741638_NBEPHL4H5": "C4",
+    "646_90643131_2BSNU3KG5": "Other",
+    "647_90741618_KIEGHL4H5": "Other",
+    "648_90741631_ETBLHL4H5": "C19",
+    "649_90643128_CHIMU3KG5": "Other",
+    "650_90685109_1AIEK1UG5": "C1",
+    "652_90643141_6SFTU3KG5": "C4",
+    "653_90643182_X2ABV3KG5": "Other",
+    "654_90643188_BPRDV3KG5": "Other",
+    "655_90685112_FXZGK1UG5": "C4",
+    "657_90685196_FLTPL1UG5": "C1",
+    "658_90685199_5F1SL1UG5": "C3",
+    "660_90685229_6YL8M1UG5": "C4",
+    "661_90685248_4M8HM1UG5": "Other",
+    "662_90685231_1V89M1UG5": "C3",
+    "663_90797389_FPMPXXFH5": "C4",
+    "667_90741637_UETNHL4H5": "C3",
+    "668_90643138_GY7SU3KG5": "C4",
+    "669_90685113_AUKHK1UG5": "C4",
+    "66_90643043_JBKIS3KG5": "Other",
+    "671_90741639_I81RHL4H5": "C3",
+    "672_90685116_JCNKK1UG5": "C4",
+    "674_90643143_WJNUU3KG5": "C1",
+    "675_90685117_96XLK1UG5": "C2",
+    "676_90741640_D5MRHL4H5": "Other",
+    "679_90685126_IPZPK1UG5": "C4",
+    "67_90684986_FMFEH1UG5": "C1",
+    "680_90685124_NTCPK1UG5": "C4",
+    "681_90685127_DLKRK1UG5": "Other",
+    "683_90685132_3FUSK1UG5": "C1",
+    "684_90685137_M5NUK1UG5": "C4",
+    "686_90853011_RMPMMXVH5": "C2",
+    "687_90853024_JXLTMXVH5": "C5",
+    "689_90643137_L1LRU3KG5": "C2",
+    "68_90852827_5WI9KXVH5": "C3",
+    "690_90643140_BVUSU3KG5": "C3",
+    "691_90685115_VIFJK1UG5": "Other",
+    "694_90643144_RGAVU3KG5": "Other",
+    "696_90685122_UWRNK1UG5": "Other",
+    "697_90741652_2B6XHL4H5": "C3",
+    "6_90684971_XJA8H1UG5": "Other",
+    "701_90685130_8I7SK1UG5": "C1",
+    "703_90643161_N6X3V3KG5": "C1",
+    "705_90685136_T82UK1UG5": "C4",
+    "709_90741651_7EJWHL4H5": "C5",
+    "70_90684988_5GNFH1UG5": "C4",
+    "710_90741654_S4EYHL4H5": "C3",
+    "712_90797393_0FHSXXFH5": "C1",
+    "713_90741650_CHYVHL4H5": "Other",
+    "717_90741685_JRL7IL4H5": "Other",
+    "718_90643152_JR70V3KG5": "C1",
+    "719_90741697_YPDEIL4H5": "C2",
+    "71_90684991_P6IHH1UG5": "Other",
+    "720_90741696_3USDIL4H5": "C1",
+    "722_90685141_2T4XK1UG5": "C2",
+    "723_90685138_CZWVK1UG5": "C1",
+    "725_90643164_D055V3KG5": "C4",
+    "726_90685142_XNRXK1UG5": "C1",
+    "727_90685139_7WHWK1UG5": "C4",
+    "72_90852828_0T5AKXVH5": "Other",
+    "731_90643150_PUKZU3KG5": "C3",
+    "733_90817471_KBSBAIKH5": "C3",
+    "73_90643047_ZY1LS3KG5": "C4",
+    "740_90685145_LHZYK1UG5": "C2",
+    "742_90643167_3UC6V3KG5": "C1",
+    "743_90685144_SKCYK1UG5": "C6",
+    "745_90685153_RYM2L1UG5": "C2",
+    "746_90685152_W122L1UG5": "Other",
+    "748_90643171_YPZ6V3KG5": "C1",
+    "749_90643176_CCF9V3KG5": "C4",
+    "751_90643177_792AV3KG5": "C4",
+    "754_90643187_GT4DV3KG5": "Other",
+    "755_90685168_3ARDL1UG5": "C1",
+    "756_90797415_7N64YXFH5": "C6",
+    "758_90643183_SZWBV3KG5": "C1",
+    "75_90684999_NIULH1UG5": "C1",
+    "761_90741658_L11ZHL4H5": "C6",
+    "762_90643189_1IZEV3KG5": "C4",
+    "763_90643191_F5FHV3KG5": "C2",
+    "764_90643193_0W9JV3KG5": "C2",
+    "765_90685155_ANH4L1UG5": "C1",
+    "766_90643201_4BZMV3KG5": "C2",
+    "767_90643198_EHRLV3KG5": "C1",
+    "769_90685162_4YE9L1UG5": "Other",
+    "76_90684998_UL7LH1UG5": "C1",
+    "770_90685165_NM9BL1UG5": "Other",
+    "772_90685160_E478L1UG5": "Other",
+    "773_90685166_IJWBL1UG5": "C3",
+    "774_90685164_URMAL1UG5": "C1",
+    "775_90685156_5K45L1UG5": "C4",
+    "778_90685159_J7K7L1UG5": "C4",
+    "779_90685172_Y6CEL1UG5": "C1",
+    "77_90685002_DC2NH1UG5": "Other",
+    "780_90853027_EU8UMXVH5": "Other",
+    "782_90741665_BV80IL4H5": "C4",
+    "783_90853018_ADJPMXVH5": "C3",
+    "784_90797401_ZSTWXXFH5": "C2",
+    "789_90685175_T3ZEL1UG5": "Other",
+    "78_90685003_89NNH1UG5": "C4",
+    "791_90685177_HX6GL1UG5": "C3",
+    "792_90643190_K8UGV3KG5": "C4",
+    "794_90643192_5ZMIV3KG5": "C3",
+    "796_90643196_PNHKV3KG5": "C4",
+    "797_90685181_2M1IL1UG5": "C4",
+    "799_90643202_Z7KNV3KG5": "C4",
+    "79_90684978_GA5AH1UG5": "C2",
+    "7_90797295_A7M9VXFH5": "C2",
+    "800_90685185_LCWJL1UG5": "C4",
+    "808_90797403_UNEXXXFH5": "C3",
+    "80_90701796_CMIF2JXG5": "C2",
+    "812_90643206_DV1SV3KG5": "Other",
+    "814_90741669_RGP2IL4H5": "C1",
+    "815_90685179_7REHL1UG5": "C4",
+    "816_90741678_5465IL4H5": "C4",
+    "817_90685182_XIMIL1UG5": "C2",
+    "818_90643211_MD4VV3KG5": "C4",
+    "819_90741679_01T5IL4H5": "C1",
+    "81_90797303_I31HVXFH5": "Other",
+    "821_90741677_A7J4IL4H5": "C2",
+    "826_90797404_NK1YXXFH5": "C4",
+    "827_90797407_DE9ZXXFH5": "C4",
+    "828_90797409_8BWZXXFH5": "C2",
+    "829_90741676_FAY3IL4H5": "Other",
+    "832_90685188_B64LL1UG5": "C6",
+    "834_90643214_HARVV3KG5": "Other",
+    "835_90685193_WWYML1UG5": "C4",
+    "836_90685189_63RLL1UG5": "C4",
+    "837_90741683_PU07IL4H5": "Other",
+    "838_90741691_U9PAIL4H5": "C4",
+    "839_90685195_KP6PL1UG5": "C1",
+    "840_90643220_XX6YV3KG5": "C2",
+    "841_90685197_AIERL1UG5": "C1",
+    "844_90741666_6SV0IL4H5": "C2",
+    "845_90643205_N1UPV3KG5": "C3",
+    "846_90741686_9JV8IL4H5": "Other",
+    "847_90741717_6LSLIL4H5": "C4",
+    "848_90797387_KT1PXXFH5": "C1",
+    "849_90741721_WE0NIL4H5": "C1",
+    "84_90741468_MJ95EL4H5": "Other",
+    "850_90797398_E2ZUXXFH5": "C3",
+    "851_90643251_DPYCW3KG5": "C3",
+    "853_90741728_VSATIL4H5": "C1",
+    "854_90685190_10CML1UG5": "Other",
+    "855_90643282_ZXDXW3KG5": "C4",
+    "85_90643032_H6A6S3KG5": "C2",
+    "860_90797414_HVY2YXFH5": "C4",
+    "861_90797413_T1R1YXFH5": "C4",
+    "862_90685203_P5WTL1UG5": "C4",
+    "864_90853031_9RVUMXVH5": "C1",
+    "867_90643225_BJM0W3KG5": "C1",
+    "868_90643224_GM10W3KG5": "C4",
+    "869_90853033_ZI3WMXVH5": "C2",
+    "86_90852825_F2B8KXVH5": "C4",
+    "870_90643228_W9H2W3KG5": "Other",
+    "871_90853032_4MGVMXVH5": "C1",
+    "878_90853041_836ZMXVH5": "C4",
+    "879_90853073_EN5FNXVH5": "C2",
+    "87_90741469_X3C8EL4H5": "Other",
+    "881_90853065_FBVANXVH5": "C4",
+    "882_90797424_LAM6YXFH5": "C4",
+    "883_90797430_B4W7YXFH5": "Other",
+    "893_90797421_SD16YXFH5": "C4",
+    "894_90741689_ZC3AIL4H5": "Other",
+    "897_90797429_G797YXFH5": "C4",
+    "898_90643217_74ZWV3KG5": "C3",
+    "89_90741472_F6HEEL4H5": "C2",
+    "8_90852794_9LE5JXVH5": "C2",
+    "904_90643223_SUTYV3KG5": "C4",
+    "905_90741694_I3YBIL4H5": "C2",
+    "907_90741703_CCVGIL4H5": "C4",
+    "908_90741692_N6BBIL4H5": "C3",
+    "909_90741707_263IIL4H5": "C4",
+    "915_90797444_FJJBYXFH5": "C1",
+    "918_90741700_TL0FIL4H5": "C2",
+    "919_90685212_DBEZL1UG5": "C4",
+    "91_90741473_50RFEL4H5": "Other",
+    "920_90741702_MILFIL4H5": "Other",
+    "922_90797451_J09FYXFH5": "C3",
+    "925_90685214_35M0M1UG5": "C1",
+    "926_90685213_8810M1UG5": "C4",
+    "927_90797463_86TKYXFH5": "C2",
+    "930_90741714_GTIKIL4H5": "Other",
+    "931_90741731_PNXTIL4H5": "Other",
+    "932_90685217_MVG2M1UG5": "C3",
+    "933_90797468_MT8NYXFH5": "C1",
+    "934_90741727_0WNSIL4H5": "C4",
+    "935_90741726_5Z2SIL4H5": "C4",
+    "936_90797471_CLGPYXFH5": "Other",
+    "937_90685209_ZNYWL1UG5": "C1",
+    "938_90685211_IETYL1UG5": "C3",
+    "939_90685219_CNP3M1UG5": "C3",
+    "93_90852834_NYNFKXVH5": "C1",
+    "940_90853047_MPL1NXVH5": "C1",
+    "944_90643229_R643W3KG5": "C1",
+    "945_90853061_6TS7NXVH5": "Other",
+    "947_90797435_1Y39YXFH5": "Other",
+    "949_90853039_I9YXMXVH5": "C2",
+    "94_90741475_Z8MKEL4H5": "C1",
+    "950_90853049_CIV2NXVH5": "C1",
+    "952_90741719_1IDMIL4H5": "C3",
+    "954_90797440_WUP9YXFH5": "Other",
+    "955_90741724_F5VPIL4H5": "C3",
+    "957_90797454_9UGGYXFH5": "Other",
+    "961_90741722_RBLNIL4H5": "C3",
+    "965_90817687_KNT7VJKH5": "C4",
+    "967_90817738_0UNR5KKH5": "C3",
+    "968_90853063_RHL9NXVH5": "C2",
+    "969_90685221_7KB4M1UG5": "Other",
+    "96_90741476_YKYPEL4H5": "C2",
+    "971_90643236_5UJ5W3KG5": "C4",
+    "972_90685222_2HY4M1UG5": "Other",
+    "973_90685218_HS33M1UG5": "Other",
+    "974_90643235_AXY4W3KG5": "Other",
+    "978_90643243_JF18W3KG5": "C1",
+    "979_90685225_L7T6M1UG5": "C4",
+    "97_90741481_K4T0FL4H5": "Other",
+    "980_90685227_B118M1UG5": "C2",
+    "982_90797447_5DTCYXFH5": "C1",
+    "983_90797450_P3MEYXFH5": "C1",
+    "984_90797469_HPVNYXFH5": "C4",
+    "985_90797480_BZSUYXFH5": "C1",
+    "989_90797496_FEGYYXFH5": "C2",
+    "98_90741482_F1E1FL4H5": "C4",
+    "990_90797518_3YA8ZXFH5": "C4",
+    "991_90643244_ECM8W3KG5": "C1",
+    "992_90797524_CGDBZXFH5": "C4",
+    "993_90797540_RF5IZXFH5": "C3",
+    "997_90643246_46W9W3KG5": "C1",
+    "999_90853050_7FG3NXVH5": "C4",
+    "99_90741483_AY02FL4H5": "C1"
+  },
+  "call_causes": {
+    "1000_90643234_F0C4W3KG5": [
+      "C1",
+      "C5"
+    ],
+    "101_90741485_EDP5FL4H5": [
+      "C1"
+    ],
+    "104_90684996_4UZJH1UG5": [
+      "C1"
+    ],
+    "107_90741474_EITIEL4H5": [
+      "C1",
+      "C4"
+    ],
+    "112_90643038_KZ9ES3KG5": [
+      "C1",
+      "C7"
+    ],
+    "128_90852833_U13FKXVH5": [
+      "C1",
+      "C3",
+      "C4"
+    ],
+    "13_90852800_HHTCJXVH5": [
+      "C1"
+    ],
+    "140_90852922_ANRGLXVH5": [
+      "C1",
+      "C5"
+    ],
+    "142_90684990_V9XGH1UG5": [
+      "C1",
+      "C7"
+    ],
+    "145_90643053_2S1VS3KG5": [
+      "C1"
+    ],
+    "147_90741494_C3BEFL4H5": [
+      "C1"
+    ],
+    "154_90685001_IFFMH1UG5": [
+      "C1"
+    ],
+    "159_90741519_SJN3GL4H5": [
+      "C1"
+    ],
+    "160_90643050_H17TS3KG5": [
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "105_90852813_N3TUJXVH5": [
+      "C3"
+    ],
+    "115_90643039_ATHFS3KG5": [
+      "C3"
+    ],
+    "122_90852829_JH0CKXVH5": [
+      "C3"
+    ],
+    "131_90797306_MIPKVXFH5": [
+      "C3"
+    ],
+    "132_90741479_6HBYEL4H5": [
+      "C3"
+    ],
+    "141_90643052_7VEUS3KG5": [
+      "C3"
+    ],
+    "143_90643051_CYTTS3KG5": [
+      "C3",
+      "C4"
+    ],
+    "144_90741487_NXS8FL4H5": [
+      "C3"
+    ],
+    "150_90643056_W0ZZS3KG5": [
+      "C3",
+      "C5"
+    ],
+    "156_90685005_Y2XPH1UG5": [
+      "C3",
+      "C4"
+    ],
+    "103_90684987_AJ2FH1UG5": [
+      "C4"
+    ],
+    "106_90684997_ZPKKH1UG5": [
+      "C4"
+    ],
+    "134_90741480_WAJZEL4H5": [
+      "C4",
+      "C6"
+    ],
+    "137_90684989_0DAGH1UG5": [
+      "C4"
+    ],
+    "10_90797297_EMBDVXFH5": [
+      "C6"
+    ],
+    "133_90852837_DSXGKXVH5": [
+      "C6"
+    ],
+    "135_90852838_8NIHKXVH5": [
+      "C7"
+    ],
+    "162_90643054_BA4YS3KG5": [
+      "C3"
+    ],
+    "170_90852863_R30UKXVH5": [
+      "C3",
+      "C4"
+    ],
+    "171_90685015_SBUVH1UG5": [
+      "C3",
+      "C4",
+      "C8"
+    ],
+    "177_90852858_6D5SKXVH5": [
+      "C3"
+    ],
+    "202_90797307_79JMVXFH5": [
+      "C3"
+    ],
+    "209_90741505_958TFL4H5": [
+      "C3"
+    ],
+    "218_90741525_W0D7GL4H5": [
+      "C3"
+    ],
+    "184_90741496_2XIFFL4H5": [
+      "C4"
+    ],
+    "186_90741497_XT5GFL4H5": [
+      "C1",
+      "C4"
+    ],
+    "198_90741512_M400GL4H5": [
+      "C4",
+      "C6"
+    ],
+    "221_90797315_U4P2WXFH5": [
+      "C1",
+      "C4"
+    ],
+    "176_90741491_YFVBFL4H5": [
+      "C1",
+      "C6",
+      "C8"
+    ],
+    "183_90741495_70YEFL4H5": [
+      "C1",
+      "C8"
+    ],
+    "191_90741506_ZYFUFL4H5": [
+      "C8"
+    ],
+    "213_90852853_LMAPKXVH5": [
+      "C1",
+      "C8"
+    ],
+    "214_90741514_7VU1GL4H5": [
+      "C4",
+      "C8"
+    ],
+    "220_90643070_J1EST3KG5": [
+      "C1",
+      "C6",
+      "C8"
+    ],
+    "164_90643058_E346T3KG5": [
+      "C1"
+    ],
+    "216_90797313_VSDYVXFH5": [
+      "C1"
+    ],
+    "223_90643072_NG3WT3KG5": [
+      "C1",
+      "C4",
+      "C6"
+    ],
+    "225_90741533_0G2BGL4H5": [
+      "C1"
+    ],
+    "188_90741499_GI0IFL4H5": [
+      "C4"
+    ],
+    "189_90741503_VHSPFL4H5": [
+      "C4"
+    ],
+    "19_90661242_TXRFJXNG5": [
+      "C4"
+    ],
+    "200_90685016_L8FWH1UG5": [
+      "C4"
+    ],
+    "205_90741504_PEDRFL4H5": [
+      "C4"
+    ],
+    "212_90741509_DKXWFL4H5": [
+      "C4"
+    ],
+    "231_90643076_34JYT3KG5": [
+      "C1"
+    ],
+    "233_90797322_74G9WXFH5": [
+      "C1",
+      "C9"
+    ],
+    "245_90741536_J6XCGL4H5": [
+      "C1"
+    ],
+    "254_90643069_V76RT3KG5": [
+      "C1"
+    ],
+    "256_90643071_4S8UT3KG5": [
+      "C1"
+    ],
+    "258_90643077_Y06ZT3KG5": [
+      "C1"
+    ],
+    "268_90741540_ZTCFGL4H5": [
+      "C1",
+      "C10"
+    ],
+    "273_90797314_4BG1WXFH5": [
+      "C1",
+      "C11"
+    ],
+    "276_90685035_D7Z9I1UG5": [
+      "C1"
+    ],
+    "272_90741538_905EGL4H5": [
+      "C9"
+    ],
+    "243_90852860_1ASSKXVH5": [
+      "C10"
+    ],
+    "277_90797323_XXNAWXFH5": [
+      "C3"
+    ],
+    "282_90685047_X413J1UG5": [
+      "C3"
+    ],
+    "241_90741518_XM23GL4H5": [
+      "C4"
+    ],
+    "249_90741553_HWHLGL4H5": [
+      "C4"
+    ],
+    "266_90741534_P9ACGL4H5": [
+      "C4"
+    ],
+    "295_90741530_FR79GL4H5": [
+      "C4"
+    ],
+    "296_90741528_RXZ7GL4H5": [
+      "C4"
+    ],
+    "286_90701833_UIRJ6JXG5": [
+      "C11"
+    ],
+    "2_90741461_KEZSDL4H5": [
+      "C1",
+      "C4"
+    ],
+    "302_90797351_PDU6XXFH5": [
+      "C1"
+    ],
+    "315_90852892_3F25LXVH5": [
+      "C1",
+      "C4"
+    ],
+    "320_90852901_2TC9LXVH5": [
+      "C1"
+    ],
+    "326_90685037_HMMDI1UG5": [
+      "C1"
+    ],
+    "328_90797332_NW7PWXFH5": [
+      "C1",
+      "C12"
+    ],
+    "332_90797336_H55VWXFH5": [
+      "C1"
+    ],
+    "337_90797340_XSKXWXFH5": [
+      "C1",
+      "C12"
+    ],
+    "33_90741471_GU6AEL4H5": [
+      "C1"
+    ],
+    "349_90685039_X94GI1UG5": [
+      "C1",
+      "C4"
+    ],
+    "360_90852898_H2I7LXVH5": [
+      "C1",
+      "C12",
+      "C5"
+    ],
+    "366_90852902_XNZ9LXVH5": [
+      "C1",
+      "C12"
+    ],
+    "312_90852886_UWZ1LXVH5": [
+      "C12",
+      "C5"
+    ],
+    "313_90852891_8IF4LXVH5": [
+      "C12"
+    ],
+    "339_90797343_6BN0XXFH5": [
+      "C12"
+    ],
+    "352_90797355_41A9XXFH5": [
+      "C12",
+      "C4"
+    ],
+    "353_90741550_392JGL4H5": [
+      "C12"
+    ],
+    "357_90797563_9IAPZXFH5": [
+      "C12",
+      "C5"
+    ],
+    "365_90797565_ZBIRZXFH5": [
+      "C12",
+      "C13"
+    ],
+    "310_90852876_E9IZKXVH5": [
+      "C13"
+    ],
+    "319_90852904_SKKALXVH5": [
+      "C13",
+      "C4"
+    ],
+    "341_90797345_W4X1XXFH5": [
+      "C13"
+    ],
+    "343_90797347_KY43XXFH5": [
+      "C13"
+    ],
+    "347_90797352_JAF7XXFH5": [
+      "C13",
+      "C4"
+    ],
+    "30_90661031_XAKFZVNG5": [
+      "C4"
+    ],
+    "314_90852894_T8A6LXVH5": [
+      "C4"
+    ],
+    "325_90741544_NLKGGL4H5": [
+      "C4"
+    ],
+    "336_90797339_2WZWWXFH5": [
+      "C4"
+    ],
+    "348_90852889_DLU3LXVH5": [
+      "C4",
+      "C5"
+    ],
+    "368_90852913_15NDLXVH5": [
+      "C4",
+      "C6"
+    ],
+    "301_90701921_L1D2PJXG5": [
+      "C6"
+    ],
+    "318_90852900_7WR8LXVH5": [
+      "C6"
+    ],
+    "36_90797304_8X8IVXFH5": [
+      "C6"
+    ],
+    "305_90741542_UPZFGL4H5": [
+      "C5"
+    ],
+    "338_90797342_LKUYWXFH5": [
+      "C5"
+    ],
+    "373_90852924_0HZHLXVH5": [
+      "C1",
+      "C4"
+    ],
+    "379_90797357_ZXW9XXFH5": [
+      "C1"
+    ],
+    "387_90852921_FS4GLXVH5": [
+      "C1"
+    ],
+    "388_90852923_5KCHLXVH5": [
+      "C1",
+      "C4"
+    ],
+    "389_90852928_J7UJLXVH5": [
+      "C1",
+      "C3",
+      "C4"
+    ],
+    "394_90852942_T37TLXVH5": [
+      "C1",
+      "C4"
+    ],
+    "39_90684981_B7SAH1UG5": [
+      "C1",
+      "C4"
+    ],
+    "400_90685049_WGB7J1UG5": [
+      "C1",
+      "C4"
+    ],
+    "411_90741561_G8URGL4H5": [
+      "C1"
+    ],
+    "415_90852934_ZU9MLXVH5": [
+      "C1",
+      "C4"
+    ],
+    "418_90852935_NMHNLXVH5": [
+      "C1"
+    ],
+    "426_90643088_6XI6U3KG5": [
+      "C1",
+      "C4"
+    ],
+    "428_90797390_AL9RXXFH5": [
+      "C1",
+      "C4"
+    ],
+    "375_90643086_G3B5U3KG5": [
+      "C3",
+      "C4"
+    ],
+    "38_90852805_BSPHJXVH5": [
+      "C3"
+    ],
+    "398_90685046_MKYZI1UG5": [
+      "C3",
+      "C4"
+    ],
+    "405_90852927_PA7JLXVH5": [
+      "C14",
+      "C3",
+      "C4"
+    ],
+    "410_90797364_3DKDXXFH5": [
+      "C14",
+      "C3",
+      "C4"
+    ],
+    "420_90852941_Y6KSLXVH5": [
+      "C3"
+    ],
+    "422_90852949_XIWWLXVH5": [
+      "C3"
+    ],
+    "427_90797368_CXMGXXFH5": [
+      "C3",
+      "C4"
+    ],
+    "376_90685044_KFMLI1UG5": [
+      "C4"
+    ],
+    "37_90684982_64DBH1UG5": [
+      "C4"
+    ],
+    "383_90797363_8GZCXXFH5": [
+      "C4"
+    ],
+    "384_90852912_682DLXVH5": [
+      "C4"
+    ],
+    "393_90852933_4YMLLXVH5": [
+      "C14",
+      "C4"
+    ],
+    "407_90797359_NR4BXXFH5": [
+      "C4"
+    ],
+    "412_90852932_912LLXVH5": [
+      "C4"
+    ],
+    "417_90852938_8DCRLXVH5": [
+      "C14",
+      "C4"
+    ],
+    "381_90685048_S1M3J1UG5": [
+      "C4"
+    ],
+    "385_90852915_W1AELXVH5": [
+      "C4"
+    ],
+    "395_90852944_HXEULXVH5": [
+      "C4"
+    ],
+    "3_90797294_1NJ6VXFH5": [
+      "C4"
+    ],
+    "41_90852807_WGJJJXVH5": [
+      "C4"
+    ],
+    "390_90852936_IJ4PLXVH5": [
+      "C4"
+    ],
+    "430_90741558_XHZNGL4H5": [
+      "C4"
+    ],
+    "391_90852937_DGRPLXVH5": [
+      "C14"
+    ],
+    "436_90643093_FFL9U3KG5": [
+      "C1",
+      "C15",
+      "C4"
+    ],
+    "448_90741632_9PYLHL4H5": [
+      "C1"
+    ],
+    "458_90685063_23BNJ1UG5": [
+      "C1"
+    ],
+    "465_90852973_9WY7MXVH5": [
+      "C1"
+    ],
+    "481_90852958_10K0MXVH5": [
+      "C1",
+      "C15"
+    ],
+    "484_90685075_VNIYJ1UG5": [
+      "C1"
+    ],
+    "431_90643090_WPS7U3KG5": [
+      "C15",
+      "C3",
+      "C4"
+    ],
+    "437_90643097_PZNCU3KG5": [
+      "C3"
+    ],
+    "439_90797396_P8RTXXFH5": [
+      "C15",
+      "C3",
+      "C5"
+    ],
+    "444_90797367_M3FFXXFH5": [
+      "C3"
+    ],
+    "447_90741609_G3RCHL4H5": [
+      "C3",
+      "C4"
+    ],
+    "456_90685061_3R0JJ1UG5": [
+      "C3",
+      "C4"
+    ],
+    "479_90852959_WW61MXVH5": [
+      "C3"
+    ],
+    "483_90852961_KPE2MXVH5": [
+      "C3"
+    ],
+    "435_90797400_4W6WXXFH5": [
+      "C15",
+      "C4",
+      "C5"
+    ],
+    "442_90741570_WV9UGL4H5": [
+      "C15"
+    ],
+    "470_90685058_U6YFJ1UG5": [
+      "C15"
+    ],
+    "477_90685064_XZXNJ1UG5": [
+      "C15"
+    ],
+    "445_90741567_622TGL4H5": [
+      "C4"
+    ],
+    "454_90852946_7RMVLXVH5": [
+      "C4"
+    ],
+    "469_90643091_RLD8U3KG5": [
+      "C4"
+    ],
+    "474_90685062_MFVKJ1UG5": [
+      "C4"
+    ],
+    "452_90741661_GYLZHL4H5": [
+      "C4"
+    ],
+    "468_90852951_LC4YLXVH5": [
+      "C4"
+    ],
+    "476_90797372_2RWHXXFH5": [
+      "C4"
+    ],
+    "485_90852967_P546MXVH5": [
+      "C4"
+    ],
+    "486_90852966_0CW4MXVH5": [
+      "C4"
+    ],
+    "48_90797301_U9TFVXFH5": [
+      "C1"
+    ],
+    "500_90852984_Y1HDMXVH5": [
+      "C1"
+    ],
+    "510_90797373_XLHIXXFH5": [
+      "C1",
+      "C3",
+      "C4"
+    ],
+    "511_90797381_66KLXXFH5": [
+      "C1"
+    ],
+    "517_90685081_Z482K1UG5": [
+      "C1",
+      "C16",
+      "C17"
+    ],
+    "51_90741466_I4K1EL4H5": [
+      "C1"
+    ],
+    "520_90643095_06GBU3KG5": [
+      "C1"
+    ],
+    "521_90643098_JWADU3KG5": [
+      "C1"
+    ],
+    "532_90852982_35WCMXVH5": [
+      "C1"
+    ],
+    "537_90853007_1VGLMXVH5": [
+      "C1"
+    ],
+    "541_90797377_LFRJXXFH5": [
+      "C1"
+    ],
+    "490_90852977_ZN69MXVH5": [
+      "C4"
+    ],
+    "494_90685068_1FLTJ1UG5": [
+      "C4"
+    ],
+    "505_90852992_7KJGMXVH5": [
+      "C4"
+    ],
+    "514_90852979_UKT9MXVH5": [
+      "C4"
+    ],
+    "519_90852981_IE1BMXVH5": [
+      "C17",
+      "C4"
+    ],
+    "529_90741581_P47ZGL4H5": [
+      "C3",
+      "C4"
+    ],
+    "533_90685080_48L1K1UG5": [
+      "C4"
+    ],
+    "547_90741574_AHRWGL4H5": [
+      "C17",
+      "C4"
+    ],
+    "4_90852792_A941JXVH5": [
+      "C3"
+    ],
+    "528_90741583_EYE0HL4H5": [
+      "C3"
+    ],
+    "545_90741573_FK4WGL4H5": [
+      "C3"
+    ],
+    "506_90852991_CNYFMXVH5": [
+      "C4"
+    ],
+    "507_90852996_XDTHMXVH5": [
+      "C4"
+    ],
+    "530_90852990_HSBFMXVH5": [
+      "C4"
+    ],
+    "534_90643101_ETXDU3KG5": [
+      "C4"
+    ],
+    "53_90852812_4DYSJXVH5": [
+      "C4"
+    ],
+    "548_90853017_FGYNMXVH5": [
+      "C4"
+    ],
+    "509_90797369_7U9HXXFH5": [
+      "C16",
+      "C17"
+    ],
+    "518_90643096_V23CU3KG5": [
+      "C16"
+    ],
+    "538_90643102_9PIEU3KG5": [
+      "C16"
+    ],
+    "544_90702687_3GLNAPXG5": [
+      "C16"
+    ],
+    "497_90685069_WB8UJ1UG5": [
+      "C17"
+    ],
+    "512_90685076_EED0K1UG5": [
+      "C17"
+    ],
+    "540_90702700_G4JEGPXG5": [
+      "C17"
+    ],
+    "549_90853015_KJBNMXVH5": [
+      "C1"
+    ],
+    "556_90643108_ZHSFU3KG5": [
+      "C1",
+      "C18"
+    ],
+    "56_90684976_LDI9H1UG5": [
+      "C1",
+      "C18"
+    ],
+    "588_90643114_I8LHU3KG5": [
+      "C1",
+      "C4"
+    ],
+    "591_90685097_C409K1UG5": [
+      "C1"
+    ],
+    "604_90741602_HRE8HL4H5": [
+      "C1",
+      "C4"
+    ],
+    "606_90741611_6XYDHL4H5": [
+      "C1"
+    ],
+    "607_90741605_7JM9HL4H5": [
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "553_90741571_RSWUGL4H5": [
+      "C3"
+    ],
+    "555_90741586_9V11HL4H5": [
+      "C3",
+      "C4"
+    ],
+    "572_90741589_4SM1HL4H5": [
+      "C3"
+    ],
+    "586_90853034_UFPWMXVH5": [
+      "C3",
+      "C6"
+    ],
+    "602_90741599_Y0K6HL4H5": [
+      "C3"
+    ],
+    "559_90852997_SAEIMXVH5": [
+      "C18",
+      "C4"
+    ],
+    "565_90643112_UEDGU3KG5": [
+      "C4"
+    ],
+    "566_90643146_KDXVU3KG5": [
+      "C4"
+    ],
+    "567_90643174_MI78V3KG5": [
+      "C4"
+    ],
+    "595_90685099_2Y7AK1UG5": [
+      "C4"
+    ],
+    "600_90741598_34Z5HL4H5": [
+      "C4"
+    ],
+    "58_90852822_XZ52KXVH5": [
+      "C18"
+    ],
+    "597_90643127_HKXLU3KG5": [
+      "C18",
+      "C5"
+    ],
+    "593_90685100_XUUAK1UG5": [
+      "C18"
+    ],
+    "579_90741613_1UJEHL4H5": [
+      "C18"
+    ],
+    "568_90643179_26NAV3KG5": [
+      "C6"
+    ],
+    "561_90685090_3KX5K1UG5": [
+      "C5"
+    ],
+    "569_90853005_B19KMXVH5": [
+      "C5"
+    ],
+    "594_90685098_71L9K1UG5": [
+      "C5"
+    ],
+    "580_90741616_WP6FHL4H5": [
+      "C5"
+    ],
+    "5_90741464_ENWXDL4H5": [
+      "C5"
+    ],
+    "613_90685095_H7D8K1UG5": [
+      "C19",
+      "C3"
+    ],
+    "615_90685183_SF9JL1UG5": [
+      "C1",
+      "C19"
+    ],
+    "617_90685202_V89TL1UG5": [
+      "C19",
+      "C4"
+    ],
+    "618_90643122_TSNKU3KG5": [
+      "C19",
+      "C3"
+    ],
+    "630_90685103_SRFBK1UG5": [
+      "C19"
+    ],
+    "642_90741638_NBEPHL4H5": [
+      "C19",
+      "C3",
+      "C4"
+    ],
+    "648_90741631_ETBLHL4H5": [
+      "C19"
+    ],
+    "650_90685109_1AIEK1UG5": [
+      "C1",
+      "C19",
+      "C2",
+      "C3"
+    ],
+    "657_90685196_FLTPL1UG5": [
+      "C1",
+      "C19",
+      "C3"
+    ],
+    "662_90685231_1V89M1UG5": [
+      "C19",
+      "C3"
+    ],
+    "667_90741637_UETNHL4H5": [
+      "C19",
+      "C3"
+    ],
+    "668_90643138_GY7SU3KG5": [
+      "C1",
+      "C19",
+      "C4"
+    ],
+    "671_90741639_I81RHL4H5": [
+      "C19",
+      "C3"
+    ],
+    "614_90797391_5IWRXXFH5": [
+      "C3",
+      "C4"
+    ],
+    "619_90685205_EZ3VL1UG5": [
+      "C4"
+    ],
+    "622_90741617_RLTFHL4H5": [
+      "C3",
+      "C4"
+    ],
+    "62_90684984_RU7DH1UG5": [
+      "C4"
+    ],
+    "638_90685106_BGADK1UG5": [
+      "C4"
+    ],
+    "640_90741627_JWPKHL4H5": [
+      "C4"
+    ],
+    "652_90643141_6SFTU3KG5": [
+      "C3",
+      "C4"
+    ],
+    "655_90685112_FXZGK1UG5": [
+      "C1",
+      "C3",
+      "C4"
+    ],
+    "660_90685229_6YL8M1UG5": [
+      "C3",
+      "C4"
+    ],
+    "663_90797389_FPMPXXFH5": [
+      "C3",
+      "C4"
+    ],
+    "672_90685116_JCNKK1UG5": [
+      "C4"
+    ],
+    "616_90643120_82VIU3KG5": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "641_90741633_4LJMHL4H5": [
+      "C3"
+    ],
+    "658_90685199_5F1SL1UG5": [
+      "C2",
+      "C3"
+    ],
+    "669_90685113_AUKHK1UG5": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "674_90643143_WJNUU3KG5": [
+      "C1"
+    ],
+    "679_90685126_IPZPK1UG5": [
+      "C1",
+      "C4"
+    ],
+    "67_90684986_FMFEH1UG5": [
+      "C1",
+      "C3"
+    ],
+    "683_90685132_3FUSK1UG5": [
+      "C1",
+      "C3"
+    ],
+    "701_90685130_8I7SK1UG5": [
+      "C1"
+    ],
+    "703_90643161_N6X3V3KG5": [
+      "C1"
+    ],
+    "712_90797393_0FHSXXFH5": [
+      "C1"
+    ],
+    "718_90643152_JR70V3KG5": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "720_90741696_3USDIL4H5": [
+      "C1",
+      "C2"
+    ],
+    "723_90685138_CZWVK1UG5": [
+      "C1"
+    ],
+    "726_90685142_XNRXK1UG5": [
+      "C1"
+    ],
+    "727_90685139_7WHWK1UG5": [
+      "C1",
+      "C20",
+      "C4"
+    ],
+    "680_90685124_NTCPK1UG5": [
+      "C3",
+      "C4"
+    ],
+    "684_90685137_M5NUK1UG5": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "68_90852827_5WI9KXVH5": [
+      "C3"
+    ],
+    "690_90643140_BVUSU3KG5": [
+      "C3"
+    ],
+    "697_90741652_2B6XHL4H5": [
+      "C3"
+    ],
+    "70_90684988_5GNFH1UG5": [
+      "C3",
+      "C4"
+    ],
+    "710_90741654_S4EYHL4H5": [
+      "C3"
+    ],
+    "731_90643150_PUKZU3KG5": [
+      "C3"
+    ],
+    "733_90817471_KBSBAIKH5": [
+      "C2",
+      "C3"
+    ],
+    "675_90685117_96XLK1UG5": [
+      "C2",
+      "C20",
+      "C5"
+    ],
+    "686_90853011_RMPMMXVH5": [
+      "C2",
+      "C20"
+    ],
+    "689_90643137_L1LRU3KG5": [
+      "C2"
+    ],
+    "719_90741697_YPDEIL4H5": [
+      "C2",
+      "C20"
+    ],
+    "722_90685141_2T4XK1UG5": [
+      "C2"
+    ],
+    "705_90685136_T82UK1UG5": [
+      "C4"
+    ],
+    "725_90643164_D055V3KG5": [
+      "C4"
+    ],
+    "73_90643047_ZY1LS3KG5": [
+      "C4"
+    ],
+    "687_90853024_JXLTMXVH5": [
+      "C5"
+    ],
+    "709_90741651_7EJWHL4H5": [
+      "C5"
+    ],
+    "742_90643167_3UC6V3KG5": [
+      "C1",
+      "C2"
+    ],
+    "745_90685153_RYM2L1UG5": [
+      "C2"
+    ],
+    "748_90643171_YPZ6V3KG5": [
+      "C1",
+      "C2"
+    ],
+    "758_90643183_SZWBV3KG5": [
+      "C1",
+      "C2"
+    ],
+    "766_90643201_4BZMV3KG5": [
+      "C2",
+      "C6"
+    ],
+    "76_90684998_UL7LH1UG5": [
+      "C1",
+      "C2"
+    ],
+    "773_90685166_IJWBL1UG5": [
+      "C2",
+      "C3"
+    ],
+    "774_90685164_URMAL1UG5": [
+      "C1",
+      "C2"
+    ],
+    "779_90685172_Y6CEL1UG5": [
+      "C1",
+      "C2"
+    ],
+    "791_90685177_HX6GL1UG5": [
+      "C2",
+      "C3",
+      "C6"
+    ],
+    "794_90643192_5ZMIV3KG5": [
+      "C2",
+      "C3"
+    ],
+    "796_90643196_PNHKV3KG5": [
+      "C1",
+      "C2",
+      "C4",
+      "C6"
+    ],
+    "755_90685168_3ARDL1UG5": [
+      "C1",
+      "C3"
+    ],
+    "767_90643198_EHRLV3KG5": [
+      "C1",
+      "C3"
+    ],
+    "778_90685159_J7K7L1UG5": [
+      "C3",
+      "C4"
+    ],
+    "783_90853018_ADJPMXVH5": [
+      "C3"
+    ],
+    "792_90643190_K8UGV3KG5": [
+      "C1",
+      "C3",
+      "C4",
+      "C6"
+    ],
+    "75_90684999_NIULH1UG5": [
+      "C1"
+    ],
+    "765_90685155_ANH4L1UG5": [
+      "C1",
+      "C6"
+    ],
+    "78_90685003_89NNH1UG5": [
+      "C1",
+      "C4"
+    ],
+    "749_90643176_CCF9V3KG5": [
+      "C2",
+      "C4"
+    ],
+    "751_90643177_792AV3KG5": [
+      "C4",
+      "C6"
+    ],
+    "762_90643189_1IZEV3KG5": [
+      "C4"
+    ],
+    "775_90685156_5K45L1UG5": [
+      "C4"
+    ],
+    "782_90741665_BV80IL4H5": [
+      "C4",
+      "C6"
+    ],
+    "743_90685144_SKCYK1UG5": [
+      "C6"
+    ],
+    "756_90797415_7N64YXFH5": [
+      "C6"
+    ],
+    "761_90741658_L11ZHL4H5": [
+      "C6"
+    ],
+    "740_90685145_LHZYK1UG5": [
+      "C2"
+    ],
+    "763_90643191_F5FHV3KG5": [
+      "C2"
+    ],
+    "764_90643193_0W9JV3KG5": [
+      "C2"
+    ],
+    "784_90797401_ZSTWXXFH5": [
+      "C2"
+    ],
+    "797_90685181_2M1IL1UG5": [
+      "C1",
+      "C3",
+      "C4"
+    ],
+    "800_90685185_LCWJL1UG5": [
+      "C1",
+      "C4"
+    ],
+    "814_90741669_RGP2IL4H5": [
+      "C1"
+    ],
+    "815_90685179_7REHL1UG5": [
+      "C1",
+      "C4"
+    ],
+    "819_90741679_01T5IL4H5": [
+      "C1",
+      "C6"
+    ],
+    "839_90685195_KP6PL1UG5": [
+      "C1"
+    ],
+    "841_90685197_AIERL1UG5": [
+      "C1",
+      "C6"
+    ],
+    "848_90797387_KT1PXXFH5": [
+      "C1"
+    ],
+    "849_90741721_WE0NIL4H5": [
+      "C1"
+    ],
+    "853_90741728_VSATIL4H5": [
+      "C1"
+    ],
+    "79_90684978_GA5AH1UG5": [
+      "C2"
+    ],
+    "7_90797295_A7M9VXFH5": [
+      "C2"
+    ],
+    "808_90797403_UNEXXXFH5": [
+      "C2",
+      "C3",
+      "C6"
+    ],
+    "80_90701796_CMIF2JXG5": [
+      "C2",
+      "C6"
+    ],
+    "817_90685182_XIMIL1UG5": [
+      "C2"
+    ],
+    "821_90741677_A7J4IL4H5": [
+      "C2"
+    ],
+    "828_90797409_8BWZXXFH5": [
+      "C2",
+      "C6"
+    ],
+    "840_90643220_XX6YV3KG5": [
+      "C2"
+    ],
+    "844_90741666_6SV0IL4H5": [
+      "C2"
+    ],
+    "850_90797398_E2ZUXXFH5": [
+      "C2",
+      "C3"
+    ],
+    "799_90643202_Z7KNV3KG5": [
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "816_90741678_5465IL4H5": [
+      "C4",
+      "C6"
+    ],
+    "818_90643211_MD4VV3KG5": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "826_90797404_NK1YXXFH5": [
+      "C4"
+    ],
+    "827_90797407_DE9ZXXFH5": [
+      "C4"
+    ],
+    "835_90685193_WWYML1UG5": [
+      "C4"
+    ],
+    "836_90685189_63RLL1UG5": [
+      "C4"
+    ],
+    "838_90741691_U9PAIL4H5": [
+      "C4",
+      "C6"
+    ],
+    "847_90741717_6LSLIL4H5": [
+      "C4"
+    ],
+    "845_90643205_N1UPV3KG5": [
+      "C3",
+      "C5"
+    ],
+    "851_90643251_DPYCW3KG5": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "832_90685188_B64LL1UG5": [
+      "C5",
+      "C6"
+    ],
+    "861_90797413_T1R1YXFH5": [
+      "C1",
+      "C3",
+      "C4"
+    ],
+    "864_90853031_9RVUMXVH5": [
+      "C1"
+    ],
+    "867_90643225_BJM0W3KG5": [
+      "C1"
+    ],
+    "871_90853032_4MGVMXVH5": [
+      "C1"
+    ],
+    "893_90797421_SD16YXFH5": [
+      "C1",
+      "C4"
+    ],
+    "904_90643223_SUTYV3KG5": [
+      "C1",
+      "C4"
+    ],
+    "915_90797444_FJJBYXFH5": [
+      "C1"
+    ],
+    "925_90685214_35M0M1UG5": [
+      "C1"
+    ],
+    "926_90685213_8810M1UG5": [
+      "C1",
+      "C4"
+    ],
+    "855_90643282_ZXDXW3KG5": [
+      "C4"
+    ],
+    "881_90853065_FBVANXVH5": [
+      "C4"
+    ],
+    "897_90797429_G797YXFH5": [
+      "C4"
+    ],
+    "907_90741703_CCVGIL4H5": [
+      "C4"
+    ],
+    "909_90741707_263IIL4H5": [
+      "C4"
+    ],
+    "919_90685212_DBEZL1UG5": [
+      "C4"
+    ],
+    "860_90797414_HVY2YXFH5": [
+      "C3",
+      "C4"
+    ],
+    "868_90643224_GM10W3KG5": [
+      "C3",
+      "C4"
+    ],
+    "882_90797424_LAM6YXFH5": [
+      "C3",
+      "C4"
+    ],
+    "898_90643217_74ZWV3KG5": [
+      "C2",
+      "C3"
+    ],
+    "908_90741692_N6BBIL4H5": [
+      "C3"
+    ],
+    "922_90797451_J09FYXFH5": [
+      "C3"
+    ],
+    "86_90852825_F2B8KXVH5": [
+      "C2",
+      "C4"
+    ],
+    "862_90685203_P5WTL1UG5": [
+      "C4"
+    ],
+    "878_90853041_836ZMXVH5": [
+      "C4"
+    ],
+    "85_90643032_H6A6S3KG5": [
+      "C2"
+    ],
+    "869_90853033_ZI3WMXVH5": [
+      "C2"
+    ],
+    "879_90853073_EN5FNXVH5": [
+      "C2"
+    ],
+    "89_90741472_F6HEEL4H5": [
+      "C2"
+    ],
+    "8_90852794_9LE5JXVH5": [
+      "C2"
+    ],
+    "905_90741694_I3YBIL4H5": [
+      "C2"
+    ],
+    "918_90741700_TL0FIL4H5": [
+      "C2"
+    ],
+    "927_90797463_86TKYXFH5": [
+      "C2"
+    ],
+    "937_90685209_ZNYWL1UG5": [
+      "C1",
+      "C2"
+    ],
+    "93_90852834_NYNFKXVH5": [
+      "C1",
+      "C2"
+    ],
+    "940_90853047_MPL1NXVH5": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "944_90643229_R643W3KG5": [
+      "C1",
+      "C2"
+    ],
+    "949_90853039_I9YXMXVH5": [
+      "C2"
+    ],
+    "94_90741475_Z8MKEL4H5": [
+      "C1",
+      "C2"
+    ],
+    "950_90853049_CIV2NXVH5": [
+      "C1",
+      "C2"
+    ],
+    "961_90741722_RBLNIL4H5": [
+      "C2",
+      "C3"
+    ],
+    "96_90741476_YKYPEL4H5": [
+      "C2"
+    ],
+    "978_90643243_JF18W3KG5": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "979_90685225_L7T6M1UG5": [
+      "C1",
+      "C2",
+      "C4"
+    ],
+    "982_90797447_5DTCYXFH5": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "983_90797450_P3MEYXFH5": [
+      "C1",
+      "C2"
+    ],
+    "984_90797469_HPVNYXFH5": [
+      "C2",
+      "C4"
+    ],
+    "989_90797496_FEGYYXFH5": [
+      "C2"
+    ],
+    "934_90741727_0WNSIL4H5": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "935_90741726_5Z2SIL4H5": [
+      "C4"
+    ],
+    "965_90817687_KNT7VJKH5": [
+      "C4"
+    ],
+    "971_90643236_5UJ5W3KG5": [
+      "C4"
+    ],
+    "98_90741482_F1E1FL4H5": [
+      "C1",
+      "C2",
+      "C4"
+    ],
+    "932_90685217_MVG2M1UG5": [
+      "C3"
+    ],
+    "938_90685211_IETYL1UG5": [
+      "C3"
+    ],
+    "939_90685219_CNP3M1UG5": [
+      "C3"
+    ],
+    "952_90741719_1IDMIL4H5": [
+      "C3"
+    ],
+    "955_90741724_F5VPIL4H5": [
+      "C3"
+    ],
+    "967_90817738_0UNR5KKH5": [
+      "C2",
+      "C3"
+    ],
+    "985_90797480_BZSUYXFH5": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "968_90853063_RHL9NXVH5": [
+      "C2"
+    ],
+    "933_90797468_MT8NYXFH5": [
+      "C1"
+    ],
+    "980_90685227_B118M1UG5": [
+      "C2"
+    ],
+    "999_90853050_7FG3NXVH5": [
+      "C1",
+      "C4",
+      "C5"
+    ],
+    "992_90797524_CGDBZXFH5": [
+      "C4",
+      "C5"
+    ],
+    "997_90643246_46W9W3KG5": [
+      "C1"
+    ],
+    "99_90741483_AY02FL4H5": [
+      "C1"
+    ],
+    "991_90643244_ECM8W3KG5": [
+      "C1",
+      "C5"
+    ],
+    "990_90797518_3YA8ZXFH5": [
+      "C4"
+    ],
+    "993_90797540_RF5IZXFH5": [
+      "C3",
+      "C5"
+    ]
+  }
+}

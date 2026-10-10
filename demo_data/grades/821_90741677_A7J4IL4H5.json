@@ -1,0 +1,290 @@
+{
+  "call_id": "821_90741677_A7J4IL4H5",
+  "duration_s": 113.33,
+  "graded_at": "2026-10-10T12:42:59+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी। ठीक है? अब Satyendra जी बोलें।",
+      "timestamp": 90.05,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer stated a name but bot didn't capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 90.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 103.05,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised price discussion via WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 103.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and quantity, bot created lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 1 bottle."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured bottle."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity, bot asked and confirmed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 1 bottle."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured memory booster."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot only asked for indication, no second spec asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी। ठीक है? अब Satyendra जी बोलें।",
+      "timestamp": 90.05,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer stated a name but bot didn't capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 90.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked product twice, within limit."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognized words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained Marito Brain syrup."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 103.05,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised price discussion via WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 103.0
+    }
+  ],
+  "captured_lead": {
+    "product": "Marito Brain Syrup",
+    "quantity": "1",
+    "quantity_unit": "bottle",
+    "specs": [
+      {
+        "name": "indication",
+        "value": "memory booster"
+      }
+    ],
+    "name": null,
+    "city": "Bihia",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer requested Satyendra ji to speak.",
+      "timestamp": 90.0,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": 15.97,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture buyer's name (Satyendra). Bot promised price discussion via WhatsApp.",
+  "analysis": "Buyer wanted Marito Brain syrup, one bottle. Bot asked for quantity (1 bottle), indication (memory booster), name (Satyendra), and location (Bihia, Bihar). Bot read back quantity as 1 bottle, indication as memory booster, and location as Bihia, Bihar. Bot closed with lead creation. Buyer gave a name but bot didn't capture it. Buyer requested 'Satyendra ji' but bot didn't capture name.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3937,
+    "completion_tokens": 1245
+  },
+  "unresolved_problems": []
+}

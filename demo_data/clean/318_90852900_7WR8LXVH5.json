@@ -1,0 +1,68 @@
+{
+  "call_id": "318_90852900_7WR8LXVH5",
+  "file": "data/recordings/318_90852900_7WR8LXVH5.mp3",
+  "duration_s": 45.58,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 4.11
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब मेरा order था एक पहले से।",
+      "start": 7.21,
+      "end": 9.17
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूं पर क्या आप बता सकते हैं कि आपको कौन सा product चाहिए ताकि मैं आपकी सही मदद कर सकूं?",
+      "start": 10.73,
+      "end": 16.41
+    },
+    {
+      "role": "BUYER",
+      "text": "बनी आप। वो Patanjali के through मतलब आया था। मतलब मेरे को अभी तक मिला ही नहीं है वो।",
+      "start": 11.69,
+      "end": 22.05
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूँ। Shipment से जुड़ी जानकारी के लिए आप सीधे seller से बात कर सकते हैं। क्या आप कोई नया product खरीदना चाहते हैं?",
+      "start": 22.99,
+      "end": 29.81
+    },
+    {
+      "role": "BUYER",
+      "text": "खरीदना नहीं चाहते हैं मतलब इसी करना चाहते हैं।",
+      "start": 31.71,
+      "end": 34.57
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूँ लेकिन मैं सिर्फ नए product की inquiry में मदद कर सकती हूँ। आप इसके लिए सीधे seller से contact कर लीजिए।",
+      "start": 35.57,
+      "end": 42.35
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.1,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

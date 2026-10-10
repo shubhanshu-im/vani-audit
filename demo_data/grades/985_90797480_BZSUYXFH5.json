@@ -1,0 +1,302 @@
+{
+  "call_id": "985_90797480_BZSUYXFH5",
+  "duration_s": 60.26,
+  "graded_at": "2026-10-10T12:47:44+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Bot missed critical storage capacity options 16, 32, 64.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "दो सोलह चाहिए तीन बत्तीस चाहिए चार चौसठ चाहिए",
+      "timestamp": 25.97,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot missed critical storage capacity options 16, 32, 64.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "दो सोलह चाहिए तीन बत्तीस चाहिए चार चौसठ चाहिए",
+      "timestamp": 25.97,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Minor ASR error on storage capacities.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 38.23,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Used banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not asked for in the required format."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not asked for in the required format."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "दो सोलह चाहिए तीन बत्तीस चाहिए चार चौसठ चाहिए",
+      "timestamp": 25.97,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot missed critical storage capacity options 16, 32, 64.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "दो सोलह चाहिए तीन बत्तीस चाहिए चार चौसठ चाहिए",
+      "timestamp": 25.97,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Minor ASR error on storage capacities.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were captured."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 38.23,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Used banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.2
+    }
+  ],
+  "captured_lead": {
+    "product": "used Vivo mobile phones",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "internal storage",
+        "value": "128 GB"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot failed to capture exact storage capacities.",
+      "timestamp": 26.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot missed critical storage capacity options (16GB, 32GB, 64GB), capturing only 128GB. Also used banned question.",
+  "analysis": "Buyer wanted used Vivo mobile phones with internal storage options of 16GB, 32GB, or 64GB. Bot captured internal storage but missed the exact numeric options (16, 32, 64). Bot closed with a lead. Buyer requested immediate seller connection at the end but call ended. Outcome is a lead created for a buyer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3608,
+    "completion_tokens": 1183
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,288 @@
+{
+  "call_id": "395_90852944_HXEULXVH5",
+  "duration_s": 91.37,
+  "graded_at": "2026-10-10T12:31:46+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपको कितने fees चाहिए?",
+      "timestamp": 21.89,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'free' as 'fees', but recovered and moved on.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप price के बारे में seller से discuss कर सकते हैं वो आपको best rates देंगे।",
+      "timestamp": 71.13,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot deferred price to seller, which is acceptable.",
+      "evidence_verified": true,
+      "llm_timestamp": 71.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and bot proceeded to lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आप मुझे hundred piece.",
+      "timestamp": 58.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed 100 pieces, bot acknowledged."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit was pieces, bot handled it correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity, buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "तो आपको 11 inch वाला size चाहिए?",
+      "timestamp": 45.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for size, buyer confirmed 11 inch."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "अब बताइए pack size में क्या prefer करेंगे?",
+      "timestamp": 51.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for pack size, buyer provided 100 pieces."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer mentioned 'BT' type, bot captured it in product name."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions or loops."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपको कितने fees चाहिए?",
+      "timestamp": 21.89,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'free' as 'fees', but recovered and moved on.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.9
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered or attempted."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Hello [NAME] आपको 100 piece जय भारत rubber balloon की requirement है ना?",
+      "timestamp": 0.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed product, buyer did not correct it."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors visible in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air issues."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप price के बारे में seller से discuss कर सकते हैं वो आपको best rates देंगे।",
+      "timestamp": 71.13,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot deferred price to seller, which is acceptable.",
+      "evidence_verified": true,
+      "llm_timestamp": 71.1
+    }
+  ],
+  "captured_lead": {
+    "product": "Jai Bharat BT rubber balloon",
+    "quantity": "100",
+    "quantity_unit": "pieces",
+    "specs": [
+      {
+        "name": "size",
+        "value": "11 inch"
+      },
+      {
+        "name": "pack size",
+        "value": "100 pieces"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wanted 100 pieces of Jai Bharat BT rubber balloons. Bot asked for quantity and size (11 inch), then offered WhatsApp lead. Buyer asked price, bot deferred. Buyer said thank you and hung up. Bot ended with a closing. Outcome is PASS (buyer intent confirmed, lead created via WhatsApp).",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3850,
+    "completion_tokens": 1266
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,104 @@
+{
+  "call_id": "568_90643179_26NAV3KG5",
+  "file": "data/recordings/568_90643179_26NAV3KG5.mp3",
+  "duration_s": 89.28,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Naseem ji, you are looking for car ramp right?",
+      "start": 0.35,
+      "end": 3.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 7.31,
+      "end": 7.75
+    },
+    {
+      "role": "BOT",
+      "text": "You had a requirement for car ramp, right?",
+      "start": 9.37,
+      "end": 11.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes. No ma'am actually um I am calling from Erode. We are planning to conduct an annual day and looking for the properties related to that.",
+      "start": 10.09,
+      "end": 23.89
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry, I couldn't quite catch that. Could you please tell me which product or service you're looking for?",
+      "start": 24.89,
+      "end": 30.01
+    },
+    {
+      "role": "BUYER",
+      "text": "I am from Erode. We are looking in my school we are planning to conduct annual day program. So for that I am looking for the properties.",
+      "start": 33.97,
+      "end": 44.65
+    },
+    {
+      "role": "BOT",
+      "text": "You want properties for an annual day program which are generally used for stage decorations and sets, right?",
+      "start": 46.09,
+      "end": 51.89
+    },
+    {
+      "role": "BUYER",
+      "text": "I'm not looking for stage decoration, I'm looking for the properties that we are going to use for dance and drama.",
+      "start": 53.91,
+      "end": 61.75
+    },
+    {
+      "role": "BOT",
+      "text": "You want stage properties used for dance and drama performances, right?",
+      "start": 63.07,
+      "end": 67.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah.",
+      "start": 68.69,
+      "end": 69.23
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk.",
+      "start": 71.15,
+      "end": 76.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 79.77,
+      "end": 80.63
+    },
+    {
+      "role": "BOT",
+      "text": "Let's talk about configuration now. Which one would you like, 3 BHK or something else?",
+      "start": 81.43,
+      "end": 86.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 3.96,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

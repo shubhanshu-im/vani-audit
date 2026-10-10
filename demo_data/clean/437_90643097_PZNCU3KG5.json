@@ -1,0 +1,74 @@
+{
+  "call_id": "437_90643097_PZNCU3KG5",
+  "file": "data/recordings/437_90643097_PZNCU3KG5.mp3",
+  "duration_s": 35.28,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको steel bowls की requirement है ना?",
+      "start": 0.23,
+      "end": 3.11
+    },
+    {
+      "role": "BUYER",
+      "text": "प्रमाण Telugu.",
+      "start": 5.67,
+      "end": 6.75
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं आपकी बात समझ नहीं पाई। क्या आपको steel bowls की requirement है?",
+      "start": 7.77,
+      "end": 12.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam తెలుగు తెలుగునే పోలు English అయ్యాక.",
+      "start": 14.61,
+      "end": 17.23
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए। मैं सिर्फ हिंदी और English में बात कर सकती हूं। क्या आपको steel bowls की requirement है?",
+      "start": 18.13,
+      "end": 23.71
+    },
+    {
+      "role": "BUYER",
+      "text": "तेलुगु Madam.",
+      "start": 24.87,
+      "end": 25.95
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए। मैं सिर्फ हिंदी या English में बात कर सकती हूं। क्या आपको steel bowls की requirement है?",
+      "start": 26.91,
+      "end": 32.77
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं",
+      "start": 32.97,
+      "end": 34.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.56,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

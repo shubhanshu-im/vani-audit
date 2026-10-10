@@ -1,0 +1,297 @@
+{
+  "call_id": "397_90853089_YRALNXVH5",
+  "duration_s": 54.0,
+  "graded_at": "2026-10-10T12:31:47+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "PASS",
+  "grade_reason": "no fatal issues",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot closed without collecting quantity, name, or location",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Lead details incomplete but product and key specs captured",
+      "evidence_verified": false
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp pe bhej dungi",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Offered WhatsApp instead of live seller transfer",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp pe bhej dungi",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot offered WhatsApp instead of live seller transfer",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear requirement and bot handled it"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not discussed, no lead created requiring it"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not mentioned"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "60 kilometers range captured",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Range was confirmed by bot"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "lead acid battery captured",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Battery type was confirmed by bot"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot closed without collecting quantity, name, or location",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Lead details incomplete but product and key specs captured",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No loops observed, ask counts within limits"
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognized words impacting the lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp pe bhej dungi",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Offered WhatsApp instead of live seller transfer",
+      "evidence_verified": false
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors observed"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp pe bhej dungi",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot offered WhatsApp instead of live seller transfer",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "UK EV charger",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "range",
+        "value": "60 kilometers"
+      },
+      {
+        "name": "battery_type",
+        "value": "lead acid"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [],
+  "failure_description": "",
+  "analysis": "Buyer wants an electric super/scooter with 60 km range and lead-acid battery. Bot confirmed product, range (60 km), and battery type (lead-acid), then closed without collecting quantity, name, or location, and did not offer a live seller transfer.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[range] = '60 kilometers': number(s) ['60'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 13009,
+    "completion_tokens": 3315
+  },
+  "unresolved_problems": [
+    "Spec Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'bot closed without collecting quantity, name, or location'",
+    "OnCall AstBuy Error: evidence_quote not found verbatim in any transcript line: 'seller details WhatsApp pe bhej dungi'",
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: 'seller details WhatsApp pe bhej dungi'"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "call_id": "869_90853033_ZI3WMXVH5",
+  "file": "data/recordings/869_90853033_ZI3WMXVH5.mp3",
+  "duration_s": 81.43,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको ladies clothes stitching services की requirement है ना?",
+      "start": 0.27,
+      "end": 4.81
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.95,
+      "end": 6.43
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब apparel types के बारे में बात कर लेते हैं। आपको western wear चाहिए या कुछ और?",
+      "start": 8.11,
+      "end": 16.93
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब? मेरा मतलब है कि आपको किस तरह के कपड़े सिलवाने हैं जैसे कि western wear, कट्टी या फिर... सिलवाने नहीं जी नहीं सिलवाने नहीं हैं जैसे petticoat वगैरह सिलते हैं ना।",
+      "start": 19.43,
+      "end": 31.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। तो आपको petticoat जैसे कपड़े सिलवाने हैं। अब बताइए service सिलवाने...",
+      "start": 32.61,
+      "end": 37.55
+    },
+    {
+      "role": "BUYER",
+      "text": "शिवान।",
+      "start": 36.79,
+      "end": 37.67
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए खिलवाना नहीं।",
+      "start": 38.59,
+      "end": 39.75
+    },
+    {
+      "role": "BUYER",
+      "text": "खिलवाना नहीं है। ठीक है मैं समझ गई। तो आप सिलवाना नहीं चाहते। क्या आप मुझे बता सकते हैं कि आपको घर पे काम जरूरत है? Hello. कि आप घर पे काम घर पे।",
+      "start": 38.97,
+      "end": 47.61
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ गई आप घर पे काम करने की बात कर रहे हैं पर मैं सिर्फ product requirements",
+      "start": 48.65,
+      "end": 53.07
+    },
+    {
+      "role": "BUYER",
+      "text": "घर के काम कर घर पर। product requirement.",
+      "start": 49.39,
+      "end": 52.53
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ रही हूं लेकिन मैं यहां सिर्फ product requirements के लिए मदद कर सकती हूं। क्या आपको कोई और product चाहिए?",
+      "start": 53.31,
+      "end": 59.95
+    },
+    {
+      "role": "BUYER",
+      "text": "product है।",
+      "start": 59.21,
+      "end": 59.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। तो क्या आप ladies clothes stitching services के लिए details confirm करना चाहेंगे या किसी और product की तलाश है?",
+      "start": 61.09,
+      "end": 67.55
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं। नहीं नहीं नहीं।",
+      "start": 61.33,
+      "end": 70.47
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 71.39,
+      "end": 76.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.5,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 5,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

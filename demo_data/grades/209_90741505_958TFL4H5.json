@@ -1,0 +1,305 @@
+{
+  "call_id": "209_90741505_958TFL4H5",
+  "duration_s": 195.91,
+  "graded_at": "2026-10-10T12:26:55+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Looping Behavior: Bot looped 6 times on city/state exceeding prompt limit of 3.",
+  "fatal_params": [
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपके city और state की जानकारी सिर्फ यहां बताइए ताकि seller details भेज सकूं।",
+      "timestamp": 140.67,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped 6 times on city/state exceeding prompt limit of 3.",
+      "evidence_verified": true,
+      "llm_timestamp": 140.7
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है जब भी आप तैयार हों अपनी city और state का नाम बता दीजिए।",
+      "timestamp": 165.33,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "8.0s silence after buyer, but buyer did not hang up due to it.",
+      "evidence_verified": true,
+      "llm_timestamp": 165.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माफ़ कीजिए मैं सिर्फ IndiaMART से जुड़ी जानकारी में आपकी मदद कर सकती हूँ।",
+      "timestamp": 20.79,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot apologized and restated purpose, slightly confusing buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed requirement and bot proceeded to collect details before transfer."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity discussed but not read back or confirmed by bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer responded with 'दस' (10)."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was stated but not captured in lead."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec1 was asked or discussed."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec2 was asked or discussed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were asked or missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपके city और state की जानकारी सिर्फ यहां बताइए ताकि seller details भेज सकूं।",
+      "timestamp": 140.67,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped 6 times on city/state exceeding prompt limit of 3.",
+      "evidence_verified": true,
+      "llm_timestamp": 140.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognition of key details."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never changed or disputed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors visible."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है जब भी आप तैयार हों अपनी city और state का नाम बता दीजिए।",
+      "timestamp": 165.33,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "8.0s silence after buyer, but buyer did not hang up due to it.",
+      "evidence_verified": true,
+      "llm_timestamp": 165.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माफ़ कीजिए मैं सिर्फ IndiaMART से जुड़ी जानकारी में आपकी मदद कर सकती हूँ।",
+      "timestamp": 20.79,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot apologized and restated purpose, slightly confusing buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.8
+    }
+  ],
+  "captured_lead": {
+    "product": "V5L face attendance biometric",
+    "quantity": "10",
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer expressed frustration ('दिमाग खराब है') due to bot looping.",
+      "timestamp": 178.8,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot looped 6 times asking for city/state, exceeding prompt limits.",
+      "timestamp": 140.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped excessively on city/state, causing buyer frustration and call drop.",
+  "analysis": "Buyer wants 10 pieces of V5L face attendance biometric. Buyer confirmed the product but was frustrated by repeated asks for city and state. The bot asked for city/state 6 times each and had dead air of 8s before buyer hung up with frustration ('दिमाग खराब है'). No lead was created.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '10': number(s) ['10'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4391,
+    "completion_tokens": 1243
+  },
+  "unresolved_problems": []
+}

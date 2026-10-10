@@ -1,0 +1,81 @@
+{
+  "call_id": "267_90643084_2GV2U3KG5",
+  "file": "data/recordings/267_90643084_2GV2U3KG5.mp3",
+  "duration_s": 70.13,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको broiler chicken की requirement है ना?",
+      "start": 0.01,
+      "end": 3.39
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। कितने?",
+      "start": 6.73,
+      "end": 11.39
+    },
+    {
+      "role": "BOT",
+      "text": "आप अभी line पे हैं? अगर आपको broiler chicken चाहिए तो बता दीजिए। माफ़ कीजिए आपकी आवाज़ clear नहीं आई। आपको broiler chicken चाहिए या कोई और product?",
+      "start": 13.15,
+      "end": 28.91
+    },
+    {
+      "role": "BUYER",
+      "text": "લોકાને રહેવાનું એવું છે. আর দুটো করে।",
+      "start": 29.45,
+      "end": 36.11
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी बात अभी भी समझ नहीं आ पाई। broiler chicken चाहिए या कोई और जानकारी चाहिए?",
+      "start": 38.11,
+      "end": 43.03
+    },
+    {
+      "role": "BUYER",
+      "text": "করবো এবার ফোন করবো তারপর।",
+      "start": 43.03,
+      "end": 46.29
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए, आवाज़ साफ़ नहीं आ रही है। क्या आप ज़रा शांत जगह जाकर या थोड़ा ज़ोर से बोल सकते हैं? लगता है साहब की आवाज़ बिल्कुल नहीं आ रही है। चाहें तो आप बाद में call कर सकते हैं। India Mart चुनने के लिए धन्यवाद।",
+      "start": 46.29,
+      "end": 66.11
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 8.46,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 16.81,
+        "end": 24.11,
+        "duration_s": 7.3,
+        "after_role": "BOT"
+      },
+      {
+        "start": 51.73,
+        "end": 60.19,
+        "duration_s": 8.46,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

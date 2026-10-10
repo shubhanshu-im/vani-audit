@@ -1,0 +1,92 @@
+{
+  "call_id": "348_90852889_DLU3LXVH5",
+  "file": "data/recordings/348_90852889_DLU3LXVH5.mp3",
+  "duration_s": 61.99,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी fresh groundnut की request IndiaMART पर placed है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.47,
+      "end": 6.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 8.79,
+      "end": 9.47
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब इस बात पे चर्चा कर लेते हैं कि आपको groundnut कौन सा चाहिए with shell या shelled या कुछ और?",
+      "start": 11.35,
+      "end": 16.41
+    },
+    {
+      "role": "BUYER",
+      "text": "चर्चा कर। सर।",
+      "start": 12.25,
+      "end": 19.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए कि variety में आप क्या prefer करेंगे Java, Bolt, Runner, Spanish या कोई और?",
+      "start": 20.61,
+      "end": 25.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जाबको।",
+      "start": 28.75,
+      "end": 29.97
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाया। क्या आप variety के बारे में बता सकते हैं जैसे Java, Boldwa, Runner या Spanish में से आपको कौन सा चाहिए?",
+      "start": 30.87,
+      "end": 38.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Gold Gold.",
+      "start": 39.27,
+      "end": 40.55
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 41.53,
+      "end": 46.75
+    },
+    {
+      "role": "BUYER",
+      "text": "ये ये ये मूँगफली मूँगफली के लिए मैंने order किया था जी।",
+      "start": 46.75,
+      "end": 50.87
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपकी जानकारी note कर ली गई है। आपकी details जल्द ही एक seller के पास पहुंच जाएंगी और वो आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 51.71,
+      "end": 59.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.16,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

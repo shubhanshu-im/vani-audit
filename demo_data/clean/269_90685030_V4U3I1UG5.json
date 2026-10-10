@@ -1,0 +1,44 @@
+{
+  "call_id": "269_90685030_V4U3I1UG5",
+  "file": "data/recordings/269_90685030_V4U3I1UG5.mp3",
+  "duration_s": 63.79,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको steam press boiler की requirement है ना? जी। ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए। steam capacity की बात करें आपको किस steam capacity वाला चाहिए 500 kg प्रति घंटा या 300 kg प्रति घंटा या कुछ और? जो commercial steam press रहता है। समझ गई आप इसे अब बताइए commercial इस्तेमाल के लिए लेना चाह रहे हैं आपको I am interested in में used steam boilers या electric steam boiler चाहिए या कुछ और? तीन। अब बताइए fuel type में क्या prefer करेंगे wood या electric या कुछ और? अब बताइए।",
+      "start": 0.01,
+      "end": 44.85
+    },
+    {
+      "role": "BUYER",
+      "text": "electric बहुत बढ़िया। electric fuel type के लिए prefer कर रहे हैं। अब आपको मैं seller details WhatsApp...",
+      "start": 50.31,
+      "end": 58.17
+    },
+    {
+      "role": "BOT",
+      "text": "को मैं seller details WhatsApp. reason में है क्या?",
+      "start": 56.55,
+      "end": 61.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.78,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

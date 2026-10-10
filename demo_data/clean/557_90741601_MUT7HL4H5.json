@@ -1,0 +1,113 @@
+{
+  "call_id": "557_90741601_MUT7HL4H5",
+  "file": "data/recordings/557_90741601_MUT7HL4H5.mp3",
+  "duration_s": 92.52,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको prefabricated labor quarter की requirement है ना?",
+      "start": 0.01,
+      "end": 3.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Namaste.",
+      "start": 9.13,
+      "end": 11.21
+    },
+    {
+      "role": "BOT",
+      "text": "आपको pre-fabricated labor quarter की requirement थी ना? क्षमा कीजिए। मैं सिर्फ हिंदी या English में बात कर सकती हूँ। क्या आप इनमें से किसी भाषा में बात करना चाहेंगे? I'm sorry, but I can only speak in Hindi or English. If you're okay with either, we can continue. Okay, I will speak in English. Sure, I will speak in English. Do you have a requirement for prefabricated labor quarter?",
+      "start": 11.21,
+      "end": 43.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Sure.",
+      "start": 46.17,
+      "end": 46.79
+    },
+    {
+      "role": "BOT",
+      "text": "Could you please confirm if you are looking for prefabricated labor quarter?",
+      "start": 47.85,
+      "end": 51.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 53.53,
+      "end": 53.97
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, I am Tanya from IndiaMART. I will connect you with some great sellers. Please confirm a few details first.",
+      "start": 55.09,
+      "end": 61.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah.",
+      "start": 63.59,
+      "end": 65.07
+    },
+    {
+      "role": "BOT",
+      "text": "I can help you with that but first how many square feet do you need?",
+      "start": 66.33,
+      "end": 69.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Selfie.",
+      "start": 71.19,
+      "end": 71.99
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I didn't quite catch that. Could you please tell me how many square feet you require?",
+      "start": 72.95,
+      "end": 77.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes sir.",
+      "start": 81.01,
+      "end": 81.61
+    },
+    {
+      "role": "BOT",
+      "text": "Great. Now let's talk about the wall material. Would you prefer aerocon panel, PUF panel or something else?",
+      "start": 82.67,
+      "end": 88.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 5.42,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 3.71,
+        "end": 9.13,
+        "duration_s": 5.42,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 3
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

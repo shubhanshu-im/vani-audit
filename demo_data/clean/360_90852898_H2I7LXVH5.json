@@ -1,0 +1,153 @@
+{
+  "call_id": "360_90852898_H2I7LXVH5",
+  "file": "data/recordings/360_90852898_H2I7LXVH5.mp3",
+  "duration_s": 87.34,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको safe profile extinguisher ABC 2 kilogram की requirement है ना?",
+      "start": 0.01,
+      "end": 5.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Madam.",
+      "start": 5.77,
+      "end": 6.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece में kilogram या cylinder चाहिए?",
+      "start": 7.47,
+      "end": 18.55
+    },
+    {
+      "role": "BUYER",
+      "text": "तो के जी?",
+      "start": 19.65,
+      "end": 20.39
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं। आपको capacity 2 kilograms ही चाहिए ना?",
+      "start": 21.55,
+      "end": 25.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 25.93,
+      "end": 26.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख सकती हूं कि आपने fire class में ABC चुना है right?",
+      "start": 27.59,
+      "end": 31.13
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ABC वो car में ये है ना डालना।",
+      "start": 32.27,
+      "end": 35.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। अब आप अपनी city और state भी बता दीजिए please।",
+      "start": 36.95,
+      "end": 40.39
+    },
+    {
+      "role": "BUYER",
+      "text": "पेनोर रनटक्का।",
+      "start": 41.31,
+      "end": 42.99
+    },
+    {
+      "role": "BOT",
+      "text": "आप Bengaluru Karnataka से बोल रहे हैं ना?",
+      "start": 44.01,
+      "end": 46.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 46.67,
+      "end": 47.13
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी line पर हैं? Please बताइए।",
+      "start": 56.05,
+      "end": 58.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म ठीक।",
+      "start": 60.43,
+      "end": 61.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप दक्षिणी जी बोल रही हैं ना?",
+      "start": 62.33,
+      "end": 64.75
+    },
+    {
+      "role": "BUYER",
+      "text": "नाही नाही आता कमी.",
+      "start": 66.71,
+      "end": 70.23
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए ठीक है आप अपना नाम बता दीजिए please.",
+      "start": 71.69,
+      "end": 74.53
+    },
+    {
+      "role": "BUYER",
+      "text": "शिवशंकर।",
+      "start": 75.35,
+      "end": 76.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 77.17,
+      "end": 85.83
+    },
+    {
+      "role": "BUYER",
+      "text": "कितने दिन?",
+      "start": 85.33,
+      "end": 87.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 8.92,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 47.13,
+        "end": 56.05,
+        "duration_s": 8.92,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "call_id": "980_90685227_B118M1UG5",
+  "duration_s": 73.73,
+  "graded_at": "2026-10-10T12:47:28+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed without collecting requirements or creating a lead.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है seller इस बारे में आप ठीक है।",
+      "timestamp": 70.99,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without collecting requirements or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 71.0
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप बस ये बता दीजिए कि आपको कितनी quantity चाहिए? Okay Madam.",
+      "timestamp": 47.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity multiple times after unclear audio.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने box या strip चाहिए? Sorry मुझे अभी भी clear नहीं हो पाया।",
+      "timestamp": 47.1,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity query 2 times due to unclear audio.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप बस ये बता दीजिए कि आपको कितनी quantity चाहिए?",
+      "timestamp": 47.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot used a banned open-ended question format.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है seller इस बारे में आप ठीक है।",
+      "timestamp": 70.99,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without collecting requirements or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 71.0
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was given or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was given or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप बस ये बता दीजिए कि आपको कितनी quantity चाहिए? Okay Madam.",
+      "timestamp": 47.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity multiple times after unclear audio.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.1
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was stated by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked or given."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were discussed beyond product confirmation."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने box या strip चाहिए? Sorry मुझे अभी भी clear नहीं हो पाया।",
+      "timestamp": 47.1,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity query 2 times due to unclear audio.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major misheard words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search was performed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप बस ये बता दीजिए कि आपको कितनी quantity चाहिए?",
+      "timestamp": 47.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot used a banned open-ended question format.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.1
+    }
+  ],
+  "captured_lead": {
+    "product": "Sildenafil Citrate tablets IP, 100 mg",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer gave unclear responses, bot repeated questions.",
+      "timestamp": 47.1,
+      "source": "llm"
+    },
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without creating a lead for confirmed buyer.",
+      "timestamp": 71.0,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: bot_not_understood, short_garbled_buyer_turns",
+      "timestamp": 47.09,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot abruptly closed the call without collecting quantity, name, or location, failing to create a lead.",
+  "analysis": "Buyer confirmed the product (Sildenafil Citrate tablets IP, 100 mg) but never provided quantity, name, or location. The bot asked for quantity multiple times due to unclear audio, then abruptly closed without creating a lead or transferring. The bot mentioned IndiaMART, not claiming to be human.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 13983,
+    "completion_tokens": 3777
+  },
+  "unresolved_problems": [
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 'आपको कितने box या strip चाहिए? Sorry मुझे अभी भी clear नहीं हो पाया।'"
+  ]
+}

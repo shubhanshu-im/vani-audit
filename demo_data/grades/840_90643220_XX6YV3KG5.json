@@ -1,0 +1,328 @@
+{
+  "call_id": "840_90643220_XX6YV3KG5",
+  "duration_s": 142.99,
+  "graded_at": "2026-10-10T12:43:35+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Probing Error: Bot asked for quantity but buyer never answered and bot closed without creating a lead.",
+  "fatal_params": [
+    "Quantity Probing Error"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने piece या set चाहिए?",
+      "timestamp": 24.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity but buyer never answered and bot closed without creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 24.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello आपको Suzuki Gixxer spare part की requirement है।",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the same product question once after a brief silence.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello.",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Minor bot-side silence of about 5.3 seconds.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Okay, I understand. Now, please tell me your city and state as well.",
+      "timestamp": 75.57,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot switched to English during Hindi call.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot proceeded with lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never provided a quantity."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने piece या set चाहिए?",
+      "timestamp": 24.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity but buyer never answered and bot closed without creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 24.4
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Suzuki Gixxer SF 155, 154.9 cc",
+      "timestamp": 35.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed model and buyer agreed."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "2017 वाला model",
+      "timestamp": 60.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed 2017 model and buyer agreed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important specs were missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello आपको Suzuki Gixxer spare part की requirement है।",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the same product question once after a brief silence.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant mishearings that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never changed the product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not present."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not present."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello.",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Minor bot-side silence of about 5.3 seconds.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Okay, I understand. Now, please tell me your city and state as well.",
+      "timestamp": 75.57,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot switched to English during Hindi call.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.2
+    }
+  ],
+  "captured_lead": {
+    "product": "Suzuki Gixxer spare part",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "model year",
+        "value": "2017"
+      },
+      {
+        "name": "model",
+        "value": "Suzuki Gixxer SF 155"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Valsad",
+    "state": "Gujarat"
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer mentioned parts broke and needs new ones.",
+      "timestamp": 60.7,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for a person (Diksha) but bot ignored.",
+      "timestamp": 32.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to ask for quantity and closed the call promising WhatsApp details instead of creating a buy lead.",
+  "analysis": "Buyer wanted Suzuki Gixxer SF 155 parts for a 2017 bike. Bot collected name ([NAME] [NAME]), city/state (Valsad, Gujarat), and product/model/year. Buyer never gave quantity. Bot closed by promising to send seller details on WhatsApp without asking for quantity or creating a BL. Outcome is ambiguous but buyer intent was clearly a purchase.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9743,
+    "completion_tokens": 2761
+  },
+  "unresolved_problems": []
+}

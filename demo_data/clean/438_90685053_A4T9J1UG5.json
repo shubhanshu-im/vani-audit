@@ -1,0 +1,33 @@
+{
+  "call_id": "438_90685053_A4T9J1UG5",
+  "file": "data/recordings/438_90685053_A4T9J1UG5.mp3",
+  "duration_s": 8.35,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Mytlock Mytlock 743 instant adhesive 20 gm की requirement है ना?",
+      "start": 0.01,
+      "end": 6.05
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "call_id": "652_90643141_6SFTU3KG5",
+  "file": "data/recordings/652_90643141_6SFTU3KG5.mp3",
+  "duration_s": 156.6,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] आपको Something Pro 400 Super Bright Emergency Solar Light with USB Mobile Charging की जानकारी दे रहे हैं।",
+      "start": 0.31,
+      "end": 8.19
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको क्षमा कीजिए। क्षमा कीजिए मुझे आपकी बात समझ नहीं आई क्या आपको Sunking Pro 400 super bright emergency solar light की requirement है? हाँ। solar light की requirement है।",
+      "start": 1.61,
+      "end": 17.39
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया। क्या आपको Sunking Pro 400 solar light की requirement?",
+      "start": 19.91,
+      "end": 26.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 27.65,
+      "end": 29.63
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी line पर हैं?",
+      "start": 35.21,
+      "end": 36.75
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे माफ़ कीजिए पर मैं आपकी बात नहीं समझ पा रही हूं। क्या आपको solar light की ज़रूरत है? बोले भैया आज दिवस है सदन में।",
+      "start": 36.75,
+      "end": 47.49
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 48.59,
+      "end": 54.53
+    },
+    {
+      "role": "BUYER",
+      "text": "एक चीज चाहिए।",
+      "start": 55.95,
+      "end": 57.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब power consumption के बारे में बात कर लेते हैं। आपको कौन सा चाहिए? 5.5 W या कुछ और?",
+      "start": 57.97,
+      "end": 63.79
+    },
+    {
+      "role": "BUYER",
+      "text": "આ તો થોડું.",
+      "start": 65.05,
+      "end": 67.83
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी। समझ गई। क्या आप बता सकते हैं कि आपको power consumption में क्या prefer करेंगे जैसे 5.5 W या कुछ और?",
+      "start": 66.97,
+      "end": 75.11
+    },
+    {
+      "role": "BUYER",
+      "text": "तो कौन सा अक्षर रहता है?",
+      "start": 76.97,
+      "end": 78.55
+    },
+    {
+      "role": "BOT",
+      "text": "ये आपकी जरूरत पर depend करता है। आप seller से discuss कर सकते हैं। आप इनमें से क्या prefer करेंगे?",
+      "start": 79.61,
+      "end": 84.81
+    },
+    {
+      "role": "BUYER",
+      "text": "size वाला कर दीजिए।",
+      "start": 87.59,
+      "end": 88.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं 5.5 डब्बी note कर लेती हूं। ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 90.07,
+      "end": 95.69
+    },
+    {
+      "role": "BUYER",
+      "text": "आप अपनी city हाँ।",
+      "start": 93.39,
+      "end": 97.09
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप अपना city और state बता दीजिए please.",
+      "start": 97.09,
+      "end": 99.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Time. दूसरा नहीं।",
+      "start": 97.43,
+      "end": 101.69
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry, अगली बार।",
+      "start": 102.75,
+      "end": 104.03
+    },
+    {
+      "role": "BUYER",
+      "text": "அங்க ஒரு இருபது.",
+      "start": 103.23,
+      "end": 107.35
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया please एक बार फिर से बता दीजिए।",
+      "start": 108.29,
+      "end": 113.51
+    },
+    {
+      "role": "BUYER",
+      "text": "आप कौन सी?",
+      "start": 112.23,
+      "end": 115.31
+    },
+    {
+      "role": "BOT",
+      "text": "परीक्षा बताते हैं थोड़ा जल्दी।",
+      "start": 116.13,
+      "end": 117.87
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 116.27,
+      "end": 116.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है।",
+      "start": 118.83,
+      "end": 119.99
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है गाना बजाई दिखाएंगे।",
+      "start": 118.87,
+      "end": 122.79
+    },
+    {
+      "role": "BOT",
+      "text": "थोड़ी देर में बताते हैं।",
+      "start": 122.77,
+      "end": 124.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हमें गाना बजाने में तमाशा हो गया।",
+      "start": 124.13,
+      "end": 126.61
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी मदद सिर्फ IndiaMART के लिए कर सकती हूँ। चलिए आप अपनी city और state बता दीजिए please।",
+      "start": 127.81,
+      "end": 132.83
+    },
+    {
+      "role": "BUYER",
+      "text": "बताइए कैसे ऐसा क्यों हो सकता है",
+      "start": 134.29,
+      "end": 147.91
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry ना। कम गाली देओ है सुंदर। मैं आपकी मदद सिर्फ IndiaMart के लिए करती हूँ। चलिए आप अपनी city और state बताते हैं।",
+      "start": 140.79,
+      "end": 153.93
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं आपकी मदद सिर्फ IndiaMart के लिए करती हूँ। चलिए आप अपनी city और state... हाँ। और मुझे अभी भी आपकी city और",
+      "start": 147.93,
+      "end": 156.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 16,
+    "buyer_turns": 16,
+    "longest_gap_s": 5.58,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 29.63,
+        "end": 35.21,
+        "duration_s": 5.58,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "call_id": "659_90685223_SA66M1UG5",
+  "duration_s": 66.82,
+  "graded_at": "2026-10-10T12:38:41+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "PASS",
+  "grade_reason": "no fatal issues",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=57.0 BOT: आप Muzaffarpur Bihar से बोल रहे हैं ना? t=62.1 BOT: Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। क्या आप Muzaffarpur Bihar से बोल रहे हैं?",
+      "timestamp": 57.0,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state confirmation and ASR error loop, failing to capture location.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=42.4 BUYER: Sorry आपकी आवाज़ clear नहीं आई।",
+      "timestamp": 42.4,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "ASR error on buyer's location, but bot recovered.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=1.0 BUYER: हाँ। हाँ लेकिन Daryapur cafe थे। It means Majithapur।",
+      "timestamp": 1.0,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard location as 'Majithapur' instead of 'Daryapur'.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated clear product requirement and bot proceeded."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 20L correctly from buyer's input."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'liter' was correctly understood."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer provided quantity without bot probing."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 20L was correctly captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Flavor 'plain water' was correctly captured."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's context of cafe was not recorded as a spec, but no critical spec was missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=57.0 BOT: आप Muzaffarpur Bihar से बोल रहे हैं ना? t=62.1 BOT: Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। क्या आप Muzaffarpur Bihar से बोल रहे हैं?",
+      "timestamp": 57.0,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state confirmation and ASR error loop, failing to capture location.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=42.4 BUYER: Sorry आपकी आवाज़ clear नहीं आई।",
+      "timestamp": 42.4,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "ASR error on buyer's location, but bot recovered.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transfer attempted."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was not changed or contradicted."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory category options were presented."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system search data available to judge."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=1.0 BUYER: हाँ। हाँ लेकिन Daryapur cafe थे। It means Majithapur।",
+      "timestamp": 1.0,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard location as 'Majithapur' instead of 'Daryapur'.",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "aerated water",
+    "quantity": "20",
+    "quantity_unit": "liter",
+    "specs": [
+      {
+        "name": "flavor",
+        "value": "plain water"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot looped on city/state confirmation and ASR error.",
+      "timestamp": 57.0,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot struggled to understand location and ASR errors.",
+      "timestamp": 42.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wants aerated water, specifically 20-liter tank for plain drinking water for a cafe in Daryapur/Majithapur, Bihar. The bot confirmed the product, volume (20L), and flavor (plain water). The bot failed to capture the city and state correctly after multiple attempts and ASR errors, ending in a loop with no lead or transfer.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.quantity = '20': number(s) ['20'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14886,
+    "completion_tokens": 4160
+  },
+  "unresolved_problems": [
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 't=57.0 BOT: आप Muzaffarpur Bihar से बोल रहे हैं ना? t=62.1 BOT: Sorry आपकी आवाज़ '",
+    "WER: evidence_quote not found verbatim in any transcript line: 't=42.4 BUYER: Sorry आपकी आवाज़ clear नहीं आई।'",
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: 't=1.0 BUYER: हाँ। हाँ लेकिन Daryapur cafe थे। It means Majithapur।'"
+  ]
+}

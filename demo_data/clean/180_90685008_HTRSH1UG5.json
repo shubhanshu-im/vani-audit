@@ -1,0 +1,122 @@
+{
+  "call_id": "180_90685008_HTRSH1UG5",
+  "file": "data/recordings/180_90685008_HTRSH1UG5.mp3",
+  "duration_s": 110.02,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Walnut One की requirement है ना?",
+      "start": 0.01,
+      "end": 3.25
+    },
+    {
+      "role": "BUYER",
+      "text": "करें जी।",
+      "start": 5.01,
+      "end": 5.65
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 6.83,
+      "end": 12.83
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे दो किलो मतलब एक एक किलो के दो पैकेट चाहिए।",
+      "start": 14.37,
+      "end": 17.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब origin के बारे में बात कर लेते हैं। आपको कश्मीरी चाहिए या कुछ और? तो ये क्या है जो मतलब मैंने अभी एक photo click की थी जो IndiaMART वाली मैंने red color का packet 100% natural ball है तो मतलब यही वाला packet चाहिए मुझे तो ये कश्मीरी है right? जी आप पूरी list seller को भेज दीजिएगा वो आपकी मदद करेंगे। बस ये बता दीजिए कि आपको कश्मीरी ही चाहिए।",
+      "start": 18.95,
+      "end": 45.09
+    },
+    {
+      "role": "BUYER",
+      "text": "सर तो मतलब आप इसमें कोई भी help नहीं कर सकते मेरी order place करने में?",
+      "start": 48.01,
+      "end": 51.29
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी order place करने में मदद कर दूंगी बस details confirm कर दीजिए। तो आपको कश्मीरी ही चाहिए?",
+      "start": 52.57,
+      "end": 58.07
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी।",
+      "start": 59.75,
+      "end": 60.89
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब kernel form में आप क्या prefer करेंगे whole या broken?",
+      "start": 62.21,
+      "end": 66.05
+    },
+    {
+      "role": "BUYER",
+      "text": "पूरा साबुत होगा।",
+      "start": 68.49,
+      "end": 69.73
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई।",
+      "start": 70.77,
+      "end": 71.49
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब hole in the से आपको मैं मतलब तो मतलब जो इस packet में जो क्या कहते हैं गिरी जो होती है अखरोट गिरी मतलब broken वाली मतलब इसका जो अखरोट आता है इसको हम तोड़ के खाते हैं अंदर से निकालते हैं वो वाला नहीं जो broken वाली होती है already packet में जो broken होती है।",
+      "start": 71.15,
+      "end": 87.83
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं set. समझ गई आपको अखरोट गिरी चाहिए जो टूटी हुई ना हो। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 72.15,
+      "end": 96.53
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है okay.",
+      "start": 97.97,
+      "end": 98.79
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 99.89,
+      "end": 102.75
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आपका भी।",
+      "start": 104.83,
+      "end": 105.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.92,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

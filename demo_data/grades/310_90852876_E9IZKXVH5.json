@@ -1,0 +1,348 @@
+{
+  "call_id": "310_90852876_E9IZKXVH5",
+  "duration_s": 171.94,
+  "graded_at": "2026-10-10T12:29:27+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Looping Behavior: Bot looped on brand and power specs, exceeding the limit of 2 asks each.",
+  "fatal_params": [
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=10.4 BOT: आपको कितने piece चाहिए?",
+      "timestamp": 10.4,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity after buyer already mentioned 2 pieces.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=27.8 BUYER: जी जी हमको तीन बार दो piece चाहिए।",
+      "timestamp": 27.8,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 2 pieces 3 times (6 total), bot completely ignored and never captured.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=22.5 BUYER: दिखाना की कौन है machine जो machine अभी देख रहे है ना केमी वाला हम। यही machine हमको चाहिए।",
+      "timestamp": 82.47,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer specified the exact model (KMI 2254/kimai), bot missed this detail.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=61.5 BOT: मैं पूछ रही थी कि brand में आप क्या prefer करेंगे जैसे Philips या कोई और?",
+      "timestamp": 61.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on brand and power specs, exceeding the limit of 2 asks each.",
+      "evidence_verified": true,
+      "llm_timestamp": 61.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=01:39.8 BUYER: अरे हिंदी में बोलिए ना क्या है हिंदी में से बोला।",
+      "timestamp": 61.8,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "medium",
+      "reason": "Bot failed to switch to Hindi when buyer requested it.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded with collection."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked for or confirmed a specific numeric quantity."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked for or confirmed a quantity unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=10.4 BOT: आपको कितने piece चाहिए?",
+      "timestamp": 10.4,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity after buyer already mentioned 2 pieces.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=27.8 BUYER: जी जी हमको तीन बार दो piece चाहिए।",
+      "timestamp": 27.8,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 2 pieces 3 times (6 total), bot completely ignored and never captured.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked brand, buyer gave a response."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked power, buyer gave a response."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=22.5 BUYER: दिखाना की कौन है machine जो machine अभी देख रहे है ना केमी वाला हम। यही machine हमको चाहिए।",
+      "timestamp": 82.47,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer specified the exact model (KMI 2254/kimai), bot missed this detail.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=61.5 BOT: मैं पूछ रही थी कि brand में आप क्या prefer करेंगे जैसे Philips या कोई और?",
+      "timestamp": 61.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on brand and power specs, exceeding the limit of 2 asks each.",
+      "evidence_verified": true,
+      "llm_timestamp": 61.5
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear misrecognition that changed the lead or derailed the call."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not state any additional details it was recording."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed the product and bot proceeded with it."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system category data not present in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=01:39.8 BUYER: अरे हिंदी में बोलिए ना क्या है हिंदी में से बोला।",
+      "timestamp": 61.8,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "medium",
+      "reason": "Bot failed to switch to Hindi when buyer requested it.",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "KMI 2254 hair clipper",
+    "quantity": "null",
+    "quantity_unit": "null",
+    "specs": [
+      {
+        "name": "brand",
+        "value": "null"
+      },
+      {
+        "name": "power",
+        "value": "1000"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer frustrated by bot asking for power repeatedly.",
+      "timestamp": 117.2,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot looped on brand and power specs.",
+      "timestamp": 61.5,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot struggled to hear buyer and asked for repetition.",
+      "timestamp": 48.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on brand/power specs, failed to collect buyer's name and location, and missed the buyer's quantity (6 pieces) and specific m",
+  "analysis": "Buyer wanted a KMI 2254 hair clipper, specifically the 'kimai' (trimmer) model they saw. They requested 2 pieces, 3 times (6 pieces total). Bot confirmed product but missed quantity, name, and location. Bot looped on brand and power specs, and the buyer asked for Hindi. Bot closed by saying it would share seller details on WhatsApp, implying a lead was created without collecting name, city, or state.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 17263,
+    "completion_tokens": 5480
+  },
+  "unresolved_problems": [
+    "Quantity Probing Error: evidence_quote not found verbatim in any transcript line: 't=10.4 BOT: आपको कितने piece चाहिए?'",
+    "Qty Missed Opportunity: evidence_quote not found verbatim in any transcript line: 't=27.8 BUYER: जी जी हमको तीन बार दो piece चाहिए।'",
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: 't=01:39.8 BUYER: अरे हिंदी में बोलिए ना क्या है हिंदी में से बोला।'"
+  ]
+}

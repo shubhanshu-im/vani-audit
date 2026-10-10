@@ -1,0 +1,361 @@
+{
+  "call_id": "881_90853065_FBVANXVH5",
+  "duration_s": 86.4,
+  "graded_at": "2026-10-10T12:44:43+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Bot completely ignored buyer's stated quantity of one piece.",
+  "fatal_params": [
+    "Qty Missed Opportunity",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी हां अभी तो एक ही चीज है urgent है अभी free HP की",
+      "timestamp": 20.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot completely ignored buyer's stated quantity of one piece.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.1
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "three phase, single phase या कोई और?",
+      "timestamp": 38.51,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer said 'free' phase but bot captured 'single phase' instead.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.5
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "free पे ही जैसे",
+      "timestamp": 45.45,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'free' phase as 'single phase' during confirmation.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 48.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped the exact same closing line twice with no progress.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "free पे ही जैसे",
+      "timestamp": 45.45,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'free' as 'single' phase, minor impact on lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 48.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the exact same closing sentence twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product need and bot proceeded, though details were missed."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'ek hi' but bot never asked or confirmed quantity."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity, buyer responded with 'ek hi' (one piece)."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी हां अभी तो एक ही चीज है urgent है अभी free HP की",
+      "timestamp": 20.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot completely ignored buyer's stated quantity of one piece.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.1
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको 5 HP चाहिए या कुछ और?",
+      "timestamp": 24.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for power and buyer confirmed 3 HP."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "three phase, single phase या कोई और?",
+      "timestamp": 38.51,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer said 'free' phase but bot captured 'single phase' instead.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.5
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "free पे ही जैसे",
+      "timestamp": 45.45,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'free' phase as 'single phase' during confirmation.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 48.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped the exact same closing line twice with no progress.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "free पे ही जैसे",
+      "timestamp": 45.45,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'free' as 'single' phase, minor impact on lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.5
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not state what extra details it was recording."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer or transfer to a live seller."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not change the product after bot confirmed it."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category-specific ISQ data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not present in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps exceeding thresholds."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 48.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the exact same closing sentence twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.2
+    }
+  ],
+  "captured_lead": {
+    "product": "Jeetu 0A series general purpose drives",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "power",
+        "value": "3 HP"
+      },
+      {
+        "name": "input phase",
+        "value": "single phase"
+      }
+    ],
+    "name": null,
+    "city": "Gurugram",
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot ignored buyer's stated quantity of one piece.",
+      "timestamp": 20.1,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot looped the same WhatsApp closing sentence twice.",
+      "timestamp": 48.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture the buyer's quantity and misheard 'free' phase as 'single'. It also looped the exact same closing sentence twice without collecting name or creating a lead.",
+  "analysis": "Buyer wanted one piece of a 3 HP free-phase VFD urgently, in Gurugram. Bot confirmed product and power but ignored the quantity 'ek hi' (one piece) and 'free' phase. Bot looped the WhatsApp closing twice and never collected name. The call closed with a generic thank you, implying no lead was created.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3939,
+    "completion_tokens": 1412
+  },
+  "unresolved_problems": []
+}

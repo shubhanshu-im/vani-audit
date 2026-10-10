@@ -1,0 +1,306 @@
+{
+  "call_id": "320_90852901_2TC9LXVH5",
+  "duration_s": 58.82,
+  "graded_at": "2026-10-10T12:29:55+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "હા હા પાંચસો કે છસો.",
+      "timestamp": 29.75,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard Gujarati but still captured 500 kg correctly",
+      "evidence_verified": true,
+      "llm_timestamp": 29.8
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 48.83,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised WhatsApp details instead of live transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 48.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 48.83,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot used standard closing phrase",
+      "evidence_verified": true,
+      "llm_timestamp": 48.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated requirement and bot proceeded"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed 500 kg correctly"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit kilograms correctly captured"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity asked and provided"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was provided and captured"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "तो आप shell prefer करेंगे सही है?",
+      "timestamp": 43.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured shell form correctly"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional specs were required"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No excessive repetition observed"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "હા હા પાંચસો કે છસો.",
+      "timestamp": 29.75,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard Gujarati but still captured 500 kg correctly",
+      "evidence_verified": true,
+      "llm_timestamp": 29.8
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 48.83,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised WhatsApp details instead of live transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 48.8
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors visible"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available to judge"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 48.83,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot used standard closing phrase",
+      "evidence_verified": true,
+      "llm_timestamp": 48.8
+    }
+  ],
+  "captured_lead": {
+    "product": "Moongphali",
+    "quantity": "500",
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "form",
+        "value": "shell"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for a person/seller, bot deferred to WhatsApp",
+      "timestamp": 48.8,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 29.75,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot closed without collecting buyer name/location, and promised WhatsApp instead of live transfer.",
+  "analysis": "Buyer wanted 500 kg of moongphali (peanuts) with shell. Bot confirmed 500 kg and shell form. Bot closed by promising WhatsApp seller details. No name, city, or state were collected. Bot ended with a standard closing for a lead created.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3639,
+    "completion_tokens": 1167
+  },
+  "unresolved_problems": []
+}

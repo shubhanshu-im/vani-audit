@@ -1,0 +1,110 @@
+{
+  "call_id": "500_90852984_Y1HDMXVH5",
+  "file": "data/recordings/500_90852984_Y1HDMXVH5.mp3",
+  "duration_s": 88.78,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो जी [NAME] जी आपको diamond आटा चक्की की requirement है ना?",
+      "start": 0.01,
+      "end": 3.97
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी। अठारह इसकी कीमत क्या पड़ेगी madam?",
+      "start": 4.81,
+      "end": 7.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। price के लिए आप seller से बात कर सकते हैं वो आपको best rates देंगे। चलिए अब grinding capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 200 kilograms per hour, 100 kilograms per hour या कुछ और?",
+      "start": 8.85,
+      "end": 27.95
+    },
+    {
+      "role": "BUYER",
+      "text": "दो सौ तक मांग सकते हैं।",
+      "start": 29.07,
+      "end": 30.65
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख सकती हूं कि आपने motor power में 10 HP चुना है, right?",
+      "start": 31.59,
+      "end": 35.73
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 36.53,
+      "end": 36.95
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 38.03,
+      "end": 42.91
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा इसकी जो और सेवा वगैरह होती है अगर कभी mistake हो या कोई गड़बड़ी आए तो किससे हम संपर्क करेंगे?",
+      "start": 44.25,
+      "end": 52.93
+    },
+    {
+      "role": "BOT",
+      "text": "आप निश्चिंत रहिए IndiaMART पर verified sellers होते हैं। आप directly seller से contact कर सकते हैं। वो आपकी पूरी मदद करेंगे।",
+      "start": 54.15,
+      "end": 61.11
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा और अच्छा delivery के लिए ये home delivery देंगे क्या?",
+      "start": 62.51,
+      "end": 67.09
+    },
+    {
+      "role": "BOT",
+      "text": "जी delivery के बारे में आप seller से बात कर सकते हैं। वो आपको इसकी पूरी जानकारी दे देंगे।",
+      "start": 68.27,
+      "end": 73.01
+    },
+    {
+      "role": "BUYER",
+      "text": "चलो भेजिए कौन कौन सा है।",
+      "start": 75.23,
+      "end": 77.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं आपको seller details भेज देती हूं। IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 78.93,
+      "end": 84.07
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है thank you madam thank you.",
+      "start": 84.89,
+      "end": 86.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.22,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

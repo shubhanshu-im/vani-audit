@@ -1,0 +1,98 @@
+{
+  "call_id": "33_90741471_GU6AEL4H5",
+  "file": "data/recordings/33_90741471_GU6AEL4H5.mp3",
+  "duration_s": 61.2,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको Tata Soda alkaline feed grade की requirement है ना?",
+      "start": 0.47,
+      "end": 4.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Ma'am।",
+      "start": 5.83,
+      "end": 6.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने kilogram चाहिए?",
+      "start": 8.65,
+      "end": 18.53
+    },
+    {
+      "role": "BUYER",
+      "text": "पच्चीस किलो या पचास किलो।",
+      "start": 19.29,
+      "end": 21.73
+    },
+    {
+      "role": "BOT",
+      "text": "कोई भी चलेगा 25 kilogram या 50 kilogram में से किसने लेना prefer करेंगे?",
+      "start": 24.33,
+      "end": 28.81
+    },
+    {
+      "role": "BUYER",
+      "text": "किसने लेना? पच्चीस किलो होगा तो अच्छा होगा।",
+      "start": 27.05,
+      "end": 31.15
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब grade के लिए पूछना था मैं देख पा रही हूं। आपको feed grade ही चाहिए ना?",
+      "start": 32.97,
+      "end": 37.33
+    },
+    {
+      "role": "BUYER",
+      "text": "खास field में।",
+      "start": 38.03,
+      "end": 39.77
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब brand में बताइए Tata Chemicals या Solvay में से कौन सा चाहिए या कोई और?",
+      "start": 41.39,
+      "end": 46.35
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Tata के ही चलते हैं।",
+      "start": 47.15,
+      "end": 48.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 50.39,
+      "end": 58.43
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है ठीक है Thank you ma'am.",
+      "start": 59.09,
+      "end": 60.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

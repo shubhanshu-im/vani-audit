@@ -1,0 +1,98 @@
+{
+  "call_id": "925_90685214_35M0M1UG5",
+  "file": "data/recordings/925_90685214_35M0M1UG5.mp3",
+  "duration_s": 68.4,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको ECG accessories की requirement है ना?",
+      "start": 0.23,
+      "end": 3.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हो नहीं था। पैसा में छलिया जाके दिवा कर देंगे।",
+      "start": 0.99,
+      "end": 7.75
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको ECG accessories की requirement थी ना?",
+      "start": 8.75,
+      "end": 14.07
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ये थैले वाला bag चाहिए था madam।",
+      "start": 9.61,
+      "end": 17.45
+    },
+    {
+      "role": "BOT",
+      "text": "आपको थैली वाला bag चाहिए क्या आप इसे घर या सामान रखने के लिए इस्तेमाल करना चाहते हैं यही चाहिए ना?",
+      "start": 18.39,
+      "end": 24.25
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं जो एथी वाला थैली लगा रहता है ना latrine वाला।",
+      "start": 25.69,
+      "end": 30.71
+    },
+    {
+      "role": "BOT",
+      "text": "आपको lightning वाला bag चाहिए जो सामान रखने के आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 32.01,
+      "end": 42.09
+    },
+    {
+      "role": "BUYER",
+      "text": "दो piece चाहिए पटना पटना जिला है मनेर में आ सकते हैं।",
+      "start": 43.61,
+      "end": 47.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं check करती हूं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 48.95,
+      "end": 55.19
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 56.51,
+      "end": 57.15
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 58.31,
+      "end": 61.05
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद। Hello. हाँ।",
+      "start": 61.03,
+      "end": 68.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 3.02,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

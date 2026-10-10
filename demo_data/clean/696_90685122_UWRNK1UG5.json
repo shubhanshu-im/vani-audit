@@ -1,0 +1,58 @@
+{
+  "call_id": "696_90685122_UWRNK1UG5",
+  "file": "data/recordings/696_90685122_UWRNK1UG5.mp3",
+  "duration_s": 41.4,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी आपको कौन सा product चाहिए? हं। बस ही पाँच सौ में ही दाम पाँच सौ माफ़ कीजिए मैं समझ नहीं पाई।",
+      "start": 3.97,
+      "end": 13.95
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं समझ नहीं पाई। आपको जो है AC से काम करने वाली machine चाहिए? जी मैं आपको सुन पा रही हूं। आप कृपया बताइए कि आपको कौन सा product चाहिए?",
+      "start": 11.83,
+      "end": 22.09
+    },
+    {
+      "role": "BUYER",
+      "text": "जो तेजी से काम करने वाली। तो पाँच सौ machine है पंद्रह सौ।",
+      "start": 15.35,
+      "end": 27.43
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry में आगे help करेंगे। Please line पर बने रहें।",
+      "start": 28.33,
+      "end": 34.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.9,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "call_id": "291_90817684_B5R4VJKH5",
+  "duration_s": 228.07,
+  "graded_at": "2026-10-10T12:29:02+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "PASS",
+  "grade_reason": "no fatal issues",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=73.6 BUYER: Chennai-ல?",
+      "timestamp": 73.6,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer repeated Chennai location twice due to bot not confirming it initially.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=201.8 BUYER: Chennai-லயா?",
+      "timestamp": 201.8,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer repeated 'Chennai' likely due to ASR mishearing or lack of confirmation.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=217.8 BOT: நீங்க.",
+      "timestamp": 217.8,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot went silent after buyer's request for details, but buyer did not hang up.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=00:30.4 BOT: I apologize. I will speak in English.",
+      "timestamp": 30.4,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot switched to English after ASR struggled with Tamil/English mix.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clearly stated product and requirement; bot proceeded with lead creation and transfer."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured quantity as one piece based on buyer's confirmation."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 'piece' as the unit for the workstation."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity when buyer had already given it, but quickly moved on."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer explicitly stated 'one piece' and bot confirmed it."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked seating spec and buyer confirmed 'one seater'."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked material preference and buyer said 'mutton', which bot acknowledged."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured seating capacity and material preference."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=73.6 BUYER: Chennai-ல?",
+      "timestamp": 73.6,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer repeated Chennai location twice due to bot not confirming it initially.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=201.8 BUYER: Chennai-லயா?",
+      "timestamp": 201.8,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer repeated 'Chennai' likely due to ASR mishearing or lack of confirmation.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not explicitly record or state additional details beyond specs."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered and initiated a live seller transfer as intended."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer consistently referred to the HP Workstation Z2G1M."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not provided in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not visible in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=217.8 BOT: நீங்க.",
+      "timestamp": 217.8,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot went silent after buyer's request for details, but buyer did not hang up.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=00:30.4 BOT: I apologize. I will speak in English.",
+      "timestamp": 30.4,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot switched to English after ASR struggled with Tamil/English mix.",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "HP Workstation Z2G1M",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "seating_capacity",
+        "value": "one seater"
+      },
+      {
+        "name": "material",
+        "value": "mutton"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot struggled with ASR and switched languages mid-call.",
+      "timestamp": 30.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wants 1 HP Workstation Z2G1M for office use, located in Chennai. Bot confirmed product, asked for quantity (1), a seating spec (1 seater), material (mutton), name ([NAME]), and city/state (Chennai, Tamil Nadu). Bot offered a live seller transfer. The call ended abruptly with the bot cutting off after buyer said 'neenga'.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 18777,
+    "completion_tokens": 4942
+  },
+  "unresolved_problems": [
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 't=73.6 BUYER: Chennai-ல?'",
+    "WER: evidence_quote not found verbatim in any transcript line: 't=201.8 BUYER: Chennai-லயா?'",
+    "Dead air: evidence_quote not found verbatim in any transcript line: 't=217.8 BOT: நீங்க.'",
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: 't=00:30.4 BOT: I apologize. I will speak in English.'"
+  ]
+}

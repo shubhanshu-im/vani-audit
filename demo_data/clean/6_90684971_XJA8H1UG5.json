@@ -1,0 +1,104 @@
+{
+  "call_id": "6_90684971_XJA8H1UG5",
+  "file": "data/recordings/6_90684971_XJA8H1UG5.mp3",
+  "duration_s": 67.39,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको floor tiles की requirement है ना?",
+      "start": 0.01,
+      "end": 3.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 7.11,
+      "end": 7.65
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। आपको floor tiles की requirement थी ना?",
+      "start": 8.89,
+      "end": 11.79
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 13.01,
+      "end": 13.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने square feet चाहिए? चार सौ ठीक है अब tile size के बारे में बात कर लेते हैं आपको दो by दो feet चाहिए या कुछ और?",
+      "start": 14.69,
+      "end": 31.11
+    },
+    {
+      "role": "BUYER",
+      "text": "बारह बाई बारह।",
+      "start": 32.81,
+      "end": 34.33
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब tile type बताइए आप double charge GVT या कोई और prefer करेंगे?",
+      "start": 35.39,
+      "end": 40.13
+    },
+    {
+      "role": "BUYER",
+      "text": "अकहाँ कुडी।",
+      "start": 42.15,
+      "end": 43.55
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए कि आप कौन सा tile type prefer करेंगे?",
+      "start": 44.91,
+      "end": 49.47
+    },
+    {
+      "role": "BUYER",
+      "text": "अतंगुड़ी मोरतन।",
+      "start": 50.75,
+      "end": 52.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी।",
+      "start": 53.39,
+      "end": 55.99
+    },
+    {
+      "role": "BUYER",
+      "text": "जिनसे आप details और price discuss कर सकते हैं। Okay thank you.",
+      "start": 55.99,
+      "end": 60.55
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 61.63,
+      "end": 64.45
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 3.72,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

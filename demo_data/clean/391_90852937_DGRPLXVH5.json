@@ -1,0 +1,62 @@
+{
+  "call_id": "391_90852937_DGRPLXVH5",
+  "file": "data/recordings/391_90852937_DGRPLXVH5.mp3",
+  "duration_s": 53.57,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 100 ml Broka Herbal Cough syrup की requirement है ना?",
+      "start": 0.01,
+      "end": 5.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 7.45,
+      "end": 7.91
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितनी bottle चाहिए होगी आपको?",
+      "start": 9.71,
+      "end": 16.19
+    },
+    {
+      "role": "BUYER",
+      "text": "call कर रहे थे। की बात है।",
+      "start": 10.75,
+      "end": 18.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए। अबकी ingredients के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे honey, तुलसी या कुछ और? Only bro cough समझ गई बताइए कि ingredients में क्या prefer करेंगे honey, तुलसी या कोई और?",
+      "start": 20.05,
+      "end": 35.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay okay. Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको key ingredients में क्या चाहिए? Telugu language Telugu language. क्षमा कीजिए मैं सिर्फ हिंदी या English में बात करता हूँ।",
+      "start": 37.79,
+      "end": 53.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

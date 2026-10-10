@@ -1,0 +1,292 @@
+{
+  "call_id": "939_90685219_CNP3M1UG5",
+  "duration_s": 158.76,
+  "graded_at": "2026-10-10T12:46:11+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=102.5 ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "timestamp": 102.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state question twice after buyer already said Guwahati.",
+      "evidence_verified": true,
+      "llm_timestamp": 102.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and quantity; call ended with lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said one piece and bot captured it."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'piece' captured correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked quantity and buyer answered."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 1 piece captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 'wall light', 'four way', 'colored' and 'outdoor'."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured size '4 to 5 inch'."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Key specs captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=102.5 ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "timestamp": 102.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state question twice after buyer already said Guwahati.",
+      "evidence_verified": true,
+      "llm_timestamp": 102.5
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognition affecting lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer live seller transfer."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clarified product and bot confirmed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breaches or major errors."
+    }
+  ],
+  "captured_lead": {
+    "product": "wall light",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "type",
+        "value": "four way"
+      },
+      {
+        "name": "color",
+        "value": "colored"
+      },
+      {
+        "name": "size",
+        "value": "4 to 5 inch"
+      },
+      {
+        "name": "application",
+        "value": "outdoor"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Guwahati",
+    "state": "Assam"
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot repeated city/state question after buyer already provided Guwahati.",
+      "timestamp": 102.5,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "frustration keywords",
+      "timestamp": 133.39,
+      "source": "signals"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wants a 4-way colored wall light (approx 4-5 inch), 1 piece, for outdoor decoration. Bot confirmed product, quantity (1 piece), and location (Guwahati, Assam), and captured name ([NAME]). Bot offered to send seller details on WhatsApp and closed. Outcome is a buy lead.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4384,
+    "completion_tokens": 1177
+  },
+  "unresolved_problems": []
+}

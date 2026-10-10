@@ -1,0 +1,158 @@
+{
+  "call_id": "67_90684986_FMFEH1UG5",
+  "file": "data/recordings/67_90684986_FMFEH1UG5.mp3",
+  "duration_s": 114.34,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको kids battery operated motorcycle की requirement है ना?",
+      "start": 0.25,
+      "end": 4.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Ma'am. Good evening. आपको kids battery operated motorcycle की requirement थी ना? हाँ हाँ okay ma'am.",
+      "start": 6.53,
+      "end": 15.33
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 16.49,
+      "end": 22.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am एक piece चाहिए।",
+      "start": 24.25,
+      "end": 25.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब age group के बारे में बात कर लेते हैं। आपको 2 to 5 years, 3 years या कुछ और चाहिए?",
+      "start": 26.59,
+      "end": 31.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am बच्चे के लिए चाहिए।",
+      "start": 33.99,
+      "end": 36.29
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई पर क्या आप बता सकते हैं कि बच्चे की उम्र क्या है? जैसे two to five years या कुछ और?",
+      "start": 37.57,
+      "end": 42.25
+    },
+    {
+      "role": "BUYER",
+      "text": "ये चार साल है।",
+      "start": 43.33,
+      "end": 44.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब voltage के बारे में बात कर लेते हैं। आपको 12 volts, 6 volts या कुछ और चाहिए?",
+      "start": 45.65,
+      "end": 50.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am park चाहिए।",
+      "start": 52.39,
+      "end": 54.31
+    },
+    {
+      "role": "BOT",
+      "text": "आपको car चाहिए जो बच्चों के खेलने के काम आती है यही product चाहिए ना?",
+      "start": 55.53,
+      "end": 59.59
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको card चाहिए? जो बच्चे। जी जी।",
+      "start": 55.67,
+      "end": 61.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको कितने piece चाहिए?",
+      "start": 63.03,
+      "end": 64.63
+    },
+    {
+      "role": "BUYER",
+      "text": "One piece चाहिए।",
+      "start": 66.21,
+      "end": 67.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब weight carrying capacity के बारे में बात कर लेते हैं। आपको 10 kilograms, 20 kilograms या कुछ और चाहिए?",
+      "start": 68.63,
+      "end": 75.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am वो तो बात सही है आपको मुझे ऐसी चाहिए मतलब card जो एक बार भरने पर पूरे दिन चल जाए।",
+      "start": 76.79,
+      "end": 81.87
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई पर weight carrying capacity क्या होनी चाहिए? जैसे 10 kilograms, 20 kilograms या कुछ और?",
+      "start": 83.21,
+      "end": 88.65
+    },
+    {
+      "role": "BUYER",
+      "text": "सेवेंटी किलोग्राम।",
+      "start": 91.29,
+      "end": 93.55
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 94.81,
+      "end": 100.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay Ma'am.",
+      "start": 102.49,
+      "end": 103.19
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 104.27,
+      "end": 107.15
+    },
+    {
+      "role": "BUYER",
+      "text": "लेम। Hello.",
+      "start": 109.75,
+      "end": 113.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 2.64,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

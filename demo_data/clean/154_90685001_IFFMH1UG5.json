@@ -1,0 +1,122 @@
+{
+  "call_id": "154_90685001_IFFMH1UG5",
+  "file": "data/recordings/154_90685001_IFFMH1UG5.mp3",
+  "duration_s": 87.34,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको plastic scoops की requirement है ना?",
+      "start": 0.01,
+      "end": 3.31
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Madam.",
+      "start": 5.63,
+      "end": 6.37
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.49,
+      "end": 13.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam actually मैं अभी क्या WhatsApp में भेज दिया आपको मालूम हो गया होगा। photo आप seller को directly share कर दीजिएगा। अभी मेरे पास photo देखने की facility नहीं है।",
+      "start": 15.29,
+      "end": 25.76
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कितने piece चाहिए?",
+      "start": 25.76,
+      "end": 27.05
+    },
+    {
+      "role": "BUYER",
+      "text": "five five gram का fifty piece चाहिए और दस का दस gram का एक पचास piece",
+      "start": 28.71,
+      "end": 37.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब capacity weight के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 5 grams या कुछ और?",
+      "start": 36.01,
+      "end": 41.11
+    },
+    {
+      "role": "BUYER",
+      "text": "दस ग्राम का है।",
+      "start": 42.77,
+      "end": 43.81
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। capacity weight में आप 10 grams prefer करेंगे या कुछ और?",
+      "start": 44.85,
+      "end": 48.87
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Madam दस ग्राम का पचास और पाँच ग्राम का पचास।",
+      "start": 51.03,
+      "end": 55.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब capacity volume के बारे में बताइए। आपको कौन सा चाहिए? 10 milliliters, 70 milliliters या कुछ और?",
+      "start": 56.25,
+      "end": 62.47
+    },
+    {
+      "role": "BUYER",
+      "text": "ten milliliter और पांच milliliter।",
+      "start": 64.41,
+      "end": 67.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 68.11,
+      "end": 73.91
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है Madam जी।",
+      "start": 75.25,
+      "end": 76.17
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 77.27,
+      "end": 80.07
+    },
+    {
+      "role": "BUYER",
+      "text": "color का contact number मिल जाएगा।",
+      "start": 80.47,
+      "end": 82.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.32,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

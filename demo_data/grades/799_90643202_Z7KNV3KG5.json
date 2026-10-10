@@ -1,0 +1,326 @@
+{
+  "call_id": "799_90643202_Z7KNV3KG5",
+  "duration_s": 69.98,
+  "graded_at": "2026-10-10T12:42:31+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Bot ignored buyer's 1mm hinge query",
+  "fatal_params": [
+    "Qty Missed Opportunity",
+    "Spec Missed Opportunity",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "नहीं अच्छा यार इसकी कितना price है इसका 1 mm का?",
+      "timestamp": 7.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot ignored buyer's 1mm hinge query",
+      "evidence_verified": true,
+      "llm_timestamp": 7.4
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "नहीं अच्छा यार इसकी कितना price है इसका 1 mm का?",
+      "timestamp": 7.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 1mm hinge, bot ignored and did not capture",
+      "evidence_verified": true,
+      "llm_timestamp": 7.4
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Hello [NAME] आपकी 1 inch brass premium duck hinge की request IndiaMART पर raise है।",
+      "timestamp": 0.01,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 1mm as 1 inch brass hinge",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 46.39,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used banned open-ended question",
+      "evidence_verified": true,
+      "llm_timestamp": 46.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a product requirement, bot closed with seller follow-up"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never shared a numeric quantity"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not needed for price inquiry"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "नहीं अच्छा यार इसकी कितना price है इसका 1 mm का?",
+      "timestamp": 7.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot ignored buyer's 1mm hinge query",
+      "evidence_verified": true,
+      "llm_timestamp": 7.4
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot only asked for finish type"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot only asked for finish type"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "नहीं अच्छा यार इसकी कितना price है इसका 1 mm का?",
+      "timestamp": 7.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 1mm hinge, bot ignored and did not capture",
+      "evidence_verified": true,
+      "llm_timestamp": 7.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions or loops observed"
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Hello [NAME] आपकी 1 inch brass premium duck hinge की request IndiaMART पर raise है।",
+      "timestamp": 0.01,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 1mm as 1 inch brass hinge",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot closed with seller follow-up instead of live transfer"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained the same throughout"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps observed"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 46.39,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used banned open-ended question",
+      "evidence_verified": true,
+      "llm_timestamp": 46.4
+    }
+  ],
+  "captured_lead": {
+    "product": "1 inch brass premium duck hinge",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "finish_type",
+        "value": "silver, brown"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured 1 inch instead of buyer's 1mm hinge requirement",
+      "timestamp": 0.0,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard 1mm as 1 inch brass hinge",
+      "timestamp": 0.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard 1mm as 1 inch and ignored the buyer's hinge size query. Closed without capturing key size spec, name, or location.",
+  "analysis": "Buyer inquired about a 1mm brass hinge, then asked about 19mm. The bot misheard 19mm as 1 inch and only asked for finish type. It closed with a seller follow-up without capturing the 19mm size, name, or location.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8901,
+    "completion_tokens": 2608
+  },
+  "unresolved_problems": []
+}

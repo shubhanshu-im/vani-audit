@@ -1,0 +1,122 @@
+{
+  "call_id": "367_90797576_8WKUZXFH5",
+  "file": "data/recordings/367_90797576_8WKUZXFH5.mp3",
+  "duration_s": 86.9,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Ranjit ji. You are looking for medical representative bag, right?",
+      "start": 0.01,
+      "end": 4.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Yes madam. The cost of organic farm bag how much? Can it can it carry food and water?",
+      "start": 1.83,
+      "end": 13.93
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. You can discuss the price and features like carrying food and water with the seller. First, how many pieces do you need?",
+      "start": 15.07,
+      "end": 22.21
+    },
+    {
+      "role": "BUYER",
+      "text": "How many. Only more than twenty medicines that can that I can carry.",
+      "start": 20.59,
+      "end": 29.37
+    },
+    {
+      "role": "BOT",
+      "text": "Alright, I still need the quantity. How many pieces are you looking for?",
+      "start": 30.27,
+      "end": 34.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Only one man.",
+      "start": 34.67,
+      "end": 35.75
+    },
+    {
+      "role": "BOT",
+      "text": "Perfect. Let's talk about material now. Which one would you like polyester, rexine or something else?",
+      "start": 36.83,
+      "end": 42.15
+    },
+    {
+      "role": "BUYER",
+      "text": "Which bag is good?",
+      "start": 42.99,
+      "end": 44.85
+    },
+    {
+      "role": "BOT",
+      "text": "Polyester is durable and popular, but the seller can suggest the best one for you. Which one do you prefer?",
+      "start": 46.11,
+      "end": 51.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Policy is good.",
+      "start": 53.29,
+      "end": 54.41
+    },
+    {
+      "role": "BOT",
+      "text": "Yes polyester is a great choice. Now how many compartments would you prefer 3 4 or something else?",
+      "start": 55.61,
+      "end": 61.23
+    },
+    {
+      "role": "BUYER",
+      "text": "More than more than four is there?",
+      "start": 62.39,
+      "end": 66.41
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 67.41,
+      "end": 72.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am, is it organic pharma?",
+      "start": 73.29,
+      "end": 75.89
+    },
+    {
+      "role": "BOT",
+      "text": "I don't have clarity on that but you can discuss it with the seller. Thank you for choosing IndiaMART. Have a nice day.",
+      "start": 76.93,
+      "end": 83.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am. Okay, okay, ma'am.",
+      "start": 79.05,
+      "end": 84.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 1.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

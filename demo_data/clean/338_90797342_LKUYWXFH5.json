@@ -1,0 +1,104 @@
+{
+  "call_id": "338_90797342_LKUYWXFH5",
+  "file": "data/recordings/338_90797342_LKUYWXFH5.mp3",
+  "duration_s": 72.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी adult commuter bicycle की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। और समझा दिया। राजन। हाँ जी।",
+      "start": 7.09,
+      "end": 16.61
+    },
+    {
+      "role": "BOT",
+      "text": "हम्म।",
+      "start": 15.67,
+      "end": 16.43
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। काय करायचं? Hello.",
+      "start": 18.03,
+      "end": 25.33
+    },
+    {
+      "role": "BOT",
+      "text": "Hello.",
+      "start": 24.51,
+      "end": 24.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Hello.",
+      "start": 26.55,
+      "end": 29.55
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब रंग के बारे में बात कर लेते हैं। आपको कौन सा चाहिए black या red या कुछ और?",
+      "start": 32.09,
+      "end": 36.23
+    },
+    {
+      "role": "BUYER",
+      "text": "चलिए अब रंग। गहरी जीभ है।",
+      "start": 32.13,
+      "end": 38.59
+    },
+    {
+      "role": "BOT",
+      "text": "आपने black रंग चुना बढ़िया। अब brand के बारे में बताइए आपको कौन सा चाहिए Hero या Hercules या कुछ और?",
+      "start": 40.67,
+      "end": 46.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Zero.",
+      "start": 46.99,
+      "end": 47.69
+    },
+    {
+      "role": "BOT",
+      "text": "Hero brand noted है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 49.85,
+      "end": 55.49
+    },
+    {
+      "role": "BUYER",
+      "text": "free में मिल रहा है।",
+      "start": 57.97,
+      "end": 59.15
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं। फिलहाल कोई live seller available नहीं है। लेकिन seller जल्द ही आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 61.27,
+      "end": 69.51
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.54,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

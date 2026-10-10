@@ -1,0 +1,314 @@
+{
+  "call_id": "439_90797396_P8RTXXFH5",
+  "file": "data/recordings/439_90797396_P8RTXXFH5.mp3",
+  "duration_s": 254.52,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Laxmi Vishnu statues की requirement है ना?",
+      "start": 0.33,
+      "end": 4.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Hello.",
+      "start": 6.43,
+      "end": 9.31
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने idol की जरूरत है?",
+      "start": 9.31,
+      "end": 15.49
+    },
+    {
+      "role": "BUYER",
+      "text": "डाइस का जो मूर्ति दिखाया है वो direct quality का दिखाइए तीन फुट चार फुट",
+      "start": 17.05,
+      "end": 23.79
+    },
+    {
+      "role": "BOT",
+      "text": "पर पहले मुझे quantity बता दीजिए। आपको आपने height की जानकारी दी है पर quantity नहीं दी। आपको कितने idol चाहिए कृपया बता दीजिए।",
+      "start": 22.23,
+      "end": 30.83
+    },
+    {
+      "role": "BUYER",
+      "text": "आप कहाँ से सुन रहे हैं?",
+      "start": 34.43,
+      "end": 35.87
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बोल रही हूं। बस कुछ details चाहिए। मैं IndiaMART से बोल रही हूं। बस कुछ details confirm कर दीजिए ताकि मैं आपको सही seller से connect कर सकूं। आपको कितने idol चाहिए?",
+      "start": 37.09,
+      "end": 47.39
+    },
+    {
+      "role": "BUYER",
+      "text": "बस।",
+      "start": 37.99,
+      "end": 38.91
+    },
+    {
+      "role": "BOT",
+      "text": "मैं तो उसके साथ बैठता हूँ। अभी ठीक है बहुत बढ़िया पर आप मुझे quantity बता दीजिए।",
+      "start": 49.85,
+      "end": 57.69
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है बहुत बढ़िया पर आप मुझे quantity बता दीजिए।",
+      "start": 55.29,
+      "end": 58.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई पर quantity के बिना मैं आगे नहीं बढ़ पाऊंगी। Please बता दीजिए कि आपको कितने idol चाहिए।",
+      "start": 59.57,
+      "end": 64.81
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या rate है common तीन foot चार foot वाला।",
+      "start": 67.29,
+      "end": 70.53
+    },
+    {
+      "role": "BOT",
+      "text": "rate की जानकारी आप seller से discuss rate आप seller से discuss कर सकते हैं। आपने तीन बताया क्या आपको तीन idol चाहिए?",
+      "start": 70.27,
+      "end": 76.83
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी नहीं चाहिए अभी मैंने आपको finishing देखना है इसमें। अभी direct selling का meeting बताइए।",
+      "start": 80.17,
+      "end": 87.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller आप। finishing आप seller से discuss करते हैं।",
+      "start": 85.57,
+      "end": 91.39
+    },
+    {
+      "role": "BUYER",
+      "text": "बात को भी लगने से हमको number दे देगा उसमे call करके बात कर लीजिएगा इसके बाद भेजिएगा।",
+      "start": 89.81,
+      "end": 96.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है, मैं आपको अच्छे sellers से connect करने में मदद करूंगी। बस कुछ details confirm कर दीजिए। आपको कितने idol चाहिए?",
+      "start": 98.21,
+      "end": 104.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हम Keshav अभी बेचता है। अभी ये Lakshmi Saravati बेचता है, Golok Vishwakarma बेचता है, अभी Uma Monosa भी बेचता है। अभी ठीक है समझ गई। अब seller आपकी पूरी list में मदद करेंगे पर पहले...",
+      "start": 106.63,
+      "end": 122.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। अब seller आपकी पूरी list में मदद करेंगे पर पहले ठीक है। अब आप मुझे बस quantity बता दीजिए कि आपको कितने idol चाहिए?",
+      "start": 118.55,
+      "end": 126.09
+    },
+    {
+      "role": "BUYER",
+      "text": "खुद का item।",
+      "start": 128.11,
+      "end": 129.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तो आपको एक item चाहिए।",
+      "start": 130.75,
+      "end": 132.45
+    },
+    {
+      "role": "BUYER",
+      "text": "तो आपको एक item चाहिए।",
+      "start": 130.99,
+      "end": 132.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं आपको material mark।",
+      "start": 133.77,
+      "end": 136.19
+    },
+    {
+      "role": "BUYER",
+      "text": "देख पा रही हूं आपको material।",
+      "start": 134.41,
+      "end": 135.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। मैं देख पा रही हूं। आपको material marble ही चाहिए ना?",
+      "start": 137.45,
+      "end": 141.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ season का item चाहिए माने अभी दुर्गा पूजा आने वाला है दुर्गा पूजा चाहिए।",
+      "start": 142.93,
+      "end": 148.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। ठीक है समझ गई। पर height के बारे में बताइए। आपको 12 inch। ठीक है। अब आपकी city और state भी बता दीजिए please।",
+      "start": 146.33,
+      "end": 155.69
+    },
+    {
+      "role": "BUYER",
+      "text": "पर height के बारे में मेरा stage।",
+      "start": 150.17,
+      "end": 158.77
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप किस city और state से बोल रहे हैं please बता दीजिए।",
+      "start": 159.99,
+      "end": 162.89
+    },
+    {
+      "role": "BUYER",
+      "text": "State से बोल रहे हैं।",
+      "start": 161.03,
+      "end": 162.21
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे यह city समझ नहीं आया। क्या आप फिर से बता सकते हैं कि आप किस city और state से बोल रहे हैं?",
+      "start": 164.31,
+      "end": 169.93
+    },
+    {
+      "role": "BUYER",
+      "text": "हम बोला है जे हम fresh quality का बेचता है सामान। ठीक है समझ गई लेकिन मुझे आपके city और state का मालूम है। ठीक है समझ गई लेकिन मुझे आपकी city और state बतानी है।",
+      "start": 172.95,
+      "end": 180.55
+    },
+    {
+      "role": "BOT",
+      "text": "आप Kolkata पश्चिम बंगाल से बोल रहे हैं ना?",
+      "start": 181.63,
+      "end": 183.95
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं हम बोला इधर दरंग district है।",
+      "start": 185.43,
+      "end": 188.55
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे यह city समझ नहीं आया। क्या आप फिर से बता सकते हैं कि आप किस city और state से बोल रहे हैं?",
+      "start": 189.79,
+      "end": 195.39
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका address बोलिए ना आप कहाँ से आप कहाँ से सुन गए हैं।",
+      "start": 195.21,
+      "end": 198.41
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बोल रही हूं। मैं अपनी city और state। मैं IndiaMART से बोल रही हूं और मेरा काम आपको सही seller से connect करना है। Please अपनी city और state बता दीजिए।",
+      "start": 199.49,
+      "end": 209.71
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। Your life is good.",
+      "start": 200.65,
+      "end": 212.39
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप किस city और state से बोल रहे हैं बता दीजिए।",
+      "start": 213.63,
+      "end": 216.71
+    },
+    {
+      "role": "BUYER",
+      "text": "क्षमा कीजिए मुझे यह city समझ में नहीं आया। क्या आप बस ठीक है मैं इसे note कर लेती हूं।",
+      "start": 216.71,
+      "end": 222.11
+    },
+    {
+      "role": "BOT",
+      "text": "अब आप अपना नाम भी बता दीजिए please।",
+      "start": 222.11,
+      "end": 224.31
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा Darbhanga District है। जलदष्टि गाय।",
+      "start": 214.89,
+      "end": 219.53
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपका नाम क्या है?",
+      "start": 225.47,
+      "end": 226.71
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा नाम [NAME] दे है मेरा नाम [NAME] दे है मुट्ठी factory का मालिक।",
+      "start": 225.83,
+      "end": 231.51
+    },
+    {
+      "role": "BOT",
+      "text": "[NAME] जी आपको ठीक है समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 228.73,
+      "end": 238.27
+    },
+    {
+      "role": "BUYER",
+      "text": "ये सब सामान का हमको कारीगर चाहिए वो कारीगर एक ठो दबा दीजिएगा वो निकल सामान बनाने वाला।",
+      "start": 240.53,
+      "end": 247.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं आपके लिए धन्यवाद आपका दिन शुभ हो।",
+      "start": 244.45,
+      "end": 249.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ये दास का।",
+      "start": 251.11,
+      "end": 254.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 24,
+    "buyer_turns": 24,
+    "longest_gap_s": 3.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "0": 10,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

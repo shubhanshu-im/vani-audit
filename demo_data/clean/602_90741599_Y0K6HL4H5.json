@@ -1,0 +1,131 @@
+{
+  "call_id": "602_90741599_Y0K6HL4H5",
+  "file": "data/recordings/602_90741599_Y0K6HL4H5.mp3",
+  "duration_s": 116.06,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए please details बता दीजिए। तमाता पत्र नहीं।",
+      "start": 0.01,
+      "end": 8.05
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको जो टमाटर काटने वाला चाकू चाहिए वही product चाहिए ना?",
+      "start": 9.25,
+      "end": 12.65
+    },
+    {
+      "role": "BOT",
+      "text": "काटने वाला। वही green color का चाहिए।",
+      "start": 9.99,
+      "end": 15.53
+    },
+    {
+      "role": "BUYER",
+      "text": "ये आपको green color का टमाटर काटने वाला चाकू चाहिए सही ना?",
+      "start": 16.71,
+      "end": 19.93
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 21.37,
+      "end": 21.89
+    },
+    {
+      "role": "BUYER",
+      "text": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry...",
+      "start": 23.55,
+      "end": 27.19
+    },
+    {
+      "role": "BOT",
+      "text": "शामली में आगे help करेंगे please line पे बने रहें। Hello क्या आप अभी line पर हैं?",
+      "start": 27.19,
+      "end": 37.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 40.35,
+      "end": 40.79
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry में आगे help करेंगे। Please line पर बने रहें। Hello क्या आप अभी line पर हैं?",
+      "start": 41.85,
+      "end": 56.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 58.67,
+      "end": 59.19
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप बातचीत जारी रखना चाहेंगे? कितना दे रहे हैं? आप इसके price seller से discuss कर सकते हैं वो आपको best rates देंगे। बस कुछ details confirm कर दीजिए। Hello क्या आप अभी line पर हैं?",
+      "start": 63.87,
+      "end": 85.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 88.43,
+      "end": 88.97
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry में आगे help करेंगे। Please line पर बने रहें। Hello क्या आप अभी line पर हैं? मम। आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 90.01,
+      "end": 114.65
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 7.46,
+    "gaps_over_5s": 4,
+    "long_gaps": [
+      {
+        "start": 29.67,
+        "end": 36.57,
+        "duration_s": 6.9,
+        "after_role": "BOT"
+      },
+      {
+        "start": 47.95,
+        "end": 54.87,
+        "duration_s": 6.92,
+        "after_role": "BOT"
+      },
+      {
+        "start": 76.65,
+        "end": 84.11,
+        "duration_s": 7.46,
+        "after_role": "BOT"
+      },
+      {
+        "start": 96.11,
+        "end": 103.03,
+        "duration_s": 6.92,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

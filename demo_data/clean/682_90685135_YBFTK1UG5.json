@@ -1,0 +1,40 @@
+{
+  "call_id": "682_90685135_YBFTK1UG5",
+  "file": "data/recordings/682_90685135_YBFTK1UG5.mp3",
+  "duration_s": 8.21,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी mobile की request call on hold है please stay on the line.",
+      "start": 0.01,
+      "end": 8.29
+    },
+    {
+      "role": "BUYER",
+      "text": "The person you are speaking with has put your call on hold. Please stay on the line.",
+      "start": 1.79,
+      "end": 7.67
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

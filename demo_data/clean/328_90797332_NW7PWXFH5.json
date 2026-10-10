@@ -1,0 +1,98 @@
+{
+  "call_id": "328_90797332_NW7PWXFH5",
+  "file": "data/recordings/328_90797332_NW7PWXFH5.mp3",
+  "duration_s": 92.52,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Polotile PVC tab की requirement है ना?",
+      "start": 0.01,
+      "end": 3.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. आपको polo type PVC tab की requirement थी ना? फिर दीदी यहां पे ना हमारी ना एक नलका ना नलका।",
+      "start": 5.11,
+      "end": 16.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 17.75,
+      "end": 27.45
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे नहीं मेरा खुद का ना एक room है उसके अंदर ना kitchen है और kitchen के अंदर ना एक ना वो नलका टूट गया।",
+      "start": 28.77,
+      "end": 37.89
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपके kitchen का नल टूट गया है। आपको कितने नए piece चाहिए?",
+      "start": 39.49,
+      "end": 43.45
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे कितने क्या मेरे को एक ही तो piece चाहिए होगा ना एक नाल टूटे तो।",
+      "start": 44.37,
+      "end": 48.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? एक piece चाहिए। अब बताइए body type में short body या long body चाहिए?",
+      "start": 50.69,
+      "end": 54.97
+    },
+    {
+      "role": "BUYER",
+      "text": "ये तो मुझे कुछ पता नहीं मतलब medium है वो।",
+      "start": 55.77,
+      "end": 59.13
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं seller आपको इसमें guide कर देंगे। material grade में virgin या semi चाहिए या कुछ और?",
+      "start": 60.91,
+      "end": 66.13
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे मेरे को इतना नहीं पता। वो regular size है। हर जगह यही use होता है। most most probably मतलब popular यही है।",
+      "start": 67.71,
+      "end": 79.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller आपको सही option suggest कर देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 82.01,
+      "end": 92.41
+    },
+    {
+      "role": "BUYER",
+      "text": "करते हैं।",
+      "start": 89.75,
+      "end": 90.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.36,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "call_id": "915_90797444_FJJBYXFH5",
+  "duration_s": 47.81,
+  "graded_at": "2026-10-10T12:45:23+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer asked to share details on WhatsApp instead of proceeding with lead creation or transfer.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 32.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked to share details on WhatsApp instead of proceeding with lead creation or transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 32.0,
+      "llm_severity": "NON_FATAL"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details... IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 37.8,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot mentioned seller details but did not ask for transfer consent or transfer the call.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 37.77,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with a generic closing without creating a lead or offering a seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 37.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 32.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked to share details on WhatsApp instead of proceeding with lead creation or transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 32.0,
+      "llm_severity": "NON_FATAL"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not discussed in detail as a numeric field; buyer mentioned '1 bag' which was captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer specified 'One bag', but the bot did not explicitly record a quantity or unit in the lead."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about mixing capacity and buyer provided a response."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated 'One bag' and bot acknowledged it."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "power source manual ही चाहिए ना?",
+      "timestamp": 19.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed manual power source and buyer agreed."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "0.5 bag, 1 bag या कुछ और?",
+      "timestamp": 20.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about mixing capacity and buyer confirmed 'One bag'."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important specs were missed; buyer's requirement was captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions or looping behavior observed."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misheard words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details... IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 37.8,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot mentioned seller details but did not ask for transfer consent or transfer the call.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed cement mixer machine and bot proceeded with it."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data we don't have."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 37.77,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with a generic closing without creating a lead or offering a seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 37.8
+    }
+  ],
+  "captured_lead": {
+    "product": "cement mixer machine",
+    "quantity": "One bag",
+    "quantity_unit": "bag",
+    "specs": [
+      {
+        "name": "power source",
+        "value": "manual"
+      },
+      {
+        "name": "mixing capacity",
+        "value": "1 bag"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked to share details on WhatsApp instead of proceeding with lead creation.",
+      "timestamp": 32.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without creating a lead or offering a live seller transfer, despite the buyer confirming a product requirement.",
+  "analysis": "Buyer wanted a cement mixer machine with manual power source and 1 bag mixing capacity. Bot confirmed product and spec, but buyer asked to send details on WhatsApp. Bot closed the call without creating a lead or offering a seller transfer. The buyer's intent was to buy, but the bot failed to capture the lead or offer a live seller.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14030,
+    "completion_tokens": 5088
+  },
+  "unresolved_problems": [
+    "OnCall AstBuy Error: evidence_quote not found verbatim in any transcript line: 'seller details... IndiaMART चुनने के लिए धन्यवाद।'"
+  ]
+}

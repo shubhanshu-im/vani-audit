@@ -1,0 +1,326 @@
+{
+  "call_id": "826_90797404_NK1YXXFH5",
+  "duration_s": 110.23,
+  "graded_at": "2026-10-10T12:43:06+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Qty Missed Opportunity, Looping Behavior, WER, Dead air",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक ही चार साल की मौत",
+      "timestamp": 28.03,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'एक ही' as 'death' and 'one three' as 'three axis'",
+      "evidence_verified": true,
+      "llm_timestamp": 28.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 16.77,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated quantity question twice when buyer gave ambiguous response",
+      "evidence_verified": true,
+      "llm_timestamp": 16.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक ही चार साल की मौत",
+      "timestamp": 28.03,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'एक ही' as 'death' and 'one three' as 'three axis'",
+      "evidence_verified": true,
+      "llm_timestamp": 28.0
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello कृपया दोबारा बोलने नहीं सर।",
+      "timestamp": 43.91,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "5.5s silence after buyer's request to repeat, but call continued",
+      "evidence_verified": true,
+      "llm_timestamp": 43.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot closed with seller details"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave ambiguous quantity 'one three', bot did not confirm a numeric value"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear unit was captured for the quantity"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity, buyer provided ambiguous response"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक ही चार साल की मौत",
+      "timestamp": 28.03,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'एक ही' as 'death' and 'one three' as 'three axis'",
+      "evidence_verified": true,
+      "llm_timestamp": 28.0
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for number of linkage axis but did not confirm a value"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "CNIC router machine",
+      "timestamp": 68.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured usage application as CNIC router machine"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Usage application was captured successfully"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 16.77,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated quantity question twice when buyer gave ambiguous response",
+      "evidence_verified": true,
+      "llm_timestamp": 16.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक ही चार साल की मौत",
+      "timestamp": 28.03,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'एक ही' as 'death' and 'one three' as 'three axis'",
+      "evidence_verified": true,
+      "llm_timestamp": 28.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer live seller transfer, closed with WhatsApp message"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot kept product as Rich Auto A11 controller"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific spec questions were asked"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or MCAT errors visible in transcript"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello कृपया दोबारा बोलने नहीं सर।",
+      "timestamp": 43.91,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "5.5s silence after buyer's request to repeat, but call continued",
+      "evidence_verified": true,
+      "llm_timestamp": 43.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not claim to be human or promise price/stock"
+    }
+  ],
+  "captured_lead": {
+    "product": "Rich Auto A11 DC controller",
+    "quantity": "one three",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "usage application",
+        "value": "CNIC router machine"
+      },
+      {
+        "name": "number of linkage axis",
+        "value": "three axis"
+      }
+    ],
+    "name": null,
+    "city": "समस्तीपुर",
+    "state": "बिहार"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard quantity and spec due to ASR errors",
+      "timestamp": 28.0,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated quantity question twice",
+      "timestamp": 16.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard quantity and spec due to ASR errors. Buyer gave ambiguous quantity 'one three' and bot misheard 'एक ही' as 'death'. Dead air occurred after buyer's request to repeat.",
+  "analysis": "Buyer requested Rich Auto A11 DSP controller. Bot misheard 'एक ही' as 'death' and 'one three' as 'three axis'. Bot asked for city/state twice due to dead air and low ASR. Buyer provided 'समस्तीपुर बिहार' and 'सीता'. Bot closed by promising seller details on WhatsApp.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4011,
+    "completion_tokens": 1375
+  },
+  "unresolved_problems": []
+}

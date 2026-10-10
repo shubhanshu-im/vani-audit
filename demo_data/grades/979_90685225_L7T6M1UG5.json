@@ -1,0 +1,344 @@
+{
+  "call_id": "979_90685225_L7T6M1UG5",
+  "duration_s": 78.41,
+  "graded_at": "2026-10-10T12:47:25+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Bot failed to capture crushing capacity 80 kg/hr, a critical spec.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "80 kilograms per hour या कुछ और?",
+      "timestamp": 29.09,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Buyer confirmed 80 kg/hr but bot failed to capture it due to ASR issues.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.1
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया.",
+      "timestamp": 49.59,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to capture crushing capacity 80 kg/hr, a critical spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 49.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए.",
+      "timestamp": 20.67,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot repeated the motor power question due to ASR failures, but did not loop excessively.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया.",
+      "timestamp": 49.59,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to understand crushing capacity due to ASR issues.",
+      "evidence_verified": true,
+      "llm_timestamp": 49.6
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 59.23,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered WhatsApp details instead of a live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a product requirement and bot created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No numeric quantity was discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not asked for."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was provided."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको motor power 10 HP चाहिए ना?",
+      "timestamp": 20.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed 10 HP motor power."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "80 kilograms per hour या कुछ और?",
+      "timestamp": 29.09,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Buyer confirmed 80 kg/hr but bot failed to capture it due to ASR issues.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.1
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया.",
+      "timestamp": 49.59,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to capture crushing capacity 80 kg/hr, a critical spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 49.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए.",
+      "timestamp": 20.67,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot repeated the motor power question due to ASR failures, but did not loop excessively.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया.",
+      "timestamp": 49.59,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to understand crushing capacity due to ASR issues.",
+      "evidence_verified": true,
+      "llm_timestamp": 49.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 59.23,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered WhatsApp details instead of a live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.2
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific questions asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors observed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot maintained identity and did not make promises."
+    }
+  ],
+  "captured_lead": {
+    "product": "oil mill machinery",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "motor power",
+        "value": "10 HP"
+      },
+      {
+        "name": "crushing capacity",
+        "value": "80 kg/hr"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Bot failed to understand crushing capacity due to ASR issues.",
+      "timestamp": 49.6,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot failed to understand crushing capacity due to ASR issues.",
+      "timestamp": 20.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture crushing capacity 80 kg/hr due to ASR issues and looping. It created a lead and promised WhatsApp details instead of a live transfer.",
+  "analysis": "Buyer wanted oil mill machinery with 10 HP motor and 80 kg/hr crushing capacity. Bot confirmed motor power 10 HP but failed to capture crushing capacity clearly due to ASR issues and looping. Bot created a lead and promised WhatsApp details. Call ended with a transfer-like closing.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8619,
+    "completion_tokens": 5409
+  },
+  "unresolved_problems": []
+}

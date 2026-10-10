@@ -1,0 +1,288 @@
+{
+  "call_id": "534_90643101_ETXDU3KG5",
+  "duration_s": 41.18,
+  "graded_at": "2026-10-10T12:35:17+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer asked for price, bot closed with a seller callback instead of clarifying price policy.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मैं ये बोल रहा हूं कि उनकी price कितनी पड़ेगी?",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked for price, bot closed with a seller callback instead of clarifying price policy.",
+      "evidence_verified": true,
+      "llm_timestamp": 12.0,
+      "llm_severity": "NON_FATAL"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 26.33,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Used the banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मैं ये बोल रहा हूं कि उनकी price कितनी पड़ेगी?",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked for price, bot closed with a seller callback instead of clarifying price policy.",
+      "evidence_verified": true,
+      "llm_timestamp": 12.0,
+      "llm_severity": "NON_FATAL"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed for the price inquiry."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 26.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 1x2 meter spec correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Only one spec was asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No other specs were asked or missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognized words."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Not enough category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 26.33,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Used the banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.3
+    }
+  ],
+  "captured_lead": {
+    "product": "20 mm Kabaddi floor mat",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "mat size",
+        "value": "1x2 meter"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer asked for price, bot closed with seller callback.",
+      "timestamp": 34.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed with a seller callback despite buyer asking for price, creating a potentially mismatched lead.",
+  "analysis": "Buyer inquired about the price of a 20 mm Kabaddi floor mat. Bot confirmed 1x2 meter spec and used the banned question. Bot closed with a seller callback, creating a lead despite the buyer's primary intent being price, not a purchase lead.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3534,
+    "completion_tokens": 1532
+  },
+  "unresolved_problems": []
+}

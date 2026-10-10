@@ -1,0 +1,334 @@
+{
+  "call_id": "530_90852990_HSBFMXVH5",
+  "duration_s": 88.49,
+  "graded_at": "2026-10-10T12:35:11+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Looping Behavior: Bot looped on WhatsApp offer instead of collecting name/city.",
+  "fatal_params": [
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आप मुझे seller details WhatsApp पे भेज दीजिए मैं बात करता हूँ",
+      "timestamp": 67.6,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked for install capability; bot ignored it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 35.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on WhatsApp offer instead of collecting name/city.",
+      "evidence_verified": true,
+      "llm_timestamp": 35.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं आपकी बात समझ नहीं पाई।",
+      "timestamp": 64.99,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Minor mishearing of buyer's Bengali phrase.",
+      "evidence_verified": true,
+      "llm_timestamp": 65.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए।",
+      "timestamp": 87.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Incomplete closing sentence.",
+      "evidence_verified": true,
+      "llm_timestamp": 87.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded with it."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not needed for this product."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity stated."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "पांच सौ kilogram।",
+      "timestamp": 26.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 500 kg correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "single phase.",
+      "timestamp": 33.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured single phase correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आप मुझे seller details WhatsApp पे भेज दीजिए मैं बात करता हूँ",
+      "timestamp": 67.6,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked for install capability; bot ignored it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 35.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on WhatsApp offer instead of collecting name/city.",
+      "evidence_verified": true,
+      "llm_timestamp": 35.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं आपकी बात समझ नहीं पाई।",
+      "timestamp": 64.99,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Minor mishearing of buyer's Bengali phrase.",
+      "evidence_verified": true,
+      "llm_timestamp": 65.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए।",
+      "timestamp": 87.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Incomplete closing sentence.",
+      "evidence_verified": true,
+      "llm_timestamp": 87.2
+    }
+  ],
+  "captured_lead": {
+    "product": "monkey crane lift",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "lifting capacity",
+        "value": "500 kilograms"
+      },
+      {
+        "name": "phase",
+        "value": "single phase"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot looped on WhatsApp offer 3 times",
+      "timestamp": 35.1,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeated requests and hung up",
+      "timestamp": 67.6,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 59.19,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot looped on WhatsApp details instead of collecting buyer name/location and missed install capability.",
+  "analysis": "Buyer wanted a monkey crane lift (500 kg, single phase) in Hyderabad. The bot asked for specs and then looped on offering WhatsApp details instead of collecting name and location, and ended abruptly.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14239,
+    "completion_tokens": 3654
+  },
+  "unresolved_problems": [
+    "Spec Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'आप मुझे seller details WhatsApp पे भेज दीजिए मैं बात करता हूँ'"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "call_id": "53_90852812_4DYSJXVH5",
+  "file": "data/recordings/53_90852812_4DYSJXVH5.mp3",
+  "duration_s": 16.2,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.15,
+      "end": 4.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 0.23,
+      "end": 0.79
+    },
+    {
+      "role": "BOT",
+      "text": "कौन सा product है आपके पास? Hello IndiaMART पर हजारों products available हैं। आप कौन सा product खरीदना चाहते हैं? Please product का नाम बता दीजिए।",
+      "start": 4.87,
+      "end": 15.47
+    },
+    {
+      "role": "BUYER",
+      "text": "India.",
+      "start": 9.13,
+      "end": 9.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

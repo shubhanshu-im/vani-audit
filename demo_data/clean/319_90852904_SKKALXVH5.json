@@ -1,0 +1,68 @@
+{
+  "call_id": "319_90852904_SKKALXVH5",
+  "file": "data/recordings/319_90852904_SKKALXVH5.mp3",
+  "duration_s": 25.56,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 24th law में 24th law की requirement है ना?",
+      "start": 0.01,
+      "end": 4.71
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको twenty four floor पे environment है ना? environment है ना?",
+      "start": 1.03,
+      "end": 5.07
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप जिस seller को call कर रहे थे वो available नहीं है।",
+      "start": 6.11,
+      "end": 9.13
+    },
+    {
+      "role": "BUYER",
+      "text": "seller को call कर रहे थे वो available नहीं है वो available नहीं है।",
+      "start": 6.93,
+      "end": 10.09
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बोल रही हूँ। आपको कितने pair चाहिए? आपको कितने पैर चाहिए?",
+      "start": 11.03,
+      "end": 14.61
+    },
+    {
+      "role": "BUYER",
+      "text": "क्षमा कीजिए शायद मेरी आवाज़ मेरी आवाज़ मेरी आवाज़ clear नहीं आई please.",
+      "start": 15.51,
+      "end": 19.19
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। clear नहीं हो पाया please एक बार। ठीक है seller is.",
+      "start": 20.09,
+      "end": 25.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 1.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

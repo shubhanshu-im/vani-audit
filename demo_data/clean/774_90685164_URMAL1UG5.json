@@ -1,0 +1,56 @@
+{
+  "call_id": "774_90685164_URMAL1UG5",
+  "file": "data/recordings/774_90685164_URMAL1UG5.mp3",
+  "duration_s": 32.98,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] जी आपको ladies breast size increase medicine ladies breast tightening cream girl breast increase cream की requirement है ना?",
+      "start": 0.33,
+      "end": 8.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 9.47,
+      "end": 10.01
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 11.29,
+      "end": 20.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 21.83,
+      "end": 22.37
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 23.43,
+      "end": 26.27
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

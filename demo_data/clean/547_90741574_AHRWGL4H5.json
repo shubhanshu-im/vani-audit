@@ -1,0 +1,206 @@
+{
+  "call_id": "547_90741574_AHRWGL4H5",
+  "file": "data/recordings/547_90741574_AHRWGL4H5.mp3",
+  "duration_s": 163.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको e-rickshaw brake shoe 160 mm PY की requirement है ना?",
+      "start": 0.01,
+      "end": 5.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 7.45,
+      "end": 7.97
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece या set चाहिए?",
+      "start": 9.37,
+      "end": 15.51
+    },
+    {
+      "role": "BUYER",
+      "text": "किसका sir? मेरा मतलब brake shoe की quantity से था।",
+      "start": 19.19,
+      "end": 24.33
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कितने piece या set चाहिए?",
+      "start": 24.33,
+      "end": 26.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। एक सौ साठ दे देना।",
+      "start": 23.65,
+      "end": 29.61
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई 160 mm वाला ही चाहिए। पर quantity कितनी होगी? कितने piece या set चाहिए आपको?",
+      "start": 30.81,
+      "end": 35.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 38.67,
+      "end": 39.61
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको कितनी quantity चाहिए?",
+      "start": 40.81,
+      "end": 45.23
+    },
+    {
+      "role": "BUYER",
+      "text": "बात clear नहीं। এক দুজন হয়েছে।",
+      "start": 41.43,
+      "end": 48.13
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको एक crowbar speech चाहिए?",
+      "start": 47.27,
+      "end": 49.01
+    },
+    {
+      "role": "BUYER",
+      "text": "ना बारह तीस चाहिए।",
+      "start": 52.57,
+      "end": 54.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? 12 piece? अब बताइए vehicle brand में क्या prefer करेंगे Bajaj, Piaggio या कुछ और?",
+      "start": 55.67,
+      "end": 60.71
+    },
+    {
+      "role": "BUYER",
+      "text": "আর একশো তিরিশে ma'am বারো পাইছে please তাইয়ে।",
+      "start": 64.69,
+      "end": 68.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है बारह feet पर आपने अभी एक सौ तीस mm बोला क्या आपको product बदलना है या एक सौ साठ mm ही चाहिए?",
+      "start": 69.29,
+      "end": 75.35
+    },
+    {
+      "role": "BUYER",
+      "text": "একশো সাত mm চাইয়ে আর হচ্ছে একশো তিরিশ mm চাইয়ে।",
+      "start": 77.11,
+      "end": 81.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप थोड़े confuse लग रहे हैं आपको एक 160 mm वाला चाहिए या एक 130 mm वाला एक बार clear कर दीजिए।",
+      "start": 82.29,
+      "end": 88.61
+    },
+    {
+      "role": "BUYER",
+      "text": "आप थोड़ा confuse लग रहे हैं। दो set चाहिए दो set।",
+      "start": 82.39,
+      "end": 92.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? 2 set। अब बताइए vehicle brand में क्या prefer करेंगे Bajaj, Piaggio या कुछ और?",
+      "start": 93.61,
+      "end": 98.49
+    },
+    {
+      "role": "BUYER",
+      "text": "सी आई सी आई। बहुत बढ़िया। अब बताइए vehicle model में क्या prefer करेंगे Aari या कुछ और? F.R.O.",
+      "start": 99.27,
+      "end": 109.87
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं समझ नहीं पाई। आप vehicle model में क्या prefer करेंगे F.R.E. या कुछ और?",
+      "start": 110.91,
+      "end": 115.37
+    },
+    {
+      "role": "BUYER",
+      "text": "I don't know.",
+      "start": 119.23,
+      "end": 119.83
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया vehicle model में क्या चाहिए कोई name बता दीजिए।",
+      "start": 121.17,
+      "end": 125.51
+    },
+    {
+      "role": "BUYER",
+      "text": "वही model चाहिए यही।",
+      "start": 130.11,
+      "end": 133.05
+    },
+    {
+      "role": "BOT",
+      "text": "क्या जो तो brand है मैं model पूछ रही हूं। क्या आपको A P आ रही है या कोई और model चाहिए?",
+      "start": 134.43,
+      "end": 139.23
+    },
+    {
+      "role": "BUYER",
+      "text": "ना नहीं चाहिए वही model चाहिए।",
+      "start": 141.57,
+      "end": 143.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। यह detail seller के साथ confirm कर लीजिएगा। rear वाला fitting position ठीक रहेगा ना?",
+      "start": 144.61,
+      "end": 149.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 151.51,
+      "end": 151.97
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 152.99,
+      "end": 160.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हम्म। ठीक है।",
+      "start": 159.37,
+      "end": 163.33
+    }
+  ],
+  "stats": {
+    "bot_turns": 15,
+    "buyer_turns": 15,
+    "longest_gap_s": 4.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

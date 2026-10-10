@@ -1,0 +1,82 @@
+{
+  "call_id": "203_90685026_RN40I1UG5",
+  "file": "data/recordings/203_90685026_RN40I1UG5.mp3",
+  "duration_s": 57.38,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.21,
+      "end": 0.67
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको single seat mosquito ultralight helicopter की requirement है ना?",
+      "start": 0.39,
+      "end": 5.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नमस्ते आपको single seat mosquito ultra light helicopter की requirement थी ना? हाँ हाँ requirement थी but ये असली है ना इसके जगह वो toy helicopter तो नहीं आ जाएगा ना?",
+      "start": 6.89,
+      "end": 20.67
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिल्कुल असली होगा। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने piece चाहिए होंगे आपको?",
+      "start": 22.05,
+      "end": 29.79
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा मैं बाद में आपको confirm करके बताता हूं ठीक है?",
+      "start": 31.45,
+      "end": 34.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है कोई बात नहीं। क्या आप किसी और product के लिए जानकारी चाहते हैं?",
+      "start": 35.45,
+      "end": 39.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। अभी अभी तो इतना requirement नहीं है अभी सिर्फ helicopter ही चाहिए। मैं बाद में आपको details बताता हूं।",
+      "start": 37.81,
+      "end": 45.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है कोई बात नहीं। आप अपने future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। धन्यवाद।",
+      "start": 47.33,
+      "end": 53.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी। हाँ जी धन्यवाद।",
+      "start": 53.73,
+      "end": 57.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 5,
+    "longest_gap_s": 1.66,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

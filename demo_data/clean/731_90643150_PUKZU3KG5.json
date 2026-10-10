@@ -1,0 +1,219 @@
+{
+  "call_id": "731_90643150_PUKZU3KG5",
+  "file": "data/recordings/731_90643150_PUKZU3KG5.mp3",
+  "duration_s": 182.59,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको PSC PSM 3 की requirement है ना?",
+      "start": 0.19,
+      "end": 4.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी Madam.",
+      "start": 6.45,
+      "end": 7.15
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 8.37,
+      "end": 14.35
+    },
+    {
+      "role": "BUYER",
+      "text": "जय श्री राम।",
+      "start": 16.31,
+      "end": 17.19
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल मैं रुकी हूं। क्या आप अभी भी line पे हैं?",
+      "start": 18.25,
+      "end": 30.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी।",
+      "start": 32.07,
+      "end": 32.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तो आपको कितने kilograms चाहिए?",
+      "start": 33.93,
+      "end": 36.13
+    },
+    {
+      "role": "BUYER",
+      "text": "एक हज़ार",
+      "start": 38.03,
+      "end": 39.61
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं आपको variety PSM 3 ही चाहिए ना?",
+      "start": 40.19,
+      "end": 43.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Station 3 AP 3 condition.",
+      "start": 46.35,
+      "end": 49.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए brand में क्या prefer करेंगे Advanta Golden या कोई और?",
+      "start": 50.49,
+      "end": 54.49
+    },
+    {
+      "role": "BUYER",
+      "text": "और कोई शहर?",
+      "start": 56.71,
+      "end": 57.83
+    },
+    {
+      "role": "BOT",
+      "text": "जी इसमें Shriram Saloni, Ankur, Ganga Seeds और GenTech जैसे options भी हैं। आप इनमें से कौन सा prefer करेंगे?",
+      "start": 59.01,
+      "end": 65.69
+    },
+    {
+      "role": "BUYER",
+      "text": "श्रीराम सलोनी की rate बताइए।",
+      "start": 68.33,
+      "end": 70.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप पूरी list seller को भेज दीजिएगा वो आपकी मदद करेंगे। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 71.51,
+      "end": 80.27
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन seller कहाँ का है?",
+      "start": 82.15,
+      "end": 84.85
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपको बहुत अच्छे sellers से connect करने में मदद करूंगी बस details confirm हो गई हैं। क्या मैं आपकी call transfer कर दूं?",
+      "start": 86.03,
+      "end": 92.57
+    },
+    {
+      "role": "BUYER",
+      "text": "seller हैं कहाँ के वो तो ये। हमारे पास अलग-अलग शहरों के verified sellers हैं।",
+      "start": 94.47,
+      "end": 100.5
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपको सबसे अच्छे seller से connect करा दूंगी। क्या मैं call transfer करूं?",
+      "start": 100.5,
+      "end": 104.83
+    },
+    {
+      "role": "BUYER",
+      "text": "पहले कौन से शहर के seller हैं नाम तो बताइए।",
+      "start": 106.33,
+      "end": 109.85
+    },
+    {
+      "role": "BOT",
+      "text": "मैं seller का नाम और city directly share नहीं कर सकती पर मैं आपको best seller से connect करा दूंगी। क्या मैं call transfer करूं?",
+      "start": 111.17,
+      "end": 117.81
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन क्यों नहीं share कर सकती क्योंकि बात करेंगे तो पता नहीं चल जाएगा। आप ही बता दें तो हम बताएंगे कि यहां उनसे connect करना है या नहीं करना।",
+      "start": 119.59,
+      "end": 128.45
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूं पर security कारणों से मैं details share नहीं कर सकती। आप connect होकर देख लीजिए क्या मैं transfer करूं?",
+      "start": 129.69,
+      "end": 136.07
+    },
+    {
+      "role": "BUYER",
+      "text": "आप AI हैं या actual?",
+      "start": 137.87,
+      "end": 141.07
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी मदद के लिए यहां हूं बस आप बताइए कि क्या मैं आपकी call transfer कर दूं?",
+      "start": 142.25,
+      "end": 146.51
+    },
+    {
+      "role": "BUYER",
+      "text": "आप AI हैं ना बाकी AI से बाहर चल के सोचिए।",
+      "start": 147.07,
+      "end": 151.41
+    },
+    {
+      "role": "BOT",
+      "text": "मैं बस आपकी मदद करना चाहती हूं। क्या मैं आपकी call seller को transfer कर दूं?",
+      "start": 152.43,
+      "end": 156.67
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन से seller को transfer करना है?",
+      "start": 157.97,
+      "end": 160.31
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपको सबसे बेहतरीन और verified seller से connect करवाऊंगी। क्या मैं call transfer कर दूं?",
+      "start": 161.37,
+      "end": 166.17
+    },
+    {
+      "role": "BUYER",
+      "text": "बेहतरीन। answer कर दीजिए कोई दिक्कत नहीं।",
+      "start": 162.07,
+      "end": 171.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पे भेज दी जाएंगी। Please line पे बने रहें।",
+      "start": 172.61,
+      "end": 179.53
+    }
+  ],
+  "stats": {
+    "bot_turns": 16,
+    "buyer_turns": 15,
+    "longest_gap_s": 9.84,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 19.37,
+        "end": 29.21,
+        "duration_s": 9.84,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 9,
+      "1": 4
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

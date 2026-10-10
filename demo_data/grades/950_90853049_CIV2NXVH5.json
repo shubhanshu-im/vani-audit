@@ -1,0 +1,322 @@
+{
+  "call_id": "950_90853049_CIV2NXVH5",
+  "duration_s": 93.46,
+  "graded_at": "2026-10-10T12:46:37+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Twenty thousand area adi kodunga.",
+      "timestamp": 65.99,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot failed to capture the width spec due to language barrier.",
+      "evidence_verified": true,
+      "llm_timestamp": 66.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Which width do you want like 8 feet, 10 feet or something else? Which width do you prefer like 8 feet, 10 feet or something else?",
+      "timestamp": 28.5,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the width question twice after language mismatch.",
+      "evidence_verified": false
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 68.91,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details instead of a live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Tamil Telugu.",
+      "timestamp": 45.55,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Buyer switched to Tamil/Telugu; bot rejected it and continued in English.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product requirement and the bot closed the call."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed beyond the 20 feet length which was confirmed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed beyond the 20 feet length which was confirmed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed for the shipping container specification."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was provided by the buyer beyond the length."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Length (20 feet) was confirmed by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Width was asked but never captured or confirmed by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Twenty thousand area adi kodunga.",
+      "timestamp": 65.99,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot failed to capture the width spec due to language barrier.",
+      "evidence_verified": true,
+      "llm_timestamp": 66.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Which width do you want like 8 feet, 10 feet or something else? Which width do you prefer like 8 feet, 10 feet or something else?",
+      "timestamp": 28.5,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the width question twice after language mismatch.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognition of key values, just language mismatch."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 68.91,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details instead of a live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.9
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's product requirement was consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps attributable to the bot."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Tamil Telugu.",
+      "timestamp": 45.55,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Buyer switched to Tamil/Telugu; bot rejected it and continued in English.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.5
+    }
+  ],
+  "captured_lead": {
+    "product": "20 feet industrial mild steel shipping container",
+    "quantity": "20 feet",
+    "quantity_unit": "feet",
+    "specs": [
+      {
+        "name": "length",
+        "value": "20 feet"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer switched to Tamil/Telugu due to communication difficulty.",
+      "timestamp": 45.5,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 45.55,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture width spec due to language mismatch, and closed with WhatsApp details instead of a live seller transfer.",
+  "analysis": "Buyer inquired about a 20 feet industrial mild steel shipping container, asking for price, list, and delivery. The bot confirmed the 20 feet length and asked for width. The buyer switched to Tamil/Telugu, which the bot rejected. The bot then asked for width again, but the buyer responded with 'Twenty thousand area adi kodunga'. The bot failed to capture the width, attempted to close with 'no requirement' (seller details on WhatsApp), and the buyer agreed. The bot closed with 'Thank you', implying no live seller transfer occurred.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14846,
+    "completion_tokens": 4884
+  },
+  "unresolved_problems": [
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 'Which width do you want like 8 feet, 10 feet or something else? Which width do y'"
+  ]
+}

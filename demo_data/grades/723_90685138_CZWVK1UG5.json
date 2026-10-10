@@ -1,0 +1,281 @@
+{
+  "call_id": "723_90685138_CZWVK1UG5",
+  "duration_s": 58.46,
+  "graded_at": "2026-10-10T12:40:25+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 48.33,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp instead of transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 48.33,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send seller details on WhatsApp, which is a minor deviation from standard transfer flow.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed as buyer gave specific capacity instead."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not state a quantity, only a capacity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "1000 pouch hour",
+      "timestamp": 7.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed the capacity value correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Automatic",
+      "timestamp": 30.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed the machine type correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional important specs were stated by buyer."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop on any question."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant mishearings impacted the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 48.33,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp instead of transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.3
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific spec errors visible in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system search data available to judge."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 48.33,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send seller details on WhatsApp, which is a minor deviation from standard transfer flow.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.3
+    }
+  ],
+  "captured_lead": {
+    "product": "pneumatic pouch packing machine",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "capacity",
+        "value": "1000 pouch hour"
+      },
+      {
+        "name": "machine type",
+        "value": "Automatic"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Ambikapur",
+    "state": "Chhattisgarh"
+  },
+  "risk_flags": [],
+  "failure_description": "",
+  "analysis": "Buyer requested a pneumatic pouch packing machine with 1000 pouch hour capacity and automatic type. Bot confirmed product and specs, collected name ([NAME] sir), and location (Ambikapur, Chhattisgarh) but never asked for quantity, city, or state explicitly before closing. The bot closed by promising to send seller details on WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3595,
+    "completion_tokens": 1187
+  },
+  "unresolved_problems": []
+}

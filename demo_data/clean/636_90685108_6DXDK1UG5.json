@@ -1,0 +1,83 @@
+{
+  "call_id": "636_90685108_6DXDK1UG5",
+  "file": "data/recordings/636_90685108_6DXDK1UG5.mp3",
+  "duration_s": 70.34,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Devraj ji, you are looking for 160 GM Blue Solar detergent cake right? Are you still there? Please let me know if you are looking for the detergent cake.",
+      "start": 0.01,
+      "end": 19.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 22.29,
+      "end": 23.03
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk. How many box kilogram or piece do you need?",
+      "start": 24.09,
+      "end": 31.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Tandav. Do you need ten teachers? And ten box ten box.",
+      "start": 38.67,
+      "end": 46.45
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Let's talk about weight now. Which one would you like, 200 grams or something else?",
+      "start": 47.61,
+      "end": 52.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Hi.",
+      "start": 55.09,
+      "end": 57.61
+    },
+    {
+      "role": "BOT",
+      "text": "You can discuss the price directly with the seller and they'll give you the best rate. Which weight would you prefer?",
+      "start": 58.85,
+      "end": 64.23
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 10.12,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 5.57,
+        "end": 15.69,
+        "duration_s": 10.12,
+        "after_role": "BOT"
+      },
+      {
+        "start": 31.89,
+        "end": 38.67,
+        "duration_s": 6.78,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

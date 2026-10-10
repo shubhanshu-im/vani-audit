@@ -1,0 +1,92 @@
+{
+  "call_id": "958_90797456_ZLPHYXFH5",
+  "file": "data/recordings/958_90797456_ZLPHYXFH5.mp3",
+  "duration_s": 80.21,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको medical apparatus की requirement है ना?",
+      "start": 0.01,
+      "end": 3.35
+    },
+    {
+      "role": "BUYER",
+      "text": "को",
+      "start": 2.45,
+      "end": 2.91
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 5.05,
+      "end": 5.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 7.35,
+      "end": 7.93
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece की जरूरत है?",
+      "start": 8.99,
+      "end": 15.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 10.35,
+      "end": 10.87
+    },
+    {
+      "role": "BOT",
+      "text": "राहत medical है ना? जी आप Rahat Hospital से contact कर रहे थे लेकिन वो अभी available नहीं है। आपको कितने piece की जरूरत है? क्या बोला? मैं कह रही थी कि जिस seller को आप call कर रहे थे वो available नहीं है। आपको कितने piece चाहिए? राहत अस्पताल।",
+      "start": 18.51,
+      "end": 42.21
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आप उन्हीं को call कर रहे थे पर वो अभी available नहीं है। हमारे पास और भी अच्छे sellers हैं।",
+      "start": 43.55,
+      "end": 48.56
+    },
+    {
+      "role": "BOT",
+      "text": "बस आप ये बता दीजिए कि आपको कितनी quantity चाहिए।",
+      "start": 48.56,
+      "end": 51.12
+    },
+    {
+      "role": "BUYER",
+      "text": "को call करते हैं।",
+      "start": 43.83,
+      "end": 44.73
+    },
+    {
+      "role": "BOT",
+      "text": "आप send कीजिए number. मैं seller का number directly share नहीं कर सकती। पहले आप details confirm कर दीजिए फिर मैं आपकी मदद करूंगी। आपको कितनी quantity चाहिए? आसामी बोलिए ना। क्षमा कीजिए मैं सिर्फ हिंदी या English में बात कर सकती हूं। आपको कितनी quantity की चाहिए please बता दीजिए। तो ठीक है।",
+      "start": 54.97,
+      "end": 79.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

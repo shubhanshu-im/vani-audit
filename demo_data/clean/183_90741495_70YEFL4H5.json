@@ -1,0 +1,110 @@
+{
+  "call_id": "183_90741495_70YEFL4H5",
+  "file": "data/recordings/183_90741495_70YEFL4H5.mp3",
+  "duration_s": 83.16,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको small size सुपारी cutting machine की requirement है ना?",
+      "start": 0.09,
+      "end": 4.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ नमस्कार Madam मैं Pune से बात कर रहा हूँ।",
+      "start": 7.41,
+      "end": 9.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए आप cutting type के बारे में बताइए। आपको कौन सा चाहिए diamond cut, chips cut या कुछ और?",
+      "start": 11.67,
+      "end": 24.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. वो बारीक सुपारी जो है ना बारीक cut करने का है बारीक। हाँ।",
+      "start": 11.95,
+      "end": 32.27
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी बात सुन समझ गई आपको छोटे-छोटे टुकड़ों में cutting चाहिए। अब capacity के बारे में बता दीजिए। बीस किलो प्रति घंटा, पच्चीस किलो प्रति घंटा या कुछ और?",
+      "start": 31.39,
+      "end": 42.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी दस से पंद्रह पंद्रह kg प्रति घंटा।",
+      "start": 43.01,
+      "end": 48.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 51.17,
+      "end": 53.89
+    },
+    {
+      "role": "BUYER",
+      "text": "काम सुना।",
+      "start": 56.51,
+      "end": 57.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप Pune Maharashtra से बोल रहे हैं ना?",
+      "start": 59.17,
+      "end": 61.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ पूर्णिमा श्री कृष्ण।",
+      "start": 61.63,
+      "end": 63.39
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब आप अपना नाम बता दीजिए please।",
+      "start": 64.79,
+      "end": 67.25
+    },
+    {
+      "role": "BUYER",
+      "text": "माझं नाव आहे राजेश लिंबाजी समोणजी.",
+      "start": 68.35,
+      "end": 70.87
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 72.69,
+      "end": 81.09
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 81.87,
+      "end": 82.29
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.14,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

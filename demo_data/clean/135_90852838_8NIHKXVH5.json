@@ -1,0 +1,110 @@
+{
+  "call_id": "135_90852838_8NIHKXVH5",
+  "file": "data/recordings/135_90852838_8NIHKXVH5.mp3",
+  "duration_s": 91.94,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Viji, you were looking for white PVC resin K67 right?",
+      "start": 0.09,
+      "end": 4.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah.",
+      "start": 5.99,
+      "end": 6.57
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I am Tanya from IndiaMART. We have many good sellers available and I will connect you with the most suitable one shortly. First I would just like to confirm a few details. How many kilograms or tons do you need?",
+      "start": 8.33,
+      "end": 20.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Means twenty five or twenty one.",
+      "start": 21.85,
+      "end": 23.89
+    },
+    {
+      "role": "BOT",
+      "text": "Are you asking about the quantity you need or about something else like specification or packaging? Could you please clarify a bit?",
+      "start": 25.79,
+      "end": 32.67
+    },
+    {
+      "role": "BUYER",
+      "text": "twenty five kg per bag around twenty five ton or fifty fifty ton.",
+      "start": 33.41,
+      "end": 39.91
+    },
+    {
+      "role": "BOT",
+      "text": "Alright, which grade do you want K67 SG5 or something else?",
+      "start": 41.43,
+      "end": 45.35
+    },
+    {
+      "role": "BUYER",
+      "text": "SCV is okay. I am looking five grade PVC five grade.",
+      "start": 46.79,
+      "end": 52.17
+    },
+    {
+      "role": "BOT",
+      "text": "Thanks for sharing. You want pipe grade? Just to confirm, do you want K67, SG5 or another grade for this?",
+      "start": 54.63,
+      "end": 61.31
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah. Yeah. Other grade is no problem. Other grade is no problem.",
+      "start": 57.09,
+      "end": 68.11
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Which brand would you like? Formosa, Reliance or something else?",
+      "start": 69.95,
+      "end": 73.83
+    },
+    {
+      "role": "BUYER",
+      "text": "No problem. Import material is not a problem.",
+      "start": 75.55,
+      "end": 79.75
+    },
+    {
+      "role": "BOT",
+      "text": "Understood. I'll send you the seller details on WhatsApp where you can discuss the details and price directly. Thank you for choosing IndiaMart. Have a nice day.",
+      "start": 81.73,
+      "end": 89.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Using India market. Okay, no problem. Please give the.",
+      "start": 87.87,
+      "end": 92.05
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.46,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

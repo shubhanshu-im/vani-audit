@@ -1,0 +1,50 @@
+{
+  "call_id": "149_90643059_4XB7T3KG5",
+  "file": "data/recordings/149_90643059_4XB7T3KG5.mp3",
+  "duration_s": 17.93,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको charcoal for cooking की requirement है ना?",
+      "start": 0.19,
+      "end": 4.17
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 4.71,
+      "end": 5.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। [change] मैडम।",
+      "start": 7.07,
+      "end": 14.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam जल्दी भेजिए Madam जल्दी भेजिए।",
+      "start": 13.77,
+      "end": 16.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "call_id": "947_90797435_1Y39YXFH5",
+  "file": "data/recordings/947_90797435_1Y39YXFH5.mp3",
+  "duration_s": 70.85,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपकी Panasonic CF33 rugged laptop convertible to tablet की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 8.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Hello.",
+      "start": 13.89,
+      "end": 17.21
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। बस आपकी Panasonic CF 33 rugged laptop की requirements के बारे में बात करनी थी। नमस्ते। बस आपकी Panasonic CF 33 rugged laptop की requirements के बारे में बात करनी थी। बताइए आपको RAM में क्या prefer करेंगे 8 GB, 16 GB या कोई और?",
+      "start": 18.19,
+      "end": 32.09
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको जो भी करना है कर लीजिए।",
+      "start": 33.45,
+      "end": 38.51
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मैं यहां आपके Panasonic CF 35 category laptop की requirement के लिए मदद कर रहा हूं। आप बताइए कि आपको इसमें RAM कितनी चाहिए जैसे 8 GB, 16 GB या कुछ और?",
+      "start": 38.09,
+      "end": 46.99
+    },
+    {
+      "role": "BUYER",
+      "text": "MG MG भी दे दो।",
+      "start": 47.81,
+      "end": 50.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 51.79,
+      "end": 57.01
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं। No.",
+      "start": 57.69,
+      "end": 59.75
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 60.69,
+      "end": 67.05
+    },
+    {
+      "role": "BUYER",
+      "text": "रुको भैया।",
+      "start": 67.89,
+      "end": 69.29
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 5.24,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 8.65,
+        "end": 13.89,
+        "duration_s": 5.24,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

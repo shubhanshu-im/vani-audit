@@ -1,0 +1,134 @@
+{
+  "call_id": "821_90741677_A7J4IL4H5",
+  "file": "data/recordings/821_90741677_A7J4IL4H5.mp3",
+  "duration_s": 113.33,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Marito Brain syrup की requirement है ना? नमस्ते। आपको Marito Brain Syrup की requirement थी? नमस्ते। आपको Marito Brain Syrup की requirement थी ना?",
+      "start": 0.11,
+      "end": 11.71
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। जी।",
+      "start": 5.83,
+      "end": 14.37
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितनी bottle या pack चाहिए होगी आपको? एक मोटर। क्षमा कीजिए आपकी आवाज़ clear नहीं आई। ज़रा दोबारा बताइए कि आपको कितनी quantity चाहिए।",
+      "start": 15.97,
+      "end": 32.37
+    },
+    {
+      "role": "BUYER",
+      "text": "एक बोतल।",
+      "start": 34.01,
+      "end": 34.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं देख पा रही हूं। आपको की ingredients brownie ही चाहिए ना?",
+      "start": 36.07,
+      "end": 39.65
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes Ma'am.",
+      "start": 42.59,
+      "end": 43.17
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए indication में क्या prefer करेंगे memory booster, stress relief या कोई और? क्या बोल रहा है?",
+      "start": 44.27,
+      "end": 53.05
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा मतलब है कि आप इस syrup का इस्तेमाल किस लिए करना चाहते हैं? जैसे memory booster या stress relief के लिए? Doctor service है।",
+      "start": 54.09,
+      "end": 62.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? यह detail आप seller को बता दीजिएगा। बस यह बता दीजिए कि आपको memory booster चाहिए या कुछ और।",
+      "start": 63.71,
+      "end": 69.31
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 72.77,
+      "end": 73.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller इस बारे में आपकी मदद कर देंगे। अब आपकी city confirm कर लेते हैं।",
+      "start": 74.27,
+      "end": 78.61
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। हो।",
+      "start": 82.71,
+      "end": 83.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 84.95,
+      "end": 87.63
+    },
+    {
+      "role": "BUYER",
+      "text": "बिहिया बिहार। आप Bihia Bihar से बोल रहे हैं ना? जी। ठीक है? अब Satyendra जी बोलें।",
+      "start": 90.05,
+      "end": 99.19
+    },
+    {
+      "role": "BOT",
+      "text": "बोल रहे हैं ना?",
+      "start": 99.19,
+      "end": 99.73
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 101.01,
+      "end": 101.83
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 103.05,
+      "end": 110.79
+    },
+    {
+      "role": "BUYER",
+      "text": "एकदम।",
+      "start": 112.75,
+      "end": 113.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 4.1,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 6,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

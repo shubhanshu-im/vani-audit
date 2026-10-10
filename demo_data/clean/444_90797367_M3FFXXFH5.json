@@ -1,0 +1,167 @@
+{
+  "call_id": "444_90797367_M3FFXXFH5",
+  "file": "data/recordings/444_90797367_M3FFXXFH5.mp3",
+  "duration_s": 144.43,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.25,
+      "end": 0.59
+    },
+    {
+      "role": "BOT",
+      "text": "sound दीजिएगा। माफ़ कीजिए मैं समझ नहीं पाई। क्या आप बता सकते हैं कि आपको कौन सा product चाहिए? sound क्या आपको sound system या speaker जैसा कोई product चाहिए?",
+      "start": 4.05,
+      "end": 17.23
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आपको sound system",
+      "start": 14.11,
+      "end": 15.23
+    },
+    {
+      "role": "BOT",
+      "text": "बारह inch या दस inch?",
+      "start": 20.01,
+      "end": 21.81
+    },
+    {
+      "role": "BUYER",
+      "text": "क्षमा कीजिए मैं थोड़ा confuse हूं। क्या आप मुझे product का नाम बता सकते हैं कि आपको असल में क्या चाहिए?",
+      "start": 23.11,
+      "end": 28.49
+    },
+    {
+      "role": "BOT",
+      "text": "Sound. क्या आप अभी line पर हैं? Please बताइए आपको कौन सा product चाहिए?",
+      "start": 30.67,
+      "end": 39.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Sound.",
+      "start": 41.57,
+      "end": 42.47
+    },
+    {
+      "role": "BOT",
+      "text": "आपको sound system जो आमतौर पे गाने सुनने या events के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 43.63,
+      "end": 48.85
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 50.89,
+      "end": 51.57
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी line पर हैं? Please confirm कीजिए कि आपको sound system ही चाहिए? जी हाँ शाम कम ही चाहिए। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए? एक piece चाहिए। ठीक है? अब मैं आपकी कुछ और details confirm कर लेती हूं। क्या आप अभी line पर हैं?",
+      "start": 56.59,
+      "end": 87.92
+    },
+    {
+      "role": "BUYER",
+      "text": "Please मेरी बात सुन रहे हैं ना? जी हां।",
+      "start": 87.92,
+      "end": 92.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 93.73,
+      "end": 96.45
+    },
+    {
+      "role": "BUYER",
+      "text": "कुछ क्यों बता रहा हूँ? बिल्कुल आप आराम से बताइए। मैं इंतज़ार कर रही हूँ।",
+      "start": 101.51,
+      "end": 106.69
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी line पर हैं? Please अपनी city और state बता दीजिए।",
+      "start": 113.75,
+      "end": 117.45
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप बातचीत जारी रखना चाहेंगे? Please अपनी city और state बता दीजिए।",
+      "start": 124.91,
+      "end": 129.25
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 136.59,
+      "end": 139.53
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 7.46,
+    "gaps_over_5s": 6,
+    "long_gaps": [
+      {
+        "start": 51.57,
+        "end": 56.59,
+        "duration_s": 5.02,
+        "after_role": "BUYER"
+      },
+      {
+        "start": 79.73,
+        "end": 86.63,
+        "duration_s": 6.9,
+        "after_role": "BOT"
+      },
+      {
+        "start": 96.45,
+        "end": 101.51,
+        "duration_s": 5.06,
+        "after_role": "BOT"
+      },
+      {
+        "start": 106.69,
+        "end": 113.75,
+        "duration_s": 7.06,
+        "after_role": "BUYER"
+      },
+      {
+        "start": 117.45,
+        "end": 124.91,
+        "duration_s": 7.46,
+        "after_role": "BOT"
+      },
+      {
+        "start": 129.25,
+        "end": 136.59,
+        "duration_s": 7.34,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 5,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

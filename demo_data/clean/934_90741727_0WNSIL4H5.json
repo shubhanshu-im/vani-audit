@@ -1,0 +1,106 @@
+{
+  "call_id": "934_90741727_0WNSIL4H5",
+  "file": "data/recordings/934_90741727_0WNSIL4H5.mp3",
+  "duration_s": 67.1,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello प्रमेंद्र जी। Hello प्रमेंद्र जी आपको stainless steel scrubber की requirement है ना?",
+      "start": 0.01,
+      "end": 4.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हम्म।",
+      "start": 3.05,
+      "end": 6.41
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने dozen चाहिए?",
+      "start": 7.67,
+      "end": 13.53
+    },
+    {
+      "role": "BUYER",
+      "text": "NCM आपसे बोल रहे हैं तो हमको green pack चाहिए।",
+      "start": 16.47,
+      "end": 19.67
+    },
+    {
+      "role": "BOT",
+      "text": "आपको green pack चाहिए जो आमतौर पे सफाई के लिए इस्तेमाल होता है यही product चाहिए ना?",
+      "start": 20.95,
+      "end": 25.75
+    },
+    {
+      "role": "BUYER",
+      "text": "जो जी और हमको polythene चाहिए चार गुणे पांच के super scrub वाले।",
+      "start": 21.39,
+      "end": 33.83
+    },
+    {
+      "role": "BOT",
+      "text": "आपको polythene चाहिए जो आमतौर पे packing के लिए इस्तेमाल होती है यही product चाहिए ना?",
+      "start": 35.37,
+      "end": 40.41
+    },
+    {
+      "role": "BUYER",
+      "text": "जी तीन गुणे चार का size कहिए poultry के।",
+      "start": 41.77,
+      "end": 45.03
+    },
+    {
+      "role": "BOT",
+      "text": "कितने kilogram चाहिए होगी आपको?",
+      "start": 47.09,
+      "end": 48.85
+    },
+    {
+      "role": "BUYER",
+      "text": "पांच kg तक मिल जाएगा।",
+      "start": 50.81,
+      "end": 52.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 53.25,
+      "end": 58.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay thank you.",
+      "start": 59.77,
+      "end": 60.63
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 61.77,
+      "end": 64.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

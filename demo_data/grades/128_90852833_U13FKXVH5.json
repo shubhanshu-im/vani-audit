@@ -1,0 +1,308 @@
+{
+  "call_id": "128_90852833_U13FKXVH5",
+  "duration_s": 106.56,
+  "graded_at": "2026-10-10T12:24:44+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer stated a clear requirement but bot failed to collect details and closed.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी नहीं भाई साहब कुछ भी मैं try करना नहीं चाह रहा। बस मैंने जो देखा ये product आपकी मुझे ये लेना है",
+      "timestamp": 62.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated a clear requirement but bot failed to collect details and closed.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.5
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मेरे को नाम नहीं पता मैं first बार में use करना चाह रहा हूँ आप अपने हिसाब से बताओ कौन सा बढ़िया रहेगा मेरे को मेरा बाल घना चाहिए और free कम समय में काफी लंबा चाहिए बाल",
+      "timestamp": 19.87,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated need for dense, long hair but bot never captured these as specs.",
+      "evidence_verified": true,
+      "llm_timestamp": 19.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "कृपया product का नाम या category थोड़ा साफ-साफ बता दीजिए ताकि मैं सही जानकारी दे सकूं",
+      "timestamp": 87.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the request for product name/category twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 87.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी नहीं भाई साहब कुछ भी मैं try करना नहीं चाह रहा। बस मैंने जो देखा ये product आपकी मुझे ये लेना है",
+      "timestamp": 62.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated a clear requirement but bot failed to collect details and closed.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.5
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मेरे को नाम नहीं पता मैं first बार में use करना चाह रहा हूँ आप अपने हिसाब से बताओ कौन सा बढ़िया रहेगा मेरे को मेरा बाल घना चाहिए और free कम समय में काफी लंबा चाहिए बाल",
+      "timestamp": 19.87,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated need for dense, long hair but bot never captured these as specs.",
+      "evidence_verified": true,
+      "llm_timestamp": 19.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "कृपया product का नाम या category थोड़ा साफ-साफ बता दीजिए ताकि मैं सही जानकारी दे सकूं",
+      "timestamp": 87.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the request for product name/category twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 87.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misheard words that derailed the call."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change or wrong product created."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific ISQ errors visible."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major pronunciation or language handling issues."
+    }
+  ],
+  "captured_lead": {
+    "product": null,
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "hair_growth",
+        "value": "dense and long hair"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer refused to provide product name and suggested WhatsApp.",
+      "timestamp": 92.8,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeatedly asked for product name/category.",
+      "timestamp": 87.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture buyer's requirement because buyer refused to provide product name. Bot looped asking for product name/category instead of creating a lead.",
+  "analysis": "Buyer wants a hair growth product but doesn't know the name and asks the bot to decide. The bot repeatedly asks for a product name/category but the buyer refuses to provide one. The buyer then says they will message on WhatsApp. The bot offers to wait. The buyer repeats the bot's line and the call ends abruptly. The bot did not collect quantity, specs, name, or location, and did not create a lead or transfer. Outcome is likely 'no requirement' or 'job', but since the buyer stated a need and the bot failed to capture it, Outcome Accuracy is FATAL.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3811,
+    "completion_tokens": 1708
+  },
+  "unresolved_problems": []
+}

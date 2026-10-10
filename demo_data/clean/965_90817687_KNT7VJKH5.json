@@ -1,0 +1,153 @@
+{
+  "call_id": "965_90817687_KNT7VJKH5",
+  "file": "data/recordings/965_90817687_KNT7VJKH5.mp3",
+  "duration_s": 227.64,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको ride on scrubber dryer की requirement है ना?",
+      "start": 0.17,
+      "end": 3.81
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी है।",
+      "start": 4.43,
+      "end": 5.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं। आपको working width 700 mm ही चाहिए ना?",
+      "start": 6.03,
+      "end": 18.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 18.55,
+      "end": 19.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब solution tank capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 70 liters, 80 liters या कुछ और?",
+      "start": 19.89,
+      "end": 26.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Travel to it.",
+      "start": 27.69,
+      "end": 28.45
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 29.49,
+      "end": 33.17
+    },
+    {
+      "role": "BUYER",
+      "text": "कुरुक्षेत्र हरियाणा।",
+      "start": 35.15,
+      "end": 37.49
+    },
+    {
+      "role": "BOT",
+      "text": "आप Kurukshetra Haryana से बोल रहे हैं ना?",
+      "start": 38.49,
+      "end": 40.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 41.25,
+      "end": 41.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 42.77,
+      "end": 45.23
+    },
+    {
+      "role": "BUYER",
+      "text": "[NAME] [NAME].",
+      "start": 46.15,
+      "end": 46.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? [NAME] [NAME] जी अभी line पे काफी अच्छे seller available हैं। आप उनसे अपने हिसाब से price और बाकी details discuss कर लीजिए। क्या मैं आपकी बात उनसे करवा दूं?",
+      "start": 48.07,
+      "end": 57.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी जरूर कराइए।",
+      "start": 58.11,
+      "end": 59.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पर भेज दी जाएंगी। Please line पर बने रहें।",
+      "start": 60.73,
+      "end": 67.65
+    },
+    {
+      "role": "BUYER",
+      "text": "दे दीजिए। Hello. Hello. हाँ जी. वो sir ये auto scrubber machine चाहिए थी Ridon वाली। India की नहीं sir आप पे चाहिए। आप कहां पर हैं sir? बोना से बात करें sir। पूना से? कितने की है आपकी ride on auto scrubber? Auto scrubber सर आज के हजार से चालू है। हैं? और ride on auto scrubber आज के हजार से चालू है। कितने किया ride on? ride on जाएंगे आपको साढ़े तीन लाख से starting। अब ये बताओ मुझे ride on की running capacity क्या है कितनी देर लगातार चल सकती है? तीन घंटा। Okay तीन घंटा। पर ये आपकी service वगैरह तो नहीं मिलेगी ना Haryana side में? मिल जाएगी sir। जैसे मेरी machine चलेगी कुरुक्षेत्र में मैं हूँ दिल्ली में पर मेरी ये साथ है ना sir?",
+      "start": 66.81,
+      "end": 150.25
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ मैं करता हूँ sir.",
+      "start": 148.37,
+      "end": 149.41
+    },
+    {
+      "role": "BUYER",
+      "text": "आता है ना engineer आता है ना sir हमारा India वाला engineer आता है ना। અચ્છા આ તો ગુવાહાટી બી machine છે અમારું ગુવાહાટી આસાની બી machine છે અમારું.",
+      "start": 151.17,
+      "end": 161.45
+    },
+    {
+      "role": "BOT",
+      "text": "अब",
+      "start": 157.35,
+      "end": 158.03
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा आपका tie up होगा service वालों के साथ? आप मेरे को आप मेरा number लिखिए जरा मुझे अपने machine की और company की details दीजिए और availability क्या है इसकी? कब order देंगे तो कब मिलेगी? हाँ मेरे को। one week में मिलेगा। अब मेरा number लिखिए। बोलिए sir. 981102. Right now 11029961. ठीक है मैं भेजता आपको। संजय शर्मा नाम मेरा भेज दो। आपका नाम? Amol Amol. ये Amol। हम्म। spelling क्या? A M O L Amol Amol Okay Amol you please send me the details of the machine Okay. ठीक है sir ठीक है। Okay. कौन है?",
+      "start": 163.07,
+      "end": 227.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 8.42,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 73.63,
+        "end": 82.05,
+        "duration_s": 8.42,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

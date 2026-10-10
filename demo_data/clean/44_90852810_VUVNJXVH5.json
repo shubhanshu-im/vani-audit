@@ -1,0 +1,50 @@
+{
+  "call_id": "44_90852810_VUVNJXVH5",
+  "file": "data/recordings/44_90852810_VUVNJXVH5.mp3",
+  "duration_s": 21.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको curd processing mini plant 300 LPH की requirement है ना?",
+      "start": 0.01,
+      "end": 5.33
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 6.25,
+      "end": 6.83
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं आपको connect करवाऊंगी। आपको मैं... details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए।",
+      "start": 9.21,
+      "end": 21.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 21.05,
+      "end": 21.29
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

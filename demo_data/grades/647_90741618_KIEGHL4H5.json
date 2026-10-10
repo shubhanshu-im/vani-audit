@@ -1,0 +1,288 @@
+{
+  "call_id": "647_90741618_KIEGHL4H5",
+  "duration_s": 76.97,
+  "graded_at": "2026-10-10T12:38:13+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, WER",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "सौ mm दस mm जो मिल जाए मुझे available कीजिए",
+      "timestamp": 50.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer mentioned 100 ml and 10 ml, but bot only captured 10 ml.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "सौ mm दस mm जो मिल जाए मुझे available कीजिए",
+      "timestamp": 50.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'सौ' (100) and only captured 'दस' (10).",
+      "evidence_verified": true,
+      "llm_timestamp": 50.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product request and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No numeric quantity discussed, only volume options."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed, only volume options."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not discussed, only volume options."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed, only volume options."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Allergen भारत syrup",
+      "timestamp": 38.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured Allergen as the brand preference."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "10 milliliters note कर लिया है",
+      "timestamp": 54.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 10 milliliters as the volume preference."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "सौ mm दस mm जो मिल जाए मुझे available कीजिए",
+      "timestamp": 50.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer mentioned 100 ml and 10 ml, but bot only captured 10 ml.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions or loops observed."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "सौ mm दस mm जो मिल जाए मुझे available कीजिए",
+      "timestamp": 50.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'सौ' (100) and only captured 'दस' (10).",
+      "evidence_verified": true,
+      "llm_timestamp": 50.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered, only a callback."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly identified the product as Berinut injection."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 54.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Banned open-ended question asked once."
+    }
+  ],
+  "captured_lead": {
+    "product": "Berinut injection human C1 esterase inhibitor 500 IU",
+    "quantity": "10 milliliters",
+    "quantity_unit": "milliliters",
+    "specs": [
+      {
+        "name": "brand",
+        "value": "Allergen"
+      },
+      {
+        "name": "volume",
+        "value": "10 milliliters"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer wanted 100 ml or 10 ml, bot captured only 10 ml.",
+      "timestamp": 50.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard the buyer's volume preference, capturing only 10 ml while the buyer also mentioned 100 ml. The bot also asked a banned open-ended question.",
+  "analysis": "Buyer requested Berinut injection (C1 esterase inhibitor). Bot confirmed brand as Allergen (Bharat serum) and volume as 10 ml, ignoring the 100 ml option. Buyer mentioned severe pain and a demand for 'hargiz', then the bot closed with a seller callback.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3678,
+    "completion_tokens": 1336
+  },
+  "unresolved_problems": []
+}

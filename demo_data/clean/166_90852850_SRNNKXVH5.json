@@ -1,0 +1,74 @@
+{
+  "call_id": "166_90852850_SRNNKXVH5",
+  "file": "data/recordings/166_90852850_SRNNKXVH5.mp3",
+  "duration_s": 51.12,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 500 micron ISI agriculture HDP pond liner की requirement है ना?",
+      "start": 0.01,
+      "end": 6.05
+    },
+    {
+      "role": "BUYER",
+      "text": "require fifty five feet length fifty five plus sixty five five hundred చేసాం start చేయాలి.",
+      "start": 6.87,
+      "end": 17.45
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज clear नहीं आई जरा दोबारा बताइए। आपको 500 micron ISI agriculture HDP pond liner की requirement है ना?",
+      "start": 18.69,
+      "end": 26.81
+    },
+    {
+      "role": "BUYER",
+      "text": "कन्नडा बोलो कन्नडा बोलो।",
+      "start": 27.49,
+      "end": 28.97
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे समझ नहीं आया। क्या आपको 500 micron ISI Agriculture HDP Pond Liner की requirement है?",
+      "start": 30.05,
+      "end": 36.35
+    },
+    {
+      "role": "BUYER",
+      "text": "requirement ಕನ್ನಡ ಬೋಲೋ.",
+      "start": 37.11,
+      "end": 39.99
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 40.99,
+      "end": 46.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ okay thank you thank you.",
+      "start": 47.29,
+      "end": 48.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

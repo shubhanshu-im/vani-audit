@@ -1,0 +1,93 @@
+{
+  "call_id": "184_90741496_2XIFFL4H5",
+  "file": "data/recordings/184_90741496_2XIFFL4H5.mp3",
+  "duration_s": 88.49,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको।",
+      "start": 0.01,
+      "end": 1.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Metric Eternity Penex 6.",
+      "start": 1.61,
+      "end": 3.21
+    },
+    {
+      "role": "BOT",
+      "text": "कि EPPX की requirement है ना। आप अभी call पर हैं? Matrix Eternity Penex 6 Day के Penex की जरूरत थी ना? आप बात जारी रखना चाहेंगे? अगर आपको Matrix Eternity EBAX चाहिए तो बताइए।",
+      "start": 3.21,
+      "end": 34.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ उनको चाहिए।",
+      "start": 35.91,
+      "end": 37.13
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी IndiaMART inquiry में मदद कर रही हूं। क्या आपको Matrix Eternity Penex 6 pack ETVX की ज़रूरत थी?",
+      "start": 39.25,
+      "end": 46.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 47.13,
+      "end": 48.13
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। क्या आप Matrix Eternity Ten X Six A K P V X के लिए जानकारी लेना चाह रहे थे?",
+      "start": 50.03,
+      "end": 55.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 55.91,
+      "end": 56.61
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप बताना चाहेंगे किस बारे में जानकारी चाहिए? IndiaMART में मैं आपकी किस तरह मदद कर सकती हूँ? ठीक है? अगर आपको किसी भी product की जानकारी चाहिए तो बता दीजिए। वरना मैं call बंद कर दूं? नहीं mobile चाहिए हमको। आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 58.23,
+      "end": 84.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 10.48,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 4.81,
+        "end": 15.29,
+        "duration_s": 10.48,
+        "after_role": "BOT"
+      },
+      {
+        "start": 19.69,
+        "end": 29.55,
+        "duration_s": 9.86,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

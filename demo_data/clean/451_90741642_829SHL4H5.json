@@ -1,0 +1,52 @@
+{
+  "call_id": "451_90741642_829SHL4H5",
+  "file": "data/recordings/451_90741642_829SHL4H5.mp3",
+  "duration_s": 13.61,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको nerve care capsule की requirement है ना?",
+      "start": 0.01,
+      "end": 3.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 9.71,
+      "end": 10.45
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपको nerve care capsule की",
+      "start": 11.47,
+      "end": 13.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 6.12,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 3.59,
+        "end": 9.71,
+        "duration_s": 6.12,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

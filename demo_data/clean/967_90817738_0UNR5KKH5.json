@@ -1,0 +1,153 @@
+{
+  "call_id": "967_90817738_0UNR5KKH5",
+  "file": "data/recordings/967_90817738_0UNR5KKH5.mp3",
+  "duration_s": 200.06,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको pouch packaging machine parts की requirement है ना?",
+      "start": 0.01,
+      "end": 4.37
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको। जी जी मुझे उसका क्या नाम है sewing machine का पट्टा चाहिए था क्या rate में मिल जाएगा और कहाँ आना पड़ेगा या आप किसी मिस्त्री को भेज सकती हैं?",
+      "start": 1.17,
+      "end": 14.89
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। rate और मिस्त्री के बारे में आप seller से discuss कर सकते हैं। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 16.09,
+      "end": 27.55
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे एक machine है मेरी वो खराब हो गई मुझे single पट्टा दीजिए।",
+      "start": 27.45,
+      "end": 32.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब component type के बारे में बात कर लेते हैं। आपको pencil heater, rotary switch या कुछ और चाहिए?",
+      "start": 33.51,
+      "end": 39.29
+    },
+    {
+      "role": "BUYER",
+      "text": "component type के नहीं और कुछ नहीं चाहिए।",
+      "start": 34.17,
+      "end": 42.23
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। बताइए machine type में क्या prefer करेंगे FFS machine, pouch packing या कोई और?",
+      "start": 43.35,
+      "end": 48.67
+    },
+    {
+      "role": "BUYER",
+      "text": "fusing machine, fusing machine.",
+      "start": 50.55,
+      "end": 52.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक।",
+      "start": 53.61,
+      "end": 53.91
+    },
+    {
+      "role": "BUYER",
+      "text": "fusing machine जो हम testing करते हैं ना वो उस machine का part कट गया।",
+      "start": 56.33,
+      "end": 60.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई।",
+      "start": 61.59,
+      "end": 62.49
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं video डालता हूँ। video डाल दे रहा हूँ मैं। नहीं नहीं Gandhinagar से बोल रही हैं आप Gandhinagar लगाया है मैंने Indian wars पे।",
+      "start": 61.93,
+      "end": 70.83
+    },
+    {
+      "role": "BOT",
+      "text": "डाल दिया।",
+      "start": 65.57,
+      "end": 66.21
+    },
+    {
+      "role": "BUYER",
+      "text": "photo आप seller को directly share कर दीजिएगा। अभी मेरे पास उसे देखने की facility नहीं है।",
+      "start": 72.21,
+      "end": 77.29
+    },
+    {
+      "role": "BOT",
+      "text": "अभी line पे काफी अच्छे seller available हैं। आप उनसे अपने हिसाब से price और बाकी details discuss कर लीजिए। क्या मैं आपकी बात उनसे करवा दूं?",
+      "start": 77.29,
+      "end": 85.22
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। Okay. हम्म। जी। जी बात करवा दो या फिर मुझे number send कर दो।",
+      "start": 78.25,
+      "end": 88.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पे भेज दी जाएंगी। Please line पे बने रहें।",
+      "start": 90.25,
+      "end": 97.05
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी जी बट सकते हैं। Hello. हाँ hello hello। हाँ जी। जी sir मुझे जी sir जी मुझे वो चाहिए था sewing machine का पट्टा। testing वाली machine का पट्टा change है। testing machine का पट्टा change है सर। testing machine का पट्टा वो कैसा कौन सी चीज है क्या है बताइए black black पट्टा चाहिए था। testing इससे करते हैं ना fusing machine. setting में पी। कहाँ से बोल रहे हो? मैं यहां से बोल रहा हूं Batla और Jamji Nagar से Okhla से। अब क्या चीज check करती हैं आप? packing हम लोग fusing करते हैं कपड़े पे वो चिपकाते हैं। नहीं नहीं वो ऐसा कुछ नहीं है packing machine से related सामान है।",
+      "start": 97.23,
+      "end": 161.59
+    },
+    {
+      "role": "BOT",
+      "text": "गोकुल में।",
+      "start": 159.31,
+      "end": 160.09
+    },
+    {
+      "role": "BUYER",
+      "text": "पैकिंग मशीन का। हाँ packaging machine का ही सामान होता है। आप मुझे WhatsApp पे देना मैं आपको क्या नाम है उसका video पे डालता हूं। अब मेरा मेरा यही number है WhatsApp पर डाल दीजिए। फ्यूजिंग machine नहीं होती है? अब मुझे सूजी वाली machine। fusing fusing machine जो क्या नाम है हम कपड़े के ऊपर testing करते हैं ना testing machine वो हमारे पास सामान नहीं होता भाई मैं बता रहा हूं आपको मेरे पास तो packaging machine से सामान related होता है। अच्छा अच्छा।",
+      "start": 163.37,
+      "end": 198.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 7.48,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 100.75,
+        "end": 108.23,
+        "duration_s": 7.48,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

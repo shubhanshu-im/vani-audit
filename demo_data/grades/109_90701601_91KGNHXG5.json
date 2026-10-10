@@ -1,0 +1,284 @@
+{
+  "call_id": "109_90701601_91KGNHXG5",
+  "duration_s": 212.66,
+  "graded_at": "2026-10-10T12:24:30+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, Dead air",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या मैं आपकी बात उनसे करवा दूं?",
+      "timestamp": 33.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the transfer consent prompt once before proceeding.",
+      "evidence_verified": true,
+      "llm_timestamp": 33.7
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Please line पर बने रहें।",
+      "timestamp": 50.31,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "3 dead air gaps occurred, but buyer did not hang up.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and bot transferred to live seller."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or captured by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked quantity but buyer did not provide it, so no probing error occurred."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not state a clear quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "मुझे यह सब station के लिए चाहिए",
+      "timestamp": 33.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the application/use-case correctly."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या मैं आपकी बात उनसे करवा दूं?",
+      "timestamp": 33.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the transfer consent prompt once before proceeding.",
+      "evidence_verified": true,
+      "llm_timestamp": 33.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions that impacted the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not explicitly record additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot successfully transferred the call to a live seller."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not change or correct the product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data which is unavailable."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data which is unavailable."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Please line पर बने रहें।",
+      "timestamp": 50.31,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "3 dead air gaps occurred, but buyer did not hang up.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not promise price, stock, or delivery."
+    }
+  ],
+  "captured_lead": {
+    "product": "electrolyte level indicators and microporous vent plugs",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "application",
+        "value": "station"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for mobile number and delivery details.",
+      "timestamp": 144.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Call transferred successfully. Buyer asked about pricing/delivery but bot ended abruptly after a dead air gap.",
+  "analysis": "Buyer wants electrolyte level indicators and microporous vent plugs for a 220 KV substation in Gujarat. Bot confirmed product and transferred to live seller. Buyer also asked about rates, delivery, and WhatsApp number. Bot transferred and ended abruptly after 3 dead air gaps. Outcome: live seller transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4213,
+    "completion_tokens": 1473
+  },
+  "unresolved_problems": []
+}

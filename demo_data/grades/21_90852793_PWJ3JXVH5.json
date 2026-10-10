@@ -1,0 +1,323 @@
+{
+  "call_id": "21_90852793_PWJ3JXVH5",
+  "duration_s": 91.66,
+  "graded_at": "2026-10-10T12:27:12+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Probing Error: Bot asked for quantity but never captured the buyer's response of one piece.",
+  "fatal_params": [
+    "Quantity Probing Error",
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए होंगे?",
+      "timestamp": 8.51,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity but never captured the buyer's response of one piece.",
+      "evidence_verified": true,
+      "llm_timestamp": 8.5
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक ही flat number है तो एक ही हमको name plate लगेगा।",
+      "timestamp": 15.23,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated quantity is one, but bot ignored it and never recorded it.",
+      "evidence_verified": true,
+      "llm_timestamp": 15.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "The name is edited, edged, and the names",
+      "timestamp": 29.23,
+      "root_cause_type": null,
+      "confidence": "medium",
+      "reason": "Buyer's additional detail about edging was not recorded in the lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.2
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 81.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to send seller details via WhatsApp but did not actually transfer to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 81.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared a clear requirement and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked for quantity, so no numeric value was captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked for quantity unit, so no unit was captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए होंगे?",
+      "timestamp": 8.51,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity but never captured the buyer's response of one piece.",
+      "evidence_verified": true,
+      "llm_timestamp": 8.5
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक ही flat number है तो एक ही हमको name plate लगेगा।",
+      "timestamp": 15.23,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated quantity is one, but bot ignored it and never recorded it.",
+      "evidence_verified": true,
+      "llm_timestamp": 15.2
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "light वाली fiber name plate",
+      "timestamp": 54.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot read back the buyer's spec about fiber nameplate with lighting."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "एक millimeter या कुछ और?",
+      "timestamp": 54.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for thickness, though buyer did not provide a specific numeric value."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "The name is edited, edged, and the names",
+      "timestamp": 29.23,
+      "root_cause_type": null,
+      "confidence": "medium",
+      "reason": "Buyer's additional detail about edging was not recorded in the lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and spec only once each without repetition."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot's readbacks accurately reflected the buyer's requirements."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any additional details beyond the product and spec."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 81.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to send seller details via WhatsApp but did not actually transfer to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 81.1
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's product was consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in the transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "There are no significant silent gaps attributable to the bot."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot maintained Hindi-English mix and did not make any commitments or claim to be human."
+    }
+  ],
+  "captured_lead": {
+    "product": "aluminum control panel name plate",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "manufacturing process",
+        "value": "light"
+      },
+      {
+        "name": "thickness",
+        "value": "normal"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without capturing buyer's quantity of 1 piece.",
+      "timestamp": 15.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call prematurely by offering WhatsApp seller details without collecting mandatory lead fields like quantity and contact details.",
+  "analysis": "Buyer wants a single fiber nameplate for a flat number with backlighting. Bot captured product and spec but missed quantity (1 piece) and never asked for name or location. Bot closed with a seller WhatsApp offer without collecting mandatory lead fields, ending the call.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3720,
+    "completion_tokens": 1316
+  },
+  "unresolved_problems": []
+}

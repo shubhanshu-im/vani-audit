@@ -1,0 +1,306 @@
+{
+  "call_id": "997_90643246_46W9W3KG5",
+  "duration_s": 42.48,
+  "graded_at": "2026-10-10T12:48:00+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed without collecting quantity, name, or location, and did not transfer or create a lead.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 30.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without collecting quantity, name, or location, and did not transfer or create a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.8
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 30.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered seller connection but closed without transferring or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 30.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed prematurely without collecting name, city, or state, and without a proper transfer or lead creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 30.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without collecting quantity, name, or location, and did not transfer or create a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.8
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "कितने piece चाहिए होंगे आपको? एक ही piece।",
+      "timestamp": 7.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity, buyer responded with 'ek hi piece', bot acknowledged."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated quantity, bot acknowledged, no miss."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "2.5 inch ही चाहिए ना?",
+      "timestamp": 20.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed size, bot acknowledged."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "antique चुना है right?",
+      "timestamp": 26.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed finish, bot acknowledged."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No other critical specs were mentioned by the buyer."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions or loops."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 30.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered seller connection but closed without transferring or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.8
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change occurred."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 30.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed prematurely without collecting name, city, or state, and without a proper transfer or lead creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.8
+    }
+  ],
+  "captured_lead": {
+    "product": "custom shape championship medals",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "size",
+        "value": "2.5 inch"
+      },
+      {
+        "name": "color finish",
+        "value": "antique"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without collecting name, city, or state.",
+      "timestamp": 30.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot prematurely closed the call with a WhatsApp message instead of collecting required lead details or transferring to a live seller.",
+  "analysis": "Buyer wanted custom shape championship medals (2.5 inch, antique finish). Bot confirmed product and size, but did not collect quantity, name, or location. Bot closed with a WhatsApp message without creating a lead or transferring to a live seller.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3491,
+    "completion_tokens": 1294
+  },
+  "unresolved_problems": []
+}

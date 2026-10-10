@@ -1,0 +1,322 @@
+{
+  "call_id": "580_90741616_WP6FHL4H5",
+  "duration_s": 61.34,
+  "graded_at": "2026-10-10T12:36:30+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, Looping Behavior, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हम्म जो color मैंने photo भेजा है वही color चाहिए।",
+      "timestamp": 17.35,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer mentioned a color preference, but bot did not capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.67,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot asked the banned open-ended question twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.7
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे।",
+      "timestamp": 51.25,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised a seller would contact instead of connecting a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 51.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.67,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot asked the banned open-ended question twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly identified buyer intent and created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed for the lead."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was mentioned by buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were asked by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हम्म जो color मैंने photo भेजा है वही color चाहिए।",
+      "timestamp": 17.35,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer mentioned a color preference, but bot did not capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.67,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot asked the banned open-ended question twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognitions that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे।",
+      "timestamp": 51.25,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised a seller would contact instead of connecting a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 51.2
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed and remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors occurred."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air occurred."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.67,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot asked the banned open-ended question twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.7
+    }
+  ],
+  "captured_lead": {
+    "product": "cotton party wear kurta for men",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "color",
+        "value": "photo color"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked how to talk to a seller",
+      "timestamp": 48.6,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Repeated banned open-ended question twice",
+      "timestamp": 21.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot asked a banned question twice and promised a callback instead of connecting to a live seller when asked.",
+  "analysis": "Buyer wanted a men's cotton party wear kurta in the color from the photo, asked for price, and requested to speak to a seller. Bot confirmed the product, noted buyer details, and promised a seller would contact them. The bot asked the banned open-ended question twice.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3663,
+    "completion_tokens": 1260
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,302 @@
+{
+  "call_id": "269_90685030_V4U3I1UG5",
+  "duration_s": 63.79,
+  "graded_at": "2026-10-10T12:28:27+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "WER: Bot misheard buyer's request for WhatsApp details as a system query.",
+  "fatal_params": [
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "को मैं seller details WhatsApp. reason में है क्या?",
+      "timestamp": 56.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's request for WhatsApp details as a system query.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.5
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "को मैं seller details WhatsApp. reason में है क्या?",
+      "timestamp": 56.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot-side silence at end of call, but buyer did not hang up.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब आपको मैं seller details WhatsApp.",
+      "timestamp": 50.31,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's request for WhatsApp details as a system query.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product need and the call was closed after a misrecognition."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated electric fuel type and bot captured it."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Second spec was not asked or captured."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were missed; the call ended abruptly."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Call ended abruptly before looping occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "को मैं seller details WhatsApp. reason में है क्या?",
+      "timestamp": 56.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's request for WhatsApp details as a system query.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.5
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never changed or questioned."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "को मैं seller details WhatsApp. reason में है क्या?",
+      "timestamp": 56.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot-side silence at end of call, but buyer did not hang up.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब आपको मैं seller details WhatsApp.",
+      "timestamp": 50.31,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's request for WhatsApp details as a system query.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.3
+    }
+  ],
+  "captured_lead": {
+    "product": "steam press boiler",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "fuel type",
+        "value": "electric"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard buyer's WhatsApp request.",
+      "timestamp": 56.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard the buyer's request for WhatsApp details as a system query and ended the call abruptly without collecting name/location.",
+  "analysis": "Buyer called for a steam press boiler and preferred electric fuel type. The bot misheard the buyer's request to share seller details on WhatsApp as a system query and abruptly ended the call without collecting name or location.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8244,
+    "completion_tokens": 2420
+  },
+  "unresolved_problems": []
+}

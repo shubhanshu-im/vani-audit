@@ -1,0 +1,349 @@
+{
+  "call_id": "274_90741549_8CFIGL4H5",
+  "duration_s": 64.01,
+  "graded_at": "2026-10-10T12:28:37+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "PASS",
+  "grade_reason": "no fatal issues",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "bot closed without capturing quantity, name, or city",
+      "timestamp": 43.8,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without collecting key lead fields.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "bot never asked for quantity, buyer gave 12 daam",
+      "timestamp": null,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot never asked quantity, buyer gave 12 daam, call closed.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "buyer said 12 daam, bot ignored it",
+      "timestamp": null,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated quantity but bot ignored it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "buyer said 20 gram, bot ignored it",
+      "timestamp": null,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated size but bot ignored it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot said I'll send seller details WhatsApp",
+      "timestamp": 43.8,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Possible misrecognition of buyer's 'daam'.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot said I'll send seller details WhatsApp",
+      "timestamp": 43.8,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot offered WhatsApp transfer without collecting lead details.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "bot closed without capturing quantity, name, or city",
+      "timestamp": 43.8,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without collecting key lead fields.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not captured or confirmed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity unit was not captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "bot never asked for quantity, buyer gave 12 daam",
+      "timestamp": null,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot never asked quantity, buyer gave 12 daam, call closed.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "buyer said 12 daam, bot ignored it",
+      "timestamp": null,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated quantity but bot ignored it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 was not asked."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 was not asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "buyer said 20 gram, bot ignored it",
+      "timestamp": null,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated size but bot ignored it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot said I'll send seller details WhatsApp",
+      "timestamp": 43.8,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Possible misrecognition of buyer's 'daam'.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained stone aggregate."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific ISQ errors."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors observed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air issues."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot said I'll send seller details WhatsApp",
+      "timestamp": 43.8,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot offered WhatsApp transfer without collecting lead details.",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "stone aggregate",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "color",
+        "value": "black"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot ignored buyer's quantity and size specs.",
+      "timestamp": null,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": 18.51,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wanted stone aggregate and stated '12 daam' and '20 gram', but the bot never captured quantity, name, or city. The bot skipped quantity and size, then offered WhatsApp seller details and closed. No live seller was connected.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14700,
+    "completion_tokens": 4845
+  },
+  "unresolved_problems": [
+    "Outcome Accuracy: evidence_quote not found verbatim in any transcript line: 'bot closed without capturing quantity, name, or city'",
+    "Quantity Probing Error: evidence_quote not found verbatim in any transcript line: 'bot never asked for quantity, buyer gave 12 daam'",
+    "Qty Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'buyer said 12 daam, bot ignored it'",
+    "Spec Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'buyer said 20 gram, bot ignored it'",
+    "WER: evidence_quote not found verbatim in any transcript line: \"bot said I'll send seller details WhatsApp\"",
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: \"bot said I'll send seller details WhatsApp\""
+  ]
+}

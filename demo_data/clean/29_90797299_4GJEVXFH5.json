@@ -1,0 +1,44 @@
+{
+  "call_id": "29_90797299_4GJEVXFH5",
+  "file": "data/recordings/29_90797299_4GJEVXFH5.mp3",
+  "duration_s": 19.44,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 20 by 8 feet GI portable cabin की requirement है ना?",
+      "start": 0.01,
+      "end": 4.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 8.73,
+      "end": 9.41
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। क्या आप twenty by eight feet GI portable cabin की जानकारी के लिए call कर रहे हैं? कृपया बताएं मैं आपकी मदद कर सकती हूं।",
+      "start": 11.59,
+      "end": 18.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 3.78,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "call_id": "275_90685033_EVM5I1UG5",
+  "duration_s": 129.67,
+  "graded_at": "2026-10-10T12:28:41+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer gave a valid requirement but bot closed without lead or transfer.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART छोड़ने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer gave a valid requirement but bot closed without lead or transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 357.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "रुद्रा। माफ़ कीजिए Rudra कोई पहचान में आने वाला city नहीं लग रहा। कृपया अपना सही city name और state दोबारा बताइए। Rudra। माफ़ कीजिए Rudra City नहीं मिल रहा है।",
+      "timestamp": 55.61,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot looped on city/state 3 times due to ASR failures.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बोलोद्रा बरोद्रा। माफ़ कीजिए Rudra कोई valid city नहीं है।",
+      "timestamp": 55.61,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'बरोद्रा' as 'रूड्रा' and failed to capture location.",
+      "evidence_verified": true,
+      "llm_timestamp": 337.6
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART छोड़ने के लिए धन्यवाद।",
+      "timestamp": 55.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp but failed to do so.",
+      "evidence_verified": true,
+      "llm_timestamp": 357.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART छोड़ने के लिए धन्यवाद।",
+      "timestamp": 55.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with a generic closing line instead of a proper transfer/lead creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 357.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART छोड़ने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 55.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer gave a valid requirement but bot closed without lead or transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 357.6
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'एक', bot didn't confirm but no conflicting value."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'एक seat', bot didn't ask for unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and provided."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was provided by buyer and bot acted on it."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask or confirm spec1."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask or confirm spec2."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not probed by the bot."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "रुद्रा। माफ़ कीजिए Rudra कोई पहचान में आने वाला city नहीं लग रहा। कृपया अपना सही city name और state दोबारा बताइए। Rudra। माफ़ कीजिए Rudra City नहीं मिल रहा है।",
+      "timestamp": 55.61,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot looped on city/state 3 times due to ASR failures.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बोलोद्रा बरोद्रा। माफ़ कीजिए Rudra कोई valid city नहीं है।",
+      "timestamp": 55.61,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'बरोद्रा' as 'रूड्रा' and failed to capture location.",
+      "evidence_verified": true,
+      "llm_timestamp": 337.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART छोड़ने के लिए धन्यवाद।",
+      "timestamp": 55.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp but failed to do so.",
+      "evidence_verified": true,
+      "llm_timestamp": 357.6
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data provided to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available to judge."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART छोड़ने के लिए धन्यवाद।",
+      "timestamp": 55.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with a generic closing line instead of a proper transfer/lead creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 357.6
+    }
+  ],
+  "captured_lead": {
+    "product": "Havells LED floodlight 250W",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "model",
+        "value": "Jeta Iris / Jeta"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": "Gujarat"
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer got stuck on city/state and bot failed to capture location.",
+      "timestamp": 55.6,
+      "source": "llm"
+    },
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without creating a lead or transferring to a seller.",
+      "timestamp": 357.6,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture city/state due to ASR errors and closed without creating a lead or transferring to a seller.",
+  "analysis": "Buyer wanted a 1-seat Havells LED floodlight 250W in Gujarat. Bot asked for city/state multiple times, couldn't understand the buyer's location, and closed with a generic 'thank you for choosing IndiaMART' instead of creating a lead or connecting a seller.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3885,
+    "completion_tokens": 1411
+  },
+  "unresolved_problems": []
+}

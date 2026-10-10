@@ -1,0 +1,104 @@
+{
+  "call_id": "509_90797369_7U9HXXFH5",
+  "file": "data/recordings/509_90797369_7U9HXXFH5.mp3",
+  "duration_s": 63.94,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको single phase 415 V Varuna submersible pump control panel 2 HP की requirement है ना?",
+      "start": 0.29,
+      "end": 7.33
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी। Hello.",
+      "start": 8.51,
+      "end": 12.29
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 13.41,
+      "end": 19.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam हमें तो हमारा एक starter खराब हो गया है ना एक piece।",
+      "start": 21.29,
+      "end": 25.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। मैं देख पा रही हूं आपको horse power 2 HP ही चाहिए ना?",
+      "start": 26.65,
+      "end": 30.71
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 32.15,
+      "end": 32.85
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया।",
+      "start": 34.09,
+      "end": 34.91
+    },
+    {
+      "role": "BUYER",
+      "text": "MCG वाला।",
+      "start": 34.13,
+      "end": 35.19
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब phase के बारे में बात करते हैं। आपको single phase ही चाहिए ना?",
+      "start": 36.21,
+      "end": 40.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ single थे।",
+      "start": 41.39,
+      "end": 42.57
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 43.55,
+      "end": 48.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay Madam कितने का आएगा?",
+      "start": 49.85,
+      "end": 52.77
+    },
+    {
+      "role": "BOT",
+      "text": "आप यह price seller से discuss कर सकते हैं वो आपको best rates देंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 53.71,
+      "end": 60.01
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

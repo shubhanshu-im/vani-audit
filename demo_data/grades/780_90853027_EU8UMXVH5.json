@@ -1,0 +1,288 @@
+{
+  "call_id": "780_90853027_EU8UMXVH5",
+  "duration_s": 46.37,
+  "graded_at": "2026-10-10T12:41:58+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "service type में क्या prefer करेंगे repairing, installation या कोई और",
+      "timestamp": 19.93,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot cut off before buyer could answer service type.",
+      "evidence_verified": true,
+      "llm_timestamp": 19.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "charger ठीक हो रहा है और कुछ आपकी details note कर ली गई",
+      "timestamp": 34.45,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Vague closing, claimed details noted without confirmation.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product requirement and bot proceeded."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity needed for this service/repair query."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Three-wheeler",
+      "timestamp": 18.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated 3-wheeler, bot acknowledged."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not wait for buyer to answer service type."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "service type में क्या prefer करेंगे repairing, installation या कोई और",
+      "timestamp": 19.93,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot cut off before buyer could answer service type.",
+      "evidence_verified": true,
+      "llm_timestamp": 19.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognized words affecting outcome."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered or transfer attempted."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed the 2KW Amara Raja charger."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data; not clearly visible in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No bot-side silence causing buyer to hang up."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "charger ठीक हो रहा है और कुछ आपकी details note कर ली गई",
+      "timestamp": 34.45,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Vague closing, claimed details noted without confirmation.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.5
+    }
+  ],
+  "captured_lead": {
+    "product": "Amara Raja charger 2 KW",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "equipment type",
+        "value": "Three-wheeler"
+      },
+      {
+        "name": "service type",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Call abruptly ended before collecting key details.",
+      "timestamp": 34.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot cut off the call before collecting the buyer's name, location, and service type preference.",
+  "analysis": "Buyer called regarding a 2 KW Amara Raja charger for a Three-wheeler auto rickshaw, needing repair/installation. Bot confirmed the product, asked for equipment type (Three-wheeler) and service type, but the call abruptly ended before the buyer could answer the service type question or provide his name/location. The bot closed with a vague note that details were recorded.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3559,
+    "completion_tokens": 1190
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,146 @@
+{
+  "call_id": "606_90741611_6XYDHL4H5",
+  "file": "data/recordings/606_90741611_6XYDHL4H5.mp3",
+  "duration_s": 108.43,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] Hello आपको फूल जादू raw material की requirement है ना?",
+      "start": 0.01,
+      "end": 4.43
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 6.29,
+      "end": 7.21
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms की जरूरत है?",
+      "start": 8.33,
+      "end": 14.91
+    },
+    {
+      "role": "BUYER",
+      "text": "मैम ये बताइएगा आपके पास क्या क्या उपलब्ध है इस time मतलब नारियल वगैरह और जो... हमारे पास कई अच्छे sellers हैं जो आपकी मदद कर पाएंगे।",
+      "start": 17.09,
+      "end": 25.89
+    },
+    {
+      "role": "BOT",
+      "text": "बस कुछ details confirm कर दीजिए। आपको कितने kilograms चाहिए?",
+      "start": 25.89,
+      "end": 29.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हमको वही बताइए आप पचास साठ किलो से आ जाइए।",
+      "start": 31.59,
+      "end": 36.97
+    },
+    {
+      "role": "BOT",
+      "text": "जी बताइए आपको क्या चाहिए ठीक है अब grade के बारे में बात कर लेते हैं आपको grade one चाहिए या grade one point five",
+      "start": 34.85,
+      "end": 42.65
+    },
+    {
+      "role": "BUYER",
+      "text": "Grade 1.5.",
+      "start": 46.51,
+      "end": 47.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब origin के बारे में बताइए आपको Assam या Shillong से चाहिए या कुछ और?",
+      "start": 48.95,
+      "end": 53.31
+    },
+    {
+      "role": "BUYER",
+      "text": "long में चाहिए ma'am.",
+      "start": 54.99,
+      "end": 56.23
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब आपकी city और state भी बता दीजिए please। ठीक है। आप अपनी city और state भी बता दीजिए।",
+      "start": 57.25,
+      "end": 63.31
+    },
+    {
+      "role": "BUYER",
+      "text": "City विजन North State Uttar Pradesh City विजन।",
+      "start": 62.55,
+      "end": 66.99
+    },
+    {
+      "role": "BOT",
+      "text": "आप बिश्नोई उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 68.05,
+      "end": 70.41
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 71.77,
+      "end": 72.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप परविंद्र जी बोल रहे हैं ना?",
+      "start": 74.27,
+      "end": 76.45
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं Praveen जी मेरा नाम तो [NAME] है। ID पे जिसकी सीमा वो Pradeep Kumar नाम है।",
+      "start": 78.55,
+      "end": 82.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है प्रियांशी जी समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 83.61,
+      "end": 90.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am ये बताइएगा ये मतलब wholesale कहां पे है जो मैं देख पाऊं present में इसको?",
+      "start": 92.35,
+      "end": 97.31
+    },
+    {
+      "role": "BOT",
+      "text": "आप इसकी details seller से discuss कर सकते हैं। वो आपको सही जानकारी दे देंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 98.43,
+      "end": 105.51
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है Ma'am.",
+      "start": 107.89,
+      "end": 108.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.86,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

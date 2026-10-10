@@ -1,0 +1,98 @@
+{
+  "call_id": "454_90852946_7RMVLXVH5",
+  "file": "data/recordings/454_90852946_7RMVLXVH5.mp3",
+  "duration_s": 67.03,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] जी आपको Legrand Merius modular switches की requirement है ना?",
+      "start": 0.01,
+      "end": 4.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Madam.",
+      "start": 6.15,
+      "end": 6.83
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.95,
+      "end": 13.81
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को six MCQs fifty number.",
+      "start": 16.37,
+      "end": 18.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई मैं देख पा रही हूं। आपको series media से चाहिए ना?",
+      "start": 19.39,
+      "end": 23.01
+    },
+    {
+      "role": "BUYER",
+      "text": "15 MCQs 10 numbers.",
+      "start": 24.51,
+      "end": 26.31
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब current rating के बारे में बात कर लेते हैं। आपको 6 ampere चाहिए, 16 ampere या कुछ और?",
+      "start": 27.49,
+      "end": 33.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam मेरे को machine number packet 18, exam packet 18, exam packet 1 number.",
+      "start": 37.29,
+      "end": 45.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 46.57,
+      "end": 52.27
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको मैं secretary Price details आपको नहीं मालूम।",
+      "start": 47.45,
+      "end": 55.89
+    },
+    {
+      "role": "BOT",
+      "text": "price की जानकारी आप seller से discuss कर सकते हैं। वो आपको best rates देंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 57.03,
+      "end": 63.89
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 66.07,
+      "end": 66.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 3.9,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

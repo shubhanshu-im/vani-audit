@@ -1,0 +1,53 @@
+{
+  "call_id": "722_90685141_2T4XK1UG5",
+  "file": "data/recordings/722_90685141_2T4XK1UG5.mp3",
+  "duration_s": 33.26,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Sashi ji, you are looking for single mold bricks? Are you still there?",
+      "start": 0.11,
+      "end": 14.91
+    },
+    {
+      "role": "BUYER",
+      "text": "Would you like to continue our conversation?",
+      "start": 24.71,
+      "end": 26.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 10.08,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 3.81,
+        "end": 13.89,
+        "duration_s": 10.08,
+        "after_role": "BOT"
+      },
+      {
+        "start": 14.91,
+        "end": 24.71,
+        "duration_s": 9.8,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

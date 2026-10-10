@@ -1,0 +1,110 @@
+{
+  "call_id": "486_90852966_0CW4MXVH5",
+  "file": "data/recordings/486_90852966_0CW4MXVH5.mp3",
+  "duration_s": 75.24,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Decongestant of Liquid की requirement है ना?",
+      "start": 0.07,
+      "end": 3.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 7.71,
+      "end": 8.35
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं IndiaMART से बात कर रही हूं। आपको decanate of liquid की requirement थी ना?",
+      "start": 9.81,
+      "end": 14.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ये growth के लिए sound film।",
+      "start": 16.13,
+      "end": 18.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms या liters चाहिए?",
+      "start": 19.99,
+      "end": 27.13
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी लिए five liters लिए थे five kilo फिर इसके लिए free में थे growth आते हैं।",
+      "start": 29.75,
+      "end": 34.55
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं। आपको product form liquid ही चाहिए ना?",
+      "start": 35.61,
+      "end": 39.37
+    },
+    {
+      "role": "BUYER",
+      "text": "नीपड़ी चिलिए।",
+      "start": 40.99,
+      "end": 42.13
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब packaging size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 5 liters, 1 liter या कुछ और?",
+      "start": 43.29,
+      "end": 49.67
+    },
+    {
+      "role": "BUYER",
+      "text": "एक एक liter।",
+      "start": 51.19,
+      "end": 51.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? और आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 53.05,
+      "end": 58.83
+    },
+    {
+      "role": "BUYER",
+      "text": "इसलिए growth चले आती है या growth आते नहीं आते।",
+      "start": 60.87,
+      "end": 63.99
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप ये details seller के साथ discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 65.09,
+      "end": 71.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 74.97,
+      "end": 75.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 4.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

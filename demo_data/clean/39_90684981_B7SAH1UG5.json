@@ -1,0 +1,130 @@
+{
+  "call_id": "39_90684981_B7SAH1UG5",
+  "file": "data/recordings/39_90684981_B7SAH1UG5.mp3",
+  "duration_s": 82.15,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.01,
+      "end": 1.07
+    },
+    {
+      "role": "BOT",
+      "text": "Hello आपको two burner gas भाटी की requirement है ना?",
+      "start": 0.61,
+      "end": 4.11
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.51,
+      "end": 6.01
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए? एक piece कितने पड़ेगा? दो बजेगा। price के लिए आप seller से बात कर सकते हैं। वो आपको best rate देंगे। अभी आप बस details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 7.71,
+      "end": 25.97
+    },
+    {
+      "role": "BUYER",
+      "text": "एक चीज चाहिए है three stop वाला या two stop वाला।",
+      "start": 27.71,
+      "end": 31.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं। आपको number of burners दो ही चाहिए ना?",
+      "start": 31.93,
+      "end": 35.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ।",
+      "start": 32.91,
+      "end": 37.33
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब length के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 36 inch या 48 inch या कुछ और?",
+      "start": 38.57,
+      "end": 45.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। tailor से contact कराइए।",
+      "start": 44.23,
+      "end": 49.13
+    },
+    {
+      "role": "BOT",
+      "text": "बस कुछ details चाहिए ताकि मैं आपको सही seller से connect कर सकूं। आप अपनी city और state भी बता दीजिए please।",
+      "start": 50.17,
+      "end": 56.35
+    },
+    {
+      "role": "BUYER",
+      "text": "कानपुर कानपुर कानपुर कानपुर हिंदी है उत्तर प्रदेश। आप Kanpur उत्तर।",
+      "start": 57.89,
+      "end": 63.15
+    },
+    {
+      "role": "BOT",
+      "text": "आप कानपुर उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 62.35,
+      "end": 64.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 65.71,
+      "end": 66.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपना नाम भी बता दीजिए please.",
+      "start": 67.19,
+      "end": 69.67
+    },
+    {
+      "role": "BUYER",
+      "text": "लक्ष्य लक्ष्य।",
+      "start": 71.85,
+      "end": 72.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 74.07,
+      "end": 80.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay thank you.",
+      "start": 80.91,
+      "end": 81.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.48,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 5
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "call_id": "532_90852982_35WCMXVH5",
+  "file": "data/recordings/532_90852982_35WCMXVH5.mp3",
+  "duration_s": 91.51,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको small silver steel broom handle की requirement है ना?",
+      "start": 0.01,
+      "end": 3.89
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। आपको small silver steel broom handle की requirement थी ना? steel की नहीं जी गेदरा की गेदरा की।",
+      "start": 5.63,
+      "end": 14.81
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको small silver steel broom handle की जगह zebra broom handle चाहिए जो आमतौर पर सफाई के लिए इस्तेमाल होता है।",
+      "start": 15.69,
+      "end": 22.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 24.35,
+      "end": 24.85
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 26.57,
+      "end": 32.41
+    },
+    {
+      "role": "BUYER",
+      "text": "दो हज़ार।",
+      "start": 34.79,
+      "end": 36.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है चलिए अब material के बारे में बात कर लेते हैं। आपको plastic चाहिए या कुछ और?",
+      "start": 37.75,
+      "end": 41.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Classic zebra pajama ना?",
+      "start": 43.43,
+      "end": 45.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब length के बारे में बताइए आपको 18 inch, 21 inch या कुछ और चाहिए?",
+      "start": 46.33,
+      "end": 51.09
+    },
+    {
+      "role": "BUYER",
+      "text": "21 inch.",
+      "start": 53.35,
+      "end": 54.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 55.47,
+      "end": 58.15
+    },
+    {
+      "role": "BUYER",
+      "text": "उत्तर प्रदेश।",
+      "start": 60.21,
+      "end": 61.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। पर आप Uttar Pradesh में किस city से बोल रहे हैं? Please बता दीजिए।",
+      "start": 62.53,
+      "end": 67.25
+    },
+    {
+      "role": "BUYER",
+      "text": "गाँव गाँव।",
+      "start": 67.35,
+      "end": 69.45
+    },
+    {
+      "role": "BOT",
+      "text": "आप गाजीपुर उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 70.37,
+      "end": 72.61
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 74.15,
+      "end": 74.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपना नाम भी बता दीजिए please.",
+      "start": 75.61,
+      "end": 77.79
+    },
+    {
+      "role": "BUYER",
+      "text": "राजन सिंह।",
+      "start": 79.55,
+      "end": 80.45
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 81.27,
+      "end": 88.95
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका।",
+      "start": 91.03,
+      "end": 91.73
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

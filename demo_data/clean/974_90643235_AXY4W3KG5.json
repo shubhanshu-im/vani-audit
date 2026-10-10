@@ -1,0 +1,110 @@
+{
+  "call_id": "974_90643235_AXY4W3KG5",
+  "file": "data/recordings/974_90643235_AXY4W3KG5.mp3",
+  "duration_s": 77.11,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Tamil ji you are looking for 7.50 R16 Apollo andure retread right.",
+      "start": 0.19,
+      "end": 6.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes, ma'am.",
+      "start": 7.63,
+      "end": 8.13
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk. How many piece or pair do you need?",
+      "start": 9.85,
+      "end": 17.27
+    },
+    {
+      "role": "BUYER",
+      "text": "I'm single.",
+      "start": 18.93,
+      "end": 19.95
+    },
+    {
+      "role": "BOT",
+      "text": "Do you need one piece?",
+      "start": 20.95,
+      "end": 22.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes, sir. Got it. Let's talk about tire size now. Which one would you like, 10, 0 to 20 or something else? Done. One more. Sorry, I couldn't catch that clearly. Which cell size do you prefer?",
+      "start": 23.21,
+      "end": 40.01
+    },
+    {
+      "role": "BOT",
+      "text": "for ten zero to twenty or something else.",
+      "start": 40.01,
+      "end": 42.39
+    },
+    {
+      "role": "BUYER",
+      "text": "No ma'am. Only one.",
+      "start": 43.91,
+      "end": 45.79
+    },
+    {
+      "role": "BOT",
+      "text": "I understand. Since you're unsure about the size, the seller will help you with this. What would you prefer for tire construction, radial, nylon, or something else?",
+      "start": 46.71,
+      "end": 55.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Radial.",
+      "start": 56.51,
+      "end": 57.29
+    },
+    {
+      "role": "BOT",
+      "text": "Perfect. I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 58.35,
+      "end": 64.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay, ma'am.",
+      "start": 65.45,
+      "end": 66.01
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you for choosing IndiaMART. Have a nice day.",
+      "start": 67.19,
+      "end": 69.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay mom. SDO.",
+      "start": 71.15,
+      "end": 73.11
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.68,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

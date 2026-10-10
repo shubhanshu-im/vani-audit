@@ -1,0 +1,44 @@
+{
+  "call_id": "262_90797312_F5YVVXFH5",
+  "file": "data/recordings/262_90797312_F5YVVXFH5.mp3",
+  "duration_s": 40.61,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको portable cargo container की requirement है ना? जी ma'am। ठीक है? मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको मैं seller details WhatsApp पर भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो। Hello Ma'am. Thank you for choosing IndiaMART. Have a great day.",
+      "start": 0.55,
+      "end": 33.57
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 31.43,
+      "end": 31.81
+    },
+    {
+      "role": "BOT",
+      "text": "और",
+      "start": 35.21,
+      "end": 35.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 3.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

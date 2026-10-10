@@ -1,0 +1,146 @@
+{
+  "call_id": "241_90741518_XM23GL4H5",
+  "file": "data/recordings/241_90741518_XM23GL4H5.mp3",
+  "duration_s": 121.25,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Coromandel Godavari Zippo fertilizer की requirement है ना?",
+      "start": 0.01,
+      "end": 5.07
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Hello. Hello. Hello.",
+      "start": 6.77,
+      "end": 15.41
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilogram चाहिए होंगे?",
+      "start": 15.13,
+      "end": 22.17
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या rate है madam price क्या है?",
+      "start": 24.89,
+      "end": 26.53
+    },
+    {
+      "role": "BOT",
+      "text": "Return price seller से ही confirm हो पाएगा। पहले quantity बता दीजिए कितने kilogram चाहिए?",
+      "start": 28.45,
+      "end": 33.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam जी एक ये बता दो powder form में आता है या फिर दानेदार आता है?",
+      "start": 35.71,
+      "end": 39.97
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। यह powder और दानेदार दोनों में मिल सकता है। आपको कौन सा चाहिए powder या दानेदार?",
+      "start": 41.93,
+      "end": 47.09
+    },
+    {
+      "role": "BUYER",
+      "text": "Result किसका ज्यादा है?",
+      "start": 48.45,
+      "end": 49.81
+    },
+    {
+      "role": "BOT",
+      "text": "दानेदार और powder दोनों का result अच्छा होता है लेकिन आपकी जरूरत और खेत की मिट्टी पर depend करता है। आपको कौन सा prefer करेंगे?",
+      "start": 51.83,
+      "end": 59.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam मेरे को सर को लगानी है।",
+      "start": 62.05,
+      "end": 63.65
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई सरसों के लिए आमतौर पे powder form ज्यादा use होता है। आपको कितना kilogram चाहिए?",
+      "start": 65.69,
+      "end": 70.65
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam मेरे को चाहिए एक एकड़ में कितना लगेगा सरसों में दो bag या तीन bag तीन bag बोल रहा हूँ।",
+      "start": 72.99,
+      "end": 80.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? 3 bag के हिसाब से quantity डाल देती हूं। अब zinc content में क्या चाहिए? जैसे 35% या 21% या कुछ और?",
+      "start": 82.23,
+      "end": 89.39
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या है Madam?",
+      "start": 90.95,
+      "end": 91.73
+    },
+    {
+      "role": "BOT",
+      "text": "Zinc content मतलब इसमें Zinc की quantity.",
+      "start": 96.01,
+      "end": 97.95
+    },
+    {
+      "role": "BUYER",
+      "text": "content मतलब",
+      "start": 96.05,
+      "end": 97.41
+    },
+    {
+      "role": "BOT",
+      "text": "Red Cell ही बताएगा आपको best price मिलेगा। आप zinc में कौन सा percent लेना चाहेंगे 33 percent, 21 percent या कुछ और?",
+      "start": 99.51,
+      "end": 106.33
+    },
+    {
+      "role": "BUYER",
+      "text": "बताएगा आपको। That is the trend.",
+      "start": 100.05,
+      "end": 108.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपने zinc content 35% बताया है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 110.85,
+      "end": 121.59
+    },
+    {
+      "role": "BUYER",
+      "text": "के लिए धन्यवाद।",
+      "start": 119.49,
+      "end": 120.05
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 4.28,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

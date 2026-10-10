@@ -1,0 +1,69 @@
+{
+  "call_id": "469_90643091_RLD8U3KG5",
+  "file": "data/recordings/469_90643091_RLD8U3KG5.mp3",
+  "duration_s": 28.37,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको VKC Men Footwears की requirement है ना?",
+      "start": 0.01,
+      "end": 3.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 4.97,
+      "end": 5.45
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने pair चाहिए?",
+      "start": 6.71,
+      "end": 12.51
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 14.23,
+      "end": 14.71
+    },
+    {
+      "role": "BOT",
+      "text": "इसलिए आपको कितने पैर की जरूरत है?",
+      "start": 16.99,
+      "end": 18.71
+    },
+    {
+      "role": "BUYER",
+      "text": "नमस्ते।",
+      "start": 28.01,
+      "end": 28.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 9.3,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 18.71,
+        "end": 28.01,
+        "duration_s": 9.3,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

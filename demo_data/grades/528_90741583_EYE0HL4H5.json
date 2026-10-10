@@ -1,0 +1,322 @@
+{
+  "call_id": "528_90741583_EYE0HL4H5",
+  "duration_s": 83.95,
+  "graded_at": "2026-10-10T12:35:06+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Qty Missed Opportunity, Spec Missed Opportunity, Looping Behavior, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी आपको bio fertilizers की requirement थी ना?",
+      "timestamp": 6.79,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated max 2L but bot never asked or captured it.",
+      "evidence_verified": true,
+      "llm_timestamp": 6.8
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Liquid liquid liquid",
+      "timestamp": 64.97,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer clearly stated liquid form but bot missed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 65.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको packaging size में क्या चाहिए जैसे एक kilogram, पचास kilograms या कुछ और?",
+      "timestamp": 45.89,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot looped on packaging size spec 3 times after buyer's response.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई",
+      "timestamp": 36.41,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard buyer's packaging size response.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a product requirement and bot created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was captured or confirmed by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was captured or confirmed by the bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed to be probed as it was provided by the buyer."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी आपको bio fertilizers की requirement थी ना?",
+      "timestamp": 6.79,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated max 2L but bot never asked or captured it.",
+      "evidence_verified": true,
+      "llm_timestamp": 6.8
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not asked or captured correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not asked or captured correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Liquid liquid liquid",
+      "timestamp": 64.97,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer clearly stated liquid form but bot missed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 65.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको packaging size में क्या चाहिए जैसे एक kilogram, पचास kilograms या कुछ और?",
+      "timestamp": 45.89,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot looped on packaging size spec 3 times after buyer's response.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear misrecognition that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never in question."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No bot-side silence of more than 5s."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई",
+      "timestamp": 36.41,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard buyer's packaging size response.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.4
+    }
+  ],
+  "captured_lead": {
+    "product": "bio fertilizers",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "physical form",
+        "value": "liquid"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot failed to capture buyer's quantity and packaging size.",
+      "timestamp": 22.5,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot looped on packaging size spec 3 times.",
+      "timestamp": 45.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on packaging size and missed the buyer's quantity (2L) and liquid form requirement, leading to an incomplete lead.",
+  "analysis": "Buyer requested bio fertilizers, max 2 liters, liquid form. Bot failed to capture quantity (2L) and packaging size (50 kg), looping on spec. Buyer confirmed liquid twice but bot missed it. Call ended with WhatsApp lead.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8987,
+    "completion_tokens": 2506
+  },
+  "unresolved_problems": []
+}

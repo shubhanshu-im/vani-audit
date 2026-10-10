@@ -1,0 +1,74 @@
+{
+  "call_id": "513_90797384_WZTMXXFH5",
+  "file": "data/recordings/513_90797384_WZTMXXFH5.mp3",
+  "duration_s": 56.59,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी 10 mm Mahaveer TMT bar FA 550 D की request IndiaMART पर placed है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 7.55
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी बोलिए।",
+      "start": 11.17,
+      "end": 12.21
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कितने ton या kilogram की जरूरत है?",
+      "start": 13.69,
+      "end": 15.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ बोलिए। लगभग पंद्रह quintal।",
+      "start": 14.43,
+      "end": 22.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब grade के बारे में बात कर लेते हैं। आपको कौन सा चाहिए? C 550 D, C 500 या कुछ और?",
+      "start": 23.19,
+      "end": 29.27
+    },
+    {
+      "role": "BUYER",
+      "text": "500 D Varanasi. ठीक है अब brand के बारे में बात कर लेते हैं आपको कौन सा चाहिए जैसे Jindal Panther, Tata Tiskon या कोई और? महावीर नहीं मिलेगा। महावीर।",
+      "start": 31.35,
+      "end": 45.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 46.43,
+      "end": 53.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 54.83,
+      "end": 55.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 4.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

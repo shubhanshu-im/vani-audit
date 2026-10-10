@@ -1,0 +1,106 @@
+{
+  "call_id": "763_90643191_F5FHV3KG5",
+  "file": "data/recordings/763_90643191_F5FHV3KG5.mp3",
+  "duration_s": 64.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "तो।",
+      "start": 0.01,
+      "end": 0.43
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको solar structure accessories की requirement है ना?",
+      "start": 0.41,
+      "end": 4.35
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। जी।",
+      "start": 1.95,
+      "end": 5.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 6.67,
+      "end": 17.19
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को तो दो सौ तीन सौ piece चाहिए sir enrollment के लिए।",
+      "start": 19.01,
+      "end": 23.57
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब brand के बारे में बात कर लेते हैं। आपको strawberry चाहिए या कुछ और?",
+      "start": 24.63,
+      "end": 29.29
+    },
+    {
+      "role": "BUYER",
+      "text": "ब्रांड जी मेरे को तो GI में चाहिए Indore में door पे साथ में।",
+      "start": 25.93,
+      "end": 33.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब material की बात करते हैं। आपको aluminum, stainless steel, GI या plastic में से क्या चाहिए?",
+      "start": 34.63,
+      "end": 39.91
+    },
+    {
+      "role": "BUYER",
+      "text": "जी हाँ जी हाँ जी हाँ।",
+      "start": 39.75,
+      "end": 42.21
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 43.19,
+      "end": 47.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ मैं ये कह रहा हूँ कहीं मेरे संग वो कोई forward तो नहीं हो जाएगा ना?",
+      "start": 48.01,
+      "end": 52.81
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं ऐसा नहीं होगा। आप निश्चिंत रहें मैं बस आपकी details confirm कर रही हूं। IndiaMART से।",
+      "start": 53.83,
+      "end": 58.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ मैं सब आपकी समझ रहा हूँ एक बार मैंने LA के लिए अपना वो किया।",
+      "start": 58.17,
+      "end": 64.35
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 7,
+    "longest_gap_s": 1.82,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "call_id": "749_90643176_CCF9V3KG5",
+  "file": "data/recordings/749_90643176_CCF9V3KG5.mp3",
+  "duration_s": 95.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको concrete roof cutting machine की requirement है ना?",
+      "start": 0.21,
+      "end": 4.11
+    },
+    {
+      "role": "BUYER",
+      "text": "तो आपके group में। हो।",
+      "start": 1.51,
+      "end": 5.89
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। आपको concrete groove cutting machine की requirement थी ना?",
+      "start": 6.95,
+      "end": 10.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Madam.",
+      "start": 12.27,
+      "end": 13.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको power source electric ही चाहिए ना?",
+      "start": 13.91,
+      "end": 26.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। नहीं diesel diesel का।",
+      "start": 21.55,
+      "end": 27.93
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब power के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 13 HP, 10 HP या कुछ और?",
+      "start": 28.87,
+      "end": 34.99
+    },
+    {
+      "role": "BUYER",
+      "text": "ये जो मैं select करा था ना thirty thousand का बोलके उसमें diesel का है ना।",
+      "start": 36.37,
+      "end": 40.97
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी बात clear नहीं हुई please दोबारा बताइए। आपको power में क्या prefer करेंगे जैसे 13 HP, 10 HP या कुछ और?",
+      "start": 41.97,
+      "end": 48.45
+    },
+    {
+      "role": "BUYER",
+      "text": "और 30 inch का क्या rate है 10 inch उसका क्या rate है?",
+      "start": 49.91,
+      "end": 53.69
+    },
+    {
+      "role": "BOT",
+      "text": "rate के बारे में आप seller से discuss कर सकते हैं वो आपको best rates देंगे। अभी आप power बता दीजिए 13 HP, 10 HP या कुछ और?",
+      "start": 54.65,
+      "end": 61.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारे हमारे घर तो चले गए।",
+      "start": 62.17,
+      "end": 63.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller इस बारे में आपकी मदद करेंगे। अब बस आपकी city और state बता दीजिए please।",
+      "start": 64.61,
+      "end": 69.39
+    },
+    {
+      "role": "BUYER",
+      "text": "कर्नाटक area district.",
+      "start": 70.05,
+      "end": 72.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 73.17,
+      "end": 75.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Karnataka.",
+      "start": 76.77,
+      "end": 77.83
+    },
+    {
+      "role": "BOT",
+      "text": "आप Karnataka में किस city से बोल रहे हैं? Please बताइए।",
+      "start": 78.75,
+      "end": 81.83
+    },
+    {
+      "role": "BUYER",
+      "text": "याग्येल याग्येल।",
+      "start": 81.15,
+      "end": 82.97
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे समझ नहीं आया आप कर्नाटक में किस city से बोल रहे हैं कृपया फिर से बता दीजिए sorry मुझे अभी भी clear नहीं हो पाया please एक बार फिर से बता दीजिए आप किस city",
+      "start": 84.01,
+      "end": 95.99
+    },
+    {
+      "role": "BUYER",
+      "text": "चलो। यादगिरी। यादगिरी।",
+      "start": 86.57,
+      "end": 90.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 1.52,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

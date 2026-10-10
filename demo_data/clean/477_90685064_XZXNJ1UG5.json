@@ -1,0 +1,195 @@
+{
+  "call_id": "477_90685064_XZXNJ1UG5",
+  "file": "data/recordings/477_90685064_XZXNJ1UG5.mp3",
+  "duration_s": 184.39,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको prefabricated labor quarter की requirement है ना?",
+      "start": 0.01,
+      "end": 3.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Hello, where are you from?",
+      "start": 1.41,
+      "end": 6.31
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं सिर्फ हिंदी या English में बात कर सकती हूं। क्या आप हिंदी या English में बता सकते हैं किस चीज की जानकारी चाहिए?",
+      "start": 8.23,
+      "end": 14.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Police.",
+      "start": 15.25,
+      "end": 15.95
+    },
+    {
+      "role": "BOT",
+      "text": "Sure, I can speak in English. Please tell me what product. Service you are looking for on IndiaMART.",
+      "start": 17.75,
+      "end": 23.15
+    },
+    {
+      "role": "BUYER",
+      "text": "Your mate.",
+      "start": 28.99,
+      "end": 30.63
+    },
+    {
+      "role": "BOT",
+      "text": "I'm here to help with product inquiries on IndiaMART. Could you please tell me which product or service you are interested in today?",
+      "start": 32.21,
+      "end": 39.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Price.",
+      "start": 43.25,
+      "end": 43.99
+    },
+    {
+      "role": "BOT",
+      "text": "I'm an IndiaMART help desk agent. I connect you with verified sellers across all locations in India. Which product do you want information about?",
+      "start": 45.63,
+      "end": 53.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 55.53,
+      "end": 56.15
+    },
+    {
+      "role": "BOT",
+      "text": "Great. Are you interested?",
+      "start": 57.79,
+      "end": 59.19
+    },
+    {
+      "role": "BUYER",
+      "text": "In prefabricated labor quarter, please confirm so I can assist you further. Where is.",
+      "start": 59.19,
+      "end": 70.23
+    },
+    {
+      "role": "BOT",
+      "text": "Just to clarify, are you looking for information about prefabricated structures for workers or something else? Please confirm so I can help you better. I can help you connect with good sellers. First, please confirm which product or service you are interested in on IndiaMART.",
+      "start": 72.35,
+      "end": 90.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 92.81,
+      "end": 93.29
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you. Are you looking for a prefabricated structure for worker accommodation? Please confirm so I can assist you further.",
+      "start": 94.97,
+      "end": 101.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 102.57,
+      "end": 102.95
+    },
+    {
+      "role": "BOT",
+      "text": "Perfect. I am Tanya from India Mart. We have many good sellers available. Just need to confirm a few details to connect you with the right seller. How many square feet do you need?",
+      "start": 104.43,
+      "end": 114.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 106.03,
+      "end": 106.39
+    },
+    {
+      "role": "BOT",
+      "text": "Okay. Can you please tell me the total square feet area you require? This helps me find the best seller for you. Please tell me approximately how many square feet you need. It can be an estimate, no problem. Are you still there? Please share the required square feet area so I can assist you. No problem. Whenever you are ready, just let me know how many square feet you need.",
+      "start": 115.05,
+      "end": 161.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes. Malayalam.",
+      "start": 160.55,
+      "end": 164.57
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry, I can only speak in Hindi or English. Please continue in either language and let me know the square feet area you need.",
+      "start": 166.37,
+      "end": 173.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay time.",
+      "start": 175.47,
+      "end": 176.11
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you. Could you please tell me your city and state as well? This will help.",
+      "start": 179.65,
+      "end": 183.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Click.",
+      "start": 183.99,
+      "end": 184.49
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 12,
+    "longest_gap_s": 9.92,
+    "gaps_over_5s": 4,
+    "long_gaps": [
+      {
+        "start": 23.15,
+        "end": 28.99,
+        "duration_s": 5.84,
+        "after_role": "BOT"
+      },
+      {
+        "start": 123.59,
+        "end": 131.65,
+        "duration_s": 8.06,
+        "after_role": "BOT"
+      },
+      {
+        "start": 136.49,
+        "end": 146.41,
+        "duration_s": 9.92,
+        "after_role": "BOT"
+      },
+      {
+        "start": 150.93,
+        "end": 157.55,
+        "duration_s": 6.62,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

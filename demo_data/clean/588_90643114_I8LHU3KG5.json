@@ -1,0 +1,92 @@
+{
+  "call_id": "588_90643114_I8LHU3KG5",
+  "file": "data/recordings/588_90643114_I8LHU3KG5.mp3",
+  "duration_s": 78.19,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello.",
+      "start": 0.01,
+      "end": 0.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello Thambiraj ji, you were looking for HDP conveyor idler right?",
+      "start": 0.41,
+      "end": 4.05
+    },
+    {
+      "role": "BOT",
+      "text": "What should I say? Got it. I am Tanya from Indiamart. We have many good sellers available and I will connect you with the most suitable one shortly. First I would just like to confirm a few details. How many piece are you looking for? India ma. Third number.",
+      "start": 6.89,
+      "end": 26.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Alright, let's talk about roller diameter now. Which one would you like, 76 mm and 3 inch, 50 mm or something else? Twenty six. Perfect.",
+      "start": 27.29,
+      "end": 39.59
+    },
+    {
+      "role": "BOT",
+      "text": "Which roller length do you want like 600 mm, 2 feet, 300 mm or something else?",
+      "start": 39.59,
+      "end": 44.75
+    },
+    {
+      "role": "BUYER",
+      "text": "nine hundred fifty.",
+      "start": 49.01,
+      "end": 50.47
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I can see you wanted HDP for material, right?",
+      "start": 51.59,
+      "end": 54.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Famous material.",
+      "start": 57.11,
+      "end": 58.15
+    },
+    {
+      "role": "BOT",
+      "text": "Alright, I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 59.15,
+      "end": 64.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 66.59,
+      "end": 67.01
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you for choosing IndiaMART. Have a nice day. Thank you.",
+      "start": 68.21,
+      "end": 72.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 4.26,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

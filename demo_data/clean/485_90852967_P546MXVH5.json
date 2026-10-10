@@ -1,0 +1,74 @@
+{
+  "call_id": "485_90852967_P546MXVH5",
+  "file": "data/recordings/485_90852967_P546MXVH5.mp3",
+  "duration_s": 47.52,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी RGB lights की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.27,
+      "end": 5.71
+    },
+    {
+      "role": "BUYER",
+      "text": "बोलिए।",
+      "start": 7.43,
+      "end": 8.59
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब bulb type के बारे में बात कर लेते हैं। आपको कौन सा चाहिए LED या pixel LED या कुछ और?",
+      "start": 10.19,
+      "end": 15.23
+    },
+    {
+      "role": "BUYER",
+      "text": "rice भी चाहिए multicolor और एक रंग वाला।",
+      "start": 16.97,
+      "end": 20.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपकी पसंद note कर लिया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 21.89,
+      "end": 28.03
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं multi color में चाहिए आप color में चाहिए। पंद्रह meter बीस meter।",
+      "start": 29.93,
+      "end": 36.37
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद। मैंने ये details note कर ली हैं। आपकी details note कर ली गई हैं और जल्द ही एक seller...",
+      "start": 37.45,
+      "end": 41.81
+    },
+    {
+      "role": "BUYER",
+      "text": "बाद में ये details और जल्दी। प्राप्त से प्राप्त।",
+      "start": 37.71,
+      "end": 45.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.76,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

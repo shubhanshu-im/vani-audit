@@ -1,0 +1,111 @@
+{
+  "call_id": "517_90685081_Z482K1UG5",
+  "file": "data/recordings/517_90685081_Z482K1UG5.mp3",
+  "duration_s": 79.34,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको CNS MCB DC 16 की requirement है ना?",
+      "start": 0.49,
+      "end": 4.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Hello.",
+      "start": 6.35,
+      "end": 9.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 11.15,
+      "end": 20.89
+    },
+    {
+      "role": "BUYER",
+      "text": "एक।",
+      "start": 22.15,
+      "end": 22.69
+    },
+    {
+      "role": "BOT",
+      "text": "कृपया बताइए आपको कितने piece चाहिए होंगे?",
+      "start": 24.75,
+      "end": 27.07
+    },
+    {
+      "role": "BUYER",
+      "text": "एक एक चाहिए।",
+      "start": 27.69,
+      "end": 28.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए rated current में कौन सा prefer करेंगे 16 ampere या 10 ampere या कुछ और?",
+      "start": 30.39,
+      "end": 35.47
+    },
+    {
+      "role": "BUYER",
+      "text": "पोला MP।",
+      "start": 36.39,
+      "end": 37.17
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। number of poles में क्या चाहिए? एक pole या दो pole या कुछ और?",
+      "start": 38.79,
+      "end": 42.87
+    },
+    {
+      "role": "BUYER",
+      "text": "एक मिनट देखता हूं। बिल्कुल आप देख लीजिए मैं यही हूं।",
+      "start": 44.45,
+      "end": 49.47
+    },
+    {
+      "role": "BOT",
+      "text": "आप अभी भी line पर हैं? बस number of poll बता दीजिए।",
+      "start": 59.83,
+      "end": 62.79
+    },
+    {
+      "role": "BUYER",
+      "text": "दो बोल।",
+      "start": 66.49,
+      "end": 67.15
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 68.81,
+      "end": 77.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 10.36,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 49.47,
+        "end": 59.83,
+        "duration_s": 10.36,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

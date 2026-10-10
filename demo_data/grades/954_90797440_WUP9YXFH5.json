@@ -1,0 +1,286 @@
+{
+  "call_id": "954_90797440_WUP9YXFH5",
+  "duration_s": 46.73,
+  "graded_at": "2026-10-10T12:46:43+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer asked about a loan, bot couldn't help, but still created a lead.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा करें मैं इस बारे में आपकी मदद नहीं कर सकता।",
+      "timestamp": 14.03,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Buyer asked about a loan, bot couldn't help, but still created a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 14.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=25.5 क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 25.47,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 25.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा करें मैं इस बारे में आपकी मदद नहीं कर सकता।",
+      "timestamp": 14.03,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Buyer asked about a loan, bot couldn't help, but still created a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 14.0
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "RAM में क्या prefer करेंगे 8 GB, 16 GB या कोई और?",
+      "timestamp": 25.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for spec, buyer confirmed 8 GB."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No further specs were discussed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=25.5 क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 25.47,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 25.5
+    }
+  ],
+  "captured_lead": {
+    "product": "Panasonic CF33 rugged laptop",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "RAM",
+        "value": "8 GB"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer inquired about a loan, not a product purchase.",
+      "timestamp": 14.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call with a lead despite buyer's loan inquiry and missing critical fields like name, city, and quantity.",
+  "analysis": "The buyer inquired about a Panasonic CF33 rugged laptop and mentioned taking a loan ('पैसे लेगी'). The bot clarified it couldn't help with loans, then asked for RAM preference (8 GB, 16 GB), and the buyer confirmed 8 GB. The bot then prematurely closed the call with a seller contact closing before collecting quantity, name, or location. The buyer never confirmed a requirement for a lead; it was a loan inquiry.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3599,
+    "completion_tokens": 1267
+  },
+  "unresolved_problems": []
+}

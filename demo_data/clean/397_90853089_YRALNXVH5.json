@@ -1,0 +1,87 @@
+{
+  "call_id": "397_90853089_YRALNXVH5",
+  "file": "data/recordings/397_90853089_YRALNXVH5.mp3",
+  "duration_s": 54.0,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको UK EV charger की requirement है ना?",
+      "start": 0.01,
+      "end": 3.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 9.39,
+      "end": 9.95
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब vehicle type के बारे में बात कर लेते हैं। आपको electric loaders चाहिए या electric scooter?",
+      "start": 11.39,
+      "end": 21.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Electric super से ही madam.",
+      "start": 22.59,
+      "end": 24.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब range के बारे में बताइए आपको 100 kilometers, 150 kilometers या कोई और range चाहिए?",
+      "start": 25.09,
+      "end": 30.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म साठ से किलोमीटर तक की सही होगी।",
+      "start": 32.89,
+      "end": 35.43
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं आपको battery type lead acid ही चाहिए ना?",
+      "start": 36.55,
+      "end": 40.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 42.17,
+      "end": 42.79
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 43.77,
+      "end": 51.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 5.48,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 3.91,
+        "end": 9.39,
+        "duration_s": 5.48,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

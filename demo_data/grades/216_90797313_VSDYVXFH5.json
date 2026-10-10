@@ -1,0 +1,306 @@
+{
+  "call_id": "216_90797313_VSDYVXFH5",
+  "duration_s": 118.87,
+  "graded_at": "2026-10-10T12:27:08+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "WER: Buyer said 3000 pouches, bot heard 3000 rupees",
+  "fatal_params": [
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "state का नाम भी बता दीजिए please.",
+      "timestamp": 74.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated state question once",
+      "evidence_verified": true,
+      "llm_timestamp": 74.2
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "करो। तीन हजार रुपये की घंटी।",
+      "timestamp": 58.65,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 3000 pouches, bot heard 3000 rupees",
+      "evidence_verified": true,
+      "llm_timestamp": 58.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 108.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send details on WhatsApp",
+      "evidence_verified": true,
+      "llm_timestamp": 108.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity probed"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not discussed"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "filling capacity 200 milliliters ही चाहिए ना?",
+      "timestamp": 12.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed 200ml"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked or captured"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs missed"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "state का नाम भी बता दीजिए please.",
+      "timestamp": 74.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated state question once",
+      "evidence_verified": true,
+      "llm_timestamp": 74.2
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "करो। तीन हजार रुपये की घंटी।",
+      "timestamp": 58.65,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 3000 pouches, bot heard 3000 rupees",
+      "evidence_verified": true,
+      "llm_timestamp": 58.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 108.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send details on WhatsApp",
+      "evidence_verified": true,
+      "llm_timestamp": 108.4
+    }
+  ],
+  "captured_lead": {
+    "product": "mustard oil pouch packing machine",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "filling capacity",
+        "value": "200 milliliters"
+      },
+      {
+        "name": "product capacity",
+        "value": "3000 rupees ki ghanti"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Aurangabad",
+    "state": "Maharashtra"
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for company location at end",
+      "timestamp": 113.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard '3000 pouches' as '3000 rupees', and failed to capture product capacity spec. Also looped on state question.",
+  "analysis": "Buyer wants a mustard oil pouch packing machine, confirmed 200ml filling capacity and 3000 pouches/hour. Bot confirmed 200ml but misheard 3000 pouches as '3000 rupees ki ghanti'. Bot asked for city/state multiple times, finally got Aurangabad, Maharashtra. Bot confirmed name [NAME]. Call ended with bot promising to send seller details on WhatsApp; buyer asked for company location at the end.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4081,
+    "completion_tokens": 1218
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,87 @@
+{
+  "call_id": "935_90741726_5Z2SIL4H5",
+  "file": "data/recordings/935_90741726_5Z2SIL4H5.mp3",
+  "duration_s": 77.18,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको paddy separator की requirement है ना?",
+      "start": 0.01,
+      "end": 3.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 5.27,
+      "end": 5.75
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं ठीक से समझ नहीं पाई। क्या आपको paddy separator की जरूरत है?",
+      "start": 7.05,
+      "end": 11.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हैं या आप किसी और product के बारे में बात कर रहे हैं? Yes yes I want to participate.",
+      "start": 11.21,
+      "end": 16.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए sauce? दो सौ kilograms per hour या कुछ और।",
+      "start": 18.15,
+      "end": 32.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 38.89,
+      "end": 39.39
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं सुन रही हूं। बताइए capacity में आपको 100 से 200 kilograms per hour चाहिए या कुछ और? ओ बस बस यही बस। ठीक है। मैं देख पा रही हूं। आपको operation mode automatic ही चाहिए ना? [change] automatic। समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 40.69,
+      "end": 64.31
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 65.37,
+      "end": 66.05
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 67.17,
+      "end": 70.01
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 6.38,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 32.51,
+        "end": 38.89,
+        "duration_s": 6.38,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "call_id": "339_90797343_6BN0XXFH5",
+  "duration_s": 77.04,
+  "graded_at": "2026-10-10T12:30:22+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Buyer stated quantity but bot never captured or confirmed it.",
+  "fatal_params": [
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "hundred एस्टा है।",
+      "timestamp": 41.21,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated quantity but bot never captured or confirmed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "कुछ तो कर। Sorry.",
+      "timestamp": 31.45,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "ASR misheard buyer's unclear response.",
+      "evidence_verified": true,
+      "llm_timestamp": 31.4
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Patna area है।",
+      "timestamp": 74.51,
+      "root_cause_type": null,
+      "confidence": "medium",
+      "reason": "Buyer provided city/state at the very end after bot closed.",
+      "evidence_verified": true,
+      "llm_timestamp": 74.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated requirement and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never captured or confirmed the quantity 'hundred'."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never captured or confirmed the unit 'square feet'."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "hundred एस्टा है।",
+      "timestamp": 41.21,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated quantity but bot never captured or confirmed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.2
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Glass ਔਰ Aluminum ਦਾ mix panel ਦੇ ਉੱਤੇ।",
+      "timestamp": 52.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured Glass and Aluminum mix for panel material."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Alkaline हो जाएगी।",
+      "timestamp": 63.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured Alkaline for frame material."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "All relevant specs were captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot repeated quantity question once due to ASR error, but no harm done."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "कुछ तो कर। Sorry.",
+      "timestamp": 31.45,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "ASR misheard buyer's unclear response.",
+      "evidence_verified": true,
+      "llm_timestamp": 31.4
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed office partitions."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors visible."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No MCAT or search errors evident."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Patna area है।",
+      "timestamp": 74.51,
+      "root_cause_type": null,
+      "confidence": "medium",
+      "reason": "Buyer provided city/state at the very end after bot closed.",
+      "evidence_verified": true,
+      "llm_timestamp": 74.5
+    }
+  ],
+  "captured_lead": {
+    "product": "office partitions",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "panel material",
+        "value": "Glass and Aluminum mix"
+      },
+      {
+        "name": "frame material",
+        "value": "Alkaline"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer's unclear response and bot's repeated question.",
+      "timestamp": 31.4,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard buyer's response to quantity question.",
+      "timestamp": 35.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without collecting quantity units or buyer contact details.",
+  "analysis": "Buyer requested office partitions for an office party. Bot confirmed product and asked for quantity (hundred), then panel material (Glass and Aluminum mix) and frame material (Alkaline). Bot closed with a lead without asking for name, city, or state, and the buyer mentioned Patna area at the end.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8842,
+    "completion_tokens": 2513
+  },
+  "unresolved_problems": []
+}

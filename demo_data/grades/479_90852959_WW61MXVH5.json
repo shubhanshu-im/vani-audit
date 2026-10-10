@@ -1,0 +1,320 @@
+{
+  "call_id": "479_90852959_WW61MXVH5",
+  "duration_s": 93.38,
+  "graded_at": "2026-10-10T12:33:47+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Looping Behavior: Bot looped on city/state 5 times, buyer got frustrated, lead lost",
+  "fatal_params": [
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "timestamp": 37.91,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot looped on city/state 5 times, buyer got frustrated, lead lost",
+      "evidence_verified": true,
+      "llm_timestamp": 37.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello आपको दस ton soil compactor की requirement है ना?",
+      "timestamp": 0.01,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'drum roller' as 'soil compactor' initially",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आप Sunil जी बोल रहे हैं ना?",
+      "timestamp": 69.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard '[NAME]' as 'Sunil'",
+      "evidence_verified": true,
+      "llm_timestamp": 69.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot closed appropriately"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Capacity 10 ton captured correctly"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit ton captured correctly"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was already provided and confirmed"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Machine type drum roller captured correctly"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec asked"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional critical specs mentioned by buyer"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "timestamp": 37.91,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot looped on city/state 5 times, buyer got frustrated, lead lost",
+      "evidence_verified": true,
+      "llm_timestamp": 37.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello आपको दस ton soil compactor की requirement है ना?",
+      "timestamp": 0.01,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'drum roller' as 'soil compactor' initially",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was clarified and confirmed"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors visible"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system search errors visible"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आप Sunil जी बोल रहे हैं ना?",
+      "timestamp": 69.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard '[NAME]' as 'Sunil'",
+      "evidence_verified": true,
+      "llm_timestamp": 69.2
+    }
+  ],
+  "captured_lead": {
+    "product": "soil compactor",
+    "quantity": "10",
+    "quantity_unit": "ton",
+    "specs": [
+      {
+        "name": "machine type",
+        "value": "drum roller"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Devghar",
+    "state": "Jharkhand"
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot looped on city/state 5 times before closing",
+      "timestamp": 58.5,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeated city name twice due to bot confusion",
+      "timestamp": 61.5,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked bot to listen to state name",
+      "timestamp": 56.0,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: bot_not_understood, short_garbled_buyer_turns",
+      "timestamp": 37.91,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture city/state due to ASR errors, looping 5 times and losing the lead. Also misheard machine type and name.",
+  "analysis": "Buyer wanted a drum roller with 10 ton compaction capacity in Deoghar, Jharkhand, and gave his name as [NAME]. Bot confirmed product and capacity, but looped on city/state 5 times before closing with WhatsApp offer. Bot also misheard machine type and name.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15029,
+    "completion_tokens": 4058
+  },
+  "unresolved_problems": []
+}

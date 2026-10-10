@@ -1,0 +1,122 @@
+{
+  "call_id": "60_90643036_BF7BS3KG5",
+  "file": "data/recordings/60_90643036_BF7BS3KG5.mp3",
+  "duration_s": 80.64,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको three four inch UPVC plain elbow की requirement है ना?",
+      "start": 0.01,
+      "end": 4.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 8.19,
+      "end": 8.85
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। क्या आप 3-4 inch UPVC plain elbow के लिए call कर रहे हैं?",
+      "start": 10.81,
+      "end": 15.23
+    },
+    {
+      "role": "BUYER",
+      "text": "Governance governance.",
+      "start": 15.87,
+      "end": 17.41
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल आप आराम से बात करें।",
+      "start": 19.39,
+      "end": 21.03
+    },
+    {
+      "role": "BUYER",
+      "text": "One inch, one inch के लिए सुन के।",
+      "start": 22.97,
+      "end": 25.93
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको एक सौ तीन piece चाहिए? हाँ या नहीं?",
+      "start": 26.91,
+      "end": 29.53
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं हमको ज्यादा चाहिए one inch का चाहिए।",
+      "start": 30.65,
+      "end": 33.37
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको quantity ज्यादा चाहिए और size 1 inch का चाहिए। चलिए अब pipe size के बारे में बता दें 3 चौथाई inch या 1 inch क्या prefer करेंगे?",
+      "start": 35.13,
+      "end": 43.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। वो एक inch का pipe का।",
+      "start": 39.23,
+      "end": 46.17
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। fitting type में क्या चाहिए three way, four way या plain?",
+      "start": 47.83,
+      "end": 51.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Pure L Spider।",
+      "start": 54.85,
+      "end": 57.83
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपने fitting type में TL और spider वाला बताया। angle में आपको 90 degree, 45 degree या 30 degree चाहिए?",
+      "start": 60.07,
+      "end": 66.99
+    },
+    {
+      "role": "BUYER",
+      "text": "नब्बे डिग्री।",
+      "start": 67.39,
+      "end": 68.41
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 70.03,
+      "end": 78.41
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है ठीक है।",
+      "start": 79.37,
+      "end": 80.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 3.26,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

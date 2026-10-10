@@ -1,0 +1,286 @@
+{
+  "call_id": "779_90685172_Y6CEL1UG5",
+  "duration_s": 91.3,
+  "graded_at": "2026-10-10T12:41:55+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer explicitly cancelled the order; bot proceeded to close instead of ending the call.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Madam ये order नहीं हो रहा है तो cycle.",
+      "timestamp": 79.79,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer explicitly cancelled the order; bot proceeded to close instead of ending the call.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.8
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello [NAME] जी आपको कमीनेज और Viagra soft gel capsule की requirement है ना?",
+      "timestamp": 0.01,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "5.4s silence after buyer spoke at t=82.9, but buyer did not hang up.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Madam ये order नहीं हो रहा है तो cycle.",
+      "timestamp": 79.79,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer explicitly cancelled the order; bot proceeded to close instead of ending the call.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.8
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer confirmed one box. No readback error."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'One box' and bot did not mishear or misrecord the unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clearly stated one box and bot captured it."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for composition but buyer never specified a value like vitamin K227."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "one hundred milligram.",
+      "timestamp": 69.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'one hundred milligram' and bot confirmed it."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Madam जो normal जो अच्छा है वैसे तो.",
+      "timestamp": 56.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave a vague spec ('normal') which bot handled by offering options."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked composition twice, within limit."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognized words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any additional details like name or location."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Madam तो आएगा तो यही product ना?",
+      "timestamp": 43.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer asked about the product and bot confirmed it."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello [NAME] जी आपको कमीनेज और Viagra soft gel capsule की requirement है ना?",
+      "timestamp": 0.01,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "5.4s silence after buyer spoke at t=82.9, but buyer did not hang up.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot handled language and product correctly."
+    }
+  ],
+  "captured_lead": {
+    "product": "Viagra soft gel capsule",
+    "quantity": "1",
+    "quantity_unit": "box",
+    "specs": [
+      {
+        "name": "strength",
+        "value": "one hundred milligram"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer cancelled order but bot proceeded to close instead of ending call.",
+      "timestamp": 79.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Buyer cancelled the order ('cycle'), but the bot continued to close the call instead of ending it immediately.",
+  "analysis": "Buyer wanted to buy Viagra soft gel capsules, ordered one box. Bot asked for composition and strength, but buyer didn't specify composition and asked for 'normal' or 'good' options. Bot captured strength as 100 milligrams. Buyer asked if it was the same product. Bot confirmed and offered to send seller details via WhatsApp. Buyer then said 'this is not an order, cancel' and hung up. The bot did not create a lead or transfer but abruptly ended the call after buyer's cancellation.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3883,
+    "completion_tokens": 1698
+  },
+  "unresolved_problems": []
+}

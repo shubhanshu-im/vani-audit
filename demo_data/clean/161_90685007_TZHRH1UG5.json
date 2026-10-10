@@ -1,0 +1,56 @@
+{
+  "call_id": "161_90685007_TZHRH1UG5",
+  "file": "data/recordings/161_90685007_TZHRH1UG5.mp3",
+  "duration_s": 33.55,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको Theocolchicoside 8 mg Ketoprofen 100 mg tablet की requirement है ना?",
+      "start": 0.43,
+      "end": 6.29
+    },
+    {
+      "role": "BUYER",
+      "text": "जी अभी आपने कहा था कि आप भेज देंगे details आप details भेज दीजिएगा मुझे एक बार।",
+      "start": 7.79,
+      "end": 12.37
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 13.71,
+      "end": 22.77
+    },
+    {
+      "role": "BUYER",
+      "text": "जी भेज दीजिए अभी ऐसा exact paper भेज दीजिए।",
+      "start": 23.59,
+      "end": 27.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं details भेज दूंगी। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 28.27,
+      "end": 32.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.5,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

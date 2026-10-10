@@ -1,0 +1,300 @@
+{
+  "call_id": "5_90741464_ENWXDL4H5",
+  "duration_s": 97.34,
+  "graded_at": "2026-10-10T12:36:58+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=25.1 कितने kilogram चाहिए होंगे आपको?",
+      "timestamp": 25.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot re-asked quantity after buyer already said 1 kg",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=62.7 आपको किस चीज की सतह पर printing करनी है जैसे plastic, धातु या कोई और?",
+      "timestamp": 62.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated substrate question after buyer clarified wood",
+      "evidence_verified": true,
+      "llm_timestamp": 62.7
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=26.4 आपको single component चाहिए? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 86.41,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised price discussion with seller",
+      "evidence_verified": true,
+      "llm_timestamp": 86.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot closed with seller details"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 1 kg, bot confirmed 1 kg"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit captured correctly as kg"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=25.1 कितने kilogram चाहिए होंगे आपको?",
+      "timestamp": 25.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot re-asked quantity after buyer already said 1 kg",
+      "evidence_verified": false
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity of 1 kg was captured"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not explicitly asked or read back"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked or read back"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer mentioned pad printing and wood, bot did not capture these"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=62.7 आपको किस चीज की सतह पर printing करनी है जैसे plastic, धातु या कोई और?",
+      "timestamp": 62.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated substrate question after buyer clarified wood",
+      "evidence_verified": true,
+      "llm_timestamp": 62.7
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No critical misheard words"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record additional details"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered or transferred"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot maintained pad printing ink as product"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not available"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=26.4 आपको single component चाहिए? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 86.41,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised price discussion with seller",
+      "evidence_verified": true,
+      "llm_timestamp": 86.4
+    }
+  ],
+  "captured_lead": {
+    "product": "pad printing ink",
+    "quantity": "1",
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "ink system",
+        "value": "single component"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Repeated substrate question after buyer clarified wood",
+      "timestamp": 62.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on substrate question despite buyer clarifying wood. Bot also promised price discussion.",
+  "analysis": "Buyer wanted 1 kg of single-component pad printing ink for wood. Bot confirmed product and quantity, but repeatedly asked about substrate after the buyer clarified it was for pad printing. Bot then offered to share seller details on WhatsApp and closed the call.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14520,
+    "completion_tokens": 3794
+  },
+  "unresolved_problems": [
+    "Quantity Probing Error: evidence_quote not found verbatim in any transcript line: 't=25.1 कितने kilogram चाहिए होंगे आपको?'"
+  ]
+}

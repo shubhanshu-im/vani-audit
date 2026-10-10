@@ -1,0 +1,170 @@
+{
+  "call_id": "81_90797303_I31HVXFH5",
+  "file": "data/recordings/81_90797303_I31HVXFH5.mp3",
+  "duration_s": 145.87,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको easel wooden stand की requirement है ना?",
+      "start": 0.13,
+      "end": 3.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ मैं पूछना चाह रही थी कि मुझे थोड़ा इस app के बारे में भी जानना था कि like कैसे इससे buy कर सकते हैं और क्या क्या करना पड़ेगा।",
+      "start": 4.71,
+      "end": 14.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। यहां आप sellers से connect होकर product खरीद सकते हैं। बस कुछ details confirm कर दीजिए। आपको मैं seller details WhatsApp पे भेज दूंगी जिससे आप details जो sellers होते हैं वो...",
+      "start": 17.03,
+      "end": 28.45
+    },
+    {
+      "role": "BUYER",
+      "text": "तो यहां पे जो sellers होते हैं वो वो कहीं के भी होते हैं like अलग अलग sellers होते हैं तो तो फिर सबके prices अलग होंगे।",
+      "start": 26.49,
+      "end": 36.33
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल अलग-अलग sellers होते हैं और सभी के prices अलग हो सकते हैं। आप seller से details और price discuss कर सकते हैं।",
+      "start": 38.57,
+      "end": 45.11
+    },
+    {
+      "role": "BUYER",
+      "text": "तो जैसे मैंने जो भी select किया होगा वहां पे और मैं बात करूंगी तो फिर वो उसी seller से बात होगा जिसका मैंने select किया है।",
+      "start": 46.05,
+      "end": 53.93
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को select करते हैं सबसे पहले उसी से connect किया जाएगा।",
+      "start": 56.07,
+      "end": 60.13
+    },
+    {
+      "role": "BUYER",
+      "text": "सात।",
+      "start": 60.13,
+      "end": 60.35
+    },
+    {
+      "role": "BOT",
+      "text": "इसमें और भी sellers की भी details WhatsApp पे मिल जाएंगी ताकि आप compare कर सकें।",
+      "start": 60.35,
+      "end": 64.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay तो ये सब मुझे कैसे मिलेगा?",
+      "start": 65.55,
+      "end": 67.51
+    },
+    {
+      "role": "BOT",
+      "text": "आपको seller की details और contact WhatsApp पे भेज दी जाएंगी। आप उनसे सीधा बात करके price और details जान सकते हैं।",
+      "start": 69.51,
+      "end": 76.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay okay तो ये मुझे WhatsApp पे अभी आप send कर दोगे?",
+      "start": 76.95,
+      "end": 80.17
+    },
+    {
+      "role": "BOT",
+      "text": "जी हां। आपकी details confirm होते ही seller की जानकारी और बाकी details आपको WhatsApp पे भेज दी जाएंगी।",
+      "start": 82.25,
+      "end": 88.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म तो मैंने तो आपको इससे पहले वाले call पे बता दिया था मेरी details।",
+      "start": 88.99,
+      "end": 93.23
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अभी मुझे system में आपकी details confirm नहीं दिख रही हैं। बस जल्दी से confirm कर दीजिए ताकि मैं आगे बढ़ सकूं।",
+      "start": 95.09,
+      "end": 101.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay, खुद से confirm करना पड़ेगा।",
+      "start": 103.05,
+      "end": 105.43
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं अभी call पे ही details confirm कर दीजिए WhatsApp पे सिर्फ seller की जानकारी भेजी जाएगी।",
+      "start": 108.05,
+      "end": 113.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो पूछिए। बहुत बढ़िया।",
+      "start": 113.93,
+      "end": 118.15
+    },
+    {
+      "role": "BOT",
+      "text": "आपको easel wooden stand के लिए कौन सा easel type चाहिए folding, meaning या कुछ और?",
+      "start": 118.15,
+      "end": 123.13
+    },
+    {
+      "role": "BUYER",
+      "text": "अह ये frame होगा क्या?",
+      "start": 124.45,
+      "end": 126.45
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ A-frame भी available है। आपकी preference यही है?",
+      "start": 128.59,
+      "end": 131.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 132.57,
+      "end": 133.01
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 135.91,
+      "end": 143.31
+    },
+    {
+      "role": "BUYER",
+      "text": "आप मुझे कब भेजोगे?",
+      "start": 143.31,
+      "end": 144.51
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 12,
+    "longest_gap_s": 2.9,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 9,
+      "1": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

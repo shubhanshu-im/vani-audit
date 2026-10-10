@@ -1,0 +1,86 @@
+{
+  "call_id": "985_90797480_BZSUYXFH5",
+  "file": "data/recordings/985_90797480_BZSUYXFH5.mp3",
+  "duration_s": 60.26,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी used Vivo mobile phones की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.19,
+      "end": 6.55
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। जी Sir.",
+      "start": 5.87,
+      "end": 8.43
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल मैं इंतजार कर रहा हूं। बताइए।",
+      "start": 9.77,
+      "end": 11.83
+    },
+    {
+      "role": "BUYER",
+      "text": "की जो इस पर जो आ रहा है और पर उन्हीं सब चाहिए।",
+      "start": 14.59,
+      "end": 19.35
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपकी used Vivo mobile phones की requirement के बारे में ही बात कर रहा हूं। चलिए अब internal storage के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 128 GB या कुछ और?",
+      "start": 20.45,
+      "end": 30.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। दो सोलह चाहिए तीन बत्तीस चाहिए चार चौसठ चाहिए",
+      "start": 25.97,
+      "end": 37.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैंने note कर लिया है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 38.23,
+      "end": 44.13
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं अभी तो इतना ही चाह रहे हैं इसका।",
+      "start": 46.63,
+      "end": 49.17
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 50.17,
+      "end": 56.29
+    },
+    {
+      "role": "BUYER",
+      "text": "seller से बात कराइए ना तुरंत।",
+      "start": 57.47,
+      "end": 59.83
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.76,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

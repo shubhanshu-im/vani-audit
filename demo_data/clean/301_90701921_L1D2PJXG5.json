@@ -1,0 +1,33 @@
+{
+  "call_id": "301_90701921_L1D2PJXG5",
+  "file": "data/recordings/301_90701921_L1D2PJXG5.mp3",
+  "duration_s": 14.26,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपकी Aurogreen 25 mg की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी। बताएं। चलिए अब type of contrast media के बारे में।",
+      "start": 0.01,
+      "end": 14.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 3.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

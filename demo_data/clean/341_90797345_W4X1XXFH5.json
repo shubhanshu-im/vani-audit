@@ -1,0 +1,104 @@
+{
+  "call_id": "341_90797345_W4X1XXFH5",
+  "file": "data/recordings/341_90797345_W4X1XXFH5.mp3",
+  "duration_s": 90.07,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] [NAME] आपको Nima electric grinder की requirement है ना?",
+      "start": 0.65,
+      "end": 8.03
+    },
+    {
+      "role": "BUYER",
+      "text": "ये मिस्टर मसीह कितने का है?",
+      "start": 9.69,
+      "end": 11.29
+    },
+    {
+      "role": "BOT",
+      "text": "price की जानकारी seller से discuss कर सकते हैं। पहले quantity बता दीजिए कितने piece चाहिए?",
+      "start": 12.97,
+      "end": 17.93
+    },
+    {
+      "role": "BUYER",
+      "text": "इसका दाम बताइए इसका दाम एक सौ पंचानवे रुपये का है ना?",
+      "start": 19.83,
+      "end": 22.99
+    },
+    {
+      "role": "BOT",
+      "text": "Price आप seller से ही confirm कर सकते हैं आपको कितने piece चाहिए?",
+      "start": 25.15,
+      "end": 28.73
+    },
+    {
+      "role": "BUYER",
+      "text": "इसका दाम बताइए तब मैं लूँगा ना दाम बताइए पहले तब मैं लूँगा ना book करूँगा।",
+      "start": 29.83,
+      "end": 34.75
+    },
+    {
+      "role": "BOT",
+      "text": "price की जानकारी आपको seller से मिलेगी। कितने piece चाहिए आपको?",
+      "start": 36.87,
+      "end": 40.51
+    },
+    {
+      "role": "BUYER",
+      "text": "एक दाम बताइए सभी लोगों को दाम बताइए पहले सभी लोगों को। और? तीन piece या एक piece। एक piece चाहिए एक piece।",
+      "start": 42.31,
+      "end": 54.25
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए product type में क्या चाहिए coffee grinder, two in one grinder या कुछ और?",
+      "start": 56.39,
+      "end": 61.15
+    },
+    {
+      "role": "BUYER",
+      "text": "वो नहीं मसाला पीसने वाला मसाला।",
+      "start": 61.89,
+      "end": 64.75
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई मसाला पीसने के लिए चाहिए। अब बताइए power में क्या चाहिए एक सौ पचास watt, दो सौ watt या कुछ और?",
+      "start": 66.65,
+      "end": 72.39
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं एक सौ पंचानवे तो मिल रहा है ना दाम हमको वो चाहिए एक सौ पंचानवे bag चाहिए।",
+      "start": 73.45,
+      "end": 77.49
+    },
+    {
+      "role": "BOT",
+      "text": "Price आप seller से discuss कर सकते हैं। आपकी requirement note कर ली है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 79.59,
+      "end": 89.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.16,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

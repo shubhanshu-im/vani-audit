@@ -1,0 +1,110 @@
+{
+  "call_id": "859_90853022_07TRMXVH5",
+  "file": "data/recordings/859_90853022_07TRMXVH5.mp3",
+  "duration_s": 74.09,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Siemens contactor की requirement है ना?",
+      "start": 0.25,
+      "end": 3.89
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं payments का नहीं है हमें power के ही चाहिए।",
+      "start": 7.33,
+      "end": 10.67
+    },
+    {
+      "role": "BOT",
+      "text": "आपको power cable जो आमतौर पे बिजली की supply के लिए इस्तेमाल होती है यही product चाहिए ना?",
+      "start": 12.57,
+      "end": 17.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ armour cable 70 mm 70 mm।",
+      "start": 18.81,
+      "end": 24.41
+    },
+    {
+      "role": "BOT",
+      "text": "अब क्या? आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितनी meter चाहिए होगी आपको?",
+      "start": 22.21,
+      "end": 31.61
+    },
+    {
+      "role": "BUYER",
+      "text": "तीस चालीस मीटर।",
+      "start": 33.45,
+      "end": 34.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब conductor material के बारे में बात कर लेते हैं। आपको aluminium चाहिए या copper?",
+      "start": 35.87,
+      "end": 41.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Aluminum चाहिए।",
+      "start": 42.61,
+      "end": 43.81
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको कौन सा number of course चाहिए जैसे तीन course, चार course या कुछ और?",
+      "start": 45.15,
+      "end": 49.67
+    },
+    {
+      "role": "BUYER",
+      "text": "चार कोर चाहिए।",
+      "start": 51.87,
+      "end": 52.97
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 54.03,
+      "end": 59.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ वो भेज दीजिए।",
+      "start": 61.53,
+      "end": 62.97
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 64.01,
+      "end": 66.85
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आप WhatsApp पे भेज रहे हैं। Hello.",
+      "start": 68.25,
+      "end": 74.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.8,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

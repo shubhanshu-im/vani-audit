@@ -1,0 +1,81 @@
+{
+  "call_id": "844_90741666_6SV0IL4H5",
+  "file": "data/recordings/844_90741666_6SV0IL4H5.mp3",
+  "duration_s": 57.53,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Nokia 1600 mobile की requirement है ना? नमस्ते क्या आप अभी भी line पे हैं?",
+      "start": 0.01,
+      "end": 16.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 18.33,
+      "end": 18.93
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं बोल रही हूं। आपको Nokia 1600 mobile की requirement थी ना?",
+      "start": 19.99,
+      "end": 24.61
+    },
+    {
+      "role": "BUYER",
+      "text": "नमस्ते क्या आप सुन पा रहे हैं?",
+      "start": 34.03,
+      "end": 35.71
+    },
+    {
+      "role": "BOT",
+      "text": "Hello.",
+      "start": 40.41,
+      "end": 41.03
+    },
+    {
+      "role": "BUYER",
+      "text": "जी मैं सुन पा रही हूँ क्या आपको Nokia 1600 mobile की ज़रूरत है? नमस्ते क्या आप अभी भी live?",
+      "start": 42.11,
+      "end": 57.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 9.56,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 5.05,
+        "end": 14.61,
+        "duration_s": 9.56,
+        "after_role": "BOT"
+      },
+      {
+        "start": 24.61,
+        "end": 34.03,
+        "duration_s": 9.42,
+        "after_role": "BOT"
+      },
+      {
+        "start": 46.59,
+        "end": 56.09,
+        "duration_s": 9.5,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

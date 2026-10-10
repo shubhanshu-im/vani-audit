@@ -1,0 +1,116 @@
+{
+  "call_id": "990_90797518_3YA8ZXFH5",
+  "file": "data/recordings/990_90797518_3YA8ZXFH5.mp3",
+  "duration_s": 76.25,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको सत्तानवे percent citric acid powder की requirement है ना?",
+      "start": 0.21,
+      "end": 4.59
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं madam, Citric acid की requirement नहीं है। मेरे को चाहिए है 2 in 20।",
+      "start": 6.47,
+      "end": 11.95
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आपको क्या चाहिए कृपया एक बार फिर से बता दीजिए।",
+      "start": 13.75,
+      "end": 18.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Polysorbate twenty two in.",
+      "start": 19.49,
+      "end": 21.93
+    },
+    {
+      "role": "BOT",
+      "text": "आपको polysorbate 20 stream चाहिए जो आमतौर पे emulsifier के तौर पे इस्तेमाल होता है यही product चाहिए ना?",
+      "start": 23.27,
+      "end": 29.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 30.37,
+      "end": 30.93
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 32.95,
+      "end": 38.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam एक liter में चाहिए।",
+      "start": 40.25,
+      "end": 41.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब grade के बारे में बात कर लेते हैं। आपको cosmetic grade चाहिए या pharma grade?",
+      "start": 42.93,
+      "end": 47.67
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या सा मैडम grade में pharma grade?",
+      "start": 51.59,
+      "end": 54.53
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए application में क्या prefer करेंगे personal care, pharmaceuticals या कोई और?",
+      "start": 56.05,
+      "end": 61.29
+    },
+    {
+      "role": "BUYER",
+      "text": "biological lab.",
+      "start": 62.57,
+      "end": 63.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 65.03,
+      "end": 70.11
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 71.35,
+      "end": 71.71
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 73.09,
+      "end": 75.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.92,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

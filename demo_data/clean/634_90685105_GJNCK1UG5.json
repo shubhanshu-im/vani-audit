@@ -1,0 +1,62 @@
+{
+  "call_id": "634_90685105_GJNCK1UG5",
+  "file": "data/recordings/634_90685105_GJNCK1UG5.mp3",
+  "duration_s": 27.07,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 3.97
+    },
+    {
+      "role": "BUYER",
+      "text": "बोलिए। Hello।",
+      "start": 7.01,
+      "end": 8.91
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं पूछ रही थी कि आपको कौन सा product चाहिए? Please बता दीजिए।",
+      "start": 9.19,
+      "end": 12.55
+    },
+    {
+      "role": "BUYER",
+      "text": "product हमें चाहिए नहीं अगर आप product खरीदने में",
+      "start": 13.85,
+      "end": 18.25
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आप product खरीदने में interested नहीं हैं तो आप future needs के लिए IndiaMART की website visit कर सकते हैं।",
+      "start": 17.05,
+      "end": 22.89
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद hello जी।",
+      "start": 22.89,
+      "end": 25.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

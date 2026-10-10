@@ -1,0 +1,310 @@
+{
+  "call_id": "477_90685064_XZXNJ1UG5",
+  "duration_s": 184.39,
+  "graded_at": "2026-10-10T12:33:40+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot created a lead/transfer flow without capturing any requirements from the buyer.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Perfect. I am Tanya from India Mart. We have many good sellers available. Just need to confirm a few details to connect you with the right seller. How many square feet do you need?",
+      "timestamp": 104.43,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot created a lead/transfer flow without capturing any requirements from the buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 64.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Just to clarify, are you looking for information about prefabricated structures for workers or something else? Please confirm so I can help you better. I can help you connect with good sellers. First, please confirm which product or service you are interested in on IndiaMART.",
+      "timestamp": 72.35,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeatedly asks for product confirmation without progressing.",
+      "evidence_verified": true,
+      "llm_timestamp": 72.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Sorry मैं सिर्फ हिंदी या English में बात कर सकती हूं।",
+      "timestamp": 8.23,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot switches language against buyer's preference (Malayalam).",
+      "evidence_verified": true,
+      "llm_timestamp": 8.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Perfect. I am Tanya from India Mart. We have many good sellers available. Just need to confirm a few details to connect you with the right seller. How many square feet do you need?",
+      "timestamp": 104.43,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot created a lead/transfer flow without capturing any requirements from the buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 64.4
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was captured or confirmed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was captured or confirmed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity after product confirmation."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was provided by the buyer to miss."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked or captured."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked or captured."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were discussed or missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Just to clarify, are you looking for information about prefabricated structures for workers or something else? Please confirm so I can help you better. I can help you connect with good sellers. First, please confirm which product or service you are interested in on IndiaMART.",
+      "timestamp": 72.35,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeatedly asks for product confirmation without progressing.",
+      "evidence_verified": true,
+      "llm_timestamp": 72.3
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No critical misrecognized values that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were captured."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was not in question or changed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific spec questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors evident in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Sorry मैं सिर्फ हिंदी या English में बात कर सकती हूं।",
+      "timestamp": 8.23,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot switches language against buyer's preference (Malayalam).",
+      "evidence_verified": true,
+      "llm_timestamp": 8.2
+    }
+  ],
+  "captured_lead": {
+    "product": "prefabricated labor quarter",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer gave vague responses and ended call abruptly",
+      "timestamp": 184.0,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeatedly asks for product confirmation",
+      "timestamp": 72.3,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns, other_language",
+      "timestamp": 160.55,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture buyer requirements and looped on product confirmation.",
+  "analysis": "Buyer wants a prefabricated labor quarter. Bot repeatedly asks for product confirmation and quantity (sq ft) without capturing any details. Buyer gives vague responses and ends with 'Click'. No lead created or transferred. Call ends with buyer silence.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4243,
+    "completion_tokens": 1292
+  },
+  "unresolved_problems": []
+}

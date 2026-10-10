@@ -1,0 +1,312 @@
+{
+  "call_id": "936_90797471_CLGPYXFH5",
+  "duration_s": 100.22,
+  "graded_at": "2026-10-10T12:46:03+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Buyer stated specific model name which bot missed",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "हाँ। ये चाहिए check Ben KCO Bugatti नाम का black वाला गाड़ी।",
+      "timestamp": 50.77,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Buyer stated specific model name which bot missed",
+      "evidence_verified": true,
+      "llm_timestamp": 50.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=17.3 आपको Rolex चाहिए या कुछ और?",
+      "timestamp": 17.3,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated brand question 3 times, exceeding limit",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। अब बताइए strap material में क्या prefer करेंगे stainless steel, leather या कुछ और?",
+      "timestamp": 60.07,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked for strap material instead of specific model",
+      "evidence_verified": true,
+      "llm_timestamp": 60.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement, bot closed with transfer"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said one single piece, bot captured correctly"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said single piece, bot captured correctly"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked quantity, buyer answered, no probing error"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured, no missed opportunity"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for brand, not a numeric spec"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for strap material, not a numeric spec"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "हाँ। ये चाहिए check Ben KCO Bugatti नाम का black वाला गाड़ी।",
+      "timestamp": 50.77,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Buyer stated specific model name which bot missed",
+      "evidence_verified": true,
+      "llm_timestamp": 50.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=17.3 आपको Rolex चाहिए या कुछ और?",
+      "timestamp": 17.3,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated brand question 3 times, exceeding limit",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant ASR errors impacting lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered to send seller details, no live transfer needed"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed Jacob and Co watch, no product change"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not available in transcript"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। अब बताइए strap material में क्या prefer करेंगे stainless steel, leather या कुछ और?",
+      "timestamp": 60.07,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked for strap material instead of specific model",
+      "evidence_verified": true,
+      "llm_timestamp": 60.1
+    }
+  ],
+  "captured_lead": {
+    "product": "Jacob and Co Watch",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "brand",
+        "value": "Jacob and Co"
+      },
+      {
+        "name": "strap material",
+        "value": "black color"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer questioned price and brand repeatedly",
+      "timestamp": 23.7,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated brand question 3 times",
+      "timestamp": 48.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture the specific watch model (Ben KCO Bugatti) mentioned by the buyer, and looped on brand questions.",
+  "analysis": "Buyer wants a Jacob and Co watch, specifically mentioning the Ben KCO Bugatti model. Bot captured product and quantity correctly. Buyer mentioned a brand preference but the bot looped on brand and failed to capture the specific model name (Ben KCO Bugatti) as a spec. Bot closed with a WhatsApp transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15182,
+    "completion_tokens": 4938
+  },
+  "unresolved_problems": [
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 't=17.3 आपको Rolex चाहिए या कुछ और?'"
+  ]
+}

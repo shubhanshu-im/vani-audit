@@ -1,0 +1,207 @@
+{
+  "call_id": "908_90741692_N6BBIL4H5",
+  "file": "data/recordings/908_90741692_N6BBIL4H5.mp3",
+  "duration_s": 160.06,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.23,
+      "end": 4.29
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 10.93,
+      "end": 11.55
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं यहीं हूं। आप please बताइए कि आपको कौन सा product चाहिए?",
+      "start": 12.59,
+      "end": 16.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Please. हाँ Ma'am कहाँ से बोल रहे हैं?",
+      "start": 13.71,
+      "end": 19.37
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बात कर रही हूं। आप please बताइए कि आपको कौन सा product चाहिए?",
+      "start": 20.49,
+      "end": 24.75
+    },
+    {
+      "role": "BUYER",
+      "text": "अह मैम अह क्या तत्काल में मिल जाएगा ये? जी हमारे पास बहुत अच्छे sellers हैं जो आपकी मदद कर पाएंगे।",
+      "start": 26.17,
+      "end": 34.09
+    },
+    {
+      "role": "BOT",
+      "text": "पर पहले please बताइए कि आपको कौन सा product चाहिए?",
+      "start": 34.09,
+      "end": 37.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हमें वो जो कपड़ा कट जाता है ना तो उसको चिपकाने के लिए दवाई से भी tape आता है।",
+      "start": 36.89,
+      "end": 44.17
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो कपड़ा चिपकाने वाला tape है।",
+      "start": 45.55,
+      "end": 47.73
+    },
+    {
+      "role": "BUYER",
+      "text": "जो कपड़ा चिपकाने वाला tape",
+      "start": 45.85,
+      "end": 47.31
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो कपड़े को चिपकाने वाला tape चाहिए जो आमतौर पे फटे हुए कपड़ों को ठीक करने के काम आता है वही product चाहिए ना?",
+      "start": 48.27,
+      "end": 54.91
+    },
+    {
+      "role": "BUYER",
+      "text": "वाला tape चाहिए। नहीं नहीं नया ही कपड़ा है वो कट गया है तो उसको चिपकाने के लिए tape चाहिए है।",
+      "start": 49.85,
+      "end": 61.97
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है। जी मैं समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितनी meter quantity चाहिए होगी?",
+      "start": 63.77,
+      "end": 74.59
+    },
+    {
+      "role": "BUYER",
+      "text": "कितने meter एक में सोचिए आप hold कीजिए।",
+      "start": 76.93,
+      "end": 80.13
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल मैं hold करती हूं। क्या आप अभी भी line पे हैं? Please बताइए।",
+      "start": 81.25,
+      "end": 92.85
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी जी जी।",
+      "start": 93.21,
+      "end": 95.05
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपने 1 meter कहा था। क्या आप confirm कर सकते हैं कि आपको कितनी meter quantity चाहिए?",
+      "start": 96.19,
+      "end": 100.87
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मैं बता रही हूँ आपको।",
+      "start": 102.71,
+      "end": 104.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप आराम से देख लीजिए। बताइए कितनी liter quantity चाहिए होगी आपको?",
+      "start": 105.59,
+      "end": 109.85
+    },
+    {
+      "role": "BUYER",
+      "text": "एक पड़ेगा कितने का एक meter कितने का पड़ता है?",
+      "start": 116.23,
+      "end": 119.29
+    },
+    {
+      "role": "BOT",
+      "text": "आप इसकी price seller से discuss कर सकते हैं। वो आपको best rates देंगे। पर process करने के लिए quantity बताना जरूरी है।",
+      "start": 120.61,
+      "end": 127.21
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 128.65,
+      "end": 129.15
+    },
+    {
+      "role": "BOT",
+      "text": "तो please बता दीजिए आपको कितनी meter quantity की जरूरत है?",
+      "start": 130.37,
+      "end": 133.63
+    },
+    {
+      "role": "BUYER",
+      "text": "पाँच सौ अस्सी।",
+      "start": 137.57,
+      "end": 138.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है 580 meter। अब चलिए width के बारे में बात कर लेते हैं। आपको एक inch 25 mm चाहिए या कुछ और?",
+      "start": 139.91,
+      "end": 146.09
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मुझे delivery का पहले पता करना है delivery आप कब तक करते हैं?",
+      "start": 149.71,
+      "end": 153.75
+    },
+    {
+      "role": "BOT",
+      "text": "delivery के बारे में आप सीधे seller से discuss कर सकते हैं। वो आपको सही समय बता देंगे। बस।",
+      "start": 154.79,
+      "end": 160.11
+    }
+  ],
+  "stats": {
+    "bot_turns": 14,
+    "buyer_turns": 13,
+    "longest_gap_s": 7.54,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 4.29,
+        "end": 10.93,
+        "duration_s": 6.64,
+        "after_role": "BOT"
+      },
+      {
+        "start": 82.73,
+        "end": 90.27,
+        "duration_s": 7.54,
+        "after_role": "BOT"
+      },
+      {
+        "start": 109.85,
+        "end": 116.23,
+        "duration_s": 6.38,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

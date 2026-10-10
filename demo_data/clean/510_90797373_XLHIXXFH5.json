@@ -1,0 +1,122 @@
+{
+  "call_id": "510_90797373_XLHIXXFH5",
+  "file": "data/recordings/510_90797373_XLHIXXFH5.mp3",
+  "duration_s": 103.9,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Quinoa fish seeds की requirement है ना?",
+      "start": 0.57,
+      "end": 4.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी हां।",
+      "start": 1.29,
+      "end": 6.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.85,
+      "end": 13.71
+    },
+    {
+      "role": "BUYER",
+      "text": "तो ये about two thousand दो हज़ार।",
+      "start": 15.39,
+      "end": 17.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब product features और status के बारे में बात कर लेते हैं। आपको seat चाहिए या कुछ और?",
+      "start": 18.37,
+      "end": 23.55
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन थे छोटे छोटे बच्चे जैसे मैं मैं अपना farm house में डाल सकता हूं।",
+      "start": 25.17,
+      "end": 32.05
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूँ। आपको seat size two inch chair ही चाहिए ना?",
+      "start": 32.71,
+      "end": 36.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ दो inch कर देंगे।",
+      "start": 38.49,
+      "end": 39.73
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 40.79,
+      "end": 45.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Seller details WhatsApp. जी okay ठीक है आपको मैं salary details WhatsApp पे भेजता हूँ।",
+      "start": 41.35,
+      "end": 51.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको मैं salary details WhatsApp पे भेजती हूँ। मैं आपको अच्छे sellers से connect करने में मदद करूंगी बस details confirm हो गई है। मैं seller details WhatsApp पे भेज दूंगी।",
+      "start": 49.29,
+      "end": 60.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay ठीक है। वो नजदीक में रहेंगे क्या Hyderabad के नजदीक में चाहिए क्या वो मैं मैं Ghaziabad के नजदीक से बात कर रहा हूं।",
+      "start": 61.51,
+      "end": 70.33
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपको best sellers से connect करूंगी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 71.57,
+      "end": 78.85
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी वो लोग जो Hyderabad में ही रहते हैं या कहीं और रहेंगे madam? जी मैं आपको best seller से connect करूंगी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। Thank you.",
+      "start": 79.75,
+      "end": 96.25
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 96.37,
+      "end": 99.27
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका भी thank you।",
+      "start": 101.11,
+      "end": 102.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 1.84,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

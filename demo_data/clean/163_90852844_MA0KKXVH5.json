@@ -1,0 +1,68 @@
+{
+  "call_id": "163_90852844_MA0KKXVH5",
+  "file": "data/recordings/163_90852844_MA0KKXVH5.mp3",
+  "duration_s": 32.11,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको calibration services की requirement है ना?",
+      "start": 0.01,
+      "end": 3.57
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 6.45,
+      "end": 7.01
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 10.03,
+      "end": 19.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 11.05,
+      "end": 11.41
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ हाँ। IndiaMart सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 20.37,
+      "end": 24.87
+    },
+    {
+      "role": "BUYER",
+      "text": "कि हमार",
+      "start": 22.19,
+      "end": 22.63
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you. धन्यवाद।",
+      "start": 27.65,
+      "end": 30.89
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.02,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

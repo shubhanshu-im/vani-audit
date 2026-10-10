@@ -1,0 +1,104 @@
+{
+  "call_id": "320_90852901_2TC9LXVH5",
+  "file": "data/recordings/320_90852901_2TC9LXVH5.mp3",
+  "duration_s": 58.82,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 4.13
+    },
+    {
+      "role": "BUYER",
+      "text": "जे मोमफली के लिए।",
+      "start": 5.47,
+      "end": 7.21
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मूंगफली जो आमतौर पर नाश्ते या तेल निकालने के काम आती है यही product चाहिए ना?",
+      "start": 8.47,
+      "end": 13.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 14.35,
+      "end": 15.33
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने kilograms चाहिए होगी आपको?",
+      "start": 16.91,
+      "end": 23.17
+    },
+    {
+      "role": "BUYER",
+      "text": "पाँच सौ।",
+      "start": 24.27,
+      "end": 25.33
+    },
+    {
+      "role": "BOT",
+      "text": "तो क्या आपको 500 kilograms चाहिए? confirm कर दीजिए।",
+      "start": 26.41,
+      "end": 29.75
+    },
+    {
+      "role": "BUYER",
+      "text": "હા હા પાંચસો કે છસો.",
+      "start": 29.75,
+      "end": 32.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं 500 kilograms note कर लेती हूं। अब बताइए form में आप with shell पसंद करेंगे या shell?",
+      "start": 33.63,
+      "end": 39.31
+    },
+    {
+      "role": "BUYER",
+      "text": "सेल।",
+      "start": 41.11,
+      "end": 41.85
+    },
+    {
+      "role": "BOT",
+      "text": "तो आप shell prefer करेंगे सही है?",
+      "start": 43.01,
+      "end": 44.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 47.09,
+      "end": 47.71
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 48.83,
+      "end": 56.67
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.1,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

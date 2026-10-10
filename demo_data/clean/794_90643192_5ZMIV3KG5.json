@@ -1,0 +1,146 @@
+{
+  "call_id": "794_90643192_5ZMIV3KG5",
+  "file": "data/recordings/794_90643192_5ZMIV3KG5.mp3",
+  "duration_s": 112.68,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको agriculture cocopeat powder की requirement है ना?",
+      "start": 0.01,
+      "end": 3.91
+    },
+    {
+      "role": "BUYER",
+      "text": "बोले। Good Morning. आपको Agriculture cocopeat powder की requirement थी ना? Yes ma'am. आप जिस seller को call कर रहे हैं।",
+      "start": 6.15,
+      "end": 16.65
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे बिल्कुल आप देख लीजिए।",
+      "start": 15.15,
+      "end": 18.91
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं कुछ आपसे बात कर सकता हूं?",
+      "start": 23.17,
+      "end": 24.71
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिल्कुल। बताइए मैं आपकी क्या मदद कर सकती हूं?",
+      "start": 25.61,
+      "end": 28.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am जैसे मैं बोल रहा था कि ये कम से कम में कितना का order लिया जा सकता है कम से कम?",
+      "start": 30.55,
+      "end": 36.47
+    },
+    {
+      "role": "BOT",
+      "text": "आप यह बात seller से discuss कर सकते हैं। वह आपको best rates बता देंगे। पहले कुछ details confirm कर दीजिए please।",
+      "start": 37.37,
+      "end": 43.45
+    },
+    {
+      "role": "BUYER",
+      "text": "खोलिए।",
+      "start": 45.37,
+      "end": 45.89
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कितनी kilograms या ton चाहिए होगी?",
+      "start": 46.95,
+      "end": 49.17
+    },
+    {
+      "role": "BUYER",
+      "text": "कम।",
+      "start": 52.01,
+      "end": 52.91
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आप unsure हैं तो एक approximate number बता दीजिए जैसे 10 kilogram ताकि मैं आपको सही seller से connect कर सकूं।",
+      "start": 54.09,
+      "end": 61.01
+    },
+    {
+      "role": "BUYER",
+      "text": "ताकि मैं आपको सही seller से दिस और पतित थेरी से।",
+      "start": 58.49,
+      "end": 64.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। मैं देख पा रही हूं। आपको product form powder ही चाहिए ना?",
+      "start": 65.83,
+      "end": 69.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 71.49,
+      "end": 71.95
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब weight के बारे में बताइए आपको कौन सा चाहिए जैसे 5 kilograms, 1 kilogram या कुछ और?",
+      "start": 73.13,
+      "end": 78.65
+    },
+    {
+      "role": "BUYER",
+      "text": "देने मेरे को अब 5-5 kg का block भी दे सकती है मतलब जैसे भी हो मतलब मेरे को बस 25 kg से 20 kg मतलब 30 के लमसम में मेरे को चाहिए।",
+      "start": 82.29,
+      "end": 92.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 94.01,
+      "end": 99.09
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 100.93,
+      "end": 101.49
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 102.63,
+      "end": 105.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you ma'am.",
+      "start": 109.17,
+      "end": 109.89
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 4.26,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

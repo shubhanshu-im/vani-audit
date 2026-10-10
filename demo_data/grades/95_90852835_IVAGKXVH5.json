@@ -1,0 +1,332 @@
+{
+  "call_id": "95_90852835_IVAGKXVH5",
+  "duration_s": 164.59,
+  "graded_at": "2026-10-10T12:46:51+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "PASS",
+  "grade_reason": "no fatal issues",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=10.1 BOT: आपको कितने piece चाहिए?",
+      "timestamp": 10.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity twice despite buyer already saying one piece.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=17.8 BOT: आपको कितने piece चाहिए? one piece. एक।",
+      "timestamp": 17.8,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot captured 'one piece' but buyer's exact words were 'एक piece' and quantity was not clearly confirmed.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=10.1 BOT: आपको कितने piece चाहिए?",
+      "timestamp": 10.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated quantity question twice without harm.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=128.2 BUYER: जी। हम कहाँ गए बताइए। चालीस हज़ार forty.",
+      "timestamp": 128.2,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Buyer said 'चालीस हज़ार' (40 thousand) instead of 'चालीस' (40), bot captured 40.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=161.1 BUYER: जी contact करवाइए।",
+      "timestamp": 161.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Call ended abruptly after bot mentioned samples.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'एक piece', bot did not explicitly read it back as numeric value."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit mismatch detected."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=10.1 BOT: आपको कितने piece चाहिए?",
+      "timestamp": 10.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity twice despite buyer already saying one piece.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=17.8 BOT: आपको कितने piece चाहिए? one piece. एक।",
+      "timestamp": 17.8,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot captured 'one piece' but buyer's exact words were 'एक piece' and quantity was not clearly confirmed.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "t=21.5 BOT: समझ गई आपने gear ratio में 40 ratio 1 बताया।",
+      "timestamp": 21.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured gear ratio 40 ratio 1."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "t=122.4 BUYER: दो HP madam two HP",
+      "timestamp": 122.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured motor power as 2 HP."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "All asked specs were captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=10.1 BOT: आपको कितने piece चाहिए?",
+      "timestamp": 10.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated quantity question twice without harm.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=128.2 BUYER: जी। हम कहाँ गए बताइए। चालीस हज़ार forty.",
+      "timestamp": 128.2,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Buyer said 'चालीस हज़ार' (40 thousand) instead of 'चालीस' (40), bot captured 40.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "t=161.1 BUYER: जी contact करवाइए।",
+      "timestamp": 161.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered to connect seller and buyer agreed."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "t=31.9 BOT: जे समझ गई। आपको Moradabad में post hole digger gear box ही चाहिए ना",
+      "timestamp": 31.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product requirement was confirmed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=161.1 BUYER: जी contact करवाइए।",
+      "timestamp": 161.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Call ended abruptly after bot mentioned samples.",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "post hole digger gear box",
+    "quantity": "एक piece",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "motor power",
+        "value": "दो HP"
+      },
+      {
+        "name": "gear ratio",
+        "value": "40 ratio 1"
+      }
+    ],
+    "name": null,
+    "city": "Moradabad",
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer corrected product application (soil grinding vs hole digging).",
+      "timestamp": 40.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wanted a post hole digger gear box for soil grinding, not hole digging. Bot confirmed product and location (Moradabad). Buyer gave quantity as 'एक piece' (one piece), specs as 2 HP and 40 ratio 1, and mentioned pickup. Bot read back location and some specs, but quantity was ambiguous. Bot offered to connect a seller and buyer agreed. Call ended abruptly after bot mentioned samples.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 16784,
+    "completion_tokens": 5310
+  },
+  "unresolved_problems": [
+    "Quantity Probing Error: evidence_quote not found verbatim in any transcript line: 't=10.1 BOT: आपको कितने piece चाहिए?'",
+    "Qty Missed Opportunity: evidence_quote not found verbatim in any transcript line: 't=17.8 BOT: आपको कितने piece चाहिए? one piece. एक।'",
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 't=10.1 BOT: आपको कितने piece चाहिए?'",
+    "WER: evidence_quote not found verbatim in any transcript line: 't=128.2 BUYER: जी। हम कहाँ गए बताइए। चालीस हज़ार forty.'",
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: 't=161.1 BUYER: जी contact करवाइए।'"
+  ]
+}

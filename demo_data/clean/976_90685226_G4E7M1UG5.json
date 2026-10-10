@@ -1,0 +1,62 @@
+{
+  "call_id": "976_90685226_G4E7M1UG5",
+  "file": "data/recordings/976_90685226_G4E7M1UG5.mp3",
+  "duration_s": 36.0,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए। जी आप बताइए आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 7.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हम आज के। माफ़ कीजिए आपकी आवाज़ माफ़ कीजिए आपकी आवाज़ clear। जी हमारे पास बहुत सारे अच्छे sellers हैं।",
+      "start": 9.31,
+      "end": 17.46
+    },
+    {
+      "role": "BOT",
+      "text": "आप बस यह बता दीजिए कि आपको कौन सा product चाहिए।",
+      "start": 17.46,
+      "end": 20.64
+    },
+    {
+      "role": "BUYER",
+      "text": "कि हमें product नहीं चाहिए वो हमको ये पता करना है कि आप अपनी future needs के लिए कभी",
+      "start": 21.99,
+      "end": 27.55
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 25.91,
+      "end": 31.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 33.39,
+      "end": 33.93
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 2.3,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "call_id": "965_90817687_KNT7VJKH5",
+  "duration_s": 227.64,
+  "graded_at": "2026-10-10T12:46:54+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, WER, Dead air, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "वो sir ये auto scrubber machine चाहिए थी Ridon वाली",
+      "timestamp": 66.81,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer mentioned brand and running capacity after bot asked for city/state.",
+      "evidence_verified": true,
+      "llm_timestamp": 66.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Travel to it.",
+      "timestamp": 27.69,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Travel to it' as city/state request.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.7
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पर भेज दी जाएंगी.",
+      "timestamp": 60.73,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "8.4s silence after buyer, but buyer continued speaking.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.7
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Travel to it.",
+      "timestamp": 27.69,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard buyer's response to tank capacity.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product requirement and bot proceeded to transfer."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity asked or needed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity stated by buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको working width 700 mm ही चाहिए ना?",
+      "timestamp": 6.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for width and buyer confirmed."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for tank capacity but buyer gave unrelated answer."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "वो sir ये auto scrubber machine चाहिए थी Ridon वाली",
+      "timestamp": 66.81,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer mentioned brand and running capacity after bot asked for city/state.",
+      "evidence_verified": true,
+      "llm_timestamp": 66.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions or loops."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Travel to it.",
+      "timestamp": 27.69,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Travel to it' as city/state request.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.7
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "क्या मैं आपकी बात उनसे करवा दूं?",
+      "timestamp": 48.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for consent and transferred the call."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed ride on scrubber and bot proceeded correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data not provided."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not provided."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पर भेज दी जाएंगी.",
+      "timestamp": 60.73,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "8.4s silence after buyer, but buyer continued speaking.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.7
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Travel to it.",
+      "timestamp": 27.69,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard buyer's response to tank capacity.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.7
+    }
+  ],
+  "captured_lead": {
+    "product": "ride on scrubber dryer",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "working width",
+        "value": "700 mm"
+      },
+      {
+        "name": "solution tank capacity",
+        "value": ""
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Kurukshetra",
+    "state": "Haryana"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer gave unrelated answer to tank capacity question.",
+      "timestamp": 27.7,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for company details and availability.",
+      "timestamp": 66.8,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer hung up abruptly after 157.3s.",
+      "timestamp": 157.3,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard buyer's response to tank capacity. Buyer hung up abruptly after 157.3s.",
+  "analysis": "Buyer wanted a Ridon brand ride-on auto scrubber with 3-hour running capacity, service tie-up, and 1-week delivery. Bot confirmed product, asked for city/state/name, and offered live seller transfer. Buyer provided city (Kurukshetra), state (Haryana), name ([NAME] [NAME]), and specs (700mm width, 3hr capacity). Bot transferred the call. Buyer hung up abruptly after 157.3s.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4280,
+    "completion_tokens": 1382
+  },
+  "unresolved_problems": []
+}

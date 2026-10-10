@@ -1,0 +1,46 @@
+{
+  "call_id": "769_90685162_4YE9L1UG5",
+  "file": "data/recordings/769_90685162_4YE9L1UG5.mp3",
+  "duration_s": 26.21,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Rajiv Gandhi ji. You are looking for black Molly fish, right?",
+      "start": 0.37,
+      "end": 4.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Tamil Tamil okay.",
+      "start": 8.83,
+      "end": 11.29
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. The seller you were trying to reach is unavailable and I am calling from the IndiaMART help desk. How many pieces are you looking for?",
+      "start": 12.19,
+      "end": 20.15
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 4.7,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

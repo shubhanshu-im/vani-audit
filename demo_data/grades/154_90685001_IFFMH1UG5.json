@@ -1,0 +1,345 @@
+{
+  "call_id": "154_90685001_IFFMH1UG5",
+  "duration_s": 87.34,
+  "graded_at": "2026-10-10T12:25:43+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed call with WhatsApp transfer without creating a lead or connecting to a seller.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed call with WhatsApp transfer without creating a lead or connecting to a seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.1
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 7.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity after buyer already initiated the call with a request.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.5
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 7.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated quantity but bot ignored it and re-asked without capturing it.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 7.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity ask twice, which is within the 3-ask limit.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.5
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details instead of connecting to a live seller or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed call with WhatsApp transfer without creating a lead or connecting to a seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.1
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was provided by buyer but never captured or confirmed by bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity units provided by buyer but bot never captured them."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 7.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity after buyer already initiated the call with a request.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.5
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 7.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated quantity but bot ignored it and re-asked without capturing it.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.5
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for capacity weight but did not record a clear value; buyer's 10g was captured but not confirmed as a final spec."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for capacity volume but did not record a clear value; buyer's 10ml and 5ml were captured but not confirmed as final specs."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for specs but did not record them as lead fields, so cannot be judged as missed opportunity."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 7.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity ask twice, which is within the 3-ask limit.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.5
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misheard words that changed the lead or derailed the call."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 68.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details instead of connecting to a live seller or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.1
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed and remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not available in the transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected in the transcript."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot maintained a polite and helpful tone throughout the call."
+    }
+  ],
+  "captured_lead": {
+    "product": "plastic scoops",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "capacity weight",
+        "value": "10 grams, 5 grams"
+      },
+      {
+        "name": "capacity volume",
+        "value": "10 milliliters, 5 milliliters"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer mentioned sending WhatsApp details but bot ignored them.",
+      "timestamp": 15.3,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot asked for quantity twice without capturing it.",
+      "timestamp": 7.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to create a lead or connect to a seller, instead closing the call with a WhatsApp message.",
+  "analysis": "Buyer wants plastic scoops. He provided quantity (50x 5g, 50x 10g) and specs (10ml, 5ml, 10g, 5g). Bot asked for quantity twice. Bot offered to send seller details via WhatsApp and ended the call without creating a lead or transferring. Buyer asked for a contact number at the end.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9191,
+    "completion_tokens": 2931
+  },
+  "unresolved_problems": []
+}

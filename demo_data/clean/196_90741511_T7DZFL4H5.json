@@ -1,0 +1,188 @@
+{
+  "call_id": "196_90741511_T7DZFL4H5",
+  "file": "data/recordings/196_90741511_T7DZFL4H5.mp3",
+  "duration_s": 204.7,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको mineral water plant setup cost की requirement है ना?",
+      "start": 0.01,
+      "end": 4.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Hi, आपको mineral water plant setup cost की requirement थी ना? हाँ।",
+      "start": 6.85,
+      "end": 14.85
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं। क्या आपको किसी और product की जरूरत है? अगर नहीं तो मैं call बंद कर दूं?",
+      "start": 16.77,
+      "end": 21.33
+    },
+    {
+      "role": "BUYER",
+      "text": "तो। आंध्रा तेलुगु बोलते हो।",
+      "start": 22.13,
+      "end": 26.01
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। क्या आपको किसी product की जरूरत थी या आप ऐसे ही जानकारी ले रहे हैं?",
+      "start": 27.85,
+      "end": 32.43
+    },
+    {
+      "role": "BUYER",
+      "text": "तेरह हजार।",
+      "start": 35.97,
+      "end": 38.03
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई क्या आप किसी product की जानकारी लेना चाहते हैं या call बंद कर दूं?",
+      "start": 39.77,
+      "end": 43.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हिंदी नहीं madam.",
+      "start": 45.31,
+      "end": 46.73
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, would you like to continue in English? Please let me know if you want any product information or should I end the call?",
+      "start": 48.43,
+      "end": 55.57
+    },
+    {
+      "role": "BUYER",
+      "text": "water bottle admission కావాలా?",
+      "start": 57.93,
+      "end": 61.73
+    },
+    {
+      "role": "BOT",
+      "text": "आपको water bottle बनाने वाली machine की जरूरत है जो बोतल बनाने के लिए इस्तेमाल होती है यही चाहिए ना?",
+      "start": 64.85,
+      "end": 70.59
+    },
+    {
+      "role": "BUYER",
+      "text": "water bottle cost cost ಎಂತ?",
+      "start": 73.51,
+      "end": 77.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब automation grade के बारे में बात कर लेते हैं। आपको कौन सा चाहिए semi-automatic, fully automatic या कोई और?",
+      "start": 79.17,
+      "end": 93.63
+    },
+    {
+      "role": "BUYER",
+      "text": "कितना cost कितना है madam?",
+      "start": 95.89,
+      "end": 97.49
+    },
+    {
+      "role": "BOT",
+      "text": "price की जानकारी आप seller से discuss कर सकते हैं। पहले automation grade बता दीजिए semi-automatic, fully automatic या कुछ और।",
+      "start": 100.71,
+      "end": 107.09
+    },
+    {
+      "role": "BUYER",
+      "text": "half liter, one liter, one liter, half liter, one liter, two liter.",
+      "start": 108.19,
+      "end": 112.67
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको machine से कौन सा automation grade चाहिए? semi-automatic, fully automatic या कुछ और?",
+      "start": 114.53,
+      "end": 120.17
+    },
+    {
+      "role": "BUYER",
+      "text": "आटोमेटिक।",
+      "start": 122.11,
+      "end": 123.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए machine में कितने cavities चाहिए जैसे दो cavity, चार cavity या कुछ और?",
+      "start": 124.77,
+      "end": 129.47
+    },
+    {
+      "role": "BUYER",
+      "text": "English में ही है।",
+      "start": 133.43,
+      "end": 134.91
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, you want to continue in English? Please tell how many cavities do you need in the machine like two cavity, four cavity or something else. You want to continue in English? Now please tell me how many cavities you need in the machine, two cavity, four cavity or something.",
+      "start": 136.43,
+      "end": 151.75
+    },
+    {
+      "role": "BUYER",
+      "text": "continue नहीं। Help. cavity. తెలుగు తెలుగు మాట్లాడండి madam ఎవరైనా ఉంటే తెలుగు తెలుగు మాట్లాడండి madam తెలుగు మాట్లాడండి.",
+      "start": 145.57,
+      "end": 157.31
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry, I can assist only in Hindi or English. If you want.",
+      "start": 158.73,
+      "end": 162.17
+    },
+    {
+      "role": "BUYER",
+      "text": "तेलुगु बोलता है, तेलुगु बोलता है। मुझे माफ़ कीजिए मैं सिर्फ हिंदी या English में ही बात कर सकती हूँ। अगर आपको किसी product की जानकारी चाहिए तो बताइए वरना call बंद कर दूँ। जी। इतना अर्थंग आला।",
+      "start": 164.55,
+      "end": 180.51
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी बात समझ नहीं आई। क्या आप किसी product की जानकारी लेना चाहते हैं या call बंद कर दूं?",
+      "start": 182.11,
+      "end": 187.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 190.01,
+      "end": 190.85
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप Tirupati से बोल रहे हैं? अब आपको seller details WhatsApp पर भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 194.19,
+      "end": 201.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 14,
+    "buyer_turns": 13,
+    "longest_gap_s": 3.96,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

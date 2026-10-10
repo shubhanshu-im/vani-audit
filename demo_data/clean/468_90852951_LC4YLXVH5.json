@@ -1,0 +1,147 @@
+{
+  "call_id": "468_90852951_LC4YLXVH5",
+  "file": "data/recordings/468_90852951_LC4YLXVH5.mp3",
+  "duration_s": 122.26,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी Nima electric grinder की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी। नमस्ते [NAME] क्या आप line पर हैं?",
+      "start": 0.01,
+      "end": 17.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 18.83,
+      "end": 19.49
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब product type के बारे में बात कर लेते हैं। आपको कौन सा चाहिए coffee grinder या कुछ और?",
+      "start": 20.77,
+      "end": 24.87
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे अभी मैंने बताया भी था यार अभी तुमको कितनी बार बताऊँ यार अभी तुम बोल रहे थे dealer dealer का phone आया आया ही नहीं उसका।",
+      "start": 25.63,
+      "end": 32.51
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ी चाहता हूँ शायद कुछ गलतफहमी हुई। मैं बस आपकी ज़रूरत समझकर सही जानकारी note करना चाहता हूँ। तो बताइए आपको कौन सा grinder चाहिए?",
+      "start": 33.49,
+      "end": 40.63
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे अभी बताया नहीं था कि थोड़ी देर पहले phone लगाया था मैंने।",
+      "start": 41.53,
+      "end": 44.71
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं मैं समझ सकता हूं। बस एक बार confirm कर लीजिए कि आपको coffee grinder चाहिए या कोई और।",
+      "start": 45.71,
+      "end": 50.37
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं जी कोई और चीज जिसमें हर चीज पिस सके मसाले, dry fruit और केले वगैरह diet के लिए और सब कुछ दाल-वाल सब कुछ मसाले-पाइस।",
+      "start": 51.59,
+      "end": 60.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है, मैं समझ गया कि आपको एक multipurpose grinder चाहिए। अब बताइए size में आप क्या prefer करेंगे small bag या कोई और?",
+      "start": 61.33,
+      "end": 67.35
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 68.09,
+      "end": 68.71
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप size के बारे में बता पाएंगे कि आपको small चाहिए, big या कुछ और?",
+      "start": 69.91,
+      "end": 74.25
+    },
+    {
+      "role": "BUYER",
+      "text": "बेग बेग।",
+      "start": 74.97,
+      "end": 75.89
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मैं समझ नहीं पाया। क्या आप बता सकते हैं कि आपको grinder small size में चाहिए, big में या कोई और size?",
+      "start": 77.21,
+      "end": 82.73
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको bed चाहिए यार bed।",
+      "start": 79.63,
+      "end": 87.19
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं मैं इसे note कर लेता हूं। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 88.17,
+      "end": 94.45
+    },
+    {
+      "role": "BUYER",
+      "text": "पहले आप मेरी अपनी dealer से बात करवाइए।",
+      "start": 94.87,
+      "end": 97.57
+    },
+    {
+      "role": "BOT",
+      "text": "जरूर but पहले बस एक दो details confirm कर लेते हैं ताकि seller आपकी requirement समझ सकें। क्या आप इस product के बारे में कोई और specification share करना चाहेंगे?",
+      "start": 98.75,
+      "end": 106.77
+    },
+    {
+      "role": "BUYER",
+      "text": "और कुछ नहीं बस खाली दो सौ watt का हो यही बस।",
+      "start": 107.65,
+      "end": 111.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है 200 watt की detail note कर ली है। अभी line पे कोई seller available नहीं है। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 112.09,
+      "end": 122.45
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 9.56,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 5.89,
+        "end": 15.45,
+        "duration_s": 9.56,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "call_id": "80_90701796_CMIF2JXG5",
+  "duration_s": 81.43,
+  "graded_at": "2026-10-10T12:42:39+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Buyer stated a critical application/event which bot ignored.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I need a seminar in Hyderabad only.",
+      "timestamp": 52.85,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated a critical application/event which bot ignored.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अभी हमारे पास आपके preferred city में seller available नहीं है।",
+      "timestamp": 56.17,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot claimed no sellers available without checking.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No lead created, so outcome accuracy is NA."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 100 piece correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit was piece, no mismatch."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was collected successfully."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not asked or confirmed."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not asked or confirmed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I need a seminar in Hyderabad only.",
+      "timestamp": 52.85,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated a critical application/event which bot ignored.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred before abrupt end."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No critical ASR errors detected."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific questions asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search was performed due to abrupt end."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air before abrupt end."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अभी हमारे पास आपके preferred city में seller available नहीं है।",
+      "timestamp": 56.17,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot claimed no sellers available without checking.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.2
+    }
+  ],
+  "captured_lead": {
+    "product": "dome shaped aluminium bottles",
+    "quantity": "100",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "capacity",
+        "value": "500 ml"
+      },
+      {
+        "name": "material",
+        "value": "Chemical"
+      }
+    ],
+    "name": null,
+    "city": "Hyderabad",
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer clarified event requirement but bot ignored it.",
+      "timestamp": 52.9,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated city check 4 times before hanging up.",
+      "timestamp": 56.2,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: bot_not_understood",
+      "timestamp": 15.51,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture buyer's critical application (seminar) and abruptly ended the call while searching for sellers.",
+  "analysis": "Buyer wanted dome-shaped aluminium bottles for a seminar in Hyderabad. Bot confirmed '100 piece' and '500 ml capacity', but then the buyer clarified they needed a seminar in Hyderabad, which the bot did not capture. The bot then searched for sellers in Hyderabad, found none, and abruptly ended the call. No lead was created.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[capacity] = '500 ml': number(s) ['500'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3677,
+    "completion_tokens": 1221
+  },
+  "unresolved_problems": []
+}

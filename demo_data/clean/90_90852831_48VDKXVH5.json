@@ -1,0 +1,47 @@
+{
+  "call_id": "90_90852831_48VDKXVH5",
+  "file": "data/recordings/90_90852831_48VDKXVH5.mp3",
+  "duration_s": 28.58,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए? మీరు మాట్లాడే వ్యక్తి మీ call ని hold లో పెట్టారు. దయచేసి line లో వేచి ఉండండి.",
+      "start": 0.01,
+      "end": 17.59
+    },
+    {
+      "role": "BUYER",
+      "text": "से बात कर रहे हैं उन्होंने आपके call को hold पर रखा है कृपया line पर बने रहें the person you are speaking with has put your call on hold.",
+      "start": 17.59,
+      "end": 28.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 7.18,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 2.97,
+        "end": 10.15,
+        "duration_s": 7.18,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "call_id": "540_90702700_G4JEGPXG5",
+  "file": "data/recordings/540_90702700_G4JEGPXG5.mp3",
+  "duration_s": 172.77,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको folding mattress की requirement है ना?",
+      "start": 0.21,
+      "end": 3.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Good Morning. आपको folding mattress की requirement थी ना? हाँ हाँ दो चाहिए हमको।",
+      "start": 7.47,
+      "end": 13.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। बताइए mattress thickness में क्या prefer करेंगे 2 inch, 3 inch या कुछ और?",
+      "start": 14.67,
+      "end": 23.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 30.97,
+      "end": 31.45
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं यही हूँ। बताइए mattress thickness में क्या prefer करेंगे 2 inch, 3 inch या कुछ और?",
+      "start": 32.69,
+      "end": 38.11
+    },
+    {
+      "role": "BUYER",
+      "text": "दो inch का चाहिए।",
+      "start": 39.47,
+      "end": 40.81
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब dimensions के बारे में बता दीजिए। आपको 3 cross 6 feet, 4 cross 6 feet या कुछ और चाहिए? Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "start": 42.23,
+      "end": 56.73
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन foot चौड़ा चाहिए और छह foot लंबा चाहिए और दो inch मोटा चाहिए।",
+      "start": 55.55,
+      "end": 60.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अभी line पे काफी अच्छे seller available हैं। आप उनसे अपने हिसाब से price और बाकी details discuss कर लीजिए। क्या मैं आपकी बात उनसे करवा दूं?",
+      "start": 61.23,
+      "end": 69.45
+    },
+    {
+      "role": "BUYER",
+      "text": "करवा चाहिए।",
+      "start": 71.07,
+      "end": 72.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पे भेज दी जाएंगी। Please line पे बने रहें।",
+      "start": 73.41,
+      "end": 80.31
+    },
+    {
+      "role": "BUYER",
+      "text": "आपके रिश्तेदार से बात कर रहे हो? Hello. Hello. Hello hello. Hello आवाज आ रही है क्या? हाँ sir आ रही है sir। हाँ हमको ये गद्दा चाहिए था ये दो inch मोटा चाहिए था और तीन inch चौड़ा और छह foot लंबा। चार इंच। है क्या? एक तीन foot चौड़ा चाहिए छह foot लंबा और दो inch मोटा दो piece चाहिए अच्छा कितना चाहिए दो minute हेलो। दो piece चाहिए।",
+      "start": 81.51,
+      "end": 138.43
+    },
+    {
+      "role": "BOT",
+      "text": "Hello.",
+      "start": 137.77,
+      "end": 138.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ सर दो piece चाहिए।",
+      "start": 139.57,
+      "end": 141.01
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 139.77,
+      "end": 140.25
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है मैं आपको WhatsApp number है आपका? हाँ sir। हाँ यही number है मेरा WhatsApp।",
+      "start": 142.23,
+      "end": 147.81
+    },
+    {
+      "role": "BOT",
+      "text": "हो।",
+      "start": 142.87,
+      "end": 143.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ठीक है ठीक है sir आप Bangalore से बात कर रहे हो ना Bangalore से बात कर रहा हूँ। कब दे सकते हो delivery?",
+      "start": 148.57,
+      "end": 159.09
+    },
+    {
+      "role": "BOT",
+      "text": "तो",
+      "start": 156.63,
+      "end": 157.21
+    },
+    {
+      "role": "BUYER",
+      "text": "सर मैं थोड़ा time पे phone कर दो चलो गाड़ी चला रहा था मैं। हाँ ठीक है बाद में कर लीजिये थोड़ी देर ठीक है ठीक है ठीक।",
+      "start": 160.89,
+      "end": 169.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 13.68,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 23.95,
+        "end": 30.97,
+        "duration_s": 7.02,
+        "after_role": "BOT"
+      },
+      {
+        "start": 83.11,
+        "end": 96.79,
+        "duration_s": 13.68,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 5,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

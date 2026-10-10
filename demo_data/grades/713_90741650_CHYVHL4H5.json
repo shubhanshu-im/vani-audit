@@ -1,0 +1,344 @@
+{
+  "call_id": "713_90741650_CHYVHL4H5",
+  "duration_s": 105.41,
+  "graded_at": "2026-10-10T12:40:08+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Qty Missed Opportunity, Spec Missed Opportunity, Looping Behavior, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मेरे को मंत्री करीबन हज़ार के आस पास",
+      "timestamp": 27.85,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave quantity but bot did not capture or confirm it.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.9
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं इसमें क्या option है मेरे को मेरे को car चानी चाहिए",
+      "timestamp": 53.73,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer specified 'car' but bot inferred 'car' type rather than capturing it as a spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 53.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए जैसे Air Power Pocket, Airmatic या कुछ और?",
+      "timestamp": 38.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for series preference twice, exceeding the limit of 2.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अंजीरें",
+      "timestamp": 17.99,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'अंजीरें' (figs) as a product, but recovered.",
+      "evidence_verified": true,
+      "llm_timestamp": 18.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप Musk fragrance ले लीजिए",
+      "timestamp": 88.07,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot inferred a fragrance spec (Musk) that the buyer did not provide.",
+      "evidence_verified": true,
+      "llm_timestamp": 88.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 20.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed requirement and call proceeded to lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not read back or captured numerically."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity unit was not captured or confirmed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 20.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity when buyer had not provided it yet."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मेरे को मंत्री करीबन हज़ार के आस पास",
+      "timestamp": 27.85,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave quantity but bot did not capture or confirm it.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.9
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 was not explicitly asked or read back."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 was not explicitly asked or read back."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं इसमें क्या option है मेरे को मेरे को car चानी चाहिए",
+      "timestamp": 53.73,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer specified 'car' but bot inferred 'car' type rather than capturing it as a spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 53.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए जैसे Air Power Pocket, Airmatic या कुछ और?",
+      "timestamp": 38.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for series preference twice, exceeding the limit of 2.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अंजीरें",
+      "timestamp": 17.99,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'अंजीरें' (figs) as a product, but recovered.",
+      "evidence_verified": true,
+      "llm_timestamp": 18.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were explicitly recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not change product, bot maintained the correct product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data is not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "System data is not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air or silence."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप Musk fragrance ले लीजिए",
+      "timestamp": 88.07,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot inferred a fragrance spec (Musk) that the buyer did not provide.",
+      "evidence_verified": true,
+      "llm_timestamp": 88.1
+    }
+  ],
+  "captured_lead": {
+    "product": "hanging car air freshener gel",
+    "quantity": "1000",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "series",
+        "value": "Aero or Air Twist"
+      },
+      {
+        "name": "fragrance",
+        "value": "Musk"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard 'अंजीरें' as product name.",
+      "timestamp": 18.0,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot asked for series preference twice.",
+      "timestamp": 38.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture quantity and misheard the buyer's response to the series question. Bot inferred a fragrance spec (Musk) that the buyer did not provide.",
+  "analysis": "Buyer wanted approximately 1000 hanging car air freshener gels, but the seller was unavailable. Bot collected quantity, product (gel), and a spec (series/type), though it misheard the series and inferred 'Musk' fragrance. Bot offered to send seller details on WhatsApp and closed.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.quantity = '1000': number(s) ['1000'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4013,
+    "completion_tokens": 1412
+  },
+  "unresolved_problems": []
+}

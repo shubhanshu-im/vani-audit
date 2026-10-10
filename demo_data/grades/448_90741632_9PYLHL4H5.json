@@ -1,0 +1,288 @@
+{
+  "call_id": "448_90741632_9PYLHL4H5",
+  "duration_s": 77.47,
+  "graded_at": "2026-10-10T12:32:56+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 67.31,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot offered to send seller details on WhatsApp instead of connecting a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 67.31,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot promised to send details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared a clear requirement and bot handled it."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "एक ही piece चाहिए था",
+      "timestamp": 17.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed the buyer's requirement for one piece."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer specified piece, which is a standard unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked and buyer provided quantity."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "model name 1600 ही चाहिए ना",
+      "timestamp": 20.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed the model 1600 correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "नया चाहिए नया चाहिए",
+      "timestamp": 43.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the condition preference as new."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important specs were missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not repeat questions unnecessarily."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions impacting the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 67.31,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot offered to send seller details on WhatsApp instead of connecting a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.3
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed and remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data is not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 67.31,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot promised to send details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.3
+    }
+  ],
+  "captured_lead": {
+    "product": "Nokia 1600",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "model",
+        "value": "1600"
+      },
+      {
+        "name": "condition",
+        "value": "new"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Sultanpur",
+    "state": "Uttar Pradesh"
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for WhatsApp details instead of a live seller.",
+      "timestamp": 67.3,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed by promising WhatsApp seller details rather than creating a live seller connection.",
+  "analysis": "Buyer wanted a new Nokia 1600 phone, one piece, from Sultanpur, UP, named [NAME] [NAME] [NAME]. Bot confirmed product, quantity, condition (new), name, and location. Bot promised to send seller details on WhatsApp and closed. Buyer's final line 'कब तक गायब है?' is an unclear query.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3797,
+    "completion_tokens": 1615
+  },
+  "unresolved_problems": []
+}

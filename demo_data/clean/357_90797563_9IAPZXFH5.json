@@ -1,0 +1,75 @@
+{
+  "call_id": "357_90797563_9IAPZXFH5",
+  "file": "data/recordings/357_90797563_9IAPZXFH5.mp3",
+  "duration_s": 52.42,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी DJ speaker की request IndiaMART पर raise है बस उसी के लिए कुछ details confirm करनी थी। क्या क्या आप अभी line पर हैं?",
+      "start": 0.29,
+      "end": 16.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 19.31,
+      "end": 19.89
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब brand के बारे में बात कर लेते हैं। आपको कौन सा चाहिए JBL या Yamaha या कुछ और?",
+      "start": 21.47,
+      "end": 25.79
+    },
+    {
+      "role": "BUYER",
+      "text": "जो मैं देखा मैं वही चाहिए मुझे।",
+      "start": 27.49,
+      "end": 29.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 30.67,
+      "end": 35.95
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं बोलना चाहता हूँ ये MI system में हो गया क्या भैया?",
+      "start": 37.79,
+      "end": 41.35
+    },
+    {
+      "role": "BOT",
+      "text": "जी हां आप इसके बारे में seller से विस्तार से बात कर सकते हैं। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 42.31,
+      "end": 51.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 9.92,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 5.69,
+        "end": 15.61,
+        "duration_s": 9.92,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

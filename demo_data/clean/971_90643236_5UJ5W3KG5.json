@@ -1,0 +1,122 @@
+{
+  "call_id": "971_90643236_5UJ5W3KG5",
+  "file": "data/recordings/971_90643236_5UJ5W3KG5.mp3",
+  "duration_s": 68.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Mahindra Treo Yaari four seater SFT की requirement है ना?",
+      "start": 0.01,
+      "end": 4.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Madam उसको साथ लेना है आज अपना शीशा फूट जाए कितना तक आ जाएगा तीन दिन में आ जाएगा।",
+      "start": 6.23,
+      "end": 10.91
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बोल रही हूं। आप जिस seller को call कर रहे थे वो available नहीं है। price की जानकारी seller देंगे। पहले कुछ details confirm कर दीजिए। आपको e-rickshaw model में Mahindra Treo Yaari SFT चाहिए या HRT?",
+      "start": 11.91,
+      "end": 24.37
+    },
+    {
+      "role": "BUYER",
+      "text": "एकादी महोदय एकादी।",
+      "start": 26.09,
+      "end": 28.13
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई क्या आप बता सकते हैं कि आपको Mahindra Treo Yari SFT चाहिए या HRT?",
+      "start": 29.35,
+      "end": 35.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Mahindra के एक आती है।",
+      "start": 36.29,
+      "end": 38.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller इस बारे में आपकी मदद करेंगे। अब आप अपनी city और state भी बता दीजिए please। नमस्ते मैं India Math.",
+      "start": 39.61,
+      "end": 46.91
+    },
+    {
+      "role": "BUYER",
+      "text": "विद्या माचरी।",
+      "start": 46.13,
+      "end": 46.91
+    },
+    {
+      "role": "BOT",
+      "text": "आप जेहानाबाद बिहार से।",
+      "start": 47.99,
+      "end": 49.55
+    },
+    {
+      "role": "BUYER",
+      "text": "बिहार के",
+      "start": 48.75,
+      "end": 49.85
+    },
+    {
+      "role": "BOT",
+      "text": "आप जहानाबाद बिहार से बोल रहे हैं।",
+      "start": 50.77,
+      "end": 52.41
+    },
+    {
+      "role": "BUYER",
+      "text": "धनबाद बिहार से बोल",
+      "start": 51.07,
+      "end": 52.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब गणेश जी बोल रहे हैं।",
+      "start": 53.37,
+      "end": 55.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ। हाँ हाँ हाँ।",
+      "start": 54.39,
+      "end": 57.43
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 58.27,
+      "end": 66.03
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है Madam.",
+      "start": 67.61,
+      "end": 68.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 1.72,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

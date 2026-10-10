@@ -1,0 +1,309 @@
+{
+  "call_id": "454_90852946_7RMVLXVH5",
+  "duration_s": 67.03,
+  "graded_at": "2026-10-10T12:33:06+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Accuracy (Numeric): Bot captured 15 instead of 6, a clear mishearing of the buyer's quantity.",
+  "fatal_params": [
+    "Quantity Accuracy (Numeric)",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मेरे को six MCQs fifty number.",
+      "timestamp": 16.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot captured 15 instead of 6, a clear mishearing of the buyer's quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 16.4
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Madam मेरे को machine number packet 18, exam packet 18, exam packet 1 number.",
+      "timestamp": 37.29,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot accepted unclear spec without probing for a clearer answer.",
+      "evidence_verified": true,
+      "llm_timestamp": 37.3
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मेरे को six MCQs fifty number.",
+      "timestamp": 16.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard 'six MCQs fifty number' as '15 MCQs 10 numbers'.",
+      "evidence_verified": true,
+      "llm_timestamp": 16.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared a product need and bot proceeded to collect details and close."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मेरे को six MCQs fifty number.",
+      "timestamp": 16.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot captured 15 instead of 6, a clear mishearing of the buyer's quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 16.4
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit was not discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated quantity, bot did not miss opportunity, it misheard it."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about current rating but buyer did not answer."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask a second spec."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Madam मेरे को machine number packet 18, exam packet 18, exam packet 1 number.",
+      "timestamp": 37.29,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot accepted unclear spec without probing for a clearer answer.",
+      "evidence_verified": true,
+      "llm_timestamp": 37.3
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping behavior observed."
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मेरे को six MCQs fifty number.",
+      "timestamp": 16.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard 'six MCQs fifty number' as '15 MCQs 10 numbers'.",
+      "evidence_verified": true,
+      "llm_timestamp": 16.4
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed and remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in the transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breaches or major language issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "Legrand Merius modular switches",
+    "quantity": "15",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "current rating",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured quantity 15 instead of buyer's 6.",
+      "timestamp": 19.4,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer's spec response was unclear but accepted.",
+      "timestamp": 37.3,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard the buyer's quantity (6 sets of 50 MCQs) as 15 MCQs 10 numbers, leading to a lead with incorrect quantity.",
+  "analysis": "The buyer requested 'six MCQs fifty number' (6 sets of 50 MCQs) for Legrand Merius modular switches. The bot misheard this as '15 MCQs 10 numbers' and failed to correct it, reading back a quantity of 15 instead of 6. The bot then asked about current rating, and the buyer gave a confusing response about 'machine number packet 18', which the bot accepted without probing. The bot closed by sending seller details via WhatsApp. Outcome: lead created with incorrect quantity (15 instead of 6).",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14522,
+    "completion_tokens": 5166
+  },
+  "unresolved_problems": []
+}

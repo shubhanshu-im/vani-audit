@@ -1,0 +1,111 @@
+{
+  "call_id": "864_90853031_9RVUMXVH5",
+  "file": "data/recordings/864_90853031_9RVUMXVH5.mp3",
+  "duration_s": 81.5,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको V bottom paper bag making machine की requirement है।",
+      "start": 0.13,
+      "end": 4.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Hello. Hello.",
+      "start": 1.17,
+      "end": 7.85
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। आपको V bottom paper bag making machine की requirement थी ना?",
+      "start": 9.09,
+      "end": 13.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Madam.",
+      "start": 13.89,
+      "end": 14.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। बताइए automation grade में क्या prefer करेंगे? automatic, semi-automatic या कोई और?",
+      "start": 15.73,
+      "end": 28.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Madam automatic view bottom double color.",
+      "start": 22.59,
+      "end": 32.29
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए back type में आप क्या prefer करेंगे square bottom, V bottom या कुछ और?",
+      "start": 33.29,
+      "end": 38.29
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam view bottom हम लोग suggest करेंगे। ठीक है? पर आप back tight में क्या prefer करेंगे? square bottom, V bottom या कुछ और? वी bottom madam.",
+      "start": 38.95,
+      "end": 50.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 51.29,
+      "end": 57.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 57.83,
+      "end": 58.31
+    },
+    {
+      "role": "BOT",
+      "text": "Hello क्या आप अभी line पे हैं?",
+      "start": 66.31,
+      "end": 67.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ right right madam.",
+      "start": 68.51,
+      "end": 70.25
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं line पर ही हूं। आपको मैं seller details WhatsApp पर भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 71.31,
+      "end": 77.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 8.0,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 58.31,
+        "end": 66.31,
+        "duration_s": 8.0,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

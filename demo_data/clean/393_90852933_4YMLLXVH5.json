@@ -1,0 +1,207 @@
+{
+  "call_id": "393_90852933_4YMLLXVH5",
+  "file": "data/recordings/393_90852933_4YMLLXVH5.mp3",
+  "duration_s": 176.83,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको designer cotton net fabric की requirement है ना?",
+      "start": 0.35,
+      "end": 3.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.59,
+      "end": 0.99
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। नमस्ते। क्या आपको designer cotton net fabric की requirement थी?",
+      "start": 5.81,
+      "end": 11.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नमस्ते मैं IndiaMART से बोल रही हूं। क्या आपको designer cotton net fabric की requirement थी? हाँ।",
+      "start": 17.53,
+      "end": 26.43
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने meter या piece चाहिए आपको?",
+      "start": 27.51,
+      "end": 33.75
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन सौ।",
+      "start": 39.63,
+      "end": 40.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब fabric type के बारे में बात कर लेते हैं। आपको tissue net चाहिए या soft net या कुछ और? Hello क्या आप अभी line पे हैं? बताइए आपको कौन सा fabric type चाहिए?",
+      "start": 41.69,
+      "end": 60.41
+    },
+    {
+      "role": "BUYER",
+      "text": "ऐसे।",
+      "start": 62.27,
+      "end": 63.01
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको fabric type में क्या prefer करेंगे?",
+      "start": 63.99,
+      "end": 69.07
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको।",
+      "start": 72.53,
+      "end": 73.03
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। Please एक बार फिर से बता दीजिए। आपको कौन सा fabric type चाहिए?",
+      "start": 74.29,
+      "end": 79.63
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे अभी भी care नहीं है। एक दिन एक दिन।",
+      "start": 74.41,
+      "end": 82.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? यह detail seller बता देंगे। अब बताइए आपको width में क्या prefer करेंगे? 60 inch या 58 inch?",
+      "start": 83.09,
+      "end": 89.33
+    },
+    {
+      "role": "BUYER",
+      "text": "fifteen कर दो। Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको width में क्या prefer करेंगे 60 inch या 58 inch? हार्टिंग का दोस्त हार्टिंग।",
+      "start": 92.17,
+      "end": 105.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये detail seller बता देंगे। अब आपकी city और state भी बता दीजिए please।",
+      "start": 106.25,
+      "end": 110.73
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या?",
+      "start": 112.95,
+      "end": 113.47
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं कह रही थी कि आप अपनी city और state बता दीजिए please.",
+      "start": 114.79,
+      "end": 118.05
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा number. नहीं मुझे आपका number नहीं चाहिए बस आप अपनी city और state बता दीजिए please. नहीं समझ में नहीं आता है तुम Bangla में बोलो ना यार।",
+      "start": 119.45,
+      "end": 132.21
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए। मैं सिर्फ हिंदी या English में बात कर सकती हूँ। क्या आप अपनी city और state बता सकते हैं?",
+      "start": 135.39,
+      "end": 141.07
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 143.37,
+      "end": 143.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है कोई बात नहीं क्या आप अपना नाम बता सकते हैं please?",
+      "start": 144.91,
+      "end": 147.95
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा नाम।",
+      "start": 149.57,
+      "end": 150.29
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपका नाम क्या है please बता दीजिए।",
+      "start": 151.33,
+      "end": 153.49
+    },
+    {
+      "role": "BUYER",
+      "text": "बता दीजिए। मेरा मेरा नाम है समीर उल।",
+      "start": 152.51,
+      "end": 156.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 157.61,
+      "end": 163.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 165.15,
+      "end": 165.77
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 166.67,
+      "end": 169.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 14,
+    "buyer_turns": 13,
+    "longest_gap_s": 9.48,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 11.75,
+        "end": 17.53,
+        "duration_s": 5.78,
+        "after_role": "BOT"
+      },
+      {
+        "start": 33.75,
+        "end": 39.63,
+        "duration_s": 5.88,
+        "after_role": "BOT"
+      },
+      {
+        "start": 47.25,
+        "end": 56.73,
+        "duration_s": 9.48,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 8,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

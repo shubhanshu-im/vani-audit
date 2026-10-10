@@ -1,0 +1,189 @@
+{
+  "call_id": "245_90741536_J6XCGL4H5",
+  "file": "data/recordings/245_90741536_J6XCGL4H5.mp3",
+  "duration_s": 112.25,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको fully automatic double die थाली machine की requirement है ना?",
+      "start": 0.01,
+      "end": 4.65
+    },
+    {
+      "role": "BUYER",
+      "text": "automatic हाँ।",
+      "start": 1.61,
+      "end": 6.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको automation grade fully automatic ही चाहिए ना?",
+      "start": 7.45,
+      "end": 19.75
+    },
+    {
+      "role": "BUYER",
+      "text": "ये जैसे की कितने तक मिल सकती है।",
+      "start": 21.09,
+      "end": 23.89
+    },
+    {
+      "role": "BOT",
+      "text": "आप इसकी price seller से discuss कर सकते हैं। वो आपको best rates देंगे। अभी बस ये बता दीजिए कि automation grade fully automatic ही चाहिए ना?",
+      "start": 24.99,
+      "end": 32.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ये ये पूछ रहे हैं जैसे कि जो बनाते हैं machine से।",
+      "start": 33.09,
+      "end": 38.09
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब machine technology के बारे में बात कर लेते हैं। आपको hydraulic चाहिए, crank या कुछ और?",
+      "start": 39.15,
+      "end": 44.45
+    },
+    {
+      "role": "BUYER",
+      "text": "ये नहीं पूछ रहे हैं।",
+      "start": 49.73,
+      "end": 50.89
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं। क्या आप बता सकते हैं कि आपको machine technology में क्या prefer करेंगे hydraulic crank या कोई और?",
+      "start": 52.21,
+      "end": 57.95
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको तो रखना होगा सब।",
+      "start": 58.67,
+      "end": 60.17
+    },
+    {
+      "role": "BOT",
+      "text": "और कोई बात कर",
+      "start": 61.35,
+      "end": 62.37
+    },
+    {
+      "role": "BUYER",
+      "text": "और कोई बात कर सकता है?",
+      "start": 61.39,
+      "end": 63.05
+    },
+    {
+      "role": "BOT",
+      "text": "बस कुछ details चाहिए ताकि मैं आपको सही seller से connect कर सकूं। आप अपनी city और state भी बता दीजिए please।",
+      "start": 64.29,
+      "end": 70.41
+    },
+    {
+      "role": "BUYER",
+      "text": "जी और उत्तर प्रदेश।",
+      "start": 68.73,
+      "end": 72.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? पर आप Uttar Pradesh में किस city से बोल रहे हैं? Please बता दीजिए।",
+      "start": 73.39,
+      "end": 77.73
+    },
+    {
+      "role": "BUYER",
+      "text": "बनारस बनारस।",
+      "start": 77.15,
+      "end": 79.25
+    },
+    {
+      "role": "BOT",
+      "text": "बना आप बनारस उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 78.43,
+      "end": 82.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 83.31,
+      "end": 83.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 84.93,
+      "end": 87.39
+    },
+    {
+      "role": "BUYER",
+      "text": "सर्वेश यादव।",
+      "start": 88.49,
+      "end": 89.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 90.55,
+      "end": 96.83
+    },
+    {
+      "role": "BUYER",
+      "text": "ये पूछ रहे थे कि जैसे कि machine ले लिए।",
+      "start": 98.05,
+      "end": 100.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपनी यह बात seller को बता दीजिएगा। वो आपकी पूरी मदद करेंगे। IndiaMART सुनने के लिए धन्यवाद।",
+      "start": 102.13,
+      "end": 107.79
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी पूरी मदद। करेंगे। तो trailer के बाद कब होगी?",
+      "start": 104.95,
+      "end": 110.49
+    },
+    {
+      "role": "BOT",
+      "text": "बात सब।",
+      "start": 109.29,
+      "end": 110.25
+    },
+    {
+      "role": "BUYER",
+      "text": "एक।",
+      "start": 112.07,
+      "end": 112.35
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 13,
+    "longest_gap_s": 5.28,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 44.45,
+        "end": 49.73,
+        "duration_s": 5.28,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

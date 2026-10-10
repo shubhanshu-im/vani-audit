@@ -1,0 +1,128 @@
+{
+  "call_id": "619_90685205_EZ3VL1UG5",
+  "file": "data/recordings/619_90685205_EZ3VL1UG5.mp3",
+  "duration_s": 85.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.73
+    },
+    {
+      "role": "BUYER",
+      "text": "রেড করতে আর play করতে।",
+      "start": 4.23,
+      "end": 8.67
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं समझ नहीं पाई। क्या आप बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 9.67,
+      "end": 13.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Rose Court का bracelet.",
+      "start": 15.63,
+      "end": 17.33
+    },
+    {
+      "role": "BOT",
+      "text": "आपको root cause bracelet जो आमतौर पे हाथ में पहनने के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 18.37,
+      "end": 23.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ road code road code था और उसमें clear code वो तो मैंने अपने photo में share किया है ना। Pink और White होती है वो Rose Court और Clear Court।",
+      "start": 24.87,
+      "end": 37.23
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। photo आप seller को directly share कर दीजिएगा।",
+      "start": 38.43,
+      "end": 45.41
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी मेरे पास photo देखने की facility नहीं है।",
+      "start": 45.41,
+      "end": 47.81
+    },
+    {
+      "role": "BOT",
+      "text": "बस कुछ details confirm कर दीजिए please।",
+      "start": 47.81,
+      "end": 49.88
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 51.15,
+      "end": 51.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 53.15,
+      "end": 55.85
+    },
+    {
+      "role": "BUYER",
+      "text": "क्योंकि और state दिल्ली।",
+      "start": 57.51,
+      "end": 60.73
+    },
+    {
+      "role": "BOT",
+      "text": "आप Delhi Delhi से बोल रहे हैं ना?",
+      "start": 61.67,
+      "end": 63.57
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी Delhi New Delhi Delhi।",
+      "start": 64.95,
+      "end": 67.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप Delhi से बोल रहे हैं। अब आप अपना नाम भी बता दीजिए please।",
+      "start": 68.25,
+      "end": 72.27
+    },
+    {
+      "role": "BUYER",
+      "text": "रेखा साहब।",
+      "start": 73.49,
+      "end": 74.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 75.49,
+      "end": 84.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.5,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

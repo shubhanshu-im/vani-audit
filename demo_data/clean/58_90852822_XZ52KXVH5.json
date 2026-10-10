@@ -1,0 +1,46 @@
+{
+  "call_id": "58_90852822_XZ52KXVH5",
+  "file": "data/recordings/58_90852822_XZ52KXVH5.mp3",
+  "duration_s": 27.29,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको blister packaging materials की requirement है ना?",
+      "start": 0.41,
+      "end": 4.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Hello जी बताइए कैसे मदद कर सकती हूँ?",
+      "start": 5.41,
+      "end": 14.39
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं। जब भी आपको blister packaging materials की जरूरत हो, IndiaMART पर जरूर visit कीजिएगा। अपना समय देने के लिए धन्यवाद।",
+      "start": 17.01,
+      "end": 24.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

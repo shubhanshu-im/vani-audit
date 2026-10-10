@@ -1,0 +1,38 @@
+{
+  "call_id": "587_90853054_S5B5NXVH5",
+  "file": "data/recordings/587_90853054_S5B5NXVH5.mp3",
+  "duration_s": 14.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो आपको bucket cutter kit for JCB 3DX heavy duty की requirement है ना? Hello, where? नमस्ते मैं IndiaMART से Tania बोल रही हूं। क्या आपको bucket...",
+      "start": 0.23,
+      "end": 14.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 14.15,
+      "end": 14.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 3.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

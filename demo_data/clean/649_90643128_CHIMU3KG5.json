@@ -1,0 +1,170 @@
+{
+  "call_id": "649_90643128_CHIMU3KG5",
+  "file": "data/recordings/649_90643128_CHIMU3KG5.mp3",
+  "duration_s": 158.76,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको touch tech Insta charger adapter की requirement है ना?",
+      "start": 0.07,
+      "end": 4.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी।",
+      "start": 6.51,
+      "end": 7.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? पर क्या आपको touch tech Insta charger adapter की जरूरत है?",
+      "start": 8.93,
+      "end": 12.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हा fast food काय quantity miss आहे म्हणजे मला shop होतो इथले.",
+      "start": 15.07,
+      "end": 20.57
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। क्या आपको touch tech Insta charger adapter की requirement है?",
+      "start": 21.63,
+      "end": 26.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी।",
+      "start": 28.23,
+      "end": 29.19
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 30.43,
+      "end": 36.27
+    },
+    {
+      "role": "BUYER",
+      "text": "और वो आप आप एक काम कीजिये वो जो सात सौ का मतलब शौक देना।",
+      "start": 39.03,
+      "end": 44.97
+    },
+    {
+      "role": "BOT",
+      "text": "मेरे पास उनके number नहीं है लेकिन मैं दूसरे अच्छे seller से connect करने में मदद करूंगी। पहले आप quantity confirm कर दीजिए please।",
+      "start": 46.11,
+      "end": 52.83
+    },
+    {
+      "role": "BUYER",
+      "text": "क्वांटिटी समझ लो पचहत्तर piece सौ piece मतलब एक माल नहीं खरीदेंगे बहुत सारा माल खरीदना पड़ेगा।",
+      "start": 54.15,
+      "end": 63.37
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको कितने piece चाहिए 50 या 100? Please clear कर दीजिए।",
+      "start": 64.45,
+      "end": 68.57
+    },
+    {
+      "role": "BUYER",
+      "text": "पाँच सौ से करके पकड़िए वो 67 watt का charger, 8 watt का charger, 18 watt का charger, cable और भी बहुत सारा माल है ना, वो सारा खरीदना है। मतलब वो company जो trust company है ना, उसी से खरीदना है।",
+      "start": 71.53,
+      "end": 91.19
+    },
+    {
+      "role": "BOT",
+      "text": "आप पूरी list seller को भेज दीजिएगा वो आपकी मदद करेंगे पर पहले बताइए brand में क्या prefer करेंगे?",
+      "start": 92.43,
+      "end": 97.99
+    },
+    {
+      "role": "BUYER",
+      "text": "यही तो task है।",
+      "start": 99.83,
+      "end": 101.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए wattage में आपको कौन सा चाहिए? जैसे 18 watts, 20 watts या कुछ और?",
+      "start": 102.07,
+      "end": 106.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 111.13,
+      "end": 112.07
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप wattage में क्या prefer करेंगे जैसे 18 watts, 20 watts या कोई और?",
+      "start": 113.31,
+      "end": 119.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ और।",
+      "start": 122.25,
+      "end": 123.73
+    },
+    {
+      "role": "BOT",
+      "text": "मुझे अभी भी clear नहीं हो पाया। please एक बार फिर से बता दीजिए wattage कितना चाहिए?",
+      "start": 125.07,
+      "end": 129.33
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं हो पाया। আর eighteen watt sixty five watt।",
+      "start": 125.89,
+      "end": 135.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं आपकी details note कर लेती हूं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 136.41,
+      "end": 143.67
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है? मैं आपकी हाँ जी हाँ जी भरिए।",
+      "start": 136.47,
+      "end": 147.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं यह भी note कर लेती हूं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 148.79,
+      "end": 153.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 156.09,
+      "end": 156.67
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 12,
+    "longest_gap_s": 4.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

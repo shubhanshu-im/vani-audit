@@ -1,0 +1,80 @@
+{
+  "call_id": "556_90643108_ZHSFU3KG5",
+  "file": "data/recordings/556_90643108_ZHSFU3KG5.mp3",
+  "duration_s": 47.38,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Hypromelos Ophthalmic Solution USP eye drop 10 ml की requirement है ना?",
+      "start": 0.07,
+      "end": 6.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 8.07,
+      "end": 8.77
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 10.11,
+      "end": 15.97
+    },
+    {
+      "role": "BUYER",
+      "text": "दो piece.",
+      "start": 19.29,
+      "end": 20.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं आपको concentration 0.3% weight by volume ही चाहिए ना?",
+      "start": 21.09,
+      "end": 26.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म हम्म जी।",
+      "start": 27.55,
+      "end": 28.69
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई।",
+      "start": 29.89,
+      "end": 30.41
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं देख सकती हूँ कि आपने volume में 10 milliliters चुना है right? जी।",
+      "start": 30.41,
+      "end": 36.13
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 37.15,
+      "end": 44.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 3.32,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

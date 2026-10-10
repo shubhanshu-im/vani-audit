@@ -1,0 +1,224 @@
+{
+  "call_id": "282_90685047_X413J1UG5",
+  "file": "data/recordings/282_90685047_X413J1UG5.mp3",
+  "duration_s": 197.86,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको school bus CCTV camera for outdoor 15 to 20 men की requirement है ना? जी बोल रहे हैं देखने का camera अच्छा से है ना। बहुत बढ़िया। हाँ ये camera school bus के लिए है और काफी अच्छा रहता है। बस कुछ details confirm कर दीजिए कितने piece चाहिए होंगे आपको?",
+      "start": 0.09,
+      "end": 20.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। नहीं डर तो नहीं लगेगा।",
+      "start": 14.25,
+      "end": 22.99
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। यह camera school bus जैसे बाहरी इस्तेमाल के लिए है। आपको कितने piece चाहिए होंगे?",
+      "start": 25.57,
+      "end": 30.77
+    },
+    {
+      "role": "BUYER",
+      "text": "बोलता घर पर लगेगा घर पर।",
+      "start": 31.93,
+      "end": 33.77
+    },
+    {
+      "role": "BOT",
+      "text": "ये camera school bus जैसे बाहरी इस्तेमाल के लिए है। घर के लिए आपको कोई दूसरा camera चाहिए क्या?",
+      "start": 35.81,
+      "end": 40.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 41.55,
+      "end": 42.07
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप घर के लिए camera लेना चाहते हैं। कौन सा camera?",
+      "start": 43.87,
+      "end": 47.17
+    },
+    {
+      "role": "BUYER",
+      "text": "करते हैं।",
+      "start": 47.17,
+      "end": 47.51
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। डोम।",
+      "start": 47.19,
+      "end": 47.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Bullet या कुछ और? room. mobile से Android.",
+      "start": 47.99,
+      "end": 53.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? mobile से connect होने वाला drone camera चाहिए। कितने piece चाहिए होंगे आपको?",
+      "start": 56.13,
+      "end": 60.67
+    },
+    {
+      "role": "BUYER",
+      "text": "एक piece. बहुत बढ़िया। अब बताइए drone camera... हमें कौन सा brand चाहिए जैसे DJI या MI या कुछ और? कितना का है?",
+      "start": 62.01,
+      "end": 74.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? brand में कोई भी चलेगा। अब बताइए video resolution में क्या पसंद करेंगे? 4K, full HD, 1080P या 5.1K?",
+      "start": 76.17,
+      "end": 83.45
+    },
+    {
+      "role": "BUYER",
+      "text": "कुछ कुछ मास्सा है।",
+      "start": 85.83,
+      "end": 87.53
+    },
+    {
+      "role": "BOT",
+      "text": "video quality के लिए 4K सबसे बेहतर मानी जाती है। आपको कौन सा पसंद है या कोई और चाहिए?",
+      "start": 89.79,
+      "end": 95.15
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं अच्छा से बोल दीजिए।",
+      "start": 96.47,
+      "end": 99.47
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं सिर्फ drone camera की जानकारी दे सकती हूं। चलिए video quality में कोई भी चलेगा मान लेती हूं। अब बताइए उड़ने का समय यानी flight time में क्या पसंद करेंगे 45 minute, 34 minute या कुछ और?",
+      "start": 101.39,
+      "end": 113.37
+    },
+    {
+      "role": "BUYER",
+      "text": "सब कुछ चालू नहीं हो रहा है।",
+      "start": 116.25,
+      "end": 117.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? flight time में आपको कोई खास समय नहीं चाहिए। अब आप अपनी city और state बता दीजिए please। ठीक है? time की चिंता seller देख लेंगे। अब आप...",
+      "start": 119.89,
+      "end": 129.37
+    },
+    {
+      "role": "BUYER",
+      "text": "की चिंता seller देख लेंगे अब आप।",
+      "start": 127.39,
+      "end": 129.25
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप जो problem बता रहे हैं वो seller से discuss कर सकते हैं। अभी आप अपनी city और state बता दीजिए please।",
+      "start": 130.99,
+      "end": 136.85
+    },
+    {
+      "role": "BUYER",
+      "text": "आनंद ही होगा।",
+      "start": 139.49,
+      "end": 140.41
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं जब convenient हो तो seller को बता दीजिएगा। अब आप अपना नाम बता दीजिए please।",
+      "start": 142.61,
+      "end": 147.35
+    },
+    {
+      "role": "BUYER",
+      "text": "कितना रुपया लेंगे?",
+      "start": 149.11,
+      "end": 150.27
+    },
+    {
+      "role": "BOT",
+      "text": "price की पूरी जानकारी seller ही देंगे आपको best rate मिलेगा। आप अपना नाम बता दीजिए please।",
+      "start": 152.05,
+      "end": 156.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ पिंजो बोल रहा हूँ।",
+      "start": 157.51,
+      "end": 158.57
+    },
+    {
+      "role": "BOT",
+      "text": "जी हां मैं हिंदी में ही बात कर रही हूं। आप अपना नाम बता दीजिए please।",
+      "start": 160.75,
+      "end": 164.23
+    },
+    {
+      "role": "BUYER",
+      "text": "या फिर या फिर।",
+      "start": 164.63,
+      "end": 165.77
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं बस आप अपना नाम बता दीजिए ताकि seller से आसानी से बात हो सके।",
+      "start": 168.11,
+      "end": 172.49
+    },
+    {
+      "role": "BUYER",
+      "text": "ये pin.",
+      "start": 173.57,
+      "end": 174.35
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं pin code से आपकी पहचान नहीं कर सकती। कृपया अपना नाम बता दीजिए।",
+      "start": 177.61,
+      "end": 182.03
+    },
+    {
+      "role": "BUYER",
+      "text": "ये शिल्प है ये।",
+      "start": 183.99,
+      "end": 185.45
+    },
+    {
+      "role": "BOT",
+      "text": "कोई दिक्कत नहीं नाम अगर नहीं देना चाहते तो seller से बाद में आसानी हो जाएगी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 187.39,
+      "end": 196.33
+    }
+  ],
+  "stats": {
+    "bot_turns": 17,
+    "buyer_turns": 16,
+    "longest_gap_s": 3.26,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

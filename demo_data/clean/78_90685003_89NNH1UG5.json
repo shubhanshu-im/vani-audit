@@ -1,0 +1,158 @@
+{
+  "call_id": "78_90685003_89NNH1UG5",
+  "file": "data/recordings/78_90685003_89NNH1UG5.mp3",
+  "duration_s": 129.89,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको express mobile holder for bike bike mobile holder mobile stand for bike black की requirement है ना?",
+      "start": 0.01,
+      "end": 7.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 9.19,
+      "end": 9.61
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 11.07,
+      "end": 16.95
+    },
+    {
+      "role": "BUYER",
+      "text": "पंद्रह बीस।",
+      "start": 19.67,
+      "end": 20.39
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको बीस पीस चाहिए?",
+      "start": 22.61,
+      "end": 24.07
+    },
+    {
+      "role": "BUYER",
+      "text": "पंद्रह piece।",
+      "start": 25.63,
+      "end": 26.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तो आप piece piece लेना चाहेंगे?",
+      "start": 27.73,
+      "end": 29.71
+    },
+    {
+      "role": "BUYER",
+      "text": "rate कम होगा क्या?",
+      "start": 31.55,
+      "end": 32.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप price के बारे में seller से discuss कर सकते हैं। वो आपको best rates देंगे। आपको कितने piece चाहिए please बता दीजिए।",
+      "start": 34.23,
+      "end": 40.55
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है ठीक है फिर तीस तीस ही प्रक्रिया।",
+      "start": 41.83,
+      "end": 44.43
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब model name के बारे में बात कर लेते हैं। आपको C1 चाहिए या C2?",
+      "start": 45.77,
+      "end": 50.53
+    },
+    {
+      "role": "BUYER",
+      "text": "model मुझे मालूम नहीं पड़ रहा है कौन सा model है ये जो मैं देख रहा हूँ वो कौन सा model है C1 क्या है C2 क्या है।",
+      "start": 52.65,
+      "end": 60.87
+    },
+    {
+      "role": "BOT",
+      "text": "C1 और C2 अलग-अलग design और fitting वाले model हैं। आप अपनी जरूरत बताइए मैं आपको सही model suggest कर दूंगी।",
+      "start": 62.47,
+      "end": 68.85
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे जरूरत कैसे बताइए बोलिए। वो जो इस चीज का जो होता है ना जो ज्यादा क्षमा कीजिए मैं समझ नहीं पा रहा।",
+      "start": 71.75,
+      "end": 81.69
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। ज़्यादातर लोग C1 model prefer करते हैं। क्या आपको वही चाहिए या कोई और?",
+      "start": 80.35,
+      "end": 87.43
+    },
+    {
+      "role": "BUYER",
+      "text": "C1 का model का picture मुझे भेज सकते हैं आप? photo आप seller को directly share कर दीजिएगा। अभी मेरे पास photo भेजने की facility नहीं है। क्या आपको C1 model चाहिए? हाँ P1 model.",
+      "start": 88.93,
+      "end": 102.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए charging feature में आप क्या prefer करेंगे? Yes या No?",
+      "start": 103.95,
+      "end": 107.67
+    },
+    {
+      "role": "BUYER",
+      "text": "charging station नो।",
+      "start": 110.11,
+      "end": 111.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 112.91,
+      "end": 118.75
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 120.17,
+      "end": 120.59
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 121.59,
+      "end": 124.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay thank you.",
+      "start": 126.19,
+      "end": 126.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 2.9,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

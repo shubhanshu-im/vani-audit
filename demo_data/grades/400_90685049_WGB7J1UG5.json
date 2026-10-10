@@ -1,0 +1,306 @@
+{
+  "call_id": "400_90685049_WGB7J1UG5",
+  "duration_s": 131.54,
+  "graded_at": "2026-10-10T12:31:54+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "तीन या दो lines के लिए best price",
+      "timestamp": 105.13,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer mentioned 2-3 lanes, but bot did not capture it as a spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 105.1
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp से भेज दूंगी",
+      "timestamp": 121.37,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised WhatsApp transfer instead of live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 121.4
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Price और damage जैसी जानकारी seller ही आपको देंगे",
+      "timestamp": 29.57,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot deflected price questions but did not promise price.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted product and bot proceeded with lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specific quantity was discussed or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was expected or asked for."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a specific quantity to miss."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "dimensions में आपको 18 1 26 feet ही चाहिए",
+      "timestamp": 56.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 18x26 feet from buyer's request."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Second spec was not asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "तीन या दो lines के लिए best price",
+      "timestamp": 105.13,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer mentioned 2-3 lanes, but bot did not capture it as a spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 105.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked dimensions twice before proceeding."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear misrecognized words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp से भेज दूंगी",
+      "timestamp": 121.37,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised WhatsApp transfer instead of live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 121.4
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Price और damage जैसी जानकारी seller ही आपको देंगे",
+      "timestamp": 29.57,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot deflected price questions but did not promise price.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.6
+    }
+  ],
+  "captured_lead": {
+    "product": "inflatable slide bounce",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "dimensions",
+        "value": "18 1 26 feet"
+      }
+    ],
+    "name": null,
+    "city": "Sonepur",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer asked for price and bot deflected repeatedly.",
+      "timestamp": 29.6,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for a person or live seller.",
+      "timestamp": 47.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot deflected price queries and promised WhatsApp instead of live seller. Did not capture lane count spec.",
+  "analysis": "Buyer requested an inflatable slide bounce (product confirmed). They asked about price for 18x26 feet and 2-3 lanes, but the bot deflected price questions. The bot confirmed dimensions 18x26 feet, asked for city (Sonepur, Bihar), and closed by promising to send seller details via WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4069,
+    "completion_tokens": 1262
+  },
+  "unresolved_problems": []
+}

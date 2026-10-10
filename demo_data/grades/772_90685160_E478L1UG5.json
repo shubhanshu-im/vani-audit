@@ -1,0 +1,294 @@
+{
+  "call_id": "772_90685160_E478L1UG5",
+  "duration_s": 60.77,
+  "graded_at": "2026-10-10T12:41:46+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Steel ही सही रहेगा",
+      "timestamp": 29.07,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'steel', bot transcribed 'steel'",
+      "evidence_verified": true,
+      "llm_timestamp": 29.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 37.73,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question",
+      "evidence_verified": true,
+      "llm_timestamp": 37.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed requirement and bot closed with seller callback"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed 10 kg and bot referenced it"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed 10 kg and bot referenced it"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not need to ask for quantity"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 10 kg and 10 trays"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Electricity भी",
+      "timestamp": 17.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed electricity as heating source"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Steel ही सही रहेगा",
+      "timestamp": 29.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed inner material as steel"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Application (drying fruits) was extra detail not required for lead"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not repeat questions excessively"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Steel ही सही रहेगा",
+      "timestamp": 29.07,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'steel', bot transcribed 'steel'",
+      "evidence_verified": true,
+      "llm_timestamp": 29.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not change product"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory category questions asked"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 37.73,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question",
+      "evidence_verified": true,
+      "llm_timestamp": 37.7
+    }
+  ],
+  "captured_lead": {
+    "product": "dehydration machine",
+    "quantity": "10 kg",
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "heating source",
+        "value": "Electricity"
+      },
+      {
+        "name": "inner material",
+        "value": "steel"
+      }
+    ],
+    "name": "[NAME]",
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked to clarify inner material",
+      "timestamp": 29.1,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer said 'I didn't hear you' at t=29.1",
+      "timestamp": 29.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot asked a banned open-ended question. Buyer had to clarify inner material due to audio issues.",
+  "analysis": "Buyer wants a 10 kg dehydration machine with 10 trays to dry fruits. Bot confirmed heating source (electricity) and inner material (steel), then asked a banned open-ended question. Buyer explained he wants to dry fruits, and bot closed with a seller callback promise.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3614,
+    "completion_tokens": 1232
+  },
+  "unresolved_problems": []
+}

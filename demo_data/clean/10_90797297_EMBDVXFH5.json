@@ -1,0 +1,74 @@
+{
+  "call_id": "10_90797297_EMBDVXFH5",
+  "file": "data/recordings/10_90797297_EMBDVXFH5.mp3",
+  "duration_s": 72.29,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Quantum Magnetic Resonance की requirement है ना?",
+      "start": 0.11,
+      "end": 4.27
+    },
+    {
+      "role": "BUYER",
+      "text": "जी उसके अलावा mini ultrasound compact वाला आता है वो है क्या किताब।",
+      "start": 5.23,
+      "end": 11.03
+    },
+    {
+      "role": "BOT",
+      "text": "compact वाला।",
+      "start": 7.91,
+      "end": 9.55
+    },
+    {
+      "role": "BUYER",
+      "text": "सही है। तो Hello.",
+      "start": 11.77,
+      "end": 17.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? तो आपको quantum magnetic resonance ही चाहिए जिसमें health detection और analysis किया जाता है। यही चाहिए ना?",
+      "start": 17.61,
+      "end": 23.79
+    },
+    {
+      "role": "BUYER",
+      "text": "आप सुन नहीं पा रहे हैं क्या मैं क्या बोल रहा हूं मैंने कहा वो तो चाहिए चाहिए mini ultrasound जो आता है portable। Hello. AI.",
+      "start": 24.29,
+      "end": 44.27
+    },
+    {
+      "role": "BOT",
+      "text": "मैं सुन रही हूँ। आपके लिए quantum magnetic resonance की requirement तो पक्की हो गई है, लेकिन एक दिन में सिर्फ एक ही product की inquiry हो सकती है। आज quantum magnetic resonance ही process कर सकती हूँ। mini portable ultrasound के लिए आप कल inquiry डाल सकते हैं। अब details confirm कर देती हूँ। आपको मैं seller details WhatsApp पे भेज दूँगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका...",
+      "start": 46.13,
+      "end": 69.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 70.75,
+      "end": 71.31
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 3.08,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

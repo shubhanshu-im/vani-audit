@@ -1,0 +1,34 @@
+{
+  "call_id": "169_90852856_BGIRKXVH5",
+  "file": "data/recordings/169_90852856_BGIRKXVH5.mp3",
+  "duration_s": 3.46,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको wooden prefabricated farm",
+      "start": 0.01,
+      "end": 3.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker",
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

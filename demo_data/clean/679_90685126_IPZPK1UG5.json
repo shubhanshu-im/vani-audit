@@ -1,0 +1,110 @@
+{
+  "call_id": "679_90685126_IPZPK1UG5",
+  "file": "data/recordings/679_90685126_IPZPK1UG5.mp3",
+  "duration_s": 69.05,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कश्मीरी organic saffron of hills की requirement है ना?",
+      "start": 0.13,
+      "end": 4.87
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 6.79,
+      "end": 7.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। कितने gram चाहिए होगी आपको?",
+      "start": 8.45,
+      "end": 18.61
+    },
+    {
+      "role": "BUYER",
+      "text": "चार रुपये किलो है।",
+      "start": 19.93,
+      "end": 21.31
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। पर आपको कितनी quantity चाहिए कृपया आगे बढ़ने से पहले clear कर दीजिए ताकि मैं आपको एक अच्छे seller के साथ connect कर सकूं।",
+      "start": 22.27,
+      "end": 29.93
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे आधा किलो चाहिए खेती के लिए।",
+      "start": 31.05,
+      "end": 33.79
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। मैं देख पा रही हूं आपको variety मोगरा ही चाहिए ना?",
+      "start": 34.75,
+      "end": 38.21
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Ma'am लाल केसरी जो लाल वाली वो थी Kashmiri।",
+      "start": 38.99,
+      "end": 42.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। अब वो packaging size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 1 gram, 0.5 gram या कुछ और?",
+      "start": 43.45,
+      "end": 50.19
+    },
+    {
+      "role": "BUYER",
+      "text": "one gram.",
+      "start": 52.25,
+      "end": 53.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 54.05,
+      "end": 59.85
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 60.73,
+      "end": 61.29
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 62.39,
+      "end": 65.21
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका।",
+      "start": 65.79,
+      "end": 66.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.06,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

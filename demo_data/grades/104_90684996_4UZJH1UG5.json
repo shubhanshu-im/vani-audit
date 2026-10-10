@@ -1,0 +1,308 @@
+{
+  "call_id": "104_90684996_4UZJH1UG5",
+  "duration_s": 50.83,
+  "graded_at": "2026-10-10T12:24:22+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Bot skipped specs and quantity, creating a vague lead.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "[NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 28.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot skipped specs and quantity, creating a vague lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.0
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "[NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 28.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "[NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 28.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer requested product and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed or asked."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed or asked."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not needed for a service/product inquiry."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "full leather",
+      "timestamp": 4.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured the buyer's spec."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for a second spec."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "[NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 28.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot skipped specs and quantity, creating a vague lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not repeat questions excessively."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions affecting the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "[NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 28.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.0
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not change the product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data to verify."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search was performed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "[NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 28.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.0
+    }
+  ],
+  "captured_lead": {
+    "product": "full body massage chair",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "material",
+        "value": "full leather"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer asked if bot was from Jaipur, Rajasthan.",
+      "timestamp": 26.2,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot ended call abruptly without confirming transfer or lead creation.",
+      "timestamp": null,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot skipped quantity and specs, and promised WhatsApp instead of live transfer.",
+  "analysis": "Buyer inquired about a full body massage chair. Bot confirmed full leather material and captured location Jaipur, Rajasthan, and name [NAME]. Bot skipped collecting quantity and specs, and did not offer live seller transfer, instead promising to send seller details on WhatsApp. Buyer's intent was a product requirement.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8226,
+    "completion_tokens": 2528
+  },
+  "unresolved_problems": []
+}

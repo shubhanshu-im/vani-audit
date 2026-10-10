@@ -1,0 +1,86 @@
+{
+  "call_id": "3_90797294_1NJ6VXFH5",
+  "file": "data/recordings/3_90797294_1NJ6VXFH5.mp3",
+  "duration_s": 76.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको V3 Master Plus Jade thermal massage bed की requirement है ना? ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए सबसे पहले बताइए इसमें कौन सा function चाहिए full body massage या spine alignment chiropractic support या कुछ और?",
+      "start": 0.01,
+      "end": 24.17
+    },
+    {
+      "role": "BUYER",
+      "text": "कोश बॉडी में से।",
+      "start": 25.29,
+      "end": 26.29
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया full body massage के लिए।",
+      "start": 28.45,
+      "end": 30.39
+    },
+    {
+      "role": "BUYER",
+      "text": "चाहिए। अब बताइए आपको यह किसके लिए चाहिए reselling, third party manufacturing या personal use? Personally. ठीक है? personal use के लिए चाहिए। एक minute आपकी city confirm कर लूं?",
+      "start": 30.39,
+      "end": 44.23
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी city और state भी बता दीजिए please.",
+      "start": 45.61,
+      "end": 48.01
+    },
+    {
+      "role": "BUYER",
+      "text": "सेठी खेड रत्नागिरी। आप खेड महाराष्ट्र से बोल रहे हैं ना? हाँ महाराष्ट्र से।",
+      "start": 49.67,
+      "end": 57.35
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आप अपना नाम भी बता दीजिए please।",
+      "start": 59.23,
+      "end": 61.71
+    },
+    {
+      "role": "BUYER",
+      "text": "जितने अनंत घाटे।",
+      "start": 62.81,
+      "end": 64.13
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद [NAME] जी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 65.99,
+      "end": 74.85
+    },
+    {
+      "role": "BUYER",
+      "text": "मराठी में।",
+      "start": 75.19,
+      "end": 76.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.96,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

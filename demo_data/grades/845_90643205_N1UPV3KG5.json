@@ -1,0 +1,322 @@
+{
+  "call_id": "845_90643205_N1UPV3KG5",
+  "duration_s": 57.38,
+  "graded_at": "2026-10-10T12:43:39+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Qty Missed Opportunity, Spec Missed Opportunity, Dead air, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "detail जानी तभी तो कह रहा मैं मैंने न्यू पूछना भई यो उन्नीया मैम में वा और और half में भी आवा",
+      "timestamp": 38.35,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer clearly stated '19 and a half' hinges but bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.4
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "finish time में steel जी है silver silver सब ते कम मतलब वो जी है",
+      "timestamp": 26.47,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated 'silver finish steel' but bot never captured or confirmed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.5
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "वगैरे का। Hello.",
+      "timestamp": 52.31,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer said hello at the end, but bot had already closed.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 31.81,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Banned open-ended question used by the bot.",
+      "evidence_verified": true,
+      "llm_timestamp": 31.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Lead created for confirmed product despite buyer's confusing follow-up."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's quantity was not captured by bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not captured by bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not explicitly asked by bot but buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "detail जानी तभी तो कह रहा मैं मैंने न्यू पूछना भई यो उन्नीया मैम में वा और और half में भी आवा",
+      "timestamp": 38.35,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer clearly stated '19 and a half' hinges but bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.4
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked by bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked by bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "finish time में steel जी है silver silver सब ते कम मतलब वो जी है",
+      "timestamp": 26.47,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated 'silver finish steel' but bot never captured or confirmed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repetitive looping detected."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear ASR error in bot's readback."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "वगैरे का। Hello.",
+      "timestamp": 52.31,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer said hello at the end, but bot had already closed.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 31.81,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Banned open-ended question used by the bot.",
+      "evidence_verified": true,
+      "llm_timestamp": 31.8
+    }
+  ],
+  "captured_lead": {
+    "product": "one inch brass premium duck hinge",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "finish",
+        "value": ""
+      }
+    ],
+    "name": "[NAME]",
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot ignored buyer's spec and quantity.",
+      "timestamp": 38.4,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer sounded confused and said hello at end.",
+      "timestamp": 52.3,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot ignored buyer's quantity and specs. Used banned question and closed prematurely.",
+  "analysis": "Buyer's intent was to follow up on an existing request for a 'one inch brass premium duck hinge' (product confirmed by bot). The buyer gave quantity/spec details ('19 and a half' hinges, 'silver finish steel') but the bot ignored them and asked a banned open-ended question. The bot closed by saying a seller would contact them (lead created), despite the buyer sounding confused and saying 'hello' at the end.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3691,
+    "completion_tokens": 1285
+  },
+  "unresolved_problems": []
+}

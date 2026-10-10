@@ -1,0 +1,342 @@
+{
+  "call_id": "604_90741602_HRE8HL4H5",
+  "duration_s": 85.03,
+  "graded_at": "2026-10-10T12:37:05+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec1 Accuracy, Spec2 Accuracy, Spec Missed Opportunity, WER, OnCall AstBuy Error",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक किलोवाट।",
+      "timestamp": 36.29,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said '1 kW' but bot asked '1 Yadav or something else' due to ASR confusion.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.3
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "करनी चाहिए।",
+      "timestamp": 62.15,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 'Liberty', bot interpreted it as 'liberty' and did not capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.1
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "करनी चाहिए।",
+      "timestamp": 62.15,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer wanted Liberty brand/axis type, bot failed to capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक यादव या कुछ और?",
+      "timestamp": 30.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "ASR misheard '1 kilowatt' as '1 Yadav'.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 75.33,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to send seller details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 75.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit was discussed for the quantity."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated 1 kW, bot captured it."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक किलोवाट।",
+      "timestamp": 36.29,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said '1 kW' but bot asked '1 Yadav or something else' due to ASR confusion.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.3
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "करनी चाहिए।",
+      "timestamp": 62.15,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 'Liberty', bot interpreted it as 'liberty' and did not capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.1
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "करनी चाहिए।",
+      "timestamp": 62.15,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer wanted Liberty brand/axis type, bot failed to capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक यादव या कुछ और?",
+      "timestamp": 30.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "ASR misheard '1 kilowatt' as '1 Yadav'.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 75.33,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to send seller details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 75.3
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    }
+  ],
+  "captured_lead": {
+    "product": "wind turbine",
+    "quantity": "1",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "capacity",
+        "value": "1 kilowatt"
+      },
+      {
+        "name": "turbine axis type",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer expressed confusion about vertical vs horizontal axis.",
+      "timestamp": 51.0,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard '1 kilowatt' as '1 Yadav' due to ASR.",
+      "timestamp": 30.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture buyer's name, city, state, and Liberty brand preference. Closed with WhatsApp offer instead of creating a lead or live transfer.",
+  "analysis": "Buyer wants a 1 kW wind turbine (air-powered, not water). Bot confirmed 'wind turbine' and '1 kilowatt', but failed to capture 'Liberty' as the preferred brand/axis type and did not collect name, city, or state. The call closed with a transfer to WhatsApp sellers without creating a lead or asking for missing fields. Outcome is a transfer/WhatsApp offer.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3766,
+    "completion_tokens": 1325
+  },
+  "unresolved_problems": []
+}

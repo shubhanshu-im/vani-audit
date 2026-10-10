@@ -1,0 +1,104 @@
+{
+  "call_id": "325_90741544_NLKGGL4H5",
+  "file": "data/recordings/325_90741544_NLKGGL4H5.mp3",
+  "duration_s": 67.97,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Fortis CL 82 to 71 HD heavy duty planner की requirement है ना?",
+      "start": 0.31,
+      "end": 6.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी वो cover चाहिए मेरे को।",
+      "start": 7.79,
+      "end": 10.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 11.65,
+      "end": 18.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हं। एक piece.",
+      "start": 18.13,
+      "end": 20.65
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब size planning width के बारे में बात कर लेते हैं। आपको 90 mm 3.5 inch चाहिए या कुछ और?",
+      "start": 22.07,
+      "end": 28.47
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं तो बोलूंगी लेकिन cover मिलेगा क्या?",
+      "start": 30.97,
+      "end": 34.09
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपको best sellers मिल जाएंगे जिनसे आप cover के बारे में discuss कर सकते हैं। बताइए size में क्या prefer करेंगे?",
+      "start": 35.29,
+      "end": 41.45
+    },
+    {
+      "role": "BUYER",
+      "text": "बेरासी है मैम।",
+      "start": 43.31,
+      "end": 44.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए brand में आप क्या पसंद करेंगे? जैसे X का power, alpha या कोई और?",
+      "start": 45.49,
+      "end": 50.25
+    },
+    {
+      "role": "BUYER",
+      "text": "40 40.",
+      "start": 52.01,
+      "end": 53.09
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए कि brand में आपको क्या चाहिए?",
+      "start": 54.29,
+      "end": 58.51
+    },
+    {
+      "role": "BUYER",
+      "text": "40 40 film है।",
+      "start": 59.75,
+      "end": 61.21
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया। please एक बार फिर से बता दीजिए brand में आप क्या...",
+      "start": 62.63,
+      "end": 68.05
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.5,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

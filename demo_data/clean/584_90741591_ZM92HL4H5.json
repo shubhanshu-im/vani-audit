@@ -1,0 +1,45 @@
+{
+  "call_id": "584_90741591_ZM92HL4H5",
+  "file": "data/recordings/584_90741591_ZM92HL4H5.mp3",
+  "duration_s": 16.85,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 4.57
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 8.79,
+      "end": 9.21
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं IndiaMART से बोल रही हूं। क्या आप मुझे बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 10.71,
+      "end": 16.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 4.22,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

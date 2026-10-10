@@ -1,0 +1,80 @@
+{
+  "call_id": "279_90685043_RI1LI1UG5",
+  "file": "data/recordings/279_90685043_RI1LI1UG5.mp3",
+  "duration_s": 95.18,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको company zero gravity massage chair की requirement है ना? जी बिल्कुल। ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब applications के बारे में बात कर लेते हैं। आपको कौन सा चाहिए personal salon या other? परसुने",
+      "start": 0.01,
+      "end": 28.33
+    },
+    {
+      "role": "BUYER",
+      "text": "बहुत बढ़िया।",
+      "start": 30.11,
+      "end": 30.75
+    },
+    {
+      "role": "BOT",
+      "text": "मैं देख सकती हूं कि आपने handling में six चुना है right? सक्सेस। Sorry आपकी आवाज़ clear नहीं आई। आप बताइए handling में portable चाहिए या fixed?",
+      "start": 30.75,
+      "end": 43.21
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या क्या मिलेगा बता सकते हैं?",
+      "start": 45.45,
+      "end": 47.51
+    },
+    {
+      "role": "BOT",
+      "text": "handling में दो options हैं portable और fixed। इनमें से आपको कौन सा चाहिए?",
+      "start": 49.23,
+      "end": 53.53
+    },
+    {
+      "role": "BUYER",
+      "text": "पवित्र।",
+      "start": 55.95,
+      "end": 56.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city... और state भी बता दीजिए please. लुधियाना। एक घंटा।",
+      "start": 59.73,
+      "end": 68.75
+    },
+    {
+      "role": "BUYER",
+      "text": "आप। आप Ludhiana Punjab से बोल रहे हैं ना?",
+      "start": 68.43,
+      "end": 73.19
+    },
+    {
+      "role": "BOT",
+      "text": "जी। बहुत बढ़िया। अब आप अपना नाम भी बता दीजिए please। सुजीत। ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 74.03,
+      "end": 93.15
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 3.88,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

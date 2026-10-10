@@ -1,0 +1,158 @@
+{
+  "call_id": "961_90741722_RBLNIL4H5",
+  "file": "data/recordings/961_90741722_RBLNIL4H5.mp3",
+  "duration_s": 121.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Eicher Rakshak engine oil की requirement है ना?",
+      "start": 0.01,
+      "end": 3.55
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.05,
+      "end": 5.51
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने bucket या liter की जरूरत है?",
+      "start": 6.97,
+      "end": 13.63
+    },
+    {
+      "role": "BUYER",
+      "text": "नमस्ते। मेरे को ग्यारह लीटर की जरूरत है madam।",
+      "start": 7.89,
+      "end": 18.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब viscosity grade के बारे में बात कर लेते हैं। आपको 15 W 40 चाहिए या कुछ और?",
+      "start": 19.65,
+      "end": 25.03
+    },
+    {
+      "role": "BUYER",
+      "text": "ये madam मेरा Prime है Prime Eicher।",
+      "start": 26.79,
+      "end": 30.47
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। Viscosity grade में आप क्या prefer करेंगे 15 W 40, 20 W 40 या कोई और?",
+      "start": 31.49,
+      "end": 37.13
+    },
+    {
+      "role": "BUYER",
+      "text": "अब madam सुनो madam उन्होंने तो ये कुछ नहीं बताया बस ये बताई थी क्या हम रक्षक का oil गेरते हैं super",
+      "start": 37.13,
+      "end": 46.55
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं seller इस बारे में आपकी मदद कर देंगे। अब बताइए brand में आप क्या prefer करेंगे Kavaaj, Swaraj या कोई और?",
+      "start": 47.67,
+      "end": 54.13
+    },
+    {
+      "role": "BUYER",
+      "text": "जी?",
+      "start": 56.23,
+      "end": 56.73
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कौन सा brand चाहिए जैसे कवच, स्वराज या कुछ और?",
+      "start": 57.89,
+      "end": 60.93
+    },
+    {
+      "role": "BUYER",
+      "text": "ना ऐसा कुछ नहीं चाहिए हमें तो बस ये है कितने की पार्टी है बताओ मेरे को। कितने किया पालकी बताओ मेरे को।",
+      "start": 63.37,
+      "end": 69.95
+    },
+    {
+      "role": "BOT",
+      "text": "आप price के बारे में seller से discuss कर सकते हैं। वो आपको best rates देंगे। पहले अपनी city और state बता दीजिए please।",
+      "start": 71.23,
+      "end": 77.45
+    },
+    {
+      "role": "BUYER",
+      "text": "जिला बुलंदशहर गाँव दस्तुरा",
+      "start": 78.61,
+      "end": 81.41
+    },
+    {
+      "role": "BOT",
+      "text": "आप बुलंदशहर उत्तर प्रदेश से बोल रहे हैं ना? आप बुलंदशहर उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 80.97,
+      "end": 85.83
+    },
+    {
+      "role": "BUYER",
+      "text": "जी सर उत्तर प्रदेश। जी।",
+      "start": 83.97,
+      "end": 87.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 88.55,
+      "end": 91.03
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा नाम मोनू शर्मा है जी।",
+      "start": 91.93,
+      "end": 93.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिससे आप details और price discuss कर सकते हैं।",
+      "start": 94.93,
+      "end": 100.59
+    },
+    {
+      "role": "BUYER",
+      "text": "एक। जी madam ऐसा है मेरे को ये बता दो क्योंकि मैं फिर जो अपने आप ही खुद मंगवा ले करूँगा घर ही बाल्टी आपके यहाँ से।",
+      "start": 98.15,
+      "end": 110.29
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपको अच्छे sellers से connect करने में मदद करूंगी बस details confirm हो गई हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 111.41,
+      "end": 118.99
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 120.53,
+      "end": 121.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 2.44,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

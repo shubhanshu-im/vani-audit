@@ -1,0 +1,213 @@
+{
+  "call_id": "767_90643198_EHRLV3KG5",
+  "file": "data/recordings/767_90643198_EHRLV3KG5.mp3",
+  "duration_s": 159.05,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको cotton data cover की requirement है ना?",
+      "start": 0.11,
+      "end": 3.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। बोले क्या rate है ma'am?",
+      "start": 5.13,
+      "end": 7.89
+    },
+    {
+      "role": "BOT",
+      "text": "कब rate के लिए आप seller से बात कर सकते हैं। वो आपको best rates देंगे। बस कुछ details confirm कर दीजिए। कितने piece per या meter चाहिए आपको?",
+      "start": 6.77,
+      "end": 16.61
+    },
+    {
+      "role": "BUYER",
+      "text": "meter में हमको bundle चाहिए।",
+      "start": 18.39,
+      "end": 20.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको कितने bundle चाहिए?",
+      "start": 21.29,
+      "end": 22.93
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या rate है rate पहले जानेंगे तभी तो bundle का बात करेंगे ना।",
+      "start": 25.63,
+      "end": 29.41
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूं लेकिन सही rates के लिए seller से बात करना बेहतर होगा। वो आपको best rates देंगे बस आप quantity बता दीजिए।",
+      "start": 30.39,
+      "end": 37.09
+    },
+    {
+      "role": "BUYER",
+      "text": "लेकिन सही नहीं तो ये company कहाँ का है ma'am?",
+      "start": 30.97,
+      "end": 40.79
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART पर कई verified sellers हैं। मैं आपको best sellers से connect करवा दूंगी। बस आप quantity बता दीजिए please।",
+      "start": 41.85,
+      "end": 48.15
+    },
+    {
+      "role": "BUYER",
+      "text": "पहले पहले तो हम detail बात करेंगे तभी तो ma'am।",
+      "start": 50.27,
+      "end": 53.69
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूं लेकिन सही seller से connect करने के लिए मुझे quantity जाननी होगी। आप approximate number बता दीजिए।",
+      "start": 54.87,
+      "end": 61.69
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा number यही होना।",
+      "start": 63.27,
+      "end": 64.79
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं quantity पूछ रही थी। आपको लगभग कितने bundle चाहिए please बता दीजिए।",
+      "start": 65.59,
+      "end": 70.25
+    },
+    {
+      "role": "BUYER",
+      "text": "वही मतलब bundle तो एक bundle में हमको चाहिए फिलहाल।",
+      "start": 72.09,
+      "end": 78.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 3 cross 6 feet, 72 cross 78 inch या कुछ और?",
+      "start": 78.97,
+      "end": 86.25
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या friend बोलिए तो ma'am?",
+      "start": 91.47,
+      "end": 93.93
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कौन सा size चाहिए जैसे 3 cross 6 feet, 72 cross 78 inch या कुछ और?",
+      "start": 95.07,
+      "end": 99.85
+    },
+    {
+      "role": "BUYER",
+      "text": "ये सात feet का रहता है ना length length नब्बे inch नब्बे inch का आता है ना।",
+      "start": 101.35,
+      "end": 106.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गई। अब material की बात करते हैं। मैं देख पा रही हूं कि आपको cotton ही चाहिए ना?",
+      "start": 107.55,
+      "end": 112.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ coat नहीं चाहिए मैम।",
+      "start": 113.75,
+      "end": 115.33
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। बस अब अपनी city और state बता दीजिए please।",
+      "start": 116.27,
+      "end": 119.39
+    },
+    {
+      "role": "BUYER",
+      "text": "ये बिहार है बिहार कटिहार।",
+      "start": 120.99,
+      "end": 123.89
+    },
+    {
+      "role": "BOT",
+      "text": "आप Katihar Bihar से बोल रहे हैं ना?",
+      "start": 125.23,
+      "end": 127.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ हाँ।",
+      "start": 128.23,
+      "end": 129.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 130.23,
+      "end": 132.73
+    },
+    {
+      "role": "BUYER",
+      "text": "नाम तो मेरा MB [NAME] [NAME] है।",
+      "start": 133.79,
+      "end": 136.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। MD साबिर आलम जी, आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 137.55,
+      "end": 144.23
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक ठीक ठीक WhatsApp इसी number पे है।",
+      "start": 145.33,
+      "end": 148.39
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 149.37,
+      "end": 152.19
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। आपको भी।",
+      "start": 154.07,
+      "end": 156.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 15,
+    "buyer_turns": 15,
+    "longest_gap_s": 5.22,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 86.25,
+        "end": 91.47,
+        "duration_s": 5.22,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

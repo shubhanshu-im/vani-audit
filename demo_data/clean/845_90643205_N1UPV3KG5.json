@@ -1,0 +1,86 @@
+{
+  "call_id": "845_90643205_N1UPV3KG5",
+  "file": "data/recordings/845_90643205_N1UPV3KG5.mp3",
+  "duration_s": 57.38,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी one inch brass premium duck hinge की request IndiaMART पर raise है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.71
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं Eid तो आपने वो करवा लिया था बात करवाई नहीं है आपने अभी तक।",
+      "start": 6.49,
+      "end": 10.45
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिएगा मैं अभी आपकी पूरी मदद करता हूं। बस कुछ details confirm कर लेते हैं ताकि सही seller से आपकी बात...",
+      "start": 11.55,
+      "end": 16.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 12.05,
+      "end": 12.49
+    },
+    {
+      "role": "BOT",
+      "text": "ये तो बता दीजिए मैंने आपसे detail तो बता दीजिए। मैं समझ सकता हूं but बस एक छोटी सी जानकारी और चाहिए थी। आपको finish type में steel चाहिए silver या कुछ?",
+      "start": 16.21,
+      "end": 25.63
+    },
+    {
+      "role": "BUYER",
+      "text": "finish time में steel जी है silver silver सब ते कम मतलब वो जी है।",
+      "start": 26.47,
+      "end": 30.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है जानकारी के लिए शुक्रिया। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 31.81,
+      "end": 37.97
+    },
+    {
+      "role": "BUYER",
+      "text": "detail जानी तभी तो कह रहा मैं मैंने न्यू पूछना भई यो उन्नीया मैम में वा और और half में भी आवा इस क्यांके degree में वा आयो।",
+      "start": 38.35,
+      "end": 46.23
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकता हूँ। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। India Mart करेगा।",
+      "start": 47.25,
+      "end": 53.39
+    },
+    {
+      "role": "BUYER",
+      "text": "वगैरे का। Hello.",
+      "start": 52.31,
+      "end": 56.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.7,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

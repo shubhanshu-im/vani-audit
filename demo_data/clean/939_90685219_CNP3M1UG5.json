@@ -1,0 +1,200 @@
+{
+  "call_id": "939_90685219_CNP3M1UG5",
+  "file": "data/recordings/939_90685219_CNP3M1UG5.mp3",
+  "duration_s": 158.76,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 4.75,
+      "end": 5.45
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप किस product के लिए seller से बात करना चाहते हैं?",
+      "start": 6.47,
+      "end": 9.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Good Morning है।",
+      "start": 10.71,
+      "end": 12.05
+    },
+    {
+      "role": "BOT",
+      "text": "Good Morning. आप कृपया बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 13.01,
+      "end": 16.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ मैंने जिसकी video डाली है आपके page पे और light की photo भी डाल रखा हूँ दोनों चीजें ये चाहिए। क्षमा कीजिए मैं photo या video नहीं देख सकती। क्या आप मुझे product का नाम बता सकते हैं कि आपको क्या चाहिए? इस product का नाम नहीं लिखा है।",
+      "start": 17.89,
+      "end": 35.25
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं क्या आप बता सकते हैं कि यह product किस काम आता है या इसका इस्तेमाल कहां कहां होता है?",
+      "start": 36.53,
+      "end": 41.85
+    },
+    {
+      "role": "BUYER",
+      "text": "ये wall light होती है जो four way होती है और colored light है। decoration के लिए light लगाई जाती है। चारों side इसकी lights होती हैं colored।",
+      "start": 43.57,
+      "end": 54.41
+    },
+    {
+      "role": "BOT",
+      "text": "आपको wall light जो आमतौर पे decoration और सजावट के लिए इस्तेमाल होती है वही product चाहिए ना?",
+      "start": 55.57,
+      "end": 60.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ उसका size है लगभग चार से पाँच inch।",
+      "start": 62.35,
+      "end": 66.79
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 68.37,
+      "end": 74.23
+    },
+    {
+      "role": "BUYER",
+      "text": "One piece.",
+      "start": 76.39,
+      "end": 77.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको housing material में aluminum, brass या कुछ और चाहिए?",
+      "start": 78.43,
+      "end": 82.05
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं फिलहाल ये light सही है।",
+      "start": 83.77,
+      "end": 85.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको design type में चार way, दो way या कुछ और चाहिए?",
+      "start": 86.89,
+      "end": 90.17
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं two four way.",
+      "start": 91.65,
+      "end": 93.55
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको application में outdoor, indoor या कुछ और चाहिए?",
+      "start": 94.53,
+      "end": 97.83
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं फिलहाल तो यही चाहिए।",
+      "start": 99.53,
+      "end": 101.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "start": 102.55,
+      "end": 105.23
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं पहले हमारे को light की video भेजी है ना कौन सा light है क्योंकि जो पहले lights लगी हैं वही same जाइए।",
+      "start": 107.33,
+      "end": 114.17
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपको video तो नहीं भेज सकती लेकिन मैं आपको सही seller से connect कर दूंगी जो आपको video और details भेज देंगे। Please अपना city बता दीजिए।",
+      "start": 115.39,
+      "end": 123.01
+    },
+    {
+      "role": "BUYER",
+      "text": "अहं Guwahati.",
+      "start": 125.41,
+      "end": 127.03
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद। तो आप अपनी city और state बता दीजिए please।",
+      "start": 128.25,
+      "end": 131.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो बता दिया Guwahati।",
+      "start": 133.39,
+      "end": 135.73
+    },
+    {
+      "role": "BOT",
+      "text": "आप Guwahati Assam से बोल रहे हैं ना?",
+      "start": 136.81,
+      "end": 138.69
+    },
+    {
+      "role": "BUYER",
+      "text": "बोल रहे हैं ना? हाँ।",
+      "start": 138.03,
+      "end": 140.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब आप अपना नाम भी बता दीजिए please.",
+      "start": 141.67,
+      "end": 144.11
+    },
+    {
+      "role": "BUYER",
+      "text": "शंभू।",
+      "start": 146.95,
+      "end": 147.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 148.81,
+      "end": 158.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 15,
+    "buyer_turns": 14,
+    "longest_gap_s": 2.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

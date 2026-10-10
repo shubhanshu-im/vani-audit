@@ -1,0 +1,140 @@
+{
+  "call_id": "385_90852915_W1AELXVH5",
+  "file": "data/recordings/385_90852915_W1AELXVH5.mp3",
+  "duration_s": 110.74,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 1.51,
+      "end": 5.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 8.25,
+      "end": 8.79
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं IndiaMART से बात कर रही हूं। आप please बता दीजिए कि आपको कौन सा product चाहिए?",
+      "start": 9.93,
+      "end": 14.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Madam वो transformer होना है three phase का।",
+      "start": 11.41,
+      "end": 18.51
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो 3 phase वाला transformer चाहिए जो आमतौर पे बिजली की supply के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 19.79,
+      "end": 26.31
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। Yes Madam.",
+      "start": 23.91,
+      "end": 28.33
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 100 KVA या कुछ और?",
+      "start": 30.13,
+      "end": 39.01
+    },
+    {
+      "role": "BUYER",
+      "text": "वही 25 KV कितना है ma'am और 100 KV कितना होता है ma'am?",
+      "start": 41.55,
+      "end": 45.39
+    },
+    {
+      "role": "BOT",
+      "text": "आप इसकी detail seller से discuss कर लीजिएगा वो आपको सही जानकारी दे देंगे। आप capacity में क्या prefer करेंगे 25 KVA, 100 KVA या कुछ और?",
+      "start": 46.57,
+      "end": 54.73
+    },
+    {
+      "role": "BUYER",
+      "text": "वही दोनों prices check करके जो ये हो जाए reasonable हो जाएगा ना वो ले लेना।",
+      "start": 57.57,
+      "end": 62.81
+    },
+    {
+      "role": "BOT",
+      "text": "आप price seller से discuss कर सकते हैं वो आपको best rates देंगे। अभी के लिए आप capacity में क्या prefer करेंगे?",
+      "start": 64.05,
+      "end": 69.93
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी के लिए twenty five save.",
+      "start": 71.99,
+      "end": 73.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब input voltage के बारे में बताइए। आपको 11 KV, 33 KV चाहिए या कुछ और?",
+      "start": 74.91,
+      "end": 79.89
+    },
+    {
+      "role": "BUYER",
+      "text": "ना?",
+      "start": 82.11,
+      "end": 82.59
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं पूछ रही थी कि आपको input voltage में क्या चाहिए जैसे 11 KV, 35 KV या कोई और?",
+      "start": 83.73,
+      "end": 88.61
+    },
+    {
+      "role": "BUYER",
+      "text": "ग्यारह kg में।",
+      "start": 89.95,
+      "end": 91.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब winding material में आप क्या prefer करेंगे copper, aluminium या कुछ और?",
+      "start": 92.51,
+      "end": 97.07
+    },
+    {
+      "role": "BUYER",
+      "text": "अलिंद में।",
+      "start": 98.47,
+      "end": 99.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 100.65,
+      "end": 109.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.84,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

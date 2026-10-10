@@ -1,0 +1,99 @@
+{
+  "call_id": "675_90685117_96XLK1UG5",
+  "file": "data/recordings/675_90685117_96XLK1UG5.mp3",
+  "duration_s": 82.58,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी अगरबत्ती auto feeder की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.37
+    },
+    {
+      "role": "BUYER",
+      "text": "जी नमस्कार Sir. अग्रणी मुस्तैद के लिए बोले हुए थे।",
+      "start": 7.09,
+      "end": 11.87
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं अगरबाटी auto feeder के लिए ही बात कर रहा हूँ। चलिए अब spare part type के बारे में बात कर लेते हैं। आपको कौन सा चाहिए piston set या कुछ और?",
+      "start": 13.17,
+      "end": 20.15
+    },
+    {
+      "role": "BUYER",
+      "text": "question चाहिए।",
+      "start": 21.37,
+      "end": 22.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब compatible machine model के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे HP One, ST Two या कुछ और?",
+      "start": 23.43,
+      "end": 29.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हम बोलिएगा।",
+      "start": 31.41,
+      "end": 33.17
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं पूछ रहा था कि आपको कौन सा machine model चाहिए जैसे HP One, ST Two या कोई और?",
+      "start": 34.37,
+      "end": 39.45
+    },
+    {
+      "role": "BUYER",
+      "text": "X31.",
+      "start": 40.17,
+      "end": 41.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 42.35,
+      "end": 47.57
+    },
+    {
+      "role": "BUYER",
+      "text": "उसका कितना कीमत दाम हो?",
+      "start": 49.21,
+      "end": 50.91
+    },
+    {
+      "role": "BOT",
+      "text": "Price और बाकी details के लिए मैं आपको seller से connect कर सकता हूं जहां आप सीधा discuss कर सकते हैं। क्या आप और कोई specification बताना चाहेंगे? क्या क्या आप अभी line पर हैं? क्या आप कोई और जानकारी देना चाहेंगे? जी। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 52.17,
+      "end": 81.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 9.64,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 59.43,
+        "end": 69.07,
+        "duration_s": 9.64,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "call_id": "77_90685002_DC2NH1UG5",
+  "file": "data/recordings/77_90685002_DC2NH1UG5.mp3",
+  "duration_s": 78.98,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको HP EliteBook X2 GR detachable की requirement है ना?",
+      "start": 0.01,
+      "end": 4.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 5.83,
+      "end": 6.41
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.63,
+      "end": 13.53
+    },
+    {
+      "role": "BUYER",
+      "text": "अह fees तो मतलब पहले चाहिए था ma'am। अह पैंतीस fees चाहिए था।",
+      "start": 15.21,
+      "end": 21.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब processor के बारे में बात कर लेते हैं। आपको कौन सा चाहिए Intel Core i5 या कुछ और? ना कौन सा ना वो बता दीजिए। अभी वो SP का SP Elite X2 8 Gen।",
+      "start": 22.67,
+      "end": 35.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Eight जे का चाहिए sir high five.",
+      "start": 35.77,
+      "end": 38.07
+    },
+    {
+      "role": "BOT",
+      "text": "पाय। समझ गई। अब बताइए RAM में क्या prefer करेंगे 8 GB, 16 GB या कोई और?",
+      "start": 37.17,
+      "end": 43.81
+    },
+    {
+      "role": "BUYER",
+      "text": "ADGB.",
+      "start": 45.21,
+      "end": 46.11
+    },
+    {
+      "role": "BOT",
+      "text": "मैं देख पा रही हूं आपको storage capacity 256 GB ही चाहिए ना?",
+      "start": 46.95,
+      "end": 51.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हं। किसको बोलते हैं direct dealer को?",
+      "start": 52.55,
+      "end": 59.51
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपको अच्छे sellers से connect करने में मदद करूंगी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 60.61,
+      "end": 68.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हो।",
+      "start": 70.69,
+      "end": 71.23
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 72.29,
+      "end": 75.11
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 4.48,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

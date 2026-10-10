@@ -1,0 +1,74 @@
+{
+  "call_id": "666_90685114_0MUIK1UG5",
+  "file": "data/recordings/666_90685114_0MUIK1UG5.mp3",
+  "duration_s": 49.39,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको breakfast cereals की requirement है ना?",
+      "start": 0.01,
+      "end": 3.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी। आपको breakfast cereals की requirement थी ना? नहीं Madam ये ये mark पे लगा है ना call।",
+      "start": 5.87,
+      "end": 17.67
+    },
+    {
+      "role": "BOT",
+      "text": "जी हां, मैं IndiaMART से बोल रही हूं। क्या आपको breakfast cereals की requirement है?",
+      "start": 18.61,
+      "end": 23.09
+    },
+    {
+      "role": "BUYER",
+      "text": "breakfast मैं समझे नहीं।",
+      "start": 25.21,
+      "end": 27.05
+    },
+    {
+      "role": "BOT",
+      "text": "आपको नाश्ते में खाने वाले breakfast cereals की requirement थी।",
+      "start": 28.15,
+      "end": 31.49
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं वो mark के बारे में जानकारी लेना था।",
+      "start": 33.83,
+      "end": 38.55
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART एक platform है जहां buyers और sellers connect होते हैं। क्या आपको किसी product की जरूरत है?",
+      "start": 39.83,
+      "end": 45.41
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं हो पाएगा।",
+      "start": 47.33,
+      "end": 48.69
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

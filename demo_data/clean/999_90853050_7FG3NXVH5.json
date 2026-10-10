@@ -1,0 +1,135 @@
+{
+  "call_id": "999_90853050_7FG3NXVH5",
+  "file": "data/recordings/999_90853050_7FG3NXVH5.mp3",
+  "duration_s": 101.02,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Arduino shield की requirement है ना?",
+      "start": 0.61,
+      "end": 3.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 5.29,
+      "end": 6.01
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.19,
+      "end": 13.09
+    },
+    {
+      "role": "BUYER",
+      "text": "इसके साथ साथ बहुत से छिट्टे भी।",
+      "start": 14.83,
+      "end": 20.09
+    },
+    {
+      "role": "BOT",
+      "text": "आप पूरी list seller को भेज दीजिएगा वो आपकी मदद करेंगे लेकिन best seller से connect करने के लिए details confirm कर दीजिए please। आपको कितने piece चाहिए?",
+      "start": 21.17,
+      "end": 29.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Name एक piece चाहिए था।",
+      "start": 30.75,
+      "end": 32.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब shield function के बारे में बात कर लेते हैं। आपको motor driver चाहिए या कुछ और? Hello क्या आप अभी line पे हैं?",
+      "start": 33.15,
+      "end": 48.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes Ma'am.",
+      "start": 50.23,
+      "end": 50.99
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। बताइए shield function में क्या prefer करेंगे motor driver, relay shield या कोई और?",
+      "start": 52.05,
+      "end": 57.21
+    },
+    {
+      "role": "BUYER",
+      "text": "मोटर driver।",
+      "start": 59.27,
+      "end": 60.39
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए compatible board में आपको Uno, Mega या कोई और चाहिए?",
+      "start": 61.67,
+      "end": 66.35
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं jumper wires चाहिए थे।",
+      "start": 68.93,
+      "end": 71.07
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे समझ नहीं आया। क्या आप बता सकते हैं कि compatible board में आपको Uno, Mega या कुछ और चाहिए?",
+      "start": 72.23,
+      "end": 78.37
+    },
+    {
+      "role": "BUYER",
+      "text": "unit चाहिए था।",
+      "start": 79.73,
+      "end": 81.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 82.41,
+      "end": 87.53
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है Ma'am.",
+      "start": 89.03,
+      "end": 89.77
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMojo चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 90.77,
+      "end": 93.73
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 9.16,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 38.01,
+        "end": 47.17,
+        "duration_s": 9.16,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

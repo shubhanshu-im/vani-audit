@@ -1,0 +1,80 @@
+{
+  "call_id": "376_90685044_KFMLI1UG5",
+  "file": "data/recordings/376_90685044_KFMLI1UG5.mp3",
+  "duration_s": 49.9,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Black Star D massage chair reclining type zero gravity PU leather की requirement है ना?",
+      "start": 0.35,
+      "end": 7.23
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 10.07,
+      "end": 10.83
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिससे मैं अभी आपको connect करवाऊंगी। बस एक छोटी सी detail confirm कर दूं। आपको यह किस काम के लिए चाहिए? For reselling, for business use या for home use?",
+      "start": 12.81,
+      "end": 25.73
+    },
+    {
+      "role": "BUYER",
+      "text": "एक second.",
+      "start": 27.41,
+      "end": 28.77
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल आप आराम से बताइए।",
+      "start": 31.41,
+      "end": 33.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam.",
+      "start": 34.87,
+      "end": 36.49
+    },
+    {
+      "role": "BOT",
+      "text": "जी बोलिए।",
+      "start": 38.47,
+      "end": 39.35
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप factory के लिए available है आपके पास?",
+      "start": 40.85,
+      "end": 43.37
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं केवल IndiaMART से जुड़ी product और services में ही आपकी मदद कर सकती हूं।",
+      "start": 45.01,
+      "end": 49.73
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.84,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

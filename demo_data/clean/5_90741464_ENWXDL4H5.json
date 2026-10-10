@@ -1,0 +1,134 @@
+{
+  "call_id": "5_90741464_ENWXDL4H5",
+  "file": "data/recordings/5_90741464_ENWXDL4H5.mp3",
+  "duration_s": 97.34,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको pad printing ink की requirement है ना?",
+      "start": 0.19,
+      "end": 3.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 4.55,
+      "end": 5.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने kilogram चाहिए होंगे?",
+      "start": 7.19,
+      "end": 17.29
+    },
+    {
+      "role": "BUYER",
+      "text": "connect बोलिए। हाँ बोलिए।",
+      "start": 12.15,
+      "end": 23.15
+    },
+    {
+      "role": "BOT",
+      "text": "कितने kilogram चाहिए होंगे आपको?",
+      "start": 25.11,
+      "end": 26.95
+    },
+    {
+      "role": "BUYER",
+      "text": "एक किलो।",
+      "start": 27.47,
+      "end": 28.17
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब substrate के बारे में बताइए आपको कौन सा चाहिए ABS sand, plastic, glass या कुछ और?",
+      "start": 30.25,
+      "end": 36.13
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं नहीं मुझे only for pad printing का paint चाहिए।",
+      "start": 37.19,
+      "end": 41.31
+    },
+    {
+      "role": "BOT",
+      "text": "आपको सिर्फ pad printing के लिए ink ही चाहिए paint नहीं? चलिए बताइए substrate में कौन सा चाहिए ABS, tan, plastic, glass या कुछ और?",
+      "start": 43.41,
+      "end": 50.71
+    },
+    {
+      "role": "BUYER",
+      "text": "आपसे। plastic glass मतलब मुझे समझ नहीं पड़ा। कोई बात नहीं आप किस चीज",
+      "start": 43.43,
+      "end": 57.73
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आप किस चीज पे pad",
+      "start": 56.23,
+      "end": 58.47
+    },
+    {
+      "role": "BUYER",
+      "text": "printing करना है तो।",
+      "start": 59.69,
+      "end": 60.83
+    },
+    {
+      "role": "BOT",
+      "text": "आपको किस चीज की सतह पर printing करनी है जैसे plastic, धातु या कोई और?",
+      "start": 62.67,
+      "end": 67.03
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं नहीं wood wood wood जो होता है ना wood में। लकड़ी में।",
+      "start": 67.75,
+      "end": 73.01
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया लकड़ी पर printing के लिए चाहिए। अब ink system में क्या चाहिए? two components, single component या कुछ और?",
+      "start": 75.03,
+      "end": 81.65
+    },
+    {
+      "role": "BUYER",
+      "text": "यानी single component ही चाहिए।",
+      "start": 82.69,
+      "end": 84.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको single component चाहिए? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 86.41,
+      "end": 96.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 96.99,
+      "end": 97.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 4.9,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

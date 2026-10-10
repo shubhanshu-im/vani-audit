@@ -1,0 +1,122 @@
+{
+  "call_id": "62_90684984_RU7DH1UG5",
+  "file": "data/recordings/62_90684984_RU7DH1UG5.mp3",
+  "duration_s": 83.3,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Gujarat to Maharashtra transport service की requirement है ना?",
+      "start": 0.11,
+      "end": 5.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी Madam.",
+      "start": 1.37,
+      "end": 8.39
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब pickup city के बारे में बात कर लेते हैं। आप कहां से माल भेजना चाहते हैं?",
+      "start": 9.51,
+      "end": 18.17
+    },
+    {
+      "role": "BUYER",
+      "text": "मान ले आपको गाड़ी भरना है।",
+      "start": 20.03,
+      "end": 21.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। पर मुझे यह बता दीजिए कि गाड़ी कहां से pickup करनी होगी यानी आपकी pickup city क्या है?",
+      "start": 22.87,
+      "end": 28.45
+    },
+    {
+      "role": "BUYER",
+      "text": "वड़ोदरा गुजरात गुजरात से महाराष्ट्र।",
+      "start": 29.97,
+      "end": 33.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब ये बता दीजिए कि drop city कौन सी होगी यानी माल कहां पहुंचाना है?",
+      "start": 34.39,
+      "end": 38.75
+    },
+    {
+      "role": "BUYER",
+      "text": "कोई भी नासिक हो औरंगाबाद हो पुणे हो अहमदनगर हो मुंबई हो।",
+      "start": 40.61,
+      "end": 46.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? समझ गई? अब बस आपकी कुछ details confirm करनी है। ठीक है? आप अपनी city और state भी बता दीजिए please।",
+      "start": 47.81,
+      "end": 54.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हम रहने वाले Ahmednagar district में एक गाँव छोटा गाँव पड़ता है रहा था।",
+      "start": 56.39,
+      "end": 62.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप रात Maharashtra से बोल रहे हैं ना?",
+      "start": 63.01,
+      "end": 65.17
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 66.51,
+      "end": 67.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] जी बोल रहे हैं ना?",
+      "start": 68.19,
+      "end": 70.39
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 71.61,
+      "end": 72.23
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 73.13,
+      "end": 80.81
+    },
+    {
+      "role": "BUYER",
+      "text": "एस के डेटन।",
+      "start": 82.25,
+      "end": 83.49
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.28,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "call_id": "657_90685196_FLTPL1UG5",
+  "file": "data/recordings/657_90685196_FLTPL1UG5.mp3",
+  "duration_s": 128.45,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको epoxy self leveling की requirement है ना?",
+      "start": 0.01,
+      "end": 3.55
+    },
+    {
+      "role": "BUYER",
+      "text": "सेल्फ। जी।",
+      "start": 1.71,
+      "end": 5.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने square feet या square meter की जरूरत है?",
+      "start": 6.07,
+      "end": 17.23
+    },
+    {
+      "role": "BUYER",
+      "text": "बारह बाई बारह का है कितना लगेगा?",
+      "start": 20.73,
+      "end": 23.83
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप कितनी quantity चाहते हैं please एक बार फिर से बता दीजिए।",
+      "start": 25.11,
+      "end": 29.89
+    },
+    {
+      "role": "BUYER",
+      "text": "कैसे है कितना का है?",
+      "start": 30.59,
+      "end": 32.13
+    },
+    {
+      "role": "BOT",
+      "text": "आप price के बारे में पूछ रहे हैं तो इसकी जानकारी आप seller से discuss कर सकते हैं। बस आप quantity बता दीजिए please।",
+      "start": 33.19,
+      "end": 39.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म हमको चाहिए।",
+      "start": 40.91,
+      "end": 42.79
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपको कितनी quantity चाहिए? Please बता दीजिए ताकि मैं आपको सही seller से connect कर सकूं।",
+      "start": 44.09,
+      "end": 49.31
+    },
+    {
+      "role": "BUYER",
+      "text": "ताकि ना। जी Sir.",
+      "start": 46.79,
+      "end": 50.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब thickness के बारे में बात कर लेते हैं। आपको 3 mm चाहिए या कुछ और?",
+      "start": 51.91,
+      "end": 55.79
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या?",
+      "start": 56.79,
+      "end": 57.19
+    },
+    {
+      "role": "BOT",
+      "text": "आपको thickness में क्या prefer करेंगे 3 mm, 1 mm या कोई और?",
+      "start": 58.33,
+      "end": 61.79
+    },
+    {
+      "role": "BUYER",
+      "text": "दो ma'am.",
+      "start": 64.61,
+      "end": 65.33
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए कि आपकी requirement कैसी है monthly sample only या कुछ और?",
+      "start": 66.27,
+      "end": 70.65
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं कितने दिन में मिल जाएगा?",
+      "start": 72.77,
+      "end": 74.15
+    },
+    {
+      "role": "BOT",
+      "text": "यह जानकारी आप seller से discuss कर सकते हैं। वह आपको सही समय बता देंगे। अभी आप अपनी requirement बता दीजिए monthly है या sample only?",
+      "start": 75.21,
+      "end": 82.47
+    },
+    {
+      "role": "BUYER",
+      "text": "sample कराना है अभी देखना है अभी तरह का।",
+      "start": 84.19,
+      "end": 87.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 88.29,
+      "end": 91.73
+    },
+    {
+      "role": "BUYER",
+      "text": "बिहार state बिहार जिला सिवान आप सिवान बिहार से बोल रहे हैं ना? हम्म।",
+      "start": 93.95,
+      "end": 101.17
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते क्या आप अभी भी line पे हैं?",
+      "start": 109.03,
+      "end": 110.83
+    },
+    {
+      "role": "BUYER",
+      "text": "जी बोलिए।",
+      "start": 111.87,
+      "end": 112.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अतेंद्र जी बोल रहे हैं ना?",
+      "start": 113.81,
+      "end": 116.17
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 116.81,
+      "end": 117.33
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 118.25,
+      "end": 126.01
+    },
+    {
+      "role": "BUYER",
+      "text": "के लिए धन्यवाद। Hello.",
+      "start": 123.45,
+      "end": 127.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 13,
+    "longest_gap_s": 7.86,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 101.17,
+        "end": 109.03,
+        "duration_s": 7.86,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

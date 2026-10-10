@@ -1,0 +1,134 @@
+{
+  "call_id": "936_90797471_CLGPYXFH5",
+  "file": "data/recordings/936_90797471_CLGPYXFH5.mp3",
+  "duration_s": 100.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Jacob and Co Watch की requirement है ना?",
+      "start": 0.13,
+      "end": 3.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.17,
+      "end": 5.99
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.13,
+      "end": 12.97
+    },
+    {
+      "role": "BUYER",
+      "text": "एक single piece चाहिए।",
+      "start": 12.79,
+      "end": 16.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब brand के बारे में बात कर लेते हैं। आपको Rolex चाहिए या कुछ और?",
+      "start": 17.33,
+      "end": 21.65
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को ये जो है ना क्या नाम है यार इसका Jacob and Co. मतलब ये इसका price इतना कैसे है? तो first copy है ना ये तो 1500 रुपये में मिल जाता है ना market में।",
+      "start": 23.67,
+      "end": 34.47
+    },
+    {
+      "role": "BOT",
+      "text": "price के बारे में आप seller से discuss कर सकते हैं वो आपको best rates देंगे। बताइए brand में क्या prefer करेंगे?",
+      "start": 35.65,
+      "end": 41.53
+    },
+    {
+      "role": "BUYER",
+      "text": "brand में ये जो भी वो चीज है ना जिसको मैं देख रहा हूं।",
+      "start": 43.29,
+      "end": 47.77
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। क्या आप Jacob brand को ही prefer करेंगे या कोई और brand चाहिए?",
+      "start": 48.83,
+      "end": 52.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ये चाहिए check Ben KCO Bugatti नाम का black वाला गाड़ी।",
+      "start": 50.77,
+      "end": 59.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए strap material में क्या prefer करेंगे stainless steel, leather या कुछ और?",
+      "start": 60.07,
+      "end": 65.11
+    },
+    {
+      "role": "BUYER",
+      "text": "इसके अंदर तो मुझे black color का चाहिए। ये जो belt है black color का ही होना चाहिए।",
+      "start": 66.27,
+      "end": 72.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 73.69,
+      "end": 78.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हं।",
+      "start": 79.91,
+      "end": 80.67
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "start": 81.83,
+      "end": 84.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ आप मुझे WhatsApp पर भेज दीजिए उन sellers के number।",
+      "start": 85.11,
+      "end": 89.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं seller details WhatsApp पे भेज दूंगी। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 90.19,
+      "end": 95.81
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 95.83,
+      "end": 97.43
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.02,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

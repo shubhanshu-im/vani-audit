@@ -1,0 +1,98 @@
+{
+  "call_id": "687_90853024_JXLTMXVH5",
+  "file": "data/recordings/687_90853024_JXLTMXVH5.mp3",
+  "duration_s": 59.33,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] [NAME] जी आपकी machine clean regular cumin seeds की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.77,
+      "end": 7.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. सर बोल रहा हूँ की दिमाग कहाँ पर है अठारहवीं में।",
+      "start": 1.99,
+      "end": 12.57
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं आपकी बात समझ नहीं पाया। हम यहां आपकी machine clean regular cumin seeds की requirement के बारे में बात कर रहे हैं। क्या हम आगे बढ़ें?",
+      "start": 13.87,
+      "end": 21.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हैं। अच्छा।",
+      "start": 19.89,
+      "end": 21.95
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब packaging size के बारे में बात कर लेते हैं।",
+      "start": 23.29,
+      "end": 25.57
+    },
+    {
+      "role": "BUYER",
+      "text": "packaging size के बारे में बात कर।",
+      "start": 23.63,
+      "end": 24.99
+    },
+    {
+      "role": "BOT",
+      "text": "जी तो बताइए packaging size में क्या prefer करेंगे जैसे तीस kilogram पचास kilogram या कोई और? क्या prefer करेंगे जैसे तीन",
+      "start": 26.51,
+      "end": 29.27
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे मेरे को सौ ग्राम का packet चाहिए packet।",
+      "start": 33.13,
+      "end": 36.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है 100 gram का packet. क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 37.59,
+      "end": 43.41
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है program का। बारे में। इसके लिए मैं staff बनूँ sir आपको अभी आपकी जानकारी note करनी है।",
+      "start": 37.65,
+      "end": 51.13
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपकी जानकारी note कर ली गई है और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 49.35,
+      "end": 55.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Sir Sir बोल रहा हूँ जी Adnetal पे है address।",
+      "start": 55.73,
+      "end": 58.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.66,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

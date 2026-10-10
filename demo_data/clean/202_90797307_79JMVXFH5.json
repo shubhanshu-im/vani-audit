@@ -1,0 +1,148 @@
+{
+  "call_id": "202_90797307_79JMVXFH5",
+  "file": "data/recordings/202_90797307_79JMVXFH5.mp3",
+  "duration_s": 119.45,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको woolen double blanket की requirement है ना?",
+      "start": 0.13,
+      "end": 4.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 6.45,
+      "end": 6.97
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते क्या आपको wool and double blanket की जरूरत थी? [change] हूं हूं। माफ़ कीजिए क्या आप अपनी ज़रूरत के बारे में बता सकते हैं? आपको किस चीज़ की जानकारी चाहिए?",
+      "start": 9.13,
+      "end": 20.79
+    },
+    {
+      "role": "BUYER",
+      "text": "बुलाई थी।",
+      "start": 21.93,
+      "end": 22.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है?",
+      "start": 24.87,
+      "end": 25.61
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको woolen double blanket की requirement है सही समझा मैंने?",
+      "start": 25.61,
+      "end": 31.29
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। मैं Tania बोल रही हूं IndiaMART से। हमारे पास अच्छे sellers available हैं। बस कुछ details confirm कर दीजिए। कितनी piece या kilogram चाहिए होगी आपको?",
+      "start": 32.95,
+      "end": 41.69
+    },
+    {
+      "role": "BUYER",
+      "text": "पाँच किलो का blanket मिल सकता है।",
+      "start": 42.75,
+      "end": 44.53
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए आप 5 kg का लेना चाह रहे हैं। चलिए अब bed size के बारे में बता दीजिए single, double या king size चाहिए?",
+      "start": 46.83,
+      "end": 53.05
+    },
+    {
+      "role": "BUYER",
+      "text": "आप पांच किलो Double side. बहुत बढ़िया double size।",
+      "start": 47.09,
+      "end": 58.21
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया double size note कर लिया। price की जानकारी आप seller से discuss कर सकते हैं। अब material में polyester चाहिए या कुछ और?",
+      "start": 57.19,
+      "end": 64.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Playstar.",
+      "start": 65.59,
+      "end": 66.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है material में polyester note कर लिया price seller से ही discuss कर पाएंगे। अब आपकी city और state बता दीजिए please। ठीक है polyester note कर लिया price।",
+      "start": 68.29,
+      "end": 78.19
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है polyester note",
+      "start": 76.17,
+      "end": 77.25
+    },
+    {
+      "role": "BOT",
+      "text": "Price कितना होगा? blankets की quantity आपने 5 kilogram बताई थी। price seller up to line। अब अपनी city और state बता दीजिए please। सात से। समझ गए आपने 7 inch mention किया है। कृपया अपनी city और state भी बता दीजिए ताकि seller details भेज सकूं। [noise]",
+      "start": 78.55,
+      "end": 98.53
+    },
+    {
+      "role": "BUYER",
+      "text": "गुजरात।",
+      "start": 99.31,
+      "end": 100.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप Gujarat से बोल रहे हैं। अब अपना नाम भी बता दीजिए please।",
+      "start": 101.81,
+      "end": 105.29
+    },
+    {
+      "role": "BUYER",
+      "text": "[NAME] [NAME].",
+      "start": 105.97,
+      "end": 107.05
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया [NAME] [NAME] note कर लिया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 108.87,
+      "end": 118.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हो। Okay.",
+      "start": 116.43,
+      "end": 118.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.68,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 5
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

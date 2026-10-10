@@ -1,0 +1,82 @@
+{
+  "call_id": "276_90685035_D7Z9I1UG5",
+  "file": "data/recordings/276_90685035_D7Z9I1UG5.mp3",
+  "duration_s": 64.37,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Manish जी। Hello Manish जी, आपको portable mobile cabin की requirement है ना?",
+      "start": 0.01,
+      "end": 4.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हं।",
+      "start": 5.13,
+      "end": 5.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 7.47,
+      "end": 16.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको करीबन चार piece चाहिए।",
+      "start": 18.71,
+      "end": 20.93
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको चार चीज चाहिए। चलिए अब बताइए आपको इसका उपयोग किस लिए चाहिए जैसे shop, office या कुछ और?",
+      "start": 23.37,
+      "end": 29.21
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं हम restaurant में इसमें [uh] इसमें वो sitting plan रखना चाह रहे हैं family sitting।",
+      "start": 30.29,
+      "end": 37.93
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। restaurant में family के लिए sitting plan के लिए चाहिए। अब बताइए आपको इनकी लंबाई कितनी चाहिए जैसे 10 feet, 20 feet या कुछ और?",
+      "start": 39.85,
+      "end": 47.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। आपको इन हमको पंद्रह by दस का मिल जाए तो ज्यादा अच्छा है।",
+      "start": 40.45,
+      "end": 52.05
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया आपकी details note कर ली हैं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 53.85,
+      "end": 64.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.44,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 3
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

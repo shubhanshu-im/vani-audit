@@ -1,0 +1,92 @@
+{
+  "call_id": "103_90684987_AJ2FH1UG5",
+  "file": "data/recordings/103_90684987_AJ2FH1UG5.mp3",
+  "duration_s": 70.06,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको steel turntable cake turntable modern cake turntable material aluminium size top DI 12 height 5.5 की requirement है ना?",
+      "start": 0.01,
+      "end": 10.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 11.73,
+      "end": 12.21
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 13.37,
+      "end": 19.23
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी फिलहाल sample का चाहिए बाद में मुझे बहुत सारे piece चाहिए।",
+      "start": 21.33,
+      "end": 24.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। चलिए अब diameter के बारे में बात कर लेते हैं। आपको 11 inches चाहिए या कुछ और?",
+      "start": 25.79,
+      "end": 31.09
+    },
+    {
+      "role": "BUYER",
+      "text": "ओ अच्छा जी नीचे।",
+      "start": 33.19,
+      "end": 34.85
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए type of requirement में क्या prefer करेंगे monthly sample only या कोई और?",
+      "start": 36.09,
+      "end": 41.21
+    },
+    {
+      "role": "BUYER",
+      "text": "पहले मुझे sample चाहिए उसके बाद मैं order करूंगा extra check करने के बाद।",
+      "start": 43.67,
+      "end": 47.45
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 48.47,
+      "end": 54.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes, कोदकी।",
+      "start": 57.79,
+      "end": 58.97
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 59.99,
+      "end": 62.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 5,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

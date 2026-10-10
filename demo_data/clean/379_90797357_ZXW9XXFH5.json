@@ -1,0 +1,68 @@
+{
+  "call_id": "379_90797357_ZXW9XXFH5",
+  "file": "data/recordings/379_90797357_ZXW9XXFH5.mp3",
+  "duration_s": 50.04,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको clutch plate TVS 100 sport की requirement है ना?",
+      "start": 0.21,
+      "end": 4.75
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। हाँ TVS sport की 2020 से पहले की है।",
+      "start": 1.35,
+      "end": 10.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए होंगे?",
+      "start": 12.63,
+      "end": 19.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। एक piece चाहिए मेरे को तो।",
+      "start": 19.27,
+      "end": 22.41
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। मैं देख पा रही हूं आपको compatible vehicle model 2020 से पहले वाला ही चाहिए ना?",
+      "start": 24.21,
+      "end": 29.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ। BS4 का। Cash on Delivery है इसमें।",
+      "start": 30.59,
+      "end": 37.65
+    },
+    {
+      "role": "BOT",
+      "text": "delivery है। इसकी जानकारी seller से ही confirm हो पाएगी। आपको मैं seller details WhatsApp पर भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 36.37,
+      "end": 49.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 2.32,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

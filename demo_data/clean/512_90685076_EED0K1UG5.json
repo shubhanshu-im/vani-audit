@@ -1,0 +1,110 @@
+{
+  "call_id": "512_90685076_EED0K1UG5",
+  "file": "data/recordings/512_90685076_EED0K1UG5.mp3",
+  "duration_s": 113.18,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको bottle 500 gm Lasorean चटनी garlic की requirement है ना?",
+      "start": 0.49,
+      "end": 5.81
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे लसूणों की चटनी की चाहिए बेटा। आप कहाँ से बोल रहे हैं मुझे यह भी नहीं पता मैंने ढूंढा जरूर है। यह mobile से आपका number। आप कहाँ से बोल रहे हैं बेटा?",
+      "start": 7.21,
+      "end": 18.75
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बात कर रही हूं। आप जिस seller को call कर रहे थे वो अभी available नहीं है इसलिए मैं आपकी मदद कर रही हूं। चलिए quantity बता दीजिए कितने kilogram चाहिए? कितने kilogram थे बेटा अमृतसर में है कोई इनका कोई office हो India Mart का।",
+      "start": 20.73,
+      "end": 37.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Amritsar Punjab में आप तो Bangalore से बोल रहे हैं शायद।",
+      "start": 39.53,
+      "end": 42.67
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART की तरफ से बात कर रही हूं।",
+      "start": 44.41,
+      "end": 46.52
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारी team अलग-अलग जगहों से काम कर रही है।",
+      "start": 46.52,
+      "end": 48.79
+    },
+    {
+      "role": "BOT",
+      "text": "आप quantity बता दीजिए कितने kilogram?",
+      "start": 48.79,
+      "end": 50.79
+    },
+    {
+      "role": "BUYER",
+      "text": "बेटा मुझे आप quantity बता दीजिए कितने kilo। बेटा मुझे kilogram तो नहीं मुझे अपने retailer हूं मैं तो मरीज आदमी हूं। इसलिए मैं ढूंढ रहा था मुझे चाहिए एक 500 gram वाली आप बेच दीजिए मैं पैसे दे दूंगा।",
+      "start": 47.73,
+      "end": 62.57
+    },
+    {
+      "role": "BOT",
+      "text": "क्या procedure है यह बता दीजिएगा। बहुत बढ़िया। off retailer है और एक 500 gram वाली चाहिए। बस कुछ और जानकारी लूंगी flavor कौन सा चाहिए? pineapple spicy या कुछ और?",
+      "start": 62.57,
+      "end": 74.41
+    },
+    {
+      "role": "BUYER",
+      "text": "spicy नहीं चाहिए pineapple हो जाए बढ़िया है जी। Pineapple ਸਵਾਦ ਹੋਜੇ ਤਾਂ ਬਹੁਤ ਵਧੀਆ।",
+      "start": 76.19,
+      "end": 84.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? pineapple flavor note कर लिया। net weight में आपको 1 kg, 5 kg या 900 g में से कुछ चाहिए या 500 g ही चाहिए?",
+      "start": 86.39,
+      "end": 94.77
+    },
+    {
+      "role": "BUYER",
+      "text": "वैसे अभी तो मैं चाहता हूं एक बार use कर लूं फिर मंगवा लूंगा ज्यादा अभी। इसको English में क्या बोलते हैं?",
+      "start": 96.27,
+      "end": 104.69
+    },
+    {
+      "role": "BOT",
+      "text": "तो English में बोलते हैं।",
+      "start": 102.95,
+      "end": 104.45
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी पाँच सौ ग्राम चाहिए बेटा मेरे को। एक बार।",
+      "start": 105.87,
+      "end": 113.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 4.32,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

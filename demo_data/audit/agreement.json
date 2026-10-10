@@ -1,0 +1,1425 @@
+{
+  "source": "IndiaMART audit sheet (human auditors)",
+  "headline_split": "test",
+  "agreement_pct": 59.0,
+  "kappa": 0.094,
+  "weighted_agreement_pct": 67.3,
+  "quality_3class_agreement_pct": 38.5,
+  "n_labelled": 160,
+  "population_weights": {
+    "FATAL": 0.37037037037037035,
+    "NON_FATAL": 0.5615094339622642,
+    "PASS": 2.08
+  },
+  "by_split": {
+    "tune": {
+      "fatal_vs_not": {
+        "n": 78,
+        "agreement_pct": 61.5,
+        "kappa": 0.12,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 10,
+          "human_FATAL__auto_NOT_FATAL": 17,
+          "human_NOT_FATAL__auto_FATAL": 13,
+          "human_NOT_FATAL__auto_NOT_FATAL": 38
+        },
+        "weighted_agreement_pct": 67.0
+      },
+      "quality_3class": {
+        "n": 78,
+        "agreement_pct": 41.0,
+        "kappa": 0.12,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 10,
+          "human_FATAL__auto_NON_FATAL": 16,
+          "human_FATAL__auto_PASS": 1,
+          "human_NON_FATAL__auto_FATAL": 5,
+          "human_NON_FATAL__auto_NON_FATAL": 17,
+          "human_NON_FATAL__auto_PASS": 3,
+          "human_PASS__auto_FATAL": 8,
+          "human_PASS__auto_NON_FATAL": 13,
+          "human_PASS__auto_PASS": 5
+        },
+        "weighted_agreement_pct": 30.3
+      },
+      "fatal_vs_not_call_quality": {
+        "n": 78,
+        "agreement_pct": 66.7,
+        "kappa": 0.055,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 4,
+          "human_FATAL__auto_NOT_FATAL": 7,
+          "human_NOT_FATAL__auto_FATAL": 19,
+          "human_NOT_FATAL__auto_NOT_FATAL": 48
+        }
+      },
+      "per_param": {
+        "Outcome Accuracy": {
+          "issue_agreement_pct": 85.9,
+          "human_issues": 5,
+          "auto_issues": 10,
+          "human_fatal": 5,
+          "auto_fatal": 10,
+          "both_fatal": 2
+        },
+        "Quantity Accuracy (Numeric)": {
+          "issue_agreement_pct": 84.6,
+          "human_issues": 6,
+          "auto_issues": 8,
+          "human_fatal": 5,
+          "auto_fatal": 6,
+          "both_fatal": 1
+        },
+        "Quantity Unit Accuracy": {
+          "issue_agreement_pct": 91.0,
+          "human_issues": 4,
+          "auto_issues": 3,
+          "human_fatal": 3,
+          "auto_fatal": 2,
+          "both_fatal": 0
+        },
+        "Quantity Probing Error": {
+          "issue_agreement_pct": 92.3,
+          "human_issues": 1,
+          "auto_issues": 5,
+          "human_fatal": 1,
+          "auto_fatal": 1,
+          "both_fatal": 0
+        },
+        "Qty Missed Opportunity": {
+          "issue_agreement_pct": 76.9,
+          "human_issues": 0,
+          "auto_issues": 18,
+          "human_fatal": 0,
+          "auto_fatal": 10,
+          "both_fatal": 0
+        },
+        "Spec1 Accuracy": {
+          "issue_agreement_pct": 91.0,
+          "human_issues": 3,
+          "auto_issues": 4,
+          "human_fatal": 2,
+          "auto_fatal": 2,
+          "both_fatal": 0
+        },
+        "Spec2 Accuracy": {
+          "issue_agreement_pct": 94.9,
+          "human_issues": 3,
+          "auto_issues": 1,
+          "human_fatal": 1,
+          "auto_fatal": 1,
+          "both_fatal": 0
+        },
+        "Spec Missed Opportunity": {
+          "issue_agreement_pct": 60.3,
+          "human_issues": 6,
+          "auto_issues": 25,
+          "human_fatal": 5,
+          "auto_fatal": 10,
+          "both_fatal": 0
+        },
+        "Looping Behavior": {
+          "issue_agreement_pct": 57.7,
+          "human_issues": 4,
+          "auto_issues": 33,
+          "human_fatal": 0,
+          "auto_fatal": 4,
+          "both_fatal": 0
+        },
+        "WER": {
+          "issue_agreement_pct": 61.5,
+          "human_issues": 8,
+          "auto_issues": 28,
+          "human_fatal": 4,
+          "auto_fatal": 5,
+          "both_fatal": 1
+        },
+        "Additional_details": {
+          "issue_agreement_pct": 97.4,
+          "human_issues": 2,
+          "auto_issues": 0,
+          "human_fatal": 0,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "OnCall AstBuy Error": {
+          "issue_agreement_pct": 79.5,
+          "human_issues": 4,
+          "auto_issues": 14,
+          "human_fatal": 0,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "Product Change / No Product Accuracy": {
+          "issue_agreement_pct": 87.2,
+          "human_issues": 6,
+          "auto_issues": 6,
+          "human_fatal": 5,
+          "auto_fatal": 3,
+          "both_fatal": 0
+        },
+        "Category ISQ's Error": {
+          "issue_agreement_pct": 100.0,
+          "human_issues": 0,
+          "auto_issues": 0,
+          "human_fatal": 0,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "MCAT / Search errors": {
+          "issue_agreement_pct": 96.2,
+          "human_issues": 3,
+          "auto_issues": 0,
+          "human_fatal": 3,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "Dead air": {
+          "issue_agreement_pct": 50.0,
+          "human_issues": 12,
+          "auto_issues": 47,
+          "human_fatal": 5,
+          "auto_fatal": 2,
+          "both_fatal": 0
+        },
+        "Additional Observation": {
+          "issue_agreement_pct": 46.2,
+          "human_issues": 3,
+          "auto_issues": 43,
+          "human_fatal": 0,
+          "auto_fatal": 1,
+          "both_fatal": 0
+        }
+      }
+    },
+    "test": {
+      "fatal_vs_not": {
+        "n": 78,
+        "agreement_pct": 59.0,
+        "kappa": 0.094,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 11,
+          "human_FATAL__auto_NOT_FATAL": 16,
+          "human_NOT_FATAL__auto_FATAL": 16,
+          "human_NOT_FATAL__auto_NOT_FATAL": 35
+        },
+        "weighted_agreement_pct": 67.3
+      },
+      "quality_3class": {
+        "n": 78,
+        "agreement_pct": 38.5,
+        "kappa": 0.08,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 11,
+          "human_FATAL__auto_NON_FATAL": 12,
+          "human_FATAL__auto_PASS": 4,
+          "human_NON_FATAL__auto_FATAL": 9,
+          "human_NON_FATAL__auto_NON_FATAL": 15,
+          "human_NON_FATAL__auto_PASS": 1,
+          "human_PASS__auto_FATAL": 7,
+          "human_PASS__auto_NON_FATAL": 15,
+          "human_PASS__auto_PASS": 4
+        },
+        "weighted_agreement_pct": 26.6
+      },
+      "fatal_vs_not_call_quality": {
+        "n": 78,
+        "agreement_pct": 65.4,
+        "kappa": 0.064,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 3,
+          "human_FATAL__auto_NOT_FATAL": 3,
+          "human_NOT_FATAL__auto_FATAL": 24,
+          "human_NOT_FATAL__auto_NOT_FATAL": 48
+        }
+      },
+      "per_param": {
+        "Outcome Accuracy": {
+          "issue_agreement_pct": 88.5,
+          "human_issues": 6,
+          "auto_issues": 7,
+          "human_fatal": 5,
+          "auto_fatal": 7,
+          "both_fatal": 2
+        },
+        "Quantity Accuracy (Numeric)": {
+          "issue_agreement_pct": 89.7,
+          "human_issues": 4,
+          "auto_issues": 4,
+          "human_fatal": 2,
+          "auto_fatal": 3,
+          "both_fatal": 0
+        },
+        "Quantity Unit Accuracy": {
+          "issue_agreement_pct": 96.2,
+          "human_issues": 2,
+          "auto_issues": 1,
+          "human_fatal": 1,
+          "auto_fatal": 1,
+          "both_fatal": 0
+        },
+        "Quantity Probing Error": {
+          "issue_agreement_pct": 89.7,
+          "human_issues": 1,
+          "auto_issues": 7,
+          "human_fatal": 0,
+          "auto_fatal": 5,
+          "both_fatal": 0
+        },
+        "Qty Missed Opportunity": {
+          "issue_agreement_pct": 78.2,
+          "human_issues": 2,
+          "auto_issues": 15,
+          "human_fatal": 2,
+          "auto_fatal": 9,
+          "both_fatal": 0
+        },
+        "Spec1 Accuracy": {
+          "issue_agreement_pct": 91.0,
+          "human_issues": 3,
+          "auto_issues": 4,
+          "human_fatal": 2,
+          "auto_fatal": 3,
+          "both_fatal": 0
+        },
+        "Spec2 Accuracy": {
+          "issue_agreement_pct": 94.9,
+          "human_issues": 1,
+          "auto_issues": 3,
+          "human_fatal": 1,
+          "auto_fatal": 2,
+          "both_fatal": 0
+        },
+        "Spec Missed Opportunity": {
+          "issue_agreement_pct": 69.2,
+          "human_issues": 8,
+          "auto_issues": 18,
+          "human_fatal": 5,
+          "auto_fatal": 14,
+          "both_fatal": 0
+        },
+        "Looping Behavior": {
+          "issue_agreement_pct": 60.3,
+          "human_issues": 4,
+          "auto_issues": 33,
+          "human_fatal": 1,
+          "auto_fatal": 4,
+          "both_fatal": 0
+        },
+        "WER": {
+          "issue_agreement_pct": 64.1,
+          "human_issues": 4,
+          "auto_issues": 28,
+          "human_fatal": 2,
+          "auto_fatal": 5,
+          "both_fatal": 0
+        },
+        "Additional_details": {
+          "issue_agreement_pct": 96.2,
+          "human_issues": 3,
+          "auto_issues": 0,
+          "human_fatal": 1,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "OnCall AstBuy Error": {
+          "issue_agreement_pct": 84.6,
+          "human_issues": 0,
+          "auto_issues": 12,
+          "human_fatal": 0,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "Product Change / No Product Accuracy": {
+          "issue_agreement_pct": 89.7,
+          "human_issues": 4,
+          "auto_issues": 8,
+          "human_fatal": 3,
+          "auto_fatal": 6,
+          "both_fatal": 1
+        },
+        "Category ISQ's Error": {
+          "issue_agreement_pct": 100.0,
+          "human_issues": 0,
+          "auto_issues": 0,
+          "human_fatal": 0,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "MCAT / Search errors": {
+          "issue_agreement_pct": 96.2,
+          "human_issues": 3,
+          "auto_issues": 0,
+          "human_fatal": 1,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "Dead air": {
+          "issue_agreement_pct": 55.1,
+          "human_issues": 9,
+          "auto_issues": 38,
+          "human_fatal": 3,
+          "auto_fatal": 3,
+          "both_fatal": 0
+        },
+        "Additional Observation": {
+          "issue_agreement_pct": 43.6,
+          "human_issues": 1,
+          "auto_issues": 45,
+          "human_fatal": 0,
+          "auto_fatal": 1,
+          "both_fatal": 0
+        }
+      }
+    },
+    "all": {
+      "fatal_vs_not": {
+        "n": 156,
+        "agreement_pct": 60.3,
+        "kappa": 0.106,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 21,
+          "human_FATAL__auto_NOT_FATAL": 33,
+          "human_NOT_FATAL__auto_FATAL": 29,
+          "human_NOT_FATAL__auto_NOT_FATAL": 73
+        },
+        "weighted_agreement_pct": 67.2
+      },
+      "quality_3class": {
+        "n": 156,
+        "agreement_pct": 39.7,
+        "kappa": 0.1,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 21,
+          "human_FATAL__auto_NON_FATAL": 28,
+          "human_FATAL__auto_PASS": 5,
+          "human_NON_FATAL__auto_FATAL": 14,
+          "human_NON_FATAL__auto_NON_FATAL": 32,
+          "human_NON_FATAL__auto_PASS": 4,
+          "human_PASS__auto_FATAL": 15,
+          "human_PASS__auto_NON_FATAL": 28,
+          "human_PASS__auto_PASS": 9
+        },
+        "weighted_agreement_pct": 28.5
+      },
+      "fatal_vs_not_call_quality": {
+        "n": 156,
+        "agreement_pct": 66.0,
+        "kappa": 0.055,
+        "confusion": {
+          "human_FATAL__auto_FATAL": 7,
+          "human_FATAL__auto_NOT_FATAL": 10,
+          "human_NOT_FATAL__auto_FATAL": 43,
+          "human_NOT_FATAL__auto_NOT_FATAL": 96
+        }
+      },
+      "per_param": {
+        "Outcome Accuracy": {
+          "issue_agreement_pct": 87.2,
+          "human_issues": 11,
+          "auto_issues": 17,
+          "human_fatal": 10,
+          "auto_fatal": 17,
+          "both_fatal": 4
+        },
+        "Quantity Accuracy (Numeric)": {
+          "issue_agreement_pct": 87.2,
+          "human_issues": 10,
+          "auto_issues": 12,
+          "human_fatal": 7,
+          "auto_fatal": 9,
+          "both_fatal": 1
+        },
+        "Quantity Unit Accuracy": {
+          "issue_agreement_pct": 93.6,
+          "human_issues": 6,
+          "auto_issues": 4,
+          "human_fatal": 4,
+          "auto_fatal": 3,
+          "both_fatal": 0
+        },
+        "Quantity Probing Error": {
+          "issue_agreement_pct": 91.0,
+          "human_issues": 2,
+          "auto_issues": 12,
+          "human_fatal": 1,
+          "auto_fatal": 6,
+          "both_fatal": 0
+        },
+        "Qty Missed Opportunity": {
+          "issue_agreement_pct": 77.6,
+          "human_issues": 2,
+          "auto_issues": 33,
+          "human_fatal": 2,
+          "auto_fatal": 19,
+          "both_fatal": 0
+        },
+        "Spec1 Accuracy": {
+          "issue_agreement_pct": 91.0,
+          "human_issues": 6,
+          "auto_issues": 8,
+          "human_fatal": 4,
+          "auto_fatal": 5,
+          "both_fatal": 0
+        },
+        "Spec2 Accuracy": {
+          "issue_agreement_pct": 94.9,
+          "human_issues": 4,
+          "auto_issues": 4,
+          "human_fatal": 2,
+          "auto_fatal": 3,
+          "both_fatal": 0
+        },
+        "Spec Missed Opportunity": {
+          "issue_agreement_pct": 64.7,
+          "human_issues": 14,
+          "auto_issues": 43,
+          "human_fatal": 10,
+          "auto_fatal": 24,
+          "both_fatal": 0
+        },
+        "Looping Behavior": {
+          "issue_agreement_pct": 59.0,
+          "human_issues": 8,
+          "auto_issues": 66,
+          "human_fatal": 1,
+          "auto_fatal": 8,
+          "both_fatal": 0
+        },
+        "WER": {
+          "issue_agreement_pct": 62.8,
+          "human_issues": 12,
+          "auto_issues": 56,
+          "human_fatal": 6,
+          "auto_fatal": 10,
+          "both_fatal": 1
+        },
+        "Additional_details": {
+          "issue_agreement_pct": 96.8,
+          "human_issues": 5,
+          "auto_issues": 0,
+          "human_fatal": 1,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "OnCall AstBuy Error": {
+          "issue_agreement_pct": 82.1,
+          "human_issues": 4,
+          "auto_issues": 26,
+          "human_fatal": 0,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "Product Change / No Product Accuracy": {
+          "issue_agreement_pct": 88.5,
+          "human_issues": 10,
+          "auto_issues": 14,
+          "human_fatal": 8,
+          "auto_fatal": 9,
+          "both_fatal": 1
+        },
+        "Category ISQ's Error": {
+          "issue_agreement_pct": 100.0,
+          "human_issues": 0,
+          "auto_issues": 0,
+          "human_fatal": 0,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "MCAT / Search errors": {
+          "issue_agreement_pct": 96.2,
+          "human_issues": 6,
+          "auto_issues": 0,
+          "human_fatal": 4,
+          "auto_fatal": 0,
+          "both_fatal": 0
+        },
+        "Dead air": {
+          "issue_agreement_pct": 52.6,
+          "human_issues": 21,
+          "auto_issues": 85,
+          "human_fatal": 8,
+          "auto_fatal": 5,
+          "both_fatal": 0
+        },
+        "Additional Observation": {
+          "issue_agreement_pct": 44.9,
+          "human_issues": 4,
+          "auto_issues": 88,
+          "human_fatal": 0,
+          "auto_fatal": 2,
+          "both_fatal": 0
+        }
+      }
+    }
+  },
+  "disagreements": [
+    {
+      "call_id": "audit_144770625452_ZKEXZLC64",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "WER"
+      ],
+      "human_remarks": {
+        "WER": "[00:22]Buyer:Ek piece chahiye\n[00:24]Bot:Theek hai, ek minute. then pause until call cut"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Dead air"
+    },
+    {
+      "call_id": "audit_144775750513_APR79BE64",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Spec1 Accuracy",
+        "Spec2 Accuracy",
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Spec1 Accuracy: Bot offered generic makes; buyer said 'Several beats' (Chevrolet) but bot ignored it."
+    },
+    {
+      "call_id": "audit_144800313185_3B2JTLH64",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Quantity Accuracy (Numeric)",
+        "Quantity Unit Accuracy",
+        "Spec Missed Opportunity",
+        "MCAT / Search errors"
+      ],
+      "human_remarks": {
+        "Quantity Accuracy (Numeric)": "1.07 Buyer mentioned \"adhai sau gram chahiye\" which is 250grams but bot wrongly captured 350Kg",
+        "Spec Missed Opportunity": "BOT failed to probe the defined specs",
+        "MCAT / Search errors": "Wrongly mapped in \"Ghevar\""
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: WER, Product Change / No Product Accuracy, Dead air"
+    },
+    {
+      "call_id": "audit_144809358163_8CL6C5L64",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Quantity Accuracy (Numeric)",
+        "Qty Missed Opportunity"
+      ],
+      "auto_reason": "Quantity Accuracy (Numeric): Buyer said 500, bot missed it and later captured 5."
+    },
+    {
+      "call_id": "audit_144817820967_UU20V1P64",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "PASS",
+      "human_fatal_params": [
+        "Additional_details"
+      ],
+      "human_remarks": {
+        "Additional_details": "Buyer never mentioned the this detail, buyer only mentioned the spec as \"slab\" but bot wrongly interpreted it as lab and captured wrongly \"Buyer needs the product in lab form.\""
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "no fatal issues"
+    },
+    {
+      "call_id": "audit_144934898963_XHW2N1B74",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "PASS",
+      "human_fatal_params": [
+        "Spec1 Accuracy"
+      ],
+      "human_remarks": {
+        "Spec1 Accuracy": "0.34 \"Packaging Size: 25 kg\" not shared by buyer on call and captured without buyer confirmation"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "no fatal issues"
+    },
+    {
+      "call_id": "audit_145245404675_5MW3RZ994",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Quantity Unit Accuracy"
+      ],
+      "human_remarks": {
+        "Quantity Unit Accuracy": "\"When bot probed qty, buyer told he need 10 rolls each roll weight 10 kg,\nBot failed to capture the info( not present in qty or bfd)\n[00:19]Buyer:Aapke 10 kg ka jo roll aata hai na, vaise mujhe 10 roll chahiye the.\n[00:23]Bot:Kya aapko 10 kilogram chahiye ya 10 roll? Kripya clear karein.\n[00:26]Buyer:10 kilo ke 10 roll.\""
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Dead air"
+    },
+    {
+      "call_id": "audit_145304490595_VKN33MJ94",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "PASS",
+      "human_fatal_params": [
+        "Outcome Accuracy"
+      ],
+      "human_remarks": {
+        "Outcome Accuracy": "Buyer did not confirm the req and in the end said \"Na nahi chahiye, thank you so much\" still the BL was wrongly approved"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "no fatal issues"
+    },
+    {
+      "call_id": "audit_145362085663_2MV9UUX94",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "PASS",
+      "human_fatal_params": [
+        "Outcome Accuracy"
+      ],
+      "human_remarks": {
+        "Outcome Accuracy": "Req not confirmed by buyer but blank BL was approved by BOT"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "no fatal issues"
+    },
+    {
+      "call_id": "audit_145370947285_B2RZPH0A4",
+      "split": "tune",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Spec Missed Opportunity: Bot ignored buyer's gear box spec and re-asked about body flange."
+    },
+    {
+      "call_id": "audit_145375875452_8KD6AW1A4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "human_remarks": {
+        "Spec Missed Opportunity": "1.40 Buyer mentioned the 3rd spec \"Pole Height\" as 6m but bot captured 86m"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: WER, Dead air"
+    },
+    {
+      "call_id": "audit_145677636385_FGYPVLSB4",
+      "split": "tune",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Quantity Accuracy (Numeric)",
+        "Quantity Unit Accuracy",
+        "WER"
+      ],
+      "auto_reason": "Quantity Accuracy (Numeric): Buyer said 50 (feet), bot captured as 50 millimeters"
+    },
+    {
+      "call_id": "audit_145843845234_8NTUN5TC4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "human_remarks": {
+        "Spec Missed Opportunity": "0.37 Buyer mentioned the Mesh Count spec as \"Sabse Choti\" but bot failed to capture\n[00:46]Bot:40 mesh ka matlab hai ki ek inch mein 40 openings hoti hain. Mesh count hi jitna jyada openings utni chhoti, aapko kaun sa mesh count chahiye?\n[00:57]Buyer:Sabse chhoti ho vo\n[00:58]Bot:Samajh gayi aapko sabse chhoti mesh opening chahiye yaani sabse jyada mesh count. Ab aapki city aur state bhi bata dijiye please?"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Spec1 Accuracy, Spec2 Accuracy, Looping Behavior, Dead air"
+    },
+    {
+      "call_id": "audit_146103864263_WS0GY6AE4",
+      "split": "tune",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Quantity Accuracy (Numeric)",
+        "Qty Missed Opportunity",
+        "WER"
+      ],
+      "auto_reason": "Quantity Accuracy (Numeric): Bot misheard buyer's 20 as 20 20."
+    },
+    {
+      "call_id": "audit_146294238467_H5F3HMIF4",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Spec Missed Opportunity: Buyer stated 'Waker Mac' but bot ignored it and asked generic compound type."
+    },
+    {
+      "call_id": "audit_146511615863_WS7IA3XG4",
+      "split": "test",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Outcome Accuracy"
+      ],
+      "auto_reason": "Outcome Accuracy: Buyer explicitly stated he is an advocate and not a buyer."
+    },
+    {
+      "call_id": "audit_146516426113_AGMVDGYG4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Product Change / No Product Accuracy"
+      ],
+      "human_remarks": {
+        "Product Change / No Product Accuracy": "BOT failed to change the product to Cake Making Machine\nBOT denied saying \"today we are assisting with baking pan only.\""
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Quantity Probing Error, Additional Observation"
+    },
+    {
+      "call_id": "audit_146569415095_6SEBUA8H4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Looping Behavior"
+      ],
+      "human_remarks": {
+        "Looping Behavior": "0.09 BOT repeated the statement twice in one go without pausing \"Aap jis seller ko call kar rahe the vo available nahi hai aur mai IndiaMART se bol rahi hu\"\nBuyer disconnected the call"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Additional Observation"
+    },
+    {
+      "call_id": "audit_146585804767_ARX0AICH4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Spec1 Accuracy"
+      ],
+      "human_remarks": {
+        "Spec1 Accuracy": "Buyer wanted \"Soil Dumping Service\" but BL was wrongly mapped in \"Tipper Trucks\" and bot wrongly captured the buyer input in spec\nNumber of Wheels: 10 wheeler"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Dead air"
+    },
+    {
+      "call_id": "audit_147047102495_BZA7TK2K4",
+      "split": "test",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Spec Missed Opportunity: Bot skipped name, city, state, quantity, and other specs, closing the call abruptly."
+    },
+    {
+      "call_id": "audit_147157905752_FDPL0DVK4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "human_remarks": {
+        "Spec Missed Opportunity": "0.13 Buyer explicitly mentioned \"he wants 1 Litre packaging size\", and bot did not probe the first spec \"Pack Size\" and directly probed the second spec"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior, Dead air, Additional Observation"
+    },
+    {
+      "call_id": "audit_147290335334_84HN68SL4",
+      "split": "tune",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Qty Missed Opportunity",
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Qty Missed Opportunity: Bot ignored buyer's quantity and other specs."
+    },
+    {
+      "call_id": "audit_147376049052_E9W5MADM4",
+      "split": "tune",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Outcome Accuracy",
+        "Quantity Unit Accuracy",
+        "Qty Missed Opportunity",
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Outcome Accuracy: Bot closed with specs after buyer hung up, ignoring powder correction."
+    },
+    {
+      "call_id": "audit_147428714346_1WJMWKPM4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Quantity Unit Accuracy",
+        "Spec2 Accuracy"
+      ],
+      "human_remarks": {
+        "Quantity Unit Accuracy": "Buyer only mentioned \"ek chahiye ek\" but did not confirm the unit and bot captured \"1 Kg\" on its own",
+        "Spec2 Accuracy": "Buyer mentioned the brand name as \"tabah\" but bot wrongly captured \"tiger\""
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior, Dead air, Additional Observation"
+    },
+    {
+      "call_id": "audit_147430111867_LTBVDXPM4",
+      "split": "tune",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Looping Behavior"
+      ],
+      "auto_reason": "Looping Behavior: Bot looped the hold message for 30+ seconds, causing buyer frustration."
+    },
+    {
+      "call_id": "audit_147783853134_CFBMGNAR4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Product Change / No Product Accuracy"
+      ],
+      "human_remarks": {
+        "Product Change / No Product Accuracy": "Buyer explicitly mentioned he need \"lithium ion battery box\" , bot unable to do so bl is mapped under-\"Paper Box\"\n[00:45]Bot: Samajh gayi, aapko wo box chahiye jisme lithium battery fit hoti hai, sahi hai?\n[00:50]Buyer: Han han fit hoti hai lithium battery"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior, OnCall AstBuy Error, Dead air"
+    },
+    {
+      "call_id": "audit_147859284085_24LU0RVR4",
+      "split": "test",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Outcome Accuracy"
+      ],
+      "auto_reason": "Outcome Accuracy: Bot created a lead for a wooden organizer when buyer wanted an audio stand."
+    },
+    {
+      "call_id": "audit_147861371575_VKUIZ9WR4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "WER",
+        "Product Change / No Product Accuracy"
+      ],
+      "human_remarks": {
+        "WER": "Buyer had a changed req and said \"cement ki\" but due to wrong transcription in squadstack dashboard bot reverted \"Theek hai, main line pe bani rahoongi.\" and buyer disconnected the call",
+        "Product Change / No Product Accuracy": "Buyer mentioned changed req twice of \" Cement\" but due to wrong transcription in squadstack dashboard the the bot gave wrong responses and buyer disconnected the call"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior, Additional Observation"
+    },
+    {
+      "call_id": "audit_147904080434_6350FR4S4",
+      "split": "tune",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Qty Missed Opportunity"
+      ],
+      "auto_reason": "Qty Missed Opportunity: Buyer stated quantity but bot captured nothing, moving on to fabric."
+    },
+    {
+      "call_id": "audit_147949124985_063UPCES4",
+      "split": "tune",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "WER"
+      ],
+      "auto_reason": "WER: Bot misheard 'Wood Tech' as 'wood text'."
+    },
+    {
+      "call_id": "audit_147950997846_XB14AXES4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Dead air"
+      ],
+      "human_remarks": {
+        "Dead air": "when bot asked for the requirement buyer told yes two times, then bot is silent (0:08-0:50), lastly buyer cuts the call"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Dead air"
+    },
+    {
+      "call_id": "audit_148168507685_FC6WLXXT4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Quantity Accuracy (Numeric)"
+      ],
+      "human_remarks": {
+        "Quantity Accuracy (Numeric)": "Buyer total need of 10 piece, 5 big 5 small\n[00:13]Buyer:Piece mein, vo chhota wala paanch chheh, bada wala paanch chheh.\nBot reongly capture- 56 Piece"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: WER, Dead air, Additional Observation"
+    },
+    {
+      "call_id": "audit_148219064775_ZS851P7U4",
+      "split": "tune",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Outcome Accuracy"
+      ],
+      "auto_reason": "Outcome Accuracy: Buyer wanted to buy but bot closed without lead or transfer"
+    },
+    {
+      "call_id": "audit_148249751546_BNXHXEHU4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Outcome Accuracy"
+      ],
+      "human_remarks": {
+        "Outcome Accuracy": "Bot failed to understand the buyer's requirement. wrong BL aroved"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior"
+    },
+    {
+      "call_id": "audit_148316862567_MASVD7ZU4",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Spec Missed Opportunity",
+        "Dead air"
+      ],
+      "auto_reason": "Spec Missed Opportunity: Bot asked irrelevant spec for a mobile starter and ignored buyer's actual need."
+    },
+    {
+      "call_id": "audit_148589037775_6CA5W6TW4",
+      "split": "tune",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Outcome Accuracy",
+        "Quantity Probing Error",
+        "Qty Missed Opportunity",
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Outcome Accuracy: Closed with no lead or transfer despite buyer sharing requirement."
+    },
+    {
+      "call_id": "audit_148871048385_R53SZRFY4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "WER"
+      ],
+      "human_remarks": {
+        "WER": "\"Pachaas piece\" as \"ek piece\"\nBuyer disconnect the call\n[00:24]Buyer:Pachaas piece"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Dead air, Additional Observation"
+    },
+    {
+      "call_id": "audit_148873448385_E7KP8FGY4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Product Change / No Product Accuracy"
+      ],
+      "human_remarks": {
+        "Product Change / No Product Accuracy": "Buyer need \"bishahari chemical for itching\" but mapped BL under-\"Ayurvedic Joint Pain Relief Oil\""
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: WER, Additional Observation"
+    },
+    {
+      "call_id": "audit_149045172146_4L47W9FZ4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Quantity Accuracy (Numeric)"
+      ],
+      "human_remarks": {
+        "Quantity Accuracy (Numeric)": "Bot incorrectly captured 11 bottle where as buyer mentioned he need 1 bottle\n[00:19]Bot:Bahut badhiya, aapko kitne bottles chahiye?\n[00:23]Buyer:Humko one... one bottle chahiye."
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior, Dead air"
+    },
+    {
+      "call_id": "audit_149046252146_5VW9YXFZ4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Dead air"
+      ],
+      "human_remarks": {
+        "Dead air": "Bot went silent 0.37 till the end of the call, call was then disconnected"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Additional Observation"
+    },
+    {
+      "call_id": "audit_149124182813_3DFYAGXZ4",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "PASS",
+      "human_fatal_params": [
+        "Outcome Accuracy"
+      ],
+      "human_remarks": {
+        "Outcome Accuracy": "Buyer never shared the requirement (0:15 SEC CALL)"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "no fatal issues"
+    },
+    {
+      "call_id": "audit_149125322375_R5VT0ZXZ4",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Dead air"
+      ],
+      "human_remarks": {
+        "Dead air": "bot was silent 0.23 till the end of the call, buyer kept saying hello hello later disconnected the call, blank BL approved"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Dead air"
+    },
+    {
+      "call_id": "audit_149199942367_NPD22NF05",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "human_remarks": {
+        "Spec Missed Opportunity": "0.50 Buyer mentioned the spec Lifting Capacity 1.5 ton but bot failed to capture"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior"
+    },
+    {
+      "call_id": "audit_149509278575_T1XNR0G25",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Dead air"
+      ],
+      "auto_reason": "Dead air: Bot went silent after buyer's last line, causing a disconnect."
+    },
+    {
+      "call_id": "audit_149611910459_0IUKTV335",
+      "split": "test",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [
+        "MCAT / Search errors"
+      ],
+      "human_remarks": {
+        "MCAT / Search errors": "Wrongly mapped in \"Cold Pressed Peanut Oil\""
+      },
+      "auto_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Spec Missed Opportunity: Buyer stated 5 liter, bot did not capture it."
+    },
+    {
+      "call_id": "audit_150196686885_8GH9ZNI65",
+      "split": "tune",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Spec Missed Opportunity",
+        "Dead air"
+      ],
+      "auto_reason": "Spec Missed Opportunity: Buyer stated size spec, bot never captured it."
+    },
+    {
+      "call_id": "audit_150242502146_3BIYB4S65",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Quantity Probing Error",
+        "Qty Missed Opportunity"
+      ],
+      "auto_reason": "Quantity Probing Error: Bot asked quantity but buyer stated 400 piece and bot never confirmed or recorded it"
+    },
+    {
+      "call_id": "audit_150377812952_UMMC3VI75",
+      "split": "test",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Outcome Accuracy",
+        "Quantity Probing Error",
+        "Spec Missed Opportunity",
+        "Looping Behavior"
+      ],
+      "auto_reason": "Outcome Accuracy: Buyer asked for customer care/Twitter info, bot treated as buying lead"
+    },
+    {
+      "call_id": "audit_150455054746_Y3JBMBZ75",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Qty Missed Opportunity",
+        "Spec Missed Opportunity",
+        "Dead air"
+      ],
+      "auto_reason": "Qty Missed Opportunity: Buyer explicitly stated 500ml but bot ignored it and asked again."
+    },
+    {
+      "call_id": "audit_150467291263_HSUVFP185",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Spec1 Accuracy"
+      ],
+      "human_remarks": {
+        "Spec1 Accuracy": "0.25 Buyer mentioned spec brand as \"Dubai Kunafa\" but bot captured \"Dubai Kona\""
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Spec Missed Opportunity, OnCall AstBuy Error, Dead air, Additional Observation"
+    },
+    {
+      "call_id": "audit_150871495995_G3I7DDZ95",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Quantity Accuracy (Numeric)",
+        "Quantity Unit Accuracy",
+        "Qty Missed Opportunity",
+        "Spec Missed Opportunity",
+        "WER"
+      ],
+      "auto_reason": "Quantity Accuracy (Numeric): Bot misheard 'seeds' as 'kilograms' and captured 1500 kg."
+    },
+    {
+      "call_id": "audit_151020283952_ATK6YVNA5",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Outcome Accuracy",
+        "Quantity Accuracy (Numeric)"
+      ],
+      "human_remarks": {
+        "Outcome Accuracy": "Buyer never shared the requirement",
+        "Quantity Accuracy (Numeric)": "Bot wrongly captured quantity as 20 piece, buyer never shared that"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior, Additional Observation"
+    },
+    {
+      "call_id": "audit_151079502767_7Y8G1U1B5",
+      "split": "test",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Outcome Accuracy",
+        "Spec Missed Opportunity",
+        "Product Change / No Product Accuracy"
+      ],
+      "auto_reason": "Outcome Accuracy: Bot created a buy lead for sugar instead of selling bags"
+    },
+    {
+      "call_id": "audit_151080305163_EPX0572B5",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Dead air"
+      ],
+      "human_remarks": {
+        "Dead air": "Buyer confirmed the req but the bot failed to respond and buyer disconnected the call"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Dead air, Additional Observation"
+    },
+    {
+      "call_id": "audit_151080627067_PYTLTB2B5",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "WER",
+        "Product Change / No Product Accuracy"
+      ],
+      "human_remarks": {
+        "WER": "\"Campers\" as \"Temperature\"",
+        "Product Change / No Product Accuracy": "Bot failed to understand the buyer's requirement, buyer clearly mentioned \"Water Campers\" but BL is mapped under the Water Cooler"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Dead air"
+    },
+    {
+      "call_id": "audit_151283554534_X9TCJSEC5",
+      "split": "test",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Looping Behavior"
+      ],
+      "auto_reason": "Looping Behavior: Repeated the requirement question twice, causing buyer to hang up"
+    },
+    {
+      "call_id": "audit_151332039959_DPEB96SC5",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Spec Missed Opportunity"
+      ],
+      "human_remarks": {
+        "Spec Missed Opportunity": "0.58 Buyer mentioned the spec as \"Super\" but bot failed to capture"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior, WER, OnCall AstBuy Error, Dead air, Additional Observation"
+    },
+    {
+      "call_id": "audit_151332474452_1UKHHASC5",
+      "split": "tune",
+      "human": "PASS",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Looping Behavior"
+      ],
+      "auto_reason": "Looping Behavior: Bot asked for product 7 times despite buyer trying to state it."
+    },
+    {
+      "call_id": "audit_151906271646_1KXLS8YF5",
+      "split": "tune",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Outcome Accuracy",
+        "Qty Missed Opportunity",
+        "Spec Missed Opportunity"
+      ],
+      "auto_reason": "Outcome Accuracy: Bot abruptly ended the call before creating a lead or transferring."
+    },
+    {
+      "call_id": "audit_151906347495_WKN54AYF5",
+      "split": "tune",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Spec1 Accuracy"
+      ],
+      "human_remarks": {
+        "Spec1 Accuracy": "0:34 buyer mentioned bar diameter as 20 mm, bot wrongly capture 21 by"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Qty Missed Opportunity, Looping Behavior, WER, Additional Observation"
+    },
+    {
+      "call_id": "audit_152129872763_ZXTESD3H5",
+      "split": "test",
+      "human": "NON_FATAL",
+      "auto": "FATAL",
+      "human_fatal_params": [],
+      "human_remarks": {},
+      "auto_fatal_params": [
+        "Quantity Accuracy (Numeric)",
+        "Qty Missed Opportunity",
+        "WER"
+      ],
+      "auto_reason": "Quantity Accuracy (Numeric): Bot misheard buyer's '3 to 15' as 'hundred hundred' and confirmed 100 bags."
+    },
+    {
+      "call_id": "audit_152396285667_TG1E0GRI5",
+      "split": "test",
+      "human": "FATAL",
+      "auto": "NON_FATAL",
+      "human_fatal_params": [
+        "Quantity Accuracy (Numeric)"
+      ],
+      "human_remarks": {
+        "Quantity Accuracy (Numeric)": "Buyer mentioned 5 Tonne, bot captured 3 tonne"
+      },
+      "auto_fatal_params": [],
+      "auto_reason": "non-fatal only: Looping Behavior, Dead air"
+    }
+  ],
+  "skipped": [
+    "audit_146312543275_WMW430PF4",
+    "audit_146764215346_CBA6UAGI4",
+    "audit_150288050446_LSDKCEZ65",
+    "audit_151223315234_X3FTN70C5"
+  ],
+  "created_at": "2026-10-10T12:24:17+05:30",
+  "dataset": "audit"
+}

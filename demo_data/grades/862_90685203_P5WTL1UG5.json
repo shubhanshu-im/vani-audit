@@ -1,0 +1,322 @@
+{
+  "call_id": "862_90685203_P5WTL1UG5",
+  "duration_s": 52.7,
+  "graded_at": "2026-10-10T12:44:13+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Bot asked for Vitamin K2 27, a wrong spec for Viagra",
+  "fatal_params": [
+    "Spec1 Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए Vitamin K2 27 या कुछ और?",
+      "timestamp": 12.45,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot asked for Vitamin K2 27, a wrong spec for Viagra",
+      "evidence_verified": true,
+      "llm_timestamp": 12.4
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "third party PCD, PCD franchise या कोई और?",
+      "timestamp": 22.61,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot asked for PCD model instead of business model",
+      "evidence_verified": true,
+      "llm_timestamp": 22.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Friends",
+      "timestamp": 29.29,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'Friends' for business model, not captured",
+      "evidence_verified": true,
+      "llm_timestamp": 29.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 30.97,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used banned open-ended question",
+      "evidence_verified": true,
+      "llm_timestamp": 31.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and bot closed with seller contact"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity needed or discussed"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity given by buyer"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कौन सा चाहिए Vitamin K2 27 या कुछ और?",
+      "timestamp": 12.45,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot asked for Vitamin K2 27, a wrong spec for Viagra",
+      "evidence_verified": true,
+      "llm_timestamp": 12.4
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "third party PCD, PCD franchise या कोई और?",
+      "timestamp": 22.61,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot asked for PCD model instead of business model",
+      "evidence_verified": true,
+      "llm_timestamp": 22.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Friends",
+      "timestamp": 29.29,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'Friends' for business model, not captured",
+      "evidence_verified": true,
+      "llm_timestamp": 29.3
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated loops"
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major misheard words affecting lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed Viagra 100 mg product"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 30.97,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used banned open-ended question",
+      "evidence_verified": true,
+      "llm_timestamp": 31.0
+    }
+  ],
+  "captured_lead": {
+    "product": "Viagra 100 mg soft gel capsule",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "composition",
+        "value": "Vitamin K2 27"
+      },
+      {
+        "name": "business model",
+        "value": "third party PCD"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured wrong spec Vitamin K2 27",
+      "timestamp": 12.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot asked for wrong composition spec Vitamin K2 27; captured business model as PCD instead of 'Friends'.",
+  "analysis": "Buyer inquired about Viagra 100 mg soft gel capsules. Bot captured specs as Vitamin K2 27 and third party PCD. Buyer gave 'Friends' as business model. Bot closed with seller contact. Buyer had prior knowledge and did not request a new lead.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3573,
+    "completion_tokens": 1202
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,117 @@
+{
+  "call_id": "388_90852923_5KCHLXVH5",
+  "file": "data/recordings/388_90852923_5KCHLXVH5.mp3",
+  "duration_s": 76.61,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Epson printer ink की requirement है ना?",
+      "start": 0.01,
+      "end": 3.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes, yes.",
+      "start": 5.25,
+      "end": 6.09
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.19,
+      "end": 13.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको एक packet चाहिए था। ठीक है। अब pink model",
+      "start": 15.03,
+      "end": 19.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब ink model के बारे में बात कर लेते हैं। आपको 003 चाहिए या कुछ और?",
+      "start": 18.01,
+      "end": 22.77
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा इसी का परिसर है समझ गई but अभी हम",
+      "start": 30.97,
+      "end": 35.23
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई but अभी हम क्षमा कीजिए आपकी आवाज clear नहीं आई जरा दोबारा बताइए आपको कौन सा ink model चाहिए?",
+      "start": 33.65,
+      "end": 41.47
+    },
+    {
+      "role": "BUYER",
+      "text": "की आवाज। मेरा printer HP का है मुझे नहीं मालूम।",
+      "start": 37.49,
+      "end": 47.07
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं seller इस बारे में आपकी मदद कर देंगे। अब बताइए ink authenticity में आप original compatible या कुछ और prefer करेंगे?",
+      "start": 48.03,
+      "end": 55.15
+    },
+    {
+      "role": "BUYER",
+      "text": "पहले विभाग में आपको क्या चाहिए?",
+      "start": 48.65,
+      "end": 58.63
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp से भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 59.69,
+      "end": 65.31
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 66.69,
+      "end": 68.55
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 68.25,
+      "end": 71.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 71.39,
+      "end": 73.23
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 8.2,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 22.77,
+        "end": 30.97,
+        "duration_s": 8.2,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

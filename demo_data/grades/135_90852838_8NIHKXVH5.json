@@ -1,0 +1,302 @@
+{
+  "call_id": "135_90852838_8NIHKXVH5",
+  "duration_s": 91.94,
+  "graded_at": "2026-10-10T12:24:59+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec1 Accuracy, Looping Behavior, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "you want K67, SG5 or another grade for this?",
+      "timestamp": 54.63,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot confirmed wrong grade SG5 instead of buyer's SCV/5-grade.",
+      "evidence_verified": true,
+      "llm_timestamp": 54.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Are you asking about the quantity you need or about something else like specification or packaging? Could you please clarify a bit?",
+      "timestamp": 25.79,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated clarification question once after buyer's unclear 'twenty five kg per bag around twenty five ton or fifty fifty ton'.",
+      "evidence_verified": true,
+      "llm_timestamp": 25.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 81.73,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot prematurely closed without collecting name, city, state, and without seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 81.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared product and quantity; bot created lead and closed."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never confirmed a numeric quantity back to buyer."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'ton' captured correctly from buyer's 'ton' and 'kg'."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity; buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not explicitly read back quantity, but captured 25-50 tonnes range."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "you want K67, SG5 or another grade for this?",
+      "timestamp": 54.63,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot confirmed wrong grade SG5 instead of buyer's SCV/5-grade.",
+      "evidence_verified": true,
+      "llm_timestamp": 54.6
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for a second spec; brand was asked but not confirmed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for grade and brand; buyer responded."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Are you asking about the quantity you need or about something else like specification or packaging? Could you please clarify a bit?",
+      "timestamp": 25.79,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated clarification question once after buyer's unclear 'twenty five kg per bag around twenty five ton or fifty fifty ton'.",
+      "evidence_verified": true,
+      "llm_timestamp": 25.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear misrecognition by bot in read-back or off-topic reply."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or connected."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed K67; no product change occurred."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data unavailable; no visible contradiction."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 81.73,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot prematurely closed without collecting name, city, state, and without seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 81.7
+    }
+  ],
+  "captured_lead": {
+    "product": "white PVC resin K67",
+    "quantity": "25-50",
+    "quantity_unit": "ton",
+    "specs": [
+      {
+        "name": "grade",
+        "value": "SG5"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Grade captured as SG5 instead of SCV/5-grade",
+      "timestamp": 54.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot captured wrong grade (SG5 vs SCV), did not collect name/location, and closed call prematurely without seller connection.",
+  "analysis": "Buyer wanted white PVC resin K67, 25-50 tonnes, grade SCV/5-grade. Bot captured quantity 25-50 tonnes, grade K67 SG5 (wrong), and brand Formosa/Reliance (wrong). Bot closed without asking name/location. Buyer hung up after bot ended call prematurely.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '25-50': number(s) ['25', '50'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3776,
+    "completion_tokens": 1591
+  },
+  "unresolved_problems": []
+}

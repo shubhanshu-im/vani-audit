@@ -1,0 +1,190 @@
+{
+  "call_id": "111_90852814_8ULWJXVH5",
+  "file": "data/recordings/111_90852814_8ULWJXVH5.mp3",
+  "duration_s": 148.25,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "हं।",
+      "start": 0.01,
+      "end": 0.37
+    },
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.37,
+      "end": 2.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am ये जो chair देखे हैं ना इसका price कितना है?",
+      "start": 3.43,
+      "end": 7.59
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको chair चाहिए। ये आमतौर पर बैठने के लिए उपयोग होती है। यही product चाहिए ना?",
+      "start": 10.81,
+      "end": 16.01
+    },
+    {
+      "role": "BUYER",
+      "text": "है ना? हाँ जी यही चाहिए मेरा beauty parlor है। Hello.",
+      "start": 11.37,
+      "end": 26.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 26.33,
+      "end": 36.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am एक piece चाहिए।",
+      "start": 37.41,
+      "end": 38.77
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया धन्यवाद। अब बताइए आपको किस material की chair चाहिए जैसे plastic, stainless steel या कुछ और?",
+      "start": 41.23,
+      "end": 47.13
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारा ma'am मजबूती chair चाहिए माने। बढ़िया quality में चाहिए।",
+      "start": 49.13,
+      "end": 57.73
+    },
+    {
+      "role": "BOT",
+      "text": "समझ में नहीं आता मजबूत।",
+      "start": 56.85,
+      "end": 57.89
+    },
+    {
+      "role": "BUYER",
+      "text": "मजबूत चाहिए क्योंकि हम massage वसाज करते हैं तो कमजोर लेते हैं तो टूट जाता है।",
+      "start": 58.99,
+      "end": 65.69
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप चाहते हैं कि chair मजबूत और बढ़िया quality की हो क्योंकि आप massage का काम करते हैं। अब बताइए किस type के use के लिए है office, event या कुछ और?",
+      "start": 67.15,
+      "end": 75.23
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आप। जी। यही look का चाहिए ma'am देखे हैं ना जो आपका वही look का चाहिए एकदम।",
+      "start": 67.43,
+      "end": 83.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। जैसा आपने देखा है वैसा ही look और quality चाहिए। अब आप अपनी city और state भी बता दीजिए please।",
+      "start": 86.09,
+      "end": 91.77
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी। हमारा state श्रावस्ती जिला पड़ेगा।",
+      "start": 89.69,
+      "end": 94.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपने city और state का नाम बता दीजिए ताकि seller आपको सही product दिखा सके।",
+      "start": 99.41,
+      "end": 104.31
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am हमारा house पड़ेगा घर कन्हौली ग्राम पड़ेगा बनियापुर।",
+      "start": 105.89,
+      "end": 110.81
+    },
+    {
+      "role": "BOT",
+      "text": "किसी का नाम।",
+      "start": 110.47,
+      "end": 111.07
+    },
+    {
+      "role": "BUYER",
+      "text": "छपरा।",
+      "start": 112.29,
+      "end": 112.91
+    },
+    {
+      "role": "BOT",
+      "text": "शुक्रिया आप सग्राम बनियापुर से बोल रहे हैं ना ये बिहार में है ना",
+      "start": 112.73,
+      "end": 116.51
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी थाना बनियापुर block बनियापुर जिला छपरा।",
+      "start": 115.83,
+      "end": 121.73
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद। अब अपना नाम भी बता दीजिए ताकि seller आपको contact कर सकें।",
+      "start": 123.55,
+      "end": 127.45
+    },
+    {
+      "role": "BUYER",
+      "text": "मंटू ठाकुर।",
+      "start": 128.07,
+      "end": 129.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप मंटू ठाकुर जी बोल रहे हैं ना?",
+      "start": 132.09,
+      "end": 134.43
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 134.77,
+      "end": 135.35
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 138.31,
+      "end": 146.05
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है Ma'am.",
+      "start": 146.95,
+      "end": 147.69
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 14,
+    "longest_gap_s": 4.76,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

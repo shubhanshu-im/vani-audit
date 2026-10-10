@@ -1,0 +1,381 @@
+{
+  "call_id": "657_90685196_FLTPL1UG5",
+  "duration_s": 128.45,
+  "graded_at": "2026-10-10T12:38:38+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed with WhatsApp without creating a lead or transferring to a live seller.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं",
+      "timestamp": 118.25,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with WhatsApp without creating a lead or transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 118.2
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी आपको कितनी quantity चाहिए?",
+      "timestamp": 44.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity 4 times when buyer had already given area.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.1
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बारह बाई बारह का है कितना लगेगा?",
+      "timestamp": 20.73,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave 12x12 sq ft area but bot misheard it as quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.7
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "sample कराना है अभी देखना है अभी तरह का",
+      "timestamp": 84.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated sample only, but bot ignored this and closed without recording it.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी आपको कितनी quantity चाहिए?",
+      "timestamp": 44.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity 4 times, exceeding the limit of 3.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बारह बाई बारह का है कितना लगेगा?",
+      "timestamp": 20.73,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard area as quantity due to ASR.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.7
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller jald contact karenge",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot claimed sellers would contact but never transferred or created a live lead.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं",
+      "timestamp": 118.25,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with WhatsApp without creating a lead or transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 118.2
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was ever captured or confirmed by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity or unit was discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी आपको कितनी quantity चाहिए?",
+      "timestamp": 44.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity 4 times when buyer had already given area.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.1
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बारह बाई बारह का है कितना लगेगा?",
+      "timestamp": 20.73,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave 12x12 sq ft area but bot misheard it as quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.7
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको 3 mm चाहिए या कुछ और?",
+      "timestamp": 51.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for thickness spec correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Only one spec was asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "sample कराना है अभी देखना है अभी तरह का",
+      "timestamp": 84.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated sample only, but bot ignored this and closed without recording it.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी आपको कितनी quantity चाहिए?",
+      "timestamp": 44.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity 4 times, exceeding the limit of 3.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बारह बाई बारह का है कितना लगेगा?",
+      "timestamp": 20.73,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard area as quantity due to ASR.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.7
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller jald contact karenge",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot claimed sellers would contact but never transferred or created a live lead.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Hello आपको epoxy self leveling की requirement है ना?",
+      "timestamp": 0.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly identified epoxy self-leveling."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory category questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or category mapping errors were observed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air occurred."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाई",
+      "timestamp": 25.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot handled ASR issues and buyer language correctly."
+    }
+  ],
+  "captured_lead": {
+    "product": "epoxy self leveling",
+    "quantity": "12x12 sq ft",
+    "quantity_unit": "sq ft",
+    "specs": [
+      {
+        "name": "thickness",
+        "value": "2 mm"
+      }
+    ],
+    "name": "[NAME]",
+    "city": null,
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard 12x12 sq ft as quantity.",
+      "timestamp": 20.7,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Bot asked for quantity 4 times.",
+      "timestamp": 44.1,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: quantity 4/3, spec:thickness 3/2",
+      "timestamp": 6.07,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot closed without creating a lead or transferring. Spec 'sample only' was missed.",
+  "analysis": "Buyer requested epoxy self-leveling with 12x12 sq ft area, 2mm thickness, and sample only. Bot asked for quantity 4 times but never captured a number. Bot skipped name, city, and state collection. Bot closed with WhatsApp seller details without creating a live lead or buy lead.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '12x12 sq ft': number(s) ['12', '12'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14903,
+    "completion_tokens": 6949
+  },
+  "unresolved_problems": [
+    "OnCall AstBuy Error: evidence_quote not found verbatim in any transcript line: 'seller jald contact karenge'"
+  ]
+}

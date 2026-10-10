@@ -1,0 +1,369 @@
+{
+  "call_id": "815_90685179_7REHL1UG5",
+  "duration_s": 66.67,
+  "graded_at": "2026-10-10T12:42:47+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Buyer said 16mm but bot read back 20mm.",
+  "fatal_params": [
+    "Qty Missed Opportunity",
+    "Spec1 Accuracy",
+    "Spec Missed Opportunity",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Two tons, two tons, sixteen mm two tons.",
+      "timestamp": 26.13,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 16mm but bot read back 20mm.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.1
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Got it. I can see you wanted 20 millimeters for diameter, right?",
+      "timestamp": 30.65,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 16mm, bot confirmed 20mm.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Two tons, two tons, sixteen mm two tons.",
+      "timestamp": 26.13,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer gave 16mm spec, bot missed it and asked 20mm instead.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.1
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Two tons, two tons, sixteen mm two tons.",
+      "timestamp": 26.13,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 16mm as 20mm.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.1
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Alright, I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 47.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot sent to WhatsApp instead of live seller or buy lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "யா sir சென்னை பன்னி சென்னை தாம்பரம் சென்னை தாம்பரம்.",
+      "timestamp": 43.03,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer spoke Tamil, bot did not handle language preference.",
+      "evidence_verified": true,
+      "llm_timestamp": 43.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity confirmed by bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit confirmed by bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer gave it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Two tons, two tons, sixteen mm two tons.",
+      "timestamp": 26.13,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 16mm but bot read back 20mm.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.1
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Got it. I can see you wanted 20 millimeters for diameter, right?",
+      "timestamp": 30.65,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 16mm, bot confirmed 20mm.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about grade but buyer never answered."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Two tons, two tons, sixteen mm two tons.",
+      "timestamp": 26.13,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer gave 16mm spec, bot missed it and asked 20mm instead.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping observed."
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Two tons, two tons, sixteen mm two tons.",
+      "timestamp": 26.13,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 16mm as 20mm.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Alright, I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 47.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot sent to WhatsApp instead of live seller or buy lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.8
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained Tata TMT bars."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "யா sir சென்னை பன்னி சென்னை தாம்பரம் சென்னை தாம்பரம்.",
+      "timestamp": 43.03,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer spoke Tamil, bot did not handle language preference.",
+      "evidence_verified": true,
+      "llm_timestamp": 43.0
+    }
+  ],
+  "captured_lead": {
+    "product": "Tata TMT bars",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "diameter",
+        "value": "20 millimeters"
+      },
+      {
+        "name": "grade",
+        "value": "500 D"
+      }
+    ],
+    "name": null,
+    "city": "Chennai",
+    "state": "Tambaram"
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot misheard 16mm as 20mm.",
+      "timestamp": 30.6,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer said 'Sorry your voice' and repeated.",
+      "timestamp": 16.6,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 43.03,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot misheard 16mm as 20mm, missed quantity/unit confirmation, and closed with WhatsApp instead of a proper lead.",
+  "analysis": "Buyer wanted Tata TMT bars, 2 tons, 16mm. Bot captured 20mm diameter, 500D grade, and Chennai/Tambaram location. Bot did not confirm the 16mm spec, misheard it as 20mm, and skipped quantity/unit confirmation. Bot closed with a WhatsApp lead instead of live seller or buy lead. Buyer spoke some Tamil which was not handled.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3708,
+    "completion_tokens": 1371
+  },
+  "unresolved_problems": []
+}

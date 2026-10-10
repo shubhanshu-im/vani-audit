@@ -1,0 +1,152 @@
+{
+  "call_id": "521_90643098_JWADU3KG5",
+  "file": "data/recordings/521_90643098_JWADU3KG5.mp3",
+  "duration_s": 145.94,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Roland XPS 10 motherboard की requirement है ना?",
+      "start": 0.01,
+      "end": 3.81
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 5.73,
+      "end": 6.43
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे। जी बिल्कुल मिल जाएगा। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "start": 8.03,
+      "end": 16.07
+    },
+    {
+      "role": "BUYER",
+      "text": "बहुत तो क्या करेगा?",
+      "start": 8.85,
+      "end": 20.27
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपको दूसरे अच्छे sellers से connect करने में मदद करूंगी। चलिए पहले कुछ details confirm कर लेते हैं। बताइए brand में क्या आप prefer करेंगे HP Dell या कोई और?",
+      "start": 21.21,
+      "end": 30.31
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा brand।",
+      "start": 33.13,
+      "end": 34.31
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। पर क्या आप किसी खास brand का नाम बता सकते हैं जैसे HP, Dell या कोई और?",
+      "start": 35.25,
+      "end": 40.33
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं HP का।",
+      "start": 42.37,
+      "end": 43.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए कि आप इनमें से क्या पसंद करेंगे? Dell motherboard, HP motherboard या कुछ और?",
+      "start": 44.39,
+      "end": 49.51
+    },
+    {
+      "role": "BUYER",
+      "text": "ST mother tongue.",
+      "start": 52.21,
+      "end": 53.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है, अब आगे बढ़ते हैं। ठीक है, आप अपनी city और state भी बता दीजिए please। क्या? माफ़ कीजिए मैं पूछ रही थी कि आप अपनी city और state बता दीजिए please.",
+      "start": 54.29,
+      "end": 65.87
+    },
+    {
+      "role": "BUYER",
+      "text": "बालीगुड़ा बालीगुड़ा कंदमाड़ मैं आपकी city और state पूछ रही थी।",
+      "start": 67.29,
+      "end": 71.99
+    },
+    {
+      "role": "BOT",
+      "text": "Please बता दीजिए आप कहाँ से बोल रहे हैं?",
+      "start": 71.99,
+      "end": 74.23
+    },
+    {
+      "role": "BUYER",
+      "text": "बालीगुड़ा बालीगुड़ा।",
+      "start": 76.07,
+      "end": 77.43
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मुझे समझ नहीं आया। क्या आप अपनी city और state बता सकते हैं?",
+      "start": 78.29,
+      "end": 82.41
+    },
+    {
+      "role": "BUYER",
+      "text": "कंदमाल कंदमाल।",
+      "start": 85.29,
+      "end": 86.57
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी city और state पूछ रही हूं ताकि सही seller से connect कर सकूं। Please बता दीजिए।",
+      "start": 87.63,
+      "end": 92.71
+    },
+    {
+      "role": "BUYER",
+      "text": "ଆମର state କନ୍ଧମାଳ ଅଛି City ବାଲିଗୁଡ଼ା।",
+      "start": 96.39,
+      "end": 99.11
+    },
+    {
+      "role": "BOT",
+      "text": "Bollywood नाम की कोई city नहीं मिली। क्या आप अपनी सही city और state बता सकते हैं please?",
+      "start": 100.27,
+      "end": 105.05
+    },
+    {
+      "role": "BUYER",
+      "text": "State Kandhamal. मुझे माफ़ कीजिए मैं आपकी city और state पूछ रही हूं। आप भारत के किस city और state से बोल रहे हैं? कंधमाल से बोल रहा है कंधमाल से। क्षमा करें मुझे समझ नहीं आ रहा। चलिए मैं आपका नाम confirm कर लेती हूं। क्या आप साल्चियल जी बोल रहे हैं? Yeah yeah. ठीक है ठीक है।",
+      "start": 108.71,
+      "end": 133.87
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 135.73,
+      "end": 143.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.68,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 5,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

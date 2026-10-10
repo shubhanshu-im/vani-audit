@@ -1,0 +1,310 @@
+{
+  "call_id": "930_90741714_GTIKIL4H5",
+  "duration_s": 102.17,
+  "graded_at": "2026-10-10T12:45:48+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, WER, Dead air",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप भोजपुर बिहार से बोल रहे हैं ना?",
+      "timestamp": 76.85,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated city/state confirmation once, buyer did not mind.",
+      "evidence_verified": true,
+      "llm_timestamp": 76.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हाँ। twenty two years sir.",
+      "timestamp": 27.17,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'twenty two years' instead of quantity; no major lead impact.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.2
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=79.1 हाँ।",
+      "timestamp": 79.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot-side silence of 5.6s after buyer spoke, but buyer did not hang up.",
+      "evidence_verified": true
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and bot proceeded to collect details and close."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never provided a valid quantity, bot did not capture one."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity or unit was provided or captured by the bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer did not provide it; no fatal error since call closed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not state a clear quantity for the net."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for net thickness and buyer confirmed 2.5 mm."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for mesh size and buyer confirmed 14 mm."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured requested specs: 2.5 mm thickness and 14 mm mesh size."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप भोजपुर बिहार से बोल रहे हैं ना?",
+      "timestamp": 76.85,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated city/state confirmation once, buyer did not mind.",
+      "evidence_verified": true,
+      "llm_timestamp": 76.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हाँ। twenty two years sir.",
+      "timestamp": 27.17,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'twenty two years' instead of quantity; no major lead impact.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.2
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer a live seller transfer; closed with WhatsApp details."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed the product and bot handled it correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available; no clear ISQ error in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data; no visible search error in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=79.1 हाँ।",
+      "timestamp": 79.1,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot-side silence of 5.6s after buyer spoke, but buyer did not hang up.",
+      "evidence_verified": true
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breach or major pronunciation issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "2.5 m cricket twisted net",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "net thickness",
+        "value": "2.5 mm"
+      },
+      {
+        "name": "mesh size",
+        "value": "14"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Ara",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer's quantity was misheard as 'twenty two years'.",
+      "timestamp": 27.2,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: city 4/3",
+      "timestamp": 54.69,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer requested a 2.5 m cricket twisted net. Bot confirmed product and asked for quantity but buyer never gave a quantity, only saying 'haan haan karvaaiye haan ji'. Bot then asked for net thickness (2.5 mm) and mesh size (14 mm), and collected name ([NAME]) and city/state (Ara, Bihar). Call ended with bot promising WhatsApp seller details (BL created).",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[mesh size] = '14': number(s) ['14'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9856,
+    "completion_tokens": 3198
+  },
+  "unresolved_problems": []
+}

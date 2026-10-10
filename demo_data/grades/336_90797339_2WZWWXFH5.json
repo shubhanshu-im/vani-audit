@@ -1,0 +1,306 @@
+{
+  "call_id": "336_90797339_2WZWWXFH5",
+  "duration_s": 55.15,
+  "graded_at": "2026-10-10T12:30:15+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Unit Accuracy: Buyer said 2 kg (piece/number), bot captured 2 kg (kilograms).",
+  "fatal_params": [
+    "Quantity Unit Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "बहुत बढ़िया आपने बताया ठंड रुकनी चाहिए और 2 kg का चाहिए।",
+      "timestamp": 44.73,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 2 kg (piece/number), bot captured 2 kg (kilograms).",
+      "evidence_verified": true,
+      "llm_timestamp": 44.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "दृष्टि से।",
+      "timestamp": 22.17,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Minor transcription issue with buyer's response, no impact on lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller आपको सही option suggest कर देंगे।",
+      "timestamp": 44.73,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot promised seller will suggest correct option.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and proceeded to lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "बहुत बढ़िया आपने बताया ठंड रुकनी चाहिए और 2 kg का चाहिए।",
+      "timestamp": 44.73,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 2 kg (piece/number), bot captured 2 kg (kilograms).",
+      "evidence_verified": true,
+      "llm_timestamp": 44.7
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 11.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity as per flow."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the quantity value stated by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured single size correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured wool material correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "All asked specs were captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions or loops occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "दृष्टि से।",
+      "timestamp": 22.17,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Minor transcription issue with buyer's response, no impact on lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.2
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "seller आपको सही option suggest कर देंगे।",
+      "timestamp": 44.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly closed with a seller callback."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product changes or errors occurred."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category ISQ data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system search errors visible."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air or bot silence issues."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller आपको सही option suggest कर देंगे।",
+      "timestamp": 44.73,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot promised seller will suggest correct option.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.7
+    }
+  ],
+  "captured_lead": {
+    "product": "King Durga blankets OM 140 by 230 CM 2200 G",
+    "quantity": null,
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "bed size",
+        "value": "single"
+      },
+      {
+        "name": "material",
+        "value": "wool"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Captured 2 kg instead of 2 piece.",
+      "timestamp": 44.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot captured '2 kg' instead of '2 piece' for quantity unit.",
+  "analysis": "Buyer wanted King Durga blankets in single size, wool, and 2 piece. The bot confirmed the product, asked for quantity and specs, and closed by saying a seller would call back with WhatsApp details. The bot read back '2 kg' correctly, but the buyer actually said '2 kg' (two kilos), not '2 piece'. The bot used 'kg' instead of 'piece', which is a fatal unit error.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8520,
+    "completion_tokens": 2527
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,146 @@
+{
+  "call_id": "926_90685213_8810M1UG5",
+  "file": "data/recordings/926_90685213_8810M1UG5.mp3",
+  "duration_s": 103.68,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 4.03
+    },
+    {
+      "role": "BUYER",
+      "text": "ହଁ ଆଉ ଦେଖ ପାଞ୍ଚଶହ ଉଣେଇଶ।",
+      "start": 6.33,
+      "end": 8.89
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं ठीक से समझ नहीं पाई। आप किस product की बात कर रहे हैं? Please एक बार फिर से बता दीजिए।",
+      "start": 10.15,
+      "end": 15.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Ahuzah amplifier था 500 watt का।",
+      "start": 16.73,
+      "end": 19.43
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो 500 watt का amplifier जो आमतौर पे आवाज बढ़ाने के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 20.41,
+      "end": 27.07
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी amplifier जो।",
+      "start": 27.71,
+      "end": 29.85
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 31.35,
+      "end": 37.21
+    },
+    {
+      "role": "BUYER",
+      "text": "दो piece पाँच सौ का चाहिए था और एक सौ बीस का दो piece चाहिए।",
+      "start": 39.05,
+      "end": 45.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। तो आपको कुल 4 piece चाहिए। चलिए अब brand के बारे में बात कर लेते हैं। आपको Ahuja Bosch या कुछ और चाहिए?",
+      "start": 46.27,
+      "end": 52.93
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 54.17,
+      "end": 54.89
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज clear नहीं आई जरा दोबारा बताइए कि आप brand के बारे में बताएंगे।",
+      "start": 55.95,
+      "end": 60.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Ahujah Ahujah Ahujah.",
+      "start": 59.25,
+      "end": 62.09
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। Please एक बार फिर से बता दीजिए कि brand में आप क्या prefer करेंगे?",
+      "start": 63.17,
+      "end": 68.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am Ahuja का चाहिए, Ahuja.",
+      "start": 70.11,
+      "end": 72.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप इसकी details seller से भी discuss कर लीजिएगा। अब बताइए power output में आप 500 W, 1000 W या कुछ और prefer करेंगे?",
+      "start": 72.91,
+      "end": 80.47
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं पाँच सौ का और one hundred twenty का दो piece इतना ही था।",
+      "start": 82.75,
+      "end": 87.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 88.81,
+      "end": 94.95
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है ना।",
+      "start": 96.25,
+      "end": 97.01
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 97.87,
+      "end": 100.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 101.55,
+      "end": 102.03
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.3,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

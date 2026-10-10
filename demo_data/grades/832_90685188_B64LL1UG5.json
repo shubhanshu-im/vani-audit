@@ -1,0 +1,304 @@
+{
+  "call_id": "832_90685188_B64LL1UG5",
+  "duration_s": 71.78,
+  "graded_at": "2026-10-10T12:43:15+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं sir इसको जो हमारे यहां medical लगा रहे हैं गुरुदेव hospital",
+      "timestamp": 52.85,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer specified medical use but bot only recorded generic commercial/project.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बात। ये सब गोरे नहीं कर सकते हैं habit.",
+      "timestamp": 11.95,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot misheard 'Go Renew' as 'गोरे', but recovered in next turn.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 46.99,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Banned open-ended question asked.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear requirement, bot created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not asked or given."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity stated."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "brand में आप Go Renew ही prefer करेंगे या कोई और?",
+      "timestamp": 20.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked brand, buyer responded with a battery type, bot persisted."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आप इसे commercial use project use या किसी और काम के लिए लेना चाहेंगे?",
+      "timestamp": 32.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked use case, buyer answered normal road, bot closed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं sir इसको जो हमारे यहां medical लगा रहे हैं गुरुदेव hospital",
+      "timestamp": 52.85,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer specified medical use but bot only recorded generic commercial/project.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repetitive loops causing frustration."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बात। ये सब गोरे नहीं कर सकते हैं habit.",
+      "timestamp": 11.95,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot misheard 'Go Renew' as 'गोरे', but recovered in next turn.",
+      "evidence_verified": true,
+      "llm_timestamp": 11.9
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 46.99,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Banned open-ended question asked.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.0
+    }
+  ],
+  "captured_lead": {
+    "product": "Jio Renew Hybrid Inverter 6K W",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "brand",
+        "value": "Go Renew"
+      },
+      {
+        "name": "use_case",
+        "value": "commercial/project/other"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer speech was unclear, bot asked about brand twice.",
+      "timestamp": 11.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Buyer mentioned medical use for a hospital but bot recorded generic commercial/project use case. Bot asked a banned open-ended question.",
+  "analysis": "Buyer wanted a Jio Renew Hybrid Inverter 6K W for a medical application (Gurudev Hospital). The bot confirmed the product, asked about brand (Go Renew vs others), and asked about use case (commercial/project/other). The buyer clarified it is for a hospital. The bot closed with 'seller jald contact karenge', indicating a lead was created with product, brand, and use case.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3677,
+    "completion_tokens": 1270
+  },
+  "unresolved_problems": []
+}

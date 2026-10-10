@@ -1,0 +1,276 @@
+{
+  "call_id": "445_90741567_622TGL4H5",
+  "duration_s": 51.55,
+  "graded_at": "2026-10-10T12:32:55+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Bot completely ignored buyer's stated 7 grams and captured 3 pieces instead.",
+  "fatal_params": [
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मुझे सात ग्राम चाहिए",
+      "timestamp": 17.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot completely ignored buyer's stated 7 grams and captured 3 pieces instead.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product need and bot closed appropriately."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated '7 grams' but bot asked for piece count and captured '3 piece', so numeric accuracy is not applicable."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for piece count and captured piece, so unit accuracy is not applicable."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ठीक है तीन piece note कर लिया है",
+      "timestamp": 28.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity when buyer had already stated 7 grams."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मुझे सात ग्राम चाहिए",
+      "timestamp": 17.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot completely ignored buyer's stated 7 grams and captured 3 pieces instead.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.1
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec1 was asked by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec2 was asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "दाद खाज खुजली के लिए",
+      "timestamp": 37.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the buyer's purpose/spec for the medicine."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "not returned by the grader"
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major misheard words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer and bot agreed on the product Derma KT skin cream."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data is not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors observed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breaches or major pronunciation issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "Derma KT skin cream 60 gm",
+    "quantity": "3",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "purpose",
+        "value": "daad khaaj khujli"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured 3 pieces instead of 7 grams",
+      "timestamp": 28.8,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer stated 7 grams but bot asked for pieces",
+      "timestamp": 20.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture the buyer's exact quantity (7 grams) and instead captured 3 pieces.",
+  "analysis": "Buyer wants 7 grams of Derma KT skin cream 60 gm for ringworm/itch. Bot asked for quantity in tubes/pieces, buyer said '2 or 3 three'. Bot captured '3 piece'. Bot then asked purpose, buyer said 'daad khaaj khujli'. Bot closed with seller contact.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3521,
+    "completion_tokens": 1359
+  },
+  "unresolved_problems": []
+}

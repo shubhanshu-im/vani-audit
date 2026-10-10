@@ -1,0 +1,99 @@
+{
+  "call_id": "428_90797390_AL9RXXFH5",
+  "file": "data/recordings/428_90797390_AL9RXXFH5.mp3",
+  "duration_s": 99.58,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.75
+    },
+    {
+      "role": "BUYER",
+      "text": "medicine पे।",
+      "start": 4.33,
+      "end": 5.43
+    },
+    {
+      "role": "BOT",
+      "text": "आपको दवाइयां यानी medicine चाहिए जो आमतौर पर बीमारियों के इलाज के लिए इस्तेमाल होती है? यही product चाहिए ना?",
+      "start": 6.57,
+      "end": 13.27
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं medicine चाहिए receiver एक हज़ार।",
+      "start": 16.19,
+      "end": 20.67
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए? आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितनी piece चाहिए होगी? ठीक है। अब मैं आपकी कुछ और details confirm कर लेती हूं। Hello क्या आप अभी line पर हैं?",
+      "start": 20.67,
+      "end": 49.37
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म हम्म।",
+      "start": 50.93,
+      "end": 51.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please। ଏକ Champaran ଦ୍ଵିତୀୟ Biharରେ। आप बिहार के Patna से बोल रहे हैं ना? नहीं BPS है। माफ़ कीजिए क्या आप फिर से बता सकते हैं कि आप बिहार के किस city से बोल रहे हैं? पश्चिम चंपारण से। आप पश्चिम चंपारण बिहार से बोल रहे हैं ना?",
+      "start": 52.81,
+      "end": 80.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 82.03,
+      "end": 82.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 83.81,
+      "end": 85.95
+    },
+    {
+      "role": "BUYER",
+      "text": "[NAME].",
+      "start": 87.71,
+      "end": 88.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 89.53,
+      "end": 98.53
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 7.08,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 40.69,
+        "end": 47.77,
+        "duration_s": 7.08,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

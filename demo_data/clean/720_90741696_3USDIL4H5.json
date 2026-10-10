@@ -1,0 +1,141 @@
+{
+  "call_id": "720_90741696_3USDIL4H5",
+  "file": "data/recordings/720_90741696_3USDIL4H5.mp3",
+  "duration_s": 95.04,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको Canon 177 air rifle black by Airsoft Gun India की requirement है ना?",
+      "start": 0.11,
+      "end": 7.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 8.27,
+      "end": 8.79
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते क्या आप वहां हैं? कृपया बताइए।",
+      "start": 16.49,
+      "end": 19.07
+    },
+    {
+      "role": "BUYER",
+      "text": "177, 177, 3360 meter.",
+      "start": 21.85,
+      "end": 27.85
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब brand के बारे में बात कर लेते हैं। आपको कौन सा चाहिए?",
+      "start": 28.81,
+      "end": 37.19
+    },
+    {
+      "role": "BUYER",
+      "text": "वो थे मेरे gun.",
+      "start": 38.45,
+      "end": 40.25
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप brand में क्या prefer करेंगे जैसे गामो या कोई और?",
+      "start": 41.39,
+      "end": 46.15
+    },
+    {
+      "role": "BUYER",
+      "text": "कामोई को मैं क्या करूँ?",
+      "start": 49.69,
+      "end": 52.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller इस detail में आपकी मदद करेंगे। अब यह बताइए कि आपको type में air rifle ही चाहिए ना?",
+      "start": 52.29,
+      "end": 57.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ हाँ। ए Raipur।",
+      "start": 59.01,
+      "end": 63.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 64.79,
+      "end": 67.53
+    },
+    {
+      "role": "BUYER",
+      "text": "State Meghalaya city Chura West Khasi Hills.",
+      "start": 68.85,
+      "end": 74.51
+    },
+    {
+      "role": "BOT",
+      "text": "आप पूरा Meghalaya से बोल रहे हैं ना?",
+      "start": 75.63,
+      "end": 77.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 78.53,
+      "end": 79.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] [NAME] जी बोल रहे हैं ना?",
+      "start": 80.17,
+      "end": 82.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 83.37,
+      "end": 83.85
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 84.75,
+      "end": 92.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ठीक है।",
+      "start": 90.71,
+      "end": 94.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 7.7,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 8.79,
+        "end": 16.49,
+        "duration_s": 7.7,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

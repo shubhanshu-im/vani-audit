@@ -1,0 +1,98 @@
+{
+  "call_id": "537_90853007_1VGLMXVH5",
+  "file": "data/recordings/537_90853007_1VGLMXVH5.mp3",
+  "duration_s": 62.21,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] जी आपको सिर्फ pneumatic grease dispenser की requirement है ना?",
+      "start": 0.17,
+      "end": 4.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। जी।",
+      "start": 3.07,
+      "end": 6.07
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.31,
+      "end": 13.23
+    },
+    {
+      "role": "BUYER",
+      "text": "एक ही थी अभी फिलहाल तो trial के लिए बाकी मेरी machine भी 11 JCB और 2 Copland है तो मतलब उनके लिए चाहिए था सभी के लिए पूरा case चाहिए था करीबन 15 का set या।",
+      "start": 14.71,
+      "end": 26.95
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब capacity।",
+      "start": 28.27,
+      "end": 30.23
+    },
+    {
+      "role": "BUYER",
+      "text": "चलिए अब capacity",
+      "start": 28.55,
+      "end": 29.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है capacity में आप क्या prefer करेंगे पच्चीस kilograms पांच kilograms या कुछ और?",
+      "start": 31.09,
+      "end": 35.71
+    },
+    {
+      "role": "BUYER",
+      "text": "ये दस किलो के हिसाब से।",
+      "start": 37.91,
+      "end": 39.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब brand की बात करते हैं। आपको Groz, Aeroplus या कोई और brand चाहिए?",
+      "start": 40.67,
+      "end": 45.25
+    },
+    {
+      "role": "BUYER",
+      "text": "जो भी कोई अच्छा brand हो मतलब कम कीमत में हो उसका price reasonable हो।",
+      "start": 46.47,
+      "end": 50.83
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप price की बात seller से discuss कर सकते हैं। वो आपको best rates देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 51.97,
+      "end": 60.91
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। हम्म।",
+      "start": 55.91,
+      "end": 62.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

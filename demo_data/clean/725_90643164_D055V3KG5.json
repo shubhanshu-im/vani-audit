@@ -1,0 +1,122 @@
+{
+  "call_id": "725_90643164_D055V3KG5",
+  "file": "data/recordings/725_90643164_D055V3KG5.mp3",
+  "duration_s": 90.29,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको cotton earbuds bamboo stick की requirement है ना?",
+      "start": 0.01,
+      "end": 4.25
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 5.71,
+      "end": 6.29
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने dozen चाहिए?",
+      "start": 7.49,
+      "end": 13.33
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे लगभग लगभग दो सौ carton चाहिए।",
+      "start": 15.89,
+      "end": 18.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? 200 dozen समझ गई? अब बताइए quantity per pack में आपको कौन सा चाहिए? 100 pieces या 200 pieces?",
+      "start": 19.87,
+      "end": 26.25
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे लगभग लगभग ये है sorry आपकी आवाज़ clear नहीं।",
+      "start": 27.85,
+      "end": 32.97
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। ज़रा दोबारा बताइए कि quantity per pack में आपको कौन सा option चाहिए?",
+      "start": 31.67,
+      "end": 36.85
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे forty five या fifty pieces का मिल सकता है क्या?",
+      "start": 38.23,
+      "end": 41.05
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिल्कुल मिल सकता है। मैं note कर लेती हूं। अब बताइए stick material में आपको bamboo ही चाहिए ना?",
+      "start": 42.13,
+      "end": 47.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ stick में bamboo चाहिए मतलब hundred stick both side वो cotton वाला।",
+      "start": 49.07,
+      "end": 54.95
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 55.93,
+      "end": 61.37
+    },
+    {
+      "role": "BUYER",
+      "text": "इनका ये details Delhi में कहाँ पे होगा ma'am?",
+      "start": 62.73,
+      "end": 67.31
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपको seller की पूरी जानकारी WhatsApp पर भेज दूंगी जिससे आप उनकी location और बाकी details जान सकते हैं।",
+      "start": 68.65,
+      "end": 74.57
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay okay ठीक है। भेजवा सब कर दीजिएगा।",
+      "start": 76.17,
+      "end": 79.17
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 80.21,
+      "end": 83.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay ठीक है।",
+      "start": 86.03,
+      "end": 86.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.96,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

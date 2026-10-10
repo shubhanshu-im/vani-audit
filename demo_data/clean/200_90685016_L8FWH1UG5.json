@@ -1,0 +1,46 @@
+{
+  "call_id": "200_90685016_L8FWH1UG5",
+  "file": "data/recordings/200_90685016_L8FWH1UG5.mp3",
+  "duration_s": 38.81,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको full automatic CNC glass cutting line की requirement है ना?",
+      "start": 0.01,
+      "end": 4.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। क्षमा कीजिए आपकी आवाज नहीं आई।",
+      "start": 7.21,
+      "end": 9.61
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको full automatic CNC glass cutting line की requirement है? हाँ जी हाँ। ठीक है? मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब work material के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे mild steel या कुछ और? क्या?",
+      "start": 9.61,
+      "end": 33.05
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.56,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

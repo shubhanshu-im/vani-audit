@@ -1,0 +1,128 @@
+{
+  "call_id": "271_90643123_MNALU3KG5",
+  "file": "data/recordings/271_90643123_MNALU3KG5.mp3",
+  "duration_s": 92.52,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] जी, आपको Willowwood Tufex 369 की requirement है ना?",
+      "start": 0.39,
+      "end": 5.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 6.79,
+      "end": 7.45
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई क्या आप बता सकते हैं कि आपको Billowood Tufex 369 की ज़रूरत है?",
+      "start": 9.07,
+      "end": 15.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। जरूरत है तो price कितना मिलेगा?",
+      "start": 9.71,
+      "end": 20.39
+    },
+    {
+      "role": "BOT",
+      "text": "आप price seller से discuss कर सकते हैं वो आपको best rates देंगे। बस कुछ details confirm कर दीजिए। आपको कितने liter चाहिए?",
+      "start": 21.49,
+      "end": 28.67
+    },
+    {
+      "role": "BUYER",
+      "text": "एक लीटर।",
+      "start": 29.93,
+      "end": 30.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब packaging size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 50 kilograms या कुछ और?",
+      "start": 31.79,
+      "end": 37.37
+    },
+    {
+      "role": "BUYER",
+      "text": "एक लीटर एक लीटर।",
+      "start": 39.31,
+      "end": 40.79
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। packaging size में आप क्या prefer करेंगे 50 kilograms, 25 kilograms या कोई और?",
+      "start": 41.89,
+      "end": 47.17
+    },
+    {
+      "role": "BUYER",
+      "text": "ये liquid है ना दाना है?",
+      "start": 49.35,
+      "end": 50.83
+    },
+    {
+      "role": "BOT",
+      "text": "ये liquid और powder दोनों में आता है। आप बताइए आपको इसमें क्या prefer करना है?",
+      "start": 51.91,
+      "end": 56.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। liquid liquid.",
+      "start": 55.05,
+      "end": 58.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब concentration के बारे में बता दीजिए। आपको 80%, 99% या कुछ और चाहिए?",
+      "start": 59.45,
+      "end": 64.91
+    },
+    {
+      "role": "BUYER",
+      "text": "99%।",
+      "start": 67.69,
+      "end": 68.93
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 69.93,
+      "end": 75.41
+    },
+    {
+      "role": "BUYER",
+      "text": "ये तो हमारा West Bengal है यहाँ यहाँ Salar का कहाँ पे है? क्षमा कीजिए मुझे आपकी बात समझ नहीं आई। मैं आपको seller details WhatsApp पे भेज दूंगी जिनसे आप बात कर सकते हैं।",
+      "start": 77.15,
+      "end": 88.97
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 88.97,
+      "end": 91.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.78,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

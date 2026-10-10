@@ -1,0 +1,116 @@
+{
+  "call_id": "249_90741553_HWHLGL4H5",
+  "file": "data/recordings/249_90741553_HWHLGL4H5.mp3",
+  "duration_s": 79.49,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको SMC sheet की requirement है ना?",
+      "start": 0.23,
+      "end": 3.55
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 4.79,
+      "end": 5.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने fees चाहिए?",
+      "start": 6.45,
+      "end": 16.33
+    },
+    {
+      "role": "BUYER",
+      "text": "कितनी कितनी लंबाई है इसकी?",
+      "start": 17.83,
+      "end": 19.69
+    },
+    {
+      "role": "BOT",
+      "text": "आप ये detail seller से discuss कर सकते हैं। वो आपकी पूरी मदद करेंगे। अभी आप बस ये बता दीजिए कि आपको कितनी quantity चाहिए।",
+      "start": 20.77,
+      "end": 27.89
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 29.49,
+      "end": 31.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब thickness के बारे में बात कर लेते हैं। आपको एक point 5 millimeters चाहिए या कुछ और?",
+      "start": 31.41,
+      "end": 36.31
+    },
+    {
+      "role": "BUYER",
+      "text": "बाद में trip ला बाईक थी।",
+      "start": 38.15,
+      "end": 40.01
+    },
+    {
+      "role": "BOT",
+      "text": "आप लंबाई और size की जानकारी seller से discuss कर सकते हैं। अभी आप यह बता दीजिए कि thickness में क्या prefer करेंगे?",
+      "start": 41.29,
+      "end": 47.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Things में मोटा।",
+      "start": 49.65,
+      "end": 50.87
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब आप यह बता दीजिए कि इसका उपयोग किस काम के लिए करना है?",
+      "start": 51.91,
+      "end": 55.85
+    },
+    {
+      "role": "BUYER",
+      "text": "अपने तीन sheet लगाने के लिए।",
+      "start": 58.33,
+      "end": 60.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 61.19,
+      "end": 67.05
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 68.05,
+      "end": 68.57
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 69.45,
+      "end": 72.29
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.48,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

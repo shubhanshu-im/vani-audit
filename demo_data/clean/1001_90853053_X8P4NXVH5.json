@@ -1,0 +1,146 @@
+{
+  "call_id": "1001_90853053_X8P4NXVH5",
+  "file": "data/recordings/1001_90853053_X8P4NXVH5.mp3",
+  "duration_s": 82.94,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको lightweight ARS block की requirement है ना?",
+      "start": 0.01,
+      "end": 3.31
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 4.09,
+      "end": 4.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece की जरूरत है?",
+      "start": 5.55,
+      "end": 15.67
+    },
+    {
+      "role": "BUYER",
+      "text": "एक हज़ार।",
+      "start": 16.61,
+      "end": 17.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब thickness के बारे में बात कर लेते हैं। आपको 4 inch raw millimeters चाहिए या कुछ और?",
+      "start": 18.65,
+      "end": 23.81
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे चाहिए twenty four inch, आठ inch, six inch.",
+      "start": 24.99,
+      "end": 29.01
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब length के बारे में बताइए। आपको चौबीस inch या पच्चीस inch में से कौन सा चाहिए?",
+      "start": 30.21,
+      "end": 35.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Twenty Five inch है।",
+      "start": 34.03,
+      "end": 38.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 39.11,
+      "end": 42.51
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। J&K Shopian District.",
+      "start": 39.77,
+      "end": 45.05
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। क्या आप अपनी city और state फिर से बता सकते हैं?",
+      "start": 46.19,
+      "end": 50.51
+    },
+    {
+      "role": "BUYER",
+      "text": "J&K District Shopian.",
+      "start": 51.41,
+      "end": 53.79
+    },
+    {
+      "role": "BOT",
+      "text": "आप Shopian Jammu और Kashmir से बोल रहे हैं ना?",
+      "start": 54.75,
+      "end": 57.09
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 57.73,
+      "end": 58.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब आप अपना नाम भी बता दीजिए please.",
+      "start": 59.35,
+      "end": 61.67
+    },
+    {
+      "role": "BUYER",
+      "text": "मोहम्मद सिफी वानी।",
+      "start": 62.55,
+      "end": 63.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] [NAME] [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 65.01,
+      "end": 71.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay Ma'am.",
+      "start": 72.07,
+      "end": 73.05
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 74.15,
+      "end": 76.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay, ठीक।",
+      "start": 78.09,
+      "end": 78.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 1.28,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "421_90852950_SFHXLXVH5",
+  "file": "data/recordings/421_90852950_SFHXLXVH5.mp3",
+  "duration_s": 27.86,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको मलच की requirement है ना?",
+      "start": 0.01,
+      "end": 3.39
+    },
+    {
+      "role": "BUYER",
+      "text": "जगह।",
+      "start": 4.93,
+      "end": 5.65
+    },
+    {
+      "role": "BOT",
+      "text": "मैं India में।",
+      "start": 6.79,
+      "end": 8.17
+    },
+    {
+      "role": "BUYER",
+      "text": "అమ్మ నీళ్ళు జగ్గెలు అక్కడ ఆ జగ్గలన్నీ కడుక్కుంటావా ఆ జగ్గలన్నీ కడుక్కుంటావా? क्षमा कीजिए मुझे आपकी बात समझ नहीं आई। क्या आपको मलाश की requirement है? आपकी बात।",
+      "start": 7.35,
+      "end": 13.81
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी भी line करें?",
+      "start": 26.37,
+      "end": 27.83
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 9.74,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 16.63,
+        "end": 26.37,
+        "duration_s": 9.74,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

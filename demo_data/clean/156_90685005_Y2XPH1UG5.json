@@ -1,0 +1,122 @@
+{
+  "call_id": "156_90685005_Y2XPH1UG5",
+  "file": "data/recordings/156_90685005_Y2XPH1UG5.mp3",
+  "duration_s": 82.37,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको HP laptop की requirement है ना?",
+      "start": 0.01,
+      "end": 3.37
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो ma'am मतलब बोल रहे थे ये laptop हमको चाहिए।",
+      "start": 5.25,
+      "end": 8.35
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 10.01,
+      "end": 15.91
+    },
+    {
+      "role": "BUYER",
+      "text": "ये वाला minimum कितने piece मंगा सकते हैं हम?",
+      "start": 17.59,
+      "end": 19.51
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी जरूरत के हिसाब से कोई भी quantity बता सकते हैं फिर मैं आपको सही seller से connect कर दूंगी। कितने piece चाहिए?",
+      "start": 20.73,
+      "end": 27.31
+    },
+    {
+      "role": "BUYER",
+      "text": "तो इसमें दो तीन piece एक piece इतना मंगा सकते हैं।",
+      "start": 28.97,
+      "end": 32.29
+    },
+    {
+      "role": "BOT",
+      "text": "जी हां बिल्कुल मंगा सकते हैं। तो आप कितने piece order करना चाहेंगे?",
+      "start": 33.25,
+      "end": 37.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am मतलब हमको एक दो तीस time लगाना ही चाहिए।",
+      "start": 38.95,
+      "end": 41.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं आपको processor Intel Core i5 ही चाहिए ना?",
+      "start": 42.75,
+      "end": 46.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 48.49,
+      "end": 48.99
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख सकती हूं कि आपने RAM में। जी मैं RAM के बारे में पूछ रही थी। आपको 1 GB ही चाहिए ना?",
+      "start": 50.05,
+      "end": 56.49
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं देख सकती हूं कि आप। हाँ एक GB चाहिए और ज्यादा मिलेगा तो और जगह ले लेंगे।",
+      "start": 50.53,
+      "end": 61.55
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 62.61,
+      "end": 68.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Ma'am भेज दीजिए।",
+      "start": 69.91,
+      "end": 71.23
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 72.31,
+      "end": 75.17
+    },
+    {
+      "role": "BUYER",
+      "text": "सुनिए ना Ma'am। Hello.",
+      "start": 76.59,
+      "end": 79.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.06,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

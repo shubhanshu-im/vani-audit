@@ -1,0 +1,134 @@
+{
+  "call_id": "680_90685124_NTCPK1UG5",
+  "file": "data/recordings/680_90685124_NTCPK1UG5.mp3",
+  "duration_s": 94.82,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको scar gel की requirement है ना?",
+      "start": 0.29,
+      "end": 2.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Ma'am. जी आपको scar gel की requirement थी ना? कार जेल की। हाँ ma'am हमको चाहिए एक kajal cream।",
+      "start": 4.87,
+      "end": 15.87
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने piece या tube चाहिए आपको?",
+      "start": 16.79,
+      "end": 24.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am मुझको एक sample के लिए चाहिए कितने price है?",
+      "start": 25.75,
+      "end": 32.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? Price आप seller से discuss कर सकते हैं। वो आपको best rates देंगे। Packaging size में आप क्या prefer करेंगे? 20 grams या 15 grams?",
+      "start": 33.33,
+      "end": 41.15
+    },
+    {
+      "role": "BUYER",
+      "text": "पंद्रह gram ma'am.",
+      "start": 45.01,
+      "end": 46.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब यह बताइए कि आपको इसे किस उपयोग के लिए चाहिए? जैसे reselling या personal use के लिए?",
+      "start": 47.79,
+      "end": 52.89
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे पेट में खास है।",
+      "start": 54.59,
+      "end": 57.21
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 58.17,
+      "end": 62.01
+    },
+    {
+      "role": "BUYER",
+      "text": "और state भी बता Ma'am हमारा city Tumkur है।",
+      "start": 60.37,
+      "end": 65.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप तुमकुर कर्नाटक से बोल रहे हैं ना?",
+      "start": 66.61,
+      "end": 68.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Ma'am.",
+      "start": 69.83,
+      "end": 70.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 71.45,
+      "end": 73.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारा राम।",
+      "start": 75.63,
+      "end": 78.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है राम जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 77.93,
+      "end": 83.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ okay ma'am.",
+      "start": 84.87,
+      "end": 85.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है Ritisha जी India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 86.87,
+      "end": 90.63
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। Okay.",
+      "start": 87.33,
+      "end": 93.01
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.86,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

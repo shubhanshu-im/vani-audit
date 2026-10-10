@@ -1,0 +1,324 @@
+{
+  "call_id": "476_90797372_2RWHXXFH5",
+  "duration_s": 41.04,
+  "graded_at": "2026-10-10T12:33:37+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक।",
+      "timestamp": 18.6,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated quantity 1, bot completely missed it and never recorded it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक हज़ार।",
+      "timestamp": 28.07,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated 1200 mm, bot misheard as 1000 and failed to capture the correct spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक हज़ार।",
+      "timestamp": 28.07,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 1200 mm as 1000.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे clear नहीं हो पाया। please एक बार फिर बता दीजिए sweet size में आपको क्या prefer करेंगे?",
+      "timestamp": 29.89,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot failed to understand buyer's response and asked again.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated a requirement and bot attempted to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity but bot did not confirm or record it."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit was discussed for the quantity."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "कितने piece? चाहिए होगी आपको।",
+      "timestamp": 10.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity, buyer responded."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक।",
+      "timestamp": 18.6,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated quantity 1, bot completely missed it and never recorded it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for spec1."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for seat size but buyer's response was not captured accurately."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक हज़ार।",
+      "timestamp": 28.07,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer stated 1200 mm, bot misheard as 1000 and failed to capture the correct spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot only asked for spec once, no loop occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक हज़ार।",
+      "timestamp": 28.07,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 1200 mm as 1000.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or connected."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change occurred."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors visible in the transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not present in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे clear नहीं हो पाया। please एक बार फिर बता दीजिए sweet size में आपको क्या prefer करेंगे?",
+      "timestamp": 29.89,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot failed to understand buyer's response and asked again.",
+      "evidence_verified": true,
+      "llm_timestamp": 29.9
+    }
+  ],
+  "captured_lead": {
+    "product": "four blade ceiling fan North Face 24 600 mm aluminium",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "seat size",
+        "value": "1000"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot failed to understand buyer's response at 28.1s.",
+      "timestamp": 29.9,
+      "source": "llm"
+    },
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer said 1200 mm, bot recorded 1000.",
+      "timestamp": 28.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture the buyer's quantity and misheard the seat size spec, causing the buyer to repeat himself before the call ended.",
+  "analysis": "Buyer wanted a 4-blade ceiling fan. Bot asked for quantity, buyer said 'एक' (1). Bot then asked for seat size. Buyer said 'एक हज़ार' (1000), which was likely a misheard '1200 mm'. Bot failed to capture this and asked again. Buyer repeated 'एक हज़ार'. Call ended abruptly at 29.9s with the bot waiting for an answer, so no lead was created.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.specs[seat size] = '1000': number(s) ['1000'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 13654,
+    "completion_tokens": 4089
+  },
+  "unresolved_problems": [
+    "Qty Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'एक।'"
+  ]
+}

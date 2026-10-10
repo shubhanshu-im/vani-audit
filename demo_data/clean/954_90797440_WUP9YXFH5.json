@@ -1,0 +1,68 @@
+{
+  "call_id": "954_90797440_WUP9YXFH5",
+  "file": "data/recordings/954_90797440_WUP9YXFH5.mp3",
+  "duration_s": 46.73,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Panasonic CF33 rugged laptop convertible to tablet की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.13,
+      "end": 8.63
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। सर मैं पैसे लेगी क्या आप बच्चों से?",
+      "start": 0.41,
+      "end": 13.03
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मैं इस बारे में आपकी मदद नहीं कर सकता। चलिए हम IndiaMART पर आपकी Panasonic CF 33 rugged laptop की जरूरत पर ध्यान देते हैं।",
+      "start": 14.03,
+      "end": 21.29
+    },
+    {
+      "role": "BUYER",
+      "text": "रे अंदर ही बादो कौन सा।",
+      "start": 22.11,
+      "end": 24.43
+    },
+    {
+      "role": "BOT",
+      "text": "जरूर but पहले बस एक दो details confirm कर लेते हैं ताकि seller आपकी requirement समझ सकें। बताइए RAM में क्या prefer करेंगे 8 GB, 16 GB या कोई और? 8 GB सही रहेगा। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 25.47,
+      "end": 39.85
+    },
+    {
+      "role": "BUYER",
+      "text": "सही रहेगा। Yes.",
+      "start": 34.43,
+      "end": 41.07
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए...",
+      "start": 42.05,
+      "end": 46.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 1.12,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

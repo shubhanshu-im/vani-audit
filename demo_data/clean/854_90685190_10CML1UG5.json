@@ -1,0 +1,52 @@
+{
+  "call_id": "854_90685190_10CML1UG5",
+  "file": "data/recordings/854_90685190_10CML1UG5.mp3",
+  "duration_s": 22.03,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको heat shrinkable pouch pouches की requirement है ना?",
+      "start": 0.01,
+      "end": 3.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 7.85,
+      "end": 8.33
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते क्या आप अभी भी line पे हैं?",
+      "start": 13.35,
+      "end": 15.21
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 5.02,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 8.33,
+        "end": 13.35,
+        "duration_s": 5.02,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

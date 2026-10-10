@@ -1,0 +1,140 @@
+{
+  "call_id": "982_90797447_5DTCYXFH5",
+  "file": "data/recordings/982_90797447_5DTCYXFH5.mp3",
+  "duration_s": 97.27,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Dcloconex Prednisolone and Hydroxychloroquine injection 25 mg की requirement है ना?",
+      "start": 0.01,
+      "end": 6.91
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 8.33,
+      "end": 8.89
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने ampoule चाहिए?",
+      "start": 10.23,
+      "end": 16.09
+    },
+    {
+      "role": "BUYER",
+      "text": "ऐसे कर कर के sorry आपकी आवाज़।",
+      "start": 18.17,
+      "end": 21.79
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। ज़रा दोबारा बताइए कि आपको कितनी quantity चाहिए?",
+      "start": 21.01,
+      "end": 25.35
+    },
+    {
+      "role": "BUYER",
+      "text": "एक packet का कितना दाम पड़ जाएगा उसमें MRP?",
+      "start": 26.87,
+      "end": 30.57
+    },
+    {
+      "role": "BOT",
+      "text": "दाम की जानकारी आप seller से discuss कर सकते हैं। वो आपको best rates देंगे। बस ये बता दीजिए कि आपको कितनी quantity चाहिए।",
+      "start": 31.73,
+      "end": 39.11
+    },
+    {
+      "role": "BUYER",
+      "text": "एक सौ एक गो।",
+      "start": 41.45,
+      "end": 42.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं आपको strength 25 milligrams ही चाहिए ना?",
+      "start": 43.49,
+      "end": 46.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay Ma'am.",
+      "start": 48.33,
+      "end": 49.03
+    },
+    {
+      "role": "BOT",
+      "text": "Tell me, what is your requirement, what would you prefer? To purchase medicine for resale, to purchase medicine for hospital use, or something else?",
+      "start": 50.23,
+      "end": 56.99
+    },
+    {
+      "role": "BUYER",
+      "text": "My.",
+      "start": 59.05,
+      "end": 59.89
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे समझ नहीं आया। आप इसे किस उपयोग के लिए खरीदना चाहते हैं? समझ गई।",
+      "start": 61.09,
+      "end": 66.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 66.59,
+      "end": 66.99
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 66.91,
+      "end": 71.93
+    },
+    {
+      "role": "BUYER",
+      "text": "WhatsApp पे। ये जो है ये जो है अपना clinic है हम doctor हैं ये अपना use के लिए मंगवा रहे हैं।",
+      "start": 68.13,
+      "end": 77.67
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 78.69,
+      "end": 84.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 85.39,
+      "end": 86.07
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 87.21,
+      "end": 90.03
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

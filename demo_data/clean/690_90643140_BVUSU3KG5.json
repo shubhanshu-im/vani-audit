@@ -1,0 +1,166 @@
+{
+  "call_id": "690_90643140_BVUSU3KG5",
+  "file": "data/recordings/690_90643140_BVUSU3KG5.mp3",
+  "duration_s": 117.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 0.17,
+      "end": 0.81
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको मैं बता रही हूँ। मेरे लिए like 8331 tons की requirement है ना?",
+      "start": 0.33,
+      "end": 8.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 10.57,
+      "end": 11.15
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं India Mart से बोल रही हूं। आपको कितने piece की जरूरत है?",
+      "start": 12.71,
+      "end": 18.97
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को तो रोज की जरूरत नहीं है मेरे को उसको cell का जरूरत है battery का।",
+      "start": 20.77,
+      "end": 26.51
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको कितने piece चाहिए कृपया बता दीजिए।",
+      "start": 27.47,
+      "end": 30.73
+    },
+    {
+      "role": "BUYER",
+      "text": "one piece चाहिए butter कितना का पड़ेगा?",
+      "start": 32.97,
+      "end": 35.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। price के लिए आप seller से बात कर सकते हैं वो आपको best rates देंगे। अब बताइए आपको power source battery operated चाहिए या rechargeable?",
+      "start": 36.89,
+      "end": 44.77
+    },
+    {
+      "role": "BUYER",
+      "text": "रिचार्ज रिचार्ज करना।",
+      "start": 47.51,
+      "end": 49.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब बताइए battery size में आप क्या prefer करेंगे D cell, AA या कुछ और?",
+      "start": 50.55,
+      "end": 55.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म। three point seven भी है।",
+      "start": 58.91,
+      "end": 64.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब आपकी city और state भी बता दीजिए please।",
+      "start": 65.91,
+      "end": 69.81
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा पड़ जाएगा।",
+      "start": 71.53,
+      "end": 74.47
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज clear नहीं आई जरा दोबारा बताइए कि आप कौन सी city से बोल रहे हैं?",
+      "start": 73.95,
+      "end": 78.75
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा second part भरता है।",
+      "start": 81.31,
+      "end": 83.15
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। Please एक बार फिर से बता दीजिए आप कौनसे city से बोल रहे हैं?",
+      "start": 84.37,
+      "end": 89.51
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा city पड़ता है Palamu।",
+      "start": 92.69,
+      "end": 95.67
+    },
+    {
+      "role": "BOT",
+      "text": "आप Palamu Jharkhand से बोल रहे हैं ना?",
+      "start": 97.05,
+      "end": 99.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 100.39,
+      "end": 100.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] जी बोल रहे हैं ना?",
+      "start": 102.11,
+      "end": 104.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 105.45,
+      "end": 106.03
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 106.97,
+      "end": 114.77
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 116.43,
+      "end": 116.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 12,
+    "longest_gap_s": 3.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

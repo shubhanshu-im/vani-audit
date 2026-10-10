@@ -1,0 +1,291 @@
+{
+  "call_id": "298_90797318_8S55WXFH5",
+  "duration_s": 145.22,
+  "graded_at": "2026-10-10T12:29:08+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=20.2 चलिए अब air flow में क्या पसंद करेंगे?",
+      "timestamp": 20.23,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated air flow question twice",
+      "evidence_verified": true,
+      "llm_timestamp": 20.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=00:13.6 BUYER: हमको ऐसी चीज चाहिए room के लिए अपना अपना family के लिए personal के लिए।",
+      "timestamp": 13.6,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer's request was slightly garbled but understood as personal use.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No lead created, buyer clarified not buying now, bot ended call correctly."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was asked or given"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec questions asked before call ended"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=20.2 चलिए अब air flow में क्या पसंद करेंगे?",
+      "timestamp": 20.23,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated air flow question twice",
+      "evidence_verified": true,
+      "llm_timestamp": 20.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misheard words that impacted the call outcome"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained Symphony Industrial Air Cooler"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=00:13.6 BUYER: हमको ऐसी चीज चाहिए room के लिए अपना अपना family के लिए personal के लिए।",
+      "timestamp": 13.6,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer's request was slightly garbled but understood as personal use.",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "Symphony Industrial Air Cooler",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": "[NAME]",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for human/Hindi support",
+      "timestamp": 24.2,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: city 4/3, spec:air flow 3/2",
+      "timestamp": 20.23,
+      "source": "signals"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Buyer clarified he was not buying now, but bot ended call with website mention. No fatal damage as no lead was created.",
+  "analysis": "Buyer inquired about Symphony Industrial Air Cooler, requested Hindi, and asked for price. Bot switched to Hindi. Buyer asked for smallest stock/payment details. Bot asked for city/state and confirmed name '[NAME]'. Buyer clarified he was not buying now but asking, and hung up after bot ended call with website mention. No lead was created. Outcome: PASS (no lead created, buyer's intent was clear).",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15928,
+    "completion_tokens": 4341
+  },
+  "unresolved_problems": [
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: 't=00:13.6 BUYER: हमको ऐसी चीज चाहिए room के लिए अपना अपना family के लिए personal'"
+  ]
+}

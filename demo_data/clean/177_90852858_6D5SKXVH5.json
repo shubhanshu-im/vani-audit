@@ -1,0 +1,86 @@
+{
+  "call_id": "177_90852858_6D5SKXVH5",
+  "file": "data/recordings/177_90852858_6D5SKXVH5.mp3",
+  "duration_s": 66.1,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी 3.75 mg Luprocat Luprolyde Acetate for injection depot की request IndiaMART पर raise है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 9.13
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 12.01,
+      "end": 12.67
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब दूसरे interval के बारे में बात कर लेते हैं। आपको कौन सा चाहिए one month depot या कुछ और?",
+      "start": 14.33,
+      "end": 18.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. No 3.5 3.75 admission.",
+      "start": 14.77,
+      "end": 25.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं note कर लेता हूं। अब बताइए strength में क्या prefer करेंगे? 3.75 milligrams, 11.25 milligrams या कोई और?",
+      "start": 26.21,
+      "end": 33.13
+    },
+    {
+      "role": "BUYER",
+      "text": "three point seven five",
+      "start": 33.53,
+      "end": 36.01
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 36.83,
+      "end": 42.05
+    },
+    {
+      "role": "BUYER",
+      "text": "कितना इसका rate है?",
+      "start": 43.91,
+      "end": 45.87
+    },
+    {
+      "role": "BOT",
+      "text": "rate की जानकारी के लिए आप सीधे seller से बात कर सकते हैं। क्या आप इस product के बारे में कोई और detail share करना चाहेंगे? आपकी details note कर ली गई हैं।",
+      "start": 46.77,
+      "end": 57.79
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक पटना मंगवाना है। आप कहां से बोल रहे हैं?",
+      "start": 56.13,
+      "end": 66.45
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

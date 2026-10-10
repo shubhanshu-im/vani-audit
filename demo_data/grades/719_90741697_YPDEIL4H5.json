@@ -1,0 +1,325 @@
+{
+  "call_id": "719_90741697_YPDEIL4H5",
+  "duration_s": 58.54,
+  "graded_at": "2026-10-10T12:48:38+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Buyer clearly stated 30 feet, bot ignored it and looped back to plantation.",
+  "fatal_params": [
+    "Qty Missed Opportunity",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "timestamp": 7.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer gave 'prati' (per) instead of a number, but bot asked for quantity again.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.0
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "बदलना चाहिए हमको तीस feet का तीस तीस।",
+      "timestamp": 40.71,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 30 feet, bot ignored it and looped back to plantation.",
+      "evidence_verified": true,
+      "llm_timestamp": 40.7
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "बदलना चाहिए हमको तीस feet का तीस तीस।",
+      "timestamp": 40.71,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated 30 feet, bot completely ignored this key spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 40.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपने product की जानकारी दी है पर plantage नहीं बताई। आप क्या prefer करेंगे two year, one year या कुछ और?",
+      "timestamp": 46.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the same plantation question at the end after ignoring the buyer's 30 feet spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 46.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No lead created or closed; bot waiting for answer."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was captured or confirmed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "timestamp": 7.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer gave 'prati' (per) instead of a number, but bot asked for quantity again.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.0
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "बदलना चाहिए हमको तीस feet का तीस तीस।",
+      "timestamp": 40.71,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 30 feet, bot ignored it and looped back to plantation.",
+      "evidence_verified": true,
+      "llm_timestamp": 40.7
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 (plantation years) was asked but not captured or confirmed."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 (plantation years) was asked but not captured or confirmed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "बदलना चाहिए हमको तीस feet का तीस तीस।",
+      "timestamp": 40.71,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated 30 feet, bot completely ignored this key spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 40.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपने product की जानकारी दी है पर plantage नहीं बताई। आप क्या prefer करेंगे two year, one year या कुछ और?",
+      "timestamp": 46.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the same plantation question at the end after ignoring the buyer's 30 feet spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 46.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misheard words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed 'Battle nuts' and bot kept it."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No bot-side silence after buyer spoke."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major pronunciation or compliance issues observed."
+    }
+  ],
+  "captured_lead": {
+    "product": "Sumangala Arecanut Plants",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "variety",
+        "value": "Battle nuts"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Bot ignored 30 feet spec and looped back to plantation years.",
+      "timestamp": 46.4,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot asked for quantity again after buyer said 'prati'.",
+      "timestamp": 16.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot missed the 30 feet spec and looped back to plantation years. No lead created.",
+  "analysis": "Buyer wanted 30-foot Battle nuts arecanut plants. Bot confirmed product but never captured quantity (30). Bot asked for plantation years after buyer specified 30 feet, then looped back to plantation years at the end without capturing the 30 feet spec. Call ended with bot waiting for answer. No lead created.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3624,
+    "completion_tokens": 1326
+  },
+  "unresolved_problems": []
+}

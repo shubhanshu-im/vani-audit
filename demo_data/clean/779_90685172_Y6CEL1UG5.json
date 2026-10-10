@@ -1,0 +1,141 @@
+{
+  "call_id": "779_90685172_Y6CEL1UG5",
+  "file": "data/recordings/779_90685172_Y6CEL1UG5.mp3",
+  "duration_s": 91.3,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कमीनेज और Viagra soft gel capsule की requirement है ना?",
+      "start": 0.01,
+      "end": 4.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म हम्म।",
+      "start": 6.21,
+      "end": 6.97
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने box चाहिए?",
+      "start": 8.15,
+      "end": 13.95
+    },
+    {
+      "role": "BUYER",
+      "text": "हं। One box.",
+      "start": 13.89,
+      "end": 16.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब composition के बारे में बात कर लेते हैं। आपको vitamin K227 चाहिए या कुछ और?",
+      "start": 17.31,
+      "end": 22.83
+    },
+    {
+      "role": "BUYER",
+      "text": "बस जो order किए हैं वही जाइए।",
+      "start": 25.17,
+      "end": 27.23
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। क्या आप बता सकते हैं कि आपको कौन सा composition चाहिए जैसे vitamin K227, zinc या कुछ और?",
+      "start": 28.21,
+      "end": 34.23
+    },
+    {
+      "role": "BUYER",
+      "text": "एक second hold करिए।",
+      "start": 35.95,
+      "end": 37.21
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल मैं इंतज़ार कर रही हूँ।",
+      "start": 38.25,
+      "end": 40.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam तो आएगा तो यही product ना?",
+      "start": 43.25,
+      "end": 45.13
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपको यही product मिलेगा। बस आप composition बता दीजिए जैसे vitamin K 227 या zinc ताकि मैं सही seller से connect कर सकूं।",
+      "start": 46.17,
+      "end": 53.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam जो normal जो अच्छा है वैसे तो।",
+      "start": 56.07,
+      "end": 59.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller आपकी इसमें मदद कर देंगे। अब बताइए strength में क्या prefer करेंगे? 1000 milligrams, 500 milligrams या कुछ और?",
+      "start": 60.57,
+      "end": 67.95
+    },
+    {
+      "role": "BUYER",
+      "text": "one hundred milligram.",
+      "start": 69.69,
+      "end": 71.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 72.17,
+      "end": 77.29
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam ये order नहीं हो रहा है तो cycle।",
+      "start": 79.79,
+      "end": 82.89
+    },
+    {
+      "role": "BOT",
+      "text": "order नहीं।",
+      "start": 81.21,
+      "end": 81.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 88.25,
+      "end": 88.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 5.36,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 82.89,
+        "end": 88.25,
+        "duration_s": 5.36,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

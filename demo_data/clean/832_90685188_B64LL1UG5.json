@@ -1,0 +1,98 @@
+{
+  "call_id": "832_90685188_B64LL1UG5",
+  "file": "data/recordings/832_90685188_B64LL1UG5.mp3",
+  "duration_s": 71.78,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Jio Renew Hybrid Inverter 6K W की request IndiaMART पर reject है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.87
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Sir, hello.",
+      "start": 8.29,
+      "end": 9.41
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब brand के बारे में बात कर लेते हैं। आपको कौन सा चाहिए Dayo, Luminous या कुछ और?",
+      "start": 10.97,
+      "end": 15.31
+    },
+    {
+      "role": "BUYER",
+      "text": "बात। ये सब गोरे नहीं कर सकते हैं habit.",
+      "start": 11.95,
+      "end": 19.79
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिल्कुल। तो brand में आप Go Renew ही prefer करेंगे या कोई और?",
+      "start": 20.71,
+      "end": 24.29
+    },
+    {
+      "role": "BUYER",
+      "text": "इसमें जो विकास battery है smart computer ठीक है आप बताइए।",
+      "start": 25.51,
+      "end": 35.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए कि आप समझ गया। आप घर के लिए लेना चाहते हैं। तो क्या आप इसे commercial use project use या किसी और काम के लिए लेना चाहेंगे?",
+      "start": 32.19,
+      "end": 42.25
+    },
+    {
+      "role": "BUYER",
+      "text": "normal road है।",
+      "start": 42.53,
+      "end": 45.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 46.99,
+      "end": 52.19
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं sir इसको जो हमारे यहां medical लगा रहे हैं गुरुदेव hospital वहां पे मतलब ये करते हैं उनका लगाते हैं।",
+      "start": 52.85,
+      "end": 60.83
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 61.63,
+      "end": 67.95
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 69.79,
+      "end": 70.29
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 1.84,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

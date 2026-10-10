@@ -1,0 +1,45 @@
+{
+  "call_id": "879_90853073_EN5FNXVH5",
+  "file": "data/recordings/879_90853073_EN5FNXVH5.mp3",
+  "duration_s": 29.66,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको twelve V eight R battery की requirement है ना? नमस्ते क्या आप line पर हैं? आपको twelve V eight battery की जरूरत थी ना? क्या आप बात करना चाहेंगे? अगर आप available हैं।",
+      "start": 0.13,
+      "end": 29.89
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 9.9,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 3.83,
+        "end": 13.73,
+        "duration_s": 9.9,
+        "after_role": "BOT"
+      },
+      {
+        "start": 17.79,
+        "end": 27.47,
+        "duration_s": 9.68,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

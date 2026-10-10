@@ -1,0 +1,140 @@
+{
+  "call_id": "368_90852913_15NDLXVH5",
+  "file": "data/recordings/368_90852913_15NDLXVH5.mp3",
+  "duration_s": 81.86,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 16L भारत शक्ति knapsack battery sprayer की requirement है ना?",
+      "start": 0.11,
+      "end": 5.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. हाँ।",
+      "start": 1.07,
+      "end": 7.35
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 8.31,
+      "end": 14.27
+    },
+    {
+      "role": "BUYER",
+      "text": "पाँच सौ की vaccine चाहिए हमको।",
+      "start": 16.41,
+      "end": 18.45
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे समझ नहीं आया। आप कितनी quantity piece में चाहते हैं please बता दीजिए।",
+      "start": 19.33,
+      "end": 24.27
+    },
+    {
+      "role": "BUYER",
+      "text": "बाल शक्ति spray machine हमको चाहिए।",
+      "start": 26.51,
+      "end": 29.67
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ नहीं पा रही।",
+      "start": 30.57,
+      "end": 31.77
+    },
+    {
+      "role": "BUYER",
+      "text": "एक तो online form है।",
+      "start": 30.85,
+      "end": 32.71
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। Seller आपकी मदद कर देंगे। बस ये बता दीजिए कि आपको कौन सा motor type चाहिए।",
+      "start": 33.59,
+      "end": 39.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Help line. ये बता दीजिए। हाँ बोलिए।",
+      "start": 34.21,
+      "end": 40.03
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपकी मदद के लिए ही हूं। बस कुछ details confirm कर दीजिए। आपको कौन सा motor type चाहिए?",
+      "start": 40.95,
+      "end": 46.35
+    },
+    {
+      "role": "BUYER",
+      "text": "और। इतना पैसा कितना चाहिए इसमें जितना लिखा है इतना ही।",
+      "start": 47.41,
+      "end": 55.87
+    },
+    {
+      "role": "BOT",
+      "text": "जितना भी। ठीक है? आप price seller से discuss कर सकते हैं। बस बता दीजिए कि आपको motor type में single चाहिए या double?",
+      "start": 53.51,
+      "end": 62.81
+    },
+    {
+      "role": "BUYER",
+      "text": "motor single चाहिए।",
+      "start": 64.53,
+      "end": 66.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब आप अपना नाम दे दो।",
+      "start": 66.85,
+      "end": 68.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है अब आप अपना नाम दे दो।",
+      "start": 66.85,
+      "end": 68.67
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको double motor चाहिए? ठीक है? अब आप अपनी city और state भी बता दीजिए please.",
+      "start": 69.29,
+      "end": 74.09
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है ठीक है।",
+      "start": 77.57,
+      "end": 78.41
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा।",
+      "start": 79.45,
+      "end": 81.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.48,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

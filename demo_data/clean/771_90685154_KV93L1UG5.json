@@ -1,0 +1,158 @@
+{
+  "call_id": "771_90685154_KV93L1UG5",
+  "file": "data/recordings/771_90685154_KV93L1UG5.mp3",
+  "duration_s": 107.86,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Umedica LLP Acnemac Foaming Salicylic Acid Face Wash की requirement है ना?",
+      "start": 0.23,
+      "end": 6.23
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 7.31,
+      "end": 8.19
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 9.99,
+      "end": 15.95
+    },
+    {
+      "role": "BUYER",
+      "text": "एक ही करनी।",
+      "start": 17.67,
+      "end": 18.83
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको एक piece चाहिए?",
+      "start": 20.11,
+      "end": 21.49
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या?",
+      "start": 23.89,
+      "end": 24.43
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं पूछ रही थी कि क्या आपको एक piece चाहिए?",
+      "start": 25.49,
+      "end": 28.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ना one product one ही चाहिए।",
+      "start": 30.21,
+      "end": 32.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब skin benefits के बारे में बात करते हैं। आपको acne control चाहिए या कुछ और?",
+      "start": 33.91,
+      "end": 38.49
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं कहिए जो corona test डाल रखा है उसमें। photo आप seller को directly share कर दीजिएगा। अभी मेरे पास photo देखने की facility नहीं है।",
+      "start": 40.55,
+      "end": 48.87
+    },
+    {
+      "role": "BOT",
+      "text": "बस details confirm कर दीजिए please।",
+      "start": 48.87,
+      "end": 50.83
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 52.43,
+      "end": 53.15
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। बताइए skin benefits में क्या prefer करेंगे? acne control, oil control या कोई और?",
+      "start": 53.81,
+      "end": 58.93
+    },
+    {
+      "role": "BUYER",
+      "text": "सबसे पहले। मेरा मतलब है कि आपको चेहरे के लिए क्या benefit चाहिए जैसे pimples रोकने के लिए या तेल control करने के लिए? Simple चाहिए simple।",
+      "start": 62.11,
+      "end": 73.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब key ingredients के बारे में बात करते हैं। आपको salicylic acid चाहिए या कुछ और?",
+      "start": 74.29,
+      "end": 78.97
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं यही चाहिए सही सही।",
+      "start": 80.27,
+      "end": 81.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं आपको volume 100 milliliters ही चाहिए ना?",
+      "start": 83.29,
+      "end": 86.81
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ हाँ।",
+      "start": 87.91,
+      "end": 88.91
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 90.21,
+      "end": 95.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 96.27,
+      "end": 96.95
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 97.71,
+      "end": 100.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay धन्यवाद।",
+      "start": 102.13,
+      "end": 103.31
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 3.18,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

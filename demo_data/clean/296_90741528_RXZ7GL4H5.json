@@ -1,0 +1,153 @@
+{
+  "call_id": "296_90741528_RXZ7GL4H5",
+  "file": "data/recordings/296_90741528_RXZ7GL4H5.mp3",
+  "duration_s": 113.62,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए? Hello क्या आप अभी भी line पे हैं? आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 12.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 14.33,
+      "end": 15.01
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपको कौन सा product चाहिए?",
+      "start": 16.09,
+      "end": 17.61
+    },
+    {
+      "role": "BUYER",
+      "text": "ये data ready बाटा।",
+      "start": 19.61,
+      "end": 21.85
+    },
+    {
+      "role": "BOT",
+      "text": "आपको Tata Ready Water चाहिए जो आमतौर पे पीने के पानी के लिए इस्तेमाल होता है यही product चाहिए ना?",
+      "start": 22.93,
+      "end": 28.93
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। जी नहीं ये गाड़ी लगता है Tata Inter भी सस्ती गाड़ी का है।",
+      "start": 26.35,
+      "end": 33.59
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं समझ गई। आपको Tata Interior V3 जो गाड़ी के अंदर इस्तेमाल होता है वही चाहिए ना?",
+      "start": 34.71,
+      "end": 40.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Ready हाँ जी वो Ready water हमारा टूट गया Ready water गाड़ी में।",
+      "start": 40.79,
+      "end": 45.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? तो आपको गाड़ी के लिए ready water चाहिए जो कि replacement के लिए इस्तेमाल होता है। यही product चाहिए ना?",
+      "start": 47.21,
+      "end": 52.91
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 54.11,
+      "end": 54.81
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने liters की जरूरत है?",
+      "start": 59.03,
+      "end": 65.25
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे इसमें liter नहीं लगता है।",
+      "start": 69.83,
+      "end": 71.61
+    },
+    {
+      "role": "BOT",
+      "text": "गाड़ी का पानी बता दीजिए।",
+      "start": 72.73,
+      "end": 74.85
+    },
+    {
+      "role": "BUYER",
+      "text": "गाड़ी की आप बता दीजिए।",
+      "start": 72.89,
+      "end": 74.45
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ सकती हूं। quantity process करना जरूरी है ताकि मैं सही से...",
+      "start": 75.97,
+      "end": 80.05
+    },
+    {
+      "role": "BUYER",
+      "text": "quantity process करना जरूरी है ताकि गाड़ी का ready water लगता है जो गाड़ी ठंडी करता है जहाँ coolant coolant fine लगता है।",
+      "start": 77.25,
+      "end": 85.17
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा तो सर को coolant चाहिए? आप बता दीजिए कि आपको कितनी quantity में coolant चाहिए?",
+      "start": 86.35,
+      "end": 90.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको coolant नहीं है उसमे coolant डालता है मुझे ready water चाहिए गाड़ी का।",
+      "start": 94.11,
+      "end": 98.01
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ गई आपको गाड़ी के लिए ready water ही चाहिए। इसे process करने के लिए quantity बताना जरूरी है तो आपको कितनी quantity चाहिए?",
+      "start": 99.01,
+      "end": 106.33
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 103.39,
+      "end": 103.67
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 7.82,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 1.85,
+        "end": 9.67,
+        "duration_s": 7.82,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

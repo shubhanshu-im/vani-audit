@@ -1,0 +1,74 @@
+{
+  "call_id": "984_90797469_HPVNYXFH5",
+  "file": "data/recordings/984_90797469_HPVNYXFH5.mp3",
+  "duration_s": 34.27,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको चीनी मिट्टी bartan की requirement है ना?",
+      "start": 0.01,
+      "end": 3.29
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको। खाली।",
+      "start": 0.85,
+      "end": 5.41
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece या set चाहिए?",
+      "start": 6.49,
+      "end": 12.55
+    },
+    {
+      "role": "BUYER",
+      "text": "कर रहे। दो piece।",
+      "start": 7.79,
+      "end": 15.05
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप कितने piece या set की जरूरत है? कृपया बता दीजिए।",
+      "start": 16.05,
+      "end": 20.79
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। मुझे खेद है। खेल है।",
+      "start": 22.59,
+      "end": 25.43
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी बात समझ नहीं पा रही हूँ। कृपया बता दीजिए कि आपको कितनी",
+      "start": 25.43,
+      "end": 28.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Quantity चाहिए।",
+      "start": 28.79,
+      "end": 29.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.8,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "call_id": "597_90643127_HKXLU3KG5",
+  "file": "data/recordings/597_90643127_HKXLU3KG5.mp3",
+  "duration_s": 60.84,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी 10 Amp DJ belt की request IndiaMART पर raise है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 7.89,
+      "end": 8.63
+    },
+    {
+      "role": "BOT",
+      "text": "आपको usage application में क्या चाहिए?",
+      "start": 10.15,
+      "end": 12.07
+    },
+    {
+      "role": "BUYER",
+      "text": "डीजे बेल पटा जाइए।",
+      "start": 14.05,
+      "end": 15.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 16.57,
+      "end": 21.81
+    },
+    {
+      "role": "BUYER",
+      "text": "इसका price कितना है?",
+      "start": 23.37,
+      "end": 24.83
+    },
+    {
+      "role": "BOT",
+      "text": "price के लिए आप सीधे seller से बात कर सकते हैं। क्या आप इस product के बारे में कोई और detail share करना चाहेंगे?",
+      "start": 25.79,
+      "end": 31.25
+    },
+    {
+      "role": "BUYER",
+      "text": "तो sir वो मंगवाना जैसे है मेरे को तो कहाँ से कैसे करेंगे वो तो बताइए। shipment के बारे में आप सीधे seller से बात कर सकते हैं। क्या आप इस product की कोई और detail share करना चाहेंगे? पर seller से कैसे बात करेंगे उसको call तो उठा ही नहीं रहा।",
+      "start": 33.43,
+      "end": 49.75
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी मदद करता हूं। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 50.63,
+      "end": 58.59
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 59.99,
+      "end": 60.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.18,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

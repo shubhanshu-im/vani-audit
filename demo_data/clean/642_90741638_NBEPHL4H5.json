@@ -1,0 +1,86 @@
+{
+  "call_id": "642_90741638_NBEPHL4H5",
+  "file": "data/recordings/642_90741638_NBEPHL4H5.mp3",
+  "duration_s": 53.93,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी CBT 500 VA की request IndiaMART पर रही है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.21
+    },
+    {
+      "role": "BUYER",
+      "text": "जी बोलिए।",
+      "start": 8.35,
+      "end": 9.19
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब input voltage range के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 180 to 260 V या कुछ और?",
+      "start": 10.79,
+      "end": 16.99
+    },
+    {
+      "role": "BUYER",
+      "text": "सर हमने हमारे को पाँच सौ बीए का account का CBD चाहिए सर।",
+      "start": 18.19,
+      "end": 22.21
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ गया। तो input voltage range में आप क्या prefer करेंगे 180 to 260 V या कोई और?",
+      "start": 23.15,
+      "end": 29.01
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। पाँच सौ BA only पाँच सौ BA। ठीक है।",
+      "start": 25.35,
+      "end": 33.83
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 33.87,
+      "end": 38.43
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं ये हमारा check ना electronic छोटा सा product है हमारा ये।",
+      "start": 38.63,
+      "end": 42.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। हाँ तो उसके लिए मैं level",
+      "start": 43.85,
+      "end": 45.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो उसके लिए हमें regular use करने हाँ use करने के लिए चाहिए होता हमारे को। आपके बहुत ले चुका हूँ मैं कानपुर से ले चुका हूँ दिल्ली से ले चुका हूँ।",
+      "start": 44.21,
+      "end": 54.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.22,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "call_id": "646_90643131_2BSNU3KG5",
+  "file": "data/recordings/646_90643131_2BSNU3KG5.mp3",
+  "duration_s": 47.59,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Asian Paints Smart Care Tile Adhesives की requirement है ना? नमस्ते क्या आप अभी भी line पे हैं? क्या आप इस बातचीत को आगे",
+      "start": 0.01,
+      "end": 27.19
+    },
+    {
+      "role": "BUYER",
+      "text": "बढ़ाना चाहेंगे।",
+      "start": 27.19,
+      "end": 28.23
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 37.89,
+      "end": 40.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 10.08,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 4.75,
+        "end": 14.41,
+        "duration_s": 9.66,
+        "after_role": "BOT"
+      },
+      {
+        "start": 15.99,
+        "end": 26.07,
+        "duration_s": 10.08,
+        "after_role": "BOT"
+      },
+      {
+        "start": 28.23,
+        "end": 37.89,
+        "duration_s": 9.66,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

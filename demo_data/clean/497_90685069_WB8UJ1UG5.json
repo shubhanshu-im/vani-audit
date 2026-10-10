@@ -1,0 +1,122 @@
+{
+  "call_id": "497_90685069_WB8UJ1UG5",
+  "file": "data/recordings/497_90685069_WB8UJ1UG5.mp3",
+  "duration_s": 120.24,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.49,
+      "end": 2.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हमें ये machine चाहिए welding वो सरिया वाली।",
+      "start": 3.83,
+      "end": 7.45
+    },
+    {
+      "role": "BOT",
+      "text": "तोड़ने वाली machine. आपको जो machine निर्माण work में सरिया या लोहे की छड़ें तोड़ने के लिए इस्तेमाल होती है वही चाहिए।",
+      "start": 8.65,
+      "end": 17.51
+    },
+    {
+      "role": "BUYER",
+      "text": "ये हमें नहीं नहीं टूटने वाली नहीं पच्चीस mm के सरिया जो ये मोड़ने की।",
+      "start": 14.89,
+      "end": 22.05
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको वो machine चाहिए जो 25 millimeter तक के सरिया को मोड़ने के लिए इस्तेमाल होती है। सही समझा मैंने? यही machine चाहिए ना?",
+      "start": 23.95,
+      "end": 31.39
+    },
+    {
+      "role": "BUYER",
+      "text": "यही machine चाहिए ना हाँ जो हाथ से जो छोटी machine नहीं है जो हाथ से उठा के वैसे ले जाते हैं।",
+      "start": 29.55,
+      "end": 36.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितनी bending capacity चाहिए जैसे 32 millimeter, 16 millimeter या कुछ और?",
+      "start": 38.29,
+      "end": 51.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हमें जो बत्तीस का है उसमें पच्चीस का भी मुड़ जाएगा ना।",
+      "start": 51.85,
+      "end": 55.91
+    },
+    {
+      "role": "BOT",
+      "text": "जी हां 32 millimeter की machine में 25 millimeter का सरिया भी आसानी से मुड़ जाएगा। अब आप बताइए machine का operation mode कौन सा चाहिए automatic या semi automatic?",
+      "start": 57.67,
+      "end": 67.05
+    },
+    {
+      "role": "BUYER",
+      "text": "बताइए। जो ये automatic है जो जो।",
+      "start": 62.91,
+      "end": 71.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? automatic operation mode वाली machine चाहिए। अब आपको कितने phase की machine चाहिए? three phase या single phase?",
+      "start": 73.43,
+      "end": 79.25
+    },
+    {
+      "role": "BUYER",
+      "text": "automatic. Single phase है।",
+      "start": 73.79,
+      "end": 81.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 83.81,
+      "end": 86.47
+    },
+    {
+      "role": "BUYER",
+      "text": "English से। आगे।",
+      "start": 83.95,
+      "end": 88.09
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी city और state का नाम बता दीजिए जिससे seller आपको सही जानकारी दे सकें। सोनीपत। आप Sonipat Haryana से बोल रहे हैं ना? [change] Thank you. ठीक है अब आप अपना नाम भी बता दीजिए please। [change] इंदु कृष्णा दास। धन्यवाद [NAME] [NAME] जी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 89.93,
+      "end": 118.71
+    },
+    {
+      "role": "BUYER",
+      "text": "तो मैं salad. आप जो आप ये बताओ।",
+      "start": 111.67,
+      "end": 120.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.8,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

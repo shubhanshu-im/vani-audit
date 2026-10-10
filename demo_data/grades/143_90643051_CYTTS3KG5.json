@@ -1,0 +1,342 @@
+{
+  "call_id": "143_90643051_CYTTS3KG5",
+  "duration_s": 164.81,
+  "graded_at": "2026-10-10T12:25:30+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Quantity Probing Error, Spec Missed Opportunity, Looping Behavior, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने ton चाहिए?",
+      "timestamp": 44.75,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity in ton after buyer stated 5 kg.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.8
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "normal जो आता है ना वैसी चाहिए",
+      "timestamp": 88.53,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer clarified 'normal' form but bot mapped it loosely to 'सामान्य रूप'.",
+      "evidence_verified": true,
+      "llm_timestamp": 88.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बस कुछ details confirm कर दीजिए",
+      "timestamp": 44.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated 'confirm details' twice at start of collection phase.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं भी Lonavala में हूं Madam.",
+      "timestamp": 130.87,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Lonavala' as 'Lonavala' but confirmed correctly, missed 'Fatima'.",
+      "evidence_verified": true,
+      "llm_timestamp": 130.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Details.",
+      "timestamp": 44.75,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer's last word 'Details' was likely a misheard 'Lonavala'.",
+      "evidence_verified": true,
+      "llm_timestamp": 158.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clearly stated product and quantity, bot created lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ठीक है आप 5 kilogram कोयला लेना चाहते हैं",
+      "timestamp": 67.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 5 kg from buyer's 'पाँच kilo' despite initial asking ton."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated kg, bot confirmed kg."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने ton चाहिए?",
+      "timestamp": 44.75,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity in ton after buyer stated 5 kg.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.8
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specific spec captured as the bot asked about usage and raw material instead."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specific spec captured as the bot asked about usage and raw material instead."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "normal जो आता है ना वैसी चाहिए",
+      "timestamp": 88.53,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer clarified 'normal' form but bot mapped it loosely to 'सामान्य रूप'.",
+      "evidence_verified": true,
+      "llm_timestamp": 88.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बस कुछ details confirm कर दीजिए",
+      "timestamp": 44.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated 'confirm details' twice at start of collection phase.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं भी Lonavala में हूं Madam.",
+      "timestamp": 130.87,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Lonavala' as 'Lonavala' but confirmed correctly, missed 'Fatima'.",
+      "evidence_verified": true,
+      "llm_timestamp": 130.9
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "मैं seller details आपको WhatsApp पर भेज दूंगी",
+      "timestamp": 154.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly deferred to seller via WhatsApp."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained coal throughout."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific ISQ errors visible."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system search data available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Details.",
+      "timestamp": 44.75,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer's last word 'Details' was likely a misheard 'Lonavala'.",
+      "evidence_verified": true,
+      "llm_timestamp": 158.5
+    }
+  ],
+  "captured_lead": {
+    "product": "coal",
+    "quantity": "5",
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "raw_material",
+        "value": "wood/sali"
+      },
+      {
+        "name": "form",
+        "value": "normal"
+      }
+    ],
+    "name": null,
+    "city": "Lonavala",
+    "state": "Maharashtra"
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot asked for quantity in ton instead of kg",
+      "timestamp": 44.8,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot struggled with ASR on buyer's location and name",
+      "timestamp": 130.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot asked for quantity in ton instead of kg initially. It missed capturing buyer's name and city/state correctly in the lead.",
+  "analysis": "Buyer wanted cooking coal for barbecue/tandoor, corrected to 5 kg. Bot confirmed 5 kg. It asked for raw material (wood/sali), quantity unit (ton), and location (Lonavala, Maharashtra) but missed capturing the buyer's name (Fatima) and city/state correctly (Lonavala, Maharashtra). The bot closed by promising WhatsApp details. Outcome is a valid buy lead.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4442,
+    "completion_tokens": 1442
+  },
+  "unresolved_problems": []
+}

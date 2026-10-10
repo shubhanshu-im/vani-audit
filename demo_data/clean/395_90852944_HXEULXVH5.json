@@ -1,0 +1,146 @@
+{
+  "call_id": "395_90852944_HXEULXVH5",
+  "file": "data/recordings/395_90852944_HXEULXVH5.mp3",
+  "duration_s": 91.37,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको 100 piece जय भारत rubber balloon की requirement है ना?",
+      "start": 0.65,
+      "end": 5.23
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes yes.",
+      "start": 6.63,
+      "end": 7.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 10.97,
+      "end": 16.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. ये packet चाहिए जय भारत BT।",
+      "start": 11.77,
+      "end": 20.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको कितने fees चाहिए?",
+      "start": 21.89,
+      "end": 23.71
+    },
+    {
+      "role": "BUYER",
+      "text": "free चाहिए और।",
+      "start": 25.31,
+      "end": 26.55
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब size के बारे में बात कर लेते हैं। आपको 9 inch चाहिए या कुछ और?",
+      "start": 27.87,
+      "end": 32.75
+    },
+    {
+      "role": "BUYER",
+      "text": "ये नौ में से कौन सी को हो जाएगा ये एक second रुकना।",
+      "start": 35.57,
+      "end": 40.85
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल।",
+      "start": 41.15,
+      "end": 41.71
+    },
+    {
+      "role": "BUYER",
+      "text": "बीस ग्यारह ग्यारह।",
+      "start": 41.89,
+      "end": 43.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? तो आपको 11 inch वाला size चाहिए?",
+      "start": 45.25,
+      "end": 47.79
+    },
+    {
+      "role": "BUYER",
+      "text": "यहूदी।",
+      "start": 49.07,
+      "end": 49.91
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए pack size में क्या prefer करेंगे? 1000 pieces, 50 pieces या कोई और?",
+      "start": 51.23,
+      "end": 56.43
+    },
+    {
+      "role": "BUYER",
+      "text": "hundred piece.",
+      "start": 58.55,
+      "end": 59.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 60.95,
+      "end": 66.67
+    },
+    {
+      "role": "BUYER",
+      "text": "ये इनकी price क्या रहेगी ना?",
+      "start": 67.83,
+      "end": 69.45
+    },
+    {
+      "role": "BOT",
+      "text": "आप price के बारे में seller से discuss कर सकते हैं वो आपको best rates देंगे। मैं details WhatsApp कर दूंगी।",
+      "start": 71.13,
+      "end": 76.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay thank you.",
+      "start": 78.73,
+      "end": 80.21
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 81.57,
+      "end": 84.31
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ सुनिए।",
+      "start": 86.65,
+      "end": 87.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

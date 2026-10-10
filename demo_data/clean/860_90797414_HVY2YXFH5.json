@@ -1,0 +1,135 @@
+{
+  "call_id": "860_90797414_HVY2YXFH5",
+  "file": "data/recordings/860_90797414_HVY2YXFH5.mp3",
+  "duration_s": 101.45,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Granules Precontanol GR 0.05 bag 0.05% EC की requirement है ना?",
+      "start": 0.01,
+      "end": 8.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ।",
+      "start": 1.57,
+      "end": 10.85
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते मैं India Mart से बोल रही हूं। आपको Granules spray Contanol GR 0.05 bag 0.05% EC की requirement थी ना?",
+      "start": 11.87,
+      "end": 20.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Hello.",
+      "start": 22.61,
+      "end": 29.83
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते मैं IndiaMART से बोल रही हूं। क्या आपको granules kaecontanol की requirement है?",
+      "start": 30.79,
+      "end": 35.93
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ requirement है।",
+      "start": 31.33,
+      "end": 38.87
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने kilograms चाहिए होगी आपको?",
+      "start": 39.97,
+      "end": 46.19
+    },
+    {
+      "role": "BUYER",
+      "text": "तो क्या?",
+      "start": 48.89,
+      "end": 49.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब concentration के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 0.1% Eda Jiv या कुछ और?",
+      "start": 50.69,
+      "end": 56.87
+    },
+    {
+      "role": "BUYER",
+      "text": "zero point zero five percent GR.",
+      "start": 58.81,
+      "end": 61.45
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं आपको product form granules ही चाहिए ना?",
+      "start": 62.49,
+      "end": 66.19
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं trycon ethanol चाहिए।",
+      "start": 68.99,
+      "end": 74.49
+    },
+    {
+      "role": "BOT",
+      "text": "आपको product form में क्या prefer करेंगे liquid powder या कोई और?",
+      "start": 75.69,
+      "end": 79.17
+    },
+    {
+      "role": "BUYER",
+      "text": "उधर।",
+      "start": 80.61,
+      "end": 81.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? और आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 82.35,
+      "end": 88.11
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक ठीक।",
+      "start": 89.43,
+      "end": 90.33
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 91.39,
+      "end": 94.25
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 5.9,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 23.35,
+        "end": 29.25,
+        "duration_s": 5.9,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 6,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

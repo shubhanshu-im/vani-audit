@@ -1,0 +1,45 @@
+{
+  "call_id": "929_90741723_K88PIL4H5",
+  "file": "data/recordings/929_90741723_K88PIL4H5.mp3",
+  "duration_s": 12.74,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको fly ash bricks की requirement है ना?",
+      "start": 0.01,
+      "end": 3.65
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 6.09,
+      "end": 6.59
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "start": 7.81,
+      "end": 12.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.44,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

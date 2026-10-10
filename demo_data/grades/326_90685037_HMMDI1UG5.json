@@ -1,0 +1,341 @@
+{
+  "call_id": "326_90685037_HMMDI1UG5",
+  "duration_s": 55.58,
+  "graded_at": "2026-10-10T12:30:02+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Closed call without creating buy lead or connecting seller for confirmed buyer requirement.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Spec2 Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 45.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed call without creating buy lead or connecting seller for confirmed buyer requirement.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है आपने जो brand बताया वो भी seller को बता दिया जाएगा।",
+      "timestamp": 45.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer asked about Tata brand, bot did not capture or confirm it.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपने जो brand बताया वो भी seller को बता दिया जाएगा।",
+      "timestamp": 45.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot missed capturing buyer's preference for Tata brand.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपने जो brand बताया वो भी seller को बता दिया जाएगा।",
+      "timestamp": 45.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp instead of connecting or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 45.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot used a closing line that implies a transfer or lead creation, but failed to do so.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 45.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed call without creating buy lead or connecting seller for confirmed buyer requirement.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured quantity correctly as 1 box."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Captured unit 'box' correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was collected and recorded correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Diameter spec was collected, though not read back."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है आपने जो brand बताया वो भी seller को बता दिया जाएगा।",
+      "timestamp": 45.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer asked about Tata brand, bot did not capture or confirm it.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपने जो brand बताया वो भी seller को बता दिया जाएगा।",
+      "timestamp": 45.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot missed capturing buyer's preference for Tata brand.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not repeat questions or loop."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपने जो brand बताया वो भी seller को बता दिया जाएगा।",
+      "timestamp": 45.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp instead of connecting or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific spec options were presented."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system search or category data to evaluate."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद।",
+      "timestamp": 45.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot used a closing line that implies a transfer or lead creation, but failed to do so.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.2
+    }
+  ],
+  "captured_lead": {
+    "product": "MS welding rod",
+    "quantity": "1",
+    "quantity_unit": "box",
+    "specs": [
+      {
+        "name": "diameter",
+        "value": "2.5 millimeter"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed call without creating lead for confirmed buyer requirement.",
+      "timestamp": 45.2,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer might be dissatisfied if lead is not created after sharing specs.",
+      "timestamp": 40.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call with a generic closing instead of creating a buy lead or transferring to a seller for a confirmed requirement.",
+  "analysis": "Buyer wanted 1 box of 2.5mm MS welding rods, preferred Tata brand. Bot captured quantity but missed spec2 (brand) and did not confirm the diameter readback. Bot closed with a seller WhatsApp message without creating a lead or transferring.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3555,
+    "completion_tokens": 1677
+  },
+  "unresolved_problems": []
+}

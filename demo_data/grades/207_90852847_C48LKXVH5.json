@@ -1,0 +1,319 @@
+{
+  "call_id": "207_90852847_C48LKXVH5",
+  "duration_s": 103.68,
+  "graded_at": "2026-10-10T12:26:54+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Buyer said 'teen ke baad', bot confirmed 'teen sau watts'.",
+  "fatal_params": [
+    "Spec1 Accuracy",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "तीन के बाद।",
+      "timestamp": 60.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'teen ke baad', bot confirmed 'teen sau watts'.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "के बारे में और पहले ये बताओ की मतलब अगर copper की डोली copper की cable की अगर 300 watt वाला grinder जोड़ेंगे तो डोली fault नहीं हो जाएगी।",
+      "timestamp": 64.41,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer asked about copper motor compatibility, bot skipped it.",
+      "evidence_verified": true,
+      "llm_timestamp": 64.4
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "तीन के बाद।",
+      "timestamp": 60.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard '300' as 'teen ke baad'.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और specification share करना चाहेंगे?",
+      "timestamp": 79.79,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Banned open-ended question used.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product, bot offered seller connection."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and provided."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity provided by buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "तीन के बाद।",
+      "timestamp": 60.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'teen ke baad', bot confirmed 'teen sau watts'.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.6
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 was not asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "के बारे में और पहले ये बताओ की मतलब अगर copper की डोली copper की cable की अगर 300 watt वाला grinder जोड़ेंगे तो डोली fault नहीं हो जाएगी।",
+      "timestamp": 64.41,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer asked about copper motor compatibility, bot skipped it.",
+      "evidence_verified": true,
+      "llm_timestamp": 64.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked questions sequentially."
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "तीन के बाद।",
+      "timestamp": 60.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard '300' as 'teen ke baad'.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details captured."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered to connect to a seller."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और specification share करना चाहेंगे?",
+      "timestamp": 79.79,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Banned open-ended question used.",
+      "evidence_verified": true,
+      "llm_timestamp": 79.8
+    }
+  ],
+  "captured_lead": {
+    "product": "multipurpose grinder",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "power",
+        "value": "300 watts"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer expressed frustration about not being heard.",
+      "timestamp": 8.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard '300 watts' as 'teen ke baad' and confirmed '300 watts' back, causing a mismatch. Bot also used the banned open-ended question.",
+  "analysis": "The buyer wants a multipurpose grinder for dry fruits, lentils, and chickpeas. The bot misheard '300' as 'three after' (teen ke baad) and then used 'three hundred' (teen sau) in the readback. The buyer asked about compatibility with a copper motor/cable and the price. The bot offered to connect to a seller and closed the call. No buy lead was created.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4034,
+    "completion_tokens": 1313
+  },
+  "unresolved_problems": []
+}

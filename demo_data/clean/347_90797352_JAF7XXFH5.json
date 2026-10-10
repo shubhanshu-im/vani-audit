@@ -1,0 +1,93 @@
+{
+  "call_id": "347_90797352_JAF7XXFH5",
+  "file": "data/recordings/347_90797352_JAF7XXFH5.mp3",
+  "duration_s": 114.05,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 18 inch marble राधा रानी statue की requirement है ना? आप अभी भी call पे हैं क्या? अगर आपको 18 inch marble राधा रानी statue चाहिए तो बताइए।",
+      "start": 0.05,
+      "end": 20.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हलो।",
+      "start": 22.01,
+      "end": 22.57
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते आपको 18 inch marble राधा रानी statue की requirement थी ना?",
+      "start": 24.49,
+      "end": 28.57
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको eighteen. कलकत्ता माल दिखाइए कलकत्ता।",
+      "start": 25.09,
+      "end": 32.09
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपका सवाल थोड़ा unclear है। क्या आप 18 inch marble राधा रानी statue लेना चाहते हैं?",
+      "start": 33.85,
+      "end": 39.47
+    },
+    {
+      "role": "BUYER",
+      "text": "dice ୱାଲା ball ଦେଖେଇବେ ଦେଖି ଠକୁଆଲି ପିଆ ଗଣେଶ ଲୋକ। मोशे का अध्याय श्लोक और काली। देखते हैं। इसको मुँह में लगाइए गाना। शुभ आरम्भणी का। नाम बेटी का।",
+      "start": 41.03,
+      "end": 72.37
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी बात पूरी तरह से समझ नहीं आई। क्या आप मूर्ति या प्रतिमा खरीदना चाहते हैं? कृपया यह बता दें ताकि मैं मदद कर सकूं।",
+      "start": 74.63,
+      "end": 82.01
+    },
+    {
+      "role": "BUYER",
+      "text": "इसमें मैं बेचने वाला हूँ readymade diamond वाला मोती। उसको सेबी दिखा के उसको। তোলা রাশি রাজু দে ওড়ান জেলা সাতক্ষীরা সৌন্দর্য Kolkata-য়।",
+      "start": 84.17,
+      "end": 99.23
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आप देश से जुड़ी जानकारी",
+      "start": 103.25,
+      "end": 105.15
+    },
+    {
+      "role": "BUYER",
+      "text": "quality का मूर्ति दिखाइए कागज़ वाला packing plus sticker का।",
+      "start": 108.63,
+      "end": 113.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 10.38,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 5.03,
+        "end": 15.41,
+        "duration_s": 10.38,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "call_id": "553_90741571_RSWUGL4H5",
+  "file": "data/recordings/553_90741571_RSWUGL4H5.mp3",
+  "duration_s": 94.25,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, which product do you want? बिल्कुल आप समय ले लीजिए। जब आप तैयार हों तो बताइएगा।",
+      "start": 0.01,
+      "end": 6.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Absolutely. English or madam English.",
+      "start": 3.31,
+      "end": 9.53
+    },
+    {
+      "role": "BOT",
+      "text": "Sure. I will speak in English. Which product are you looking for?",
+      "start": 10.61,
+      "end": 14.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes. AIC block.",
+      "start": 13.37,
+      "end": 16.41
+    },
+    {
+      "role": "BOT",
+      "text": "You want AAC blocks which are typically used for lightweight construction and walling, right?",
+      "start": 17.51,
+      "end": 22.25
+    },
+    {
+      "role": "BUYER",
+      "text": "So like. Yes, yes, yes.",
+      "start": 19.83,
+      "end": 24.03
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were calling is unavailable and I am calling from IndiaMART. How many pieces of AAC blocks will you need?",
+      "start": 25.59,
+      "end": 32.39
+    },
+    {
+      "role": "BUYER",
+      "text": "From India. three hundred pieces.",
+      "start": 29.07,
+      "end": 34.85
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Which block thickness do you need? For example, 8 inches or 4 inches or something else?",
+      "start": 36.07,
+      "end": 41.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Six inches thirty one rupees so in that",
+      "start": 42.47,
+      "end": 47.33
+    },
+    {
+      "role": "BOT",
+      "text": "I have noted the six inches thickness. Now what block height do you need such as eight inches or four inches?",
+      "start": 48.47,
+      "end": 54.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Right.",
+      "start": 55.67,
+      "end": 57.35
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Now what block length do you need such as 24 inches or 25 inches?",
+      "start": 58.19,
+      "end": 63.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. twenty four two feet.",
+      "start": 61.85,
+      "end": 65.67
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, could you please tell me your city and state as well?",
+      "start": 66.75,
+      "end": 69.65
+    },
+    {
+      "role": "BUYER",
+      "text": "Kurinjipadi Cuddalore district.",
+      "start": 71.03,
+      "end": 72.57
+    },
+    {
+      "role": "BOT",
+      "text": "You are speaking from Cuddalore, Tamil Nadu, right?",
+      "start": 73.87,
+      "end": 76.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes, yes.",
+      "start": 77.59,
+      "end": 78.33
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, you are [NAME] speaking, right?",
+      "start": 79.57,
+      "end": 81.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 82.53,
+      "end": 83.15
+    },
+    {
+      "role": "BOT",
+      "text": "I will send the seller details to you on WhatsApp where you can discuss the price and other details. Thank you for choosing IndiaMART. Have a great day.",
+      "start": 84.23,
+      "end": 92.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 10,
+    "longest_gap_s": 1.56,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

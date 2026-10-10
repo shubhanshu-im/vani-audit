@@ -1,0 +1,310 @@
+{
+  "call_id": "4_90852792_A941JXVH5",
+  "duration_s": 119.66,
+  "graded_at": "2026-10-10T12:34:19+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, WER",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "खरीदार ने size और storage capacity के लिए unclear जवाब दिए।",
+      "timestamp": null,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave unclear size and capacity, bot couldn't capture.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माफ़ कीजिए आपकी city का नाम clear नहीं समझा। कृपया एक बार फिर से अपनी city और state का नाम बताइए।",
+      "timestamp": 81.91,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for city 4 times, exceeding the limit of 3.",
+      "evidence_verified": true,
+      "llm_timestamp": 81.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माफ़ कीजिए आपकी बात clear नहीं आई।",
+      "timestamp": 36.93,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard buyer's size answer and asked again.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement, bot created a lead and closed."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 2 kg, bot captured 2 kg."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit matched (kg)."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and provided."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 (size) was asked but buyer's response was garbled, so no accurate capture."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 (capacity) was asked but buyer's response was garbled, so no accurate capture."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "खरीदार ने size और storage capacity के लिए unclear जवाब दिए।",
+      "timestamp": null,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave unclear size and capacity, bot couldn't capture.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माफ़ कीजिए आपकी city का नाम clear नहीं समझा। कृपया एक बार फिर से अपनी city और state का नाम बताइए।",
+      "timestamp": 81.91,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for city 4 times, exceeding the limit of 3.",
+      "evidence_verified": true,
+      "llm_timestamp": 81.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "माफ़ कीजिए आपकी बात clear नहीं आई।",
+      "timestamp": 36.93,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard buyer's size answer and asked again.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.9
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer live seller, closed with lead creation."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained PP bags."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No human claim or price promise."
+    }
+  ],
+  "captured_lead": {
+    "product": "spices packing PP bags",
+    "quantity": "2",
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "size",
+        "value": "unclear"
+      },
+      {
+        "name": "storage capacity",
+        "value": "unclear"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Islampur",
+    "state": "West Bengal"
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot asked for city/state 4 times, exceeding the limit of 3.",
+      "timestamp": 81.9,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot struggled to understand buyer's size and capacity answers.",
+      "timestamp": 44.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on city/state and failed to capture size/capacity due to ASR issues.",
+  "analysis": "Buyer wanted PP spice bags (2 kg), gave unclear size/capacity answers, and provided name '[NAME]' and location 'Islampur, West Bengal'. Bot created a lead and closed. No live seller transfer happened. The bot asked for city/state 4 times (limit 3).",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15807,
+    "completion_tokens": 4949
+  },
+  "unresolved_problems": [
+    "Spec Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'खरीदार ने size और storage capacity के लिए unclear जवाब दिए।'"
+  ]
+}

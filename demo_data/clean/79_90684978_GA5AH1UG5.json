@@ -1,0 +1,83 @@
+{
+  "call_id": "79_90684978_GA5AH1UG5",
+  "file": "data/recordings/79_90684978_GA5AH1UG5.mp3",
+  "duration_s": 66.67,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको used mobiles Delhi की requirement है ना?",
+      "start": 0.01,
+      "end": 4.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 6.51,
+      "end": 7.15
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 8.35,
+      "end": 14.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 16.65,
+      "end": 19.05
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। ज़रा दोबारा बताइए कि आपको कितनी quantity चाहिए? ठीक है। चलिए अब brand के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे Apple, Nokia या कुछ और?",
+      "start": 19.67,
+      "end": 31.95
+    },
+    {
+      "role": "BUYER",
+      "text": "के साथ। समझ गई। मैं देख पा रही हूं आपको condition use ही चाहिए ना? क्या आप अभी ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। Okay. IndiaMART से।",
+      "start": 35.09,
+      "end": 62.39
+    },
+    {
+      "role": "BOT",
+      "text": "के लिए धन्यवाद आपका दिन शुभ",
+      "start": 62.39,
+      "end": 63.99
+    },
+    {
+      "role": "BUYER",
+      "text": "शुभ।",
+      "start": 63.99,
+      "end": 64.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 9.36,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 40.37,
+        "end": 49.73,
+        "duration_s": 9.36,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

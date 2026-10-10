@@ -1,0 +1,303 @@
+{
+  "call_id": "365_90797565_ZBIRZXFH5",
+  "duration_s": 38.09,
+  "graded_at": "2026-10-10T12:30:55+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "WER: Bot failed to understand buyer's clear statement.",
+  "fatal_params": [
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello [NAME] जी आपको six seater golf cart की requirement है ना? जी आपको six seater golf cart की requirement थी ना?",
+      "timestamp": 0.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated the same question twice due to ASR failure.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.2
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए क्या आपको six seater golf cart की requirement है?",
+      "timestamp": 0.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to understand buyer's clear statement.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अभी। आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं।",
+      "timestamp": 26.27,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot provided a generic closing without collecting buyer details.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot closed call without lead after failing to understand buyer."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed due to bot failure to understand."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed due to bot failure to understand."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot failed to collect quantity due to ASR issues."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was captured by the bot."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for or capture any specs."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for or capture any specs."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot failed to capture any specifications."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello [NAME] जी आपको six seater golf cart की requirement है ना? जी आपको six seater golf cart की requirement थी ना?",
+      "timestamp": 0.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated the same question twice due to ASR failure.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.2
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए क्या आपको six seater golf cart की requirement है?",
+      "timestamp": 0.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot failed to understand buyer's clear statement.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.2
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were collected or recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change occurred; bot never established the product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not provided."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not provided."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अभी। आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं।",
+      "timestamp": 26.27,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot provided a generic closing without collecting buyer details.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.3
+    }
+  ],
+  "captured_lead": {
+    "product": "six seater golf cart",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer's inquiry was not understood by the bot.",
+      "timestamp": 26.3,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot failed to understand the buyer's speech twice.",
+      "timestamp": 0.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to understand buyer's clear inquiry and closed the call without creating a lead.",
+  "analysis": "Buyer called to inquire about a six-seater golf cart. The bot had severe ASR issues and could not understand the buyer, asking the same question twice. The bot then closed the call without collecting any details or creating a lead, treating it as a status inquiry.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3445,
+    "completion_tokens": 1516
+  },
+  "unresolved_problems": []
+}

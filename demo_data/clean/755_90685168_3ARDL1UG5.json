@@ -1,0 +1,189 @@
+{
+  "call_id": "755_90685168_3ARDL1UG5",
+  "file": "data/recordings/755_90685168_3ARDL1UG5.mp3",
+  "duration_s": 161.5,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको marble dressing pot की requirement है ना?",
+      "start": 0.23,
+      "end": 3.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 1.61,
+      "end": 2.37
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब marble type के बारे में बात कर लेते हैं। आपको Makrana चाहिए या कुछ और?",
+      "start": 4.91,
+      "end": 13.85
+    },
+    {
+      "role": "BUYER",
+      "text": "आप जिस seller को call मतलब किधर मिलता है ये?",
+      "start": 5.25,
+      "end": 18.35
+    },
+    {
+      "role": "BOT",
+      "text": "ये आपको IndiaMART के best seller से मिल जाएगा। बस कुछ details confirm कर दीजिए फिर मैं आपको उनसे connect करवा दूंगी। बताइए marble type में क्या prefer करेंगे?",
+      "start": 19.39,
+      "end": 28.21
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब। मेरे को तो उनकी मंदिर चाहिए।",
+      "start": 23.55,
+      "end": 32.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको मंदिर चाहिए? क्या आपको मंदिर जो आमतौर पे पूजा के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 33.31,
+      "end": 39.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ वही तुलसी मंदिर ही चाहिए मुझे पूजा करना है।",
+      "start": 40.25,
+      "end": 44.61
+    },
+    {
+      "role": "BOT",
+      "text": "कितने piece चाहिए होंगे आपको? समझ गई। आपको कितने piece चाहिए?",
+      "start": 44.59,
+      "end": 48.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. मुझे मुझे बताइए एक ही piece चाहिए एक ही piece चाहिए।",
+      "start": 45.59,
+      "end": 53.37
+    },
+    {
+      "role": "BOT",
+      "text": "जी बताइए। ठीक है। अब आपकी city और state भी बता दीजिए please।",
+      "start": 49.93,
+      "end": 56.97
+    },
+    {
+      "role": "BUYER",
+      "text": "लेकिन ज्यादा figure है ये कहाँ से है Kolkata से है की हमारे पास कई अच्छे sellers हैं।",
+      "start": 59.39,
+      "end": 66.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी city और state बता दीजिए फिर मैं आपको सही seller से connect कर दूंगी।",
+      "start": 66.05,
+      "end": 70.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारे पास। मतलब मुझे मैं आ रही हूँ देखने के लिए नहीं मिलेगा क्या address बताइए ना।",
+      "start": 64.57,
+      "end": 78.81
+    },
+    {
+      "role": "BOT",
+      "text": "मैं address नहीं दे सकती पर आप अपनी city बता दीजिए फिर मैं आपको best seller से connect करवा दूंगी।",
+      "start": 80.03,
+      "end": 85.37
+    },
+    {
+      "role": "BUYER",
+      "text": "address नहीं बताएगा तो फिर कैसे हमको पता चलेगा?",
+      "start": 89.93,
+      "end": 93.45
+    },
+    {
+      "role": "BOT",
+      "text": "आप seller से connect होने के बाद address discuss कर सकते हैं। Please अपनी city बता दीजिए।",
+      "start": 94.37,
+      "end": 99.33
+    },
+    {
+      "role": "BUYER",
+      "text": "connect तो हो के connect किया।",
+      "start": 101.91,
+      "end": 104.05
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिये आपकी आवाज़ clear नहीं है जरा दोबारा बताइए आप अपनी city और state बता दीजिये please",
+      "start": 105.19,
+      "end": 111.57
+    },
+    {
+      "role": "BUYER",
+      "text": "दीजिए आपकी आवाज़ clear नहीं है थोड़ा दोबारा बताइए आप अपनी city और state बता दीजिए please मैं तो आपसे बात कर रही हूँ पर ये कौन सा जगह है किधर मिलता है कहाँ मिलता है वो कैसे आएगा",
+      "start": 105.67,
+      "end": 124.37
+    },
+    {
+      "role": "BOT",
+      "text": "या food है। समझ गई। आप अपनी city और state बता दीजिए ताकि मैं आपके पास के best seller से connect करवा सकूं।",
+      "start": 123.37,
+      "end": 130.95
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब क्या बताऊँ मेरे को मेरा address बताओ।",
+      "start": 134.41,
+      "end": 138.23
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप बस अपनी city और state बता दीजिए।",
+      "start": 138.53,
+      "end": 140.95
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। कुछ समझ में आ रही है। मुझे आपकी बात समझ आ रही है।",
+      "start": 141.53,
+      "end": 150.78
+    },
+    {
+      "role": "BOT",
+      "text": "Please आप बस अपनी city और state बता दीजिए।",
+      "start": 150.78,
+      "end": 153.19
+    },
+    {
+      "role": "BUYER",
+      "text": "देखा।",
+      "start": 160.75,
+      "end": 161.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 13,
+    "longest_gap_s": 7.56,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 153.19,
+        "end": 160.75,
+        "duration_s": 7.56,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

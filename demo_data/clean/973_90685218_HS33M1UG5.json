@@ -1,0 +1,122 @@
+{
+  "call_id": "973_90685218_HS33M1UG5",
+  "file": "data/recordings/973_90685218_HS33M1UG5.mp3",
+  "duration_s": 77.4,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Epsolon 300 Mega Tablets की requirement है ना?",
+      "start": 0.15,
+      "end": 4.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी Sir।",
+      "start": 5.65,
+      "end": 6.69
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने box या bottle की जरूरत है?",
+      "start": 7.85,
+      "end": 14.69
+    },
+    {
+      "role": "BUYER",
+      "text": "एक बोतल।",
+      "start": 15.85,
+      "end": 16.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब strength के बारे में बात कर लेते हैं। आपको 25 milligram या 50 milligrams में से कौन सा चाहिए या कुछ और?",
+      "start": 18.03,
+      "end": 24.47
+    },
+    {
+      "role": "BUYER",
+      "text": "पच्चीस milligram।",
+      "start": 26.23,
+      "end": 27.67
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको समझ से किस उपयोग के लिए चाहिए जैसे reselling, hospital use या कुछ और?",
+      "start": 28.65,
+      "end": 33.37
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं जी घरेलू जैसे खाने के लिए।",
+      "start": 34.89,
+      "end": 37.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब आप अपनी city और state भी बता दीजिए please।",
+      "start": 38.59,
+      "end": 41.47
+    },
+    {
+      "role": "BUYER",
+      "text": "सासनी जसनाना। ठीक है। आप अपनी city और state भी बता दीजिए please। वीडियो से। गाँव जसराना गाँव है सातमी city है city city के पास जसराना है।",
+      "start": 42.55,
+      "end": 55.89
+    },
+    {
+      "role": "BOT",
+      "text": "आप काशी उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 57.09,
+      "end": 59.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँजी हाँजी हाँजी।",
+      "start": 59.77,
+      "end": 61.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] जी बोल रहे हैं ना?",
+      "start": 62.63,
+      "end": 64.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 65.49,
+      "end": 66.13
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 67.13,
+      "end": 74.89
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद। Ma'am कब तक आएगी Ma'am?",
+      "start": 73.05,
+      "end": 77.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.56,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

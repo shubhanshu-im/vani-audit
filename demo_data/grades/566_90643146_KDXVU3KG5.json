@@ -1,0 +1,400 @@
+{
+  "call_id": "566_90643146_KDXVU3KG5",
+  "duration_s": 137.3,
+  "graded_at": "2026-10-10T12:36:02+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Accuracy (Numeric): Buyer said one piece, bot offered 10 or 20, causing confusion.",
+  "fatal_params": [
+    "Quantity Accuracy (Numeric)",
+    "Qty Missed Opportunity",
+    "Additional Observation"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको Arabian tent house in Tamil Nadu की requirements है ना?",
+      "timestamp": 0.01,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer confirmed product, but bot failed to capture quantity and closed abruptly.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.6,
+      "llm_severity": "NON_FATAL"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्या आपको दस piece चाहिए या बीस?",
+      "timestamp": 27.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said one piece, bot offered 10 or 20, causing confusion.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.6
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्या आपको दस piece चाहिए या बीस?",
+      "timestamp": 27.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer clearly stated one piece, bot ignored it and offered 10 or 20.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.6
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको 50 to 100 people या 100 to 200 people वाला चाहिए?",
+      "timestamp": 33.25,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 20 people, bot offered 50-100 or 100-200.",
+      "evidence_verified": true,
+      "llm_timestamp": 33.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जो आपने दिखाया ना यहां पर photo में वो भी चाहिए।",
+      "timestamp": 59.37,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Buyer requested photo sharing, bot didn't address this spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको नहीं नहीं ਇੱਕ ਚੀਜ਼ ਚਾਹੀਦੀ ਦੱਸ ਦਿਓ।",
+      "timestamp": 22.5,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's Hindi as Punjabi, causing brief confusion.",
+      "evidence_verified": false
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं seller से बात कर सकते हैं वो आपको best rates देंगे।",
+      "timestamp": 86.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered seller connection but never asked for transfer consent or completed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 86.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं salary details भेजती हूं।",
+      "timestamp": 127.83,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot made a completely irrelevant statement, damaging the lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 127.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको Arabian tent house in Tamil Nadu की requirements है ना?",
+      "timestamp": 0.01,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer confirmed product, but bot failed to capture quantity and closed abruptly.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.6,
+      "llm_severity": "NON_FATAL"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्या आपको दस piece चाहिए या बीस?",
+      "timestamp": 27.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said one piece, bot offered 10 or 20, causing confusion.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.6
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was discussed but bot never confirmed the unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको कितने piece की जरूरत है?",
+      "timestamp": 7.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity as per protocol."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्या आपको दस piece चाहिए या बीस?",
+      "timestamp": 27.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer clearly stated one piece, bot ignored it and offered 10 or 20.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.6
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको 50 to 100 people या 100 to 200 people वाला चाहिए?",
+      "timestamp": 33.25,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 20 people, bot offered 50-100 or 100-200.",
+      "evidence_verified": true,
+      "llm_timestamp": 33.2
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Frame material was asked but buyer didn't answer, bot skipped it."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जो आपने दिखाया ना यहां पर photo में वो भी चाहिए।",
+      "timestamp": 59.37,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Buyer requested photo sharing, bot didn't address this spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "बस कुछ details और confirm कर दीजिए।",
+      "timestamp": 86.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot repeated closing request, but not in a harmful loop."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको नहीं नहीं ਇੱਕ ਚੀਜ਼ ਚਾਹੀਦੀ ਦੱਸ ਦਿਓ।",
+      "timestamp": 22.5,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's Hindi as Punjabi, causing brief confusion.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं seller से बात कर सकते हैं वो आपको best rates देंगे।",
+      "timestamp": 86.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered seller connection but never asked for transfer consent or completed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 86.0
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको Arabian tent house in Tamil Nadu की requirements है ना?",
+      "timestamp": 7.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available to judge search accuracy."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं salary details भेजती हूं।",
+      "timestamp": 127.83,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot made a completely irrelevant statement, damaging the lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 127.8
+    }
+  ],
+  "captured_lead": {
+    "product": "Arabian tent house",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "capacity people",
+        "value": "20"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Srinagar",
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured quantity as 10/20 instead of 1.",
+      "timestamp": 27.6,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer gave conflicting answers due to bot's confusion.",
+      "timestamp": 22.5,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 22.51,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot misheard quantity as 10 or 20 instead of 1, offered wrong capacity options, and abruptly ended the call with an irrelevant salary message.",
+  "analysis": "Buyer wants one piece of Arabian tent house in Tamil Nadu. Bot failed to capture quantity correctly (confirmed 10 or 20, then 50-100 people capacity), and abruptly ended the call with a salary message. Buyer provided name ([NAME] [NAME]) and city (Srinagar, Jammu & Kashmir), but no state. Bot offered live seller transfer but never completed it.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[capacity people] = '20': number(s) ['20'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 16307,
+    "completion_tokens": 4599
+  },
+  "unresolved_problems": [
+    "WER: evidence_quote not found verbatim in any transcript line: 'आपको नहीं नहीं ਇੱਕ ਚੀਜ਼ ਚਾਹੀਦੀ ਦੱਸ ਦਿਓ।'"
+  ]
+}

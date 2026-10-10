@@ -1,0 +1,152 @@
+{
+  "call_id": "638_90685106_BGADK1UG5",
+  "file": "data/recordings/638_90685106_BGADK1UG5.mp3",
+  "duration_s": 124.56,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको mint and tone toothpaste पसंद है packaging type box packaging size 80 gm की requirement है ना?",
+      "start": 0.01,
+      "end": 7.61
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Ma'am.",
+      "start": 9.63,
+      "end": 10.25
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 11.43,
+      "end": 17.31
+    },
+    {
+      "role": "BUYER",
+      "text": "ਮੇਰੇ ਕੋਲ ਕੀ ਨਾਮ ਹੈ ਪਾਰਸ਼ਕ ਬਹੱਤਰ।",
+      "start": 20.55,
+      "end": 24.51
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए कि आपको कितनी quantity चाहिए।",
+      "start": 24.51,
+      "end": 30.01
+    },
+    {
+      "role": "BUYER",
+      "text": "उसमें कितना वो होता है एक एक box में?",
+      "start": 32.63,
+      "end": 35.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप approximate number बता दीजिए जैसे कि आपको 10 या 20 piece चाहिए। इसे बाद में adjust किया जा सकता है।",
+      "start": 36.93,
+      "end": 42.79
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मतलब packing कितने करते हो आप बारह piece करते हो कितने करते हो?",
+      "start": 44.93,
+      "end": 48.91
+    },
+    {
+      "role": "BOT",
+      "text": "आप पूरी list sellers को भेज दीजिएगा वो आपकी मदद करेंगे लेकिन best seller से connect करने के लिए quantity confirm कर दीजिए please.",
+      "start": 50.05,
+      "end": 56.73
+    },
+    {
+      "role": "BUYER",
+      "text": "करीब समझो सत्तर सत्तर अस्सी के बीच में।",
+      "start": 60.43,
+      "end": 64.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब brand के बारे में बात करते हैं। आपको कौन सा चाहिए जैसे Colgate, Dabur या कुछ और?",
+      "start": 65.01,
+      "end": 70.17
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं जो Denton है वही।",
+      "start": 72.15,
+      "end": 74.65
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब pack size के बारे में बताइए। आपको कौन सा चाहिए जैसे 100 grams, 150 grams या कुछ और?",
+      "start": 75.77,
+      "end": 81.85
+    },
+    {
+      "role": "BUYER",
+      "text": "अस्सी ग्राम में हो सौ में हो अस्सी माता का पहले थे।",
+      "start": 86.03,
+      "end": 89.55
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं आपको tight paste ऐसी चाहिए ना?",
+      "start": 90.49,
+      "end": 93.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 95.39,
+      "end": 95.91
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई please दोबारा बताइए कि आपको type paste page ही चाहिए ना?",
+      "start": 97.27,
+      "end": 101.99
+    },
+    {
+      "role": "BUYER",
+      "text": "तो Bank Town Bank Town.",
+      "start": 98.57,
+      "end": 106.25
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 107.23,
+      "end": 113.07
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Ma'am.",
+      "start": 114.63,
+      "end": 115.33
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 116.35,
+      "end": 119.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 10,
+    "longest_gap_s": 4.18,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

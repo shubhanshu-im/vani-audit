@@ -1,0 +1,339 @@
+{
+  "call_id": "992_90797524_CGDBZXFH5",
+  "duration_s": 83.95,
+  "graded_at": "2026-10-10T12:47:53+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Bot heard 'thirty' as '30 A' and did not capture the buyer's correction to 32A.",
+  "fatal_params": [
+    "Spec1 Accuracy",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "current rating thirty",
+      "timestamp": 25.43,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot heard 'thirty' as '30 A' and did not capture the buyer's correction to 32A.",
+      "evidence_verified": true,
+      "llm_timestamp": 25.4
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "rating में बत्तीस का rating का चाहिए बत्तीस A का thirty two A का।",
+      "timestamp": 60.53,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer corrected rating to 32A but bot missed this.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.5
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "current rating thirty",
+      "timestamp": 25.43,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'thirty' as '30 A' instead of 30.",
+      "evidence_verified": true,
+      "llm_timestamp": 25.4
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी।",
+      "timestamp": 7.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to connect a seller but never actually transferred the call.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 65.87,
+      "root_cause_type": null,
+      "confidence": "high",
+      "reason": "Bot promised to send details on WhatsApp, which is a minor deviation from standard closing.",
+      "evidence_verified": true,
+      "llm_timestamp": 65.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had clear requirement and bot proceeded to close."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed buyer's quantity of 1 piece."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's unit 'piece' was captured correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 1 piece was captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "current rating thirty",
+      "timestamp": 25.43,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot heard 'thirty' as '30 A' and did not capture the buyer's correction to 32A.",
+      "evidence_verified": true,
+      "llm_timestamp": 25.4
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "number of ways में six way चाहिए सही है ना?",
+      "timestamp": 53.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 6-way/6-hole spec."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "rating में बत्तीस का rating का चाहिए बत्तीस A का thirty two A का।",
+      "timestamp": 60.53,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer corrected rating to 32A but bot missed this.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for spec only once, no loops."
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "current rating thirty",
+      "timestamp": 25.43,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'thirty' as '30 A' instead of 30.",
+      "evidence_verified": true,
+      "llm_timestamp": 25.4
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were captured or stated by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी।",
+      "timestamp": 7.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to connect a seller but never actually transferred the call.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.1
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors indicated."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air issues."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 65.87,
+      "root_cause_type": null,
+      "confidence": "high",
+      "reason": "Bot promised to send details on WhatsApp, which is a minor deviation from standard closing.",
+      "evidence_verified": true,
+      "llm_timestamp": 65.9
+    }
+  ],
+  "captured_lead": {
+    "product": "30 M Bakelite close connector",
+    "quantity": "1 piece",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "current rating",
+        "value": "30 A"
+      },
+      {
+        "name": "number of ways",
+        "value": "six way"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured 30A instead of buyer's 32A rating.",
+      "timestamp": 60.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard 'thirty' as '30 A', and failed to capture buyer's correction to 32A. Also offered seller connection but never transferred.",
+  "analysis": "Buyer wanted 1 piece of 30A Bakelite close connector (6-hole). Bot asked for current rating (30A) and number of ways. Buyer corrected rating to 32A. Bot confirmed 6-way/6-hole. Bot closed by promising seller details on WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3753,
+    "completion_tokens": 1644
+  },
+  "unresolved_problems": []
+}

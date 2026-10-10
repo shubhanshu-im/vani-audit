@@ -1,0 +1,195 @@
+{
+  "call_id": "277_90797323_XXNAWXFH5",
+  "file": "data/recordings/277_90797323_XXNAWXFH5.mp3",
+  "duration_s": 192.67,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए?",
+      "start": 0.09,
+      "end": 2.47
+    },
+    {
+      "role": "BUYER",
+      "text": "ये तो दस किलो वाला है ना? इसका weight दस किलो दस के गया ना।",
+      "start": 4.57,
+      "end": 10.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक समझा आपने। आप जिस product के बारे में पूछ रहे हैं उसका वज़न 10 kg है। सही समझा? क्या आप इसी product की inquiry कर रहे हैं जो आमतौर पर 10 kg वज़न में आता है?",
+      "start": 12.77,
+      "end": 21.51
+    },
+    {
+      "role": "BUYER",
+      "text": "ये तो इसका size क्या होगा बता सकते हैं उसका? दस किलो वजन तो है। हाँ।",
+      "start": 23.53,
+      "end": 31.29
+    },
+    {
+      "role": "BOT",
+      "text": "दस किलो अजवाइन",
+      "start": 28.87,
+      "end": 29.87
+    },
+    {
+      "role": "BUYER",
+      "text": "size नहीं मालूम है आपको?",
+      "start": 34.65,
+      "end": 35.93
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं मालूम है आपको?",
+      "start": 34.89,
+      "end": 35.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 38.03,
+      "end": 38.49
+    },
+    {
+      "role": "BOT",
+      "text": "सही सवाल है। product के packaging size के कुछ options हैं। पचास milliliter, सौ milliliter, दो सौ milliliter, पांच सौ milliliter, एक kilogram, पांच kilogram। इनमें से कौन सा size चाहिए आपको या कुछ और?",
+      "start": 38.07,
+      "end": 48.93
+    },
+    {
+      "role": "BUYER",
+      "text": "एक किलोग्राम पाँच किलोग्राम अच्छा तो size मतलब सबसे बड़ा वाला size कैसे जैसे समझ लो कबाब पाव वाला का पास रहता है सबसे बड़ा वाला size ज्यादा नहीं ज्यादा जैसा हो गया कुछ। सबसे बड़ा size option पांच।",
+      "start": 50.51,
+      "end": 68.71
+    },
+    {
+      "role": "BOT",
+      "text": "सबसे बड़ा size option पाँच।",
+      "start": 66.93,
+      "end": 68.67
+    },
+    {
+      "role": "BUYER",
+      "text": "खाना उंडन के लिए नहीं वो बड़ा वाला तवा नहीं। वो वाला तवा जिसके बस कबाब पाव का पास रहता है सबसे बड़ा वाला।",
+      "start": 70.07,
+      "end": 77.39
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी बात पूरी तरह समझ नहीं आई। क्या आप product का नाम या category थोड़ा साफ़-साफ़ बता सकते हैं जिससे मैं आपकी सही मदद कर सकूं?",
+      "start": 79.11,
+      "end": 86.79
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आपकी बात पूरी। आप एक बार बीस kg वाला मेरे को कर दो WhatsApp। ठीक है? इसके बाद आपको बता देता हूँ।",
+      "start": 79.45,
+      "end": 96.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने pieces चाहिए? मैं Tania बोल रही हूं।",
+      "start": 98.41,
+      "end": 99.85
+    },
+    {
+      "role": "BUYER",
+      "text": "एक ही चाहिए ज्यादा नहीं चाहिए। एक piece चाहिए लेकिन वो बिचपेची वाला एक बार मेरे को WhatsApp कीजिए ना call up order। Hello.",
+      "start": 110.19,
+      "end": 120.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "start": 122.49,
+      "end": 125.19
+    },
+    {
+      "role": "BUYER",
+      "text": "इसपे उसका मतलब मैं बोल रहा था देखिए मतलब।",
+      "start": 126.61,
+      "end": 131.35
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप अपनी city और state का नाम बता दीजिए ताकि मैं seller details भेज सकूं।",
+      "start": 133.31,
+      "end": 137.91
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा अच्छा अच्छा।",
+      "start": 137.79,
+      "end": 138.87
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you. बस city और state बता दीजिए।",
+      "start": 140.77,
+      "end": 143.65
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं बता रहा हूँ एक minute रुकिए ना।",
+      "start": 142.15,
+      "end": 145.69
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल आप आराम से बताइए। मैं इंतजार कर रही हूं। क्या आप अभी भी line पे हैं? बस city और state बता दीजिए please. क्या आप आगे बात करना चाहेंगे? अगर हां तो बस city और state बता दीजिए।",
+      "start": 147.59,
+      "end": 175.27
+    },
+    {
+      "role": "BUYER",
+      "text": "তা আবার যে সাইজ আছে শরীরেটা কেমন হবে?",
+      "start": 182.93,
+      "end": 187.99
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 191.39,
+      "end": 192.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 12,
+    "longest_gap_s": 8.54,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 150.55,
+        "end": 159.09,
+        "duration_s": 8.54,
+        "after_role": "BOT"
+      },
+      {
+        "start": 162.93,
+        "end": 171.27,
+        "duration_s": 8.34,
+        "after_role": "BOT"
+      },
+      {
+        "start": 175.27,
+        "end": 182.93,
+        "duration_s": 7.66,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

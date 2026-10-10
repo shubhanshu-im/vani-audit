@@ -1,0 +1,33 @@
+{
+  "call_id": "188_90741499_GI0IFL4H5",
+  "file": "data/recordings/188_90741499_GI0IFL4H5.mp3",
+  "duration_s": 13.25,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Panasonic NS300 IP PBX system की requirement है ना?",
+      "start": 0.01,
+      "end": 5.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

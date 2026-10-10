@@ -1,0 +1,164 @@
+{
+  "call_id": "256_90643071_4S8UT3KG5",
+  "file": "data/recordings/256_90643071_4S8UT3KG5.mp3",
+  "duration_s": 134.93,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हम यही चाहिए स्वामी जी।",
+      "start": 1.97,
+      "end": 6.15
+    },
+    {
+      "role": "BOT",
+      "text": "आपको वो product चाहिए जो घर या दुकान में पानी पहुंचाने या निकालने के काम आता है। जैसे water tap या related items। यही चाहिए ना?",
+      "start": 8.57,
+      "end": 16.19
+    },
+    {
+      "role": "BUYER",
+      "text": "बेरा नहीं था air का ही है ना ये।",
+      "start": 18.01,
+      "end": 20.39
+    },
+    {
+      "role": "BOT",
+      "text": "आप clarify करना चाह रहे हैं कि यह product beer से जुड़ा है या पानी के नल के लिए है? आप किस use के लिए product मांग रहे हैं?",
+      "start": 22.27,
+      "end": 28.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am here serum.",
+      "start": 30.51,
+      "end": 31.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप hair serum जो बालों को मजबूत और चमकदार बनाने के लिए इस्तेमाल होता है, यही product चाहिए ना?",
+      "start": 33.83,
+      "end": 39.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हम जो नाम ध्यान करने वाले।",
+      "start": 40.73,
+      "end": 42.77
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं सिर्फ IndiaMART product या खरीदारी से जुड़ी मदद कर सकती हूँ। आप hair serum के लिए inquiry कर रहे थे क्या quantity बता सकते हैं?",
+      "start": 44.79,
+      "end": 52.57
+    },
+    {
+      "role": "BUYER",
+      "text": "ढाई सौ ml one।",
+      "start": 56.11,
+      "end": 57.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितनी bottles चाहिए होंगी?",
+      "start": 60.39,
+      "end": 70.57
+    },
+    {
+      "role": "BUYER",
+      "text": "नाम फिलहाल तो एक ही है जी।",
+      "start": 72.67,
+      "end": 74.63
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको packaging size में 100 milliliter, 50 milliliter जैसे options मिलेंगे। आपको कौन सा size चाहिए? जैसे 100 milliliter या 50 milliliter या कुछ और?",
+      "start": 76.59,
+      "end": 85.87
+    },
+    {
+      "role": "BUYER",
+      "text": "पचास में।",
+      "start": 87.13,
+      "end": 88.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप ये hair serum किसके लिए ले रहे हैं? business, retail या personal use के लिए?",
+      "start": 90.57,
+      "end": 95.43
+    },
+    {
+      "role": "BUYER",
+      "text": "personally use कर लेंगे।",
+      "start": 97.59,
+      "end": 100.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 103.75,
+      "end": 106.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Status Punjab India.",
+      "start": 108.47,
+      "end": 110.49
+    },
+    {
+      "role": "BOT",
+      "text": "आप trainer से बोल रहे हो?",
+      "start": 112.47,
+      "end": 114.49
+    },
+    {
+      "role": "BUYER",
+      "text": "ਲੁਧਿਆਣਾ ਤੱਕ ਪੰਜ ਘੰਟੇ ਹਾਂਜੀ ma'am।",
+      "start": 112.87,
+      "end": 116.25
+    },
+    {
+      "role": "BOT",
+      "text": "आप [NAME] जी Ludhiana Punjab से बोल रहे हैं ना?",
+      "start": 118.23,
+      "end": 120.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes ma'am.",
+      "start": 121.73,
+      "end": 122.57
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 124.59,
+      "end": 132.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 11,
+    "longest_gap_s": 3.54,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

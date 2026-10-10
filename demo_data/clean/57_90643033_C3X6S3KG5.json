@@ -1,0 +1,56 @@
+{
+  "call_id": "57_90643033_C3X6S3KG5",
+  "file": "data/recordings/57_90643033_C3X6S3KG5.mp3",
+  "duration_s": 20.59,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.75
+    },
+    {
+      "role": "BUYER",
+      "text": "नाम क्या?",
+      "start": 3.23,
+      "end": 4.45
+    },
+    {
+      "role": "BOT",
+      "text": "मेरा नाम Tanya है। मैं India Mart से बोल रही हूं। आपको कौन सा product चाहिए था?",
+      "start": 5.99,
+      "end": 10.19
+    },
+    {
+      "role": "BUYER",
+      "text": "आम क्या बोल रही?",
+      "start": 11.19,
+      "end": 12.77
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से Tania बोल रही हूं। आपकी किस product या service के लिए inquiry थी?",
+      "start": 14.69,
+      "end": 18.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.92,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

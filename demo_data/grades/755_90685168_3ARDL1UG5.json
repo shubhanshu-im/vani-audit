@@ -1,0 +1,330 @@
+{
+  "call_id": "755_90685168_3ARDL1UG5",
+  "duration_s": 161.5,
+  "graded_at": "2026-10-10T12:41:06+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Looping Behavior: Bot looped on city/state 8/3 and 6/3 times, exceeding limits, causing buyer frustration.",
+  "fatal_params": [
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आप अपनी city और state बता दीजिए फिर मैं आपको सही seller से connect कर दूंगी।",
+      "timestamp": 66.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on city/state 8/3 and 6/3 times, exceeding limits, causing buyer frustration.",
+      "evidence_verified": true,
+      "llm_timestamp": 66.0
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप seller से connect होने के बाद address discuss कर सकते हैं।",
+      "timestamp": 94.37,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot told buyer to discuss address with seller but never transferred call.",
+      "evidence_verified": true,
+      "llm_timestamp": 94.4
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Please आप बस अपनी city और state बता दीजिए।",
+      "timestamp": 150.78,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot-side silence of over 5 seconds before abrupt end.",
+      "evidence_verified": true,
+      "llm_timestamp": 150.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं address नहीं दे सकती पर आप अपनी city बता दीजिए फिर मैं आपको best seller से connect करवा दूंगी।",
+      "timestamp": 80.03,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot correctly refused to give address per policy but failed to transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 80.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated a clear requirement and bot attempted lead collection."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured quantity 1 correctly from buyer."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit mismatch occurred."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked and captured quantity."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured successfully."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured spec as marble temple/tulsi mandir."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for a second spec."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional specs were requested by the bot."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आप अपनी city और state बता दीजिए फिर मैं आपको सही seller से connect कर दूंगी।",
+      "timestamp": 66.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on city/state 8/3 and 6/3 times, exceeding limits, causing buyer frustration.",
+      "evidence_verified": true,
+      "llm_timestamp": 66.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear misrecognized words impacting the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप seller से connect होने के बाद address discuss कर सकते हैं।",
+      "timestamp": 94.37,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot told buyer to discuss address with seller but never transferred call.",
+      "evidence_verified": true,
+      "llm_timestamp": 94.4
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent as marble temple."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system search data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Please आप बस अपनी city और state बता दीजिए।",
+      "timestamp": 150.78,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot-side silence of over 5 seconds before abrupt end.",
+      "evidence_verified": true,
+      "llm_timestamp": 150.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं address नहीं दे सकती पर आप अपनी city बता दीजिए फिर मैं आपको best seller से connect करवा दूंगी।",
+      "timestamp": 80.03,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot correctly refused to give address per policy but failed to transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 80.0
+    }
+  ],
+  "captured_lead": {
+    "product": "marble temple",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "marble type",
+        "value": "Makrana"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot repeatedly asked for city and state exceeding limits.",
+      "timestamp": 66.0,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer asked for seller address and expressed confusion.",
+      "timestamp": 134.4,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer requested address of seller and human connection.",
+      "timestamp": 134.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped excessively on city/state and failed to transfer the call to a seller when requested, leading to abrupt termination.",
+  "analysis": "Buyer wanted a marble temple (tulsi mandir) for puja, needing 1 piece. Bot confirmed product and quantity. Bot looped on city and state, failing to capture location. Buyer got frustrated and asked for the seller's address. Bot refused to provide address, stating it would connect them with a seller, but never actually transferred the call or successfully captured the city/state. Call ended abruptly with bot cut off.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4370,
+    "completion_tokens": 1369
+  },
+  "unresolved_problems": []
+}

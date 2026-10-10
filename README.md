@@ -50,6 +50,8 @@ Or run the steps one at a time:
 | 10 | Before/after voice clips | `pipeline/voice.py` | `outputs/audio/` |
 | 11 | Numbers for the slide | `pipeline/summary.py` | `outputs/results_summary.md` |
 
+**Hosted dashboard.** Recordings, transcripts and per-call outputs are not in git. `pipeline/export_demo_data.py` writes a masked copy of what the dashboard reads (buyer names and phone numbers masked, no audio) to `demo_data/`, which is committed. When `outputs/grades/` is empty, as on Streamlit Community Cloud, the dashboard reads `demo_data/` instead. To deploy, open share.streamlit.io, pick this repo and set the main file to `pipeline/dashboard.py`. Re-run the export after a new grading run.
+
 Two helper scripts:
 - **Hand-label set:** `pipeline/make_label_set.py` writes `data/labels/`; the instructions for labellers are in `data/labels/LABELLING_GUIDE.md`.
 - **Prompt conversion:** `pipeline/convert_prompt.py` rebuilds `docs/vani_buyer_prompt.md` from the official `.docx`.

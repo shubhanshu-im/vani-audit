@@ -1,0 +1,322 @@
+{
+  "call_id": "520_90643095_06GBU3KG5",
+  "duration_s": 87.48,
+  "graded_at": "2026-10-10T12:35:01+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, WER, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello Mangesh ji, you are looking for Ambika nylon rubber band packaging type packet packaging size 500 g right?",
+      "timestamp": 0.15,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated product confirmation after buyer said no.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello Mangesh ji, you are looking for Ambika nylon rubber band packaging type packet packaging size 500 g right?",
+      "timestamp": 0.15,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard product details initially.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.1
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 57.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered to send details instead of live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 57.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 57.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot made a delivery promise on WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 57.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clearly stated a product need and bot proceeded."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided 50 kgs."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'kilos', bot used 'kilogram' and 'kgs'."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and provided."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity captured as 50 kgs."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Which one would you like, one inch or something else?",
+      "timestamp": 36.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 1.5, 2, 3; bot asked for inch size."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "What would you prefer for base type waterline, first quality or something else?",
+      "timestamp": 46.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'quality quality', bot captured first quality."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Size and quality captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello Mangesh ji, you are looking for Ambika nylon rubber band packaging type packet packaging size 500 g right?",
+      "timestamp": 0.15,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated product confirmation after buyer said no.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Hello Mangesh ji, you are looking for Ambika nylon rubber band packaging type packet packaging size 500 g right?",
+      "timestamp": 0.15,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard product details initially.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 57.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered to send details instead of live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 57.0
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed Ambika brand."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 57.01,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot made a delivery promise on WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 57.0
+    }
+  ],
+  "captured_lead": {
+    "product": "Ambika nylon rubber band",
+    "quantity": "50",
+    "quantity_unit": "kgs",
+    "specs": [
+      {
+        "name": "size",
+        "value": "1.5, 2, 3"
+      },
+      {
+        "name": "base type",
+        "value": "first quality"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer corrected bot twice before proceeding.",
+      "timestamp": 12.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard product details and looped on confirmation. Closed by sending seller details on WhatsApp instead of live transfer.",
+  "analysis": "Buyer called for Ambika nylon rubber bands for America, needing 50 kgs in sizes 1.5, 2, 3, with first quality. Bot misheard product initially, asked quantity, size, base type, then closed by sending seller details on WhatsApp. Buyer confirmed brand Ambika.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.quantity = '50': number(s) ['50'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3772,
+    "completion_tokens": 1339
+  },
+  "unresolved_problems": []
+}

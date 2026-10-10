@@ -1,0 +1,170 @@
+{
+  "call_id": "529_90741581_P47ZGL4H5",
+  "file": "data/recordings/529_90741581_P47ZGL4H5.mp3",
+  "duration_s": 120.6,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको Canon 177 air rifle black by Airsoft Gun India की requirement है ना?",
+      "start": 0.01,
+      "end": 7.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 8.37,
+      "end": 8.87
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब brand के बारे में बात कर लेते हैं। आपको कौन सा चाहिए प्रेसी होल्स स्पोर्ट्स या कुछ और?",
+      "start": 10.13,
+      "end": 19.69
+    },
+    {
+      "role": "BUYER",
+      "text": "black color।",
+      "start": 21.29,
+      "end": 23.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? पर अभी हम brand की बात कर रहे हैं। आप Precihole Sports लेना चाहेंगे या कोई और brand?",
+      "start": 24.79,
+      "end": 29.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Blank blank.",
+      "start": 31.29,
+      "end": 32.13
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आप brand में क्या prefer करेंगे?",
+      "start": 33.25,
+      "end": 37.97
+    },
+    {
+      "role": "BUYER",
+      "text": "आह चले गए।",
+      "start": 39.79,
+      "end": 41.45
+    },
+    {
+      "role": "BOT",
+      "text": "मुझे अभी भी clear नहीं हो पाया। Please एक बार फिर से बता दीजिए brand कौन सा चाहिए?",
+      "start": 42.67,
+      "end": 46.77
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी भी clear नहीं। Black color brand Ergun.",
+      "start": 42.89,
+      "end": 50.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? Yergon brand note कर लिया। मैं देख पा रही हूं आपको type A rifle ही चाहिए ना?",
+      "start": 51.25,
+      "end": 56.29
+    },
+    {
+      "role": "BUYER",
+      "text": "Rappu नहीं है अभी Yargan चाहिए।",
+      "start": 57.75,
+      "end": 59.67
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप Raipur नहीं Yercaud से आते हैं तो Type Air Rifle ही रहेगा ना?",
+      "start": 60.61,
+      "end": 65.19
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं रहेगा। हाँ।",
+      "start": 64.45,
+      "end": 67.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 68.73,
+      "end": 71.39
+    },
+    {
+      "role": "BUYER",
+      "text": "সে একটা নিগালে আছে।",
+      "start": 72.67,
+      "end": 75.61
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आप कौनसी city और state से बोल रहे हैं?",
+      "start": 76.67,
+      "end": 81.75
+    },
+    {
+      "role": "BUYER",
+      "text": "धुरा West Karvi.",
+      "start": 83.63,
+      "end": 86.73
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। Please एक बार फिर से बता दीजिए आप कौन सी city से बोल रहे हैं?",
+      "start": 87.89,
+      "end": 92.89
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। चूरा चूरा।",
+      "start": 94.65,
+      "end": 97.85
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप state से बोल रहे हैं कृपया बता दीजिए।",
+      "start": 96.75,
+      "end": 99.81
+    },
+    {
+      "role": "BUYER",
+      "text": "मेघालय मेघालय। मुझे आपकी city समझ नहीं आई कोई बात नहीं। आप [NAME] [NAME] जी बोल रहे हैं ना? मिळाला. हाँ।",
+      "start": 100.79,
+      "end": 109.49
+    },
+    {
+      "role": "BOT",
+      "text": "आपको Ma'am",
+      "start": 110.35,
+      "end": 111.45
+    },
+    {
+      "role": "BUYER",
+      "text": "निकला या state निकला या wait करिस हाँ। उसकी।",
+      "start": 110.65,
+      "end": 120.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 12,
+    "longest_gap_s": 3.18,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

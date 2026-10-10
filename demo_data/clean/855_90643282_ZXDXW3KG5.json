@@ -1,0 +1,110 @@
+{
+  "call_id": "855_90643282_ZXDXW3KG5",
+  "file": "data/recordings/855_90643282_ZXDXW3KG5.mp3",
+  "duration_s": 68.26,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको एक point पाँच inch और पच्चीस inch Tata Ace radiator pipe की requirement है ना?",
+      "start": 0.65,
+      "end": 6.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हां हां Ma'am.",
+      "start": 7.99,
+      "end": 8.87
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 10.11,
+      "end": 16.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am इक्कीस सौ एक सौ एक।",
+      "start": 17.81,
+      "end": 19.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? तो आपको एक thing चाहिए।",
+      "start": 20.57,
+      "end": 22.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 23.93,
+      "end": 24.57
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं। आपको truck brand Tata ही चाहिए ना?",
+      "start": 25.35,
+      "end": 29.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ कौन सा भी मिल जाएगा ma'am Tata में मिले तो और दूसरा भी मिल जाएगा कोई भी चलेगा।",
+      "start": 30.45,
+      "end": 34.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तो आप किसी और brand का भी देख रहे हैं? बताइए truck model कौन सा चाहिए?",
+      "start": 35.91,
+      "end": 40.09
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी आज मेरा चाहिए Tata Super Extra pipe regulator लोहे वाला।",
+      "start": 42.55,
+      "end": 45.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? तो आपको Tata Super Ace के लिए लोहे वाला pipe चाहिए। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 47.11,
+      "end": 54.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Okay Ma'am ठीक है।",
+      "start": 51.23,
+      "end": 57.15
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 58.19,
+      "end": 61.03
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद। Thank you ma'am.",
+      "start": 61.17,
+      "end": 63.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.46,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

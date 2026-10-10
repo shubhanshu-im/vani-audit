@@ -1,0 +1,146 @@
+{
+  "call_id": "727_90685139_7WHWK1UG5",
+  "file": "data/recordings/727_90685139_7WHWK1UG5.mp3",
+  "duration_s": 123.7,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको unwanted kit की requirement है ना?",
+      "start": 0.01,
+      "end": 3.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Ma'am.",
+      "start": 5.23,
+      "end": 5.77
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने box या kit या strip चाहिए?",
+      "start": 7.23,
+      "end": 13.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam एक kit चाहिए।",
+      "start": 15.83,
+      "end": 18.67
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई एक kit चाहिए। अब बताइए composition में क्या prefer करेंगे mifepristone and misoprostol, mifepristone या कुछ और?",
+      "start": 20.51,
+      "end": 27.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Mysore?",
+      "start": 28.73,
+      "end": 29.35
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप composition में क्या prefer करेंगे Misoprostol and Misoprostol, Misoprostol या कुछ और?",
+      "start": 30.53,
+      "end": 37.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am other language नहीं आती है आपको।",
+      "start": 40.15,
+      "end": 43.01
+    },
+    {
+      "role": "BOT",
+      "text": "मैं अभी सिर्फ हिंदी और English में बात कर सकती हूं। आप composition में क्या prefer करेंगे? Mefepristone and Misoprostol, Mefepristone या कुछ और?",
+      "start": 44.11,
+      "end": 51.87
+    },
+    {
+      "role": "BUYER",
+      "text": "उनको पूरा कितना कितना five tablets थे ना?",
+      "start": 53.83,
+      "end": 57.09
+    },
+    {
+      "role": "BOT",
+      "text": "जी kit में tablets की संख्या अलग-अलग हो सकती है। आप composition में क्या prefer करेंगे Misoprostol and Misoprostol या कुछ और?",
+      "start": 58.45,
+      "end": 65.57
+    },
+    {
+      "role": "BUYER",
+      "text": "इनको मालूम नहीं है।",
+      "start": 68.07,
+      "end": 70.11
+    },
+    {
+      "role": "BOT",
+      "text": "ये detail seller से confirm कर लीजिएगा वो better guide करेंगे। अब बताइए packaging type में क्या चाहिए strip box या कुछ और?",
+      "start": 71.09,
+      "end": 77.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am अभी unwanted kit में unwanted kit का unwanted kit photo tablet है ना इसमें 5 tablet आती है।",
+      "start": 80.07,
+      "end": 89.09
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप सही कह रहे हैं। बस ये बता दीजिए कि packaging type में आपको strip box या कुछ और चाहिए?",
+      "start": 90.05,
+      "end": 95.47
+    },
+    {
+      "role": "BUYER",
+      "text": "okay मालूम नहीं होता है।",
+      "start": 98.67,
+      "end": 101.79
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। कोई बात नहीं, ये detail seller के साथ confirm कर लीजिएगा। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 100.85,
+      "end": 110.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 112.05,
+      "end": 112.53
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 113.57,
+      "end": 116.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 118.21,
+      "end": 118.67
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

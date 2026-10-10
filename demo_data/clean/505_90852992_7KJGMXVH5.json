@@ -1,0 +1,98 @@
+{
+  "call_id": "505_90852992_7KJGMXVH5",
+  "file": "data/recordings/505_90852992_7KJGMXVH5.mp3",
+  "duration_s": 62.86,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Dharani ji you are looking for Goshala Surabi shampoo packaging size 180 ml right",
+      "start": 0.25,
+      "end": 6.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 7.89,
+      "end": 8.51
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk. How many bottles or packs do you need?",
+      "start": 9.67,
+      "end": 17.51
+    },
+    {
+      "role": "BUYER",
+      "text": "needed three parts three bottles.",
+      "start": 19.07,
+      "end": 22.33
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Let's talk about packaging size now. Which one would you like, 200 milliliters or something else?",
+      "start": 23.41,
+      "end": 29.35
+    },
+    {
+      "role": "BUYER",
+      "text": "one eighty mm.",
+      "start": 31.17,
+      "end": 32.35
+    },
+    {
+      "role": "BOT",
+      "text": "Alright, what would you prefer for key ingredients Amla, Reetha and Sepakakai, Neem or something else?",
+      "start": 33.33,
+      "end": 38.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Five thousand.",
+      "start": 40.83,
+      "end": 42.11
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 43.21,
+      "end": 48.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 51.07,
+      "end": 51.73
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you for choosing IndiaMART. Have a nice day.",
+      "start": 52.97,
+      "end": 55.65
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 57.95,
+      "end": 58.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

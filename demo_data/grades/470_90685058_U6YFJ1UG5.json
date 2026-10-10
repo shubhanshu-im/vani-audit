@@ -1,0 +1,310 @@
+{
+  "call_id": "470_90685058_U6YFJ1UG5",
+  "duration_s": 64.8,
+  "graded_at": "2026-10-10T12:33:29+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed the call without collecting lead details despite buyer intent.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "माफ़ कीजिए मैं सिर्फ हिंदी या English में ही बात कर सकती हूँ।",
+      "timestamp": 51.13,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot closed the call without collecting lead details despite buyer intent.",
+      "evidence_verified": true,
+      "llm_timestamp": 51.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Sorry, मैं सिर्फ हिंदी या English में ही बात कर सकती हूं।",
+      "timestamp": 41.53,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot repeated the language restriction twice, frustrating the buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Sorry, मैं सिर्फ हिंदी या English में ही बात कर सकती हूं।",
+      "timestamp": 41.53,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot omitted Telugu from language list despite prompt allowing it.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "माफ़ कीजिए मैं सिर्फ हिंदी या English में ही बात कर सकती हूँ।",
+      "timestamp": 51.13,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot closed the call without collecting lead details despite buyer intent.",
+      "evidence_verified": true,
+      "llm_timestamp": 51.1
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was collected by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity or unit was collected by the bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was asked or collected before call ended."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not clearly state a quantity before language issue blocked collection."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for spec but buyer did not answer before call ended."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for spec but buyer did not answer before call ended."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for specs but buyer did not answer before call ended."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Sorry, मैं सिर्फ हिंदी या English में ही बात कर सकती हूं।",
+      "timestamp": 41.53,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot repeated the language restriction twice, frustrating the buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.5
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misheard words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were collected by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was not in question due to language block."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific questions were reached."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or category errors occurred before call ended."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps before abrupt end."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Sorry, मैं सिर्फ हिंदी या English में ही बात कर सकती हूं।",
+      "timestamp": 41.53,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot omitted Telugu from language list despite prompt allowing it.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.5
+    }
+  ],
+  "captured_lead": {
+    "product": null,
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeatedly asked for Kannada, bot insisted on Hindi/English.",
+      "timestamp": 41.5,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for a Kannada-speaking human agent.",
+      "timestamp": 41.9,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 4.59,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to handle buyer's Kannada language request and abruptly ended the call without collecting lead details.",
+  "analysis": "Buyer wanted a Kannada-speaking agent for an air pressure gauge. Bot insisted on Hindi or English only (not Telugu) and failed to handle the language preference. Buyer repeated Kannada requests. Bot ended abruptly with 'मास्क' (mask/muffler) without collecting any quantity, specs, name, or location, and without creating a lead or transferring.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3817,
+    "completion_tokens": 1307
+  },
+  "unresolved_problems": []
+}

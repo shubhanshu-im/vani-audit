@@ -1,0 +1,305 @@
+{
+  "call_id": "544_90702687_3GLNAPXG5",
+  "file": "data/recordings/544_90702687_3GLNAPXG5.mp3",
+  "duration_s": 182.5,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.07,
+      "end": 0.53
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको FRLS PVC sleeve की requirement है ना?",
+      "start": 0.19,
+      "end": 3.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हां जी हां जी Madam.",
+      "start": 4.39,
+      "end": 5.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। कितने kilograms चाहिए होगी आपको?",
+      "start": 6.57,
+      "end": 17.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ये meter में चाहिए होता ma'am.",
+      "start": 13.57,
+      "end": 19.13
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। तो आपको कितने meters की जरूरत है?",
+      "start": 20.33,
+      "end": 22.91
+    },
+    {
+      "role": "BUYER",
+      "text": "दस दस मीटर के।",
+      "start": 23.69,
+      "end": 25.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब inner diameter के बारे में बात कर लेते हैं। आपको 4 millimeters चाहिए या कुछ और?",
+      "start": 26.07,
+      "end": 30.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am कई size के हैं?",
+      "start": 32.27,
+      "end": 33.75
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकती हूं आप पूरी list seller को भेज दीजिएगा। अभी के लिए आप कौन सा size prefer करेंगे?",
+      "start": 34.87,
+      "end": 40.03
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन चार पांच छह आठ दस बारह।",
+      "start": 41.03,
+      "end": 43.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए color में क्या prefer करेंगे black white या कोई और?",
+      "start": 44.55,
+      "end": 48.09
+    },
+    {
+      "role": "BUYER",
+      "text": "Blue, black, and green.",
+      "start": 48.57,
+      "end": 51.15
+    },
+    {
+      "role": "BOT",
+      "text": "अभी line पे काफी अच्छे seller available हैं। आप उनसे अपने हिसाब से price और बाकी details discuss कर लीजिए। क्या मैं आपकी बात उनसे करवा दूं?",
+      "start": 52.65,
+      "end": 60.53
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी बात। हाँ जी करा दो।",
+      "start": 59.11,
+      "end": 61.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पे भेज दी जाएंगी। Please line पे बने रहें।",
+      "start": 63.21,
+      "end": 70.19
+    },
+    {
+      "role": "BUYER",
+      "text": "आप mobile दे दो।",
+      "start": 77.25,
+      "end": 78.35
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 87.39,
+      "end": 87.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 88.85,
+      "end": 89.41
+    },
+    {
+      "role": "BOT",
+      "text": "Hello Good Morning Sir.",
+      "start": 90.83,
+      "end": 92.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 93.79,
+      "end": 94.67
+    },
+    {
+      "role": "BOT",
+      "text": "Hello good morning sir.",
+      "start": 96.07,
+      "end": 97.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Good Morning Madam. मैं कह रहा हूँ मेरे को ना cover slip चाहिए था wire वाला मिल जाएगा क्या?",
+      "start": 97.81,
+      "end": 102.43
+    },
+    {
+      "role": "BOT",
+      "text": "हो जाएगा क्या size चाहिए?",
+      "start": 103.77,
+      "end": 105.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am मेरे पास तो काफी size है। तो आप मेरा WhatsApp number ले लीजिए वहां भेज दीजिए। एक minute ma'am. एक minute hold रखना। इसमें context कहां है तेरे वाले में?",
+      "start": 106.13,
+      "end": 128.29
+    },
+    {
+      "role": "BOT",
+      "text": "कहीं से cutting नहीं मिल पाई थी।",
+      "start": 129.53,
+      "end": 131.21
+    },
+    {
+      "role": "BUYER",
+      "text": "एक minute ma'am। phone कैसे लगाते हैं? Hello.",
+      "start": 131.03,
+      "end": 138.17
+    },
+    {
+      "role": "BOT",
+      "text": "Hello.",
+      "start": 139.25,
+      "end": 139.81
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी Madam बोलना।",
+      "start": 140.33,
+      "end": 141.23
+    },
+    {
+      "role": "BOT",
+      "text": "nine eight one eight.",
+      "start": 142.53,
+      "end": 143.63
+    },
+    {
+      "role": "BUYER",
+      "text": "nine eight one eight.",
+      "start": 144.43,
+      "end": 146.43
+    },
+    {
+      "role": "BOT",
+      "text": "C side double nine.",
+      "start": 147.43,
+      "end": 148.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ?",
+      "start": 149.59,
+      "end": 150.07
+    },
+    {
+      "role": "BOT",
+      "text": "Three five.",
+      "start": 151.39,
+      "end": 152.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Three Five.",
+      "start": 153.01,
+      "end": 153.85
+    },
+    {
+      "role": "BOT",
+      "text": "double nine.",
+      "start": 155.09,
+      "end": 155.99
+    },
+    {
+      "role": "BUYER",
+      "text": "double nine.",
+      "start": 156.53,
+      "end": 157.41
+    },
+    {
+      "role": "BOT",
+      "text": "One four.",
+      "start": 158.49,
+      "end": 159.25
+    },
+    {
+      "role": "BUYER",
+      "text": "one two.",
+      "start": 160.45,
+      "end": 161.65
+    },
+    {
+      "role": "BOT",
+      "text": "वन फोर।",
+      "start": 163.09,
+      "end": 164.25
+    },
+    {
+      "role": "BUYER",
+      "text": "तो one four.",
+      "start": 163.39,
+      "end": 165.57
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 166.59,
+      "end": 166.97
+    },
+    {
+      "role": "BUYER",
+      "text": "149818359914. आप मुझे एक बार WhatsApp कर दीजिए मैं office पहुँचती हूँ फिर wait करती हूँ एक घंटे में। Okay Madam.",
+      "start": 168.27,
+      "end": 180.49
+    }
+  ],
+  "stats": {
+    "bot_turns": 21,
+    "buyer_turns": 22,
+    "longest_gap_s": 9.04,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 70.19,
+        "end": 77.25,
+        "duration_s": 7.06,
+        "after_role": "BOT"
+      },
+      {
+        "start": 78.35,
+        "end": 87.39,
+        "duration_s": 9.04,
+        "after_role": "BUYER"
+      },
+      {
+        "start": 117.89,
+        "end": 126.69,
+        "duration_s": 8.8,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 5
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

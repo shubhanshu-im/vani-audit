@@ -1,0 +1,110 @@
+{
+  "call_id": "411_90741561_G8URGL4H5",
+  "file": "data/recordings/411_90741561_G8URGL4H5.mp3",
+  "duration_s": 70.56,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको veg cup की requirement है ना?",
+      "start": 0.23,
+      "end": 3.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। क्या?",
+      "start": 1.43,
+      "end": 6.07
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते मैं IndiaMART से बात कर रही हूं। आपको veg puffs की requirement थी ना?",
+      "start": 7.35,
+      "end": 11.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हां required थी।",
+      "start": 13.01,
+      "end": 14.27
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 15.51,
+      "end": 21.35
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे large quantity में चाहिए मुझे discuss करना था deal से कब होगा पैसा उसके बाद।",
+      "start": 23.43,
+      "end": 29.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। पर आप कितनी quantity चाहेंगे? approximate number बता दीजिए ताकि मैं सही seller से connect कर सकूं।",
+      "start": 30.71,
+      "end": 36.83
+    },
+    {
+      "role": "BUYER",
+      "text": "मी minimum 75 दिवसात सांगेन.",
+      "start": 38.05,
+      "end": 41.37
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए इसे किस उपयोग के लिए चाहिए जैसे reselling के लिए या business use के लिए?",
+      "start": 42.63,
+      "end": 48.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 49.75,
+      "end": 50.89
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 51.63,
+      "end": 56.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay, very good.",
+      "start": 57.81,
+      "end": 59.31
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 60.49,
+      "end": 63.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 65.61,
+      "end": 66.21
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 6,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

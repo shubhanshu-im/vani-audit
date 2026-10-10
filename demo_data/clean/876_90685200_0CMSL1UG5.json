@@ -1,0 +1,146 @@
+{
+  "call_id": "876_90685200_0CMSL1UG5",
+  "file": "data/recordings/876_90685200_0CMSL1UG5.mp3",
+  "duration_s": 78.62,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 225 ml salsa glass jar की requirement है ना?",
+      "start": 0.01,
+      "end": 4.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 6.91,
+      "end": 7.45
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece या jar चाहिए?",
+      "start": 8.49,
+      "end": 15.09
+    },
+    {
+      "role": "BUYER",
+      "text": "five five thousand.",
+      "start": 17.67,
+      "end": 19.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं देख पा रही हूं। आपको capacity 225 milliliters ही चाहिए ना?",
+      "start": 20.51,
+      "end": 24.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 25.81,
+      "end": 26.39
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कौन सा cap color चाहिए जैसे gold, black या कुछ और?",
+      "start": 27.45,
+      "end": 30.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Gold Gold Gold.",
+      "start": 30.83,
+      "end": 32.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 33.63,
+      "end": 36.33
+    },
+    {
+      "role": "BUYER",
+      "text": "जेन के।",
+      "start": 37.49,
+      "end": 42.13
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। क्या आप अपनी city और state दोबारा बता सकते हैं?",
+      "start": 41.47,
+      "end": 45.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जम्मू कश्मीर श्रीनगर pin code 190001 आप श्रीनगर जम्मू",
+      "start": 46.23,
+      "end": 53.49
+    },
+    {
+      "role": "BOT",
+      "text": "आप 19. आप श्रीनगर जम्मू और कश्मीर से बोल रहे हैं ना?",
+      "start": 50.43,
+      "end": 55.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी।",
+      "start": 55.83,
+      "end": 56.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 57.65,
+      "end": 60.13
+    },
+    {
+      "role": "BUYER",
+      "text": "[NAME].",
+      "start": 62.05,
+      "end": 62.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप JMW जी बोल रहे हैं आगे ना?",
+      "start": 63.85,
+      "end": 65.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 67.05,
+      "end": 67.61
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 68.49,
+      "end": 76.19
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। आपका भी।",
+      "start": 74.25,
+      "end": 78.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.58,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

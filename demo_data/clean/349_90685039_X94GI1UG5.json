@@ -1,0 +1,194 @@
+{
+  "call_id": "349_90685039_X94GI1UG5",
+  "file": "data/recordings/349_90685039_X94GI1UG5.mp3",
+  "duration_s": 109.73,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको pizza preparation counter की requirement है ना?",
+      "start": 0.15,
+      "end": 3.93
+    },
+    {
+      "role": "BUYER",
+      "text": "ଭେଜ।",
+      "start": 3.45,
+      "end": 7.75
+    },
+    {
+      "role": "BOT",
+      "text": "Yes.",
+      "start": 5.05,
+      "end": 5.61
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे chilled switch चाहिए। Hello.",
+      "start": 7.99,
+      "end": 12.29
+    },
+    {
+      "role": "BOT",
+      "text": "आपको chillers fridge चाहिए यही product चाहिए ना?",
+      "start": 14.13,
+      "end": 16.63
+    },
+    {
+      "role": "BUYER",
+      "text": "यही product चाहिए ना? हाँ जी हाँ जी।",
+      "start": 14.75,
+      "end": 20.49
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ जी हाँ जी।",
+      "start": 17.35,
+      "end": 18.09
+    },
+    {
+      "role": "BUYER",
+      "text": "इस मतलब tourist shop कहाँ पे है?",
+      "start": 21.23,
+      "end": 25.39
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 23.45,
+      "end": 24.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हैं hello.",
+      "start": 26.43,
+      "end": 30.71
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं सिर्फ IndiaMART products और sellers से जुड़ी जानकारी में आपकी मदद कर सकती हूं। चलिए आपको chiller fridge ही चाहिए ना?",
+      "start": 32.51,
+      "end": 39.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 40.33,
+      "end": 41.61
+    },
+    {
+      "role": "BOT",
+      "text": "जी। बिल्कुल इंतजार कर रही हूं।",
+      "start": 40.57,
+      "end": 46.69
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका shop कहाँ पे है?",
+      "start": 48.09,
+      "end": 49.69
+    },
+    {
+      "role": "BOT",
+      "text": "आपको। मैं seller नहीं हूं। मैं India Mart से तानिया बोल रही हूं। आप किस city से बोल रहे हैं?",
+      "start": 48.47,
+      "end": 55.97
+    },
+    {
+      "role": "BUYER",
+      "text": "नोएडा sector अठारह दिल्ली।",
+      "start": 56.93,
+      "end": 58.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 62.75,
+      "end": 65.45
+    },
+    {
+      "role": "BUYER",
+      "text": "CDA Noida sector 11 और ये Delhi।",
+      "start": 66.71,
+      "end": 69.15
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप किस state की Noida city से बोल रहे हैं? उत्तर प्रदेश या दिल्ली?",
+      "start": 70.77,
+      "end": 75.09
+    },
+    {
+      "role": "BUYER",
+      "text": "उत्तर दिल्ली दिल्ली दिल्ली। नौटा section अठारह।",
+      "start": 75.67,
+      "end": 80.33
+    },
+    {
+      "role": "BOT",
+      "text": "अब capacity में कौनसी चाहिए सौ लीटर या दो सौ लीटर?",
+      "start": 79.27,
+      "end": 83.19
+    },
+    {
+      "role": "BUYER",
+      "text": "दो लीटर।",
+      "start": 84.07,
+      "end": 84.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है door type में कौन सा चाहिए folding door या spring door?",
+      "start": 86.93,
+      "end": 90.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Morning दोस्त।",
+      "start": 90.91,
+      "end": 91.77
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आप VIPN जी बोल रहे हैं ना?",
+      "start": 93.43,
+      "end": 95.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 96.63,
+      "end": 97.25
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 99.09,
+      "end": 106.81
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका ये अभी sale model चल रहा है ना?",
+      "start": 107.41,
+      "end": 109.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 14,
+    "buyer_turns": 14,
+    "longest_gap_s": 4.22,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

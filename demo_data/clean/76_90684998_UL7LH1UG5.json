@@ -1,0 +1,92 @@
+{
+  "call_id": "76_90684998_UL7LH1UG5",
+  "file": "data/recordings/76_90684998_UL7LH1UG5.mp3",
+  "duration_s": 66.02,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको open modified Willys Jeep Hunter Jeeps की requirement है ना?",
+      "start": 0.01,
+      "end": 4.99
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Ma'am अभी बस 3 pass करनी थी कि ये।",
+      "start": 7.87,
+      "end": 11.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। आप जिस seller को call कर रहे थे, आप seller से इस बारे में विस्तार से बात कर सकते हैं। बस कुछ details confirm कर दीजिए please। मैं देख पा रही हूं। आपको model name GT चाहिए ना?",
+      "start": 12.83,
+      "end": 24.43
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है समझ गई। आप जिस channel को जी।",
+      "start": 12.89,
+      "end": 27.41
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए drive system में आप क्या prefer करेंगे 4 by 4, 4 by 2 या कुछ और?",
+      "start": 28.67,
+      "end": 33.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Four by four.",
+      "start": 36.13,
+      "end": 37.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख सकती हूं कि आपने body style में open चुना है, right?",
+      "start": 38.39,
+      "end": 41.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 44.09,
+      "end": 44.71
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 45.79,
+      "end": 50.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 53.73,
+      "end": 54.75
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 55.93,
+      "end": 58.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.14,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

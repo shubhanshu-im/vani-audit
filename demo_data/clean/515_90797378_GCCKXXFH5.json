@@ -1,0 +1,200 @@
+{
+  "call_id": "515_90797378_GCCKXXFH5",
+  "file": "data/recordings/515_90797378_GCCKXXFH5.mp3",
+  "duration_s": 140.04,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Laxmi Vishnu statues की requirement है ना?",
+      "start": 0.01,
+      "end": 3.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 6.91,
+      "end": 7.35
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं India sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "start": 8.61,
+      "end": 15.47
+    },
+    {
+      "role": "BUYER",
+      "text": "ये पहले हम बेच के सब सामान varieties मूर्ति का सामान बेच के Facebook में छोड़ दिया था।",
+      "start": 17.59,
+      "end": 24.85
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए। पर अभी आपको कितनी idea",
+      "start": 24.85,
+      "end": 26.81
+    },
+    {
+      "role": "BUYER",
+      "text": "समझ गए पर अभी आपको कितनी idea Google का थोड़ा problem था इसलिए आप लोग का बोला है ये गाना पाटा ली तो इतिहास ऐसा दीजिए मेरा नाम से।",
+      "start": 24.87,
+      "end": 36.09
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया। please एक बार फिर से बता दीजिए कितनी quantity चाहिए?",
+      "start": 37.17,
+      "end": 42.45
+    },
+    {
+      "role": "BUYER",
+      "text": "quality variety दिखाइए। गणेश, लौकी, दुर्गा, माँ, मनसा देवी दिखाया है। दुर्गा दिखाइए। डाक्टा। और विश्वकर्मा दिखाइए। आपका सरस्वती दिखाइए, लौकी दिखाइए, सब कुछ दिखाया है। और...",
+      "start": 45.03,
+      "end": 63.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? seller आपको सारी varieties दिखा",
+      "start": 64.41,
+      "end": 66.75
+    },
+    {
+      "role": "BUYER",
+      "text": "seller आपको सारी varieties",
+      "start": 64.77,
+      "end": 66.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? seller आपको ये सब दिखा देंगे। अब बताइए आपको material में marble ही चाहिए ना?",
+      "start": 67.53,
+      "end": 72.25
+    },
+    {
+      "role": "BUYER",
+      "text": "का?",
+      "start": 73.83,
+      "end": 74.27
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए height में क्या prefer करेंगे?",
+      "start": 75.35,
+      "end": 78.39
+    },
+    {
+      "role": "BUYER",
+      "text": "दुर्गा माँ तो मैं मूर्ति की height यानी ऊँचाई की बात कर रही हूँ।",
+      "start": 80.89,
+      "end": 87.23
+    },
+    {
+      "role": "BOT",
+      "text": "मैं मूर्ति की height यानी ऊंचाई की बात कर रही हूं। ठीक है। अब आपकी city और state भी बता दीजिए please।",
+      "start": 84.81,
+      "end": 90.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 93.09,
+      "end": 93.59
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी city और state बता दीजिए please.",
+      "start": 94.61,
+      "end": 96.77
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा इससे।",
+      "start": 100.35,
+      "end": 102.53
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे समझ नहीं आया। आप किस city और state से बोल रहे हैं? Please बता दीजिए।",
+      "start": 103.49,
+      "end": 108.39
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा address है ये।",
+      "start": 109.63,
+      "end": 110.93
+    },
+    {
+      "role": "BOT",
+      "text": "जी बस आपकी।",
+      "start": 111.93,
+      "end": 112.95
+    },
+    {
+      "role": "BUYER",
+      "text": "उड़ान से बोल रहा है उड़ान से।",
+      "start": 112.09,
+      "end": 113.89
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप Udaan City से बोल रहे हैं?",
+      "start": 114.91,
+      "end": 116.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Quran से बोल रहा है।",
+      "start": 115.83,
+      "end": 118.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप उड़ान से बोल रहे हैं ना please ठीक है आप अपना नाम भी बता दीजिए।",
+      "start": 117.09,
+      "end": 122.59
+    },
+    {
+      "role": "BUYER",
+      "text": "आप अपना नाम भी बता दीजिए।",
+      "start": 120.85,
+      "end": 123.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम बता दीजिए please.",
+      "start": 124.51,
+      "end": 126.61
+    },
+    {
+      "role": "BUYER",
+      "text": "ये सब बैठना खोरित करते बैठनाला आदमी।",
+      "start": 125.91,
+      "end": 128.93
+    },
+    {
+      "role": "BOT",
+      "text": "selling related information के लिए कृपया customer care number 5 times 96 पे call करें। IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 130.09,
+      "end": 137.15
+    }
+  ],
+  "stats": {
+    "bot_turns": 15,
+    "buyer_turns": 14,
+    "longest_gap_s": 3.58,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

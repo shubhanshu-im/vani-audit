@@ -1,0 +1,176 @@
+{
+  "call_id": "285_90797324_SUABWXFH5",
+  "file": "data/recordings/285_90797324_SUABWXFH5.mp3",
+  "duration_s": 169.92,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 2.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ बीस का बीस वाला। मतलब जो उसका मतलब height रहता है ना बीस।",
+      "start": 3.49,
+      "end": 10.27
+    },
+    {
+      "role": "BOT",
+      "text": "समझने के लिए धन्यवाद।",
+      "start": 12.43,
+      "end": 14.33
+    },
+    {
+      "role": "BUYER",
+      "text": "ICU कितने का रहता है?",
+      "start": 13.03,
+      "end": 14.49
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप जिस product की side की बात कर रहे हैं क्या आप थोड़ा सा use case या पूरा नाम बता सकते हैं? इससे मैं सही product confirm कर पाऊंगी।",
+      "start": 16.67,
+      "end": 24.31
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा वो तो मतलब नहीं बता पाएंगे ma'am। पहले तो दूसरे का पास कर रहा था अभी तो खुद करने के लिए इसीलिए मंगा रहा था उसमें नहीं मालूम है knowledge नहीं है ना हम लोग को। पहले मैं दूसरे का पास कर रहा था तो अभी खुद ही करना चाहता हूं तो इसमें knowledge नहीं है ना मेरे पास। इसके लिए बता सकता हूँ मैं समझ लो दस बीस होगा मैम।",
+      "start": 25.63,
+      "end": 47.27
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आपने जिस side वाले part या चीज की बात की है क्या आप बता सकते हैं यह किस machine या किस चीज में इस्तेमाल होता है? इससे मैं सही product confirm कर पाऊंगी?",
+      "start": 49.35,
+      "end": 58.43
+    },
+    {
+      "role": "BUYER",
+      "text": "वो machine में इस्तेमाल थोड़ी होता है machine में नहीं होता है। जैसे मतलब कुछ कुछ फ्राई उराई कर रहा है ऐसे ही नाश्ते में बड़ा वाला जैसे shop खोलता है ना आदमी hello.",
+      "start": 58.75,
+      "end": 75.01
+    },
+    {
+      "role": "BOT",
+      "text": "मतलब समझ गई आप shop के लिए नाश्ते में इस्तेमाल होने वाला कोई बड़ा side वाला item मांग रहे हैं। क्या आप थोड़ा और बता सकते हैं यह किस चीज का side है या किस product के साथ चाहिए? इससे मैं सही product confirm कर पाऊंगी।",
+      "start": 64.13,
+      "end": 88.37
+    },
+    {
+      "role": "BUYER",
+      "text": "तो इसीलिए मैं बोलता हूँ वो कबाब कबाब पाव आपको मालूम नहीं होगा शायद कबाब पाव मालूम है आप महाराष्ट्र का कहाँ का है रहने वाले वो हर जगह चालू रहता है मतलब India का है ना आप मतलब।",
+      "start": 88.55,
+      "end": 102.65
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं IndiaMART से बात कर रही हूं। आपकी...",
+      "start": 104.49,
+      "end": 107.59
+    },
+    {
+      "role": "BUYER",
+      "text": "I D M R से कहाँ से कहाँ से ये ये company है कहाँ पे इतना बता सकते मेरे को?",
+      "start": 106.63,
+      "end": 110.93
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART एक online platform है। यहां पूरे India के sellers और buyers जुड़ सकते हैं। आप किस जगह से inquiry कर रहे हैं?",
+      "start": 112.95,
+      "end": 119.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ मैं बम्बई से बम्बई से सागीनागा।",
+      "start": 120.25,
+      "end": 123.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "start": 127.01,
+      "end": 129.69
+    },
+    {
+      "role": "BUYER",
+      "text": "यहां का state बोला जाता है घाटकोपर।",
+      "start": 131.55,
+      "end": 134.19
+    },
+    {
+      "role": "BOT",
+      "text": "शायद आपने area का नाम बताया है। कृपया city और state का नाम बता दीजिए जैसे Mumbai Maharashtra।",
+      "start": 136.15,
+      "end": 141.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो Mumbai Maharashtra ये है ना ये state।",
+      "start": 142.55,
+      "end": 144.95
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद। तो आप Mumbai Maharashtra से बोल रहे हैं ना?",
+      "start": 146.67,
+      "end": 149.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 150.13,
+      "end": 150.61
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब अपना नाम भी confirm कर दें आप [NAME] जी बोल रहे हैं ना?",
+      "start": 152.55,
+      "end": 156.31
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 156.91,
+      "end": 157.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 159.67,
+      "end": 164.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ये काम अच्छा है पसंद आएगा तो कह देंगे नहीं होगा तो भी आपको बता देंगे।",
+      "start": 164.87,
+      "end": 170.03
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 165.23,
+      "end": 165.49
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 12,
+    "longest_gap_s": 3.28,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

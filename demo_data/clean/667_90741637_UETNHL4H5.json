@@ -1,0 +1,58 @@
+{
+  "call_id": "667_90741637_UETNHL4H5",
+  "file": "data/recordings/667_90741637_UETNHL4H5.mp3",
+  "duration_s": 24.91,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको heat insulation wrap at home aluminium की requirement है ना? हाँ hello.",
+      "start": 0.37,
+      "end": 7.81
+    },
+    {
+      "role": "BUYER",
+      "text": "नमस्ते।",
+      "start": 9.13,
+      "end": 9.61
+    },
+    {
+      "role": "BOT",
+      "text": "आपको heat insulation wrap added ma'am aluminium की requirement थी ना?",
+      "start": 9.61,
+      "end": 13.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ जी।",
+      "start": 14.97,
+      "end": 15.93
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। मैं फिर से पूछ लेती हूं क्या आपको heat insulation wrap A8M aluminium की requirement है?",
+      "start": 17.09,
+      "end": 22.67
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

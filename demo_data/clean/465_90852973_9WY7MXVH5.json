@@ -1,0 +1,146 @@
+{
+  "call_id": "465_90852973_9WY7MXVH5",
+  "file": "data/recordings/465_90852973_9WY7MXVH5.mp3",
+  "duration_s": 99.94,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. वो OnePlus Nord CE 2 का एक panel था main folder।",
+      "start": 0.67,
+      "end": 7.95
+    },
+    {
+      "role": "BOT",
+      "text": "आपको OnePlus Nord CE 2 का display panel जो screen बदलने के काम आता है वही product चाहिए ना?",
+      "start": 9.53,
+      "end": 14.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हम्म हम्म हम्म हम्म हम्म। इसका price क्या है?",
+      "start": 13.51,
+      "end": 19.39
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए? आप price के बारे में seller से discuss कर सकते हैं। वो आपको best rate देंगे। पर आगे बढ़ने के लिए क्या आप बता सकते हैं कि आपको कितने piece चाहिए?",
+      "start": 19.09,
+      "end": 33.09
+    },
+    {
+      "role": "BUYER",
+      "text": "single piece single piece phone के लिए बस चाहिए मेरे phone के लिए।",
+      "start": 34.59,
+      "end": 37.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? एक piece और कुछ details confirm करने के बाद मैं आपको seller से connect करवा दूंगी।",
+      "start": 38.91,
+      "end": 43.91
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा तो मतलब location पे आएगा तो जाना पड़ेगा।",
+      "start": 45.51,
+      "end": 49.47
+    },
+    {
+      "role": "BOT",
+      "text": "shipment के बारे में आप सीधे seller से बात कर सकते हैं। वो आपकी पूरी मदद करेंगे। बस कुछ details और confirm कर दीजिए please।",
+      "start": 50.47,
+      "end": 57.13
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक। क्या बोलिए?",
+      "start": 56.31,
+      "end": 59.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "start": 61.05,
+      "end": 63.73
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या?",
+      "start": 65.91,
+      "end": 66.45
+    },
+    {
+      "role": "BOT",
+      "text": "मैं बस आपकी city और state जानना चाहती हूं ताकि मैं आपको सही seller से connect कर सकूं। Please बता दीजिए।",
+      "start": 67.63,
+      "end": 73.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। महाराष्ट्र सारेगांव।",
+      "start": 68.97,
+      "end": 77.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप सारेगांव महाराष्ट्र से बोल रहे हैं ना?",
+      "start": 78.71,
+      "end": 80.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 82.29,
+      "end": 82.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब आप अपना नाम भी बता दीजिए please।",
+      "start": 83.75,
+      "end": 86.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हम भी बता रहे हैं। दीपक पटेल।",
+      "start": 85.03,
+      "end": 88.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 89.85,
+      "end": 98.69
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 99.03,
+      "end": 99.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.18,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

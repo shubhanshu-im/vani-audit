@@ -1,0 +1,98 @@
+{
+  "call_id": "742_90643167_3UC6V3KG5",
+  "file": "data/recordings/742_90643167_3UC6V3KG5.mp3",
+  "duration_s": 65.23,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको plastic die की requirement है ना?",
+      "start": 0.01,
+      "end": 3.31
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ये सब सबम सब engineering के बनाते हैं क्या? washing only?",
+      "start": 4.61,
+      "end": 12.03
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "start": 13.13,
+      "end": 18.37
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 20.07,
+      "end": 21.11
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब molding method के बारे में बात कर लेते हैं। आपको injection molding चाहिए या कुछ और?",
+      "start": 22.03,
+      "end": 26.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हर चीज के बारे में। injection वाली dye चाहिए हमको हर click की। click की dye।",
+      "start": 22.31,
+      "end": 32.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए mold steel में क्या prefer करेंगे P20 H13 या कोई और?",
+      "start": 33.25,
+      "end": 37.81
+    },
+    {
+      "role": "BUYER",
+      "text": "T20.",
+      "start": 39.23,
+      "end": 40.09
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 41.05,
+      "end": 46.67
+    },
+    {
+      "role": "BUYER",
+      "text": "देखिए। clip बना clip को molding बनाते हैं die उसी को भेजिएगा जो नहीं बना पाएंगे बिना मसला के नहीं बना नहीं पाते हैं।",
+      "start": 45.51,
+      "end": 54.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं आपकी बात समझ गई। मैं आपको सही seller से ही connect करवाऊंगी। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 55.15,
+      "end": 61.93
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं आपकी बात। धन्यवाद।",
+      "start": 55.39,
+      "end": 64.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.06,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

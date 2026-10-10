@@ -1,0 +1,305 @@
+{
+  "call_id": "919_90685212_DBEZL1UG5",
+  "duration_s": 37.22,
+  "graded_at": "2026-10-10T12:45:25+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Buyer said '16', bot confirmed 72 inch",
+  "fatal_params": [
+    "Spec1 Accuracy",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "शुरुआत। sixteen या कुछ और।",
+      "timestamp": 10.99,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said '16', bot confirmed 72 inch",
+      "evidence_verified": true,
+      "llm_timestamp": 11.0
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "शुरुआत। sixteen या कुछ और।",
+      "timestamp": 10.99,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard '16' as 72 inch",
+      "evidence_verified": true,
+      "llm_timestamp": 11.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 15.71,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Banned open-ended question used",
+      "evidence_verified": true,
+      "llm_timestamp": 15.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear requirement and bot closed properly"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not needed for this product inquiry"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity provided by buyer"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "शुरुआत। sixteen या कुछ और।",
+      "timestamp": 10.99,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said '16', bot confirmed 72 inch",
+      "evidence_verified": true,
+      "llm_timestamp": 11.0
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec asked"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "शुरुआत। sixteen या कुछ और।",
+      "timestamp": 11.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was asked and acknowledged, even if incorrectly captured"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred"
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "शुरुआत। sixteen या कुछ और।",
+      "timestamp": 10.99,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard '16' as 72 inch",
+      "evidence_verified": true,
+      "llm_timestamp": 11.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was not changed or disputed"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 15.71,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Banned open-ended question used",
+      "evidence_verified": true,
+      "llm_timestamp": 15.7
+    }
+  ],
+  "captured_lead": {
+    "product": "plain non-woven fabric",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "width",
+        "value": "72 inch"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured 72 inch instead of buyer's 16 inch requirement",
+      "timestamp": 11.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard buyer's width spec and confirmed 72 inch instead of 16 inch. Also asked a banned open-ended question.",
+  "analysis": "Buyer wanted plain non-woven fabric. Bot asked for width, buyer said 'shuruat' and '16', bot confirmed 72 inch and asked a banned open-ended question. Buyer said 'ji boliye' again, bot closed.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[width] = '72 inch': number(s) ['72'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3520,
+    "completion_tokens": 1198
+  },
+  "unresolved_problems": []
+}

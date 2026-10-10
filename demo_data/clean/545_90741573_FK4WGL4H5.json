@@ -1,0 +1,134 @@
+{
+  "call_id": "545_90741573_FK4WGL4H5",
+  "file": "data/recordings/545_90741573_FK4WGL4H5.mp3",
+  "duration_s": 111.17,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको ice making machine की requirement है ना?",
+      "start": 0.17,
+      "end": 3.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 4.39,
+      "end": 5.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब production capacity के बारे में बात कर लेते हैं। आपको 1 turn day चाहिए या कुछ और?",
+      "start": 6.09,
+      "end": 19.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। और वही से ice cream का जो।",
+      "start": 18.87,
+      "end": 22.31
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको production capacity में क्या prefer करेंगे?",
+      "start": 23.31,
+      "end": 28.79
+    },
+    {
+      "role": "BUYER",
+      "text": "आए। वो ice cream का?",
+      "start": 26.43,
+      "end": 30.71
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। क्या आपको ice making machine ही चाहिए या आप ice cream machine की बात कर रहे हैं?",
+      "start": 31.67,
+      "end": 37.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ खाली ice cream machine चाहिए।",
+      "start": 37.59,
+      "end": 40.33
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो ice cream बनाने वाली ice cream machine चाहिए ना?",
+      "start": 41.41,
+      "end": 44.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जो इसमें बनता है ना जो पानी देखो जो चक्का घोरता है ना वो वाला।",
+      "start": 44.67,
+      "end": 52.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब production capacity के बारे में बात कर लेते हैं। आपको 10 liters या 5 liters चाहिए या कुछ और?",
+      "start": 54.09,
+      "end": 60.83
+    },
+    {
+      "role": "BUYER",
+      "text": "कुत्ते। तो डेढ़ लीटर वाला कितना है और five लीटर वाला कितना है?",
+      "start": 58.21,
+      "end": 65.97
+    },
+    {
+      "role": "BOT",
+      "text": "आप price की बात कर रहे हैं तो ये आप seller से discuss कर सकते हैं वो आपको best rates देंगे। अभी आप बताइए कि आपको कितनी capacity चाहिए?",
+      "start": 67.01,
+      "end": 74.15
+    },
+    {
+      "role": "BUYER",
+      "text": "तो कितना वो चलता है charging में चलता है ना इसमें चलता है।",
+      "start": 76.53,
+      "end": 81.47
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ नहीं पाई please एक बार फिर से बता दीजिए कि आपको कितनी capacity चाहिए या फिर आप seller से इसके बारे में बात कर सकते हैं?",
+      "start": 82.37,
+      "end": 89.31
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ बात कह रहे आपको वो जो machine ice cream वाला machine चलता है तो उसमें sale है क्या?",
+      "start": 90.63,
+      "end": 101.03
+    },
+    {
+      "role": "BOT",
+      "text": "seller के पास ये product available है। आप उनसे details discuss कर सकते हैं बस पहले अपनी capacity confirm कर दीजिए please।",
+      "start": 100.77,
+      "end": 107.35
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा।",
+      "start": 109.39,
+      "end": 110.01
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "call_id": "837_90741683_PU07IL4H5",
+  "duration_s": 134.5,
+  "graded_at": "2026-10-10T12:43:25+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Okay, could you please tell me your city and state?",
+      "timestamp": 88.59,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state request once.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send the seller details to you on WhatsApp where you can discuss the price and other details.",
+      "timestamp": 124.33,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Another' as 'I will send seller details'.",
+      "evidence_verified": true,
+      "llm_timestamp": 124.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send the seller details to you on WhatsApp where you can discuss the price and other details.",
+      "timestamp": 124.33,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's 'Another' and promised WhatsApp details.",
+      "evidence_verified": true,
+      "llm_timestamp": 124.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer requested a product and bot closed with seller transfer."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot read back 6 strips and buyer confirmed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'strips' was correctly captured and confirmed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was successfully captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were asked or provided by buyer."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were asked or provided by buyer."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer provided 200mg spec which bot captured in product context."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Okay, could you please tell me your city and state?",
+      "timestamp": 88.59,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state request once.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send the seller details to you on WhatsApp where you can discuss the price and other details.",
+      "timestamp": 124.33,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Another' as 'I will send seller details'.",
+      "evidence_verified": true,
+      "llm_timestamp": 124.3
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered to connect with a seller."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer corrected product to safety boot and tablet."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific spec questions asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system search actions were performed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps occurred."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send the seller details to you on WhatsApp where you can discuss the price and other details.",
+      "timestamp": 124.33,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard buyer's 'Another' and promised WhatsApp details.",
+      "evidence_verified": true,
+      "llm_timestamp": 124.3
+    }
+  ],
+  "captured_lead": {
+    "product": "safety boot and tablet",
+    "quantity": "6",
+    "quantity_unit": "strips",
+    "specs": [
+      {
+        "name": "dosage",
+        "value": "200 mg"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Kovilpatti",
+    "state": "Tamil Nadu"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer switched to Tamil mid-call, bot apologized and switched to English.",
+      "timestamp": 24.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer wanted safety boot and tablet (200 mg). Bot correctly identified product and captured quantity (6 strips). Bot asked for city/state and name, and buyer provided them. Bot closed by promising to send seller details on WhatsApp, implying a lead was created. Buyer intent was a purchase, not a complaint or job.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4228,
+    "completion_tokens": 1516
+  },
+  "unresolved_problems": []
+}

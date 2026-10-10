@@ -1,0 +1,98 @@
+{
+  "call_id": "697_90741652_2B6XHL4H5",
+  "file": "data/recordings/697_90741652_2B6XHL4H5.mp3",
+  "duration_s": 55.58,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] जी आपको जीरा की requirement है ना?",
+      "start": 0.01,
+      "end": 3.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 3.73,
+      "end": 7.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 8.35,
+      "end": 15.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। एक सन।",
+      "start": 14.43,
+      "end": 16.97
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब quality grade के बारे में बात कर लेते हैं। आपको Singapore 99 चाहिए या कुछ और?",
+      "start": 17.97,
+      "end": 23.31
+    },
+    {
+      "role": "BUYER",
+      "text": "कुछ और।",
+      "start": 24.93,
+      "end": 25.53
+    },
+    {
+      "role": "BOT",
+      "text": "बताइए quality grade में क्या prefer करेंगे जैसे Europe quality, export quality या कोई और?",
+      "start": 26.53,
+      "end": 31.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Europe quality.",
+      "start": 32.35,
+      "end": 33.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। packaging type में आप क्या पसंद करेंगे जैसे bag, PP bag या कुछ और?",
+      "start": 34.45,
+      "end": 38.85
+    },
+    {
+      "role": "BUYER",
+      "text": "loose में दिए।",
+      "start": 39.33,
+      "end": 40.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details...",
+      "start": 41.39,
+      "end": 44.79
+    },
+    {
+      "role": "BUYER",
+      "text": "और price discuss कर सकते हैं।",
+      "start": 44.79,
+      "end": 47.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 1.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

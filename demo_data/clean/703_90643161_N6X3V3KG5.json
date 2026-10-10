@@ -1,0 +1,134 @@
+{
+  "call_id": "703_90643161_N6X3V3KG5",
+  "file": "data/recordings/703_90643161_N6X3V3KG5.mp3",
+  "duration_s": 85.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको red plastic iron and rubber children three wheeler bicycle की requirement है ना?",
+      "start": 0.01,
+      "end": 6.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ उसका price कितना है?",
+      "start": 7.67,
+      "end": 9.41
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। price के लिए मैं आपको सही seller से connect कर दूंगी बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 10.45,
+      "end": 20.99
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे एक ही चीज बताइए।",
+      "start": 23.17,
+      "end": 25.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब model name के बारे में बात कर लेते हैं। आपको Bullet या Golda में से कौन सा चाहिए या कुछ और?",
+      "start": 26.85,
+      "end": 32.41
+    },
+    {
+      "role": "BUYER",
+      "text": "लड़के को दो कौन चाहिए मतलब दोनों price मतलब मेरे को ये दोनों ही चाहिए।",
+      "start": 35.63,
+      "end": 42.41
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब material की बात करते हैं। मैं देख पा रही हूं।",
+      "start": 43.23,
+      "end": 46.47
+    },
+    {
+      "role": "BUYER",
+      "text": "material की। बात करते हैं अपना देख पाते हैं।",
+      "start": 44.11,
+      "end": 46.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं कि आपको material plastic ही चाहिए ना?",
+      "start": 47.39,
+      "end": 50.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ वही चाहिए मेरे को।",
+      "start": 51.91,
+      "end": 53.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 54.39,
+      "end": 57.07
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे city का person है चित्तौड़गढ़ का person।",
+      "start": 59.25,
+      "end": 63.69
+    },
+    {
+      "role": "BOT",
+      "text": "आप चित्तौड़गढ़ राजस्थान से बोल रहे हैं ना?",
+      "start": 64.51,
+      "end": 66.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 67.97,
+      "end": 68.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] जी बोल रहे हैं ना?",
+      "start": 69.77,
+      "end": 71.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ [NAME] राणा बोल रहा हूँ।",
+      "start": 73.03,
+      "end": 74.45
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 75.29,
+      "end": 82.97
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक okay.",
+      "start": 83.23,
+      "end": 85.03
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.22,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

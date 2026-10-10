@@ -1,0 +1,158 @@
+{
+  "call_id": "479_90852959_WW61MXVH5",
+  "file": "data/recordings/479_90852959_WW61MXVH5.mp3",
+  "duration_s": 93.38,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको दस ton soil compactor की requirement है ना?",
+      "start": 0.01,
+      "end": 3.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 4.59,
+      "end": 5.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको compaction capacity 10 ton ही चाहिए ना?",
+      "start": 6.39,
+      "end": 18.15
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 18.85,
+      "end": 19.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब machine type के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे plate compactor, drum roller या कुछ और?",
+      "start": 20.71,
+      "end": 27.77
+    },
+    {
+      "role": "BUYER",
+      "text": "ये drum roller की।",
+      "start": 28.47,
+      "end": 29.57
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब आप अपनी city और state भी बता दीजिए please।",
+      "start": 30.79,
+      "end": 33.91
+    },
+    {
+      "role": "BUYER",
+      "text": "देवघर city झारखंड sheet.",
+      "start": 34.79,
+      "end": 36.95
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आप अपनी city और state क्या है?",
+      "start": 37.91,
+      "end": 42.57
+    },
+    {
+      "role": "BUYER",
+      "text": "देवघर city झारखण्ड से।",
+      "start": 44.49,
+      "end": 46.67
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया please एक बार फिर से बता दीजिए। आप कौन सी city और state से बोल रहे हैं?",
+      "start": 47.89,
+      "end": 53.95
+    },
+    {
+      "role": "BUYER",
+      "text": "झारखंड का नाम सुनिए।",
+      "start": 55.97,
+      "end": 57.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? झारखंड में आप कौन सी city से बोल रहे हैं? Please बता दीजिए।",
+      "start": 58.47,
+      "end": 62.15
+    },
+    {
+      "role": "BUYER",
+      "text": "देवघर देवघर।",
+      "start": 61.47,
+      "end": 63.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप देवघर झारखंड से बोल रहे हैं ना?",
+      "start": 65.07,
+      "end": 66.93
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 67.55,
+      "end": 68.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप Sunil जी बोल रहे हैं ना?",
+      "start": 69.17,
+      "end": 71.01
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मेरा नाम कृष्णा हुआ।",
+      "start": 71.69,
+      "end": 73.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 74.35,
+      "end": 80.29
+    },
+    {
+      "role": "BUYER",
+      "text": "बढ़िया।",
+      "start": 81.69,
+      "end": 82.37
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 83.35,
+      "end": 86.19
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद।",
+      "start": 87.41,
+      "end": 88.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 2.02,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

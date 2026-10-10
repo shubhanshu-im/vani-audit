@@ -1,0 +1,294 @@
+{
+  "call_id": "756_90797415_7N64YXFH5",
+  "duration_s": 109.73,
+  "graded_at": "2026-10-10T12:41:08+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "binding material copper चाहिए या aluminium?",
+      "timestamp": 50.31,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated binding/winding material question twice",
+      "evidence_verified": true,
+      "llm_timestamp": 50.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं Pfizer vaccine ही चाहिए मुझे।",
+      "timestamp": 55.71,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer made off-topic Pfizer vaccine comment, bot ignored it",
+      "evidence_verified": true,
+      "llm_timestamp": 55.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot closed with seller details"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 1 piece, bot captured 1 piece"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit piece captured correctly"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity 1 piece, bot asked and captured it"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 1 piece was captured correctly"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity, not spec1, so NA"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said single, bot captured single"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured winding material copper"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "binding material copper चाहिए या aluminium?",
+      "timestamp": 50.31,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated binding/winding material question twice",
+      "evidence_verified": true,
+      "llm_timestamp": 50.3
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognition impacting lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for additional details"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed fiber fan, bot kept it"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available to judge"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "System data not available to judge"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected in transcript"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं Pfizer vaccine ही चाहिए मुझे।",
+      "timestamp": 55.71,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer made off-topic Pfizer vaccine comment, bot ignored it",
+      "evidence_verified": true,
+      "llm_timestamp": 55.7
+    }
+  ],
+  "captured_lead": {
+    "product": "fiber body exhaust fan",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "sweep_size",
+        "value": "20 inch"
+      },
+      {
+        "name": "motor_phase",
+        "value": "single phase"
+      },
+      {
+        "name": "winding_material",
+        "value": "copper"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Kharsia",
+    "state": "Chhattisgarh"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer made off-topic Pfizer vaccine comment",
+      "timestamp": 55.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on winding material question. Buyer made off-topic comment about Pfizer vaccine which was ignored.",
+  "analysis": "Buyer wanted a fiber body 20-inch exhaust fan. Bot confirmed product, captured quantity 1 piece, spec 20 inch, winding material copper, and location Kharsia, Chhattisgarh. Buyer mentioned Pfizer vaccine which the bot ignored. Bot offered WhatsApp seller details and closed the call.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[sweep_size] = '20 inch': number(s) ['20'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9374,
+    "completion_tokens": 2611
+  },
+  "unresolved_problems": []
+}

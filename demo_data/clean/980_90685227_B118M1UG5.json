@@ -1,0 +1,100 @@
+{
+  "call_id": "980_90685227_B118M1UG5",
+  "file": "data/recordings/980_90685227_B118M1UG5.mp3",
+  "duration_s": 73.73,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 100 mg Stildan Asil Citrate tablet IP की requirement है ना?",
+      "start": 0.25,
+      "end": 6.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नमस्ते आपको 100 mg Sildenafil Citrate tablets IP की requirement थी ना? कितना होता है Madam?",
+      "start": 8.51,
+      "end": 17.41
+    },
+    {
+      "role": "BOT",
+      "text": "यह दवा आमतौर पर पुरुषों के स्वास्थ्य के लिए इस्तेमाल होती है। क्या आपको इसकी requirement है?",
+      "start": 18.63,
+      "end": 23.53
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या Madam?",
+      "start": 25.23,
+      "end": 25.77
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं फिर से पूछती हूं। क्या आपको 100 mg Sildenafil Citrate tablets IP की जरूरत है?",
+      "start": 26.99,
+      "end": 32.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 34.11,
+      "end": 35.19
+    },
+    {
+      "role": "BOT",
+      "text": "पूछ के phone करने। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने box या strip चाहिए?",
+      "start": 35.19,
+      "end": 43.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 45.25,
+      "end": 45.69
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको कितने box या strip चाहिए? हाँ कितना होता है Madam amount? price के बारे में आप seller से discuss कर सकते हैं वो आपको best rates देंगे। आप बस ये बता दीजिए कि आपको कितनी quantity चाहिए? Okay Madam. Sorry मुझे अभी भी clear नहीं हो पाया। Please एक बार फिर से बता दीजिए कितनी quantity चाहिए?",
+      "start": 47.09,
+      "end": 69.97
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 69.97,
+      "end": 70.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller इस बारे में आप ठीक है।",
+      "start": 70.99,
+      "end": 73.79
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 71.49,
+      "end": 71.65
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.48,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

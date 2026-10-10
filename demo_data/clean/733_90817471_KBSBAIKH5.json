@@ -1,0 +1,374 @@
+{
+  "call_id": "733_90817471_KBSBAIKH5",
+  "file": "data/recordings/733_90817471_KBSBAIKH5.mp3",
+  "duration_s": 386.64,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Kumar ji, you are looking for human hair extension, right?",
+      "start": 0.37,
+      "end": 3.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Hello. Hello hello.",
+      "start": 6.55,
+      "end": 10.95
+    },
+    {
+      "role": "BOT",
+      "text": "You had a requirement for human hair extension.",
+      "start": 12.05,
+      "end": 14.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Oh. Yeah yeah yeah yeah hello. I am calling from Tirupati. Hello, can you",
+      "start": 13.07,
+      "end": 21.21
+    },
+    {
+      "role": "BOT",
+      "text": "Hello, you were trying. I'm calling from the IndiaMART helpline.",
+      "start": 20.31,
+      "end": 25.27
+    },
+    {
+      "role": "BUYER",
+      "text": "I'm calling from the IndiaMART help desk.",
+      "start": 23.51,
+      "end": 25.29
+    },
+    {
+      "role": "BOT",
+      "text": "I understand. The seller you were trying.",
+      "start": 26.77,
+      "end": 29.11
+    },
+    {
+      "role": "BUYER",
+      "text": "I understand. Okay. He got it. He's over good.",
+      "start": 26.91,
+      "end": 32.69
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Yes it is working.",
+      "start": 30.89,
+      "end": 35.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Where it is I am calling from Tirupati. How can I go there?",
+      "start": 35.07,
+      "end": 41.69
+    },
+    {
+      "role": "BOT",
+      "text": "I am calling from the IndiaMART help desk to help you find a seller.",
+      "start": 43.01,
+      "end": 46.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah yeah that's what I am asking I want to go to box right now can I have the address and phone number.",
+      "start": 47.91,
+      "end": 54.25
+    },
+    {
+      "role": "BOT",
+      "text": "I don't have their number but I can connect you with another good seller. First please confirm a few details.",
+      "start": 55.59,
+      "end": 60.97
+    },
+    {
+      "role": "BUYER",
+      "text": "No I want to contact just mock it only.",
+      "start": 62.53,
+      "end": 65.19
+    },
+    {
+      "role": "BOT",
+      "text": "Moxis is currently unavailable but we have many other good sellers.",
+      "start": 66.77,
+      "end": 70.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Are they exporters?",
+      "start": 72.41,
+      "end": 75.23
+    },
+    {
+      "role": "BOT",
+      "text": "Yes we have many verified sellers on IndiaMART.",
+      "start": 76.39,
+      "end": 79.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Why a mock sit-in nowadays not operative?",
+      "start": 80.53,
+      "end": 82.73
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry to hear that. We have other great sellers available. How many pieces or packs do you need?",
+      "start": 83.93,
+      "end": 89.47
+    },
+    {
+      "role": "BUYER",
+      "text": "How many? What I am asking Mokshith is not working nowadays.",
+      "start": 87.49,
+      "end": 94.47
+    },
+    {
+      "role": "BOT",
+      "text": "I understand your concern but since they are unavailable, I can connect you with other verified sellers.",
+      "start": 95.75,
+      "end": 101.03
+    },
+    {
+      "role": "BUYER",
+      "text": "WhatsApp.",
+      "start": 102.19,
+      "end": 103.03
+    },
+    {
+      "role": "BOT",
+      "text": "I can connect you to first.",
+      "start": 104.31,
+      "end": 106.23
+    },
+    {
+      "role": "BUYER",
+      "text": "I can connect you Garuda Garuda Garuda Garuda in Tirupati.",
+      "start": 104.33,
+      "end": 108.67
+    },
+    {
+      "role": "BOT",
+      "text": "I can help connect you with good sellers in Tirupati but first how many pieces or packs do you I can connect you with verified sellers to do that could you please tell me how many pieces or packs you need?",
+      "start": 109.93,
+      "end": 121.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Connect you with. Say, what is your charge?",
+      "start": 110.53,
+      "end": 125.99
+    },
+    {
+      "role": "BOT",
+      "text": "You can discuss the price and charges directly with the seller.",
+      "start": 127.27,
+      "end": 130.37
+    },
+    {
+      "role": "BUYER",
+      "text": "No but I am asking are you charging anything from us?",
+      "start": 132.01,
+      "end": 135.17
+    },
+    {
+      "role": "BOT",
+      "text": "No, IndiaMART does not charge you for connecting with sellers. Okay, could you please give me Garuda Enterprises in Tirupati? I can connect you with good sellers but first how many pieces or packs are you looking for?",
+      "start": 136.45,
+      "end": 151.65
+    },
+    {
+      "role": "BUYER",
+      "text": "I see first of all I want to go and look at look at the company and see the product. Is it okay for me then only I I will discuss further. First of all I want to see their product that's the issue.",
+      "start": 152.69,
+      "end": 164.57
+    },
+    {
+      "role": "BOT",
+      "text": "I understand. You can visit the.",
+      "start": 166.29,
+      "end": 168.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Now I am not going to purchase. First of all, I am here to go and see that factory and their products, is it good or not, then only I will decide. That also after one month only again I will decide. That time I will decide.",
+      "start": 167.37,
+      "end": 181.65
+    },
+    {
+      "role": "BOT",
+      "text": "I understand. You can discuss the visit with the seller. For now, could you please share an approximate quantity you might need?",
+      "start": 182.99,
+      "end": 189.55
+    },
+    {
+      "role": "BUYER",
+      "text": "But we see that that's not different. See, I am a very small purchaser. I mean very small purchaser. Before purchasing, I have last 4 years I am in the same line. Now I would like to look for other exporters, other exporters basically. That is natural human hair extension, single clips and tick tick clips. Okay. Natural human air export.",
+      "start": 191.45,
+      "end": 217.41
+    },
+    {
+      "role": "BOT",
+      "text": "Cotton. Got it. Since you are looking for other exporters, could you please tell me how many pieces or packs you need?",
+      "start": 215.91,
+      "end": 224.21
+    },
+    {
+      "role": "BUYER",
+      "text": "My my dear madam that's what I am telling. Now I am not going to purchase. First of all I am going and I want to visit their factory, their products and see whether it is good or not. Then only I will I will decide that also I will purchase next month.",
+      "start": 225.95,
+      "end": 240.99
+    },
+    {
+      "role": "BOT",
+      "text": "I understand. You can discuss the visit with the seller. For now, please share an approximate quantity so I can connect you.",
+      "start": 243.03,
+      "end": 249.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Now I am not at all decided. That's what again and again and again telling. I am not going to purchase anything right now. If at all I am interested, I will just try to purchase two pieces of 10 inch and 12 inch two pieces only and then I will check it from the customers how it is. Then only I will purchase.",
+      "start": 250.57,
+      "end": 269.47
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Since you need two pieces, let's talk about hair quality now. Which one would you like, Remy or something else?",
+      "start": 271.11,
+      "end": 277.29
+    },
+    {
+      "role": "BUYER",
+      "text": "or something else. That also I am not going to purchase next time. This time I am going and see I want to look at their factory, their products. Then I will have a word with them. Thereafter I will come and next time my visit is here that I will purchase only two pieces or ten inch and twelve inch. That I will take it and I will show it to my other beauty parlor people. Then if they are okay then only we purchase.",
+      "start": 276.25,
+      "end": 300.97
+    },
+    {
+      "role": "BOT",
+      "text": "I understand. For the hair quality, would you prefer Remy raw or something else?",
+      "start": 302.67,
+      "end": 307.39
+    },
+    {
+      "role": "BUYER",
+      "text": "आज रमी है। origin है रमी है।",
+      "start": 308.69,
+      "end": 313.49
+    },
+    {
+      "role": "BOT",
+      "text": "Perfect. Now what length would you prefer 18 inch, 22 inch or something else?",
+      "start": 314.97,
+      "end": 319.45
+    },
+    {
+      "role": "BUYER",
+      "text": "No no no no first beginning 10 inch and 12 inch only.",
+      "start": 319.45,
+      "end": 323.67
+    },
+    {
+      "role": "BOT",
+      "text": "Got it 10 and 12 inches.",
+      "start": 325.15,
+      "end": 327.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Padan. Hello.",
+      "start": 328.85,
+      "end": 333.09
+    },
+    {
+      "role": "BOT",
+      "text": "A very good seller is available on the line right now. You can discuss the price and other details.",
+      "start": 334.15,
+      "end": 339.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes. One other detail. WhatsApp",
+      "start": 334.69,
+      "end": 341.37
+    },
+    {
+      "role": "BOT",
+      "text": "The seller's name is City Collection. The seller's name is City Collection. Shall I connect you with them?",
+      "start": 340.59,
+      "end": 346.47
+    },
+    {
+      "role": "BUYER",
+      "text": "City Corporation is Tirupati.",
+      "start": 347.63,
+      "end": 349.49
+    },
+    {
+      "role": "BOT",
+      "text": "The available seller is from Kozhikode but we have several others whose details I'll share on WhatsApp. Shall I connect you with this one?",
+      "start": 350.87,
+      "end": 358.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam what I am telling I am sitting here in Cherupally Andhra and you are giving the call this is totally a joking madam. I apologize for the confusion.",
+      "start": 359.49,
+      "end": 370.47
+    },
+    {
+      "role": "BOT",
+      "text": "I apologize for the confusion.",
+      "start": 368.63,
+      "end": 370.37
+    },
+    {
+      "role": "BUYER",
+      "text": "I understand your concern.",
+      "start": 371.77,
+      "end": 373.71
+    },
+    {
+      "role": "BOT",
+      "text": "I understand your concern. I'll send you the.",
+      "start": 371.79,
+      "end": 374.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes. I'll send you the seller details.",
+      "start": 374.67,
+      "end": 378.63
+    },
+    {
+      "role": "BOT",
+      "text": "I'll send you the seller details.",
+      "start": 376.39,
+      "end": 378.03
+    },
+    {
+      "role": "BUYER",
+      "text": "What is the use for me? I'm coming all the way from some other state.",
+      "start": 380.01,
+      "end": 387.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 29,
+    "buyer_turns": 29,
+    "longest_gap_s": 3.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 19,
+      "0": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

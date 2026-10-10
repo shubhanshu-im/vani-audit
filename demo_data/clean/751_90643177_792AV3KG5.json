@@ -1,0 +1,134 @@
+{
+  "call_id": "751_90643177_792AV3KG5",
+  "file": "data/recordings/751_90643177_792AV3KG5.mp3",
+  "duration_s": 111.89,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello जीजी आपको Aceclofenac Paracetamol tablet की requirement है ना?",
+      "start": 0.13,
+      "end": 4.81
+    },
+    {
+      "role": "BUYER",
+      "text": "No madam I need sulfate oak. Setmate company sulfate oak.",
+      "start": 6.87,
+      "end": 15.21
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं आपकी बात समझ नहीं पा रही हूँ। क्या आप बता सकते हैं कि आपको कौन सा product या service चाहिए?",
+      "start": 16.65,
+      "end": 22.55
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे sulfate वो syrup चाहिए madam sulfate वो।",
+      "start": 24.19,
+      "end": 27.85
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको stall for असली जो कि आमतौर पर display या प्रदर्शनी के लिए इस्तेमाल होता है वही चाहिए ना?",
+      "start": 29.19,
+      "end": 34.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam मैं क्या बोल रहा हूँ तो statement pharma का staff वो सिर्फ चाहिए मुझे मिलेगा ना मिलेगा नहीं।",
+      "start": 37.11,
+      "end": 43.97
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको statement pharma का stall for eighty चाहिए क्या यह किसी दवाई या medical product से जुड़ा है?",
+      "start": 45.09,
+      "end": 50.79
+    },
+    {
+      "role": "BUYER",
+      "text": "साल से वो ஆ medical syrup madam syrup syrup medical syrup.",
+      "start": 49.43,
+      "end": 56.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितनी square meter चाहिए होगी आपको? आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 56.23,
+      "end": 69.17
+    },
+    {
+      "role": "BUYER",
+      "text": "दस तीस का है madam दस तीस।",
+      "start": 70.39,
+      "end": 71.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप बताइए कि size में क्या prefer करेंगे small, medium या कुछ और?",
+      "start": 73.25,
+      "end": 76.93
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। syrup madam syrup bottle 200 ml bottle.",
+      "start": 73.33,
+      "end": 81.07
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको 200 milliliters वाली bottle चाहिए। अब बताइए कि color में क्या prefer करेंगे white, black या कुछ और?",
+      "start": 82.41,
+      "end": 88.73
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या prefer एक ही color मिलेगा madam वो तरफ में।",
+      "start": 86.21,
+      "end": 93.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 94.21,
+      "end": 100.03
+    },
+    {
+      "role": "BUYER",
+      "text": "के साथ। Okay Madam कर लिया।",
+      "start": 98.25,
+      "end": 102.93
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 104.03,
+      "end": 107.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 107.27,
+      "end": 109.15
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.18,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

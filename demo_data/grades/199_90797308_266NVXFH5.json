@@ -1,0 +1,294 @@
+{
+  "call_id": "199_90797308_266NVXFH5",
+  "duration_s": 97.63,
+  "graded_at": "2026-10-10T12:26:39+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ਥੋੜ੍ਹਾ ਜਿਹਾ ਕਰ ਦਿਓ ਜੀ ਬਹੁਤ ਹੀ ਕਰ ਦਿਓ ਜੀ",
+      "timestamp": 54.11,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer's turn was garbled, bot inferred 60 BPM",
+      "evidence_verified": true,
+      "llm_timestamp": 54.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 87.63,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot closed without answering buyer's question",
+      "evidence_verified": true,
+      "llm_timestamp": 87.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot created lead"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity not needed for this product"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity given by buyer"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "manual manual",
+      "timestamp": 33.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed manual grade"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "60 BPM select कर लिया",
+      "timestamp": 60.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed 60 BPM capacity"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No other specs mentioned by buyer"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Automation grade में क्या चाहिए? Automatic, semi-automatic या manual?",
+      "timestamp": 26.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked spec only once"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ਥੋੜ੍ਹਾ ਜਿਹਾ ਕਰ ਦਿਓ ਜੀ ਬਹੁਤ ਹੀ ਕਰ ਦਿਓ ਜੀ",
+      "timestamp": 54.11,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer's turn was garbled, bot inferred 60 BPM",
+      "evidence_verified": true,
+      "llm_timestamp": 54.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product never in question"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 87.63,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot closed without answering buyer's question",
+      "evidence_verified": true,
+      "llm_timestamp": 87.6
+    }
+  ],
+  "captured_lead": {
+    "product": "water bottle filling machine",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "automation grade",
+        "value": "manual"
+      },
+      {
+        "name": "production capacity",
+        "value": "60 BPM"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Vaishali",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer's turn was garbled",
+      "timestamp": 54.1,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked about delivery time",
+      "timestamp": 93.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without answering the buyer's final question about delivery time.",
+  "analysis": "Buyer requested a water bottle filling machine, manual, 60 BPM. Bot captured product, spec1 (manual), spec2 (60 BPM), name ([NAME]), city (Vaishali), state (Bihar). Bot closed after collecting details and offering to send seller details on WhatsApp. Buyer asked about delivery time at the end, but bot closed. Outcome: lead created.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3884,
+    "completion_tokens": 1203
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,86 @@
+{
+  "call_id": "452_90741661_GYLZHL4H5",
+  "file": "data/recordings/452_90741661_GYLZHL4H5.mp3",
+  "duration_s": 58.61,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी industrial plastic pallet की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.19,
+      "end": 6.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 7.69,
+      "end": 8.27
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब width के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 1200 millimeters या कुछ और?",
+      "start": 10.01,
+      "end": 14.81
+    },
+    {
+      "role": "BUYER",
+      "text": "one thousand by twelve hundred mm तीन by चार बोल देते हैं।",
+      "start": 16.49,
+      "end": 22.99
+    },
+    {
+      "role": "BOT",
+      "text": "आप बताइए long capacity में। क्षमा कीजिए मैं समझ नहीं पाया। क्या आप lot capacity?",
+      "start": 20.29,
+      "end": 26.89
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप लौट के",
+      "start": 25.03,
+      "end": 26.69
+    },
+    {
+      "role": "BOT",
+      "text": "जी lot capacity यानी कि pallet कितना वज़न उठा सके आपको कौन सा चाहिए जैसे एक ton या दो ton या कुछ और।",
+      "start": 27.81,
+      "end": 33.39
+    },
+    {
+      "role": "BUYER",
+      "text": "डेटन ठीक है।",
+      "start": 34.43,
+      "end": 36.71
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 36.71,
+      "end": 41.37
+    },
+    {
+      "role": "BUYER",
+      "text": "पॉइंट 5. बोलिए sir वो तो आप पूछोगे उसका मैं जवाब दे दूंगा मैं तो। आपकी details note कर देंगे आप ही मेरे को बताओगे ना। आप ही मेरे को बताओगे ना कि ऐसा होता है ये ऐसा होता है तभी मैं बताऊंगा ना मैं आपको उसका क्या है।",
+      "start": 37.33,
+      "end": 54.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.02,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

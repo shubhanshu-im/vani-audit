@@ -1,0 +1,62 @@
+{
+  "call_id": "692_90685118_43IMK1UG5",
+  "file": "data/recordings/692_90685118_43IMK1UG5.mp3",
+  "duration_s": 34.99,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको automatic FSS packing machine की requirement है ना?",
+      "start": 0.77,
+      "end": 5.17
+    },
+    {
+      "role": "BUYER",
+      "text": "कैसे? Ma'am वो कितना उसका price list है उतना ही होगा।",
+      "start": 2.13,
+      "end": 12.29
+    },
+    {
+      "role": "BOT",
+      "text": "price के बारे में आप seller से discuss कर सकते हैं। वो आपको best rates देंगे। पर पहले मैं आपकी details confirm कर लूं।",
+      "start": 13.47,
+      "end": 19.43
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मेरे को चाहिए नहीं अभी नहीं चाहिए ma'am।",
+      "start": 21.09,
+      "end": 23.91
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 24.99,
+      "end": 30.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Hello.",
+      "start": 29.87,
+      "end": 32.89
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 2.52,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

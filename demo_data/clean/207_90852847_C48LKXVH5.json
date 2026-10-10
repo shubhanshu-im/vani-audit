@@ -1,0 +1,118 @@
+{
+  "call_id": "207_90852847_C48LKXVH5",
+  "file": "data/recordings/207_90852847_C48LKXVH5.mp3",
+  "duration_s": 103.68,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.01,
+      "end": 0.61
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी Nima electric grinder की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.33,
+      "end": 6.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो अभी मैंने जो detail बताई थी जो आपने सुनते ही नहीं हो आप लोग। आप लोग अभी detail लोगे बाकी मतलब phone काट देते हो यार।",
+      "start": 8.09,
+      "end": 16.17
+    },
+    {
+      "role": "BOT",
+      "text": "असुविधा के लिए माफ़ी चाहता हूँ। मैं आपकी पूरी जानकारी note कर लूँगा। चलिए अब आपकी requirement के बारे में बात करते हैं।",
+      "start": 17.31,
+      "end": 24.81
+    },
+    {
+      "role": "BUYER",
+      "text": "requirement. अभी madam से अभी madam से बात बात हुई तो उन्होंने मेरा मतलब जिला लिखा बस बोलती बस हो गया sir आपका।",
+      "start": 21.69,
+      "end": 32.17
+    },
+    {
+      "role": "BOT",
+      "text": "Madam के मैं समझ सकता हूं इस बार मैं आपकी पूरी details note कर लूंगा। बताइए आपको कौन सा product type चाहिए जैसे coffee grinder, two in one grinder या कुछ और?",
+      "start": 26.13,
+      "end": 40.47
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे ऐसा grinder चाहिए जिसमें मतलब की dry fruit, दाल और चना और बेसन सब कुछ बन जाए ऐसा चाहिए।",
+      "start": 42.35,
+      "end": 50.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गया आपको multipurpose grinder चाहिए। अब बताइए कि आप इसमें कितनी power prefer करेंगे जैसे 150 watts, 200 watts या कोई और?",
+      "start": 51.37,
+      "end": 59.59
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन के बाद।",
+      "start": 60.57,
+      "end": 61.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तीन सौ watts क्या आप इस product के बारे में कोई और details बिल्कुल मैं रुका हूँ बताइए।",
+      "start": 62.57,
+      "end": 68.97
+    },
+    {
+      "role": "BUYER",
+      "text": "के बारे में और पहले ये बताओ की मतलब अगर copper की डोली copper की cable की अगर 300 watt वाला grinder जोड़ेंगे तो डोली fault नहीं हो जाएगी।",
+      "start": 64.41,
+      "end": 78.71
+    },
+    {
+      "role": "BOT",
+      "text": "इस बारे में आप सीधे seller से बात कर सकते हैं। वो आपको सही तकनीकी जानकारी दे पाएंगे। क्या आप इस product के बारे में कोई और specification share करना चाहेंगे?",
+      "start": 79.79,
+      "end": 87.77
+    },
+    {
+      "role": "BUYER",
+      "text": "इसका price बता दे इसमें price कितना है मेरे को बता रहे हैं।",
+      "start": 88.99,
+      "end": 92.51
+    },
+    {
+      "role": "BOT",
+      "text": "price की सही जानकारी के लिए मैं आपको seller से connect कर सकता हूँ। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART में।",
+      "start": 93.59,
+      "end": 101.39
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे पहले अरे यार पहली बात तो सुनो।",
+      "start": 100.55,
+      "end": 103.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.06,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "call_id": "837_90741683_PU07IL4H5",
+  "file": "data/recordings/837_90741683_PU07IL4H5.mp3",
+  "duration_s": 134.5,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको safety button for oral suspension 180 mg 5 ml की requirement है ना?",
+      "start": 0.13,
+      "end": 6.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes ma'am I want a capsule in 300 mg twice a day ma'am. क्षमा कीजिए मुझे आपकी बात ठीक से समझ नहीं आई। क्या आप फिर से बता सकते हैं कि आपको क्या चाहिए? ପଢିଲେ ma'am I don't know Hindi.",
+      "start": 7.57,
+      "end": 23.23
+    },
+    {
+      "role": "BOT",
+      "text": "I apologize. I will speak in English. You are looking for safety button for oral suspension 180 ml 5 ml, right?",
+      "start": 24.39,
+      "end": 31.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Not overage questions. No, not overage. Overage ma'am. I want taxi ma'am. 200. Sad.",
+      "start": 30.83,
+      "end": 38.81
+    },
+    {
+      "role": "BOT",
+      "text": "Since you want capsules, are you looking for a different product? If so, please tell me the name.",
+      "start": 38.47,
+      "end": 43.13
+    },
+    {
+      "role": "BUYER",
+      "text": "fifty fifty duty ma'am.",
+      "start": 44.81,
+      "end": 46.69
+    },
+    {
+      "role": "BOT",
+      "text": "Do you need Metrogyl tablets which are typically used as an antibiotic?",
+      "start": 47.99,
+      "end": 52.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Safety boot and tablet. Yes. Two hundred mg ma'am.",
+      "start": 48.45,
+      "end": 54.87
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were calling is unavailable and I am calling from IndiaMART. How many boxes or strips do you need?",
+      "start": 56.77,
+      "end": 63.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Calling. ஆ I need 50 tablets ma'am.",
+      "start": 57.77,
+      "end": 68.47
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Since you need sixty tablets, how many strips or boxes would that be?",
+      "start": 69.51,
+      "end": 73.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Ten, ma'am.",
+      "start": 75.47,
+      "end": 76.21
+    },
+    {
+      "role": "BOT",
+      "text": "You need ten strips.",
+      "start": 77.37,
+      "end": 78.63
+    },
+    {
+      "role": "BUYER",
+      "text": "ஆ six six six ma'am.",
+      "start": 79.97,
+      "end": 82.89
+    },
+    {
+      "role": "BOT",
+      "text": "Do you need six strips?",
+      "start": 84.09,
+      "end": 85.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes, ma'am.",
+      "start": 86.45,
+      "end": 87.15
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, could you please tell me your city and state?",
+      "start": 88.59,
+      "end": 91.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am I am from Tamil Nadu ma'am. Thoothukudi district Kovilpatti.",
+      "start": 93.29,
+      "end": 100.27
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I couldn't quite catch the city name. Could you please tell me your city in Tamil Nadu again?",
+      "start": 101.39,
+      "end": 106.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes. ஆ சூட்டுக்குடி district ma'am கோவில்பட்டி.",
+      "start": 101.81,
+      "end": 111.45
+    },
+    {
+      "role": "BOT",
+      "text": "Are you speaking from Kovilpatti Tamil Nadu?",
+      "start": 112.79,
+      "end": 114.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes ma'am, yes ma'am.",
+      "start": 115.79,
+      "end": 117.23
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, could you please tell me your name?",
+      "start": 118.31,
+      "end": 120.19
+    },
+    {
+      "role": "BUYER",
+      "text": "[NAME] Ma'am.",
+      "start": 121.91,
+      "end": 123.11
+    },
+    {
+      "role": "BOT",
+      "text": "I will send the seller details to you on WhatsApp where you can discuss the price and other details. Thank you for choosing India Mart. Have a nice day.",
+      "start": 124.33,
+      "end": 132.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Another. Have. Thank you, ma'am.",
+      "start": 128.59,
+      "end": 134.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 13,
+    "longest_gap_s": 2.08,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

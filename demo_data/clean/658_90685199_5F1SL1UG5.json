@@ -1,0 +1,122 @@
+{
+  "call_id": "658_90685199_5F1SL1UG5",
+  "file": "data/recordings/658_90685199_5F1SL1UG5.mp3",
+  "duration_s": 94.61,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको ostrich sticks की requirement है ना?",
+      "start": 0.35,
+      "end": 4.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ यही है। हाँ। बोलिए कहाँ से हैं? Bengaluru में?",
+      "start": 5.19,
+      "end": 9.59
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 10.81,
+      "end": 16.69
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। मेरे को six pieces चाहिए।",
+      "start": 16.53,
+      "end": 20.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है चलिए अब breed के बारे में बात कर लेते हैं। आपको COP 430 चाहिए या कुछ और?",
+      "start": 21.15,
+      "end": 26.05
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मेरे को सिर्फ chicks की वो ostrich बड़ा वाला बहुत महंगा पड़ता है ना chicks सस्ता पड़ता है ना।",
+      "start": 27.83,
+      "end": 35.33
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप seller से price discuss कर सकते हैं वो आपको best rates देंगे। breed में आप क्या prefer करेंगे?",
+      "start": 36.39,
+      "end": 41.63
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा breed कौन सा है?",
+      "start": 43.93,
+      "end": 45.79
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी जरूरत के हिसाब से COP 430 या Sonali ले सकते हैं। आप क्या prefer करेंगे?",
+      "start": 47.07,
+      "end": 52.53
+    },
+    {
+      "role": "BUYER",
+      "text": "सोनाली ले लेते हैं। बढ़िया।",
+      "start": 54.27,
+      "end": 56.31
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब age के बारे में बताइए। आपको one day या one month वाले चाहिए या कुछ और?",
+      "start": 57.73,
+      "end": 62.91
+    },
+    {
+      "role": "BUYER",
+      "text": "three months ये ना one one month वाला तो fragile रहेगा three months वाला।",
+      "start": 64.43,
+      "end": 70.25
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 71.31,
+      "end": 77.75
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। Thank you। ये कहां से मिलता है? Normally कहां से मिलता है ये?",
+      "start": 78.83,
+      "end": 83.67
+    },
+    {
+      "role": "BOT",
+      "text": "ये आपको IndiaMART के verified sellers से मिल जाएगा। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 84.83,
+      "end": 90.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 92.35,
+      "end": 93.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.3,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

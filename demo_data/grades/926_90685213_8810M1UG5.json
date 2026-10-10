@@ -1,0 +1,341 @@
+{
+  "call_id": "926_90685213_8810M1UG5",
+  "duration_s": 103.68,
+  "graded_at": "2026-10-10T12:45:36+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Bot summarized 4 pieces but missed the split of two different power ratings.",
+  "fatal_params": [
+    "Qty Missed Opportunity",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "दो piece पाँच सौ का चाहिए था और एक सौ बीस का दो piece चाहिए।",
+      "timestamp": 39.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot summarized 4 pieces but missed the split of two different power ratings.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.0
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "नहीं पाँच सौ का और one hundred twenty का दो piece इतना ही था।",
+      "timestamp": 82.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated power specs 500W and 120W but bot did not capture them.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए आपकी आवाज clear नहीं आई जरा दोबारा बताइए कि आप brand के बारे में बताएंगे।",
+      "timestamp": 55.95,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated brand question twice due to ASR issues.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Ahuzah amplifier था 500 watt का।",
+      "timestamp": 16.73,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'Ahuzah' as '500 watt amplifier' but recovered.",
+      "evidence_verified": true,
+      "llm_timestamp": 16.7
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 97.87,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot made a vague closing without asking for name/location.",
+      "evidence_verified": true,
+      "llm_timestamp": 97.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement, bot handled and closed call."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 4 pieces, matching buyer's total."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'piece', bot captured 'piece'."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "दो piece पाँच सौ का चाहिए था और एक सौ बीस का दो piece चाहिए।",
+      "timestamp": 39.05,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot summarized 4 pieces but missed the split of two different power ratings.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.0
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask or capture any spec1 value."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask or capture any spec2 value."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "नहीं पाँच सौ का और one hundred twenty का दो piece इतना ही था।",
+      "timestamp": 82.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated power specs 500W and 120W but bot did not capture them.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए आपकी आवाज clear नहीं आई जरा दोबारा बताइए कि आप brand के बारे में बताएंगे।",
+      "timestamp": 55.95,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated brand question twice due to ASR issues.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Ahuzah amplifier था 500 watt का।",
+      "timestamp": 16.73,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'Ahuzah' as '500 watt amplifier' but recovered.",
+      "evidence_verified": true,
+      "llm_timestamp": 16.7
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent as amplifier."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific options were presented."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or MCAT action was performed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps were detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 97.87,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot made a vague closing without asking for name/location.",
+      "evidence_verified": true,
+      "llm_timestamp": 97.9
+    }
+  ],
+  "captured_lead": {
+    "product": "amplifier",
+    "quantity": "4",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "brand",
+        "value": "Ahuja"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Failed to capture power output specs 500W and 120W.",
+      "timestamp": 82.8,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: bot_not_understood, other_language",
+      "timestamp": 55.95,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture power output specs and buyer's name/location. Closed with a generic WhatsApp offer instead of a lead.",
+  "analysis": "Buyer wanted 2x 500W and 2x 120W amplifiers. Bot captured product as 'amplifier', quantity as 4 pieces, and brand as 'Ahuja'. The bot failed to capture the power output specs (500W and 120W) and offered to send details via WhatsApp. The call ended without a lead or live transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3956,
+    "completion_tokens": 1626
+  },
+  "unresolved_problems": []
+}

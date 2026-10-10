@@ -1,0 +1,99 @@
+{
+  "call_id": "630_90685103_SRFBK1UG5",
+  "file": "data/recordings/630_90685103_SRFBK1UG5.mp3",
+  "duration_s": 58.39,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी आमला scheme call की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 5.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 7.33,
+      "end": 8.09
+    },
+    {
+      "role": "BOT",
+      "text": "[NAME] जी क्या आप line पर हैं?",
+      "start": 15.45,
+      "end": 17.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ बोलिए। हाँ जी thank you।",
+      "start": 17.59,
+      "end": 19.67
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कितने ton MT या kilogram की जरूरत है?",
+      "start": 20.93,
+      "end": 23.07
+    },
+    {
+      "role": "BUYER",
+      "text": "हमें transport में।",
+      "start": 25.75,
+      "end": 27.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब coal size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए zero to fifty mm या कुछ और?",
+      "start": 28.19,
+      "end": 33.23
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं बड़ा lump size दूध बड़ा बड़ा।",
+      "start": 34.77,
+      "end": 36.77
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गया। अब source location के बारे में बता दीजिए। आपको कौन सा चाहिए Indonesia या Jharkhand या कोई और?",
+      "start": 37.99,
+      "end": 43.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Kamleem.",
+      "start": 44.91,
+      "end": 47.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 48.29,
+      "end": 55.43
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 7.36,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 8.09,
+        "end": 15.45,
+        "duration_s": 7.36,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

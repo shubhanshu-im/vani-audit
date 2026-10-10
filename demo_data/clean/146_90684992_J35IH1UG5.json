@@ -1,0 +1,98 @@
+{
+  "call_id": "146_90684992_J35IH1UG5",
+  "file": "data/recordings/146_90684992_J35IH1UG5.mp3",
+  "duration_s": 69.12,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Lupiflex 4 mg tablets की requirement है ना?",
+      "start": 0.09,
+      "end": 4.57
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 5.87,
+      "end": 6.53
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने box चाहिए?",
+      "start": 7.81,
+      "end": 13.67
+    },
+    {
+      "role": "BUYER",
+      "text": "दो box चाहिए ma'am मतलब box में कितने packet आएंगे ma'am इस box में?",
+      "start": 14.93,
+      "end": 19.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। यह जानकारी आप seller से discuss कर सकते हैं। वह आपको सही बता पाएंगे। अब यह बताइए आपको strength 15 mg ही चाहिए ना?",
+      "start": 20.09,
+      "end": 27.27
+    },
+    {
+      "role": "BUYER",
+      "text": "जी हां 1050 mg चाहिए और वो मेरे personal use के लिए चाहिए ma'am मैं ये नहीं हूं। मेरा कोई medical shop नहीं है लेकिन वो मुझे tablet कहीं पे भी नहीं मिल रही है Pune location में।",
+      "start": 28.61,
+      "end": 39.25
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए आप इसे किस उपयोग के लिए लेना चाहते हैं जैसे PCD Pharma Franchise या personal use?",
+      "start": 40.29,
+      "end": 46.23
+    },
+    {
+      "role": "BUYER",
+      "text": "अह मैं doctor prescribe doctor ने prescribe किया है ma'am personal use के लिए।",
+      "start": 44.91,
+      "end": 49.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 50.11,
+      "end": 55.19
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है ठीक है Ma'am thank you.",
+      "start": 56.53,
+      "end": 57.97
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 59.05,
+      "end": 61.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 63.39,
+      "end": 64.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 1.5,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 5,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

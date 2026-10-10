@@ -1,0 +1,98 @@
+{
+  "call_id": "661_90685248_4M8HM1UG5",
+  "file": "data/recordings/661_90685248_4M8HM1UG5.mp3",
+  "duration_s": 62.71,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको dicotyl percent बीस pen percent बी soil की requirement है ना?",
+      "start": 0.15,
+      "end": 5.03
+    },
+    {
+      "role": "BUYER",
+      "text": "और साठ ml।",
+      "start": 7.07,
+      "end": 8.11
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 9.27,
+      "end": 15.99
+    },
+    {
+      "role": "BUYER",
+      "text": "So free है sir. सात एम एल से।",
+      "start": 17.37,
+      "end": 20.75
+    },
+    {
+      "role": "BOT",
+      "text": "अब packaging size के बारे में बात कर लेते हैं आपको 100 milliliters चाहिए या कुछ और?",
+      "start": 20.03,
+      "end": 25.09
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं सात ml के दो दे देना कहीं दो दे देना बस करके।",
+      "start": 27.13,
+      "end": 31.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब बताइए कि usage में क्या prefer करेंगे pain relief, joint pain relief या कोई और?",
+      "start": 32.75,
+      "end": 37.99
+    },
+    {
+      "role": "BUYER",
+      "text": "जे माथे से खिंचाए उसके लिए।",
+      "start": 39.51,
+      "end": 42.03
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई muscle pain के लिए चाहिए। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 43.21,
+      "end": 49.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Good.",
+      "start": 50.49,
+      "end": 51.49
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 52.65,
+      "end": 55.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. काट ही देंगे।",
+      "start": 55.41,
+      "end": 61.89
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 4.86,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

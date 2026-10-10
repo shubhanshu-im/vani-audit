@@ -1,0 +1,40 @@
+{
+  "call_id": "141_90643052_7VEUS3KG5",
+  "file": "data/recordings/141_90643052_7VEUS3KG5.mp3",
+  "duration_s": 15.84,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको Artificial Intelligence software की requirement है ना? Sorry आपकी आवाज़ clear नहीं आई। आप Artificial Intelligence software की requirement...",
+      "start": 0.01,
+      "end": 15.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 7.42,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 4.21,
+        "end": 11.63,
+        "duration_s": 7.42,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

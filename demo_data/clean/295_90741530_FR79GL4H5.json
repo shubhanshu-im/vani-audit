@@ -1,0 +1,134 @@
+{
+  "call_id": "295_90741530_FR79GL4H5",
+  "file": "data/recordings/295_90741530_FR79GL4H5.mp3",
+  "duration_s": 79.49,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको single seat chair की requirement है ना?",
+      "start": 0.31,
+      "end": 3.87
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ हाँ।",
+      "start": 4.53,
+      "end": 6.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं India Mart से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 8.17,
+      "end": 18.11
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। hundred meters.",
+      "start": 8.29,
+      "end": 19.65
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। वैसे chair के लिए आप कितनी quantity चाहेंगे? Please एक बार फिर से बता दीजिए।",
+      "start": 20.71,
+      "end": 25.77
+    },
+    {
+      "role": "BUYER",
+      "text": "hundred hundred pieces.",
+      "start": 26.39,
+      "end": 27.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब length के बारे में बात कर लेते हैं। आपको 5 feet चाहिए या कुछ और?",
+      "start": 28.77,
+      "end": 32.99
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं single share।",
+      "start": 33.73,
+      "end": 34.93
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ गई। But क्या आप बता सकते हैं कि आपको length में क्या prefer करेंगे जैसे 5 feet या कुछ और?",
+      "start": 35.91,
+      "end": 41.57
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं पांच feet नहीं Z by Z का single seat।",
+      "start": 42.47,
+      "end": 45.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब width के बारे में बता दीजिए। आपको 2 feet चाहिए, 2.5 feet या कुछ और?",
+      "start": 46.39,
+      "end": 51.17
+    },
+    {
+      "role": "BUYER",
+      "text": "दो feet एक feet डेढ़ feet।",
+      "start": 52.81,
+      "end": 55.15
+    },
+    {
+      "role": "BOT",
+      "text": "आपको width में क्या prefer करेंगे जैसे 2 feet या 1.5 feet?",
+      "start": 56.31,
+      "end": 59.95
+    },
+    {
+      "role": "BUYER",
+      "text": "एक point five।",
+      "start": 60.63,
+      "end": 61.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 62.71,
+      "end": 68.55
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 69.25,
+      "end": 70.03
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 71.05,
+      "end": 73.89
+    },
+    {
+      "role": "BUYER",
+      "text": "India में।",
+      "start": 78.51,
+      "end": 79.33
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 4.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

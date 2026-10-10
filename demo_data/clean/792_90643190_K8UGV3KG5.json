@@ -1,0 +1,118 @@
+{
+  "call_id": "792_90643190_K8UGV3KG5",
+  "file": "data/recordings/792_90643190_K8UGV3KG5.mp3",
+  "duration_s": 101.16,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello देवेंद्र।",
+      "start": 0.11,
+      "end": 1.01
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Delidol instant pain relief spray की requirement है ना?",
+      "start": 0.37,
+      "end": 5.05
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। Hello. नमस्ते क्या आप मुझे सुन पा रहे हैं?",
+      "start": 1.33,
+      "end": 11.75
+    },
+    {
+      "role": "BOT",
+      "text": "आपको delayed on instant pain relief spray की requirement थी ना?",
+      "start": 11.75,
+      "end": 15.31
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ जी जो हमने फिलहाल में एक आप एक photo भेज रखा है।",
+      "start": 10.51,
+      "end": 22.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। photo आपने उस seller को भेजी होगी जो अभी available नहीं है। आप मुझे बता दीजिए कि photo में क्या था?",
+      "start": 23.63,
+      "end": 29.43
+    },
+    {
+      "role": "BUYER",
+      "text": "और उसमें एक मुफ़्त की इस्त्री है।",
+      "start": 24.55,
+      "end": 34.73
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 35.91,
+      "end": 42.51
+    },
+    {
+      "role": "BUYER",
+      "text": "दो piece चाहिए तीन चाहिए piece मात्र।",
+      "start": 46.03,
+      "end": 49.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए इसमें आप क्या prefer करेंगे? जैसे Combiflam pain relief spray, Volini spray या कुछ और?",
+      "start": 50.07,
+      "end": 56.21
+    },
+    {
+      "role": "BUYER",
+      "text": "spray एक बार वो उसका नाम नहीं है आज एक बार वो spray check करके देखना फिर हमको बताना आपके पास मिल सकती है या नहीं।",
+      "start": 58.51,
+      "end": 68.37
+    },
+    {
+      "role": "BOT",
+      "text": "आप पूरी list sellers को भेज दीजिएगा वो आपकी मदद करेंगे लेकिन best seller से connect करने के लिए details confirm कर दीजिए please। आपको यह किस उपयोग के लिए चाहिए जैसे reselling, hospital use या कुछ और?",
+      "start": 69.47,
+      "end": 80.55
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं नहीं नहीं फिलहाल में हमारा कोई hospital है नहीं कुछ हम तो खाली ऐसे अपने use करने के मतलब से तीन piece मंगाना चाह रहे हैं मात्र।",
+      "start": 82.05,
+      "end": 89.81
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 90.93,
+      "end": 99.37
+    },
+    {
+      "role": "BUYER",
+      "text": "उसके बाद।",
+      "start": 99.37,
+      "end": 101.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 8,
+    "longest_gap_s": 3.52,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 6
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

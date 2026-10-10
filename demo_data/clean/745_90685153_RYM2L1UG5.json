@@ -1,0 +1,33 @@
+{
+  "call_id": "745_90685153_RYM2L1UG5",
+  "file": "data/recordings/745_90685153_RYM2L1UG5.mp3",
+  "duration_s": 10.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको 100% discount counter की requirement है ना? आप जिस seller को call",
+      "start": 0.01,
+      "end": 10.29
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 4.9,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

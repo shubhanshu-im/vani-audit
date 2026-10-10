@@ -1,0 +1,74 @@
+{
+  "call_id": "160_90643050_H17TS3KG5",
+  "file": "data/recordings/160_90643050_H17TS3KG5.mp3",
+  "duration_s": 100.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Selfrost IKG 111 deep freezer की requirement है ना?",
+      "start": 0.01,
+      "end": 5.45
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 6.51,
+      "end": 7.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए होंगे?",
+      "start": 9.83,
+      "end": 19.77
+    },
+    {
+      "role": "BUYER",
+      "text": "एक ही page में।",
+      "start": 21.11,
+      "end": 22.41
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई एक piece चाहिए। चलिए अब brand में क्या prefer करेंगे Blue Star या Rockwell या कुछ और? जो अच्छा हो। Blue Star और Rockwell दोनों ही अच्छे brands हैं। आपको कौन सा चुनना है या seller से discuss करना चाहेंगे? पहले से discuss कर लेंगे। ठीक है brand आप seller से discuss कर लीजिएगा। अब capacity में क्या चाहिए 300 liter या 500 liter या कुछ और? એક madam એક line પર તમે જે વ્યક્તિને call કર્યો છે તેને તમારો call hold પર રાખ્યો છે કૃપા કરી line પર રહો.",
+      "start": 24.61,
+      "end": 66.33
+    },
+    {
+      "role": "BUYER",
+      "text": "आप जिस व्यक्ति से बात कर रहे हैं उन्होंने आपके call को hold पर रखा है। कृपया line पर बने रहें। The person you are speaking with has put your call on hold. Please stay on the line.",
+      "start": 66.33,
+      "end": 80.11
+    },
+    {
+      "role": "BOT",
+      "text": "તમે જે વ્યક્તિને call કર્યો છે તેને તમારો call hold પર રાખ્યો છે. કૃપા કરી line પર રહો.",
+      "start": 80.23,
+      "end": 87.91
+    },
+    {
+      "role": "BUYER",
+      "text": "आप जिस व्यक्ति से बात कर रहे हैं उन्होंने आपके call को hold पर रखा है। कृपया line पर बने रहें। The person you are speaking with has put your call on hold. Please.",
+      "start": 87.91,
+      "end": 100.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 4.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "call_id": "778_90685159_J7K7L1UG5",
+  "file": "data/recordings/778_90685159_J7K7L1UG5.mp3",
+  "duration_s": 109.73,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Escort tractor spare part की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 10.71,
+      "end": 11.19
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब compatible model के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 380 या कुछ और?",
+      "start": 12.67,
+      "end": 17.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हिंदी में Kannada.",
+      "start": 20.77,
+      "end": 22.09
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें मैं केवल हिंदी और अंग्रेजी में बात कर सकता हूं। क्या हम हिंदी में जारी रख सकते हैं?",
+      "start": 23.33,
+      "end": 28.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Sir.",
+      "start": 32.35,
+      "end": 32.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। तो बताइए compatible model में आप क्या prefer करेंगे 380, 575 या कोई और?",
+      "start": 33.95,
+      "end": 40.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Quality Quality rate.",
+      "start": 43.67,
+      "end": 45.51
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकता हूं quality और rate की जानकारी आपको seller से मिल जाएगी। पहले बस यह बता दीजिए कि आपको कौन सा compatible model चाहिए?",
+      "start": 46.55,
+      "end": 52.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Power Track tractor.",
+      "start": 55.33,
+      "end": 57.09
+    },
+    {
+      "role": "BOT",
+      "text": "जी हम tractor spare parts की बात कर रहे हैं। तो क्या आप बता सकते हैं कि आपको कौन सा compatible model चाहिए?",
+      "start": 58.07,
+      "end": 63.63
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको। two thousand twenty.",
+      "start": 61.59,
+      "end": 71.25
+    },
+    {
+      "role": "BOT",
+      "text": "तो ठीक है। अब usage या application के बारे में बात करते हैं। आपको ये किस लिए चाहिए जैसे service and repair, resale या कुछ और?",
+      "start": 69.05,
+      "end": 78.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म। कन्नडा language के बहुत अच्छा है हिंदी नहीं।",
+      "start": 84.47,
+      "end": 90.51
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकता हूं but अभी मैं सिर्फ हिंदी और अंग्रेजी में ही आपकी मदद कर पाऊंगा। क्या आप बता सकते हैं कि आपको यह किस काम के लिए चाहिए? भीमेश जी क्या आप अभी line पर हैं?",
+      "start": 91.81,
+      "end": 109.51
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 9.52,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 78.29,
+        "end": 84.47,
+        "duration_s": 6.18,
+        "after_role": "BOT"
+      },
+      {
+        "start": 98.35,
+        "end": 107.87,
+        "duration_s": 9.52,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

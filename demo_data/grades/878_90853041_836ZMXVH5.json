@@ -1,0 +1,375 @@
+{
+  "call_id": "878_90853041_836ZMXVH5",
+  "duration_s": 57.96,
+  "graded_at": "2026-10-10T12:44:34+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Bot confirmed wrong spec 24x256x256 mm instead of 24x8x6 inches",
+  "fatal_params": [
+    "Spec1 Accuracy",
+    "Spec2 Accuracy",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको चौबीस इंच का आठ इंच और छह इंच चौबीस आठ छह",
+      "timestamp": 36.23,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot confirmed wrong spec 24x256x256 mm instead of 24x8x6 inches",
+      "evidence_verified": true,
+      "llm_timestamp": 36.2
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको चौबीस inch छह सौ mm चाहिए या पच्चीस inch छह सौ पच्चीस mm",
+      "timestamp": 29.59,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot offered wrong length options and failed to capture 24 inches",
+      "evidence_verified": true,
+      "llm_timestamp": 29.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। अब आपकी city और state भी बता दीजिए please।",
+      "timestamp": 43.95,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state request twice",
+      "evidence_verified": true,
+      "llm_timestamp": 44.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब आपकी city और state भी बता दीजिए please।",
+      "timestamp": 43.95,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state request twice",
+      "evidence_verified": true,
+      "llm_timestamp": 44.0
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको चौबीस इंच का आठ इंच और छह इंच चौबीस आठ छह",
+      "timestamp": 36.23,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 24x8x6 inches as 24x256x256 mm",
+      "evidence_verified": true,
+      "llm_timestamp": 36.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा करें आपकी आवाज़ clear आप Srinagar Jammu और Kashmir से बोल रहे हैं।",
+      "timestamp": 52.83,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot cut off buyer mid-call but did not claim to be human",
+      "evidence_verified": true,
+      "llm_timestamp": 52.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot proceeded"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed 1000 pieces and bot acknowledged"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit specified or discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity asked and provided"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको चौबीस इंच का आठ इंच और छह इंच चौबीस आठ छह",
+      "timestamp": 36.23,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot confirmed wrong spec 24x256x256 mm instead of 24x8x6 inches",
+      "evidence_verified": true,
+      "llm_timestamp": 36.2
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको चौबीस inch छह सौ mm चाहिए या पच्चीस inch छह सौ पच्चीस mm",
+      "timestamp": 29.59,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot offered wrong length options and failed to capture 24 inches",
+      "evidence_verified": true,
+      "llm_timestamp": 29.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। अब आपकी city और state भी बता दीजिए please।",
+      "timestamp": 43.95,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state request twice",
+      "evidence_verified": true,
+      "llm_timestamp": 44.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब आपकी city और state भी बता दीजिए please।",
+      "timestamp": 43.95,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated city/state request twice",
+      "evidence_verified": true,
+      "llm_timestamp": 44.0
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको चौबीस इंच का आठ इंच और छह इंच चौबीस आठ छह",
+      "timestamp": 36.23,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 24x8x6 inches as 24x256x256 mm",
+      "evidence_verified": true,
+      "llm_timestamp": 36.2
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered or attempted"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gap"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा करें आपकी आवाज़ clear आप Srinagar Jammu और Kashmir से बोल रहे हैं।",
+      "timestamp": 52.83,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot cut off buyer mid-call but did not claim to be human",
+      "evidence_verified": true,
+      "llm_timestamp": 52.8
+    }
+  ],
+  "captured_lead": {
+    "product": "lightweight ARS block",
+    "quantity": "1000",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "length",
+        "value": "24 inches"
+      },
+      {
+        "name": "thickness",
+        "value": "8 inches"
+      },
+      {
+        "name": "width",
+        "value": "6 inches"
+      }
+    ],
+    "name": null,
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir"
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot recorded wrong thickness and length specs",
+      "timestamp": 29.6,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Repeated city and state request twice",
+      "timestamp": 44.0,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot cut off buyer mid-sentence",
+      "timestamp": 52.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard buyer's specs as 24x256x256 mm instead of 24x8x6 inches and abruptly cut off the call while confirming location.",
+  "analysis": "Buyer wanted 1000 pieces of lightweight ARS block with specs 24x8x6 inches. Bot confirmed quantity but misunderstood specs as 24x256x256 mm and 24x6x24 inches. Bot then asked for city/state twice and cut off mid-sentence while confirming location. Call ended abruptly.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '1000': number(s) ['1000'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)",
+    "captured_lead.specs[length] = '24 inches': number(s) ['24'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14268,
+    "completion_tokens": 4246
+  },
+  "unresolved_problems": []
+}

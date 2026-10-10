@@ -1,0 +1,33 @@
+{
+  "call_id": "631_90685104_LM2CK1UG5",
+  "file": "data/recordings/631_90685104_LM2CK1UG5.mp3",
+  "duration_s": 3.24,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी half coconut shell की request IndiaMART",
+      "start": 0.23,
+      "end": 3.27
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

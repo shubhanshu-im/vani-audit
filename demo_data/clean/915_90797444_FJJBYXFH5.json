@@ -1,0 +1,80 @@
+{
+  "call_id": "915_90797444_FJJBYXFH5",
+  "file": "data/recordings/915_90797444_FJJBYXFH5.mp3",
+  "duration_s": 47.81,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको cement mixer machine की requirement है ना?",
+      "start": 0.01,
+      "end": 3.83
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 4.95,
+      "end": 5.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको power source manual ही चाहिए ना?",
+      "start": 6.95,
+      "end": 18.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 19.21,
+      "end": 19.69
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब mixing capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए? 0.5 bag, 1 bag या कुछ और?",
+      "start": 20.83,
+      "end": 27.73
+    },
+    {
+      "role": "BUYER",
+      "text": "One bag.",
+      "start": 28.61,
+      "end": 29.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको मैं seller details...",
+      "start": 30.31,
+      "end": 32.01
+    },
+    {
+      "role": "BUYER",
+      "text": "WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। Okay.",
+      "start": 32.01,
+      "end": 36.73
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 37.77,
+      "end": 40.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.16,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

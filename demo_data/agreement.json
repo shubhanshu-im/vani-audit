@@ -1,0 +1,28 @@
+{
+  "source": "hand labels",
+  "agreement_pct": null,
+  "kappa": null,
+  "headline_split": "all",
+  "n_labelled": 0,
+  "overall": {
+    "n": 0,
+    "agreement_pct": null,
+    "kappa": null
+  },
+  "by_split": {
+    "tune": {
+      "n": 0,
+      "agreement_pct": null,
+      "kappa": null
+    },
+    "test": {
+      "n": 0,
+      "agreement_pct": null,
+      "kappa": null
+    }
+  },
+  "disagreements": [],
+  "created_at": "2026-10-10T12:48:58+05:30",
+  "dataset": "main",
+  "note": "No human labels yet: fill data/labels/human_labels.csv (see data/labels/LABELLING_GUIDE.md)."
+}

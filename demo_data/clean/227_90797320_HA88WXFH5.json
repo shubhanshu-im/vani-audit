@@ -1,0 +1,50 @@
+{
+  "call_id": "227_90797320_HA88WXFH5",
+  "file": "data/recordings/227_90797320_HA88WXFH5.mp3",
+  "duration_s": 10.58,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको manual hand chain hoist की requirement है ना?",
+      "start": 0.01,
+      "end": 3.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.21,
+      "end": 0.79
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 5.13,
+      "end": 5.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 8.55,
+      "end": 10.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.9,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

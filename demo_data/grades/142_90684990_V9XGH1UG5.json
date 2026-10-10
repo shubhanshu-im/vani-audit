@@ -1,0 +1,300 @@
+{
+  "call_id": "142_90684990_V9XGH1UG5",
+  "duration_s": 111.31,
+  "graded_at": "2026-10-10T12:25:25+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, Dead air, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "cotton ज्यादा आरामदायक होता है और polyester टिकाऊ।",
+      "timestamp": 41.69,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the fabric comparison sentence once.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.7
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Okay.",
+      "timestamp": 89.05,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "6.6s silence after buyer, but call continued.",
+      "evidence_verified": true,
+      "llm_timestamp": 89.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 82.51,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot promised to send details on WhatsApp without collecting name or location.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot handled it."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "एक piece चाहिए ma'am.",
+      "timestamp": 15.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured '1 piece' correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "एक piece चाहिए ma'am.",
+      "timestamp": 15.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'piece' was captured correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was provided and not re-asked."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "cotton ज्यादा आरामदायक होता है और polyester टिकाऊ।",
+      "timestamp": 41.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot provided fabric comparison, buyer selected polyester."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "round neck, polo neck या कुछ और?",
+      "timestamp": 75.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not provide a value for next style."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "round neck, polo neck या कुछ और?",
+      "timestamp": 75.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for next style, buyer did not specify."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "cotton ज्यादा आरामदायक होता है और polyester टिकाऊ।",
+      "timestamp": 41.69,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the fabric comparison sentence once.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.7
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misheard words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not state any additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer a live seller transfer."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change or issue."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Okay.",
+      "timestamp": 89.05,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "6.6s silence after buyer, but call continued.",
+      "evidence_verified": true,
+      "llm_timestamp": 89.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 82.51,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot promised to send details on WhatsApp without collecting name or location.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.5
+    }
+  ],
+  "captured_lead": {
+    "product": "HDB Financial printed T-shirt",
+    "quantity": "1 piece",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "fabric",
+        "value": "polyester"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer said 'bolun na' indicating hesitation to specify style.",
+      "timestamp": 80.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call prematurely without collecting buyer name, city, or state. It promised WhatsApp details instead.",
+  "analysis": "Buyer requested 1 piece of a printed T-shirt. Bot asked for fabric preference (cotton vs polyester), buyer chose polyester. Bot then asked for next style (round neck/polo neck), but buyer only said 'bolun na' (I'll tell you). Bot then closed the call by promising to send seller details on WhatsApp without collecting name, city, or state. Buyer asked for availability at the end.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4010,
+    "completion_tokens": 1362
+  },
+  "unresolved_problems": []
+}

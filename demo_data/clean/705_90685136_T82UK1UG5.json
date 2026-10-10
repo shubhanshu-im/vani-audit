@@ -1,0 +1,134 @@
+{
+  "call_id": "705_90685136_T82UK1UG5",
+  "file": "data/recordings/705_90685136_T82UK1UG5.mp3",
+  "duration_s": 81.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको Aeristans F liquid solution की requirement है ना?",
+      "start": 0.01,
+      "end": 4.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ जी।",
+      "start": 5.77,
+      "end": 6.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने bottles चाहिए?",
+      "start": 7.83,
+      "end": 13.67
+    },
+    {
+      "role": "BUYER",
+      "text": "एक एक।",
+      "start": 15.15,
+      "end": 15.85
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको ग्यारह bottles चाहिए?",
+      "start": 16.95,
+      "end": 18.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। One one.",
+      "start": 18.11,
+      "end": 20.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब strength के बारे में बात कर लेते हैं। आपको 10% चाहिए या कुछ और?",
+      "start": 21.91,
+      "end": 26.13
+    },
+    {
+      "role": "BUYER",
+      "text": "This is Minoxidil five percent and Finasteride zero point one percent.",
+      "start": 29.55,
+      "end": 34.27
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए इसे किस उपयोग के लिए चाहिए? जैसे reselling, hospital use या कुछ और?",
+      "start": 35.27,
+      "end": 40.29
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं खुद के लिए चलता।",
+      "start": 41.55,
+      "end": 43.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 44.17,
+      "end": 49.99
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को एक ही bottle चाहिए दस नहीं चाहिए।",
+      "start": 51.53,
+      "end": 54.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 55.15,
+      "end": 60.83
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है okay.",
+      "start": 62.61,
+      "end": 63.57
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "start": 64.69,
+      "end": 67.45
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है okay.",
+      "start": 68.77,
+      "end": 69.97
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 70.99,
+      "end": 78.69
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद।",
+      "start": 76.87,
+      "end": 77.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.42,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

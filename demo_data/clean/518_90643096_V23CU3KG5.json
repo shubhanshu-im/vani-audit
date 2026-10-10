@@ -1,0 +1,74 @@
+{
+  "call_id": "518_90643096_V23CU3KG5",
+  "file": "data/recordings/518_90643096_V23CU3KG5.mp3",
+  "duration_s": 47.16,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपकी twenty inch कबड्डी floor mat की request IndiaMART पर range है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.35,
+      "end": 6.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes मैं Dori Mother से बोल रहा हूँ यहाँ पर हम लोग का एक गाँव है वहाँ पर हम लोग math पढ़ाने की सोच रहे हैं।",
+      "start": 7.89,
+      "end": 13.87
+    },
+    {
+      "role": "BOT",
+      "text": "कि समझ गया। चलिए अब mat size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे दस cross बारह meters या कुछ और?",
+      "start": 15.17,
+      "end": 20.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ऐसी कुछ चीज़ें जिसकी हाथ में रहती हैं ना उतनी बड़ी।",
+      "start": 22.27,
+      "end": 25.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 26.97,
+      "end": 32.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes मैं ये पूछना चाहता हूँ की मेरे लिए आपकी details note कर।",
+      "start": 32.93,
+      "end": 38.07
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 36.95,
+      "end": 43.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Hello.",
+      "start": 44.11,
+      "end": 46.03
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

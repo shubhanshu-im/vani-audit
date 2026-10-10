@@ -1,0 +1,40 @@
+{
+  "call_id": "501_90685074_5WAXJ1UG5",
+  "file": "data/recordings/501_90685074_5WAXJ1UG5.mp3",
+  "duration_s": 12.6,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए? video call करना। माफ़ कीजिए मैं आपकी video call में मदद नहीं कर सकती।",
+      "start": 0.43,
+      "end": 11.33
+    },
+    {
+      "role": "BUYER",
+      "text": "video call में मदद नहीं कर सकते।",
+      "start": 8.87,
+      "end": 10.89
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.28,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

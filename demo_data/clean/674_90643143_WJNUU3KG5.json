@@ -1,0 +1,98 @@
+{
+  "call_id": "674_90643143_WJNUU3KG5",
+  "file": "data/recordings/674_90643143_WJNUU3KG5.mp3",
+  "duration_s": 60.98,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको twenty men stone giti की requirement है ना?",
+      "start": 0.07,
+      "end": 4.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 6.15,
+      "end": 6.77
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने ton चाहिए?",
+      "start": 8.11,
+      "end": 13.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी। Madam लगभग मुझे चाहिए हजार बारह सौ लेकिन आपने quantity",
+      "start": 9.43,
+      "end": 20.87
+    },
+    {
+      "role": "BOT",
+      "text": "लेकिन आपने quantity नहीं बताई। आपको लगभग कितने ton चाहिए कृपया बता दीजिए ताकि मैं आपको सही seller से connect कर सकूं।",
+      "start": 19.49,
+      "end": 26.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam कम से कम भी मुझे पाँच हज़ार ton तो चाहिए ही चाहिए।",
+      "start": 27.99,
+      "end": 31.51
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब size के बारे में बात कर लेते हैं। आपको 20 mm तीन चार inch चाहिए या कुछ और?",
+      "start": 32.57,
+      "end": 38.41
+    },
+    {
+      "role": "BUYER",
+      "text": "B7।",
+      "start": 40.15,
+      "end": 40.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए color में क्या prefer करेंगे black white या कोई और?",
+      "start": 42.01,
+      "end": 45.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Great. आपको मैं seller details",
+      "start": 45.77,
+      "end": 49.55
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। black grey grey आपको मैं seller details। ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 47.55,
+      "end": 58.87
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 57.65,
+      "end": 57.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.36,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 5,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

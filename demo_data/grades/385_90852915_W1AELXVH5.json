@@ -1,0 +1,281 @@
+{
+  "call_id": "385_90852915_W1AELXVH5",
+  "duration_s": 110.74,
+  "graded_at": "2026-10-10T12:31:20+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ग्यारह kg में",
+      "timestamp": 89.95,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 11 KV but bot transcribed as 11 kg.",
+      "evidence_verified": true,
+      "llm_timestamp": 90.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप price seller से discuss कर सकते हैं वो आपको best rates देंगे।",
+      "timestamp": 64.05,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot deferred price discussion to seller, which is compliant.",
+      "evidence_verified": true,
+      "llm_timestamp": 46.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer intent was a transformer requirement; bot created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "अभी के लिए twenty five save",
+      "timestamp": 72.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 25 KVA correctly from buyer's speech."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit mismatch; buyer said '25' which bot mapped to KVA."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको कौन सा चाहिए 100 KVA या कुछ और?",
+      "timestamp": 30.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot appropriately probed for capacity."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "वही 25 KV कितना है ma'am और 100 KV कितना होता है ma'am?",
+      "timestamp": 41.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not capture the 100 KVA quantity, but buyer did not insist on it."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "अभी के लिए twenty five save",
+      "timestamp": 72.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured capacity as 25 KVA correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ग्यारह kg में",
+      "timestamp": 90.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot mapped buyer's '11 kg' to 11 KV input voltage."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "अलिंद में",
+      "timestamp": 98.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's winding material was unclear; bot did not miss a clear spec."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आप price seller से discuss कर सकते हैं वो आपको best rates देंगे। अभी के लिए आप capacity में क्या prefer करेंगे?",
+      "timestamp": 64.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot looped on price, but did not loop on capacity after buyer gave 25 KVA."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ग्यारह kg में",
+      "timestamp": 89.95,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 11 KV but bot transcribed as 11 kg.",
+      "evidence_verified": true,
+      "llm_timestamp": 90.0
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered WhatsApp lead, not live seller transfer."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained transformer throughout."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available to verify."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors observed in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप price seller से discuss कर सकते हैं वो आपको best rates देंगे।",
+      "timestamp": 64.05,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot deferred price discussion to seller, which is compliant.",
+      "evidence_verified": true,
+      "llm_timestamp": 46.6
+    }
+  ],
+  "captured_lead": {
+    "product": "three phase transformer",
+    "quantity": "25",
+    "quantity_unit": "KVA",
+    "specs": [
+      {
+        "name": "input voltage",
+        "value": "11 KV"
+      },
+      {
+        "name": "winding material",
+        "value": "aluminium"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [],
+  "failure_description": "",
+  "analysis": "Buyer wants a three-phase transformer (25 KVA) and asks for price comparison between 25 and 100 KVA. Bot deflects price queries to seller, captures capacity as 25 KVA, and asks for input voltage and winding material. Buyer gives garbled/misheard responses. Bot closes with WhatsApp lead transfer.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3961,
+    "completion_tokens": 1376
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "312_90852886_UWZ1LXVH5",
+  "file": "data/recordings/312_90852886_UWZ1LXVH5.mp3",
+  "duration_s": 42.05,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी micro polyester khokho sleeveless jersey की request IndiaMART पर रही थी बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.67
+    },
+    {
+      "role": "BUYER",
+      "text": "वो details है आगे से।",
+      "start": 8.35,
+      "end": 10.89
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब product type के बारे में बात कर लेते हैं आपको कौन सा चाहिए कबाडी jersey या कुछ और।",
+      "start": 12.31,
+      "end": 16.83
+    },
+    {
+      "role": "BUYER",
+      "text": "खो-खो का।",
+      "start": 18.55,
+      "end": 19.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 21.31,
+      "end": 26.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Jersey number and name ਦੱਸੋ ਨਾ।",
+      "start": 28.33,
+      "end": 31.03
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैंने note कर लिया है। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 31.81,
+      "end": 39.07
+    },
+    {
+      "role": "BUYER",
+      "text": "शून्य।",
+      "start": 41.45,
+      "end": 42.45
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

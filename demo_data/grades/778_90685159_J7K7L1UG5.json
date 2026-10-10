@@ -1,0 +1,310 @@
+{
+  "call_id": "778_90685159_J7K7L1UG5",
+  "duration_s": 109.73,
+  "graded_at": "2026-10-10T12:41:52+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी हम tractor spare parts की बात कर रहे हैं। तो क्या आप बता सकते हैं कि आपको कौन सा compatible model चाहिए?",
+      "timestamp": 58.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated model question once, buyer frustrated but not hung up",
+      "evidence_verified": true,
+      "llm_timestamp": 58.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको। two thousand twenty.",
+      "timestamp": 61.59,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'Power Track tractor 2020', bot captured 'two thousand twenty'",
+      "evidence_verified": true,
+      "llm_timestamp": 61.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं समझ सकता हूं but अभी मैं सिर्फ हिंदी और अंग्रेजी में ही आपकी मदद कर पाऊंगा। क्या आप बता सकते हैं",
+      "timestamp": 91.81,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot refused Kannada, user preferred it, call ended abruptly",
+      "evidence_verified": true,
+      "llm_timestamp": 91.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No lead created or closed; call ended before completion"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity never discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed for the call"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity mentioned by buyer"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked successfully before call ended"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not asked successfully before call ended"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Call ended before specs could be captured"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी हम tractor spare parts की बात कर रहे हैं। तो क्या आप बता सकते हैं कि आपको कौन सा compatible model चाहिए?",
+      "timestamp": 58.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated model question once, buyer frustrated but not hung up",
+      "evidence_verified": true,
+      "llm_timestamp": 58.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको। two thousand twenty.",
+      "timestamp": 61.59,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'Power Track tractor 2020', bot captured 'two thousand twenty'",
+      "evidence_verified": true,
+      "llm_timestamp": 61.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details captured"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Escort tractor spare part",
+      "timestamp": 0.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product confirmed, no change requested"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No bot-side silence gap > 5s"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं समझ सकता हूं but अभी मैं सिर्फ हिंदी और अंग्रेजी में ही आपकी मदद कर पाऊंगा। क्या आप बता सकते हैं",
+      "timestamp": 91.81,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot refused Kannada, user preferred it, call ended abruptly",
+      "evidence_verified": true,
+      "llm_timestamp": 91.8
+    }
+  ],
+  "captured_lead": {
+    "product": "Escort tractor spare part",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "compatible model",
+        "value": "two thousand twenty"
+      },
+      {
+        "name": "usage या application",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer frustrated by language barrier and repeated model questions",
+      "timestamp": 61.6,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 20.77,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot could not support Kannada, repeatedly asked for specs despite buyer frustration, and call ended abruptly.",
+  "analysis": "Buyer wants Kannada language support for Escort tractor parts (Power Track 2020). Bot only supports Hindi/English, repeatedly asks for model/usage, buyer gets frustrated. Call ends abruptly at t=91.8s with bot_waiting_for_answer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9021,
+    "completion_tokens": 2613
+  },
+  "unresolved_problems": []
+}

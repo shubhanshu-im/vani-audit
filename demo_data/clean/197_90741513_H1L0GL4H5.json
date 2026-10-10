@@ -1,0 +1,44 @@
+{
+  "call_id": "197_90741513_H1L0GL4H5",
+  "file": "data/recordings/197_90741513_H1L0GL4H5.mp3",
+  "duration_s": 19.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello. आपको Tirupati Balaji 3D painting की requirement है ना?",
+      "start": 0.51,
+      "end": 4.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 7.19,
+      "end": 7.75
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते क्या आप Tirupati Balaji 3D painting के लिए inquiry करना चाहते हैं?",
+      "start": 10.15,
+      "end": 14.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.52,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

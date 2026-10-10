@@ -1,0 +1,130 @@
+{
+  "call_id": "762_90643189_1IZEV3KG5",
+  "file": "data/recordings/762_90643189_1IZEV3KG5.mp3",
+  "duration_s": 77.83,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello [NAME].",
+      "start": 0.01,
+      "end": 1.09
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको men jeans की requirement है ना?",
+      "start": 0.37,
+      "end": 3.31
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 4.79,
+      "end": 5.35
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको main jeans की requirement थी ना?",
+      "start": 6.57,
+      "end": 11.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ जी main engine की recommendation।",
+      "start": 11.09,
+      "end": 15.25
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 16.51,
+      "end": 22.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. जी बताइए। मुझे अभी तो use मतलब मुझे sample देखने के लिए दो दो dozen चाहिए था। ठीक है? अगर सही लगा तो।",
+      "start": 17.43,
+      "end": 32.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है fit के बारे में बात कर रहे थे आप।",
+      "start": 31.67,
+      "end": 34.47
+    },
+    {
+      "role": "BUYER",
+      "text": "करने के लिए आप",
+      "start": 33.53,
+      "end": 34.37
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको fit में क्या prefer करेंगे slim fit, skinny fit या कुछ और?",
+      "start": 35.77,
+      "end": 39.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। sleeping fit ही चाहिए मैं size बोल दे रहा हूं दो size का अभी चाहिए होगा ठीक है एक dozen करके एक 32 का एक 28 का।",
+      "start": 36.91,
+      "end": 48.53
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब fabric type में क्या prefer करेंगे cotton, lycra, polycotton, stretch या कुछ और?",
+      "start": 49.85,
+      "end": 54.93
+    },
+    {
+      "role": "BUYER",
+      "text": "cotton ही सही रहेगा।",
+      "start": 56.93,
+      "end": 58.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 59.13,
+      "end": 64.95
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। जी जी जी आप भेज दीजिए।",
+      "start": 64.07,
+      "end": 68.55
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 69.75,
+      "end": 72.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म। Okay.",
+      "start": 74.01,
+      "end": 77.49
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.36,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 5
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

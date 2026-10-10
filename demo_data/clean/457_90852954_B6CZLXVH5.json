@@ -1,0 +1,74 @@
+{
+  "call_id": "457_90852954_B6CZLXVH5",
+  "file": "data/recordings/457_90852954_B6CZLXVH5.mp3",
+  "duration_s": 40.25,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी 70 cavity seedling tray की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 8.15,
+      "end": 8.79
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए shape के बारे में बात कर लेते हैं। आपको कौन सा चाहिए square या round या कुछ और?",
+      "start": 10.63,
+      "end": 15.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। square. ठीक है।",
+      "start": 10.91,
+      "end": 19.03
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 19.11,
+      "end": 23.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ना बोलसी की बात कराओ से dealer से।",
+      "start": 25.85,
+      "end": 29.23
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 30.19,
+      "end": 36.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 38.09,
+      "end": 38.69
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

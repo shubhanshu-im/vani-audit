@@ -1,0 +1,122 @@
+{
+  "call_id": "993_90797540_RF5IZXFH5",
+  "file": "data/recordings/993_90797540_RF5IZXFH5.mp3",
+  "duration_s": 91.94,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] जी आपको merit work में एक sewing machine की requirement है ना?",
+      "start": 0.01,
+      "end": 4.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.53,
+      "end": 6.55
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.55,
+      "end": 13.43
+    },
+    {
+      "role": "BUYER",
+      "text": "एक ही चीज चाहिए घर के लिए बस।",
+      "start": 14.93,
+      "end": 16.87
+    },
+    {
+      "role": "BOT",
+      "text": "जी बताइए मैं आपकी क्या मदद कर सकती हूं? वैसे आपको कितने piece चाहिए?",
+      "start": 17.93,
+      "end": 21.75
+    },
+    {
+      "role": "BUYER",
+      "text": "ST से single.",
+      "start": 23.17,
+      "end": 25.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब sewing machine type के बारे में बात कर लेते हैं। आपको कौन सा चाहिए umbrella या tailor machine या कुछ और?",
+      "start": 26.19,
+      "end": 32.53
+    },
+    {
+      "role": "BUYER",
+      "text": "घर के लिए अच्छा होगा तो दीजिए नहीं तो नहीं। umbrella नहीं तो कोई।",
+      "start": 33.89,
+      "end": 39.99
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई? अब बताइए included components में क्या prefer करेंगे stand and table with motor या कुछ और?",
+      "start": 41.23,
+      "end": 47.03
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ साढ़े तीन।",
+      "start": 48.75,
+      "end": 50.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं देख पा रही हूं आपको brand merit ही चाहिए ना?",
+      "start": 51.21,
+      "end": 54.31
+    },
+    {
+      "role": "BUYER",
+      "text": "हं? मेरा मतलब है कि क्या आपको Meritt brand की ही machine चाहिए? हाँ brand होना चाहिए सारे चीज ऐसा नहीं है जो मैं पैसा दे रहा हूँ ना वो duplicate नहीं होना चाहिए सब चीज brand होना चाहिए।",
+      "start": 55.81,
+      "end": 71.91
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया मैं समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 72.87,
+      "end": 78.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay जी।",
+      "start": 80.09,
+      "end": 80.95
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 81.87,
+      "end": 84.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 86.37,
+      "end": 87.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 1.72,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

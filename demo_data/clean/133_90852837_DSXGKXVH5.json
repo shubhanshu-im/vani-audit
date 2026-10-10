@@ -1,0 +1,52 @@
+{
+  "call_id": "133_90852837_DSXGKXVH5",
+  "file": "data/recordings/133_90852837_DSXGKXVH5.mp3",
+  "duration_s": 21.38,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Jayachandran ji. You were looking for commercial office cleaning services, right?",
+      "start": 0.41,
+      "end": 5.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 6.81,
+      "end": 7.67
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk.",
+      "start": 10.45,
+      "end": 15.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 10.59,
+      "end": 21.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.78,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

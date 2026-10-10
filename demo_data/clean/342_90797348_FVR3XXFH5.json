@@ -1,0 +1,24 @@
+{
+  "call_id": "342_90797348_FVR3XXFH5",
+  "file": "data/recordings/342_90797348_FVR3XXFH5.mp3",
+  "duration_s": 0.5,
+  "language_code": null,
+  "short_call": true,
+  "turns": [],
+  "stats": {
+    "bot_turns": 0,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": null,
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {},
+    "ambiguous": true,
+    "reasons": [
+      "no speech"
+    ]
+  }
+}

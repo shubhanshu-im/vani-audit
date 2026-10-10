@@ -1,0 +1,129 @@
+{
+  "call_id": "710_90741654_S4EYHL4H5",
+  "file": "data/recordings/710_90741654_S4EYHL4H5.mp3",
+  "duration_s": 67.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Yotam dry milk powder की requirement है ना?",
+      "start": 0.01,
+      "end": 4.01
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.69,
+      "end": 6.51
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो",
+      "start": 7.81,
+      "end": 9.93
+    },
+    {
+      "role": "BUYER",
+      "text": "जो channel को call कर रहे थे।",
+      "start": 8.05,
+      "end": 9.59
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 11.19,
+      "end": 17.51
+    },
+    {
+      "role": "BUYER",
+      "text": "फिलहाल sample में एक ही थे।",
+      "start": 19.21,
+      "end": 21.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं कि आपको packaging type packet ही चाहिए ना?",
+      "start": 22.79,
+      "end": 26.11
+    },
+    {
+      "role": "BUYER",
+      "text": "एक kg का packet।",
+      "start": 27.73,
+      "end": 29.05
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए brand में क्या prefer करेंगे Dexola का Amul या कोई और?",
+      "start": 30.19,
+      "end": 34.55
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं उत्तम।",
+      "start": 35.85,
+      "end": 36.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 37.99,
+      "end": 43.05
+    },
+    {
+      "role": "BUYER",
+      "text": "वो मेरे को उत्तम brand का चाहिए बाकी कोई का नहीं।",
+      "start": 44.85,
+      "end": 47.49
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको सिर्फ उत्तम brand ही चाहिए। मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 48.83,
+      "end": 55.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Oh God.",
+      "start": 57.33,
+      "end": 58.01
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 58.89,
+      "end": 61.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 66.89,
+      "end": 67.33
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 5.16,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 61.73,
+        "end": 66.89,
+        "duration_s": 5.16,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

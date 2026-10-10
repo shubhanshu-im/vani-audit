@@ -1,0 +1,50 @@
+{
+  "call_id": "770_90685165_NM9BL1UG5",
+  "file": "data/recordings/770_90685165_NM9BL1UG5.mp3",
+  "duration_s": 13.82,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको AC block की requirement है ना?",
+      "start": 0.01,
+      "end": 4.03
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको AC block है। जी आपको AAC block की requirement थी ना?",
+      "start": 1.09,
+      "end": 8.73
+    },
+    {
+      "role": "BOT",
+      "text": "AC block की requirement थी ना?",
+      "start": 6.09,
+      "end": 7.97
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आपको AAC block की ही requirement है ना? AC block की requirement है।",
+      "start": 9.87,
+      "end": 13.05
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.22,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

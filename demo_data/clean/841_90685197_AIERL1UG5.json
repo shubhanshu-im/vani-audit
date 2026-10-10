@@ -1,0 +1,117 @@
+{
+  "call_id": "841_90685197_AIERL1UG5",
+  "file": "data/recordings/841_90685197_AIERL1UG5.mp3",
+  "duration_s": 76.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको MRF motorcycle tyres की requirement है ना?",
+      "start": 0.01,
+      "end": 4.33
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या है?",
+      "start": 7.97,
+      "end": 8.77
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 9.95,
+      "end": 15.83
+    },
+    {
+      "role": "BUYER",
+      "text": "three piece है।",
+      "start": 17.75,
+      "end": 19.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब vehicle brand के बारे में बात कर लेते हैं। आपको Hero, Bajaj या कुछ और चाहिए?",
+      "start": 20.07,
+      "end": 25.19
+    },
+    {
+      "role": "BUYER",
+      "text": "नाही Madam, three wheeler आहे, three wheelerच पाहिजे. समझ गए? आपको three wheeler के लिए tyre चाहिए तो क्या आप मुझे अपनी गाड़ी का brand बता सकते हैं? प्याज।",
+      "start": 28.17,
+      "end": 41.07
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब आप अपनी गाड़ी का...",
+      "start": 42.35,
+      "end": 44.35
+    },
+    {
+      "role": "BUYER",
+      "text": "ये",
+      "start": 43.57,
+      "end": 45.01
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। क्या आप अपनी गाड़ी का model या साल बता सकते हैं?",
+      "start": 45.73,
+      "end": 49.07
+    },
+    {
+      "role": "BUYER",
+      "text": "गाड़ी। Piaggio electric auto FX Max.",
+      "start": 46.99,
+      "end": 54.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 55.17,
+      "end": 60.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay madam। अभी देखते हैं थोड़ा time लगेगा।",
+      "start": 62.09,
+      "end": 65.45
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 66.39,
+      "end": 69.29
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 74.67,
+      "end": 75.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 5.38,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 69.29,
+        "end": 74.67,
+        "duration_s": 5.38,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "390_90852936_IJ4PLXVH5",
+  "file": "data/recordings/390_90852936_IJ4PLXVH5.mp3",
+  "duration_s": 44.93,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Legrand RTR switch की requirement है ना? Hello क्या आप वहां हैं? क्या आप बातचीत जारी रखना चाहेंगे? IndiaMoth चुनने के लिए धन्यवाद। आपका दिन शुभ हो। धन्यवाद।",
+      "start": 0.01,
+      "end": 36.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 40.01,
+      "end": 40.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 9.42,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 4.19,
+        "end": 13.45,
+        "duration_s": 9.26,
+        "after_role": "BOT"
+      },
+      {
+        "start": 14.73,
+        "end": 23.87,
+        "duration_s": 9.14,
+        "after_role": "BOT"
+      },
+      {
+        "start": 25.71,
+        "end": 35.13,
+        "duration_s": 9.42,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

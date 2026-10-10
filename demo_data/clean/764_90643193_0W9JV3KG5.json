@@ -1,0 +1,110 @@
+{
+  "call_id": "764_90643193_0W9JV3KG5",
+  "file": "data/recordings/764_90643193_0W9JV3KG5.mp3",
+  "duration_s": 65.09,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको कमसूत्रा capsules की requirement है ना?",
+      "start": 0.37,
+      "end": 3.89
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.97,
+      "end": 6.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने bottles चाहिए?",
+      "start": 7.79,
+      "end": 13.63
+    },
+    {
+      "role": "BUYER",
+      "text": "को call करें। एक वचन।",
+      "start": 8.59,
+      "end": 17.01
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको एक bottle चाहिए?",
+      "start": 18.17,
+      "end": 19.57
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी एक coach है।",
+      "start": 21.43,
+      "end": 22.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं देख पा रही हूं कि आपको pack size 30 capsules ही चाहिए ना?",
+      "start": 24.05,
+      "end": 27.73
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 30.01,
+      "end": 30.63
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए therapeutic use में क्या prefer करेंगे performance enhancement, timing increase या कोई और?",
+      "start": 31.87,
+      "end": 38.25
+    },
+    {
+      "role": "BUYER",
+      "text": "time चाहिए मतलब।",
+      "start": 41.49,
+      "end": 43.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 44.91,
+      "end": 50.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 53.35,
+      "end": 53.97
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं यहीं हूँ।",
+      "start": 55.07,
+      "end": 56.61
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या देख? सिर्फ़ इतना ही है ये दवा कितनी दिन तक लेना पड़ता है? काम।",
+      "start": 55.49,
+      "end": 65.53
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

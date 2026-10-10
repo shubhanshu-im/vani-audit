@@ -1,0 +1,52 @@
+{
+  "call_id": "945_90853061_6TS7NXVH5",
+  "file": "data/recordings/945_90853061_6TS7NXVH5.mp3",
+  "duration_s": 16.7,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello जी बताइए मैं आपकी क्या मदद कर सकती हूँ?",
+      "start": 0.35,
+      "end": 3.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam मैं अभी आपको WhatsApp पे एक message करा था।",
+      "start": 4.47,
+      "end": 7.81
+    },
+    {
+      "role": "BOT",
+      "text": "जी अच्छा तो बताइए आपने किस बारे में message किया था?",
+      "start": 8.69,
+      "end": 11.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 10.83,
+      "end": 11.27
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

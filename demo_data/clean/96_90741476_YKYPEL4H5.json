@@ -1,0 +1,92 @@
+{
+  "call_id": "96_90741476_YKYPEL4H5",
+  "file": "data/recordings/96_90741476_YKYPEL4H5.mp3",
+  "duration_s": 60.62,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] जी, आपको doctor's coat shape pen stand की requirement है ना?",
+      "start": 0.53,
+      "end": 4.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। जी।",
+      "start": 1.13,
+      "end": 7.13
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी आवाज़ साफ़ नहीं आई। आपको doctors code shape pen stand चाहिए था ना?",
+      "start": 9.43,
+      "end": 13.95
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 14.63,
+      "end": 15.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 17.47,
+      "end": 26.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ hundred feet.",
+      "start": 27.79,
+      "end": 28.77
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए product type में pen चाहिए या कुछ और?",
+      "start": 31.37,
+      "end": 34.65
+    },
+    {
+      "role": "BUYER",
+      "text": "connection holder थी मैं।",
+      "start": 35.77,
+      "end": 37.37
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। material में leather या metal चाहिए या कुछ और?",
+      "start": 39.71,
+      "end": 42.97
+    },
+    {
+      "role": "BUYER",
+      "text": "material तो plastic का है ना ये जो है।",
+      "start": 44.75,
+      "end": 47.53
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ pen holder अक्सर plastic में भी आते हैं। seller से आप material confirm कर सकते हैं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए।",
+      "start": 49.75,
+      "end": 60.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "call_id": "982_90797447_5DTCYXFH5",
+  "duration_s": 97.27,
+  "graded_at": "2026-10-10T12:47:33+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer stated clinic use requirement but bot closed without lead or transfer",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 87.21,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated clinic use requirement but bot closed without lead or transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 87.2
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक packet का कितना दाम पड़ जाएगा उसमें MRP?",
+      "timestamp": 26.87,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked for MRP which bot deflected instead of capturing",
+      "evidence_verified": true,
+      "llm_timestamp": 26.9
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये अपना use के लिए मंगवा रहे हैं",
+      "timestamp": 68.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer mentioned clinic use but bot did not capture this as a spec",
+      "evidence_verified": true,
+      "llm_timestamp": 68.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 66.91,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated WhatsApp offer twice without resolving buyer's need",
+      "evidence_verified": true,
+      "llm_timestamp": 66.9
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 66.91,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp seller details but never transferred",
+      "evidence_verified": true,
+      "llm_timestamp": 66.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Tell me, what is your requirement, what would you prefer? To purchase medicine for resale, to purchase medicine for hospital use, or something else?",
+      "timestamp": 50.23,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used banned open-ended question about requirements",
+      "evidence_verified": true,
+      "llm_timestamp": 50.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 87.21,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated clinic use requirement but bot closed without lead or transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 87.2
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity unit not captured"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed or captured"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and buyer gave a number"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "एक packet का कितना दाम पड़ जाएगा उसमें MRP?",
+      "timestamp": 26.87,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked for MRP which bot deflected instead of capturing",
+      "evidence_verified": true,
+      "llm_timestamp": 26.9
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed strength 25 mg which was in product name"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये अपना use के लिए मंगवा रहे हैं",
+      "timestamp": 68.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer mentioned clinic use but bot did not capture this as a spec",
+      "evidence_verified": true,
+      "llm_timestamp": 68.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 66.91,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated WhatsApp offer twice without resolving buyer's need",
+      "evidence_verified": true,
+      "llm_timestamp": 66.9
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misheard words affecting the lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 66.91,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp seller details but never transferred",
+      "evidence_verified": true,
+      "llm_timestamp": 66.9
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed and not changed"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific ISQ errors visible in transcript"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Tell me, what is your requirement, what would you prefer? To purchase medicine for resale, to purchase medicine for hospital use, or something else?",
+      "timestamp": 50.23,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used banned open-ended question about requirements",
+      "evidence_verified": true,
+      "llm_timestamp": 50.2
+    }
+  ],
+  "captured_lead": {
+    "product": "Dcloconex Prednisolone and Hydroxychloroquine injection 25 mg",
+    "quantity": "101",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "strength",
+        "value": "25 mg"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer said hello after bot failed to understand",
+      "timestamp": 66.6,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated WhatsApp seller details twice",
+      "timestamp": 66.9,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: bot_not_understood",
+      "timestamp": 21.01,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to create a lead or transfer the buyer despite clear purchase intent. It looped on WhatsApp seller details and closed without collecting essential fields like name, city, state, and quantity unit.",
+  "analysis": "Buyer is a doctor/clinic purchasing Dcloconex Prednisolone and Hydroxychloroquine injection 25 mg for clinic use. Bot confirmed product and strength, but buyer asked for MRP/price which bot deflected. Bot asked usage purpose, buyer said clinic use for themselves, bot looped on WhatsApp seller details twice. Call closed without collecting name, city, state, or quantity unit, and without creating a lead or transferring.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '101': number(s) ['101'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9327,
+    "completion_tokens": 2838
+  },
+  "unresolved_problems": []
+}

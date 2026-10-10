@@ -1,0 +1,46 @@
+{
+  "call_id": "573_90741597_87C5HL4H5",
+  "file": "data/recordings/573_90741597_87C5HL4H5.mp3",
+  "duration_s": 25.85,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको plywoods की requirement है ना?",
+      "start": 0.01,
+      "end": 2.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नमस्ते। आपको plywoods की requirement थी ना? Sorry wrong number.",
+      "start": 6.29,
+      "end": 14.87
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 15.75,
+      "end": 21.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 3.54,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

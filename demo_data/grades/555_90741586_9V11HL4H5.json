@@ -1,0 +1,345 @@
+{
+  "call_id": "555_90741586_9V11HL4H5",
+  "duration_s": 79.56,
+  "graded_at": "2026-10-10T12:35:45+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Accuracy (Numeric): Buyer said '25 set', bot captured '25 feet'.",
+  "fatal_params": [
+    "Quantity Accuracy (Numeric)",
+    "Qty Missed Opportunity",
+    "Spec2 Accuracy",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "पच्चीस feet का पच्चीस feet दिया था हमको",
+      "timestamp": 22.11,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said '25 set', bot captured '25 feet'.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "पच्चीस feet का पच्चीस feet दिया था हमको",
+      "timestamp": 22.11,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 25 set, bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "twenty six teachers",
+      "timestamp": 22.11,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 26 teachers, bot captured 32 pieces.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी आपको कितने set चाहिए? [NAME] जी मैं आपसे आपकी requirement के बारे में पूछ रहा था।",
+      "timestamp": 22.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question 2 times.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "पच्चीस feet का पच्चीस feet दिया था हमको",
+      "timestamp": 22.11,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard '25 set' as '25 feet'.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirements and bot closed with lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "पच्चीस feet का पच्चीस feet दिया था हमको",
+      "timestamp": 22.11,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said '25 set', bot captured '25 feet'.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity unit was not discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was provided by buyer."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "पच्चीस feet का पच्चीस feet दिया था हमको",
+      "timestamp": 22.11,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 25 set, bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 was not asked."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "twenty six teachers",
+      "timestamp": 22.11,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 26 teachers, bot captured 32 pieces.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major spec was missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी आपको कितने set चाहिए? [NAME] जी मैं आपसे आपकी requirement के बारे में पूछ रहा था।",
+      "timestamp": 22.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question 2 times.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "पच्चीस feet का पच्चीस feet दिया था हमको",
+      "timestamp": 22.11,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard '25 set' as '25 feet'.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was not changed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "melamine kitchen crockery",
+    "quantity": "25 feet",
+    "quantity_unit": "feet",
+    "specs": [
+      {
+        "name": "set size",
+        "value": "32 pieces"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot misheard buyer's quantity and spec.",
+      "timestamp": 22.1,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer was interrupted and cut off.",
+      "timestamp": 22.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard buyer's quantity (25 set as 25 feet) and spec (26 teachers as 32 pieces), then closed the call without confirmation.",
+  "analysis": "Buyer requested melamine kitchen crockery, specifically a Carter dinner set. He provided a quantity of '25 set' and a size of '26 teachers'. The bot misheard '26 teachers' as '32 pieces' and '25 set' as '25 feet'. The bot then closed the call, creating a lead without confirming the correct details.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '25 feet': number(s) ['25'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3542,
+    "completion_tokens": 1666
+  },
+  "unresolved_problems": []
+}

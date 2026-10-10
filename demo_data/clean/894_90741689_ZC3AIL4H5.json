@@ -1,0 +1,74 @@
+{
+  "call_id": "894_90741689_ZC3AIL4H5",
+  "file": "data/recordings/894_90741689_ZC3AIL4H5.mp3",
+  "duration_s": 46.51,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी चांदी मंदा dice की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.27,
+      "end": 5.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you. हाँ। सही है।",
+      "start": 1.73,
+      "end": 10.53
+    },
+    {
+      "role": "BOT",
+      "text": "कितनी piece या set चाहिए होगी आपको?",
+      "start": 11.95,
+      "end": 13.79
+    },
+    {
+      "role": "BUYER",
+      "text": "सही।",
+      "start": 15.71,
+      "end": 16.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब material के बारे में बात कर लेते हैं। आपको कौन सा चाहिए plastic, wood या कुछ और?",
+      "start": 17.35,
+      "end": 22.05
+    },
+    {
+      "role": "BUYER",
+      "text": "plastic ठीक आहे plastic. अब color के बारे में बात कर लेते हैं। आपको कौन सा चाहिए white, multi color या कुछ और? हो आई।",
+      "start": 24.61,
+      "end": 35.47
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 36.37,
+      "end": 42.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 44.23,
+      "end": 44.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.56,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

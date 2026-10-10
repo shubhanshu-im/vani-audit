@@ -1,0 +1,146 @@
+{
+  "call_id": "232_90797321_C7V8WXFH5",
+  "file": "data/recordings/232_90797321_C7V8WXFH5.mp3",
+  "duration_s": 117.79,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको rubber flooring की requirement है ना?",
+      "start": 0.13,
+      "end": 3.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 6.27,
+      "end": 6.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने square feet चाहिए?",
+      "start": 8.99,
+      "end": 19.05
+    },
+    {
+      "role": "BUYER",
+      "text": "वाकई मेजे से की थी।",
+      "start": 21.37,
+      "end": 23.03
+    },
+    {
+      "role": "BOT",
+      "text": "समझ रहे थे।",
+      "start": 26.15,
+      "end": 27.49
+    },
+    {
+      "role": "BUYER",
+      "text": "वाह जी। हाँ एक हो जाए।",
+      "start": 26.47,
+      "end": 30.19
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा। आप कितने square feet की quantity लेना चाहेंगे? approximate number बता दें ताकि मैं आपको seller से connect कर सकूं।",
+      "start": 32.79,
+      "end": 39.89
+    },
+    {
+      "role": "BUYER",
+      "text": "को square check कर रहे। Oh.",
+      "start": 41.99,
+      "end": 48.35
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ थोड़ी unclear आई। आप कितने square feet की quantity लेना चाहेंगे? approximate number बता दीजिए।",
+      "start": 50.39,
+      "end": 56.33
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या square का पता होना दिन का पूरा पता होना पड़ेगा। [change] length।",
+      "start": 58.09,
+      "end": 62.75
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ ये आप अपनी जगह का पूरा length और चौड़ाई बता दीजिए जिससे मैं total square कीजिए।",
+      "start": 65.03,
+      "end": 69.83
+    },
+    {
+      "role": "BUYER",
+      "text": "20 by 10.",
+      "start": 68.83,
+      "end": 73.97
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया आप बताइए।",
+      "start": 76.59,
+      "end": 78.03
+    },
+    {
+      "role": "BUYER",
+      "text": "तो बीस दिन से with दस है।",
+      "start": 77.17,
+      "end": 82.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपकी जगह का total area 200 square feet हो गया। अब thickness के लिए बताइए आपको 10 millimeters चाहिए ना?",
+      "start": 84.93,
+      "end": 91.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 92.67,
+      "end": 93.17
+    },
+    {
+      "role": "BOT",
+      "text": "अब बताइए application के लिए आपको किस purpose के लिए चाहिए जैसे kids play area या running track या कुछ और?",
+      "start": 95.27,
+      "end": 100.59
+    },
+    {
+      "role": "BUYER",
+      "text": "बताइए application. नहीं नहीं वो हमारा farm का चोरी भी लिए।",
+      "start": 95.53,
+      "end": 105.31
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको hall क्या चाहिए? price आप seller से discuss कर सकते हैं। अब आपको मैं seller details WhatsApp से भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए।",
+      "start": 107.41,
+      "end": 118.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 108.51,
+      "end": 108.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.12,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

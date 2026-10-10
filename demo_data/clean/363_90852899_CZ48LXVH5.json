@@ -1,0 +1,140 @@
+{
+  "call_id": "363_90852899_CZ48LXVH5",
+  "file": "data/recordings/363_90852899_CZ48LXVH5.mp3",
+  "duration_s": 92.02,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको acid wash half sleeve T-shirt की requirement है ना?",
+      "start": 0.23,
+      "end": 4.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी।",
+      "start": 1.01,
+      "end": 6.55
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.85,
+      "end": 13.71
+    },
+    {
+      "role": "BUYER",
+      "text": "एक ही piece चाहिए और वही वाला cream चाहिए धोनी वाला।",
+      "start": 13.65,
+      "end": 17.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब fabric के बारे में बात कर लेते हैं। आपको cotton चाहिए या कुछ और?",
+      "start": 19.01,
+      "end": 23.07
+    },
+    {
+      "role": "BUYER",
+      "text": "इसके अलावा कोई सा अच्छा सा कपड़ा मोटा।",
+      "start": 24.75,
+      "end": 27.25
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। क्या आप net या polyester में से कुछ prefer करेंगे या कोई और कपड़ा चाहिए?",
+      "start": 28.31,
+      "end": 33.27
+    },
+    {
+      "role": "BUYER",
+      "text": "अब अपने हिसाब से कोई अच्छा सा कपड़ा।",
+      "start": 33.27,
+      "end": 36.51
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आप मोटा कपड़ा चाहते हैं तो mat ही काफी अच्छा रहेगा। क्या मैं इसे confirm कर दूं या आप कुछ और चाहेंगे?",
+      "start": 37.75,
+      "end": 43.71
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं आपको बाद में बता दूंगा phone करती ही शाम तक।",
+      "start": 44.91,
+      "end": 47.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है कोई बात नहीं। seller इस detail में आपकी मदद कर देंगे। क्या आप बता सकते हैं कि fabric weight में क्या prefer करेंगे?",
+      "start": 48.83,
+      "end": 55.57
+    },
+    {
+      "role": "BUYER",
+      "text": "एक सौ।",
+      "start": 56.93,
+      "end": 57.73
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आप unsure हैं तो मैं 180 GB SM suggest कर सकती हूं। क्या यह ठीक रहेगा या कुछ और?",
+      "start": 60.19,
+      "end": 65.55
+    },
+    {
+      "role": "BUYER",
+      "text": "देखते हैं price क्या है इसका T-shirt का।",
+      "start": 66.83,
+      "end": 69.49
+    },
+    {
+      "role": "BOT",
+      "text": "price के लिए आप seller से बात कर सकते हैं वो आपको best rates देंगे। क्या आपको 180 GSM ठीक रहेगा?",
+      "start": 70.89,
+      "end": 76.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 78.03,
+      "end": 78.69
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 79.83,
+      "end": 85.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 86.59,
+      "end": 87.07
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 88.09,
+      "end": 91.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.46,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

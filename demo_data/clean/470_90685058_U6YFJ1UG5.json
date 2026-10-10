@@ -1,0 +1,104 @@
+{
+  "call_id": "470_90685058_U6YFJ1UG5",
+  "file": "data/recordings/470_90685058_U6YFJ1UG5.mp3",
+  "duration_s": 64.8,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको air pressure gauge की requirement है ना?",
+      "start": 0.01,
+      "end": 3.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Kannada आती madam?",
+      "start": 4.59,
+      "end": 6.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 7.99,
+      "end": 17.89
+    },
+    {
+      "role": "BUYER",
+      "text": "और।",
+      "start": 19.03,
+      "end": 20.67
+    },
+    {
+      "role": "BOT",
+      "text": "कितने piece चाहिए होंगे आपको? quantity बता दीजिए please.",
+      "start": 21.31,
+      "end": 24.47
+    },
+    {
+      "role": "BUYER",
+      "text": "one one Amazon madam ಇದು.",
+      "start": 25.87,
+      "end": 28.85
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए pressure range में कौन सा चाहिए? 0 से 10 kilogram प्रति वर्ग centimeter या 0 से 10 बार या कुछ और?",
+      "start": 30.65,
+      "end": 37.15
+    },
+    {
+      "role": "BUYER",
+      "text": "I am Kannada language.",
+      "start": 37.79,
+      "end": 39.73
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry, मैं सिर्फ हिंदी या English में ही बात कर सकती हूं। क्या आप हिंदी या English में बात कर सकते हैं?",
+      "start": 41.53,
+      "end": 46.77
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam. only only Kannada बात करना।",
+      "start": 41.85,
+      "end": 49.51
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं सिर्फ हिंदी या English में ही बात कर सकती हूँ। क्या आप इनमें से किसी भाषा में बात कर सकते हैं?",
+      "start": 51.13,
+      "end": 57.07
+    },
+    {
+      "role": "BUYER",
+      "text": "वो मेरा only Kannada madam.",
+      "start": 59.23,
+      "end": 62.33
+    },
+    {
+      "role": "BOT",
+      "text": "मास्क।",
+      "start": 64.33,
+      "end": 64.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.16,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

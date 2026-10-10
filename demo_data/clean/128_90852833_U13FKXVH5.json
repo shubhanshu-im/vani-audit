@@ -1,0 +1,100 @@
+{
+  "call_id": "128_90852833_U13FKXVH5",
+  "file": "data/recordings/128_90852833_U13FKXVH5.mp3",
+  "duration_s": 106.56,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.77
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam ये product अभी मैंने ये उसके जो अभी जहां से आपका number जो मैंने निकाला।",
+      "start": 2.85,
+      "end": 9.73
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप किस product के लिए inquiry करना चाहते हैं? कृपया product का नाम या category बता दीजिए ताकि मैं आपकी मदद कर सकूं।",
+      "start": 12.21,
+      "end": 19.25
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को नाम नहीं पता मैं first बार में use करना चाह रहा हूँ आप अपने हिसाब से बताओ कौन सा बढ़िया रहेगा मेरे को मेरा बाल घना चाहिए और free कम समय में काफी लंबा चाहिए बाल।",
+      "start": 19.87,
+      "end": 31.61
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप बालों को घना और लंबा करने के लिए कोई product लेना चाहते हैं। क्या आप hair oil, hair serum या shampoo जैसी किसी चीज में interested हैं?",
+      "start": 33.65,
+      "end": 41.77
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप clear हो? नहीं नहीं नहीं हमें उसमें से कुछ भी नहीं चाहिए वो सब तो मेरे पास already है अभी जो मैंने search किया मुझे उसमें से कुछ एक चाहिए तो आप decide करो कि मुझे कौन से लेने चाहिए।",
+      "start": 37.63,
+      "end": 52.75
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आपकी जरूरत समझने के लिए क्या आप किसी खास hair treatment kit supplement या कोई नया solution try करना चाह रहे हैं? या आपने जो...",
+      "start": 55.01,
+      "end": 63.29
+    },
+    {
+      "role": "BUYER",
+      "text": "जी नहीं भाई साहब कुछ भी मैं try करना नहीं चाह रहा। बस मैंने जो देखा ये product आपकी मुझे ये लेना है आप इसकी कुछ जानकारी आप दे सकते हो दो वरना ये या क्या कहते हैं इसके parcel आप करवा सकते हो करवाओ। मुझे आपके product की exact जानकारी नहीं मिल पा रही है।",
+      "start": 62.55,
+      "end": 87.41
+    },
+    {
+      "role": "BOT",
+      "text": "कृपया product का नाम या category थोड़ा साफ-साफ बता दीजिए ताकि मैं सही जानकारी दे सकूं।",
+      "start": 87.41,
+      "end": 92.41
+    },
+    {
+      "role": "BUYER",
+      "text": "तो आप थोड़ा आप थोड़ा धैर्य रखें हम आपको WhatsApp पर फिर message करते हैं।",
+      "start": 92.77,
+      "end": 96.83
+    },
+    {
+      "role": "BOT",
+      "text": "जरूर आप आराम से देख लीजिए। कोई भी product details या सवाल हो तो यहां बता सकते हैं।",
+      "start": 99.03,
+      "end": 103.81
+    },
+    {
+      "role": "BUYER",
+      "text": "product details या सवाल हो तो यहां बता सकते हैं।",
+      "start": 101.11,
+      "end": 103.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 3.8,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

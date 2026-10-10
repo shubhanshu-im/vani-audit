@@ -1,0 +1,82 @@
+{
+  "call_id": "655_90685112_FXZGK1UG5",
+  "file": "data/recordings/655_90685112_FXZGK1UG5.mp3",
+  "duration_s": 81.29,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 500 ml vacuum flask bottle की requirement है ना? एक meter one meter. बिल्कुल मैं इंतज़ार कर रही हूँ। हाँ जी बताइए। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए? four hundred की ठीक है मैं देख पा रही हूँ आपको capacity पाँच सौ",
+      "start": 0.01,
+      "end": 28.79
+    },
+    {
+      "role": "BUYER",
+      "text": "milliliters ही चाहिए ना?",
+      "start": 28.79,
+      "end": 30.07
+    },
+    {
+      "role": "BOT",
+      "text": "No no no मतलब। क्षमा कीजिए मैं समझ नहीं पाई। आपको capacity में क्या चाहिए? कृपया बता दीजिए। क्षमा कीजिए। one liter one liter. समझ गई। अब color के बारे में बात करते हैं। आपको कौन सा चाहिए black silver या कुछ और? आपको कौन सा चाहिए black sugar या",
+      "start": 32.23,
+      "end": 49.09
+    },
+    {
+      "role": "BUYER",
+      "text": "मैंने phone आपकी आवाज दीजिए। Sorry आपकी आवाज़। photo आप seller को directly share कर दीजिएगा। अभी मेरे पास photo देखने की facility नहीं है।",
+      "start": 49.65,
+      "end": 58.82
+    },
+    {
+      "role": "BOT",
+      "text": "color बता दीजिए please। को direct। color yellow है। ठीक है आपको मैं color दिखा देता हूँ।",
+      "start": 58.82,
+      "end": 66.25
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है आपको मैं seller details बहुत बढ़िया आपको मैं seller details WhatsApp पे भेज दूंगी।",
+      "start": 64.45,
+      "end": 70.19
+    },
+    {
+      "role": "BOT",
+      "text": "Seller details WhatsApp पे भेज दो।",
+      "start": 68.07,
+      "end": 69.81
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 71.05,
+      "end": 77.09
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। जी जी ठीक है।",
+      "start": 71.89,
+      "end": 81.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 3.66,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 3
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

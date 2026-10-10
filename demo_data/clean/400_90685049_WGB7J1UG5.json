@@ -1,0 +1,152 @@
+{
+  "call_id": "400_90685049_WGB7J1UG5",
+  "file": "data/recordings/400_90685049_WGB7J1UG5.mp3",
+  "duration_s": 131.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको inflatable slide bounce की requirement है ना?",
+      "start": 0.01,
+      "end": 3.69
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 4.33,
+      "end": 5.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब dimensions के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 12 x 18 feet या 18 x 26 feet या कुछ और?",
+      "start": 7.31,
+      "end": 22.59
+    },
+    {
+      "role": "BUYER",
+      "text": "अठारह एक feet का कितना दाम है ma'am price बोलिए तो।",
+      "start": 23.93,
+      "end": 27.21
+    },
+    {
+      "role": "BOT",
+      "text": "Price और damage जैसी जानकारी seller ही आपको देंगे। आपको सबसे अच्छे rates मिलेंगे। पहले बताइए आपको dimensions में कौन सा चाहिए? 12 x 18 feet, 18 x 26 feet या कुछ और?",
+      "start": 29.57,
+      "end": 39.49
+    },
+    {
+      "role": "BUYER",
+      "text": "price price जानने के बाद बता पाएंगे कितना चाहिए?",
+      "start": 40.67,
+      "end": 43.67
+    },
+    {
+      "role": "BOT",
+      "text": "price की जानकारी आप seller से discuss कर सकते हैं। पहले approximate dimension...",
+      "start": 45.55,
+      "end": 49.99
+    },
+    {
+      "role": "BUYER",
+      "text": "तो approximate dimension आप अठारह और छब्बीस seat से connect करवा दीजिए ना हम लोग बात कर लेंगे।",
+      "start": 47.89,
+      "end": 54.33
+    },
+    {
+      "role": "BOT",
+      "text": "बस एक छोटा सा detail confirm कर दीजिए dimensions में आपको 18 1 26 feet ही चाहिए या कोई और size? फिर मैं seller से connect करवा दूंगी।",
+      "start": 56.49,
+      "end": 64.39
+    },
+    {
+      "role": "BUYER",
+      "text": "फिर। connect करवा दूंगी। Ma'am कौन सा अच्छा रहेगा?",
+      "start": 62.47,
+      "end": 66.49
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आपको spacious और बड़ा inflatable चाहिए तो 18 x 26 feet अच्छा रहेगा। आप यही लेना चाहेंगे या कोई और size पसंद है?",
+      "start": 68.53,
+      "end": 75.91
+    },
+    {
+      "role": "BUYER",
+      "text": "अठारह एक छब्बीस तो भी कितना size होगा ma'am उसका अच्छा।",
+      "start": 76.15,
+      "end": 80.45
+    },
+    {
+      "role": "BOT",
+      "text": "आपके द्वारा बताए गए size standard में available नहीं है।",
+      "start": 82.41,
+      "end": 86.09
+    },
+    {
+      "role": "BUYER",
+      "text": "कोई आदमी नहीं है। मालूम।",
+      "start": 85.27,
+      "end": 89.35
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपके requirement के हिसाब से seller आपको और भी option suggest करेंगे। अब बताइए number of lanes में कितने lines चाहिए तीन चार या कुछ और?",
+      "start": 91.25,
+      "end": 99.57
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। तीन lines का कितना दाम पड़ेगा ma'am या दो lines का?",
+      "start": 91.55,
+      "end": 103.13
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। seller ही आपको तीन या दो lines के लिए best price बताएंगे। बस city बता दीजिए कहां से बोल रहे हैं?",
+      "start": 105.13,
+      "end": 111.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हम बोल रहे Ma'am बिहार से सोनपुर से।",
+      "start": 111.79,
+      "end": 114.21
+    },
+    {
+      "role": "BOT",
+      "text": "आप सोनपुर बिहार से बोल रहे हैं ना?",
+      "start": 116.07,
+      "end": 117.99
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 118.67,
+      "end": 119.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। ऋतिक जी आपको मैं seller details WhatsApp से भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 121.37,
+      "end": 130.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.36,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 8,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

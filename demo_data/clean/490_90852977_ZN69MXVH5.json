@@ -1,0 +1,92 @@
+{
+  "call_id": "490_90852977_ZN69MXVH5",
+  "file": "data/recordings/490_90852977_ZN69MXVH5.mp3",
+  "duration_s": 66.53,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.09,
+      "end": 3.99
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको। हम तो बोले थे नहीं।",
+      "start": 0.91,
+      "end": 9.51
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। क्या आप बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 11.09,
+      "end": 15.55
+    },
+    {
+      "role": "BUYER",
+      "text": "कहने का मतलब मतलब अगर",
+      "start": 18.19,
+      "end": 22.73
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए कि आपको कौन सा product चाहिए?",
+      "start": 23.75,
+      "end": 28.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हमको चाहिए जैसे वो बिजली facility है ना।",
+      "start": 24.45,
+      "end": 33.81
+    },
+    {
+      "role": "BOT",
+      "text": "आपको beauty theory जो आमतौर पे skin care और beauty products के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 34.93,
+      "end": 40.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 41.43,
+      "end": 42.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए।",
+      "start": 43.85,
+      "end": 52.33
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक ठीक okay.",
+      "start": 53.77,
+      "end": 55.47
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 56.61,
+      "end": 64.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "call_id": "418_90852935_NMHNLXVH5",
+  "file": "data/recordings/418_90852935_NMHNLXVH5.mp3",
+  "duration_s": 88.7,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको rotary type numerator की requirement है ना?",
+      "start": 0.01,
+      "end": 4.07
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.45,
+      "end": 6.03
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.39,
+      "end": 13.25
+    },
+    {
+      "role": "BUYER",
+      "text": "One piece चाहिए।",
+      "start": 14.45,
+      "end": 15.55
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब size के बारे में बात कर लेते हैं। आपको one sixnum चाहिए या कुछ और?",
+      "start": 16.77,
+      "end": 21.53
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं same ticket as it is वैसा ही चाहिए। price money कितना है इसका?",
+      "start": 23.55,
+      "end": 28.03
+    },
+    {
+      "role": "BOT",
+      "text": "price के लिए आप seller से बात कर सकते हैं वो आपको best rates देंगे। बताइए size में क्या prefer करेंगे?",
+      "start": 29.21,
+      "end": 34.65
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं एक half an hour के बाद phone करूंगी तब price पूछ के phone करूंगी।",
+      "start": 36.97,
+      "end": 40.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है कोई बात नहीं। आप details confirm कर दीजिए फिर मैं आपको seller से connect करने में मदद करूंगी।",
+      "start": 42.17,
+      "end": 47.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay ये online booking है ये।",
+      "start": 48.93,
+      "end": 51.01
+    },
+    {
+      "role": "BOT",
+      "text": "जी IndiaMART एक platform है जहां buyers और sellers connect होते हैं।",
+      "start": 52.17,
+      "end": 55.75
+    },
+    {
+      "role": "BUYER",
+      "text": "माटे। बाहर से।",
+      "start": 52.81,
+      "end": 55.03
+    },
+    {
+      "role": "BOT",
+      "text": "ये आप seller से discuss कर सकते हैं बस।",
+      "start": 56.09,
+      "end": 58.87
+    },
+    {
+      "role": "BUYER",
+      "text": "कर सकते हैं। Okay. Okay ठीक है।",
+      "start": 57.05,
+      "end": 61.47
+    },
+    {
+      "role": "BOT",
+      "text": "अब बताइए कि आपको यह किस उपयोग के लिए चाहिए जैसे business use, reselling या home use?",
+      "start": 61.47,
+      "end": 66.41
+    },
+    {
+      "role": "BUYER",
+      "text": "Big Punch के लिए।",
+      "start": 67.71,
+      "end": 68.95
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 69.99,
+      "end": 75.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay number send कर दीजिए।",
+      "start": 76.53,
+      "end": 78.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं आपको seller details WhatsApp पे भेज दूंगी। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 79.43,
+      "end": 85.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.32,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 8,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

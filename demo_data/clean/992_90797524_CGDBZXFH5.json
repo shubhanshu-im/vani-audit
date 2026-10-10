@@ -1,0 +1,135 @@
+{
+  "call_id": "992_90797524_CGDBZXFH5",
+  "file": "data/recordings/992_90797524_CGDBZXFH5.mp3",
+  "duration_s": 83.95,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको 30 M Bakelite close connector की requirement है ना?",
+      "start": 0.05,
+      "end": 4.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.41,
+      "end": 6.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। कितने piece चाहिए होंगे आपको?",
+      "start": 7.13,
+      "end": 17.23
+    },
+    {
+      "role": "BUYER",
+      "text": "एक piece।",
+      "start": 17.77,
+      "end": 18.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं। आपको current rating 30 A ही चाहिए ना?",
+      "start": 19.75,
+      "end": 23.17
+    },
+    {
+      "role": "BUYER",
+      "text": "current rating thirty.",
+      "start": 25.43,
+      "end": 27.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब number of ways के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे five way, three way या कुछ और?",
+      "start": 28.75,
+      "end": 34.21
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन सा मुझे six hole का चाहिए।",
+      "start": 31.09,
+      "end": 37.31
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल मैं इंतज़ार कर रही हूँ। जी क्या आप अभी भी line पर हैं?",
+      "start": 38.45,
+      "end": 50.97
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 51.55,
+      "end": 52.09
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। तो आपको number of ways में six way चाहिए सही है ना?",
+      "start": 53.13,
+      "end": 56.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ six hole वाला चाहिए।",
+      "start": 57.45,
+      "end": 59.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है।",
+      "start": 60.47,
+      "end": 61.59
+    },
+    {
+      "role": "BUYER",
+      "text": "rating में बत्तीस का rating का चाहिए बत्तीस A का thirty two A का।",
+      "start": 60.53,
+      "end": 64.83
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 65.87,
+      "end": 71.55
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है video.",
+      "start": 71.93,
+      "end": 72.77
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 73.87,
+      "end": 76.69
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 9.24,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 40.19,
+        "end": 49.43,
+        "duration_s": 9.24,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

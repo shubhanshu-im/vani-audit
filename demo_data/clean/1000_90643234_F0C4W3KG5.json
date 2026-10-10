@@ -1,0 +1,68 @@
+{
+  "call_id": "1000_90643234_F0C4W3KG5",
+  "file": "data/recordings/1000_90643234_F0C4W3KG5.mp3",
+  "duration_s": 53.42,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी Hawkins कंटूरा Black 2 लीटर pressure cooker की request IndiaMART पर placed है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 9.35,
+      "end": 9.97
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब body material के बारे में बात कर लेते हैं। आपको कौन सा चाहिए aluminium या कुछ और?",
+      "start": 11.77,
+      "end": 16.11
+    },
+    {
+      "role": "BUYER",
+      "text": "तीनों ही बोल रहे थे steel और non-steel।",
+      "start": 18.33,
+      "end": 21.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 22.75,
+      "end": 27.97
+    },
+    {
+      "role": "BUYER",
+      "text": "आप लोग जैसे कि मुझे ना कि इसमें डेढ़ लीटर दो लीटर तीन लीटर पाँच लीटर और साढ़े छह लीटर इन सबके ही model चाहिए और मुझे जो MRP पे less चाहिए वो चाहिए 50 percent",
+      "start": 30.09,
+      "end": 42.33
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपकी ये सारी details note कर ली गई हैं। जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 43.17,
+      "end": 49.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 2.46,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

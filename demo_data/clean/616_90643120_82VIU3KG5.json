@@ -1,0 +1,98 @@
+{
+  "call_id": "616_90643120_82VIU3KG5",
+  "file": "data/recordings/616_90643120_82VIU3KG5.mp3",
+  "duration_s": 67.97,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपके 20 mm कबड्डी floor mat की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.45
+    },
+    {
+      "role": "BUYER",
+      "text": "मैंने pay कर दिए हो। 2 लाख रुपये आप Mars भिजवा दो।",
+      "start": 8.05,
+      "end": 13.27
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाया। क्या आप अपनी requirement के बारे में बात कर रहे हैं या कुछ और बताना चाहते हैं?",
+      "start": 14.55,
+      "end": 19.83
+    },
+    {
+      "role": "BUYER",
+      "text": "कृपया मुझे पैसों के बारे में बताएं वरना हम लोग नहीं ले पाएंगे।",
+      "start": 20.67,
+      "end": 25.37
+    },
+    {
+      "role": "BOT",
+      "text": "पैसों और price के बारे में आप सीधे seller से बात कर सकते हैं। क्या मैं आपकी call उनसे connect करवा दूं?",
+      "start": 26.57,
+      "end": 31.73
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं आपकी call उनसे connect करवा दूँ।",
+      "start": 30.11,
+      "end": 32.29
+    },
+    {
+      "role": "BOT",
+      "text": "जरूर but पहले बस एक दो details confirm कर लेते हैं ताकि seller आपकी requirement समझ सकें। आपको कौन सा mat size चाहिए जैसे 1x1 meter, 1x2 meter या कुछ और?",
+      "start": 33.63,
+      "end": 41.99
+    },
+    {
+      "role": "BUYER",
+      "text": "one x two meter.",
+      "start": 44.59,
+      "end": 46.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 47.67,
+      "end": 52.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes मुझे बस prices के बारे में जानना है।",
+      "start": 53.59,
+      "end": 56.85
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ सकता हूँ। आपकी details note कर ली गई है और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 58.01,
+      "end": 65.83
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका दिन शुभ हो।",
+      "start": 64.85,
+      "end": 66.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

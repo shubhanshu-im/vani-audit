@@ -1,0 +1,230 @@
+{
+  "call_id": "70_90684988_5GNFH1UG5",
+  "file": "data/recordings/70_90684988_5GNFH1UG5.mp3",
+  "duration_s": 156.24,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 30 mg और Termin Termine Sulphate injection की requirement है ना?",
+      "start": 0.21,
+      "end": 5.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Thirty. Yeah yeah yeah.",
+      "start": 1.33,
+      "end": 8.09
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने vial चाहिए होंगे आपको?",
+      "start": 9.19,
+      "end": 15.25
+    },
+    {
+      "role": "BUYER",
+      "text": "English.",
+      "start": 17.47,
+      "end": 18.21
+    },
+    {
+      "role": "BOT",
+      "text": "I will speak in English now. The seller you were calling is unavailable and I am calling from IndiaMART. How many vials do you need?",
+      "start": 19.27,
+      "end": 26.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 26.47,
+      "end": 26.85
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I couldn't quite catch that. Could you please tell me how many vials you require?",
+      "start": 27.79,
+      "end": 32.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Could you Five five.",
+      "start": 28.61,
+      "end": 34.83
+    },
+    {
+      "role": "BOT",
+      "text": "Do you need five kilos?",
+      "start": 35.91,
+      "end": 37.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah.",
+      "start": 38.61,
+      "end": 39.11
+    },
+    {
+      "role": "BOT",
+      "text": "Great. Now let's talk about the brand. Which one would you prefer or any other?",
+      "start": 40.15,
+      "end": 44.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Which brand? Which brand? I think I am purchasing some RX or something. I think RX. I think I don't know.",
+      "start": 46.79,
+      "end": 56.71
+    },
+    {
+      "role": "BOT",
+      "text": "No problem. If you are unsure you can choose from brands like Termine or Neon or any other.",
+      "start": 57.85,
+      "end": 63.31
+    },
+    {
+      "role": "BUYER",
+      "text": "I think uh wait let me check the prescription. Can I speak to you?",
+      "start": 64.51,
+      "end": 71.39
+    },
+    {
+      "role": "BOT",
+      "text": "Sure, please take your time.",
+      "start": 72.57,
+      "end": 73.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah, I think it's I think it's King. Yeah.",
+      "start": 77.05,
+      "end": 81.55
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I didn't quite get that. Which brand would you prefer like Neon or something else?",
+      "start": 81.95,
+      "end": 87.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Neon or something else. Yeah yeah yeah yeah.",
+      "start": 85.15,
+      "end": 91.57
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I see you chose 30 milligrams for the strength. Is that correct?",
+      "start": 92.57,
+      "end": 96.35
+    },
+    {
+      "role": "BUYER",
+      "text": "What bro? What?",
+      "start": 98.13,
+      "end": 99.55
+    },
+    {
+      "role": "BOT",
+      "text": "I was asking if you need the strength to be 30 milligrams, is that right?",
+      "start": 100.81,
+      "end": 104.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah yeah yeah yeah yeah only 3 degrees yeah.",
+      "start": 105.33,
+      "end": 107.81
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, could you please tell me your city and state?",
+      "start": 109.23,
+      "end": 111.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Siddhant.",
+      "start": 113.85,
+      "end": 114.87
+    },
+    {
+      "role": "BOT",
+      "text": "Yes, please tell me which city and state you are calling from.",
+      "start": 116.15,
+      "end": 119.21
+    },
+    {
+      "role": "BUYER",
+      "text": "I am calling from Alappuzha Kerala.",
+      "start": 121.01,
+      "end": 125.01
+    },
+    {
+      "role": "BOT",
+      "text": "Are you calling from Alippura Kerala?",
+      "start": 126.21,
+      "end": 127.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Kerala Kerala.",
+      "start": 129.47,
+      "end": 130.29
+    },
+    {
+      "role": "BOT",
+      "text": "Are you calling from Alippura Kerala? Are you calling from Alippura Kerala?",
+      "start": 131.17,
+      "end": 135.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Kerala. Yeah yeah yeah.",
+      "start": 134.75,
+      "end": 137.69
+    },
+    {
+      "role": "BOT",
+      "text": "Okay, could you please tell me your name as well?",
+      "start": 138.83,
+      "end": 141.09
+    },
+    {
+      "role": "BUYER",
+      "text": "My name is [NAME] [NAME].",
+      "start": 142.97,
+      "end": 144.93
+    },
+    {
+      "role": "BOT",
+      "text": "I'll send the seller details on WhatsApp where you can discuss the price and other details. Thank you for choosing IndiaMART. Have a nice day.",
+      "start": 145.95,
+      "end": 153.49
+    },
+    {
+      "role": "BUYER",
+      "text": "I honestly.",
+      "start": 155.27,
+      "end": 156.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 17,
+    "buyer_turns": 17,
+    "longest_gap_s": 3.16,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

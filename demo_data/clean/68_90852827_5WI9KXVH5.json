@@ -1,0 +1,207 @@
+{
+  "call_id": "68_90852827_5WI9KXVH5",
+  "file": "data/recordings/68_90852827_5WI9KXVH5.mp3",
+  "duration_s": 199.37,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Nima electric grinder की requirement है ना?",
+      "start": 0.01,
+      "end": 3.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 10.87,
+      "end": 11.25
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको Nima electric grinder की जरूरत है?",
+      "start": 13.95,
+      "end": 16.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ है ना बोला तो।",
+      "start": 17.35,
+      "end": 18.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 20.49,
+      "end": 30.27
+    },
+    {
+      "role": "BUYER",
+      "text": "एक piece चाहिए एक।",
+      "start": 31.37,
+      "end": 32.77
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। चलिए अब product type के बारे में बताइए। आपको कौन सा चाहिए coffee grinder, two in one grinder या कुछ और?",
+      "start": 34.53,
+      "end": 40.71
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे ऐसा चीज चाहिए madam जैसे कि मतलब इसमें मसाले भी पीस जाए और दाल पीस जाए और मतलब कि फल भी पीस जाए diet के लिए जिस जगह नहीं बनाते।",
+      "start": 42.07,
+      "end": 52.51
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको ऐसा चाहिए जिसमें मसाले दाल और फल भी पीस सकें। ऐसे में two in one grinder या three in one grinder आपके लिए सही रहेगा।",
+      "start": 54.71,
+      "end": 61.81
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 62.79,
+      "end": 63.53
+    },
+    {
+      "role": "BOT",
+      "text": "तो price बता दीजिए। price seller से discuss कर सकते हैं आपको best rates मिलेंगे। चलिए अब power के बारे में बताइए 150 watt या 200 watt या कुछ और?",
+      "start": 66.07,
+      "end": 76.97
+    },
+    {
+      "role": "BUYER",
+      "text": "आप बताइए ना आपके हिसाब से कौन सा अच्छा quality में रहेगा वास्तव में।",
+      "start": 78.17,
+      "end": 83.09
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आपको दाल मसाले और फल सभी पीसने हैं तो 300 watt या 550 watt वाला grinder ज्यादा अच्छा रहेगा।",
+      "start": 84.67,
+      "end": 91.39
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन सौ तीन सौ watt वाला blender अगर मतलब कोई पतली सी अगर डोरी हो तो उसको चल जाएगा table को। card भी नहीं हो जाएगा।",
+      "start": 93.83,
+      "end": 103.03
+    },
+    {
+      "role": "BOT",
+      "text": "इसमें बिजली से चलने वाला motor होता है। अगर cable निकाल देंगे तो काम नहीं करेगा। डोरी या cable सही से लगी होनी चाहिए।",
+      "start": 105.03,
+      "end": 111.81
+    },
+    {
+      "role": "BUYER",
+      "text": "तो मतलब madam अगर इसकी guarantee warranty कोई",
+      "start": 113.01,
+      "end": 115.77
+    },
+    {
+      "role": "BOT",
+      "text": "guarantee warranty की details आप seller से discuss कर सकते हैं। अब आप अपनी city और state भी बता दीजिए please।",
+      "start": 118.13,
+      "end": 123.89
+    },
+    {
+      "role": "BUYER",
+      "text": "और मतलब की अगर ये जैसे की अगर हमारे घर में deliver हो और अंदर कुछ गड़बड़ निकले कुछ सामान ना हो तो मतलब return हो सकता है ना?",
+      "start": 125.61,
+      "end": 133.77
+    },
+    {
+      "role": "BOT",
+      "text": "अगर सामान में कोई दिक्कत आती है या कुछ parts ठीक नहीं है तो seller से बात करके आप return या replacement कर सकते हैं। अब अपनी city और state बता दीजिए।",
+      "start": 135.79,
+      "end": 144.33
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam State मतलब जिला।",
+      "start": 145.57,
+      "end": 147.93
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ आप जिस city और state से बोल रहे हैं वही बता दीजिए।",
+      "start": 149.91,
+      "end": 153.39
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam देखिए जिला जालौन।",
+      "start": 154.21,
+      "end": 156.51
+    },
+    {
+      "role": "BOT",
+      "text": "आप जालौन उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 161.13,
+      "end": 163.35
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। जिला जालौन उत्तर प्रदेश लिखो। लिख लिया।",
+      "start": 164.07,
+      "end": 175.59
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ note कर लिया। अब अपना नाम भी बता दीजिए please।",
+      "start": 180.95,
+      "end": 183.85
+    },
+    {
+      "role": "BUYER",
+      "text": "नाम लिखिए साहिल कुमार।",
+      "start": 184.61,
+      "end": 186.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] [NAME] जी बोल रहे हैं ना?",
+      "start": 188.39,
+      "end": 190.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ और मतलब मैं बता रहा हूँ कहाँ deliver करना है।",
+      "start": 191.23,
+      "end": 194.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 14,
+    "buyer_turns": 14,
+    "longest_gap_s": 7.1,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 3.77,
+        "end": 10.87,
+        "duration_s": 7.1,
+        "after_role": "BOT"
+      },
+      {
+        "start": 175.59,
+        "end": 180.95,
+        "duration_s": 5.36,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

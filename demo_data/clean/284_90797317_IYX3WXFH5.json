@@ -1,0 +1,50 @@
+{
+  "call_id": "284_90797317_IYX3WXFH5",
+  "file": "data/recordings/284_90797317_IYX3WXFH5.mp3",
+  "duration_s": 19.87,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको mild steel square hollow section pipe की requirement है ना?",
+      "start": 0.01,
+      "end": 4.87
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 6.51,
+      "end": 7.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं आपको connect करवाऊंगी। आपको मैं seller details WhatsApp पर भेज दूंगी जिनसे आप details...",
+      "start": 9.15,
+      "end": 19.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Price जिसका।",
+      "start": 19.19,
+      "end": 20.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "call_id": "170_90852863_R30UKXVH5",
+  "file": "data/recordings/170_90852863_R30UKXVH5.mp3",
+  "duration_s": 77.62,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Nokia 535 OG backdoor की requirement है ना?",
+      "start": 0.01,
+      "end": 5.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 7.89,
+      "end": 8.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 9.91,
+      "end": 15.77
+    },
+    {
+      "role": "BUYER",
+      "text": "को call हमको दो piece चाहिए।",
+      "start": 10.35,
+      "end": 19.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब compatible brand के बारे में बात कर लेते हैं। आपको कौन सा चाहिए Apple, Samsung या कुछ और?",
+      "start": 20.09,
+      "end": 25.95
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको Roomia 535 Microsoft Roomia 535 चाहिए।",
+      "start": 28.11,
+      "end": 34.41
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए material में क्या prefer करेंगे silicon, leather या कोई और?",
+      "start": 35.47,
+      "end": 40.05
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं हमको back door चाहिए। जो battery से।",
+      "start": 42.99,
+      "end": 46.95
+    },
+    {
+      "role": "BOT",
+      "text": "backdoor के लिए ही बात हो रही है। बस यह बता दीजिए कि आपको material में क्या चाहिए जैसे silicon, leather या कुछ और?",
+      "start": 46.07,
+      "end": 52.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Silicon.",
+      "start": 55.67,
+      "end": 56.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 57.43,
+      "end": 63.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 65.97,
+      "end": 66.51
+    },
+    {
+      "role": "BOT",
+      "text": "India Mat चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 67.45,
+      "end": 70.39
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद।",
+      "start": 72.57,
+      "end": 73.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

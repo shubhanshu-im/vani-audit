@@ -1,0 +1,177 @@
+{
+  "call_id": "930_90741714_GTIKIL4H5",
+  "file": "data/recordings/930_90741714_GTIKIL4H5.mp3",
+  "duration_s": 102.17,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 2.5 m cricket twisted net की requirement है ना?",
+      "start": 0.01,
+      "end": 4.35
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 4.73,
+      "end": 5.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने square feet या piece चाहिए?",
+      "start": 6.41,
+      "end": 16.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 17.77,
+      "end": 18.29
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "start": 19.29,
+      "end": 22.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ करवाइए हाँ जी।",
+      "start": 24.21,
+      "end": 26.17
+    },
+    {
+      "role": "BOT",
+      "text": "बस कुछ details चाहिए ताकि मैं आपको सही seller से connect कर सकूं। आपको कितनी quantity चाहिए please बता दीजिए।",
+      "start": 26.97,
+      "end": 33.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। twenty two years sir.",
+      "start": 27.17,
+      "end": 36.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं। आपको net thickness 2.5 mm ही चाहिए ना?",
+      "start": 37.43,
+      "end": 41.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 42.07,
+      "end": 42.55
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब mesh size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 50 mm या 40 mm या कुछ और?",
+      "start": 43.65,
+      "end": 49.81
+    },
+    {
+      "role": "BUYER",
+      "text": "ninth में ना fourteen में।",
+      "start": 51.79,
+      "end": 53.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब आपकी city confirm कर लेते हैं।",
+      "start": 54.69,
+      "end": 57.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ, हाँ, हाँ।",
+      "start": 58.67,
+      "end": 59.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 61.65,
+      "end": 64.35
+    },
+    {
+      "role": "BUYER",
+      "text": "आरा बिहार बिहार।",
+      "start": 65.11,
+      "end": 66.89
+    },
+    {
+      "role": "BOT",
+      "text": "आप Bihar से बोल रहे हैं ना? Please अपनी city का नाम भी बता दीजिए।",
+      "start": 67.79,
+      "end": 71.35
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। आ रहा है। आरा भोजपुर से।",
+      "start": 69.59,
+      "end": 75.79
+    },
+    {
+      "role": "BOT",
+      "text": "आप भोजपुर बिहार से बोल रहे हैं ना?",
+      "start": 76.85,
+      "end": 78.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 79.13,
+      "end": 79.81
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। ठीक है आप रिंकू जी बोल रहे हैं ना?",
+      "start": 79.19,
+      "end": 87.37
+    },
+    {
+      "role": "BUYER",
+      "text": "उनका लगता है हाँ बोलिए ना।",
+      "start": 88.87,
+      "end": 91.11
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 92.03,
+      "end": 99.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 101.27,
+      "end": 102.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 12,
+    "longest_gap_s": 5.64,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 79.81,
+        "end": 85.45,
+        "duration_s": 5.64,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

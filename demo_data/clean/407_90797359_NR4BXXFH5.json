@@ -1,0 +1,82 @@
+{
+  "call_id": "407_90797359_NR4BXXFH5",
+  "file": "data/recordings/407_90797359_NR4BXXFH5.mp3",
+  "duration_s": 43.85,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "हेलो।",
+      "start": 0.01,
+      "end": 1.25
+    },
+    {
+      "role": "BOT",
+      "text": "आपको gemstone ivory राधा कृष्णा statue की requirement है ना?",
+      "start": 0.07,
+      "end": 4.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.27,
+      "end": 5.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से।",
+      "start": 7.41,
+      "end": 9.61
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं Tania बोल रही हूं। हाँ।",
+      "start": 7.87,
+      "end": 10.95
+    },
+    {
+      "role": "BOT",
+      "text": "कोई दिक्कत आ रही है क्या? बताइए। मैं आपकी मदद कर सकती हूं। आपको कितने piece या idol चाहिए होंगे?",
+      "start": 12.77,
+      "end": 18.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी। हम अभी वो model देख रहा है। ये सामान collection देख रहा है। हम देखने वाला जी है। आप कहाँ से बोल रहे हैं?",
+      "start": 13.35,
+      "end": 31.65
+    },
+    {
+      "role": "BOT",
+      "text": "selling related information के लिए कृपया customer care number 5 times 96 पर call करें। IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 33.43,
+      "end": 40.45
+    },
+    {
+      "role": "BUYER",
+      "text": "હા. અને અમે જે જે બોલ્યા.",
+      "start": 41.55,
+      "end": 44.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.16,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 3
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

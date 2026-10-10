@@ -1,0 +1,92 @@
+{
+  "call_id": "719_90741697_YPDEIL4H5",
+  "file": "data/recordings/719_90741697_YPDEIL4H5.mp3",
+  "duration_s": 58.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Sumangala Arecanut Plants की requirement है ना?",
+      "start": 0.01,
+      "end": 4.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.31,
+      "end": 5.91
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.05,
+      "end": 12.89
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 14.49,
+      "end": 15.01
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। ज़रा दोबारा बताइए कि आपको कितनी quantity चाहिए?",
+      "start": 15.97,
+      "end": 20.27
+    },
+    {
+      "role": "BUYER",
+      "text": "प्रति।",
+      "start": 21.63,
+      "end": 22.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं आपको variety में मंगाना ही चाहिए ना?",
+      "start": 23.25,
+      "end": 26.77
+    },
+    {
+      "role": "BUYER",
+      "text": "Battle nuts. Battle nuts.",
+      "start": 28.33,
+      "end": 33.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब plantation के बारे में बात कर लेते हैं। आपको 2 years चाहिए या कुछ और?",
+      "start": 34.21,
+      "end": 38.53
+    },
+    {
+      "role": "BUYER",
+      "text": "बदलना चाहिए हमको तीस feet का तीस तीस।",
+      "start": 40.71,
+      "end": 45.39
+    },
+    {
+      "role": "BOT",
+      "text": "आपने product की जानकारी दी है पर plantage नहीं बताई। आप क्या prefer करेंगे two year, one year या कुछ और?",
+      "start": 46.41,
+      "end": 52.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.18,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

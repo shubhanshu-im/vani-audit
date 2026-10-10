@@ -1,0 +1,53 @@
+{
+  "call_id": "555_90741586_9V11HL4H5",
+  "file": "data/recordings/555_90741586_9V11HL4H5.mp3",
+  "duration_s": 79.56,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी melamine kitchen crockery की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी। [NAME] जी क्या आप line पर हैं?",
+      "start": 0.49,
+      "end": 18.83
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 20.37,
+      "end": 20.99
+    },
+    {
+      "role": "BOT",
+      "text": "कितनी set चाहिए होगी आपको? जी आपको कितने set चाहिए? [NAME] जी मैं आपसे आपकी requirement के बारे में पूछ रहा था। आपको कितने set चाहिए होंगे? Requirement. पच्चीस feet का पच्चीस feet दिया था हमको। [NAME] जी मैं आपकी quantity के बारे में पूछ रहा था आपको कितने set चाहिए होंगे? पच्चीस seat का पच्चीस तीस। ठीक है पच्चीस बीस। चलिए अब product type के बारे में बात कर लेते हैं। आपको कौन सा चाहिए dinner set या कुछ और? नहीं doctor चाहिए उनको। ठीक है Carter। अब set size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 32 pieces, 24 pieces या कुछ और? twenty six teachers. आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो। गई हैं। तो फिर।",
+      "start": 22.11,
+      "end": 79.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 10.48,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 6.29,
+        "end": 16.77,
+        "duration_s": 10.48,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 7,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

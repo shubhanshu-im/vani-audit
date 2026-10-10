@@ -1,0 +1,44 @@
+{
+  "call_id": "562_90685094_MAS7K1UG5",
+  "file": "data/recordings/562_90685094_MAS7K1UG5.mp3",
+  "duration_s": 7.13,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको all chili seeds की requirement है ना?",
+      "start": 0.01,
+      "end": 3.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello आपको।",
+      "start": 0.35,
+      "end": 1.55
+    },
+    {
+      "role": "BOT",
+      "text": "कौन? कौन?",
+      "start": 5.13,
+      "end": 6.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 1.58,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

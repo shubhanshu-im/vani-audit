@@ -1,0 +1,326 @@
+{
+  "call_id": "588_90643114_I8LHU3KG5",
+  "duration_s": 78.19,
+  "graded_at": "2026-10-10T12:36:39+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer had a clear product requirement but bot closed without creating a lead or transferring.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 59.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer had a clear product requirement but bot closed without creating a lead or transferring.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.1
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Which roller length do you want like 600 mm, 2 feet, 300 mm or something else?",
+      "timestamp": 39.59,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for roller length but missed confirming the diameter of 26 mm.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.6
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 59.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp instead of live seller or lead creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "What should I say? Got it.",
+      "timestamp": 6.89,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'Thambiraj ji' as 'What should I say'.",
+      "evidence_verified": true,
+      "llm_timestamp": 6.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 59.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer had a clear product requirement but bot closed without creating a lead or transferring.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.1
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No first spec was asked by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Which roller length do you want like 600 mm, 2 feet, 300 mm or something else?",
+      "timestamp": 39.59,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for roller length but missed confirming the diameter of 26 mm.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No ASR errors shown in bot's read-backs or confirmations."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 59.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp instead of live seller or lead creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.1
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer and bot agreed on HDP conveyor idler."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors visible."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No MCAT or search errors shown."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "What should I say? Got it.",
+      "timestamp": 6.89,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'Thambiraj ji' as 'What should I say'.",
+      "evidence_verified": true,
+      "llm_timestamp": 6.9
+    }
+  ],
+  "captured_lead": {
+    "product": "HDP conveyor idler",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "roller length",
+        "value": "950"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without creating lead or transferring to seller.",
+      "timestamp": 59.1,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Bot misheard buyer's name at start.",
+      "timestamp": 6.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to create a lead or transfer to a live seller, instead offering WhatsApp details. Also misheard buyer's name.",
+  "analysis": "Buyer inquired about HDP conveyor idler and specified a roller diameter of 26 mm and roller length of 950. Bot confirmed roller length but asked for diameter again without confirming it, and skipped name/city/state. Bot closed by sending seller details on WhatsApp instead of creating a lead or transferring.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[roller length] = '950': number(s) ['950'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3618,
+    "completion_tokens": 1669
+  },
+  "unresolved_problems": []
+}

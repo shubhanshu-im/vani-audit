@@ -1,0 +1,99 @@
+{
+  "call_id": "989_90797496_FEGYYXFH5",
+  "file": "data/recordings/989_90797496_FEGYYXFH5.mp3",
+  "duration_s": 90.79,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी black plastic match gun की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.09
+    },
+    {
+      "role": "BUYER",
+      "text": "वो कब आने वाला है?",
+      "start": 10.63,
+      "end": 13.93
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब model name के बारे में बात कर लेते हैं आपको कौन सा चाहिए या कुछ और?",
+      "start": 15.41,
+      "end": 19.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको वही चाहिए पर वो आप ही ये नहीं बता रहे हैं कि पकाने वाला है।",
+      "start": 21.65,
+      "end": 26.87
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकता हूं। चलिए अब product size के बारे में बात कर लेते हैं। आपको small, large, medium में से कौन सा चाहिए या कुछ और?",
+      "start": 27.71,
+      "end": 34.07
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे हमको पहनने वाला time हो गया तो अभी तक आना नहीं कब आने वाला तो आप नहीं जानते।",
+      "start": 37.11,
+      "end": 44.71
+    },
+    {
+      "role": "BOT",
+      "text": "shipment के बारे में आप सीधे seller से बात कर सकते हैं। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 45.67,
+      "end": 52.75
+    },
+    {
+      "role": "BUYER",
+      "text": "तो ये कब आएगा आप नहीं जानते हैं? जैसा कि मैंने बताया shipment की जानकारी के लिए आप सीधे seller से बात कर सकते हैं।",
+      "start": 57.95,
+      "end": 65.58
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप इस product के बारे में कोई और detail share करना चाहेंगे?",
+      "start": 65.58,
+      "end": 68.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हम वहाँ से बात करने पर कुछ देख नहीं रहा date ना date दे रहा है date का number देख नहीं रहा है की कब आने वाला है।",
+      "start": 71.31,
+      "end": 79.77
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकता हूँ लेकिन मैं केवल आपकी requirements note कर सकता हूँ। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 80.79,
+      "end": 89.93
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 5.2,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 52.75,
+        "end": 57.95,
+        "duration_s": 5.2,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

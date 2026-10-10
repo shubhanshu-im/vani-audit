@@ -1,0 +1,318 @@
+{
+  "call_id": "947_90797435_1Y39YXFH5",
+  "duration_s": 70.85,
+  "graded_at": "2026-10-10T12:46:33+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Bot misheard CF33 as CF35, missing the actual product spec.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा करें मैं यहां आपके Panasonic CF 35 category laptop की requirement के लिए मदद कर रहा हूं",
+      "timestamp": 38.09,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard CF33 as CF35, missing the actual product spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बस आपकी Panasonic CF 33 rugged laptop की requirements के बारे में बात करनी थी",
+      "timestamp": 18.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the opening line verbatim once.",
+      "evidence_verified": true,
+      "llm_timestamp": 18.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा करें मैं यहां आपके Panasonic CF 35 category laptop की requirement के लिए मदद कर रहा हूं",
+      "timestamp": 38.09,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard CF33 as CF35, a minor spec error.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 51.79,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Used the banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 51.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a laptop, bot closed with seller contact."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed, no error."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for RAM but buyer did not provide it."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for RAM but buyer did not provide it."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "क्षमा करें मैं यहां आपके Panasonic CF 35 category laptop की requirement के लिए मदद कर रहा हूं",
+      "timestamp": 38.09,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard CF33 as CF35, missing the actual product spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बस आपकी Panasonic CF 33 rugged laptop की requirements के बारे में बात करनी थी",
+      "timestamp": 18.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the opening line verbatim once.",
+      "evidence_verified": true,
+      "llm_timestamp": 18.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा करें मैं यहां आपके Panasonic CF 35 category laptop की requirement के लिए मदद कर रहा हूं",
+      "timestamp": 38.09,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard CF33 as CF35, a minor spec error.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was not changed by buyer."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data, not visible in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 51.79,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Used the banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 51.8
+    }
+  ],
+  "captured_lead": {
+    "product": "Panasonic CF35 rugged laptop",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "RAM",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer gave non-committal response to bot's questions.",
+      "timestamp": 33.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard CF33 as CF35. Closed lead without collecting quantity, name, city, or state.",
+  "analysis": "Buyer called for a Panasonic CF33 rugged laptop convertible to tablet. The bot misidentified the model as CF35 and asked about RAM. The buyer was non-committal and did not provide quantity, RAM preference, name, or location. The bot closed with 'seller will contact soon' without collecting essential fields like quantity, name, city, or state, and used a banned open-ended question.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9093,
+    "completion_tokens": 3128
+  },
+  "unresolved_problems": []
+}

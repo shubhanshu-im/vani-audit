@@ -1,0 +1,80 @@
+{
+  "call_id": "52_90643030_TC25S3KG5",
+  "file": "data/recordings/52_90643030_TC25S3KG5.mp3",
+  "duration_s": 52.42,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 3.75
+    },
+    {
+      "role": "BUYER",
+      "text": "थोड़ा bit hard है।",
+      "start": 6.63,
+      "end": 8.09
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आपको कोई नया product खरीदना है या किसी और चीज की inquiry करनी है तो बताइए मैं आपकी मदद कर सकती हूं।",
+      "start": 9.99,
+      "end": 15.89
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 17.65,
+      "end": 20.41
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आपको कोई दूसरा product या service चाहिए तो बताइए मैं उसी में help कर सकती हूं। Otherwise आप अपनी future needs के लिए IndiaMART की website भी देख सकते हैं।",
+      "start": 21.81,
+      "end": 30.57
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं मुझे तो वही होना चाहिए।",
+      "start": 32.39,
+      "end": 34.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको कौन सा product चाहिए था? Please नाम बता दीजिए जिससे मैं आपकी inquiry आगे बढ़ा सकूं।",
+      "start": 35.43,
+      "end": 40.71
+    },
+    {
+      "role": "BUYER",
+      "text": "तो",
+      "start": 42.95,
+      "end": 44.45
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपका product नाम clear नहीं हुआ। कृपया एक बार साफ़-साफ़ product या service का नाम बता दीजिए।",
+      "start": 46.33,
+      "end": 51.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.88,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

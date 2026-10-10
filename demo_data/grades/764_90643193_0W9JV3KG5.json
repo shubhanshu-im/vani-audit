@@ -1,0 +1,296 @@
+{
+  "call_id": "764_90643193_0W9JV3KG5",
+  "duration_s": 65.09,
+  "graded_at": "2026-10-10T12:41:27+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Dead air: Bot went silent after buyer spoke, leading to abrupt end",
+  "fatal_params": [
+    "Dead air"
+  ],
+  "issues": [
+    {
+      "param": "Dead air",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी मैं यहीं हूँ।",
+      "timestamp": 55.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot went silent after buyer spoke, leading to abrupt end",
+      "evidence_verified": true,
+      "llm_timestamp": 55.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या देख? सिर्फ़ इतना ही है ये दवा कितनी दिन तक लेना पड़ता है? काम।",
+      "timestamp": 55.49,
+      "root_cause_type": null,
+      "confidence": "medium",
+      "reason": "Buyer asked about dosage/duration, which bot did not answer",
+      "evidence_verified": true,
+      "llm_timestamp": 55.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirements and bot proceeded to create lead"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed 1 bottle"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Captured bottle"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured pack size 30 capsules"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured therapeutic use as timing increase"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated timing increase and bot captured it"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop"
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misheard words that changed the lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained Kamasutra capsules"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी मैं यहीं हूँ।",
+      "timestamp": 55.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot went silent after buyer spoke, leading to abrupt end",
+      "evidence_verified": true,
+      "llm_timestamp": 55.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या देख? सिर्फ़ इतना ही है ये दवा कितनी दिन तक लेना पड़ता है? काम।",
+      "timestamp": 55.49,
+      "root_cause_type": null,
+      "confidence": "medium",
+      "reason": "Buyer asked about dosage/duration, which bot did not answer",
+      "evidence_verified": true,
+      "llm_timestamp": 55.5
+    }
+  ],
+  "captured_lead": {
+    "product": "Kamasutra capsules",
+    "quantity": "1",
+    "quantity_unit": "bottle",
+    "specs": [
+      {
+        "name": "pack size",
+        "value": "30 capsules"
+      },
+      {
+        "name": "therapeutic use",
+        "value": "timing increase"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer asked about dosage but bot did not answer",
+      "timestamp": 55.5,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot went silent after buyer spoke, leading to abrupt end",
+      "timestamp": 55.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot went silent leading to abrupt call end. Buyer asked about dosage but bot did not answer.",
+  "analysis": "Buyer wanted Kamasutra capsules for performance enhancement (timing increase). Bot confirmed product, quantity (1 bottle), pack size (30 capsules), and therapeutic use (timing increase). Bot offered to send seller details on WhatsApp, then dead air occurred, and the buyer asked about dosage. Call ended abruptly at 55.1s with bot cut-off.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8669,
+    "completion_tokens": 2550
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,341 @@
+{
+  "call_id": "650_90685109_1AIEK1UG5",
+  "duration_s": 92.59,
+  "graded_at": "2026-10-10T12:38:22+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: No lead created and no transfer made despite buyer's requirement.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 42.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "No lead created and no transfer made despite buyer's requirement.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.1
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Personal use के लिए।",
+      "timestamp": 39.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer gave usage purpose but bot did not capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 42.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated WhatsApp promise twice with no harm.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.3
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 42.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details but did not transfer or create a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है पर ऐसे एक एक product पे जो order करो तो मेरा तो दिन निकल जाएगा तो ये तो फालतू app है।",
+      "timestamp": 50.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer expressed frustration about verification.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 42.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "No lead created and no transfer made despite buyer's requirement.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.1
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not specify quantity."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity needed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not state a quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not probed for numeric accuracy."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec not probed for numeric accuracy."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Personal use के लिए।",
+      "timestamp": 39.61,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer gave usage purpose but bot did not capture it.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 42.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated WhatsApp promise twice with no harm.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.3
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognized words."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 42.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details but did not transfer or create a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.1
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product not changed."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data unavailable."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data to judge."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है पर ऐसे एक एक product पे जो order करो तो मेरा तो दिन निकल जाएगा तो ये तो फालतू app है।",
+      "timestamp": 50.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer expressed frustration about verification.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.1
+    }
+  ],
+  "captured_lead": {
+    "product": "Vaseline gel",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "packaging size",
+        "value": "5 grams"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot promised WhatsApp details but did not create a lead.",
+      "timestamp": 42.1,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer expressed frustration about app verification.",
+      "timestamp": 50.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to collect name and location, and did not create a lead despite buyer's requirement.",
+  "analysis": "Buyer wanted Vaseline gel 5g for personal use. Bot confirmed product and packaging size, but never captured quantity, name, or location. Buyer expressed frustration about the app and verification. Bot ended by promising seller details on WhatsApp but did not create a lead or transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3885,
+    "completion_tokens": 1313
+  },
+  "unresolved_problems": []
+}

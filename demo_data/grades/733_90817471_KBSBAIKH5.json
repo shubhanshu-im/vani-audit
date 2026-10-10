@@ -1,0 +1,319 @@
+{
+  "call_id": "733_90817471_KBSBAIKH5",
+  "duration_s": 386.64,
+  "graded_at": "2026-10-10T12:40:37+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer clearly stated no purchase intent; bot created a lead anyway.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Now I am not at all decided. That's what again and again and again telling. I am not going to purchase anything right now.",
+      "timestamp": 250.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated no purchase intent; bot created a lead anyway.",
+      "evidence_verified": true,
+      "llm_timestamp": 250.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I can help connect you with good sellers in Tirupati but first how many pieces or packs do you I can connect you with verified sellers to do that could you please tell me how many pieces or packs you need?",
+      "timestamp": 109.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question excessively despite buyer stating no purchase intent.",
+      "evidence_verified": true,
+      "llm_timestamp": 109.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details.",
+      "timestamp": 374.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details, which implies a follow-up action.",
+      "evidence_verified": true,
+      "llm_timestamp": 376.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Now I am not at all decided. That's what again and again and again telling. I am not going to purchase anything right now.",
+      "timestamp": 250.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated no purchase intent; bot created a lead anyway.",
+      "evidence_verified": true,
+      "llm_timestamp": 250.6
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I can help connect you with good sellers in Tirupati but first how many pieces or packs do you I can connect you with verified sellers to do that could you please tell me how many pieces or packs you need?",
+      "timestamp": 109.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question excessively despite buyer stating no purchase intent.",
+      "evidence_verified": true,
+      "llm_timestamp": 109.9
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "NA"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details.",
+      "timestamp": 374.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details, which implies a follow-up action.",
+      "evidence_verified": true,
+      "llm_timestamp": 376.4
+    }
+  ],
+  "captured_lead": {
+    "product": "human hair extension",
+    "quantity": "two pieces",
+    "quantity_unit": "pieces",
+    "specs": [
+      {
+        "name": "length",
+        "value": "10 inch and 12 inch"
+      },
+      {
+        "name": "quality",
+        "value": "Remy"
+      }
+    ],
+    "name": null,
+    "city": "Tirupati",
+    "state": "Andhra Pradesh"
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer explicitly stated no purchase intent and will decide next month.",
+      "timestamp": 250.6,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeatedly stated no purchase intent and asked about charges/visits.",
+      "timestamp": 132.0,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: transfer_consent 5/2",
+      "timestamp": 109.93,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot created a lead for a buyer who clearly stated they were not ready to purchase and wanted to visit a factory first. Bot also looped on quantity despite repeated refusal.",
+  "analysis": "Buyer called from Tirupati, Andhra Pradesh. Product: human hair extension. Buyer initially wanted to visit a factory/showroom in person and was not ready to buy immediately. After persistent probing, the buyer mentioned wanting two pieces of 10 inch and 12 inch hair. Bot confirmed 10 and 12 inches, then asked about hair quality (Remy/raw). Buyer confirmed Remy. Bot offered to connect to 'City Collection' (seller from Kozhikode). Buyer got confused about the location. Bot ended by saying 'I'll send you the seller details.' Outcome: Lead created for buyer who explicitly stated they are not ready to purchase and will decide next month.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 13361,
+    "completion_tokens": 3411
+  },
+  "unresolved_problems": []
+}

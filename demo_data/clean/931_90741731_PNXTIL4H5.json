@@ -1,0 +1,33 @@
+{
+  "call_id": "931_90741731_PNXTIL4H5",
+  "file": "data/recordings/931_90741731_PNXTIL4H5.mp3",
+  "duration_s": 13.97,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको country chicken की requirement है ना? chicken chicken sales. क्षमा कीजिए मैं समझ नहीं पाई क्या आपको country chicken की requirement है?",
+      "start": 0.01,
+      "end": 13.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 2.76,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

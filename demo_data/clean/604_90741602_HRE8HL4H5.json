@@ -1,0 +1,122 @@
+{
+  "call_id": "604_90741602_HRE8HL4H5",
+  "file": "data/recordings/604_90741602_HRE8HL4H5.mp3",
+  "duration_s": 85.03,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 3.85
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब product के बारे में बहुत जानकारी नहीं है बस वही turbine चाहिए।",
+      "start": 6.09,
+      "end": 10.53
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो बिजली बनाने या पानी के बहाव के लिए इस्तेमाल होने वाला turbine चाहिए वही product चाहिए ना?",
+      "start": 11.89,
+      "end": 17.57
+    },
+    {
+      "role": "BUYER",
+      "text": "बिजली बना पानी के बहाव वाला नहीं चाहिए हवा से चलने वाला चाहिए।",
+      "start": 18.99,
+      "end": 22.09
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो हवा से बिजली बनाने वाला wind turbine चाहिए वही product चाहिए ना?",
+      "start": 23.19,
+      "end": 27.31
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 28.23,
+      "end": 28.87
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए एक यादव या कुछ और?",
+      "start": 30.55,
+      "end": 39.83
+    },
+    {
+      "role": "BUYER",
+      "text": "के बारे में। एक किलोवाट।",
+      "start": 36.29,
+      "end": 42.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब बताइए turbine axis type में क्या prefer करेंगे? vertical axis, horizontal axis या कोई और?",
+      "start": 43.35,
+      "end": 49.13
+    },
+    {
+      "role": "BUYER",
+      "text": "थोड़ा सा बताइए इसमें मैं थोड़ा confuse हूँ जानकारी नहीं हुआ vertical क्या होता है वो क्या है।",
+      "start": 50.99,
+      "end": 54.91
+    },
+    {
+      "role": "BOT",
+      "text": "vertical axis turbine में पंख खड़े होते हैं जो किसी भी दिशा से आने वाली हवा से चल सकते हैं। आप क्या पसंद करेंगे?",
+      "start": 56.15,
+      "end": 62.67
+    },
+    {
+      "role": "BUYER",
+      "text": "करेंगे liberty करनी चाहिए।",
+      "start": 62.15,
+      "end": 64.81
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल मैं note कर लेती हूं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 66.03,
+      "end": 72.55
+    },
+    {
+      "role": "BUYER",
+      "text": "सुजीत जी।",
+      "start": 73.59,
+      "end": 74.37
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 75.33,
+      "end": 78.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 79.69,
+      "end": 80.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

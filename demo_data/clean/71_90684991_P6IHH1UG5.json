@@ -1,0 +1,159 @@
+{
+  "call_id": "71_90684991_P6IHH1UG5",
+  "file": "data/recordings/71_90684991_P6IHH1UG5.mp3",
+  "duration_s": 136.3,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Kurkure मसाला की requirement है ना?",
+      "start": 0.31,
+      "end": 3.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello SKG. हाँ।",
+      "start": 0.55,
+      "end": 6.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 7.27,
+      "end": 13.25
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को एक kilogram चाहिए। ठीक है। और और एक मसाला चाहिए मगर मैं order कैसे करूं उसको?",
+      "start": 15.43,
+      "end": 23.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप पूरी list seller को भेज दीजिएगा वो आपकी मदद करेंगे लेकिन best seller से connect करने के लिए details confirm कर दीजिए please। बताइए flavor में क्या prefer करेंगे tangy tomato, magic masala या कोई और?",
+      "start": 24.33,
+      "end": 35.51
+    },
+    {
+      "role": "BUYER",
+      "text": "जो मैंने अभी देखा जहां से मैंने call किया वहां पे एक ये ad जो देख रखा आप लोगों ने वही वाला चाहिए मेरे को।",
+      "start": 37.73,
+      "end": 45.77
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप उसी flavor की बात कर रहे हैं ना? बस confirm कर दीजिए कि आपको कौन सा flavor चाहिए?",
+      "start": 46.83,
+      "end": 52.15
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। ସେଇଟାକୁ",
+      "start": 51.03,
+      "end": 57.05
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल आप समय लीजिए। जी क्या आप अभी भी line पर हैं?",
+      "start": 58.13,
+      "end": 70.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 72.39,
+      "end": 73.01
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं। तो बताइए आपको कौन सा flavor चाहिए?",
+      "start": 74.01,
+      "end": 76.87
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा एक minute आप WhatsApp में WhatsApp में message कर सकते हैं मैं WhatsApp में आपको उसका screenshot देता हूं यही वाला मेरे को चाहिए एक kilogram का। photo आप seller को directly share कर दीजिएगा। अभी मेरे पास photo देखने की facility नहीं है।",
+      "start": 78.57,
+      "end": 93.92
+    },
+    {
+      "role": "BOT",
+      "text": "बस flavor confirm कर दीजिए please।",
+      "start": 93.92,
+      "end": 95.81
+    },
+    {
+      "role": "BUYER",
+      "text": "यहां पे तो कुकड़े मसाला लिखा है।",
+      "start": 102.69,
+      "end": 105.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तो आपको packaging size में एक kilogram ही चाहिए ना?",
+      "start": 106.17,
+      "end": 109.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ आपका Redmi side में 1 kilogram चाहिए।",
+      "start": 110.93,
+      "end": 113.21
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 114.21,
+      "end": 119.03
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है details आप WhatsApp में दे दीजिए मैं select करके भेज देता हूं।",
+      "start": 120.99,
+      "end": 125.15
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 126.23,
+      "end": 129.07
+    },
+    {
+      "role": "BUYER",
+      "text": "वक्तव्य।",
+      "start": 131.21,
+      "end": 132.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 9.76,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 59.39,
+        "end": 69.15,
+        "duration_s": 9.76,
+        "after_role": "BOT"
+      },
+      {
+        "start": 95.81,
+        "end": 102.69,
+        "duration_s": 6.88,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 6,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

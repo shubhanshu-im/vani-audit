@@ -1,0 +1,74 @@
+{
+  "call_id": "176_90741491_YFVBFL4H5",
+  "file": "data/recordings/176_90741491_YFVBFL4H5.mp3",
+  "duration_s": 50.26,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 4.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Madam मुझे बाहर निकलना है रात भर।",
+      "start": 5.31,
+      "end": 9.77
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you for sharing your requirement. क्या आप अपने इस्तेमाल के लिए कोई वाहन या car से जुड़ा product लेना चाहते हैं? कृपया confirm कर दीजिए ताकि मैं आपकी मदद कर सकूं.",
+      "start": 11.73,
+      "end": 20.91
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam. पागल है।",
+      "start": 23.57,
+      "end": 26.67
+    },
+    {
+      "role": "BOT",
+      "text": "आपको car जो आमतौर पे journey या transport के लिए इस्तेमाल होती है यही चाहिए ना?",
+      "start": 28.33,
+      "end": 32.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ yes sir. हम्म।",
+      "start": 33.31,
+      "end": 38.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और prices ले सकते हैं।",
+      "start": 40.03,
+      "end": 46.79
+    },
+    {
+      "role": "BUYER",
+      "text": "के बाद",
+      "start": 45.49,
+      "end": 46.93
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.86,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

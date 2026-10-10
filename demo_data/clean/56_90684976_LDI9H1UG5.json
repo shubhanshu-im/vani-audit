@@ -1,0 +1,92 @@
+{
+  "call_id": "56_90684976_LDI9H1UG5",
+  "file": "data/recordings/56_90684976_LDI9H1UG5.mp3",
+  "duration_s": 66.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको आयुर्वेदिक हंस मलम की requirement है ना?",
+      "start": 0.27,
+      "end": 3.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ, मला मिळाला.",
+      "start": 5.35,
+      "end": 7.31
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितनी piece चाहिए होगी आपको?",
+      "start": 9.19,
+      "end": 16.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। एक चीज के लिए।",
+      "start": 10.11,
+      "end": 19.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? packaging size में क्या चाहिए? 15 grams, 30 grams या कुछ और?",
+      "start": 20.55,
+      "end": 24.67
+    },
+    {
+      "role": "BUYER",
+      "text": "पंद्रह ग्राम अभी दे दो बाद में फिर देखेंगे। समझ गए। अब बताइए।",
+      "start": 26.01,
+      "end": 30.65
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए क्या? ठीक है समझ गई। अब ये बताइए कि आप किसमें interest रखते हैं? Calamine lotion, Permethrin lotion या कुछ और?",
+      "start": 29.29,
+      "end": 37.47
+    },
+    {
+      "role": "BUYER",
+      "text": "अब इनको खुजली है मतलब दाद है ना दाद समझ लीजिए दाद और खुजली।",
+      "start": 39.75,
+      "end": 45.71
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपके use case के लिए Age Guard cream better रहेगी यही लेंगे?",
+      "start": 43.69,
+      "end": 50.11
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी। नहीं जो अभी भेजे आपको order की वही चाहिए।",
+      "start": 46.99,
+      "end": 55.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 56.25,
+      "end": 64.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.54,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

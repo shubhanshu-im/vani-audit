@@ -1,0 +1,301 @@
+{
+  "call_id": "497_90685069_WB8UJ1UG5",
+  "duration_s": 120.24,
+  "graded_at": "2026-10-10T12:34:19+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Quantity Probing Error, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितनी bending capacity चाहिए",
+      "timestamp": 38.29,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity when buyer was discussing bending capacity.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.3
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "इंदु कृष्णा दास",
+      "timestamp": 89.93,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Name captured as '[NAME] [NAME]' instead of 'Indu Krishna [NAME]'.",
+      "evidence_verified": true,
+      "llm_timestamp": 89.9
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपकी city और state का नाम बता दीजिए",
+      "timestamp": 89.93,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot switched to English after buyer requested it, but then continued in Hindi.",
+      "evidence_verified": true,
+      "llm_timestamp": 23.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or provided by the buyer."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or provided by the buyer."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितनी bending capacity चाहिए",
+      "timestamp": 38.29,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity when buyer was discussing bending capacity.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.3
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was provided by the buyer to miss."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "25 millimeter तक के सरिया को मोड़ने के लिए",
+      "timestamp": 23.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured the 25mm rebar spec."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "32 millimeter की machine में 25 millimeter का सरिया",
+      "timestamp": 57.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the 32mm capacity spec."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "automatic operation mode",
+      "timestamp": 62.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the automatic mode and single phase specs."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop or repeat questions excessively."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "इंदु कृष्णा दास",
+      "timestamp": 89.93,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Name captured as '[NAME] [NAME]' instead of 'Indu Krishna [NAME]'.",
+      "evidence_verified": true,
+      "llm_timestamp": 89.9
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 89.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot stated it would connect a live seller or transfer."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change or correction was made."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific ISQ errors were observed."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No MCAT or search errors were observed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air was detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपकी city और state का नाम बता दीजिए",
+      "timestamp": 89.93,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot switched to English after buyer requested it, but then continued in Hindi.",
+      "evidence_verified": true,
+      "llm_timestamp": 23.8
+    }
+  ],
+  "captured_lead": {
+    "product": "bending machine",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "capacity",
+        "value": "25mm / 32mm"
+      },
+      {
+        "name": "mode",
+        "value": "automatic"
+      },
+      {
+        "name": "phase",
+        "value": "single phase"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Sonipat",
+    "state": "Haryana"
+  },
+  "risk_flags": [],
+  "failure_description": "",
+  "analysis": "Buyer wants a handheld bending machine for 25mm rebar. Bot captured product as bending machine, specs as 25mm / 32mm capacity, automatic, single phase. Bot asked for city/state, name, and quantity but quantity was never provided by the buyer. Bot closed with a transfer/lead creation intent.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3919,
+    "completion_tokens": 1266
+  },
+  "unresolved_problems": []
+}

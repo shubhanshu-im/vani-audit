@@ -1,0 +1,110 @@
+{
+  "call_id": "979_90685225_L7T6M1UG5",
+  "file": "data/recordings/979_90685225_L7T6M1UG5.mp3",
+  "duration_s": 78.41,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको oil mill machinery की requirement है ना?",
+      "start": 0.25,
+      "end": 3.93
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 4.79,
+      "end": 5.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको motor power 10 HP ही चाहिए ना?",
+      "start": 6.63,
+      "end": 18.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म हम्म।",
+      "start": 18.89,
+      "end": 19.57
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको motor power 10 HP चाहिए ना?",
+      "start": 20.67,
+      "end": 26.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ payment चाहिए।",
+      "start": 26.57,
+      "end": 28.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब crushing capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 80 kilograms per hour या कुछ और?",
+      "start": 29.09,
+      "end": 35.25
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन से ऐसे kilogram है? मेरा मतलब crushing capacity से है। क्या आपको 80 kilograms per hour वाली machine चाहिए या कोई और? बनापाते से।",
+      "start": 36.27,
+      "end": 48.07
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया। Please एक बार फिर से बता दीजिए crushing capacity क्या चाहिए?",
+      "start": 49.59,
+      "end": 54.87
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ अस्सी किलो वाला देखिए ना।",
+      "start": 56.25,
+      "end": 58.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 59.23,
+      "end": 64.33
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है कहाँ मिलेगा?",
+      "start": 64.93,
+      "end": 67.17
+    },
+    {
+      "role": "BOT",
+      "text": "आपको details WhatsApp पे मिल जाएंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 68.25,
+      "end": 73.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Correct.",
+      "start": 74.33,
+      "end": 75.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.28,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

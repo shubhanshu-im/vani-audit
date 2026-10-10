@@ -1,0 +1,34 @@
+{
+  "call_id": "66_90643043_JBKIS3KG5",
+  "file": "data/recordings/66_90643043_JBKIS3KG5.mp3",
+  "duration_s": 12.82,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो आपको कौन सा product चाहिए? शायद आपके product के बारे में clear नहीं हो पाया कृपया बताइए आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 10.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 1.88,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker",
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

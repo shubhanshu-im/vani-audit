@@ -1,0 +1,134 @@
+{
+  "call_id": "481_90852958_10K0MXVH5",
+  "file": "data/recordings/481_90852958_10K0MXVH5.mp3",
+  "duration_s": 106.56,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको dance schools की requirement है ना?",
+      "start": 0.01,
+      "end": 3.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ dance schools की है madam। अभी एक 10 दिन में हमारी बेटी की शादी है। कोई घर पे आके दो चार step सिखा सकते है तो senior citizen को ऐसा। कोई Amit जी हम लोग पहचानते थे उनका number हमारे पास है नहीं अभी।",
+      "start": 4.61,
+      "end": 18.45
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "start": 18.59,
+      "end": 23.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ available नहीं है मतलब वो निकाल दिए इसमें से number।",
+      "start": 20.51,
+      "end": 28.65
+    },
+    {
+      "role": "BOT",
+      "text": "जी वो अभी available नहीं है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 30.19,
+      "end": 36.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ इन्हीं का है क्या नमित का है क्या?",
+      "start": 37.63,
+      "end": 39.99
+    },
+    {
+      "role": "BOT",
+      "text": "मेरे पास उनके number नहीं है लेकिन मैं दूसरे अच्छे seller से connect करने में मदद करूंगी।",
+      "start": 41.05,
+      "end": 45.93
+    },
+    {
+      "role": "BUYER",
+      "text": "वो सब किधर है लेकिन हमारे घर के आसपास है क्या Vasant Vihar में हम रहते हैं। हम लोग दूर भी अभी time नहीं है madam इधर उधर।",
+      "start": 47.13,
+      "end": 53.97
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपको Vasant Vihar की बात कर रही हूं।",
+      "start": 55.13,
+      "end": 57.31
+    },
+    {
+      "role": "BUYER",
+      "text": "वसंत बिहार के पास चलेगा। हाँ। आस पास के ही हमको चाहिए क्योंकि आने जाने में उनको भी दिक्कत होगी और time भी नहीं है madam अभी शादी वाला घर है ना। हाँ।",
+      "start": 55.67,
+      "end": 67.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ सकती हूँ। मैं आपको वसंत विहार के पास के अच्छे sellers से connect करने में मदद करूंगी।",
+      "start": 68.37,
+      "end": 73.95
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। लेकिन वो लोग लगातार call करते रहेंगे ना madam फिर अभी तो सुबह का time है madam।",
+      "start": 70.75,
+      "end": 79.49
+    },
+    {
+      "role": "BOT",
+      "text": "आप चिंता ना करें बस कुछ details confirm कर दीजिए फिर मैं आपको सही seller से connect करवा दूंगी।",
+      "start": 80.89,
+      "end": 86.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ ठीक है।",
+      "start": 87.47,
+      "end": 89.03
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 90.05,
+      "end": 94.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 95.81,
+      "end": 96.37
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 97.45,
+      "end": 100.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you. Thank you आपका भी।",
+      "start": 100.33,
+      "end": 103.57
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 1.54,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 8,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "call_id": "191_90741506_ZYFUFL4H5",
+  "file": "data/recordings/191_90741506_ZYFUFL4H5.mp3",
+  "duration_s": 68.62,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] [NAME] आपको biscuit packaging machinery की requirement है ना?",
+      "start": 0.53,
+      "end": 4.99
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 6.35,
+      "end": 7.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। आपको मैं seller details WhatsApp पर भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 9.07,
+      "end": 23.09
+    },
+    {
+      "role": "BUYER",
+      "text": "आंबा सुमे।",
+      "start": 23.87,
+      "end": 25.07
+    },
+    {
+      "role": "BOT",
+      "text": "जी बताइए क्या पूछना था?",
+      "start": 27.41,
+      "end": 28.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हम लोग को जरूरी काम है। क्या आप Bihar Chand जानते हैं?",
+      "start": 30.35,
+      "end": 34.95
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिहार में चाँद नाम की जगह है। इसमें आपकी क्या मदद कर सकती हूँ?",
+      "start": 36.63,
+      "end": 40.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हम लोग को जल्दी से जल्द वापस उठना है।",
+      "start": 41.41,
+      "end": 44.45
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपकी request जल्दी process करवाने की है। seller details आपको WhatsApp पर भेज दिए जाएंगे। वहीं से जल्दी बात कर सकते हैं।",
+      "start": 46.45,
+      "end": 53.75
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। Hello.",
+      "start": 55.41,
+      "end": 59.51
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 61.33,
+      "end": 64.21
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

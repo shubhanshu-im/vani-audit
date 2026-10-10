@@ -1,0 +1,122 @@
+{
+  "call_id": "528_90741583_EYE0HL4H5",
+  "file": "data/recordings/528_90741583_EYE0HL4H5.mp3",
+  "duration_s": 83.95,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello local जी आपको bio fertilizers की requirement है ना?",
+      "start": 0.01,
+      "end": 3.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी आपको bio fertilizers की requirement थी ना? Hello. हाँ जी हाँ जी।",
+      "start": 6.79,
+      "end": 13.89
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने liters चाहिए?",
+      "start": 15.05,
+      "end": 20.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको maximum two liter.",
+      "start": 22.47,
+      "end": 24.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब packaging size के बारे में बात कर लेते हैं। आपको एक kilogram चाहिए या पचास kilograms या कुछ और?",
+      "start": 25.43,
+      "end": 31.35
+    },
+    {
+      "role": "BUYER",
+      "text": "पोती परस परस ने पोती।",
+      "start": 33.61,
+      "end": 35.43
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप packaging size के लिए क्या prefer करेंगे?",
+      "start": 36.41,
+      "end": 40.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको liquid में चाहिए liquid।",
+      "start": 42.35,
+      "end": 44.65
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको packaging size में क्या चाहिए जैसे एक kilogram, पचास kilograms या कुछ और?",
+      "start": 45.89,
+      "end": 51.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. हमको पचास",
+      "start": 46.59,
+      "end": 55.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब physical form के बारे में बताइए आपको liquid powder या कुछ और चाहिए?",
+      "start": 55.93,
+      "end": 60.03
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या? हेलो। नमस्ते क्या आप मुझे सुन पा रहे हैं?",
+      "start": 56.07,
+      "end": 65.98
+    },
+    {
+      "role": "BOT",
+      "text": "बताइए physical form में आप क्या prefer करेंगे liquid, powder या कुछ और?",
+      "start": 65.98,
+      "end": 69.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी hello. Liquid liquid liquid.",
+      "start": 64.97,
+      "end": 72.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 73.77,
+      "end": 82.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay okay. तो।",
+      "start": 80.67,
+      "end": 83.03
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 3.06,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "104_90684996_4UZJH1UG5",
+  "file": "data/recordings/104_90684996_4UZJH1UG5.mp3",
+  "duration_s": 50.83,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको full body massage chair की requirement है ना? जी। ठीक है, मैं Tania बोल रही हूँ IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूँ आपको material full leather ही चाहिए ना? जी। ठीक है। आप अपनी city और state भी बता दीजिए please। Jaipur.",
+      "start": 0.01,
+      "end": 25.37
+    },
+    {
+      "role": "BUYER",
+      "text": "आप Jaipur Rajasthan से बोल रहे हैं ना?",
+      "start": 26.19,
+      "end": 28.27
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैम। ठीक है आप अपना नाम भी बता दीजिए please। तो फिर। ठीक है। [NAME] जी आपको मैं seller details WhatsApp आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 28.75,
+      "end": 48.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.54,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

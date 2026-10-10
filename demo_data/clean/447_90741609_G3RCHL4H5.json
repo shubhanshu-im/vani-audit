@@ -1,0 +1,189 @@
+{
+  "call_id": "447_90741609_G3RCHL4H5",
+  "file": "data/recordings/447_90741609_G3RCHL4H5.mp3",
+  "duration_s": 111.96,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको row plant for dialysis की requirement है ना?",
+      "start": 0.15,
+      "end": 3.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 5.53,
+      "end": 6.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको RO capacity 1000 liters per hour ही चाहिए ना?",
+      "start": 7.03,
+      "end": 19.21
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 19.97,
+      "end": 20.63
+    },
+    {
+      "role": "BOT",
+      "text": "Hello क्या आप अभी line पे हैं?",
+      "start": 28.13,
+      "end": 29.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 30.59,
+      "end": 31.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं। आपको RO capacity 1000 liters per hour ही चाहिए ना?",
+      "start": 32.55,
+      "end": 36.81
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 37.47,
+      "end": 38.21
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब materials के बारे में बात कर लेते हैं तो आपको FRP, stainless steel या कुछ और चाहिए?",
+      "start": 39.39,
+      "end": 45.01
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं वही चाहिए।",
+      "start": 46.67,
+      "end": 47.79
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप material में FRP, stainless steel या कोई और options prefer करेंगे?",
+      "start": 48.87,
+      "end": 54.37
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे जो double filter वाला है ना वही चाहिए।",
+      "start": 55.43,
+      "end": 59.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गई। अब seller आपसे इस बारे में और detail में बात कर लेंगे। बस कुछ और details confirm कर दीजिए।",
+      "start": 60.29,
+      "end": 66.77
+    },
+    {
+      "role": "BUYER",
+      "text": "detail मेरा मोटिहार जिला से है।",
+      "start": 68.51,
+      "end": 71.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 72.45,
+      "end": 75.15
+    },
+    {
+      "role": "BUYER",
+      "text": "रशीद चमन बाई।",
+      "start": 76.89,
+      "end": 78.19
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे समझ नहीं आया। क्या आप अपनी city और state का नाम बता सकते हैं?",
+      "start": 79.45,
+      "end": 83.93
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं बोल रहे हैं मोतिहारी जिला।",
+      "start": 85.05,
+      "end": 86.95
+    },
+    {
+      "role": "BOT",
+      "text": "आप Motiyara Gujarat से बोल रहे हैं ना?",
+      "start": 87.99,
+      "end": 89.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Bihar.",
+      "start": 90.79,
+      "end": 91.49
+    },
+    {
+      "role": "BOT",
+      "text": "आप Motihari Bihar से बोल रहे हैं ना?",
+      "start": 92.63,
+      "end": 94.57
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 95.15,
+      "end": 95.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप नागीलाल जी बोल रहे हैं ना?",
+      "start": 96.79,
+      "end": 98.97
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 99.99,
+      "end": 100.79
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 101.69,
+      "end": 109.39
+    },
+    {
+      "role": "BUYER",
+      "text": "बोले dealer नहीं है मोटियारी में।",
+      "start": 110.39,
+      "end": 111.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 13,
+    "longest_gap_s": 7.5,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 20.63,
+        "end": 28.13,
+        "duration_s": 7.5,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

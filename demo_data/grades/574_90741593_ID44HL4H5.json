@@ -1,0 +1,316 @@
+{
+  "call_id": "574_90741593_ID44HL4H5",
+  "duration_s": 119.45,
+  "graded_at": "2026-10-10T12:36:24+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे समझ नहीं आया। आपको कितनी quantity चाहिए?",
+      "timestamp": 30.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question twice, but buyer did not hang up",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "खबरदारीची काळजी म्हणजे की. मुझे लगता है कुछ गलतफहमी मुझे लगता है कुछ गलतफहमी हो रही है।",
+      "timestamp": 37.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer spoke in Marathi/Hindi mix, bot did not understand",
+      "evidence_verified": true,
+      "llm_timestamp": 37.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जैसा कि मैंने बताया आप ये detail seller से discuss कर सकते हैं। अभी आप अपना preferred flavor बता दीजिए please।",
+      "timestamp": 113.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot cut off the buyer and ended the call abruptly",
+      "evidence_verified": true,
+      "llm_timestamp": 113.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer intent unclear; bot did not close or create a lead, call ended abruptly"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No numeric quantity was provided or captured by the bot"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity or unit was provided by the buyer"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly asked for quantity as per flow"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a clear quantity to miss"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 (packaging) was asked but buyer did not confirm a value"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 (flavor) was asked but buyer did not confirm a value"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about packaging and flavor as per flow"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मुझे समझ नहीं आया। आपको कितनी quantity चाहिए?",
+      "timestamp": 30.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated quantity question twice, but buyer did not hang up",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "खबरदारीची काळजी म्हणजे की. मुझे लगता है कुछ गलतफहमी मुझे लगता है कुछ गलतफहमी हो रही है।",
+      "timestamp": 37.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer spoke in Marathi/Hindi mix, bot did not understand",
+      "evidence_verified": true,
+      "llm_timestamp": 37.5
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were captured by the bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not correct or change the product"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant bot-side silence causing buyer to hang up"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जैसा कि मैंने बताया आप ये detail seller से discuss कर सकते हैं। अभी आप अपना preferred flavor बता दीजिए please।",
+      "timestamp": 113.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot cut off the buyer and ended the call abruptly",
+      "evidence_verified": true,
+      "llm_timestamp": 113.4
+    }
+  ],
+  "captured_lead": {
+    "product": "Bansi Morena Wala Good Corn Cooking Packaging size 200G",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "packaging type",
+        "value": ""
+      },
+      {
+        "name": "flavor",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer expressed confusion and audio was unclear",
+      "timestamp": 37.5,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated quantity question twice",
+      "timestamp": 30.6,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer said audio was not clear and spoke in another language",
+      "timestamp": 98.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Call derailed due to language barrier, buyer confusion, and bot's abrupt cutoff. No lead was created.",
+  "analysis": "Buyer intended to buy Bansi Morena Wala Good Corn Cooking (200G) but the call derailed. The bot asked for quantity, but the buyer did not provide a clear numeric quantity or unit. The bot then asked about packaging type and flavor, but the buyer never confirmed these specs or provided a name/city/state. The bot repeatedly asked for quantity and flavor, and the call ended abruptly with the bot cutting off the buyer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4098,
+    "completion_tokens": 1387
+  },
+  "unresolved_problems": []
+}

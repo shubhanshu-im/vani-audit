@@ -1,0 +1,310 @@
+{
+  "call_id": "432_90797395_VB4TXXFH5",
+  "duration_s": 70.85,
+  "graded_at": "2026-10-10T12:32:37+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब बताइए brand में क्या prefer करेंगे जैसे Supreme, Nilkamal या कुछ और?",
+      "timestamp": 30.79,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated brand question once, but no loop formed",
+      "evidence_verified": true,
+      "llm_timestamp": 30.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नीलकमल मस्तकी प्रो है ना कुछ",
+      "timestamp": 31.25,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot transcribed 'Nilkamal' correctly despite buyer's pronunciation",
+      "evidence_verified": true,
+      "llm_timestamp": 31.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 51.35,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp, a minor deviation from standard closing",
+      "evidence_verified": true,
+      "llm_timestamp": 51.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed requirement for plastic armchairs"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not provide a specific quantity"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity or unit discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot probed for quantity, buyer did not provide it"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a specific quantity"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "नीलकमल मस्तकी प्रो है ना कुछ",
+      "timestamp": 31.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured Nilkamal as the preferred brand"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "दो तीन color लेंगे",
+      "timestamp": 40.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured two-three colors as the preference"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer mentioned budget 80-90, but bot did not probe or capture it"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अब बताइए brand में क्या prefer करेंगे जैसे Supreme, Nilkamal या कुछ और?",
+      "timestamp": 30.79,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated brand question once, but no loop formed",
+      "evidence_verified": true,
+      "llm_timestamp": 30.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नीलकमल मस्तकी प्रो है ना कुछ",
+      "timestamp": 31.25,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot transcribed 'Nilkamal' correctly despite buyer's pronunciation",
+      "evidence_verified": true,
+      "llm_timestamp": 31.2
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not state what extra details it was recording"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer was offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed and maintained"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data unavailable to verify"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 51.35,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp, a minor deviation from standard closing",
+      "evidence_verified": true,
+      "llm_timestamp": 51.4
+    }
+  ],
+  "captured_lead": {
+    "product": "plastic armchair",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "brand",
+        "value": "Nilkamal"
+      },
+      {
+        "name": "color",
+        "value": "two-three colors"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeated 'ab bataiye' multiple times",
+      "timestamp": 31.2,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer mentioned JEM portal and specific seller",
+      "timestamp": 10.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot did not capture buyer's budget or location details. Buyer mentioned JEM portal and specific seller but bot did not address this.",
+  "analysis": "Buyer requested plastic armchairs on the JEM portal, mentioning budget 80-90. Bot confirmed product, asked quantity (buyer didn't answer), brand (Nilkamal), and color (two-three colors). Bot closed by promising to send seller details on WhatsApp and ended the call.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3763,
+    "completion_tokens": 1291
+  },
+  "unresolved_problems": []
+}

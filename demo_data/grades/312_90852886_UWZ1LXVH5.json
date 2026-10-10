@@ -1,0 +1,310 @@
+{
+  "call_id": "312_90852886_UWZ1LXVH5",
+  "duration_s": 42.05,
+  "graded_at": "2026-10-10T12:29:30+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Closed without capturing buyer requirements or transferring to a seller.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी मैंने note कर लिया है। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे।",
+      "timestamp": 31.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed without capturing buyer requirements or transferring to a seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 31.8
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Jersey number and name ਦੱਸो ना।",
+      "timestamp": 28.33,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated spec (number and name) and bot ignored it, closing immediately.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.31,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी मैंने note कर लिया है। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे।",
+      "timestamp": 31.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed without capturing buyer requirements or transferring to a seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 31.8
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed, so no probing error."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not asked or captured by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec was not asked or captured by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Jersey number and name ਦੱਸो ना।",
+      "timestamp": 28.33,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated spec (number and name) and bot ignored it, closing immediately.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.3
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping observed; call ended quickly."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No ASR errors visible in the bot's readbacks or confirmations."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were captured or recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was correctly identified as kho-kho jersey."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category-specific questions were not asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors observed as no search was performed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 21.31,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.3
+    }
+  ],
+  "captured_lead": {
+    "product": "kho-kho sleeveless jersey",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Closed without capturing buyer requirements.",
+      "timestamp": 31.8,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer expressed frustration asking for jersey details.",
+      "timestamp": 28.3,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 28.33,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot closed the call without capturing quantity, specs, or buyer details. Buyer asked for jersey number/name which was ignored.",
+  "analysis": "Buyer wanted kho-kho sleeveless jersey details. Bot asked about jersey type, buyer said kho-kho. Bot asked for more details, buyer asked for jersey number and name. Bot closed without capturing any quantity, specs, name, or city, and did not transfer to a seller.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3519,
+    "completion_tokens": 1276
+  },
+  "unresolved_problems": []
+}

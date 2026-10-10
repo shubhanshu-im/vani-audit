@@ -1,0 +1,44 @@
+{
+  "call_id": "206_90852846_H7LKKXVH5",
+  "file": "data/recordings/206_90852846_H7LKKXVH5.mp3",
+  "duration_s": 12.24,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Grandstream video phone GRP series की request IndiaMART पर raise है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 1.87,
+      "end": 10.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 2.79,
+      "end": 3.01
+    },
+    {
+      "role": "BOT",
+      "text": "है ना तुमको?",
+      "start": 11.31,
+      "end": 12.51
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 1.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

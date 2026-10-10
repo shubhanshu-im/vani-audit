@@ -1,0 +1,322 @@
+{
+  "call_id": "893_90797421_SD16YXFH5",
+  "duration_s": 100.58,
+  "graded_at": "2026-10-10T12:44:52+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Qty Missed Opportunity, Spec Missed Opportunity, WER, OnCall AstBuy Error",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "दो quintal के लिए।",
+      "timestamp": 44.81,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer explicitly said 2 quintal but bot never captured or read it back.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.8
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "कितने ton per day वाली machine?",
+      "timestamp": 42.25,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer specified capacity for 2 quintal/day which bot completely missed.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं Kanya बोल रही हूं।",
+      "timestamp": 7.13,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot introduced itself as Kanya instead of Tania, but it did not derail the call.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.1
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी।",
+      "timestamp": 7.13,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered to connect a live seller but never asked for transfer consent.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product requirement and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specific numeric quantity was captured by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not capture a quantity or its unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer specified capacity in quintal, bot pivoted to ton but did not explicitly ask for quantity."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "दो quintal के लिए।",
+      "timestamp": 44.81,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer explicitly said 2 quintal but bot never captured or read it back.",
+      "evidence_verified": true,
+      "llm_timestamp": 44.8
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for automation grade and captured manual."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for a second spec."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "कितने ton per day वाली machine?",
+      "timestamp": 42.25,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer specified capacity for 2 quintal/day which bot completely missed.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop; buyer had connectivity issues and bot re-asked once."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं Kanya बोल रही हूं।",
+      "timestamp": 7.13,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot introduced itself as Kanya instead of Tania, but it did not derail the call.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी।",
+      "timestamp": 7.13,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered to connect a live seller but never asked for transfer consent.",
+      "evidence_verified": true,
+      "llm_timestamp": 7.1
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory category questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not present in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant bot-side dead air gaps occurred."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major compliance breaches or mispronunciations that derailed the call."
+    }
+  ],
+  "captured_lead": {
+    "product": "6 volt oil expeller single gear",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "automation grade",
+        "value": "manual"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Azamgarh",
+    "state": "UP"
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot missed buyer's requirement of 2 quintal/day capacity.",
+      "timestamp": 44.8,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot struggled to hear buyer due to connectivity issues.",
+      "timestamp": 22.3,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture the buyer's capacity requirement of 2 quintal/day and closed with a WhatsApp message instead of transferring to a live seller.",
+  "analysis": "Buyer requested a 6 volt oil expeller single gear, needing capacity for 2 quintal/day and manual automation. Bot confirmed product, but misheard quantity as 'ton' instead of 'quintal' (2 quintal/day), and captured '[NAME]' as the name. Bot did not ask for quantity unit or confirm the spec. The call ended with a WhatsApp closing, implying a lead was created without a live seller transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3951,
+    "completion_tokens": 1647
+  },
+  "unresolved_problems": []
+}

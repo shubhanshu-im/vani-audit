@@ -1,0 +1,146 @@
+{
+  "call_id": "458_90685063_23BNJ1UG5",
+  "file": "data/recordings/458_90685063_23BNJ1UG5.mp3",
+  "duration_s": 116.21,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.71
+    },
+    {
+      "role": "BUYER",
+      "text": "ये हमको ये पत्थर काटने वाला। हमने हावड़ा में बैठा है लेकिन ये address कहाँ से कौन सा जगह का है?",
+      "start": 2.81,
+      "end": 14.15
+    },
+    {
+      "role": "BOT",
+      "text": "थोड़ा सा confirm करूं आप पत्थर काटने के लिए इस्तेमाल होने वाली machine या tool के बारे में बात कर रहे हैं? सही समझा मैंने?",
+      "start": 17.17,
+      "end": 23.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ tool हमें चाहिए लेकिन हम Howrah में आए हैं कौन सा जगह है आपका ये?",
+      "start": 24.51,
+      "end": 28.95
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद। आपको पत्थर काटने वाला tool चाहिए जो आमतौर पर पत्थर या granite काटने के लिए इस्तेमाल होता है। यही चाहिए था।",
+      "start": 30.53,
+      "end": 37.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ हाँ हाँ हाँ।",
+      "start": 33.85,
+      "end": 38.71
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 38.17,
+      "end": 51.35
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं हमको किलो हिसाब चाहिए।",
+      "start": 52.35,
+      "end": 54.25
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आप कितने kilogram पत्थर काटने वाला tool चाहिए? approximate weight भी बता सकते हैं। quantity जरूरी है sellers को बताने के लिए।",
+      "start": 55.99,
+      "end": 63.43
+    },
+    {
+      "role": "BUYER",
+      "text": "आपके। माने हमको आपके वहाँ आना जरूरी है हमें ज्यादा माल चाहिए थोड़ा। आसाम ले आना है।",
+      "start": 56.49,
+      "end": 72.49
+    },
+    {
+      "role": "BOT",
+      "text": "अब। कोई दिक्कत नहीं आप लगभग कितने kilogram या कितने piece tool लेना चाहेंगे? quantity बताना sellers के लिए जरूरी है।",
+      "start": 71.47,
+      "end": 80.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। पांच किलो लेना है पांच किलो।",
+      "start": 78.63,
+      "end": 82.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "start": 85.23,
+      "end": 87.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हम अभी Howrah station के बगल में ही हैं।",
+      "start": 88.79,
+      "end": 92.63
+    },
+    {
+      "role": "BOT",
+      "text": "आप Howrah पश्चिम बंगाल से बोल रहे हैं ना?",
+      "start": 94.11,
+      "end": 96.55
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Howrah station।",
+      "start": 96.87,
+      "end": 98.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप Jayant जी बोल रहे हैं ना?",
+      "start": 100.13,
+      "end": 101.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हम [NAME] [NAME] बोल रहे हैं।",
+      "start": 102.65,
+      "end": 104.19
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद [NAME] [NAME] जी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 106.03,
+      "end": 113.91
+    },
+    {
+      "role": "BUYER",
+      "text": "मैंने आपको आपका कहाँ जाना है ये?",
+      "start": 112.13,
+      "end": 116.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.02,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

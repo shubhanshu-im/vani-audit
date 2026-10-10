@@ -1,0 +1,46 @@
+{
+  "call_id": "83_90852811_9GBSJXVH5",
+  "file": "data/recordings/83_90852811_9GBSJXVH5.mp3",
+  "duration_s": 13.97,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 4.31
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 6.01,
+      "end": 6.57
+    },
+    {
+      "role": "BOT",
+      "text": "Hello.",
+      "start": 8.69,
+      "end": 9.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.12,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker",
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

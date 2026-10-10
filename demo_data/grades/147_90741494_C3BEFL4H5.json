@@ -1,0 +1,290 @@
+{
+  "call_id": "147_90741494_C3BEFL4H5",
+  "duration_s": 90.94,
+  "graded_at": "2026-10-10T12:25:37+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बहुत बढ़िया seller आपको इन सब size में details देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 80.47,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered WhatsApp transfer instead of live seller call.",
+      "evidence_verified": true,
+      "llm_timestamp": 69.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "rate आप seller से direct discuss कर सकते हैं आपको best rate मिलेंगे",
+      "timestamp": 48.83,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "medium",
+      "reason": "Bot implied best rate, which is a minor commitment.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared clear product and quantity requirements and bot proceeded correctly."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured quantity as 4 tons."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'ton' was captured correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured accurately."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Purity spec of 90% was captured correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Packaging size specs of 25, 35, and 40 kg were captured correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "All requested specs were captured."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop; it asked questions within limits."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions that impacted the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बहुत बढ़िया seller आपको इन सब size में details देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 80.47,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered WhatsApp transfer instead of live seller call.",
+      "evidence_verified": true,
+      "llm_timestamp": 69.2
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained hydrated lime powder throughout."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not present in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "rate आप seller से direct discuss कर सकते हैं आपको best rate मिलेंगे",
+      "timestamp": 48.83,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "medium",
+      "reason": "Bot implied best rate, which is a minor commitment.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.8
+    }
+  ],
+  "captured_lead": {
+    "product": "hydrated lime powder",
+    "quantity": "4",
+    "quantity_unit": "ton",
+    "specs": [
+      {
+        "name": "purity",
+        "value": "90%"
+      },
+      {
+        "name": "packaging size",
+        "value": "25, 35, 40 kg"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked about rate, bot deferred to seller",
+      "timestamp": 44.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed by offering WhatsApp seller details instead of a live seller transfer. Minor commitment about 'best rate'.",
+  "analysis": "Buyer wants hydrated lime powder, at least 4 tons, with 90% purity, and 25/35/40 kg packaging sizes. Bot confirmed product and quantity, probed purity and packaging size, and closed by offering to send seller details on WhatsApp. Call ended abruptly at 80.5s with a bot cutoff hint.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[packaging size] = '25, 35, 40 kg': number(s) ['25', '35', '40'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 1521
+  },
+  "unresolved_problems": []
+}

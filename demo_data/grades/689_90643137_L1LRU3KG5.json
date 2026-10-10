@@ -1,0 +1,340 @@
+{
+  "call_id": "689_90643137_L1LRU3KG5",
+  "duration_s": 76.97,
+  "graded_at": "2026-10-10T12:39:34+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer stated selling intent; bot created a buy lead.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आप 97% pure raw rhodium metal की requirement थी ना?",
+      "timestamp": 14.29,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated selling intent; bot created a buy lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 14.3
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने kilograms या grams की जरूरत है please बता दीजिए।",
+      "timestamp": 47.8,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity after buyer's selling intent was clear.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने kilograms या grams की जरूरत है please बता दीजिए।",
+      "timestamp": 47.8,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the quantity question once after buyer's intent.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.8
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नमस्ते क्या आप वहां हैं? आपको 97% pure raw rhodium metal की requirement थी ना?",
+      "timestamp": 14.29,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated due to low ASR confidence.",
+      "evidence_verified": true,
+      "llm_timestamp": 14.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "selling related information के लिए कृपया customer care number 5 times 96 पर call करें।",
+      "timestamp": 66.97,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot correctly identified selling intent and closed properly.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आप 97% pure raw rhodium metal की requirement थी ना?",
+      "timestamp": 14.29,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated selling intent; bot created a buy lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 14.3
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never provided quantity; bot assumed 100g."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never provided quantity."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने kilograms या grams की जरूरत है please बता दीजिए।",
+      "timestamp": 47.8,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity after buyer's selling intent was clear.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.8
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not provide quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs discussed."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs discussed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer only stated selling intent, no specs provided."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने kilograms या grams की जरूरत है please बता दीजिए।",
+      "timestamp": 47.8,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the quantity question once after buyer's intent.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognition of critical values."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not change product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नमस्ते क्या आप वहां हैं? आपको 97% pure raw rhodium metal की requirement थी ना?",
+      "timestamp": 14.29,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated due to low ASR confidence.",
+      "evidence_verified": true,
+      "llm_timestamp": 14.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "selling related information के लिए कृपया customer care number 5 times 96 पर call करें।",
+      "timestamp": 66.97,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot correctly identified selling intent and closed properly.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.0
+    }
+  ],
+  "captured_lead": {
+    "product": "rhodium metal",
+    "quantity": "100 grams",
+    "quantity_unit": "grams",
+    "specs": [
+      {
+        "name": "purity",
+        "value": "99.6%"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured buy lead for selling intent.",
+      "timestamp": 14.3,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 39.69,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot created a buy lead despite buyer stating selling intent. Buyer was selling old rhodium metal.",
+  "analysis": "Buyer wants to sell old rhodium metal, not buy. Bot created a buy lead for rhodium metal anyway. Bot asked for quantity multiple times and confirmed 100g. Bot closed by referring to customer care for selling, but the lead was already created.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3757,
+    "completion_tokens": 1608
+  },
+  "unresolved_problems": []
+}

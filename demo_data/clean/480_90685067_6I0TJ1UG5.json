@@ -1,0 +1,58 @@
+{
+  "call_id": "480_90685067_6I0TJ1UG5",
+  "file": "data/recordings/480_90685067_6I0TJ1UG5.mp3",
+  "duration_s": 18.72,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 0.01,
+      "end": 0.49
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको rebar bending machine की requirement है ना?",
+      "start": 0.49,
+      "end": 4.13
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 5.11,
+      "end": 5.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। आपको मैं seller details WhatsApp पर भेज दूंगी जिनसे आप...",
+      "start": 7.91,
+      "end": 17.59
+    },
+    {
+      "role": "BUYER",
+      "text": "details और price discuss.",
+      "start": 17.59,
+      "end": 19.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 3,
+    "longest_gap_s": 2.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "call_id": "829_90741676_FAY3IL4H5",
+  "duration_s": 114.41,
+  "graded_at": "2026-10-10T12:43:14+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Assumed 3 HP motor power without buyer confirmation",
+  "fatal_params": [
+    "Spec1 Accuracy",
+    "Spec Missed Opportunity",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I can see you wanted 3 HP for motor power, right? Are you still there?",
+      "timestamp": 64.47,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Assumed 3 HP motor power without buyer confirmation",
+      "evidence_verified": true,
+      "llm_timestamp": 64.5
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Ah. ஆ காவராஸ் low price.",
+      "timestamp": 59.17,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Ignored Tamil product name 'Kawaras' and low price",
+      "evidence_verified": true,
+      "llm_timestamp": 59.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I apologize, but I can only communicate in English or Hindi. Which one would you prefer? No no Tamil only.",
+      "timestamp": 39.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated language refusal loop until buyer gave up",
+      "evidence_verified": true,
+      "llm_timestamp": 39.2
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Are you still there?",
+      "timestamp": 9.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "9.7s silence after buyer, but call ended naturally",
+      "evidence_verified": true,
+      "llm_timestamp": 112.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I apologize, but I can only communicate in English or Hindi. Which one would you prefer? No no Tamil only.",
+      "timestamp": 39.17,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Banned open-ended question used",
+      "evidence_verified": true,
+      "llm_timestamp": 39.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product requirement"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity asked by bot"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I can see you wanted 3 HP for motor power, right? Are you still there?",
+      "timestamp": 64.47,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Assumed 3 HP motor power without buyer confirmation",
+      "evidence_verified": true,
+      "llm_timestamp": 64.5
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec discussed"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Ah. ஆ காவராஸ் low price.",
+      "timestamp": 59.17,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Ignored Tamil product name 'Kawaras' and low price",
+      "evidence_verified": true,
+      "llm_timestamp": 59.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "I apologize, but I can only communicate in English or Hindi. Which one would you prefer? No no Tamil only.",
+      "timestamp": 39.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated language refusal loop until buyer gave up",
+      "evidence_verified": true,
+      "llm_timestamp": 39.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognized words affecting lead"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained car washer high spray gun"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Are you still there?",
+      "timestamp": 9.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "9.7s silence after buyer, but call ended naturally",
+      "evidence_verified": true,
+      "llm_timestamp": 112.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I apologize, but I can only communicate in English or Hindi. Which one would you prefer? No no Tamil only.",
+      "timestamp": 39.17,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Banned open-ended question used",
+      "evidence_verified": true,
+      "llm_timestamp": 39.2
+    }
+  ],
+  "captured_lead": {
+    "product": "car washer high spray gun",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "motor power",
+        "value": "3 HP"
+      },
+      {
+        "name": "phase",
+        "value": "single phase, three phase or something else"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer frustrated by language refusal loop",
+      "timestamp": 59.2,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot struggled to understand Tamil product name",
+      "timestamp": 59.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot refused Tamil language, created spec assumptions, and ended call abruptly",
+  "analysis": "Buyer wanted a car washer high spray gun in Tamil. Bot refused Tamil and only spoke English/Hindi. Buyer gave a Tamil product name 'காவுராஸ்' (Kawaras). Bot ignored the Tamil name, assumed 3 HP motor power, and asked about single/three phase. Buyer confirmed. Call ended abruptly with bot waiting.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3759,
+    "completion_tokens": 1572
+  },
+  "unresolved_problems": []
+}

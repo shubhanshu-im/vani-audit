@@ -1,0 +1,338 @@
+{
+  "call_id": "271_90643123_MNALU3KG5",
+  "duration_s": 92.52,
+  "graded_at": "2026-10-10T12:28:30+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Bot asked for concentration but never captured buyer's 99% answer",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने liter चाहिए? ... 50 kilograms",
+      "timestamp": 21.5,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot asked for litres but captured 50 kilograms instead",
+      "evidence_verified": false
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने liter चाहिए? ... 50 kilograms",
+      "timestamp": 21.5,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Captured 50 kilograms instead of 1 litre, changing lead",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको 80%, 99% या कुछ और चाहिए? ... 99%",
+      "timestamp": 59.45,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for concentration but never captured buyer's 99% answer",
+      "evidence_verified": true,
+      "llm_timestamp": 59.5
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Willowwood Tufex 369 ... Billowood Tufex 369",
+      "timestamp": 6.8,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard Willowwood as Billowood but buyer confirmed product",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 69.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details without collecting buyer name or location",
+      "evidence_verified": true,
+      "llm_timestamp": 69.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and proceeded to collection"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने liter चाहिए? ... 50 kilograms",
+      "timestamp": 21.5,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot asked for litres but captured 50 kilograms instead",
+      "evidence_verified": false
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको कितने liter चाहिए? ... 50 kilograms",
+      "timestamp": 21.5,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Captured 50 kilograms instead of 1 litre, changing lead",
+      "evidence_verified": false
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity as part of standard flow"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and read back, albeit incorrectly"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 was not asked or captured"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 was asked but 99% concentration was not captured"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको 80%, 99% या कुछ और चाहिए? ... 99%",
+      "timestamp": 59.45,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for concentration but never captured buyer's 99% answer",
+      "evidence_verified": true,
+      "llm_timestamp": 59.5
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked packaging size twice, within limits"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Willowwood Tufex 369 ... Billowood Tufex 369",
+      "timestamp": 6.8,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard Willowwood as Billowood but buyer confirmed product",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any additional details"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot closed with WhatsApp details, no live seller transfer needed"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed Willowwood Tufex 369"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 69.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details without collecting buyer name or location",
+      "evidence_verified": true,
+      "llm_timestamp": 69.9
+    }
+  ],
+  "captured_lead": {
+    "product": "Willowwood Tufex 369",
+    "quantity": "50",
+    "quantity_unit": "kilograms",
+    "specs": [
+      {
+        "name": "packaging size",
+        "value": "liquid"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Captured 50 kg instead of 1 litre",
+      "timestamp": 21.5,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Repeated packaging size question",
+      "timestamp": 41.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard quantity as 50 kg instead of 1 litre and failed to capture 99% concentration.",
+  "analysis": "Buyer requested 1 litre of Willowwood Tufex 369, confirmed liquid, 99% concentration. Bot captured quantity as 50 kilograms instead of 1 litre, and skipped capturing the 99% concentration. Bot closed by offering WhatsApp details without asking for name/location. Buyer asked for Salar, West Bengal.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14454,
+    "completion_tokens": 4104
+  },
+  "unresolved_problems": [
+    "Quantity Accuracy (Numeric): evidence_quote not found verbatim in any transcript line: 'आपको कितने liter चाहिए? ... 50 kilograms'",
+    "Quantity Unit Accuracy: evidence_quote not found verbatim in any transcript line: 'आपको कितने liter चाहिए? ... 50 kilograms'",
+    "WER: evidence_quote not found verbatim in any transcript line: 'Willowwood Tufex 369 ... Billowood Tufex 369'"
+  ]
+}

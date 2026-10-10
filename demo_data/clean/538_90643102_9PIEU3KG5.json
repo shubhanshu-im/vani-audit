@@ -1,0 +1,110 @@
+{
+  "call_id": "538_90643102_9PIEU3KG5",
+  "file": "data/recordings/538_90643102_9PIEU3KG5.mp3",
+  "duration_s": 97.2,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको refurbished mobile phones की requirement है ना?",
+      "start": 0.01,
+      "end": 4.27
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे हाथी नाम नहीं है मेरा अनवर आलम लिखा हूं मैं। क्षमा कीजिएगा [NAME] जी। तो आपको refurbished mobile phones की requirement थी ना? हाँ।",
+      "start": 7.13,
+      "end": 18.15
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 19.23,
+      "end": 25.09
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे घुमा है चले नहीं हुआ है मुझे बस fuel के लिए चाहिए।",
+      "start": 27.75,
+      "end": 32.29
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। पर मुझे बस ये बता दीजिए कि आपको कितने piece चाहिए?",
+      "start": 33.27,
+      "end": 36.79
+    },
+    {
+      "role": "BUYER",
+      "text": "एक एक।",
+      "start": 38.75,
+      "end": 39.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब internal storage के बारे में बात कर लेते हैं। आपको 12 8 GB चाहिए या कुछ और?",
+      "start": 40.95,
+      "end": 46.37
+    },
+    {
+      "role": "BUYER",
+      "text": "तो total दिया यार WhatsApp में फिर भी दोबारा बोलना पड़ा चलो वो 646 भी चलेगा या 646 या 6128।",
+      "start": 49.35,
+      "end": 56.23
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिएगा मैं समझ नहीं पाई। क्या आप बता सकते हैं कि आपको कितनी internal storage चाहिए?",
+      "start": 57.73,
+      "end": 62.81
+    },
+    {
+      "role": "BUYER",
+      "text": "एक सौ अठासी GB.",
+      "start": 65.09,
+      "end": 67.01
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए brand में क्या prefer करेंगे Apple, Samsung या कोई और?",
+      "start": 68.25,
+      "end": 72.57
+    },
+    {
+      "role": "BUYER",
+      "text": "खिचड़ी चलेगा।",
+      "start": 74.77,
+      "end": 75.79
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिएगा मैं समझ नहीं पाई। आप brand की बात कर रहे हैं तो आपको कौन सा brand चाहिए? ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी। समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 76.83,
+      "end": 95.91
+    },
+    {
+      "role": "BUYER",
+      "text": "बात कर रहे हैं। आपको कौन सा? कोई seller details WhatsApp पे भेजूंगी।",
+      "start": 79.49,
+      "end": 85.89
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.98,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

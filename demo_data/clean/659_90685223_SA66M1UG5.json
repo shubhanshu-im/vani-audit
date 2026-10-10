@@ -1,0 +1,116 @@
+{
+  "call_id": "659_90685223_SA66M1UG5",
+  "file": "data/recordings/659_90685223_SA66M1UG5.mp3",
+  "duration_s": 66.82,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको aerated water की requirement है ना?",
+      "start": 0.01,
+      "end": 3.13
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ लेकिन Daryapur cafe थे। It means Majithapur।",
+      "start": 0.99,
+      "end": 9.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब volume के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 1 liter या कुछ और?",
+      "start": 10.45,
+      "end": 19.87
+    },
+    {
+      "role": "BUYER",
+      "text": "वो बीस लीटर वाला टंकी।",
+      "start": 21.79,
+      "end": 23.45
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए flavor में क्या prefer करेंगे जीरा, plain soda या कोई और?",
+      "start": 24.39,
+      "end": 29.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको water plain water चाहिए। जैसे पीने वाला पानी।",
+      "start": 31.91,
+      "end": 35.87
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब आप अपनी city और state भी बता दीजिए please।",
+      "start": 36.93,
+      "end": 39.79
+    },
+    {
+      "role": "BUYER",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई।",
+      "start": 42.39,
+      "end": 45.75
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आप अपनी city और state क्या है?",
+      "start": 44.01,
+      "end": 48.71
+    },
+    {
+      "role": "BUYER",
+      "text": "जी हां।",
+      "start": 47.25,
+      "end": 48.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है पर आप बिहार में किस city से बोल रहे हैं please बता दीजिए।",
+      "start": 49.25,
+      "end": 52.93
+    },
+    {
+      "role": "BUYER",
+      "text": "में किसी बाजरपुर दरिया पहुंचाते हैं।",
+      "start": 50.37,
+      "end": 55.87
+    },
+    {
+      "role": "BOT",
+      "text": "आप Muzaffarpur Bihar से बोल रहे हैं ना?",
+      "start": 57.01,
+      "end": 58.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 60.57,
+      "end": 60.99
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। क्या आप Muzaffarpur Bihar से बोल रहे हैं?",
+      "start": 62.07,
+      "end": 67.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.82,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

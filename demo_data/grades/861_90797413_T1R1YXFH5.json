@@ -1,0 +1,342 @@
+{
+  "call_id": "861_90797413_T1R1YXFH5",
+  "duration_s": 162.94,
+  "graded_at": "2026-10-10T12:44:11+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed with a vague fragment without collecting buyer details or intent.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "bot: हाँ। pack करने वाला machine।",
+      "timestamp": 159.99,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with a vague fragment without collecting buyer details or intent.",
+      "evidence_verified": true,
+      "llm_timestamp": 160.0
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "buyer: हाँ chips pack करना है।",
+      "timestamp": 114.0,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated product need but bot failed to capture it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "bot: Hello आपको collar type packing machine की requirement है ना?",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the same product question 10 times, causing frustration and call drop.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot: Sorry आपकी आवाज़ clear नहीं आई please दोबारा बताइए।",
+      "timestamp": 100.55,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot struggled with speech recognition but recovered.",
+      "evidence_verified": true,
+      "llm_timestamp": 100.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot: Sorry आपकी आवाज़ clear नहीं आई please दोबारा बताइए।",
+      "timestamp": 100.55,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot struggled with speech recognition but recovered.",
+      "evidence_verified": true,
+      "llm_timestamp": 100.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "bot: हाँ। pack करने वाला machine।",
+      "timestamp": 159.99,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with a vague fragment without collecting buyer details or intent.",
+      "evidence_verified": true,
+      "llm_timestamp": 160.0
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked or captured."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked or captured."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "buyer: हाँ chips pack करना है।",
+      "timestamp": 114.0,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated product need but bot failed to capture it.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "bot: Hello आपको collar type packing machine की requirement है ना?",
+      "timestamp": 0.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the same product question 10 times, causing frustration and call drop.",
+      "evidence_verified": true,
+      "llm_timestamp": 0.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot: Sorry आपकी आवाज़ clear नहीं आई please दोबारा बताइए।",
+      "timestamp": 100.55,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot struggled with speech recognition but recovered.",
+      "evidence_verified": true,
+      "llm_timestamp": 100.5
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were collected."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product change was not handled; bot failed to capture the new product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search was performed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps attributed to the bot."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "bot: Sorry आपकी आवाज़ clear नहीं आई please दोबारा बताइए।",
+      "timestamp": 100.55,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot struggled with speech recognition but recovered.",
+      "evidence_verified": true,
+      "llm_timestamp": 100.5
+    }
+  ],
+  "captured_lead": {
+    "product": null,
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Repeated product question 10 times causing buyer frustration",
+      "timestamp": 0.0,
+      "source": "llm"
+    },
+    {
+      "flag": "wrong_requirement",
+      "reason": "Failed to capture buyer's actual product need for chips packing",
+      "timestamp": 114.0,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: bot_not_understood, other_language",
+      "timestamp": 57.85,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot looped on the initial product and failed to capture the buyer's corrected requirement for a chips packing machine, leading to an abrupt end with no lead.",
+  "analysis": "Buyer initially mentioned 'collar' and later 'chips pack', but the bot failed to capture a clear product requirement or any lead details. The bot looped on the initial product question 10 times, misheard Malayalam, and ended abruptly without collecting quantity, specs, or contact details.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 17241,
+    "completion_tokens": 4886
+  },
+  "unresolved_problems": [
+    "Spec Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'buyer: हाँ chips pack करना है।'"
+  ]
+}

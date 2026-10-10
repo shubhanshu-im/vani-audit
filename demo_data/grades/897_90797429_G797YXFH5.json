@@ -1,0 +1,378 @@
+{
+  "call_id": "897_90797429_G797YXFH5",
+  "duration_s": 98.78,
+  "graded_at": "2026-10-10T12:44:54+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Probing Error: Bot asked for quantity 4 times despite buyer clearly saying 'एक'",
+  "fatal_params": [
+    "Quantity Probing Error",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=9.6 आपको कितने piece की जरूरत है?",
+      "timestamp": 9.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity 4 times despite buyer clearly saying 'एक'",
+      "evidence_verified": true,
+      "llm_timestamp": 9.6
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=17.9 BUYER: एक।",
+      "timestamp": 17.9,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer clearly stated quantity one, bot ignored it and kept asking",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=57.1 BUYER: दो foot.",
+      "timestamp": 57.1,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'दो foot' and looped on height instead of capturing it",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=9.6 आपको कितने piece की जरूरत है?",
+      "timestamp": 9.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on quantity 4 times despite buyer's clear answer",
+      "evidence_verified": true,
+      "llm_timestamp": 9.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=17.9 BUYER: एक।",
+      "timestamp": 17.9,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'एक' as unclear, but recovered by asking again",
+      "evidence_verified": false
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=88.8 BOT: समझ गई। seller इस बारे में आपकी मदद कर देंगे।",
+      "timestamp": 88.8,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot cut off abruptly, but buyer did not hang up immediately",
+      "evidence_verified": true
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=35.8 BOT: कोई बात नहीं seller इस बारे में आपकी मदद कर देंगे।",
+      "timestamp": 35.8,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Repeated a sentence, but buyer did not get irritated",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not captured by the bot"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not captured by the bot"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=9.6 आपको कितने piece की जरूरत है?",
+      "timestamp": 9.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity 4 times despite buyer clearly saying 'एक'",
+      "evidence_verified": true,
+      "llm_timestamp": 9.6
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=17.9 BUYER: एक।",
+      "timestamp": 17.9,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer clearly stated quantity one, bot ignored it and kept asking",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about brand, buyer gave vague answer, bot moved on"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about height, but buyer's 'दो foot' was misheard and not captured"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=57.1 BUYER: दो foot.",
+      "timestamp": 57.1,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'दो foot' and looped on height instead of capturing it",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "t=9.6 आपको कितने piece की जरूरत है?",
+      "timestamp": 9.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on quantity 4 times despite buyer's clear answer",
+      "evidence_verified": true,
+      "llm_timestamp": 9.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=17.9 BUYER: एक।",
+      "timestamp": 17.9,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'एक' as unclear, but recovered by asking again",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was not in question"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=88.8 BOT: समझ गई। seller इस बारे में आपकी मदद कर देंगे।",
+      "timestamp": 88.8,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot cut off abruptly, but buyer did not hang up immediately",
+      "evidence_verified": true
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=35.8 BOT: कोई बात नहीं seller इस बारे में आपकी मदद कर देंगे।",
+      "timestamp": 35.8,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Repeated a sentence, but buyer did not get irritated",
+      "evidence_verified": false
+    }
+  ],
+  "captured_lead": {
+    "product": "13 mm tower fan blower plastic five step",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "brand",
+        "value": "Surya or Surya Gold"
+      },
+      {
+        "name": "height",
+        "value": "two foot"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer had to repeat quantity multiple times",
+      "timestamp": 17.9,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot looped on quantity 4 times despite clear answer",
+      "timestamp": 9.6,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: bot_not_understood, short_garbled_buyer_turns",
+      "timestamp": 19.45,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot looped on quantity, misheard height, and cut off without collecting location.",
+  "analysis": "Buyer wanted a 13 mm tower fan blower, quantity 1 piece, height 2 feet, brand unspecified. Bot misheard 'एक' as unclear, looped on quantity 4 times (limit 3), misheard 'दो foot' as unclear, looped on height, and cut off before getting city/state. No lead created.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15209,
+    "completion_tokens": 4269
+  },
+  "unresolved_problems": [
+    "Qty Missed Opportunity: evidence_quote not found verbatim in any transcript line: 't=17.9 BUYER: एक।'",
+    "Spec Missed Opportunity: evidence_quote not found verbatim in any transcript line: 't=57.1 BUYER: दो foot.'",
+    "WER: evidence_quote not found verbatim in any transcript line: 't=17.9 BUYER: एक।'",
+    "Additional Observation: evidence_quote not found verbatim in any transcript line: 't=35.8 BOT: कोई बात नहीं seller इस बारे में आपकी मदद कर देंगे।'"
+  ]
+}

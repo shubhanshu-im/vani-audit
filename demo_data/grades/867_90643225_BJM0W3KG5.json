@@ -1,0 +1,290 @@
+{
+  "call_id": "867_90643225_BJM0W3KG5",
+  "duration_s": 77.54,
+  "graded_at": "2026-10-10T12:44:23+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 67.41,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot offered to send seller details on WhatsApp instead of connecting a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.4
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price",
+      "timestamp": 67.41,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot closed with an incomplete sentence.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product, bot proceeded to collect info and closed."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or asked."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or asked."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed or discussed in this call."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "semi automatic ही बताइए।",
+      "timestamp": 52.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured semi-automatic correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "production में means समझ नहीं पा रहा मैं क्या बोल रहा हूं।",
+      "timestamp": 62.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not provide a spec value, only expressed confusion."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No other important specs were stated by the buyer."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "semi-automatic में आपको glass slot करने और finishing जैसे कुछ steps manually करने होंगे।",
+      "timestamp": 42.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot explained once, no harmful loops."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognized words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 67.41,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot offered to send seller details on WhatsApp instead of connecting a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.4
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "tempered glass making machine की requirement है ना?",
+      "timestamp": 0.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly identified the product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data to judge."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price",
+      "timestamp": 67.41,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Bot closed with an incomplete sentence.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.4
+    }
+  ],
+  "captured_lead": {
+    "product": "tempered glass making machine",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "automation grade",
+        "value": "semi-automatic"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer got confused by production capacity question",
+      "timestamp": 62.4,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked how automatic works",
+      "timestamp": 19.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture quantity, name, or location. Buyer hung up or bot cut off after confusing the buyer on production capacity.",
+  "analysis": "Buyer wanted a tempered glass making machine, semi-automatic. Bot explained automation types, buyer chose semi-automatic. Bot asked for production capacity, buyer got confused. Bot then offered to send seller details on WhatsApp and cut off. Buyer never gave quantity, name, or location.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3719,
+    "completion_tokens": 1285
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,225 @@
+{
+  "call_id": "263_90741516_2SF2GL4H5",
+  "file": "data/recordings/263_90741516_2SF2GL4H5.mp3",
+  "duration_s": 184.97,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी बताइए आपको कौन सा product चाहिए था?",
+      "start": 8.45,
+      "end": 12.99
+    },
+    {
+      "role": "BOT",
+      "text": "आप अभी call पर हैं? कृपया बताइए आपको कौन सा product चाहिए था?",
+      "start": 20.81,
+      "end": 24.31
+    },
+    {
+      "role": "BUYER",
+      "text": "Wait wait wait.",
+      "start": 25.67,
+      "end": 26.49
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल आप जब ready हो तब बताइएगा।",
+      "start": 28.63,
+      "end": 30.67
+    },
+    {
+      "role": "BUYER",
+      "text": "stock चाहिए था।",
+      "start": 37.01,
+      "end": 38.13
+    },
+    {
+      "role": "BOT",
+      "text": "आपको ऐसी चीज चाहिए जो किसी function या decoration के लिए इस्तेमाल होती है जैसे सजावट या event के लिए यही चाहिए ना?",
+      "start": 40.01,
+      "end": 47.27
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं Brock Brock White White is electronic.",
+      "start": 48.47,
+      "end": 53.73
+    },
+    {
+      "role": "BOT",
+      "text": "आपको running के लिए सफेद जूते चाहिए सही समझिए ना?",
+      "start": 55.67,
+      "end": 58.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Brox वाला।",
+      "start": 60.01,
+      "end": 62.87
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने जोड़े चाहिए?",
+      "start": 66.11,
+      "end": 71.85
+    },
+    {
+      "role": "BUYER",
+      "text": "WhatsApp पे भेजें link उसका।",
+      "start": 76.75,
+      "end": 79.53
+    },
+    {
+      "role": "BOT",
+      "text": "मैं seller details आपको WhatsApp पर भेज दूंगी लेकिन पहले please quantity बता दीजिए ताकि आपकी requirement process हो सके। कितने जोड़े चाहिए?",
+      "start": 81.67,
+      "end": 89.43
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे हमको Brox white suit चाहिए रहने के लिए।",
+      "start": 91.83,
+      "end": 96.41
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए आपको Brooks brand के सफेद running shoes चाहिए? कितने जोड़े चाहिए आपको?",
+      "start": 98.33,
+      "end": 102.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको एक जोड़े चाहिए।",
+      "start": 104.39,
+      "end": 105.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? धन्यवाद। अब बताइए आपको Brooks के अलावा कोई और brand भी चलेगा? जैसे Nike या Puma या सिर्फ Brooks ही चाहिए?",
+      "start": 107.85,
+      "end": 114.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Broccoli चाहिए।",
+      "start": 116.15,
+      "end": 117.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब size बता दीजिए जैसे नौ UK, आठ UK या कोई और?",
+      "start": 118.99,
+      "end": 122.31
+    },
+    {
+      "role": "BUYER",
+      "text": "सात नंबर।",
+      "start": 123.95,
+      "end": 124.97
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद। अब confirm कर दीजिए आपको white color में Broxy brand के साथ UK size के running shoes चाहिए थे। अब अपनी city और state भी बता दीजिए please ताकि seller details भेज सकूं।",
+      "start": 126.67,
+      "end": 137.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Ahmedabad Gujarat में Bolgaon।",
+      "start": 134.55,
+      "end": 143.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप Ahmedabad Gujarat से बोल रहे हैं ना?",
+      "start": 145.53,
+      "end": 147.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 149.65,
+      "end": 150.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है धन्यवाद। अब आप मोहम्मद जी बोल रहे हैं ना?",
+      "start": 152.25,
+      "end": 154.73
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 156.53,
+      "end": 157.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप अभी call पर हैं? कोई और जानकारी चाहिए थी क्या?",
+      "start": 166.33,
+      "end": 169.05
+    },
+    {
+      "role": "BUYER",
+      "text": "तो। इसका price कितना है?",
+      "start": 167.35,
+      "end": 172.67
+    },
+    {
+      "role": "BOT",
+      "text": "आप price seller से discuss कर सकते हैं। आपको best rate मिलेगा। seller details WhatsApp पर भेज रही हूं। वहीं सारी details मिल जाएंगी। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 174.39,
+      "end": 184.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 15,
+    "buyer_turns": 14,
+    "longest_gap_s": 9.28,
+    "gaps_over_5s": 4,
+    "long_gaps": [
+      {
+        "start": 1.85,
+        "end": 8.45,
+        "duration_s": 6.6,
+        "after_role": "BOT"
+      },
+      {
+        "start": 12.99,
+        "end": 20.81,
+        "duration_s": 7.82,
+        "after_role": "BUYER"
+      },
+      {
+        "start": 30.67,
+        "end": 37.01,
+        "duration_s": 6.34,
+        "after_role": "BOT"
+      },
+      {
+        "start": 157.05,
+        "end": 166.33,
+        "duration_s": 9.28,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

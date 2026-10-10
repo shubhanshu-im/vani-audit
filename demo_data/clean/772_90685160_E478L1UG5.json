@@ -1,0 +1,87 @@
+{
+  "call_id": "772_90685160_E478L1UG5",
+  "file": "data/recordings/772_90685160_E478L1UG5.mp3",
+  "duration_s": 60.77,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी dehydration machine 10 kg और 10 trays की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.33,
+      "end": 7.47
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। बोलीए।",
+      "start": 0.71,
+      "end": 9.03
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब heating source के बारे में बात कर लेते हैं। आपको कौन सा चाहिए electric या steam या कुछ और?",
+      "start": 10.67,
+      "end": 15.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Electricity भी।",
+      "start": 16.99,
+      "end": 18.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए inner material में क्या prefer करेंगे stainless steel, aluminium या कोई और?",
+      "start": 19.29,
+      "end": 23.95
+    },
+    {
+      "role": "BUYER",
+      "text": "माफ़ कीजिए मैं सुन नहीं पाया। आप inner material में क्या prefer करेंगे जैसे stainless steel या aluminium? नहीं। Steel ही सही रहेगा।",
+      "start": 29.07,
+      "end": 36.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 37.73,
+      "end": 42.95
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं इससे मैं पूछना चाहता हूँ इससे मैं dry करूँगा fruit जैसे हो गया ये सब dry करना है मुझे।",
+      "start": 44.43,
+      "end": 49.63
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गया। आप इसमें fruits try करना चाहते हैं। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 50.75,
+      "end": 59.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 5.12,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 23.95,
+        "end": 29.07,
+        "duration_s": 5.12,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

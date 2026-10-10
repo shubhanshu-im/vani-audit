@@ -1,0 +1,346 @@
+{
+  "call_id": "532_90852982_35WCMXVH5",
+  "duration_s": 91.51,
+  "graded_at": "2026-10-10T12:35:12+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, Looping Behavior, WER, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Classic zebra pajama ना?",
+      "timestamp": 43.43,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer mentioned 'pajama' which was garbled as material",
+      "evidence_verified": true,
+      "llm_timestamp": 43.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप गाजीपुर उत्तर प्रदेश से बोल रहे हैं ना?",
+      "timestamp": 70.37,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "City was asked twice but no irritation",
+      "evidence_verified": true,
+      "llm_timestamp": 70.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको small silver steel broom handle की requirement थी ना? steel की नहीं जी गेदरा की",
+      "timestamp": 5.63,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 'gedara' but bot first misheard as silver steel",
+      "evidence_verified": true,
+      "llm_timestamp": 15.7
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 81.27,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised WhatsApp details without transfer or lead creation",
+      "evidence_verified": true,
+      "llm_timestamp": 81.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 81.27,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp",
+      "evidence_verified": true,
+      "llm_timestamp": 81.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted product and bot handled it"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity captured correctly as 2000"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity asked and provided"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 length 21 inch captured correctly"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 material not asked or captured"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Classic zebra pajama ना?",
+      "timestamp": 43.43,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer mentioned 'pajama' which was garbled as material",
+      "evidence_verified": true,
+      "llm_timestamp": 43.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप गाजीपुर उत्तर प्रदेश से बोल रहे हैं ना?",
+      "timestamp": 70.37,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "City was asked twice but no irritation",
+      "evidence_verified": true,
+      "llm_timestamp": 70.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको small silver steel broom handle की requirement थी ना? steel की नहीं जी गेदरा की",
+      "timestamp": 5.63,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 'gedara' but bot first misheard as silver steel",
+      "evidence_verified": true,
+      "llm_timestamp": 15.7
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 81.27,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised WhatsApp details without transfer or lead creation",
+      "evidence_verified": true,
+      "llm_timestamp": 81.3
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot corrected to zebra broom handle"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 81.27,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp",
+      "evidence_verified": true,
+      "llm_timestamp": 81.3
+    }
+  ],
+  "captured_lead": {
+    "product": "zebra broom handle",
+    "quantity": "2000",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "length",
+        "value": "21 inch"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Ghazipur",
+    "state": "Uttar Pradesh"
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer said 'village village' when asked city",
+      "timestamp": 67.3,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for original seller details",
+      "timestamp": 5.6,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot promised to send seller details on WhatsApp without creating a lead or getting consent. City was guessed rather than confirmed.",
+  "analysis": "Buyer wanted zebra broom handles (gedara) of 21 inch length, quantity 2000 pieces. Bot initially misheard 'gedara' as 'silver steel' but corrected itself to zebra. Bot captured quantity 2000, spec length 21 inch, name [NAME] [NAME], city Ghazipur, state Uttar Pradesh. Bot closed by promising to send seller details on WhatsApp without asking for consent or creating a lead, and without collecting the city properly (guessed Ghazipur instead of confirming).",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.quantity = '2000': number(s) ['2000'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3888,
+    "completion_tokens": 1300
+  },
+  "unresolved_problems": []
+}

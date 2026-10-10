@@ -1,0 +1,154 @@
+{
+  "call_id": "12_90797300_ZC6FVXFH5",
+  "file": "data/recordings/12_90797300_ZC6FVXFH5.mp3",
+  "duration_s": 158.26,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.11,
+      "end": 0.79
+    },
+    {
+      "role": "BOT",
+      "text": "Hello आपको Alto 2400 P water high pressure cleaner की requirement है ना?",
+      "start": 0.25,
+      "end": 6.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. requirement नहीं है madam मैंने देख रहा हूं आपका ये कहां पे है?",
+      "start": 1.51,
+      "end": 11.79
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से Tania बोल रही हूं। आप किस product की जानकारी लेना चाह रहे हैं?",
+      "start": 14.17,
+      "end": 18.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam मैंने आपका Google Google पे search करके देखा pressure machine का आपके पास कितने से कितने तक की है?",
+      "start": 18.85,
+      "end": 25.47
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपके पास pressure machine की जानकारी चाहिए थी ना? आपको किस काम के लिए चाहिए घर के लिए या किसी commercial काम के लिए?",
+      "start": 27.15,
+      "end": 33.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam मैंने मेरे को घर ही के लिए चाहिए गाड़ी वाड़ी धोने में गाड़ी wash का मैंने काम वो किया है घर पे online वाला।",
+      "start": 34.35,
+      "end": 42.51
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको घर की गाड़ी धोने के लिए चाहिए? इसमें max pressure की बात करें तो 180 बार सही रहेगा आपके काम के लिए? हाँ आप ये बता दीजिए आपके पास कहाँ पे आपकी shop है तो मैं आ जाऊँगा। मैं एक online platform IndiaMART से बात कर रही हूं।",
+      "start": 44.65,
+      "end": 64.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारी खुद की दुकान नहीं है।",
+      "start": 64.73,
+      "end": 66.21
+    },
+    {
+      "role": "BOT",
+      "text": "seller से मिलने की जगह आप details confirm कर दें मैं आपको best seller से connect करवा दूंगी। अब water flow rate में क्या चाहिए 10 liter प्रति minute 8 liter प्रति minute या कुछ और?",
+      "start": 66.21,
+      "end": 76.02
+    },
+    {
+      "role": "BUYER",
+      "text": "online. सर मेरे को तो चाहिए मेरे को ज्यादा महंगी भी नहीं चाहिए मेरे को दस हज़ार तक की range में चाहिए। मैं भी मैं क्योंकि आपका Google पे देखा search करके तो मैंने कहा ये आपका number आया तो मैंने call लगाया।",
+      "start": 62.33,
+      "end": 88.65
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? price आप seller से discuss कर सकते हैं। वो आपको best rate देंगे। water flow rate में कौन सा चाहिए? 10 liter प्रति minute, 8 liter प्रति minute या कोई और?",
+      "start": 91.11,
+      "end": 99.71
+    },
+    {
+      "role": "BUYER",
+      "text": "कोई और अच्छा। तो आप आप आप आप number भेज देंगे क्या?",
+      "start": 99.13,
+      "end": 107.21
+    },
+    {
+      "role": "BOT",
+      "text": "मैं seller का number directly share नहीं कर सकती लेकिन details confirm होते ही मैं आपको seller details WhatsApp पे भेज दूंगी। [change] water flow rate में कौन सा चाहिए?",
+      "start": 108.97,
+      "end": 117.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am मेरे को तो अच्छी company की चाहिए जगह जिसमें थोड़ा अच्छी चले।",
+      "start": 118.41,
+      "end": 122.37
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। seller से आप company और quality की पूरी जानकारी ले सकते हैं। अब बस आपकी city और state बता दीजिए please।",
+      "start": 125.37,
+      "end": 132.11
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। Madam मेरा अपना Jabalpur से मतलब Jabalpur की है Shakti Nagar के Pali Chowk।",
+      "start": 130.15,
+      "end": 138.25
+    },
+    {
+      "role": "BOT",
+      "text": "आप Jabalpur Madhya Pradesh से बोल रहे हैं ना?",
+      "start": 140.19,
+      "end": 142.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी मेरा नाम [NAME] [NAME] है।",
+      "start": 142.93,
+      "end": 145.57
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया Rashi जी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart जुड़ने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 147.57,
+      "end": 156.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। जी। Thank you भाई।",
+      "start": 153.93,
+      "end": 157.65
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 11,
+    "longest_gap_s": 4.26,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 7
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

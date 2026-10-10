@@ -1,0 +1,165 @@
+{
+  "call_id": "826_90797404_NK1YXXFH5",
+  "file": "data/recordings/826_90797404_NK1YXXFH5.mp3",
+  "duration_s": 110.23,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Rich Auto A11 DC controller की requirement है ना?",
+      "start": 0.15,
+      "end": 4.91
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी। आपको Rich Auto A 11 DSP controller की requirement थी ना? হ্যাঁ হ্যাঁ yes yes.",
+      "start": 6.79,
+      "end": 16.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "start": 16.77,
+      "end": 26.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको एक ही चार साल की मौत चाहिए।",
+      "start": 28.03,
+      "end": 30.61
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको कितने piece चाहिए?",
+      "start": 31.59,
+      "end": 33.75
+    },
+    {
+      "role": "BUYER",
+      "text": "one three.",
+      "start": 35.59,
+      "end": 36.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं। आपको number of linkage axis three axis ही चाहिए ना?",
+      "start": 37.71,
+      "end": 42.21
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं कर दिए। Hello कृपया दोबारा बोलने नहीं सर।",
+      "start": 43.91,
+      "end": 52.99
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं पूछ रही थी कि क्या आपको number of linkage axis three axis वाला ही options चाहिए?",
+      "start": 53.85,
+      "end": 59.21
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी।",
+      "start": 59.85,
+      "end": 61.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब usage application के बारे में बताइए। आपको इसे किस उपयोग के लिए चाहिए?",
+      "start": 62.15,
+      "end": 66.99
+    },
+    {
+      "role": "BUYER",
+      "text": "CNIC router machine.",
+      "start": 68.19,
+      "end": 70.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 71.15,
+      "end": 74.57
+    },
+    {
+      "role": "BUYER",
+      "text": "आवाज करता है क्या बोले?",
+      "start": 77.25,
+      "end": 79.27
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज clear नहीं आई जरा दोबारा बताइए। आप अपनी city और state क्या है?",
+      "start": 80.27,
+      "end": 85.45
+    },
+    {
+      "role": "BUYER",
+      "text": "CTS से समस्तीपुर बिहार।",
+      "start": 86.73,
+      "end": 89.53
+    },
+    {
+      "role": "BOT",
+      "text": "आप मस्तेपुर बिहार से बोल रहे हैं ना?",
+      "start": 90.59,
+      "end": 92.55
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 92.99,
+      "end": 93.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप सीता जी बोल रहे हैं ना?",
+      "start": 94.89,
+      "end": 96.91
+    },
+    {
+      "role": "BUYER",
+      "text": "सीट आ गई।",
+      "start": 98.07,
+      "end": 99.05
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 100.01,
+      "end": 107.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 109.65,
+      "end": 110.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 5.5,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 44.95,
+        "end": 50.45,
+        "duration_s": 5.5,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

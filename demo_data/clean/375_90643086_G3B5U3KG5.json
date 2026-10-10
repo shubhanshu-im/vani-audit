@@ -1,0 +1,63 @@
+{
+  "call_id": "375_90643086_G3B5U3KG5",
+  "file": "data/recordings/375_90643086_G3B5U3KG5.mp3",
+  "duration_s": 32.4,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको used mobile Delhi की requirement है ना?",
+      "start": 0.01,
+      "end": 3.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 5.57,
+      "end": 6.07
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने piece चाहिए आपको?",
+      "start": 7.75,
+      "end": 13.59
+    },
+    {
+      "role": "BUYER",
+      "text": "बॉल। एक month चाहिए मुझे second hand में।",
+      "start": 8.63,
+      "end": 21.43
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप पूछ रहे हैं कि माल check करके हाथ में मिल सकता है या नहीं? ये details seller से discuss कर सकते हैं। कितने piece चाहिए आपको?",
+      "start": 23.63,
+      "end": 30.93
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 5.2,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 13.59,
+        "end": 18.79,
+        "duration_s": 5.2,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

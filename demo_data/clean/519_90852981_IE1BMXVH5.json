@@ -1,0 +1,82 @@
+{
+  "call_id": "519_90852981_IE1BMXVH5",
+  "file": "data/recordings/519_90852981_IE1BMXVH5.mp3",
+  "duration_s": 70.7,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको signature pen और joint spray packaging size 100 gm packaging type bottle की requirement है ना?",
+      "start": 0.13,
+      "end": 8.09
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नमस्ते। आपको signature pen और joint spray packaging size 100 gm packaging type bottle की requirement थी ना? या। आप जिस",
+      "start": 12.87,
+      "end": 25.59
+    },
+    {
+      "role": "BOT",
+      "text": "seller को call कर रहे थे वो available नहीं है और मैं India Mart से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 25.61,
+      "end": 30.99
+    },
+    {
+      "role": "BUYER",
+      "text": "देखें।",
+      "start": 33.11,
+      "end": 33.67
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको कितने piece चाहिए? कृपया बता दीजिए।",
+      "start": 34.71,
+      "end": 37.59
+    },
+    {
+      "role": "BUYER",
+      "text": "One piece.",
+      "start": 40.75,
+      "end": 41.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए इसमें आप क्या prefer करेंगे? Combiflam pain relief spray, Volini spray या कुछ और?",
+      "start": 42.41,
+      "end": 48.43
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है आपको इसमें किस उपयोग के लिए चाहिए जैसे? reselling hospital use या personal use. अच्छा ये। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और",
+      "start": 50.11,
+      "end": 63.99
+    },
+    {
+      "role": "BOT",
+      "text": "discuss कर सकते हैं India मठ चुनने के लिए धन्यवाद आपका दिन शुभ हो।",
+      "start": 63.99,
+      "end": 68.21
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 4.78,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 5,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

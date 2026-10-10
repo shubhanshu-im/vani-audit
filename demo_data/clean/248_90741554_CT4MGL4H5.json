@@ -1,0 +1,38 @@
+{
+  "call_id": "248_90741554_CT4MGL4H5",
+  "file": "data/recordings/248_90741554_CT4MGL4H5.mp3",
+  "duration_s": 4.82,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी shop plastic animal toys pen bat pencil box की request IndiaMART।",
+      "start": 0.33,
+      "end": 4.87
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आपकी।",
+      "start": 1.03,
+      "end": 1.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

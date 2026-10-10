@@ -1,0 +1,52 @@
+{
+  "call_id": "994_90797578_YNUVZXFH5",
+  "file": "data/recordings/994_90797578_YNUVZXFH5.mp3",
+  "duration_s": 22.25,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो मैं हूँ। Hello, Nima electric grinder की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.25,
+      "end": 6.55
+    },
+    {
+      "role": "BUYER",
+      "text": "जी मैं नहीं लूँगा cancel कर दीजिए नहीं लूँगा बोला।",
+      "start": 8.49,
+      "end": 10.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं आपकी request cancel कर देता हूं India Mart चुनने के लिए धन्यवाद आपका दिन शुभ हो।",
+      "start": 12.19,
+      "end": 16.55
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 17.79,
+      "end": 18.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

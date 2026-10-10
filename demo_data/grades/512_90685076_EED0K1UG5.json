@@ -1,0 +1,330 @@
+{
+  "call_id": "512_90685076_EED0K1UG5",
+  "duration_s": 113.18,
+  "graded_at": "2026-10-10T12:34:47+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Buyer clearly stated 500g and bot failed to capture or confirm it.",
+  "fatal_params": [
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप quantity बता दीजिए कितने kilogram?",
+      "timestamp": 48.79,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity after buyer already stated he is a retailer needing 500g.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.8
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अभी पाँच सौ ग्राम चाहिए बेटा मेरे को। एक बार।",
+      "timestamp": 105.87,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 500g and bot failed to capture or confirm it.",
+      "evidence_verified": true,
+      "llm_timestamp": 105.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं IndiaMART से बात कर रही हूं।",
+      "timestamp": 20.73,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated its identity twice, which is within acceptable limits.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.7
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "तो English में बोलते हैं।",
+      "timestamp": 102.95,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot switched to English abruptly, causing the buyer to end the call.",
+      "evidence_verified": true,
+      "llm_timestamp": 103.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer requested a product and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was discussed but bot never captured a final numeric value."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was discussed but bot never captured a final unit value."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप quantity बता दीजिए कितने kilogram?",
+      "timestamp": 48.79,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity after buyer already stated he is a retailer needing 500g.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.8
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अभी पाँच सौ ग्राम चाहिए बेटा मेरे को। एक बार।",
+      "timestamp": 105.87,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 500g and bot failed to capture or confirm it.",
+      "evidence_verified": true,
+      "llm_timestamp": 105.9
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "pineapple flavor note कर लिया।",
+      "timestamp": 86.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured pineapple flavor correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Name, city, and state were never requested or provided."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मैं IndiaMART से बात कर रही हूं।",
+      "timestamp": 20.73,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated its identity twice, which is within acceptable limits.",
+      "evidence_verified": true,
+      "llm_timestamp": 20.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major misrecognitions that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "bottle 500 gm Lasorean चटनी garlic",
+      "timestamp": 0.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed the product correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific spec questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps attributable to the bot."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "तो English में बोलते हैं।",
+      "timestamp": 102.95,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot switched to English abruptly, causing the buyer to end the call.",
+      "evidence_verified": true,
+      "llm_timestamp": 103.0
+    }
+  ],
+  "captured_lead": {
+    "product": "Lasorean garlic chutney",
+    "quantity": "500 g",
+    "quantity_unit": "g",
+    "specs": [
+      {
+        "name": "flavor",
+        "value": "pineapple"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot repeated identity and asked for quantity multiple times.",
+      "timestamp": 20.7,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer stated he is a retailer and patient, but bot kept asking for quantity.",
+      "timestamp": 47.7,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot abruptly switched to English after buyer asked what it was called in English.",
+      "timestamp": 103.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture final quantity and abruptly switched to English, causing the buyer to end the call.",
+  "analysis": "Buyer wanted 500g garlic chutney for a single use. Bot confirmed product and flavor. Buyer never gave a name or city/state. Bot asked for quantity multiple times (2/3 limit) and repeated its identity. Buyer mentioned being a retailer and having a health issue. Call ended abruptly when bot switched to English after buyer asked what it was called in English.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3941,
+    "completion_tokens": 1389
+  },
+  "unresolved_problems": []
+}

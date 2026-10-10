@@ -1,0 +1,219 @@
+{
+  "call_id": "683_90685132_3FUSK1UG5",
+  "file": "data/recordings/683_90685132_3FUSK1UG5.mp3",
+  "duration_s": 175.18,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Jindal Panther MS hollow section pipe की requirement है ना?",
+      "start": 0.13,
+      "end": 4.85
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं madam.",
+      "start": 6.09,
+      "end": 6.89
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। क्या आपको Jindal Panther MS hollow section pipe की requirement है?",
+      "start": 8.11,
+      "end": 13.43
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam.",
+      "start": 14.33,
+      "end": 15.17
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। क्या आपको Jindal Panther MS hollow section pipe की requirement है?",
+      "start": 16.09,
+      "end": 23.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ requirement है madam।",
+      "start": 23.81,
+      "end": 25.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने kilograms या tons की जरूरत है?",
+      "start": 26.17,
+      "end": 37.35
+    },
+    {
+      "role": "BUYER",
+      "text": "लगभग तीन सौ किलो।",
+      "start": 38.49,
+      "end": 40.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब section size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 50 cross 50 millimeters या कुछ और?",
+      "start": 41.67,
+      "end": 47.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हं।",
+      "start": 50.97,
+      "end": 51.51
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको section size में क्या prefer करेंगे?",
+      "start": 52.61,
+      "end": 57.53
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी आवाज़ नहीं। Hello एक minute madam बिल्कुल WhatsApp में WhatsApp में list भेज दो madam WhatsApp number देना।",
+      "start": 52.75,
+      "end": 67.33
+    },
+    {
+      "role": "BOT",
+      "text": "बिलकुल आप अपने आप पूरी list sellers को भेज दीजिएगा वो आपकी मदद करेंगे लेकिन best seller से connect करने के लिए details confirm कर दीजिए please। बताइए section size में क्या prefer करेंगे?",
+      "start": 62.19,
+      "end": 77.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Section Five में।",
+      "start": 78.83,
+      "end": 79.95
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे clear नहीं हो पाया। Please एक बार फिर से बता दीजिए आपको कौन सा section size चाहिए?",
+      "start": 80.95,
+      "end": 86.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ।",
+      "start": 84.89,
+      "end": 93.65
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते, क्या आप अभी भी line पे हैं? Please बताइए आपको कौन सा section size चाहिए?",
+      "start": 96.05,
+      "end": 100.51
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप बातचीत जारी रखना चाहेंगे? Please बताइए कि आपको कौन सा section size चाहिए? No.",
+      "start": 109.91,
+      "end": 120.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? seller इस detail में आपकी मदद कर देंगे। अब बताइए wall thickness में आप क्या prefer करेंगे? 2 millimeters, 4 millimeters या कुछ और?",
+      "start": 121.99,
+      "end": 129.43
+    },
+    {
+      "role": "BUYER",
+      "text": "आप बताइए। सात तक नहीं है one dash two है madam बारह पैसे।",
+      "start": 124.35,
+      "end": 138.07
+    },
+    {
+      "role": "BOT",
+      "text": "अब आपकी city और state ठीक है आप अपनी city और state भी बता दीजिए please.",
+      "start": 136.83,
+      "end": 142.29
+    },
+    {
+      "role": "BUYER",
+      "text": "ఆ మన ఆంధ్రప్రదేశ్.",
+      "start": 143.41,
+      "end": 145.91
+    },
+    {
+      "role": "BOT",
+      "text": "आप Andhra Pradesh में किस city से बोल रहे हैं please बता दीजिए।",
+      "start": 146.85,
+      "end": 150.19
+    },
+    {
+      "role": "BUYER",
+      "text": "रेखाकलम District है।",
+      "start": 150.95,
+      "end": 152.41
+    },
+    {
+      "role": "BOT",
+      "text": "आप श्रीकाकुलम आंध्र प्रदेश से बोल रहे हैं ना?",
+      "start": 153.31,
+      "end": 155.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 156.17,
+      "end": 156.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 157.95,
+      "end": 160.47
+    },
+    {
+      "role": "BUYER",
+      "text": "நாம நச்சம் மூர்த்தி எலன் மூர்த்தி.",
+      "start": 161.23,
+      "end": 164.09
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 162.61,
+      "end": 173.65
+    }
+  ],
+  "stats": {
+    "bot_turns": 15,
+    "buyer_turns": 14,
+    "longest_gap_s": 9.4,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 86.39,
+        "end": 93.17,
+        "duration_s": 6.78,
+        "after_role": "BOT"
+      },
+      {
+        "start": 100.51,
+        "end": 109.91,
+        "duration_s": 9.4,
+        "after_role": "BOT"
+      },
+      {
+        "start": 114.63,
+        "end": 120.17,
+        "duration_s": 5.54,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "call_id": "818_90643211_MD4VV3KG5",
+  "file": "data/recordings/818_90643211_MD4VV3KG5.mp3",
+  "duration_s": 82.51,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी 1 kW hybrid vertical wind turbine की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 7.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हं।",
+      "start": 8.73,
+      "end": 9.17
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब startup wind speed के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 2 meters per second या कुछ और?",
+      "start": 10.73,
+      "end": 15.53
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या?",
+      "start": 16.87,
+      "end": 17.87
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कौन सा startup wind speed चाहिए जैसे 2 meters per second, 3 meters per second या कुछ और?",
+      "start": 18.91,
+      "end": 23.27
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन चार सेकंड।",
+      "start": 25.25,
+      "end": 26.53
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिल्कुल। मैं आपसे बात ही कर रहा हूं। बताइए startup wind speed में आप क्या prefer करेंगे 2 meters per second या कुछ और?",
+      "start": 27.67,
+      "end": 33.51
+    },
+    {
+      "role": "BUYER",
+      "text": "और करिए। क्या?",
+      "start": 31.33,
+      "end": 35.57
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा करें शायद network की समस्या है। मैं आपसे 1 KW hybrid vertical wind turbine के startup wind speed के बारे में पूछ रहा था। आपको कौन सा चाहिए?",
+      "start": 36.49,
+      "end": 44.05
+    },
+    {
+      "role": "BUYER",
+      "text": "one one kilowatt का ही फिलहाल मुझे उसका rate का चाहिए और उसके trial के लिए one kilowatt का ही चाहिए उसके trial के बाद उसको हम देखेंगे expand करना होगा तो हम आपको बताएंगे।",
+      "start": 45.63,
+      "end": 56.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं समझ गया कि आपको trial के लिए एक kilowatt का चाहिए। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 57.87,
+      "end": 65.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ उसकी guarantee क्या है? service अच्छा पड़ेगा।",
+      "start": 66.79,
+      "end": 71.33
+    },
+    {
+      "role": "BOT",
+      "text": "गारंटी के बारे में आप सीधे seller से बात कर सकते हैं। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 72.39,
+      "end": 81.57
+    },
+    {
+      "role": "BUYER",
+      "text": "आप जी।",
+      "start": 72.91,
+      "end": 76.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 1.98,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "162_90643054_BA4YS3KG5",
+  "file": "data/recordings/162_90643054_BA4YS3KG5.mp3",
+  "duration_s": 43.92,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "तो आपको कौन सा product चाहिए? आप अभी call पे हैं ना बताइए आपको कौन सा product चाहिए? क्या आप हमारी बातचीत जारी रखना चाहेंगे? अगर हां तो बता दीजिए आपको कौन सा product चाहिए? IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 0.01,
+      "end": 37.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 9.02,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 1.61,
+        "end": 10.63,
+        "duration_s": 9.02,
+        "after_role": "BOT"
+      },
+      {
+        "start": 14.01,
+        "end": 21.91,
+        "duration_s": 7.9,
+        "after_role": "BOT"
+      },
+      {
+        "start": 27.01,
+        "end": 34.87,
+        "duration_s": 7.86,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "call_id": "87_90741469_X3C8EL4H5",
+  "file": "data/recordings/87_90741469_X3C8EL4H5.mp3",
+  "duration_s": 92.16,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको roof exhaust fan की requirement है ना?",
+      "start": 0.23,
+      "end": 3.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ hello आपको",
+      "start": 0.89,
+      "end": 6.59
+    },
+    {
+      "role": "BOT",
+      "text": "Hello आपको room exhaust fan की जरूरत थी ना?",
+      "start": 5.33,
+      "end": 7.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ yes madam. Hello.",
+      "start": 8.39,
+      "end": 11.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे... कई अच्छे sellers available हैं जैसे तमिल मर्म।",
+      "start": 11.51,
+      "end": 19.05
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको...",
+      "start": 19.01,
+      "end": 24.35
+    },
+    {
+      "role": "BOT",
+      "text": "ये sellers available हैं।",
+      "start": 21.99,
+      "end": 23.53
+    },
+    {
+      "role": "BUYER",
+      "text": "और।",
+      "start": 25.65,
+      "end": 26.77
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कितने piece? समझ गई। आपको कितने piece चाहिए होंगे?",
+      "start": 25.81,
+      "end": 30.95
+    },
+    {
+      "role": "BUYER",
+      "text": "पंद्रह Madam.",
+      "start": 32.05,
+      "end": 33.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब बताइए आपको कितने piece चाहिए?",
+      "start": 35.17,
+      "end": 37.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. I know madam I only Tamil.",
+      "start": 35.43,
+      "end": 40.65
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं सिर्फ हिंदी या English में बात कर सकती हूँ। कितने piece चाहिए आपको?",
+      "start": 43.47,
+      "end": 48.05
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा। English madam को। Only English.",
+      "start": 44.79,
+      "end": 49.73
+    },
+    {
+      "role": "BOT",
+      "text": "Sure. I can. Okay, I will speak in English now. How many pieces do you need?",
+      "start": 49.73,
+      "end": 54.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ஆ yes yes ஆ பாண்டிச்சேரி. हम्म hello.",
+      "start": 52.75,
+      "end": 59.17
+    },
+    {
+      "role": "BOT",
+      "text": "Could you please tell me your city and state?",
+      "start": 61.03,
+      "end": 63.39
+    },
+    {
+      "role": "BUYER",
+      "text": "தமிழ்நாடு பாண்டிச்சேரி",
+      "start": 64.61,
+      "end": 67.99
+    },
+    {
+      "role": "BOT",
+      "text": "Are you calling from Pondicherry Tamil Nadu?",
+      "start": 69.01,
+      "end": 71.15
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes Madam.",
+      "start": 72.05,
+      "end": 72.87
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. May I know your name please?",
+      "start": 74.87,
+      "end": 76.69
+    },
+    {
+      "role": "BUYER",
+      "text": "My name [NAME].",
+      "start": 77.85,
+      "end": 79.63
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you [NAME]. I will send you seller details on WhatsApp where you can discuss further details and price. Thank you for choosing IndiaMART. Have a great day.",
+      "start": 81.75,
+      "end": 90.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ। हाँ okay madam.",
+      "start": 85.81,
+      "end": 92.45
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 12,
+    "longest_gap_s": 2.82,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

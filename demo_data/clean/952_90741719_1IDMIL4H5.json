@@ -1,0 +1,57 @@
+{
+  "call_id": "952_90741719_1IDMIL4H5",
+  "file": "data/recordings/952_90741719_1IDMIL4H5.mp3",
+  "duration_s": 35.14,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Skinoshine lotion की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.11,
+      "end": 5.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 8.75,
+      "end": 9.25
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब primary benefit के बारे में बात कर लेते हैं। आपको कौन सा चाहिए brightening या oil control या कुछ और?",
+      "start": 11.01,
+      "end": 16.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Old screenshot. ठीक है मैं इंतजार कर रहा हूं। माफ़ कीजिए मैं आपकी बात नहीं सुन पाया। आपको कौन सा primary benefit चाहिए जैसे brightening या oil control या कुछ?",
+      "start": 19.83,
+      "end": 35.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 6.1,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 23.53,
+        "end": 29.63,
+        "duration_s": 6.1,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

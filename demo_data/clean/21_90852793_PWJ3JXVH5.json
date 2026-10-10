@@ -1,0 +1,86 @@
+{
+  "call_id": "21_90852793_PWJ3JXVH5",
+  "file": "data/recordings/21_90852793_PWJ3JXVH5.mp3",
+  "duration_s": 91.66,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको aluminum control panel name plate की requirement है ना?",
+      "start": 0.17,
+      "end": 4.69
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.61,
+      "end": 6.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए होंगे?",
+      "start": 8.51,
+      "end": 18.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. हाँ। name plate तो ma'am वैसे एक ही हमारा sorry actually एक ही flat number है तो एक ही हमको name plate लगेगा।",
+      "start": 15.23,
+      "end": 25.23
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया समझ गए। चलिए अब manufacturing process के बारे में बताइए। आपको कौन सा चाहिए anodized printing या कुछ और?",
+      "start": 27.35,
+      "end": 33.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Means ma'am, in that, behind the naming, there's lighting, right? Like, if we turn on the light, the name should actually glow. The lighting one, what they call a nameplate. It's a white color marble type, no sorry, a white color fiber type something. The name is edited, edged, and the names and everything else are there.",
+      "start": 29.23,
+      "end": 52.47
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए आपकी जरूरत थोड़ी special है light वाली fiber name plate। अब thickness में क्या चाहिए एक millimeter या कुछ और?",
+      "start": 54.65,
+      "end": 60.59
+    },
+    {
+      "role": "BUYER",
+      "text": "अ means normal means उसका square foot actually में मैंने measure नहीं किया है। मैं अभी बता नहीं सकता आपको मतलब लेकिन वो उतना ही नाम name flat number और guardian name बस उतना ही mention होना चाहिए ज्यादा कुछ नहीं उसमें।",
+      "start": 61.39,
+      "end": 77.53
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं। ये सारी details आप seller को बता सकते हैं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 81.11,
+      "end": 91.79
+    },
+    {
+      "role": "BUYER",
+      "text": "सुनने के लिए।",
+      "start": 89.89,
+      "end": 90.35
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 3.58,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

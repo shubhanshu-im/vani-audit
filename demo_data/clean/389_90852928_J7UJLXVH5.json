@@ -1,0 +1,225 @@
+{
+  "call_id": "389_90852928_J7UJLXVH5",
+  "file": "data/recordings/389_90852928_J7UJLXVH5.mp3",
+  "duration_s": 183.89,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको IP based AIS 600 security की requirement है ना?",
+      "start": 0.19,
+      "end": 5.23
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। हाँ।",
+      "start": 3.81,
+      "end": 6.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece की जरूरत है? मैं Italian बोल रही हूं।",
+      "start": 8.35,
+      "end": 9.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हम। दो तीन बच्चे आए तो",
+      "start": 11.45,
+      "end": 21.99
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए आपको कितनी quantity चाहिए?",
+      "start": 21.47,
+      "end": 25.75
+    },
+    {
+      "role": "BUYER",
+      "text": "तो दो cake दिया के लिए।",
+      "start": 24.77,
+      "end": 29.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है तो ये display type के बारे में बात कर लेते हैं आपको digital चाहिए या कुछ और?",
+      "start": 28.63,
+      "end": 33.05
+    },
+    {
+      "role": "BUYER",
+      "text": "बारे में बात। हाँ। ठीक है।",
+      "start": 30.05,
+      "end": 34.99
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। बताइए display type में क्या prefer करेंगे digital TFT या कोई और?",
+      "start": 36.05,
+      "end": 40.77
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या? काहे?",
+      "start": 43.71,
+      "end": 48.57
+    },
+    {
+      "role": "BOT",
+      "text": "मैं बस आपकी requirement confirm कर रही हूं ताकि आपको सही seller से connect कर सकूं। बताइए display type में क्या prefer करेंगे?",
+      "start": 48.21,
+      "end": 55.13
+    },
+    {
+      "role": "BUYER",
+      "text": "कहाँ से mobile आएगी?",
+      "start": 56.05,
+      "end": 57.41
+    },
+    {
+      "role": "BOT",
+      "text": "आप seller से connect होने के बाद delivery के बारे में discuss कर सकते हैं। बस यह बता दीजिए कि display type में क्या prefer करेंगे?",
+      "start": 58.53,
+      "end": 65.61
+    },
+    {
+      "role": "BUYER",
+      "text": "कितना समय हो गया? कैसे कुछ नहीं क्या phone card",
+      "start": 65.63,
+      "end": 75.53
+    },
+    {
+      "role": "BOT",
+      "text": "ये एक biometric access control device है। अगर आप unsure हैं तो seller आपको इसकी पूरी जानकारी दे देंगे। क्या आप digital prefer करेंगे?",
+      "start": 76.45,
+      "end": 84.47
+    },
+    {
+      "role": "BUYER",
+      "text": "अंशु। क्या मुझे करना है बताइए।",
+      "start": 79.51,
+      "end": 89.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बस आपकी location और नाम confirm करना है। ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 90.49,
+      "end": 96.49
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या? समझा नहीं क्या?",
+      "start": 97.65,
+      "end": 101.53
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे clear नहीं हो पाया। Please एक बार फिर से बता दीजिए आप कौन सी city और state से बोल रहे हैं?",
+      "start": 102.65,
+      "end": 108.25
+    },
+    {
+      "role": "BUYER",
+      "text": "आप कहाँ से बोल रहे हैं?",
+      "start": 111.91,
+      "end": 113.21
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बोल रही हूं। Please आप अपनी city और state बता दीजिए ताकि मैं आपको सही seller से connect कर सकूं।",
+      "start": 114.03,
+      "end": 120.31
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या बता दें?",
+      "start": 121.07,
+      "end": 122.09
+    },
+    {
+      "role": "BOT",
+      "text": "जी please अपनी city और state बता दीजिए।",
+      "start": 123.11,
+      "end": 125.39
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे पता नहीं क्या बताऊँ मैं।",
+      "start": 131.21,
+      "end": 133.53
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं बस अपनी city और state का नाम बता दीजिए जहां आपको product deliver करवाना है।",
+      "start": 134.81,
+      "end": 139.65
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा नाम मोहम्मद फरहान है।",
+      "start": 141.89,
+      "end": 144.41
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 145.37,
+      "end": 147.91
+    },
+    {
+      "role": "BUYER",
+      "text": "location कासिम किराना।",
+      "start": 149.65,
+      "end": 151.49
+    },
+    {
+      "role": "BOT",
+      "text": "कासिम किराना किसी city का नाम नहीं लग रहा है। क्या आप अपनी city और state का नाम बता सकते हैं?",
+      "start": 152.63,
+      "end": 157.65
+    },
+    {
+      "role": "BUYER",
+      "text": "काशिम सुलेमानी। क्षमा कीजिए मुझे यह city समझ नहीं आया। क्या आप अपनी city और state का नाम फिर से बता सकते हैं? जहाँ लाना है order कासिम सुलेमानी के पास। हजार।",
+      "start": 158.35,
+      "end": 172.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं आपका नाम मोहम्मद फरहान note कर लेती हूं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 173.77,
+      "end": 181.51
+    },
+    {
+      "role": "BUYER",
+      "text": "हलावत। ठीक है।",
+      "start": 174.07,
+      "end": 182.73
+    }
+  ],
+  "stats": {
+    "bot_turns": 16,
+    "buyer_turns": 16,
+    "longest_gap_s": 5.82,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 125.39,
+        "end": 131.21,
+        "duration_s": 5.82,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

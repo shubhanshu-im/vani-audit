@@ -1,0 +1,110 @@
+{
+  "call_id": "668_90643138_GY7SU3KG5",
+  "file": "data/recordings/668_90643138_GY7SU3KG5.mp3",
+  "duration_s": 67.9,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 3.85
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Ma'am।",
+      "start": 5.33,
+      "end": 6.27
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं IndiaMART से बोल रही हूं। आप please बताइए कि आपको कौन सा product चाहिए?",
+      "start": 7.59,
+      "end": 11.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। और एक pilot चाहिए था।",
+      "start": 8.19,
+      "end": 16.93
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो meter बिजली या पानी की reading नापने के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 17.83,
+      "end": 22.81
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। नहीं।",
+      "start": 24.35,
+      "end": 26.35
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है। कोई बात नहीं मैं आपकी मदद करूंगी। आपको कितने piece चाहिए होंगे?",
+      "start": 26.53,
+      "end": 33.31
+    },
+    {
+      "role": "BUYER",
+      "text": "call कर रहे थे। जी।",
+      "start": 27.49,
+      "end": 35.97
+    },
+    {
+      "role": "BOT",
+      "text": "मैंने पूछा कि आपको कितने piece चाहिए होंगे? Please बता दीजिए।",
+      "start": 36.89,
+      "end": 40.43
+    },
+    {
+      "role": "BUYER",
+      "text": "एक piece चाहिए। ठीक है?",
+      "start": 43.81,
+      "end": 46.49
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 46.57,
+      "end": 51.71
+    },
+    {
+      "role": "BUYER",
+      "text": "कहाँ से बोल रहे हैं आप?",
+      "start": 55.67,
+      "end": 56.87
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बोल रही हूं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 57.71,
+      "end": 62.25
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद। Hello. Hello.",
+      "start": 60.47,
+      "end": 66.57
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 3.96,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

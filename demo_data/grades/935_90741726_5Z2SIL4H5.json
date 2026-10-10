@@ -1,0 +1,300 @@
+{
+  "call_id": "935_90741726_5Z2SIL4H5",
+  "duration_s": 77.18,
+  "graded_at": "2026-10-10T12:46:02+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec1 Accuracy, WER, OnCall AstBuy Error",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको operation mode automatic ही चाहिए ना?",
+      "timestamp": 40.69,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard 100-200 kg/hr as automatic",
+      "evidence_verified": true,
+      "llm_timestamp": 60.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको operation mode automatic ही चाहिए ना?",
+      "timestamp": 40.69,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard capacity as automatic",
+      "evidence_verified": true,
+      "llm_timestamp": 60.7
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी",
+      "timestamp": 18.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Offered seller but did not transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 18.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer intent is clear"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity asked"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity stated by buyer"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको operation mode automatic ही चाहिए ना?",
+      "timestamp": 40.69,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard 100-200 kg/hr as automatic",
+      "evidence_verified": true,
+      "llm_timestamp": 60.7
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec asked"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important spec missed"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping observed"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको operation mode automatic ही चाहिए ना?",
+      "timestamp": 40.69,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard capacity as automatic",
+      "evidence_verified": true,
+      "llm_timestamp": 60.7
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी",
+      "timestamp": 18.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Offered seller but did not transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 18.1
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product not changed"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No issues observed"
+    }
+  ],
+  "captured_lead": {
+    "product": "paddy separator",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "capacity",
+        "value": "automatic"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked if bot is talking about another product",
+      "timestamp": 11.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard buyer's capacity requirement (100-200 kg/hr) as 'automatic' operation mode. Also offered to connect seller but did not complete transfer.",
+  "analysis": "Buyer wants to buy a paddy separator and mentioned capacity 100-200 kg/hr, but also said 'Yes yes I want to participate' which is unclear. Bot captured product as paddy separator, capacity as automatic (misheard 100-200 kg/hr), and offered to connect a seller. Call ended with seller transfer offer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3581,
+    "completion_tokens": 1141
+  },
+  "unresolved_problems": []
+}

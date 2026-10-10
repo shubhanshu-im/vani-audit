@@ -1,0 +1,130 @@
+{
+  "call_id": "558_90685089_8NA5K1UG5",
+  "file": "data/recordings/558_90685089_8NA5K1UG5.mp3",
+  "duration_s": 100.87,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello. जी।",
+      "start": 0.41,
+      "end": 1.13
+    },
+    {
+      "role": "BOT",
+      "text": "आपको plastic empty water bottle की requirement है ना?",
+      "start": 1.23,
+      "end": 4.17
+    },
+    {
+      "role": "BUYER",
+      "text": "and तीन भरी हुई चीजें।",
+      "start": 7.91,
+      "end": 9.57
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए।",
+      "start": 11.27,
+      "end": 14.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Empty नहीं खाली bottle नहीं भरी हुई bottle चाहिए जिसमें पानी हो और वो seal pack हो।",
+      "start": 15.85,
+      "end": 20.17
+    },
+    {
+      "role": "BOT",
+      "text": "आपको पानी से भरी हुई seal pack bottle चाहिए जो पीने के लिए इस्तेमाल होती है यही चाहिए ना?",
+      "start": 21.53,
+      "end": 26.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ जिसपे मैं अपना label लगा सकता हूँ बिना label के भी।",
+      "start": 27.81,
+      "end": 31.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 32.41,
+      "end": 39.33
+    },
+    {
+      "role": "BUYER",
+      "text": "ये sample के बारह piece दे दो।",
+      "start": 41.77,
+      "end": 45.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। चलिए अब capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 1 liter या कुछ और?",
+      "start": 46.59,
+      "end": 51.99
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन सी है?",
+      "start": 53.67,
+      "end": 54.59
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। बताइए material में क्या prefer करेंगे P8 HDP या कोई और?",
+      "start": 55.75,
+      "end": 59.99
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब अच्छी quality की plastic हो premium।",
+      "start": 62.35,
+      "end": 65.45
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। premium quality के लिए आप PET या polycarbonate ले सकते हैं। इनमें से कौन सा prefer करेंगे?",
+      "start": 66.55,
+      "end": 72.29
+    },
+    {
+      "role": "BUYER",
+      "text": "जो आपको ठीक लगे मुझे ज्यादा इसके बारे में पता नहीं पर अच्छी होनी चाहिए।",
+      "start": 73.49,
+      "end": 77.39
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं seller आपकी इसमें मदद कर देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 78.59,
+      "end": 92.63
+    },
+    {
+      "role": "BUYER",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। Hello.",
+      "start": 90.83,
+      "end": 96.21
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 4
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

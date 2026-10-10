@@ -1,0 +1,128 @@
+{
+  "call_id": "613_90685095_H7D8K1UG5",
+  "file": "data/recordings/613_90685095_H7D8K1UG5.mp3",
+  "duration_s": 83.95,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 8 inch golden fiber trophy की requirement है ना?",
+      "start": 0.01,
+      "end": 4.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नमस्ते आपको 8 inch golden fiber trophy की requirement थी ना? हाँ Ma'am.",
+      "start": 4.09,
+      "end": 12.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं India Mart। जी बताइए मैं आपकी क्या मदद कर सकती हूं? मैं Tanya बोल रही हूँ।",
+      "start": 13.01,
+      "end": 14.03
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं यूं कह रहा हूं मतलब एक trophy attending कितने रुपए की आएगी?",
+      "start": 18.39,
+      "end": 22.27
+    },
+    {
+      "role": "BOT",
+      "text": "आप price की चिंता ना करें आपको best rates मिलेंगे। बस कुछ details confirm कर दीजिए फिर मैं आपको seller से connect करवा दूंगी। आपको कितने piece चाहिए?",
+      "start": 23.51,
+      "end": 31.95
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। एक चाहिए पहले price बताओ।",
+      "start": 31.13,
+      "end": 34.35
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। price के लिए मैं आपको seller से connect करवा दूंगी। वो आपको best rates बताएंगे। बस कुछ और details confirm कर दीजिए।",
+      "start": 35.29,
+      "end": 42.49
+    },
+    {
+      "role": "BUYER",
+      "text": "पहले price बताओ।",
+      "start": 43.39,
+      "end": 45.47
+    },
+    {
+      "role": "BOT",
+      "text": "देखिए price seller ही बता पाएंगे और वो आपको best rates देंगे। बस कुछ details confirm कर दीजिए ताकि मैं आपको सही seller से connect कर सकूं।",
+      "start": 46.67,
+      "end": 54.09
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 54.03,
+      "end": 57.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं आपको material fiber ही चाहिए ना?",
+      "start": 56.85,
+      "end": 59.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes yes.",
+      "start": 61.35,
+      "end": 62.17
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा। ठीक है? मैं देख सकती हूं कि आपने height में 8 inch चुना है right?",
+      "start": 61.47,
+      "end": 67.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ये तीन चीज मारना है।",
+      "start": 63.93,
+      "end": 70.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब आपकी city और state भी बता दीजिए please.",
+      "start": 70.77,
+      "end": 73.33
+    },
+    {
+      "role": "BUYER",
+      "text": "नो पहले पहले ये बताओ price कितनी है? जैसा कि मैंने बताया price seller ही बता पाएंगे और वो आपको best rates देंगे।",
+      "start": 73.97,
+      "end": 81.38
+    },
+    {
+      "role": "BOT",
+      "text": "Please अपनी city और state बता दीजिए।",
+      "start": 81.38,
+      "end": 83.35
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 1.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

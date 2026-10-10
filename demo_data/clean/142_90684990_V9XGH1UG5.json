@@ -1,0 +1,165 @@
+{
+  "call_id": "142_90684990_V9XGH1UG5",
+  "file": "data/recordings/142_90684990_V9XGH1UG5.mp3",
+  "duration_s": 111.31,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको HDB Financial printed T-shirt की requirement है ना?",
+      "start": 0.01,
+      "end": 4.69
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 6.61,
+      "end": 7.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 8.49,
+      "end": 14.35
+    },
+    {
+      "role": "BUYER",
+      "text": "एक piece चाहिए ma'am.",
+      "start": 15.83,
+      "end": 16.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब fabric के बारे में बात कर लेते हैं। आपको cotton चाहिए या कुछ और?",
+      "start": 18.05,
+      "end": 22.35
+    },
+    {
+      "role": "BUYER",
+      "text": "कुछ cotton से भी कुछ अच्छा होता है क्या?",
+      "start": 24.71,
+      "end": 27.95
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप polyester या polycotton भी try कर सकते हैं? बताइए आप इनमें से क्या prefer करेंगे या कुछ और?",
+      "start": 29.31,
+      "end": 35.49
+    },
+    {
+      "role": "BUYER",
+      "text": "इन दोनों में से क्या बेहतर है?",
+      "start": 36.67,
+      "end": 40.51
+    },
+    {
+      "role": "BOT",
+      "text": "cotton ज्यादा आरामदायक होता है और polyester टिकाऊ। आप अपनी जरूरत के हिसाब से चुन सकते हैं। आपको क्या चाहिए?",
+      "start": 41.69,
+      "end": 47.77
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या दोबारा repeat करिए ma'am?",
+      "start": 48.83,
+      "end": 50.27
+    },
+    {
+      "role": "BOT",
+      "text": "cotton आरामदायक होता है और polyester ज्यादा टिकाऊ। आप अपनी जरूरत के हिसाब से चुन सकते हैं। आपको क्या चाहिए?",
+      "start": 51.67,
+      "end": 57.91
+    },
+    {
+      "role": "BUYER",
+      "text": "और ये सर मतलब ये है कि हल्का मोटा type का होता है क्या?",
+      "start": 60.21,
+      "end": 64.89
+    },
+    {
+      "role": "BOT",
+      "text": "जी polyester थोड़ा मजबूत और टिकाऊ होता है। तो क्या मैं polyester confirm कर दूं?",
+      "start": 66.13,
+      "end": 70.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ police में करूँगा।",
+      "start": 72.09,
+      "end": 73.49
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए? अब next style में आप क्या prefer करेंगे round neck, polo neck या कुछ और?",
+      "start": 75.09,
+      "end": 79.47
+    },
+    {
+      "role": "BUYER",
+      "text": "बोलूं ना।",
+      "start": 80.71,
+      "end": 81.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 82.51,
+      "end": 87.57
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 89.05,
+      "end": 89.91
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी line पर हैं?",
+      "start": 96.51,
+      "end": 97.75
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Ma'am बता।",
+      "start": 99.03,
+      "end": 100.07
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 101.21,
+      "end": 104.09
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay ये कितने बजे available रहेंगे?",
+      "start": 105.59,
+      "end": 108.01
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 6.6,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 89.91,
+        "end": 96.51,
+        "duration_s": 6.6,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

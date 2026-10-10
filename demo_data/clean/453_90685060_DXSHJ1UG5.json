@@ -1,0 +1,46 @@
+{
+  "call_id": "453_90685060_DXSHJ1UG5",
+  "file": "data/recordings/453_90685060_DXSHJ1UG5.mp3",
+  "duration_s": 29.66,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको card हेलो आपको Kardia mobile strip से sleep personal ECG monitor की requirement है ना?",
+      "start": 0.01,
+      "end": 5.31
+    },
+    {
+      "role": "BUYER",
+      "text": "mobile system से fleet personal ECG monitor की requirement है ना? हाँ। हाँ। माफ़ कीजिए आपकी आवाज़ अभी तक सही से नहीं आ रही है। क्या आप ज़रा शांत जगह जाकर या थोड़ा ज़ोर से बोल सकते हैं?",
+      "start": 1.95,
+      "end": 26.37
+    },
+    {
+      "role": "BOT",
+      "text": "বলুন।",
+      "start": 26.77,
+      "end": 29.51
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 0.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

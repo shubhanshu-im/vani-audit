@@ -1,0 +1,98 @@
+{
+  "call_id": "635_90741626_PZ3KHL4H5",
+  "file": "data/recordings/635_90741626_PZ3KHL4H5.mp3",
+  "duration_s": 64.37,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 1000 liter IBC tank की requirement है ना?",
+      "start": 0.01,
+      "end": 4.11
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। हाँ सर हाँ Ma'am।",
+      "start": 2.75,
+      "end": 6.97
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 8.17,
+      "end": 14.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Only one piece ma'am.",
+      "start": 15.77,
+      "end": 17.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब condition के बारे में बात कर लेते हैं। आपको new चाहिए या used?",
+      "start": 18.09,
+      "end": 21.95
+    },
+    {
+      "role": "BUYER",
+      "text": "use वाला भी होगा क्योंकि new तो बहुत महंगा आएगा ना ma'am.",
+      "start": 23.35,
+      "end": 26.87
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब capacity बताइए आपको 1000 liters चाहिए या 500 liters?",
+      "start": 27.89,
+      "end": 32.69
+    },
+    {
+      "role": "BUYER",
+      "text": "1000 1000 1000 ज्यादा 1000 के ऊपर होने से भी 1500 लेगा अगर नहीं होने से 1000 ही लेगा।",
+      "start": 34.13,
+      "end": 42.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 43.99,
+      "end": 49.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay Ma'am, can you deliver to my address?",
+      "start": 51.05,
+      "end": 53.25
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप delivery के बारे में seller से discuss कर सकते हैं। वो आपकी पूरी मदद करेंगे। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 54.61,
+      "end": 61.73
+    },
+    {
+      "role": "BUYER",
+      "text": "इवा।",
+      "start": 60.35,
+      "end": 60.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 1.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

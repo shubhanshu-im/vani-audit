@@ -1,0 +1,206 @@
+{
+  "call_id": "310_90852876_E9IZKXVH5",
+  "file": "data/recordings/310_90852876_E9IZKXVH5.mp3",
+  "duration_s": 171.94,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको KMI 2254 hair clipper की requirement है ना?",
+      "start": 0.01,
+      "end": 5.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ hello.",
+      "start": 8.31,
+      "end": 9.11
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 10.41,
+      "end": 16.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. ये जो किमाई वाला trimmer है।",
+      "start": 11.71,
+      "end": 22.31
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ गई। आपको कितने piece चाहिए?",
+      "start": 23.49,
+      "end": 25.87
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी हमको तीन बार दो piece चाहिए।",
+      "start": 27.81,
+      "end": 32.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है चलिए अब brand के बारे में बात कर लेते हैं आपको Nova Philips या कुछ और चाहिए?",
+      "start": 33.05,
+      "end": 38.69
+    },
+    {
+      "role": "BUYER",
+      "text": "ନାଇଁ ନୂଆ ନାହିଁ ସେଇଟା।",
+      "start": 40.51,
+      "end": 43.81
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। फिर आप",
+      "start": 45.01,
+      "end": 46.53
+    },
+    {
+      "role": "BUYER",
+      "text": "समझ गई फिर आप।",
+      "start": 45.09,
+      "end": 47.49
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको brand में क्या prefer करेंगे?",
+      "start": 48.57,
+      "end": 53.37
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी आवाज़। आवाज समझ में नहीं आ रहा था हाँ बोलिए तो बोलिए।",
+      "start": 48.79,
+      "end": 60.27
+    },
+    {
+      "role": "BOT",
+      "text": "मैं पूछ रही थी कि brand में आप क्या prefer करेंगे जैसे Philips या कोई और?",
+      "start": 61.49,
+      "end": 65.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। नहीं चेनी की जो machine हम use कर रहे हैं।",
+      "start": 62.65,
+      "end": 71.23
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या नहीं सही? अब बताइए power में क्या prefer करेंगे? जैसे 1800 watts, 1000 watts या कुछ और?",
+      "start": 72.61,
+      "end": 79.65
+    },
+    {
+      "role": "BUYER",
+      "text": "दिखाना की कौन है machine जो machine अभी देख रहे है ना केमी वाला हम। यही machine हमको चाहिए।",
+      "start": 82.47,
+      "end": 90.57
+    },
+    {
+      "role": "BOT",
+      "text": "मशीन नंबर। ठीक है। बस ये बता दीजिए कि power में आप क्या prefer करेंगे? जैसे 1800 watts या कुछ और?",
+      "start": 89.39,
+      "end": 97.41
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे हिंदी में बोलिए ना क्या है हिंदी में से बोला।",
+      "start": 99.85,
+      "end": 103.75
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिएगा। मैं पूछ रही थी कि machine की power कितनी होनी चाहिए जैसे एक हज़ार आठ सौ watt या कुछ और?",
+      "start": 104.93,
+      "end": 110.67
+    },
+    {
+      "role": "BUYER",
+      "text": "कितना कितना आता है बताइएगा तब तो बताइए।",
+      "start": 112.43,
+      "end": 115.65
+    },
+    {
+      "role": "BOT",
+      "text": "इसमें एक हज़ार आठ सौ एक हज़ार दो हज़ार बारह सौ अट्ठाईस सौ या पंद्रह सौ watt के options हैं आप क्या लेंगे",
+      "start": 117.17,
+      "end": 123.47
+    },
+    {
+      "role": "BUYER",
+      "text": "ये कितना कितना है ये जो machine हम देखे थे ये कितना है इसमें?",
+      "start": 125.45,
+      "end": 129.85
+    },
+    {
+      "role": "BOT",
+      "text": "आप इसकी details और price seller से discuss कर सकते हैं। वो आपको best rate देंगे। आप इनमें से क्या prefer करेंगे?",
+      "start": 131.23,
+      "end": 137.29
+    },
+    {
+      "role": "BUYER",
+      "text": "तो",
+      "start": 140.85,
+      "end": 142.23
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ नहीं आई। आप power में क्या prefer करेंगे?",
+      "start": 143.55,
+      "end": 146.95
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं। हजार हम भेजिए ना।",
+      "start": 144.55,
+      "end": 150.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? 1000 watt आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 152.23,
+      "end": 158.19
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको मैं ठीक।",
+      "start": 153.17,
+      "end": 160.67
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 161.83,
+      "end": 164.61
+    },
+    {
+      "role": "BUYER",
+      "text": "ঠিক ঠিক ঠিক ঠিক দেখাইয়ে।",
+      "start": 167.19,
+      "end": 171.53
+    }
+  ],
+  "stats": {
+    "bot_turns": 15,
+    "buyer_turns": 15,
+    "longest_gap_s": 3.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

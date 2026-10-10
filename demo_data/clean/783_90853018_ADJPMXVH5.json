@@ -1,0 +1,177 @@
+{
+  "call_id": "783_90853018_ADJPMXVH5",
+  "file": "data/recordings/783_90853018_ADJPMXVH5.mp3",
+  "duration_s": 131.62,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.09,
+      "end": 4.03
+    },
+    {
+      "role": "BUYER",
+      "text": "वही sir ये मेरे stone।",
+      "start": 5.57,
+      "end": 7.79
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई। क्या आप बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 9.13,
+      "end": 13.85
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी आवाज़। आटा चक्की का जातक चौदह इंच।",
+      "start": 9.53,
+      "end": 18.35
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो अनाज पीसने वाली आटा चक्की चाहिए ना वही product चाहिए।",
+      "start": 19.41,
+      "end": 22.91
+    },
+    {
+      "role": "BUYER",
+      "text": "उसका बस जात बस।",
+      "start": 24.11,
+      "end": 25.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको आटा चक्की ही चाहिए। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब motor power के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 10 HP या कुछ और?",
+      "start": 26.89,
+      "end": 38.39
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं। हमको आटा चक्की का पत्थर चाहिए बस।",
+      "start": 30.05,
+      "end": 43.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप इसकी details seller से भी discuss कर लीजिएगा। बताइए motor power में क्या prefer करेंगे 10 HP 5 HP या कोई और?",
+      "start": 44.49,
+      "end": 51.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारा तीन AC का motor लगा हुआ है उसमें सिर्फ पत्थर डालना है पत्थर खराब हुआ है।",
+      "start": 52.95,
+      "end": 58.79
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा, तो आप 3 ampere hour वाला motor use कर रहे हैं। चलिए अब production capacity देख लेते हैं। आपको कौन सा चाहिए 100 kilograms per hour या कुछ और? नमस्ते क्या आप अभी line पे हैं? Please बताइए।",
+      "start": 59.95,
+      "end": 77.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 77.77,
+      "end": 79.43
+    },
+    {
+      "role": "BOT",
+      "text": "जी तो बताइए production capacity में आप क्या prefer करेंगे 100 kilograms per hour या कुछ और?",
+      "start": 80.63,
+      "end": 85.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ सौ किलो।",
+      "start": 87.45,
+      "end": 88.75
+    },
+    {
+      "role": "BOT",
+      "text": "तो आप 100 kilograms per hour prefer करेंगे सही है?",
+      "start": 89.95,
+      "end": 92.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 94.07,
+      "end": 94.87
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते क्या आप अभी line पे हैं? Please confirm कर दीजिए।",
+      "start": 99.93,
+      "end": 103.25
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 102.97,
+      "end": 105.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए चक्की size में क्या prefer करेंगे? 18 inch, 16 inch या कोई और?",
+      "start": 106.23,
+      "end": 111.15
+    },
+    {
+      "role": "BUYER",
+      "text": "चौदह इंच।",
+      "start": 112.45,
+      "end": 115.39
+    },
+    {
+      "role": "BOT",
+      "text": "तो आप चौदह inch prefer करेंगे सही है?",
+      "start": 116.45,
+      "end": 118.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 119.69,
+      "end": 120.55
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो। एक ही problem है।",
+      "start": 121.63,
+      "end": 131.43
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 11,
+    "longest_gap_s": 6.94,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 68.01,
+        "end": 74.95,
+        "duration_s": 6.94,
+        "after_role": "BOT"
+      },
+      {
+        "start": 94.87,
+        "end": 99.93,
+        "duration_s": 5.06,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

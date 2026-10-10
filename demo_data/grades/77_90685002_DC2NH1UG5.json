@@ -1,0 +1,322 @@
+{
+  "call_id": "77_90685002_DC2NH1UG5",
+  "duration_s": 78.98,
+  "graded_at": "2026-10-10T12:41:56+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Buyer clearly stated 35 pieces but bot never captured it",
+  "fatal_params": [
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अह fees तो मतलब पहले चाहिए था ma'am। अह पैंतीस fees चाहिए था।",
+      "timestamp": 15.21,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 35 pieces but bot never captured it",
+      "evidence_verified": true,
+      "llm_timestamp": 22.7
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Eight जे का चाहिए sir high five.",
+      "timestamp": 35.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer's 'i5' was misheard as 'Eight J' but intent was clear",
+      "evidence_verified": true,
+      "llm_timestamp": 35.8
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी मैं आपको अच्छे sellers से connect करने में मदद करूंगी।",
+      "timestamp": 60.61,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send seller details but did not transfer or confirm lead",
+      "evidence_verified": true,
+      "llm_timestamp": 60.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी मैं आपको अच्छे sellers से connect करने में मदद करूंगी।",
+      "timestamp": 60.61,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp instead of transferring",
+      "evidence_verified": true,
+      "llm_timestamp": 60.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product and specs, bot closed with seller details"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer mentioned 35 pieces but bot never captured or confirmed it"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was captured by the bot"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided a number"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अह fees तो मतलब पहले चाहिए था ma'am। अह पैंतीस fees चाहिए था।",
+      "timestamp": 15.21,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 35 pieces but bot never captured it",
+      "evidence_verified": true,
+      "llm_timestamp": 22.7
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Eight जे का चाहिए sir high five.",
+      "timestamp": 35.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed Intel Core i5, bot understood 'high five'"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ADGB.",
+      "timestamp": 45.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed 8GB, bot captured 8GB"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for storage and buyer did not provide a specific value"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not loop on any question"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Eight जे का चाहिए sir high five.",
+      "timestamp": 35.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer's 'i5' was misheard as 'Eight J' but intent was clear",
+      "evidence_verified": true,
+      "llm_timestamp": 35.8
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were captured by the bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी मैं आपको अच्छे sellers से connect करने में मदद करूंगी।",
+      "timestamp": 60.61,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send seller details but did not transfer or confirm lead",
+      "evidence_verified": true,
+      "llm_timestamp": 60.6
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never changed or disputed"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory spec options were presented by the bot"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी मैं आपको अच्छे sellers से connect करने में मदद करूंगी।",
+      "timestamp": 60.61,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp instead of transferring",
+      "evidence_verified": true,
+      "llm_timestamp": 60.6
+    }
+  ],
+  "captured_lead": {
+    "product": "HP EliteBook X2 GR detachable",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "processor",
+        "value": "Intel Core i5"
+      },
+      {
+        "name": "ram",
+        "value": "8 GB"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Quantity 35 pieces was stated but never captured",
+      "timestamp": 22.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture quantity (35 pieces) and buyer's name/location before closing. Promised WhatsApp follow-up instead of transferring or creating a lead.",
+  "analysis": "Buyer wanted 35 pieces of HP EliteBook X2 GR detachable. Bot asked for processor, RAM, and storage. Buyer confirmed Intel Core i5 and 8GB RAM. Bot did not capture quantity (35 pieces) or name/location. Bot closed by promising to send seller details on WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3684,
+    "completion_tokens": 1334
+  },
+  "unresolved_problems": []
+}

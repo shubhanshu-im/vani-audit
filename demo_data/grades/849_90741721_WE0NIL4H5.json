@@ -1,0 +1,290 @@
+{
+  "call_id": "849_90741721_WE0NIL4H5",
+  "duration_s": 78.91,
+  "graded_at": "2026-10-10T12:43:50+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, OnCall AstBuy Error",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मतलब दो square feet का लगभग।",
+      "timestamp": 32.33,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 'do square feet' but bot captured 2 sq ft.",
+      "evidence_verified": true,
+      "llm_timestamp": 32.3
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 65.91,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered to send details via WhatsApp instead of a live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 65.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot offered to share seller details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No numerical quantity captured by bot as a lead quantity."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was captured in the lead."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for size and bot captured 2 sq ft."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave 2 sq ft and bot read it back correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured width as 20 feet."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured parking capacity as 2 cars."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional specs were discussed beyond width and capacity."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repetitive loops or excessive probing occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "मतलब दो square feet का लगभग।",
+      "timestamp": 32.33,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 'do square feet' but bot captured 2 sq ft.",
+      "evidence_verified": true,
+      "llm_timestamp": 32.3
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ये आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 65.91,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered to send details via WhatsApp instead of a live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 65.9
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed the product intent and bot proceeded correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data not present in the transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air occurred."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breach or mispronunciation issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "car parking",
+    "quantity": "2",
+    "quantity_unit": "square feet",
+    "specs": [
+      {
+        "name": "width",
+        "value": "20 feet"
+      },
+      {
+        "name": "parking capacity",
+        "value": "two cars"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked to check with seller for exact size.",
+      "timestamp": 19.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to create a formal lead or transfer to a live seller, opting to send details via WhatsApp instead. Buyer's request for exact size was not fully resolved.",
+  "analysis": "Buyer wanted a car parking solution, mentioning 'do square feet' (2 sq ft) and 'do sau' (200), then clarified '20 feet'. Bot captured 2 sq ft and 2 cars. Bot offered to send seller details via WhatsApp but did not create a live transfer or a formal buy lead (BL) before ending the call. Buyer agreed to seller details via WhatsApp.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.specs[width] = '20 feet': number(s) ['20'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3783,
+    "completion_tokens": 1530
+  },
+  "unresolved_problems": []
+}

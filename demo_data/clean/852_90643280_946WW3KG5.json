@@ -1,0 +1,70 @@
+{
+  "call_id": "852_90643280_946WW3KG5",
+  "file": "data/recordings/852_90643280_946WW3KG5.mp3",
+  "duration_s": 48.02,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको lifting machine की requirement है ना?",
+      "start": 0.01,
+      "end": 4.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.49,
+      "end": 1.01
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ Madam. ठीक है? मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। बताइए lifting capacity में क्या prefer करेंगे एक ton या 500 kilograms या कोई और?",
+      "start": 4.83,
+      "end": 20.13
+    },
+    {
+      "role": "BUYER",
+      "text": "कई।",
+      "start": 9.87,
+      "end": 10.13
+    },
+    {
+      "role": "BOT",
+      "text": "Total. समझ गई। अब travel height के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 10 feet, 12 feet या कुछ और? Madam ये आप लोगों को चाहिए 20 feet। ठीक है। ये आपको",
+      "start": 20.81,
+      "end": 33.59
+    },
+    {
+      "role": "BUYER",
+      "text": "तो मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 33.59,
+      "end": 38.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है Madam. IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो। वक्तव्य।",
+      "start": 38.89,
+      "end": 45.27
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 1.22,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

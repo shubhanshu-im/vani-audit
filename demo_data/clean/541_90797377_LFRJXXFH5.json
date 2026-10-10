@@ -1,0 +1,110 @@
+{
+  "call_id": "541_90797377_LFRJXXFH5",
+  "file": "data/recordings/541_90797377_LFRJXXFH5.mp3",
+  "duration_s": 66.02,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको 1 HP Crompton induction motors की requirement है ना?",
+      "start": 0.15,
+      "end": 4.89
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 6.37,
+      "end": 7.07
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 8.21,
+      "end": 14.11
+    },
+    {
+      "role": "BUYER",
+      "text": "one piece चाहिए one HP Crompton.",
+      "start": 15.81,
+      "end": 18.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं आपको Power One HP ही चाहिए ना?",
+      "start": 19.91,
+      "end": 23.09
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी Crompton tyre company Crompton।",
+      "start": 24.59,
+      "end": 27.25
+    },
+    {
+      "role": "BOT",
+      "text": "कि Crompton एक जानी मानी company है जो बेहतरीन motors बनाती है। अब बताइए phase में आप क्या prefer करेंगे three phase, single phase या कुछ और?",
+      "start": 28.49,
+      "end": 36.37
+    },
+    {
+      "role": "BUYER",
+      "text": "करते हैं। Single page.",
+      "start": 33.61,
+      "end": 38.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 39.77,
+      "end": 44.87
+    },
+    {
+      "role": "BUYER",
+      "text": "जी माँ।",
+      "start": 46.33,
+      "end": 46.91
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई क्या आप फिर से बता सकते हैं?",
+      "start": 48.15,
+      "end": 51.65
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आप। भेज दीजिए ना ma'am भेज दीजिए आप।",
+      "start": 48.57,
+      "end": 54.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं आपको seller details WhatsApp पे भेज दूंगी। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 55.95,
+      "end": 61.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Thank you ma'am.",
+      "start": 62.15,
+      "end": 64.93
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 1.7,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "call_id": "967_90817738_0UNR5KKH5",
+  "duration_s": 200.06,
+  "graded_at": "2026-10-10T12:47:00+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Probing Error: Bot asked quantity but never captured buyer's response of 'single'.",
+  "fatal_params": [
+    "Quantity Probing Error",
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "BOT: आपको कितने piece चाहिए?",
+      "timestamp": 16.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked quantity but never captured buyer's response of 'single'.",
+      "evidence_verified": true,
+      "llm_timestamp": 16.1
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "BUYER: मुझे एक machine है मेरी वो खराब हो गई मुझे single पट्टा दीजिए।",
+      "timestamp": 27.45,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated quantity of single belt but bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.4
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "BUYER: fusing machine, fusing machine.",
+      "timestamp": 50.5,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer specified fusing machine part but bot ignored or failed to capture.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BOT: समझ गई। बताइए machine type में क्या prefer करेंगे FFS machine, pouch packing या कोई और?",
+      "timestamp": 43.35,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked machine type twice but buyer was not significantly irritated.",
+      "evidence_verified": true,
+      "llm_timestamp": 43.4
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=100.8 7.5s silence after BUYER",
+      "timestamp": 100.8,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot went silent for 7.5 seconds after buyer spoke.",
+      "evidence_verified": true
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "BOT: अभी line पे काफी अच्छे seller available हैं। आप उनसे अपने हिसाब से price और बाकी details discuss कर लीजिए। क्या मैं आपकी बात उनसे करवा दूं?",
+      "timestamp": 77.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot offered live seller transfer."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was asked by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was asked by the bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "BOT: आपको कितने piece चाहिए?",
+      "timestamp": 16.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked quantity but never captured buyer's response of 'single'.",
+      "evidence_verified": true,
+      "llm_timestamp": 16.1
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "BUYER: मुझे एक machine है मेरी वो खराब हो गई मुझे single पट्टा दीजिए।",
+      "timestamp": 27.45,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated quantity of single belt but bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.4
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec1 was asked by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec2 was asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "BUYER: fusing machine, fusing machine.",
+      "timestamp": 50.5,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer specified fusing machine part but bot ignored or failed to capture.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BOT: समझ गई। बताइए machine type में क्या prefer करेंगे FFS machine, pouch packing या कोई और?",
+      "timestamp": 43.35,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked machine type twice but buyer was not significantly irritated.",
+      "evidence_verified": true,
+      "llm_timestamp": 43.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No critical misrecognized words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were captured by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "BOT: ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पे भेज दी जाएंगी।",
+      "timestamp": 90.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot transferred the call successfully."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "BUYER: sewing machine का पट्टा चाहिए था क्या rate में मिल जाएगा",
+      "timestamp": 1.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer asked for sewing machine belt and bot confirmed pouch packaging machine parts."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=100.8 7.5s silence after BUYER",
+      "timestamp": 100.8,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot went silent for 7.5 seconds after buyer spoke.",
+      "evidence_verified": true
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major pronunciation or language handling issues flagged."
+    }
+  ],
+  "captured_lead": {
+    "product": "pouch packaging machine parts",
+    "quantity": "1",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "machine type",
+        "value": "fusing machine"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot asked quantity but ignored buyer's single belt response.",
+      "timestamp": 27.4,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated machine type question twice.",
+      "timestamp": 43.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture quantity and critical spec (fusing machine) before transferring. Also dead air occurred.",
+  "analysis": "Buyer wants a sewing machine belt for a fusing/packaging machine. Bot confirmed product and transferred. Buyer mentioned quantity (1 piece/single belt) and spec (fusing machine, black belt) but bot didn't capture them. Call ended with abrupt transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15798,
+    "completion_tokens": 4380
+  },
+  "unresolved_problems": [
+    "Spec Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'BUYER: fusing machine, fusing machine.'"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "call_id": "352_90797355_41A9XXFH5",
+  "file": "data/recordings/352_90797355_41A9XXFH5.mp3",
+  "duration_s": 77.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello. आपको Gemstone Ivory Radha Krishna Statue की requirement है ना?",
+      "start": 0.43,
+      "end": 4.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ଏ ଆସ୍ଥା ଦିଆଯାଏ। ଆମେ ଗଣେଶ, ବିଶ୍ୱକର୍ମା, ମା ଦୁର୍ଗା। ये सब दिखाइयो। डाई वाला मुट्ठी चार चार फुट। चार चार।",
+      "start": 5.93,
+      "end": 21.39
+    },
+    {
+      "role": "BOT",
+      "text": "तो ये आपको 4 feet की जरूरत है। आप बताइए आपको किस material का चाहिए white Makrana, Vietnam marble या कुछ और?",
+      "start": 20.85,
+      "end": 27.21
+    },
+    {
+      "role": "BUYER",
+      "text": "की जरूरत है। bike वाला मूर्ति दिखाइए। अभी जो दिखाया था। सिंगल। जाना होना चाहिए और इसको वहां गया। पूजा का जो महालय दे रहा है ना देता है ना वहीं से। दुर्गा माता को जो देता है।",
+      "start": 22.05,
+      "end": 55.81
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपना नाम बता दीजिए।",
+      "start": 57.09,
+      "end": 59.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। मोहल्ला पाचाली। पूजा का नियम, नेकी ये सब।",
+      "start": 59.21,
+      "end": 64.81
+    },
+    {
+      "role": "BOT",
+      "text": "ये details आप seller से discuss कर सकते हैं।",
+      "start": 66.69,
+      "end": 69.09
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. बोलिए सुनाई नहीं दे रहा है।",
+      "start": 70.23,
+      "end": 75.05
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 5.78,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 36.39,
+        "end": 42.17,
+        "duration_s": 5.78,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

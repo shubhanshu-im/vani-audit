@@ -1,0 +1,92 @@
+{
+  "call_id": "615_90685183_SF9JL1UG5",
+  "file": "data/recordings/615_90685183_SF9JL1UG5.mp3",
+  "duration_s": 60.12,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको fly ash brick making machine की requirement है ना?",
+      "start": 0.09,
+      "end": 4.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ madam हम तो दिए थे लेकिन आपका response कुछ मिला नहीं तो इसलिए phone किए WhatsApp में।",
+      "start": 6.69,
+      "end": 12.77
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "start": 13.81,
+      "end": 19.01
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 21.41,
+      "end": 22.09
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब automation grade के बारे में बात कर लेते हैं। आपको fully automatic चाहिए या कुछ और?",
+      "start": 23.15,
+      "end": 27.83
+    },
+    {
+      "role": "BUYER",
+      "text": "बारे में। automatic चाहिए।",
+      "start": 24.45,
+      "end": 30.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए bricks per stroke में क्या prefer करेंगे? 8 bricks, 2 bricks या कोई और?",
+      "start": 31.49,
+      "end": 36.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Three.",
+      "start": 38.89,
+      "end": 39.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 40.41,
+      "end": 45.51
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 48.35,
+      "end": 49.01
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 50.05,
+      "end": 52.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.84,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

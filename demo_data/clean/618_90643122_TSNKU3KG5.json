@@ -1,0 +1,62 @@
+{
+  "call_id": "618_90643122_TSNKU3KG5",
+  "file": "data/recordings/618_90643122_TSNKU3KG5.mp3",
+  "duration_s": 34.34,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी 125 Super Dirt की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.27,
+      "end": 7.45
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. चलिए अब target।",
+      "start": 10.53,
+      "end": 13.59
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब Target Rider के बारे में बात कर लेते हैं। आपको कौन सा चाहिए kids या adults या कुछ और?",
+      "start": 12.81,
+      "end": 17.27
+    },
+    {
+      "role": "BUYER",
+      "text": "काली एक kg।",
+      "start": 18.65,
+      "end": 20.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में? जी मैंने note कर लिया है। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 21.23,
+      "end": 31.41
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप इस product হ্যাঁ।",
+      "start": 21.43,
+      "end": 35.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.08,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

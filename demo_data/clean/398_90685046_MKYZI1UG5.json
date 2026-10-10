@@ -1,0 +1,45 @@
+{
+  "call_id": "398_90685046_MKYZI1UG5",
+  "file": "data/recordings/398_90685046_MKYZI1UG5.mp3",
+  "duration_s": 15.48,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपको शिलाजीत रेजिन 15G की requirement है ना?",
+      "start": 0.33,
+      "end": 4.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 9.43,
+      "end": 10.11
+    },
+    {
+      "role": "BOT",
+      "text": "Hello. Hello.",
+      "start": 11.61,
+      "end": 13.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 4.72,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

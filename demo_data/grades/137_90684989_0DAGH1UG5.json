@@ -1,0 +1,329 @@
+{
+  "call_id": "137_90684989_0DAGH1UG5",
+  "duration_s": 76.46,
+  "graded_at": "2026-10-10T12:25:07+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec1 Accuracy: Bot assumed 3GB RAM instead of buyer's stated 6GB RAM.",
+  "fatal_params": [
+    "Spec1 Accuracy",
+    "Spec2 Accuracy",
+    "WER",
+    "Product Change / No Product Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है मैं देख सकती हूं कि आपने RAM में 3 GB चुना है right?",
+      "timestamp": 45.41,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot assumed 3GB RAM instead of buyer's stated 6GB RAM.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.4
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी तो आप brand में क्या prefer करेंगे Samsung, Apple या कोई और?",
+      "timestamp": 37.63,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot read back Samsung brand instead of buyer's stated Vivo.",
+      "evidence_verified": true,
+      "llm_timestamp": 37.6
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है मैं देख सकती हूं कि आपने RAM में 3 GB चुना है right?",
+      "timestamp": 45.41,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard buyer's 6GB as 3GB.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.4
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है मैं देख सकती हूं कि आपने RAM में 3 GB चुना है right?",
+      "timestamp": 45.41,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot ignored buyer's correction of brand to Vivo.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded with lead creation."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked and buyer confirmed 1 piece."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer provided quantity, bot asked for it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है मैं देख सकती हूं कि आपने RAM में 3 GB चुना है right?",
+      "timestamp": 45.41,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot assumed 3GB RAM instead of buyer's stated 6GB RAM.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.4
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी तो आप brand में क्या prefer करेंगे Samsung, Apple या कोई और?",
+      "timestamp": 37.63,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot read back Samsung brand instead of buyer's stated Vivo.",
+      "evidence_verified": true,
+      "llm_timestamp": 37.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ठीक है समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 56.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer mentioned 6GB RAM which was missed but bot did not ask for other specs."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions."
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है मैं देख सकती हूं कि आपने RAM में 3 GB चुना है right?",
+      "timestamp": 45.41,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard buyer's 6GB as 3GB.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.4
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है मैं देख सकती हूं कि आपने RAM में 3 GB चुना है right?",
+      "timestamp": 45.41,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot ignored buyer's correction of brand to Vivo.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.4
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No issues found."
+    }
+  ],
+  "captured_lead": {
+    "product": "refurbished mobile Samsung M23GB 32GB",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "internal storage",
+        "value": "32 GB"
+      },
+      {
+        "name": "brand",
+        "value": "Samsung"
+      },
+      {
+        "name": "RAM",
+        "value": "3 GB"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured wrong brand (Samsung) and RAM (3GB) instead of buyer's Vivo and 6GB.",
+      "timestamp": 45.4,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard buyer's brand (Vivo) and RAM (6GB) specifications, recording incorrect values in the lead.",
+  "analysis": "Buyer wanted 1 piece of a refurbished Samsung M23 with 32GB storage for personal use. Bot confirmed Samsung but failed to capture the buyer's correction to Vivo brand, and assumed 3GB RAM instead of the buyer's mentioned 6GB RAM. Bot closed with a lead creation message.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3726,
+    "completion_tokens": 1337
+  },
+  "unresolved_problems": []
+}

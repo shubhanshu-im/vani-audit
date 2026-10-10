@@ -1,0 +1,152 @@
+{
+  "call_id": "574_90741593_ID44HL4H5",
+  "file": "data/recordings/574_90741593_ID44HL4H5.mp3",
+  "duration_s": 119.45,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको बंसी मोरेनावाला good corn cooking packaging size 200G की requirement है ना?",
+      "start": 0.25,
+      "end": 6.85
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 8.41,
+      "end": 8.93
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 10.37,
+      "end": 16.37
+    },
+    {
+      "role": "BUYER",
+      "text": "दो सौ अंकी का card नहीं है।",
+      "start": 19.95,
+      "end": 22.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको कितनी quantity चाहिए? कृपया बता दीजिए ताकि मैं आपको सही seller से connect कर सकूं।",
+      "start": 22.99,
+      "end": 28.13
+    },
+    {
+      "role": "BUYER",
+      "text": "quantity चाहिए।",
+      "start": 23.89,
+      "end": 25.07
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे समझ नहीं आया। आपको कितनी quantity चाहिए? Please एक बार फिर से बता दीजिए।",
+      "start": 30.57,
+      "end": 35.45
+    },
+    {
+      "role": "BUYER",
+      "text": "खबरदारीची काळजी म्हणजे की. मुझे लगता है कुछ गलतफहमी मुझे लगता है कुछ गलतफहमी हो रही है। seller आपकी मदद कर देंगे। चलिए packaging type के बारे में बात करते हैं।",
+      "start": 37.55,
+      "end": 47.69
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कौन सा चाहिए?",
+      "start": 47.69,
+      "end": 48.73
+    },
+    {
+      "role": "BUYER",
+      "text": "यहां पे तो मतलब चार ही है biscuit में ठीक है।",
+      "start": 52.69,
+      "end": 58.19
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। packaging type में आप क्या prefer?",
+      "start": 59.29,
+      "end": 61.83
+    },
+    {
+      "role": "BUYER",
+      "text": "packaging type में आप क्या prefer",
+      "start": 59.95,
+      "end": 61.77
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब flavor के बारे में बात करते हैं। आपको कौन सा चाहिए जैसे chocolate, जीरा या कुछ और?",
+      "start": 63.07,
+      "end": 68.05
+    },
+    {
+      "role": "BUYER",
+      "text": "तो इसके लिए क्या करना होगा हमको लेने के लिए?",
+      "start": 72.03,
+      "end": 75.33
+    },
+    {
+      "role": "BOT",
+      "text": "आप बस details confirm कर दीजिए फिर मैं आपको अच्छे sellers से connect करने में मदद करूंगी। बताइए flavor में क्या prefer करेंगे?",
+      "start": 76.89,
+      "end": 84.19
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन गो परब लगे थे।",
+      "start": 87.15,
+      "end": 88.83
+    },
+    {
+      "role": "BOT",
+      "text": "मैं इस बारे में clear नहीं हूं। आप यह seller से discuss कर सकते हैं। अभी आप अपना preferred flavor बता दीजिए please।",
+      "start": 90.09,
+      "end": 96.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई।",
+      "start": 98.21,
+      "end": 100.23
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा। आप बस अपनी पसंद बता दीजिए जैसे कि आपको कौन सा flavor चाहिए। फिर मैं आपको आगे की जानकारी दे दूंगी।",
+      "start": 98.51,
+      "end": 106.85
+    },
+    {
+      "role": "BUYER",
+      "text": "ସେଓ ଏବେ ଟଙ୍କା ଉପରେ ଲାଗିବ ତ।",
+      "start": 109.07,
+      "end": 112.13
+    },
+    {
+      "role": "BOT",
+      "text": "जैसा कि मैंने बताया आप ये detail seller से discuss कर सकते हैं। अभी आप अपना preferred flavor बता दीजिए please।",
+      "start": 113.39,
+      "end": 119.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.98,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

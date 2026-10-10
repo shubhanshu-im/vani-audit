@@ -1,0 +1,116 @@
+{
+  "call_id": "600_90741598_34Z5HL4H5",
+  "file": "data/recordings/600_90741598_34Z5HL4H5.mp3",
+  "duration_s": 70.99,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Hope Clear shampoo की requirement है ना?",
+      "start": 0.01,
+      "end": 3.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 5.19,
+      "end": 5.65
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने bottles चाहिए?",
+      "start": 6.99,
+      "end": 12.95
+    },
+    {
+      "role": "BUYER",
+      "text": "एक।",
+      "start": 14.71,
+      "end": 15.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब brand के बारे में बात कर लेते हैं। आपको Clinic Plus चाहिए या कुछ और?",
+      "start": 16.67,
+      "end": 21.29
+    },
+    {
+      "role": "BUYER",
+      "text": "यही चाहिए Dermahook का face wash।",
+      "start": 24.79,
+      "end": 27.45
+    },
+    {
+      "role": "BOT",
+      "text": "आपको face wash चाहिए जो चेहरे की सफाई के लिए इस्तेमाल होता है यही product चाहिए ना?",
+      "start": 28.75,
+      "end": 33.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 34.77,
+      "end": 35.31
+    },
+    {
+      "role": "BOT",
+      "text": "कितने piece चाहिए होंगे आपको?",
+      "start": 36.99,
+      "end": 38.63
+    },
+    {
+      "role": "BUYER",
+      "text": "One Piece.",
+      "start": 39.73,
+      "end": 40.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब brand के बारे में बात कर लेते हैं आपको Himalaya चाहिए या कुछ और?",
+      "start": 41.67,
+      "end": 45.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Himalaya के ही।",
+      "start": 50.67,
+      "end": 51.63
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब volume के बारे में बताइए आपको 100 milliliters चाहिए या 50 milliliters?",
+      "start": 52.83,
+      "end": 57.83
+    },
+    {
+      "role": "BUYER",
+      "text": "तो।",
+      "start": 59.29,
+      "end": 59.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 60.79,
+      "end": 68.87
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 7,
+    "longest_gap_s": 4.72,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

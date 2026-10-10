@@ -1,0 +1,80 @@
+{
+  "call_id": "478_90685066_GPSRJ1UG5",
+  "file": "data/recordings/478_90685066_GPSRJ1UG5.mp3",
+  "duration_s": 60.98,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको reusable menstrual cloth sanitary pad की requirement है ना?",
+      "start": 0.01,
+      "end": 4.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 5.69,
+      "end": 6.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने pack या piece चाहिए होंगे?",
+      "start": 8.47,
+      "end": 18.93
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। हाँ। normal pad free panty के 2 और men और sanitary pad के 30.",
+      "start": 20.83,
+      "end": 34.49
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए आप packaging size में क्या prefer करेंगे? 8 pads, 4 pads या कुछ और?",
+      "start": 36.45,
+      "end": 41.31
+    },
+    {
+      "role": "BUYER",
+      "text": "hit करे।",
+      "start": 43.77,
+      "end": 44.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। type of requirement में क्या चाहिए monthly sample only या कुछ और?",
+      "start": 46.43,
+      "end": 50.09
+    },
+    {
+      "role": "BUYER",
+      "text": "Sample only.",
+      "start": 51.27,
+      "end": 52.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 54.59,
+      "end": 57.23
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.5,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

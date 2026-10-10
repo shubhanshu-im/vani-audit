@@ -1,0 +1,134 @@
+{
+  "call_id": "231_90643076_34JYT3KG5",
+  "file": "data/recordings/231_90643076_34JYT3KG5.mp3",
+  "duration_s": 102.02,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो आपको gasoline generator भी 220 से 240 की requirement है ना?",
+      "start": 0.01,
+      "end": 5.33
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam.",
+      "start": 7.63,
+      "end": 8.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको power capacity 1 KVA ही चाहिए ना?",
+      "start": 10.81,
+      "end": 23.27
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 24.41,
+      "end": 25.01
+    },
+    {
+      "role": "BOT",
+      "text": "बताइए generator type में क्या prefer करेंगे non silent silent या कोई और?",
+      "start": 27.37,
+      "end": 31.61
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं loan पटेगी। पचहत्तर हजार चाहिए तो।",
+      "start": 32.79,
+      "end": 36.85
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी बात पूरी तरह समझ नहीं पाई। generator type में आपकी preference क्या है? non-silent, silent, portable या open type?",
+      "start": 38.65,
+      "end": 45.71
+    },
+    {
+      "role": "BUYER",
+      "text": "Open sir open.",
+      "start": 46.73,
+      "end": 47.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब आपकी city और state भी बता दीजिए please.",
+      "start": 49.55,
+      "end": 52.13
+    },
+    {
+      "role": "BUYER",
+      "text": "ये किमि के जाई Madam? बहुत बढ़िया। अब अपनी city और state बता दीजिए please। तो madam मेरा उतना मालूम नहीं है CL check बोलते हैं।",
+      "start": 54.27,
+      "end": 66.39
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आप जिस city में रहते हैं उसका नाम बता सकते हैं? इससे seller आपकी मदद अच्छे से कर पाएंगे।",
+      "start": 68.39,
+      "end": 74.05
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं रहता हूँ जिला मेहरपुर corporate जाफरपुर।",
+      "start": 74.99,
+      "end": 79.37
+    },
+    {
+      "role": "BOT",
+      "text": "आप Muzaffarpur Bihar से बोल रहे हैं ना?",
+      "start": 81.07,
+      "end": 83.17
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 83.93,
+      "end": 84.67
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आप गिद्दू जी बोल रहे हैं ना?",
+      "start": 86.67,
+      "end": 88.89
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 89.69,
+      "end": 90.13
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 92.09,
+      "end": 99.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 101.53,
+      "end": 102.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 3.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

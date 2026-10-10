@@ -1,0 +1,134 @@
+{
+  "call_id": "572_90741589_4SM1HL4H5",
+  "file": "data/recordings/572_90741589_4SM1HL4H5.mp3",
+  "duration_s": 89.5,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको महाडॉट नेश बटीका 100 tablets की requirement है ना?",
+      "start": 0.23,
+      "end": 5.19
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 6.53,
+      "end": 7.13
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने bottles चाहिए?",
+      "start": 9.37,
+      "end": 15.37
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब hundred tablet चाहिए।",
+      "start": 17.73,
+      "end": 21.71
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं quantity की बात कर रही हूं। आपको कितनी bottle या box चाहिए?",
+      "start": 22.99,
+      "end": 26.85
+    },
+    {
+      "role": "BUYER",
+      "text": "अंडर टेबल।",
+      "start": 29.05,
+      "end": 31.19
+    },
+    {
+      "role": "BOT",
+      "text": "कि आपको 100 bottle ठीक है समझ गई आपको कितनी bottle या box चाहिए please बता दीजिए।",
+      "start": 30.91,
+      "end": 35.79
+    },
+    {
+      "role": "BUYER",
+      "text": "ये तो hundred dollar चाहिए आके।",
+      "start": 38.13,
+      "end": 40.07
+    },
+    {
+      "role": "BOT",
+      "text": "जी ये product 100 tablets की packing में आता है। आपको ऐसी कितनी bottle या box चाहिए?",
+      "start": 41.45,
+      "end": 46.27
+    },
+    {
+      "role": "BUYER",
+      "text": "एक ही तो तैयार।",
+      "start": 48.35,
+      "end": 49.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब packaging size के बारे में बात कर लेते हैं। आपको 40 tablets चाहिए या 60 tablets या कुछ और?",
+      "start": 50.93,
+      "end": 57.09
+    },
+    {
+      "role": "BUYER",
+      "text": "forty tablets forty tablets.",
+      "start": 59.27,
+      "end": 60.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए इसे किस उपयोग के लिए चाहिए? Reselling, hospital use या home use?",
+      "start": 62.05,
+      "end": 66.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हो रही थी।",
+      "start": 68.57,
+      "end": 69.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 70.85,
+      "end": 75.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 77.87,
+      "end": 78.49
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 79.41,
+      "end": 82.33
+    },
+    {
+      "role": "BUYER",
+      "text": "ये क्या माने ये जो आएगा cash on delivery में आएगा? Hello.",
+      "start": 81.31,
+      "end": 89.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 4.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

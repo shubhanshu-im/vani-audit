@@ -1,0 +1,281 @@
+{
+  "call_id": "159_90741519_SJN3GL4H5",
+  "duration_s": 56.09,
+  "graded_at": "2026-10-10T12:25:46+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot promised seller details without creating a lead or collecting requirements.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 15.71,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised seller details without creating a lead or collecting requirements.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 15.71,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised delivery of seller details without system capability.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 15.71,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised seller details without creating a lead or collecting requirements.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.6
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or collected."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or collected."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was asked or discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was stated by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No specs were asked by the bot."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "बहुत बढ़िया। आप Lucknow Uttar Pradesh से बोल रहे हैं ना?",
+      "timestamp": 32.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping observed."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "जी मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 45.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognized words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change was requested."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or MCAT errors observed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आप तैयार हैं?",
+      "timestamp": 15.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 15.71,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised delivery of seller details without system capability.",
+      "evidence_verified": true,
+      "llm_timestamp": 45.6
+    }
+  ],
+  "captured_lead": {
+    "product": "clean 60 mg",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": "[NAME]",
+    "city": "Lucknow",
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot promised seller details without creating a lead.",
+      "timestamp": 45.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without creating a lead or collecting essential details like quantity and state.",
+  "analysis": "Buyer intent: buy clean 60 mg. Product: clean 60 mg. Bot confirmed city (Lucknow) and name ([NAME] [NAME]), but never collected quantity, specs, or state. Bot closed by promising seller details on WhatsApp without creating a lead or transferring. The buyer asked if the bot would send it, but the bot only gave a closing without any lead creation.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3612,
+    "completion_tokens": 1238
+  },
+  "unresolved_problems": []
+}

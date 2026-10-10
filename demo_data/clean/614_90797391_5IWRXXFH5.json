@@ -1,0 +1,146 @@
+{
+  "call_id": "614_90797391_5IWRXXFH5",
+  "file": "data/recordings/614_90797391_5IWRXXFH5.mp3",
+  "duration_s": 100.8,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको car damping sheet की requirement है ना?",
+      "start": 0.01,
+      "end": 3.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 5.13,
+      "end": 5.69
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 6.85,
+      "end": 12.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am मेरे पास है already display पर उसका motherboard खराब है मुझे motherboard चाहिए।",
+      "start": 14.69,
+      "end": 21.13
+    },
+    {
+      "role": "BOT",
+      "text": "आपको display motherboard चाहिए जिसका इस्तेमाल display को चलाने के लिए होता है। यही product चाहिए ना?",
+      "start": 22.31,
+      "end": 27.79
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। जी Ma'am जी।",
+      "start": 25.17,
+      "end": 29.75
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब brand के बारे में बात कर लेते हैं। आपको HP चाहिए या Dell या कुछ और?",
+      "start": 31.81,
+      "end": 36.17
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am sorry मेरा card display है।",
+      "start": 39.15,
+      "end": 41.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? तो आपको card display चाहिए? इसे आमतौर पर products को showcase करने के लिए इस्तेमाल करते हैं। यही चलेगा।",
+      "start": 41.77,
+      "end": 48.23
+    },
+    {
+      "role": "BUYER",
+      "text": "P5 P5 smart ma'am P5 smart",
+      "start": 47.17,
+      "end": 52.85
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको P5 smart display चाहिए? क्या आपको P5 smart Android car display चाहिए जो car में entertainment और navigation के लिए use होता है? यही चाहिए ना?",
+      "start": 50.75,
+      "end": 60.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। जी Ma'am जी।",
+      "start": 54.33,
+      "end": 62.49
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कौन सा screen size चाहिए जैसे नौ inch दस inch या कुछ और?",
+      "start": 64.57,
+      "end": 68.39
+    },
+    {
+      "role": "BUYER",
+      "text": "ना हुई है।",
+      "start": 69.39,
+      "end": 70.15
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? RAM में आप क्या prefer करेंगे 2 GB, 4 GB या कोई और?",
+      "start": 71.61,
+      "end": 75.25
+    },
+    {
+      "role": "BUYER",
+      "text": "दो GB ये चार GB है चार GB।",
+      "start": 77.49,
+      "end": 79.87
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई 4 GB? अब बताइए internal storage में क्या prefer करेंगे? 32 GB, 64 GB या कोई और?",
+      "start": 81.23,
+      "end": 87.17
+    },
+    {
+      "role": "BUYER",
+      "text": "चाचा जी।",
+      "start": 88.35,
+      "end": 89.27
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 90.61,
+      "end": 98.33
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद। Okay Madam, Thank you.",
+      "start": 96.53,
+      "end": 100.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.98,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

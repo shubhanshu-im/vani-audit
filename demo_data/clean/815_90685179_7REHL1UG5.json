@@ -1,0 +1,122 @@
+{
+  "call_id": "815_90685179_7REHL1UG5",
+  "file": "data/recordings/815_90685179_7REHL1UG5.mp3",
+  "duration_s": 66.67,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Jahangir ji, you are looking for Tata TMT bars right?",
+      "start": 0.23,
+      "end": 3.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah.",
+      "start": 4.87,
+      "end": 5.37
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I am calling from the IndiaMART help desk. How many ton or kilogram do you need?",
+      "start": 7.37,
+      "end": 14.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Seller you were trying to reach. Gram.",
+      "start": 7.51,
+      "end": 14.41
+    },
+    {
+      "role": "BOT",
+      "text": "I'm sorry I couldn't catch that.",
+      "start": 15.59,
+      "end": 17.63
+    },
+    {
+      "role": "BUYER",
+      "text": "I need. Sorry your voice",
+      "start": 16.55,
+      "end": 19.87
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry, your voice was a bit unclear. Could you please tell me how many tonnes or kilograms you need?",
+      "start": 18.95,
+      "end": 24.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Two tons, two tons, sixteen mm two tons.",
+      "start": 26.13,
+      "end": 29.49
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I can see you wanted 20 millimeters for diameter, right?",
+      "start": 30.65,
+      "end": 34.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah yeah yeah.",
+      "start": 35.79,
+      "end": 36.89
+    },
+    {
+      "role": "BOT",
+      "text": "Perfect. I can see you selected say 500 D for grade, correct?",
+      "start": 38.01,
+      "end": 41.63
+    },
+    {
+      "role": "BUYER",
+      "text": "யா sir சென்னை பன்னி சென்னை தாம்பரம் சென்னை தாம்பரம்.",
+      "start": 43.03,
+      "end": 46.87
+    },
+    {
+      "role": "BOT",
+      "text": "Alright, I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 47.81,
+      "end": 53.53
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Thank you.",
+      "start": 54.63,
+      "end": 57.19
+    },
+    {
+      "role": "BOT",
+      "text": "Thank you for choosing IndiaMART. Have a nice day.",
+      "start": 56.77,
+      "end": 59.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 61.65,
+      "end": 62.29
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.22,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "call_id": "549_90853015_KJBNMXVH5",
+  "duration_s": 79.06,
+  "graded_at": "2026-10-10T12:35:42+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, Looping Behavior, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी MD में।",
+      "timestamp": 31.73,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer mentioned 'MD' spec which bot missed.",
+      "evidence_verified": true,
+      "llm_timestamp": 31.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Sorry आपकी आवाज़ clear नहीं है।",
+      "timestamp": 30.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated audio clarity issue twice, causing minor delay.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 60.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details instead of a live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.0
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी बिल्कुल मिल जाएगा। बस कुछ details confirm कर दीजिए ताकि मैं आपको सही seller से connect कर सकूं।",
+      "timestamp": 47.45,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised a seller connection but closed with WhatsApp instead.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated a product requirement and bot proceeded to collect details and offer to connect."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not read back the quantity."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity in pieces but bot never asked for or confirmed a unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated quantity without being asked."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not capture the quantity in the lead."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about the machine/switch, but buyer's 'MD' spec was missed."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Only one spec (MD) was provided by the buyer, and the bot did not ask for a second."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी MD में।",
+      "timestamp": 31.73,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer mentioned 'MD' spec which bot missed.",
+      "evidence_verified": true,
+      "llm_timestamp": 31.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Sorry आपकी आवाज़ clear नहीं है।",
+      "timestamp": 30.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot repeated audio clarity issue twice, causing minor delay.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognition of key details."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 60.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp details instead of a live seller transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 60.0
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot adapted to the buyer's correction from paper plates to machine switch."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory spec options were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or category data to evaluate."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps after buyer's last utterance."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी बिल्कुल मिल जाएगा। बस कुछ details confirm कर दीजिए ताकि मैं आपको सही seller से connect कर सकूं।",
+      "timestamp": 47.45,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised a seller connection but closed with WhatsApp instead.",
+      "evidence_verified": true,
+      "llm_timestamp": 47.5
+    }
+  ],
+  "captured_lead": {
+    "product": "paper plate making machine ka heater switch",
+    "quantity": "panch chhah",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "spec1",
+        "value": "machine ka control panel mein heater wala switch"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer's 'MD' spec was missed due to ASR issues.",
+      "timestamp": 31.7,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer asked about stock and bot gave a generic closing.",
+      "timestamp": 44.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture the 'MD' spec and offered WhatsApp details instead of a live seller transfer.",
+  "analysis": "Buyer wanted a heater switch for a paper plate making machine. Bot confirmed 'paper plate making machine ka heater switch' but failed to capture the 'MD' (material/diameter) spec. Bot offered WhatsApp details instead of a live seller. Call ended with buyer's acknowledgment.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 9013,
+    "completion_tokens": 2752
+  },
+  "unresolved_problems": []
+}

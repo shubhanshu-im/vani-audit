@@ -1,0 +1,99 @@
+{
+  "call_id": "383_90797363_8GZCXXFH5",
+  "file": "data/recordings/383_90797363_8GZCXXFH5.mp3",
+  "duration_s": 62.71,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Ajit Kumar ji, you are looking for tomato rice.",
+      "start": 0.51,
+      "end": 3.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Today tomorrow price madam.",
+      "start": 5.39,
+      "end": 7.45
+    },
+    {
+      "role": "BOT",
+      "text": "The prices can vary and you can discuss the best rate directly with the seller. How many kilograms do you need?",
+      "start": 9.95,
+      "end": 16.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Thirty-five, Madam.",
+      "start": 10.75,
+      "end": 20.53
+    },
+    {
+      "role": "BOT",
+      "text": "Alright, which variety do you want like hybrid, desi or something else?",
+      "start": 22.73,
+      "end": 26.33
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 31.53,
+      "end": 32.13
+    },
+    {
+      "role": "BOT",
+      "text": "Yes, I am here. Which variety do you prefer, hybrid, desi or something else?",
+      "start": 33.79,
+      "end": 37.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Hybrid hybrid.",
+      "start": 38.91,
+      "end": 41.05
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. Which packaging type do you want like crate, box or something else?",
+      "start": 43.03,
+      "end": 47.17
+    },
+    {
+      "role": "BUYER",
+      "text": "J grade.",
+      "start": 49.27,
+      "end": 50.19
+    },
+    {
+      "role": "BOT",
+      "text": "Okay. I will send you the seller details on WhatsApp where you can discuss the details and price directly. Did you mention the packaging? Thank you for choosing IndiaMART. Have a nice day.",
+      "start": 51.99,
+      "end": 61.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 5.2,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 26.33,
+        "end": 31.53,
+        "duration_s": 5.2,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

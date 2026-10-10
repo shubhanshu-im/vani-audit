@@ -1,0 +1,134 @@
+{
+  "call_id": "828_90797409_8BWZXXFH5",
+  "file": "data/recordings/828_90797409_8BWZXXFH5.mp3",
+  "duration_s": 78.12,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Viton rubber sheet की requirement है ना?",
+      "start": 0.21,
+      "end": 3.85
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी।",
+      "start": 5.23,
+      "end": 6.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available... [change] जी billing के बारे में आप seller से discuss कर सकते हैं। वो आपकी पूरी मदद करेंगे। कितने kilograms या meters...",
+      "start": 7.35,
+      "end": 16.75
+    },
+    {
+      "role": "BUYER",
+      "text": "color को call कर रहे थे। कितने kilogram? जी।",
+      "start": 7.87,
+      "end": 16.93
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए आपकी आवाज़ clear नहीं आई।",
+      "start": 18.09,
+      "end": 20.45
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी आवाज़।",
+      "start": 18.39,
+      "end": 19.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है दिल्ली में मिल जाएगा but पहले बता दीजिए कि आपको कितने kilogram",
+      "start": 21.35,
+      "end": 25.19
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं बोलती। जी।",
+      "start": 22.43,
+      "end": 24.65
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपको अच्छे sellers मिल जाएंगे। बस आप समझ गई। अब ये बताइए मैं देख पा रही हूं कि आपको thickness 5 millimeters ही चाहिए ना?",
+      "start": 26.31,
+      "end": 33.91
+    },
+    {
+      "role": "BUYER",
+      "text": "ज्यादा से ज्यादा समझ गई। अब ये बताइए मैं हाँ जी हाँ जी पाँच जन।",
+      "start": 26.89,
+      "end": 36.39
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब hardness score A के बारे में बताइए। आपको कौन सा चाहिए जैसे 75, 80 या कुछ और?",
+      "start": 37.75,
+      "end": 43.73
+    },
+    {
+      "role": "BUYER",
+      "text": "sensify ही चाहिए मतलब।",
+      "start": 45.45,
+      "end": 46.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 47.87,
+      "end": 52.99
+    },
+    {
+      "role": "BUYER",
+      "text": "तो मैं salary details ठीक है। वैसे कितने रुपये किलो है?",
+      "start": 48.47,
+      "end": 56.65
+    },
+    {
+      "role": "BOT",
+      "text": "price के लिए आप सीधा seller से बात कर सकते हैं। वो आपको best rates देंगे। मैं आपकी details भेज रही हूं।",
+      "start": 57.81,
+      "end": 63.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हिंदी। idea idea मतलब थोड़ा idea का।",
+      "start": 62.85,
+      "end": 66.73
+    },
+    {
+      "role": "BOT",
+      "text": "देखिए अलग-अलग sellers के rates अलग होते हैं इसलिए सही जानकारी seller ही दे पाएंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 68.01,
+      "end": 75.45
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है Ma'am.",
+      "start": 77.11,
+      "end": 77.73
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 1.72,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

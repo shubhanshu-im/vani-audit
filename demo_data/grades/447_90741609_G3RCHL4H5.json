@@ -1,0 +1,358 @@
+{
+  "call_id": "447_90741609_G3RCHL4H5",
+  "duration_s": 111.96,
+  "graded_at": "2026-10-10T12:32:55+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Buyer stated a key spec 'double filter' which the bot completely missed and failed to capture.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप material में FRP, stainless steel या कोई और options prefer करेंगे?",
+      "timestamp": 48.87,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard buyer's specification 'double filter' as a material choice.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.9
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अरे जो double filter वाला है ना वही चाहिए।",
+      "timestamp": 55.43,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated a key spec 'double filter' which the bot completely missed and failed to capture.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=72.5 आप अपनी city और state भी बता दीजिए please.",
+      "timestamp": 72.45,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the city and state prompt twice, but buyer eventually provided it.",
+      "evidence_verified": true,
+      "llm_timestamp": 72.5
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप material में FRP, stainless steel या कोई और options prefer करेंगे?",
+      "timestamp": 48.87,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'double filter' as a material preference, but recovered and closed.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.9
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 101.69,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp instead of transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 101.7
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "[00:20.0 t=20.0] BUYER: जी।",
+      "timestamp": 20.0,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "7.5s silence after buyer's initial response, but buyer stayed on the line.",
+      "evidence_verified": true
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a clear product requirement and the bot proceeded to collect details and close."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or required for this product."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was not needed, so the bot did not probe for it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was stated by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप material में FRP, stainless steel या कोई और options prefer करेंगे?",
+      "timestamp": 48.87,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard buyer's specification 'double filter' as a material choice.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.9
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked or stated by the buyer."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "अरे जो double filter वाला है ना वही चाहिए।",
+      "timestamp": 55.43,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated a key spec 'double filter' which the bot completely missed and failed to capture.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=72.5 आप अपनी city और state भी बता दीजिए please.",
+      "timestamp": 72.45,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the city and state prompt twice, but buyer eventually provided it.",
+      "evidence_verified": true,
+      "llm_timestamp": 72.5
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप material में FRP, stainless steel या कोई और options prefer करेंगे?",
+      "timestamp": 48.87,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'double filter' as a material preference, but recovered and closed.",
+      "evidence_verified": true,
+      "llm_timestamp": 48.9
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were explicitly recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 101.69,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised to send details on WhatsApp instead of transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 101.7
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No contradictory category questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or category mismatch is visible in the transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "[00:20.0 t=20.0] BUYER: जी।",
+      "timestamp": 20.0,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "7.5s silence after buyer's initial response, but buyer stayed on the line.",
+      "evidence_verified": true
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major compliance breaches or severe pronunciation issues observed."
+    }
+  ],
+  "captured_lead": {
+    "product": "row plant for dialysis",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "capacity",
+        "value": "1000 liters per hour"
+      },
+      {
+        "name": "material",
+        "value": "FRP, stainless steel"
+      }
+    ],
+    "name": null,
+    "city": "Motihari",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeated location multiple times due to bot confusion.",
+      "timestamp": 85.0,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: city 4/3",
+      "timestamp": 72.45,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture the buyer's key spec 'double filter' and the buyer's name. Bot also looped on location and offered WhatsApp details instead of a live seller transfer.",
+  "analysis": "Buyer wants an RO plant for dialysis, capacity 1000 lph, double filter, FRP/stainless steel, from Motihari, Bihar. Bot confirmed capacity and location but failed to capture name (Roshid Chaman Bai) and quantity/specs (double filter). Bot ended with WhatsApp details and seller transfer, closing with a thank you.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4189,
+    "completion_tokens": 1463
+  },
+  "unresolved_problems": []
+}

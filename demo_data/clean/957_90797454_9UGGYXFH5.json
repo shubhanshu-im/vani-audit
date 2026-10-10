@@ -1,0 +1,80 @@
+{
+  "call_id": "957_90797454_9UGGYXFH5",
+  "file": "data/recordings/957_90797454_9UGGYXFH5.mp3",
+  "duration_s": 28.66,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.01,
+      "end": 5.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए। तो अपन तो अपन।",
+      "start": 0.09,
+      "end": 7.95
+    },
+    {
+      "role": "BOT",
+      "text": "कोई है वो तो मैं छह महीने के लिए शादी।",
+      "start": 6.51,
+      "end": 11.03
+    },
+    {
+      "role": "BUYER",
+      "text": "समझ में नहीं आता अरे तुम engine वालों मेरे साथ का यार।",
+      "start": 11.03,
+      "end": 14.19
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ ये maintenance में है ये दो महीने बाद ठीक हो जाएगा। दोबारा इसको मत करो अंदर इनको पंच लगाओ।",
+      "start": 14.19,
+      "end": 22.13
+    },
+    {
+      "role": "BUYER",
+      "text": "इनको।",
+      "start": 19.33,
+      "end": 19.79
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं आपकी बात समझ नहीं पा रही।",
+      "start": 22.69,
+      "end": 25.47
+    },
+    {
+      "role": "BUYER",
+      "text": "माफ़ कीजिए मैं आपकी बात समझ नहीं पा रही।",
+      "start": 22.99,
+      "end": 24.71
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी मदद IndiaMART के product",
+      "start": 26.49,
+      "end": 28.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.02,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

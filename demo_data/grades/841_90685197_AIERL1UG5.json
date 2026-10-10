@@ -1,0 +1,324 @@
+{
+  "call_id": "841_90685197_AIERL1UG5",
+  "duration_s": 76.46,
+  "graded_at": "2026-10-10T12:43:36+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed without creating a lead despite having buyer details.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 55.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without creating a lead despite having buyer details.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 9.95,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot asked for quantity for a motorcycle tyre instead of a three-wheeler tyre.",
+      "evidence_verified": true,
+      "llm_timestamp": 9.9
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नाही Madam, three wheeler आहे, three wheelerच पाहिजे।",
+      "timestamp": 28.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot initially misheard 'three wheeler' as a motorcycle tyre, but corrected after buyer clarification.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 55.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp, which is not a standard bot action.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 55.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without creating a lead despite having buyer details.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.2
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was captured for the three-wheeler tyres."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was captured for the three-wheeler tyres."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer responded with 'three piece है'."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's quantity was captured correctly, though it was for a different product initially."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the vehicle model correctly after the buyer corrected it."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked or captured."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 9.95,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot asked for quantity for a motorcycle tyre instead of a three-wheeler tyre.",
+      "evidence_verified": true,
+      "llm_timestamp": 9.9
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping observed; bot moved on after buyer corrected the vehicle type."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognized words that impacted the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded beyond the product and model."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नाही Madam, three wheeler आहे, three wheelerच पाहिजे।",
+      "timestamp": 28.17,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot initially misheard 'three wheeler' as a motorcycle tyre, but corrected after buyer clarification.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.2
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific ISQ errors observed."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No MCAT or search errors observed."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 55.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send seller details on WhatsApp, which is not a standard bot action.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.2
+    }
+  ],
+  "captured_lead": {
+    "product": "MRF three-wheeler tyres",
+    "quantity": "three piece",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "vehicle_model",
+        "value": "Piaggio electric auto FX Max"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot initially asked for motorcycle tyre quantity instead of three-wheeler tyre.",
+      "timestamp": 9.9,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer had to correct the bot multiple times about the vehicle type.",
+      "timestamp": 28.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to create a buy lead and instead closed the call by promising to send seller details on WhatsApp. It also initially misidentified the vehicle type.",
+  "analysis": "Buyer wanted MRF three-wheeler tyres (Piaggio electric auto FX Max). Bot initially asked for motorcycle tyres and quantity 3 pieces (which was actually for the three-wheeler). Buyer corrected the vehicle type. Bot then captured the vehicle model, but did not create a buy lead; instead it promised to send seller details on WhatsApp and closed the call. The buyer called back at the end.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8795,
+    "completion_tokens": 2852
+  },
+  "unresolved_problems": []
+}

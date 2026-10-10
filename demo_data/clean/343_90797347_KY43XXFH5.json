@@ -1,0 +1,117 @@
+{
+  "call_id": "343_90797347_KY43XXFH5",
+  "file": "data/recordings/343_90797347_KY43XXFH5.mp3",
+  "duration_s": 109.01,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 20 kilogram iPlus Geo Six Access Articulated Robot की requirement है ना?",
+      "start": 0.01,
+      "end": 5.75
+    },
+    {
+      "role": "BUYER",
+      "text": "thyroid-এর ওষুধ খাওয়ার থেকে বলছে।",
+      "start": 8.87,
+      "end": 11.75
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी बात clear नहीं आई आप confirm करिए कि आपको 20 kilogram iPlus DO6X articulated robot चाहिए?",
+      "start": 13.77,
+      "end": 20.47
+    },
+    {
+      "role": "BUYER",
+      "text": "হ্যাঁ কতো সময় হলো তো এর আগে কতো গেল ওই মিলটাই বোধহয়।",
+      "start": 18.75,
+      "end": 22.61
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं आपकी बात पूरी तरह समझ नहीं पाई। क्या आपको 20 kg iPlus Geo 6 Axis Articulated Robot चाहिए?",
+      "start": 24.47,
+      "end": 30.69
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आपको बीस? क्या करते?",
+      "start": 26.29,
+      "end": 29.81
+    },
+    {
+      "role": "BOT",
+      "text": "हम्म। समझ गई क्या आपको 20 kilogram iPlus G06X articulated robot चाहिए? confirm कर दीजिए फिर आगे बढ़ेंगे।",
+      "start": 39.89,
+      "end": 48.81
+    },
+    {
+      "role": "BUYER",
+      "text": "छठाई ढूके। काफी जी आपकी बात पूरी तरह समझ नहीं पाएंगे। क्या आप confirm?",
+      "start": 49.67,
+      "end": 55.37
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपकी बात पूरी तरह समझ नहीं पाए। क्या आप confirm कर सकते हैं कि आपको 20 kilogram iPlus Geo 6X articulated robot चाहिए?",
+      "start": 52.51,
+      "end": 59.91
+    },
+    {
+      "role": "BUYER",
+      "text": "दस घंटा। माफ़ कीजिए मैं आपकी बात समझ नहीं पा रही हूं। क्या आप confirm कर सकते हैं कि आपको 20 kilogram iPlus GO 6 Axis Articulated Robot चाहिए?",
+      "start": 67.21,
+      "end": 77.31
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी बात समझ नहीं पा रही हूँ।",
+      "start": 69.71,
+      "end": 71.95
+    },
+    {
+      "role": "BUYER",
+      "text": "कि आप ना। আমি বাড়িতে রান্নাও দু তিন ঘন্টায় কত টাকা হাজার টাকা কি আড়াই হাজার টাকা। माफ़ कीजिए मैं हिंदी या English में ही बात कर सकती हूं। क्या आप मुझे बता सकते हैं क्या आपको 20 kilogram iPlus DO6X articulated robot की ज़रूरत है? हम्म दे दी चार सौ रुपया।",
+      "start": 73.09,
+      "end": 99.65
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी बात समझ नहीं पा रही हूँ क्या जी? क्या यहाँ भी किया है आपको बीस पाँच किलोग्राम ICL 06 access?",
+      "start": 101.23,
+      "end": 109.21
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 9.2,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 30.69,
+        "end": 39.89,
+        "duration_s": 9.2,
+        "after_role": "BOT"
+      },
+      {
+        "start": 59.91,
+        "end": 67.21,
+        "duration_s": 7.3,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

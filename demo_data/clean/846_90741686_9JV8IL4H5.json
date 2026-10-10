@@ -1,0 +1,141 @@
+{
+  "call_id": "846_90741686_9JV8IL4H5",
+  "file": "data/recordings/846_90741686_9JV8IL4H5.mp3",
+  "duration_s": 80.86,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको second hand washing machine की requirement है ना?",
+      "start": 0.01,
+      "end": 3.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी।",
+      "start": 2.13,
+      "end": 5.61
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece की जरूरत है?",
+      "start": 6.65,
+      "end": 13.07
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam एक piece चाहिए।",
+      "start": 14.89,
+      "end": 17.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है चलिए अब capacity समझ गई capacity में आप क्या prefer करेंगे 6 kg 7.5 kg या कुछ और?",
+      "start": 16.61,
+      "end": 24.41
+    },
+    {
+      "role": "BUYER",
+      "text": "छह kilogram।",
+      "start": 25.73,
+      "end": 26.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब usage application के बारे में बता दीजिए। आपको इसे किस काम के लिए चाहिए?",
+      "start": 27.85,
+      "end": 32.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Madam washing machine किस काम के लिए होती है?",
+      "start": 34.21,
+      "end": 36.77
+    },
+    {
+      "role": "BOT",
+      "text": "स्त्री कपड़े धोने के लिए ही होती है। आप बस यह बता दीजिए कि आपको इसे घर के लिए चाहिए या किसी और काम के लिए?",
+      "start": 37.89,
+      "end": 43.59
+    },
+    {
+      "role": "BUYER",
+      "text": "घर के लिए चाहिए।",
+      "start": 44.85,
+      "end": 46.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 47.49,
+      "end": 50.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Noida Sector 63.",
+      "start": 52.15,
+      "end": 54.31
+    },
+    {
+      "role": "BOT",
+      "text": "आप Noida Uttar Pradesh से बोल रहे हैं ना?",
+      "start": 55.27,
+      "end": 57.39
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 58.27,
+      "end": 59.05
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] जी बोल रहे हैं ना?",
+      "start": 60.19,
+      "end": 62.01
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 63.17,
+      "end": 63.79
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 70.65,
+      "end": 78.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Okay.",
+      "start": 78.47,
+      "end": 80.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 6.86,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 63.79,
+        "end": 70.65,
+        "duration_s": 6.86,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

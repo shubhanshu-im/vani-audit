@@ -1,0 +1,122 @@
+{
+  "call_id": "949_90853039_I9YXMXVH5",
+  "file": "data/recordings/949_90853039_I9YXMXVH5.mp3",
+  "duration_s": 78.77,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.49,
+      "end": 4.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 7.21,
+      "end": 7.79
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं IndiaMART से बात कर रही हूं। आपको कौन सा product चाहिए please बता दीजिए।",
+      "start": 9.21,
+      "end": 13.41
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको coconut चाहिए।",
+      "start": 16.19,
+      "end": 17.87
+    },
+    {
+      "role": "BOT",
+      "text": "आपको नारियल जो आमतौर पे खाने या पूजा के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 19.25,
+      "end": 23.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ये नारियल सर जो बेच के बेचने के लिए तो",
+      "start": 25.39,
+      "end": 31.25
+    },
+    {
+      "role": "BOT",
+      "text": "आपको नारियल जो आमतौर पे आपको नारियल जो आमतौर पे आगे बेचने या wholesale के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 30.55,
+      "end": 37.57
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ आप जिस caller को",
+      "start": 37.57,
+      "end": 40.59
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे, आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितनी fees चाहिए होगी आपको?",
+      "start": 39.51,
+      "end": 47.67
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन सौ।",
+      "start": 49.19,
+      "end": 49.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब application के बारे में बात कर लेते हैं। आपको export पूजा या किसी और उपयोग के लिए चाहिए?",
+      "start": 51.21,
+      "end": 57.21
+    },
+    {
+      "role": "BUYER",
+      "text": "पूजा वपेर के लिए।",
+      "start": 58.65,
+      "end": 59.81
+    },
+    {
+      "role": "BOT",
+      "text": "जी पूजा के लिए। अब बताइए size में क्या prefer करेंगे medium, large या कोई और?",
+      "start": 60.97,
+      "end": 65.45
+    },
+    {
+      "role": "BUYER",
+      "text": "ये game।",
+      "start": 66.75,
+      "end": 67.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 68.61,
+      "end": 77.37
+    },
+    {
+      "role": "BUYER",
+      "text": "के लिए धन्यवाद।",
+      "start": 75.09,
+      "end": 76.29
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.96,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

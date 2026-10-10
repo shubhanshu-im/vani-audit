@@ -1,0 +1,56 @@
+{
+  "call_id": "314_90852894_T8A6LXVH5",
+  "file": "data/recordings/314_90852894_T8A6LXVH5.mp3",
+  "duration_s": 22.32,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको Alaska water bottle cap 27 men की requirement है ना?",
+      "start": 0.01,
+      "end": 4.67
+    },
+    {
+      "role": "BUYER",
+      "text": "नमस्ते।",
+      "start": 5.03,
+      "end": 7.31
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते आपको Alaska water bottle cap 27 समझ गई आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूँ।",
+      "start": 6.63,
+      "end": 16.07
+    },
+    {
+      "role": "BUYER",
+      "text": "और हाँ।",
+      "start": 16.39,
+      "end": 20.29
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़।",
+      "start": 21.39,
+      "end": 22.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 1.1,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

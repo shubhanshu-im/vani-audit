@@ -1,0 +1,68 @@
+{
+  "call_id": "80_90701796_CMIF2JXG5",
+  "file": "data/recordings/80_90701796_CMIF2JXG5.mp3",
+  "duration_s": 81.43,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको dome shaped aluminium bottles की requirement आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 0.35,
+      "end": 13.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 8.31,
+      "end": 8.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। जी पर आपने quantity नहीं बताई। बताइए आपको कितने piece चाहिए piece बुला दीजिए। कितने piece चाहिए? Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए कि आपको कितनी quantity चाहिए। आवाज clear नहीं hundred piece. ठीक है समझ गई। चलिए अब capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए एक?",
+      "start": 15.51,
+      "end": 35.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 31.55,
+      "end": 32.03
+    },
+    {
+      "role": "BOT",
+      "text": "लीटर पाँच सौ मिलीलीटर या कुछ और। तो 100 ml. ठीक है। अब बताइए material में क्या prefer करेंगे HDP plastic या कोई और? Chemical. ठीक है। अब मैं आपके लिए सही seller check करती हूं।",
+      "start": 35.19,
+      "end": 51.37
+    },
+    {
+      "role": "BUYER",
+      "text": "I need a seminar in Hyderabad only.",
+      "start": 52.85,
+      "end": 54.83
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं Hyderabad के ही अच्छे sellers check कर रही हूं। बस एक minute। अभी हमारे पास आपके preferred city में seller available नहीं है। क्या आप किसी और city के seller से बात करना चाहेंगे? नहीं नहीं नहीं नहीं नहीं Hyderabad। क्षमा कीजिए अभी Hyderabad में कोई seller available नहीं है। क्या आप किसी और park... के city से seller देख पाएंगे। नमस्कार।",
+      "start": 56.17,
+      "end": 80.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 7,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 2
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

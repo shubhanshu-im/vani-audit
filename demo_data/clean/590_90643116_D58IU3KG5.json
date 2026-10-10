@@ -1,0 +1,86 @@
+{
+  "call_id": "590_90643116_D58IU3KG5",
+  "file": "data/recordings/590_90643116_D58IU3KG5.mp3",
+  "duration_s": 54.29,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको semi-automatic cotton wick making machine की requirement है ना?",
+      "start": 0.17,
+      "end": 5.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 7.23,
+      "end": 7.95
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। मैं देख पा रही हूं। आपको automation grade automatic ही चाहिए ना?",
+      "start": 9.17,
+      "end": 16.97
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं madam थोड़ा वो self भी होना चाहिए। semi automatic है। आधा self automatic हो आधा manual भी हो।",
+      "start": 18.37,
+      "end": 26.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। अब बताइए big type में क्या prefer करेंगे round, long या कोई और?",
+      "start": 27.77,
+      "end": 32.21
+    },
+    {
+      "role": "BUYER",
+      "text": "जो गोल गोल बत्ती होती है ना।",
+      "start": 34.17,
+      "end": 36.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 37.73,
+      "end": 42.87
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam.",
+      "start": 44.33,
+      "end": 44.93
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 46.09,
+      "end": 48.99
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका भी madam good morning खुश रहिए।",
+      "start": 49.43,
+      "end": 52.91
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.14,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

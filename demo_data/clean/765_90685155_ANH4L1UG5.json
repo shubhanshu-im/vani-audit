@@ -1,0 +1,68 @@
+{
+  "call_id": "765_90685155_ANH4L1UG5",
+  "file": "data/recordings/765_90685155_ANH4L1UG5.mp3",
+  "duration_s": 46.51,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको bridal silk साड़ी की requirement है ना?",
+      "start": 0.01,
+      "end": 3.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 6.17,
+      "end": 6.59
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 7.91,
+      "end": 13.75
+    },
+    {
+      "role": "BUYER",
+      "text": "One.",
+      "start": 15.31,
+      "end": 15.83
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब work के बारे में बात कर लेते हैं। आपको weaving चाहिए या handwork या कुछ और?",
+      "start": 17.17,
+      "end": 21.91
+    },
+    {
+      "role": "BUYER",
+      "text": "Poly drop.",
+      "start": 24.39,
+      "end": 25.17
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। ज़रा दोबारा बताइए कि आपको work में क्या prefer करेंगे? समझे नहीं। ठीक है कोई बात नहीं आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 26.57,
+      "end": 45.17
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.48,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

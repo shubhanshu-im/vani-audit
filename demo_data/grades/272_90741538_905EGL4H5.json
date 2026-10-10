@@ -1,0 +1,338 @@
+{
+  "call_id": "272_90741538_905EGL4H5",
+  "duration_s": 150.12,
+  "graded_at": "2026-10-10T12:28:32+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Quantity Probing Error, Qty Missed Opportunity, Spec Missed Opportunity, Looping Behavior, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। क्या आप job या part time job ढूंढ रहे हैं?",
+      "timestamp": 9.17,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity after misinterpreting buyer's intent as job inquiry.",
+      "evidence_verified": true,
+      "llm_timestamp": 9.2
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "तो मेरे को disposal plate जो खाने के लिए लगता है ना वो 4000 quantity चाहिए।",
+      "timestamp": 52.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer stated 4000 quantity but bot asked again without acknowledging it.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.7
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "तो मेरे को ये WhatsApp number है मेरा, उसके ऊपर manufacturer जो है ना plate का manufacturer है, polythene bag का छोटे-छोटे polythene bag का manufacturer है, उसका number, contact number दीजिए।",
+      "timestamp": 68.81,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer requested manufacturer contact numbers which bot did not record in the lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "timestamp": 9.17,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the opening line twice, which is a minor loop.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 125.49,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot offered to send details on WhatsApp, which is a minor deviation from standard lead creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 125.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated 4000 piece but bot asked for quantity twice, never read back a specific number."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave multiple quantities and units (piece, ton) for different items, bot never captured a single unit."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। क्या आप job या part time job ढूंढ रहे हैं?",
+      "timestamp": 9.17,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked for quantity after misinterpreting buyer's intent as job inquiry.",
+      "evidence_verified": true,
+      "llm_timestamp": 9.2
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "तो मेरे को disposal plate जो खाने के लिए लगता है ना वो 4000 quantity चाहिए।",
+      "timestamp": 52.67,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer stated 4000 quantity but bot asked again without acknowledging it.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.7
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about material but buyer gave multiple items, bot did not read back a specific material value."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about compartments but buyer's response was about plane part compartments, not product spec."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "तो मेरे को ये WhatsApp number है मेरा, उसके ऊपर manufacturer जो है ना plate का manufacturer है, polythene bag का छोटे-छोटे polythene bag का manufacturer है, उसका number, contact number दीजिए।",
+      "timestamp": 68.81,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer requested manufacturer contact numbers which bot did not record in the lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 68.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "timestamp": 9.17,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the opening line twice, which is a minor loop.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.3
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear ASR errors that changed the lead or derailed the call."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot that need evaluation."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never in question; buyer only added polythene bags."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 125.49,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot offered to send details on WhatsApp, which is a minor deviation from standard lead creation.",
+      "evidence_verified": true,
+      "llm_timestamp": 125.5
+    }
+  ],
+  "captured_lead": {
+    "product": "disposal plate",
+    "quantity": "4000",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "material",
+        "value": "plastic/paper"
+      },
+      {
+        "name": "size",
+        "value": "10-12 inch"
+      }
+    ],
+    "name": "[NAME]",
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot initially asked about job inquiry instead of product requirement.",
+      "timestamp": 9.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misidentified buyer's intent as a job inquiry, causing a brief loop. Buyer requested manufacturer WhatsApp numbers which bot did not capture in the lead.",
+  "analysis": "Buyer wanted disposable plates and polythene bags for trading. Bot initially asked about jobs, then collected product, quantity (4000), material (plastic/paper), and size (10-12 inch). Buyer requested manufacturer WhatsApp numbers instead of a lead. Bot offered to send seller details on WhatsApp and closed.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.specs[size] = '10-12 inch': number(s) ['10', '12'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4157,
+    "completion_tokens": 1736
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,344 @@
+{
+  "call_id": "328_90797332_NW7PWXFH5",
+  "duration_s": 92.52,
+  "graded_at": "2026-10-10T12:30:04+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed with a vague closing without collecting name/location or creating a lead.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है seller आपको सही option suggest कर देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद।",
+      "timestamp": 82.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with a vague closing without collecting name/location or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.0
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "timestamp": 17.75,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked quantity when buyer had already stated the issue.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.8
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अरे मेरे को इतना नहीं पता। वो regular size है। हर जगह यही use होता है। most most probably मतलब popular यही है।",
+      "timestamp": 67.71,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave 'regular size' and 'popular' but bot did not capture this.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=39.5 BOT: समझ गई आपके kitchen का नल टूट गया है। आपको कितने नए piece चाहिए?",
+      "timestamp": 39.5,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated quantity question twice, but no buyer frustration occurred.",
+      "evidence_verified": false
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे आपको connect करवाऊंगी।",
+      "timestamp": 17.75,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered live sellers but never asked or transferred the buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है seller आपको सही option suggest कर देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद।",
+      "timestamp": 82.01,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with a vague closing without collecting name/location or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 82.0
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said one piece and bot captured it correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'piece' and bot captured it correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए?",
+      "timestamp": 17.75,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot asked quantity when buyer had already stated the issue.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.8
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated one piece and bot captured it correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked body type but buyer said he didn't know."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked material grade but buyer said he didn't know."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "अरे मेरे को इतना नहीं पता। वो regular size है। हर जगह यही use होता है। most most probably मतलब popular यही है।",
+      "timestamp": 67.71,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer gave 'regular size' and 'popular' but bot did not capture this.",
+      "evidence_verified": true,
+      "llm_timestamp": 67.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "t=39.5 BOT: समझ गई आपके kitchen का नल टूट गया है। आपको कितने नए piece चाहिए?",
+      "timestamp": 39.5,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated quantity question twice, but no buyer frustration occurred.",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major misheard words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any extra details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे आपको connect करवाऊंगी।",
+      "timestamp": 17.75,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot offered live sellers but never asked or transferred the buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.8
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed Polotile PVC tab and bot handled it correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system category data, not visible in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system search data, not visible in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No bot-side silence of more than 5s after buyer speaks."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breaches or human requests."
+    }
+  ],
+  "captured_lead": {
+    "product": "Polotile PVC tab",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "body type",
+        "value": ""
+      },
+      {
+        "name": "material grade",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer indicated he doesn't know specs, bot should have guided better.",
+      "timestamp": 60.9,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated quantity question twice.",
+      "timestamp": 1.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without collecting buyer name/location and without creating a buy lead or offering a live seller transfer.",
+  "analysis": "Buyer wants 1 PVC tab for a broken kitchen tap in his own room. Bot collected 1 piece but never asked for name or location, and closed without creating a lead or offering a transfer. Bot repeated the quantity question twice.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14905,
+    "completion_tokens": 5374
+  },
+  "unresolved_problems": [
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 't=39.5 BOT: समझ गई आपके kitchen का नल टूट गया है। आपको कितने नए piece चाहिए?'"
+  ]
+}

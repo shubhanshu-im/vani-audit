@@ -1,0 +1,170 @@
+{
+  "call_id": "717_90741685_JRL7IL4H5",
+  "file": "data/recordings/717_90741685_JRL7IL4H5.mp3",
+  "duration_s": 108.43,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको three feet tempered glass railing की requirement है ना?",
+      "start": 0.17,
+      "end": 4.39
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 6.25,
+      "end": 6.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। कितनी feet square feet या meter चाहिए होगी आपको?",
+      "start": 8.95,
+      "end": 20.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am 3 feet में चाहिए 3 feet मतलब उसकी ऊंचाई चाहिए।",
+      "start": 20.91,
+      "end": 25.23
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। पर आपको कुल कितनी quantity चाहिए जैसे कितने feet या square feet की जरूरत है?",
+      "start": 25.91,
+      "end": 30.59
+    },
+    {
+      "role": "BUYER",
+      "text": "और running माने आपकी आवाज़।",
+      "start": 29.13,
+      "end": 32.47
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा। ठीक है? पर आप कुल कितनी quantity बता सकते हैं? जैसे कितने feet या square feet चाहिए?",
+      "start": 31.61,
+      "end": 38.57
+    },
+    {
+      "role": "BUYER",
+      "text": "मैम कम से कम एक दो सौ square feet।",
+      "start": 40.33,
+      "end": 42.77
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं देख पा रही हूं आपको glass thickness 12 mm ही चाहिए ना?",
+      "start": 43.75,
+      "end": 47.21
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 47.75,
+      "end": 48.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब mounting system के बारे में बात कर लेते हैं। आपको spindle mounted चाहिए या post mounted?",
+      "start": 49.41,
+      "end": 54.73
+    },
+    {
+      "role": "BUYER",
+      "text": "ये तो पता नहीं कौन से में कैसे रही हैं।",
+      "start": 56.37,
+      "end": 58.89
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपको समझा देती हूं mounting system का मतलब है कि glass को कैसे fit किया जाएगा। आप इनमें से क्या पसंद करेंगे?",
+      "start": 59.97,
+      "end": 66.27
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को दोनों नहीं पता है ना मतलब कौन सा क्या है।",
+      "start": 67.77,
+      "end": 70.73
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं, यह detail आप seller से discuss कर सकते हैं। चलिए अब आपकी city confirm कर लेते हैं।",
+      "start": 70.99,
+      "end": 75.97
+    },
+    {
+      "role": "BUYER",
+      "text": "बीस हजार है।",
+      "start": 77.13,
+      "end": 79.37
+    },
+    {
+      "role": "BOT",
+      "text": "आप Prayagraj Uttar Pradesh से बोल रहे हैं ना?",
+      "start": 80.59,
+      "end": 83.01
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 83.45,
+      "end": 84.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए please.",
+      "start": 85.13,
+      "end": 87.67
+    },
+    {
+      "role": "BUYER",
+      "text": "जी मेरा नाम नृसिंह त्रिपाठी है।",
+      "start": 88.39,
+      "end": 90.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है Savya [NAME] जी। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 91.39,
+      "end": 97.85
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 98.61,
+      "end": 99.23
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 100.07,
+      "end": 102.95
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 103.55,
+      "end": 108.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 12,
+    "buyer_turns": 12,
+    "longest_gap_s": 2.04,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

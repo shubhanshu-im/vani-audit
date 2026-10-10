@@ -1,0 +1,325 @@
+{
+  "call_id": "509_90797369_7U9HXXFH5",
+  "duration_s": 63.94,
+  "graded_at": "2026-10-10T12:34:35+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Qty Missed Opportunity: Buyer clearly stated 'एक piece' but bot never captured or read it back.",
+  "fatal_params": [
+    "Qty Missed Opportunity",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 13.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity after buyer already stated 'एक piece'.",
+      "evidence_verified": true,
+      "llm_timestamp": 13.4
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक piece।",
+      "timestamp": 21.29,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 'एक piece' but bot never captured or read it back.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.3
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "MCG वाला।",
+      "timestamp": 34.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer mentioned MCG brand but bot completely ignored and dropped it.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप यह price seller से discuss कर सकते हैं",
+      "timestamp": 53.71,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot deflected price discussion to seller, which is acceptable.",
+      "evidence_verified": true,
+      "llm_timestamp": 53.7
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement, bot created a lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity numeric value was captured by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity unit was not captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 13.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for quantity after buyer already stated 'एक piece'.",
+      "evidence_verified": true,
+      "llm_timestamp": 13.4
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक piece।",
+      "timestamp": 21.29,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer clearly stated 'एक piece' but bot never captured or read it back.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.3
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "horse power 2 HP ही चाहिए ना?",
+      "timestamp": 26.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 2 HP."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec was asked by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "MCG वाला।",
+      "timestamp": 34.13,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer mentioned MCG brand but bot completely ignored and dropped it.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant ASR errors observed."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed and no changes were made."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आप यह price seller से discuss कर सकते हैं",
+      "timestamp": 53.71,
+      "root_cause_type": "KNOWLEDGE",
+      "confidence": "high",
+      "reason": "Bot deflected price discussion to seller, which is acceptable.",
+      "evidence_verified": true,
+      "llm_timestamp": 53.7
+    }
+  ],
+  "captured_lead": {
+    "product": "Varuna submersible pump control panel 2 HP",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "horse power",
+        "value": "2 HP"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer mentioned MCG brand, bot ignored it.",
+      "timestamp": 34.1,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer asked price but bot just closed call.",
+      "timestamp": 49.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot missed buyer's stated quantity 'ek piece' and brand 'MCG'. It also failed to collect buyer name and location before closing.",
+  "analysis": "Buyer wanted 1 piece of a Varuna submersible pump control panel 2 HP because his starter broke. Bot confirmed the product and 2 HP, but never asked for quantity unit, name, or city. Bot created a lead and closed with WhatsApp details.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3622,
+    "completion_tokens": 1538
+  },
+  "unresolved_problems": []
+}

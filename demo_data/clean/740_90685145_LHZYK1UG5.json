@@ -1,0 +1,38 @@
+{
+  "call_id": "740_90685145_LHZYK1UG5",
+  "file": "data/recordings/740_90685145_LHZYK1UG5.mp3",
+  "duration_s": 30.17,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको dehydration machine 10 kg 10 trays की requirement है ना? हाँ देख रहा था ये था तो एक। ठीक है मैं Tania बोल रही हूँ IndiaMART से हमारे पास कई ऐसे sellers available हैं। मैं अभी आपकी बस कुछ details confirm कर रही हूँ। क्षमा करें आपकी आवाज़ clear नहीं आई ज़रा दोबारा बोलिए। आपको number",
+      "start": 0.13,
+      "end": 23.99
+    },
+    {
+      "role": "BUYER",
+      "text": "बिल्कुल मैं इंतज़ार कर रही हूँ। हाँ एक बार फिर से काट के लगाते हैं।",
+      "start": 23.99,
+      "end": 30.15
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 1.36,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

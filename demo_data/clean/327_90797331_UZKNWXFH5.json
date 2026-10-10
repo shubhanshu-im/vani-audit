@@ -1,0 +1,86 @@
+{
+  "call_id": "327_90797331_UZKNWXFH5",
+  "file": "data/recordings/327_90797331_UZKNWXFH5.mp3",
+  "duration_s": 54.07,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको wireless GSM intrusion alarm kit की requirement है ना?",
+      "start": 0.01,
+      "end": 4.37
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म। बोलिए।",
+      "start": 4.91,
+      "end": 7.77
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आपको wireless GSM intrusion alarm kit चाहिए? अगर नहीं तो बताइए किस चीज की जरूरत है?",
+      "start": 10.15,
+      "end": 15.47
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको बाहर। शाम के लिए।",
+      "start": 10.41,
+      "end": 17.03
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई लेकिन क्या आपको wireless GSM intrusion alarm kit चाहिए या कोई दूसरा product चाहिए? Please confirm कर दीजिए।",
+      "start": 18.99,
+      "end": 25.91
+    },
+    {
+      "role": "BUYER",
+      "text": "confirm माने कि हमको कोई कोई बढ़िया नौकरी मिलना चाहिए।",
+      "start": 26.45,
+      "end": 29.91
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं नौकरी से जुड़ी जानकारी में मदद नहीं कर सकती। IndiaMART पर सिर्फ product खरीदने बेचने में सहायता मिलती है।",
+      "start": 31.69,
+      "end": 38.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ नौकरी के problem है।",
+      "start": 40.67,
+      "end": 42.07
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं केवल IndiaMART की खरीद बिक्री से जुड़ी जानकारी में ही मदद कर सकती हूं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 44.55,
+      "end": 51.81
+    },
+    {
+      "role": "BUYER",
+      "text": "तो वही रहा सब।",
+      "start": 52.51,
+      "end": 54.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.48,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

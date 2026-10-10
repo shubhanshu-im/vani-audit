@@ -1,0 +1,312 @@
+{
+  "call_id": "783_90853018_ADJPMXVH5",
+  "duration_s": 131.62,
+  "graded_at": "2026-10-10T12:42:06+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, Looping Behavior, Dead air",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपका तीन AC का motor लगा हुआ है उसमें सिर्फ पत्थर डालना है पत्थर खराब हुआ है।",
+      "timestamp": 52.95,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Buyer stated 3 AC motor but bot did not capture it in the final lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 53.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नमस्ते क्या आप अभी line पे हैं? Please confirm कर दीजिए।",
+      "timestamp": 99.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated line check twice after buyer confirmed.",
+      "evidence_verified": true,
+      "llm_timestamp": 99.9
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हाँ।",
+      "timestamp": 77.77,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "5.1s silence after buyer's confirmation.",
+      "evidence_verified": true,
+      "llm_timestamp": 94.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed by buyer."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed by buyer."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed by buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "तो आप चौदह inch prefer करेंगे सही है?",
+      "timestamp": 116.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed size spec correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "तो आप 100 kilograms per hour prefer करेंगे सही है?",
+      "timestamp": 90.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot confirmed production capacity correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपका तीन AC का motor लगा हुआ है उसमें सिर्फ पत्थर डालना है पत्थर खराब हुआ है।",
+      "timestamp": 52.95,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Buyer stated 3 AC motor but bot did not capture it in the final lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 53.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नमस्ते क्या आप अभी line पे हैं? Please confirm कर दीजिए।",
+      "timestamp": 99.93,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated line check twice after buyer confirmed.",
+      "evidence_verified": true,
+      "llm_timestamp": 99.9
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was consistent throughout."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हाँ।",
+      "timestamp": 77.77,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "5.1s silence after buyer's confirmation.",
+      "evidence_verified": true,
+      "llm_timestamp": 94.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": ""
+    }
+  ],
+  "captured_lead": {
+    "product": "आटा चक्की",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "production capacity",
+        "value": "100 kilograms per hour"
+      },
+      {
+        "name": "चक्की size",
+        "value": "14 inch"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeated 'बस' indicating desire to end spec questions.",
+      "timestamp": 24.1,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: spec:motor power 3/2",
+      "timestamp": 26.89,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot missed capturing the buyer's 3 AC motor specification. Bot looped on line-check prompts.",
+  "analysis": "Buyer wants an atta chakki (stone/mill). Bot confirmed product, asked motor power, production capacity, and size. Buyer gave specs: 3 AC motor, 100 kg/hr, 14 inch. Bot captured 100 kg/hr and 14 inch, but missed the 3 AC motor detail in the final lead. Bot offered WhatsApp seller details. Buyer intent is a clear purchase requirement.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[चक्की size] = '14 inch': number(s) ['14'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4197,
+    "completion_tokens": 1536
+  },
+  "unresolved_problems": []
+}

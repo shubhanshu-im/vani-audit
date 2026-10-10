@@ -1,0 +1,80 @@
+{
+  "call_id": "701_90685130_8I7SK1UG5",
+  "file": "data/recordings/701_90685130_8I7SK1UG5.mp3",
+  "duration_s": 79.27,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Nokia 5800 refurbished mobile की requirement है ना?",
+      "start": 0.27,
+      "end": 5.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 7.17,
+      "end": 7.81
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितनी fees चाहिए होगी आपको? One piece चाहिए।",
+      "start": 9.09,
+      "end": 18.23
+    },
+    {
+      "role": "BUYER",
+      "text": "क्षमा कीजिए मैं फिर से पूछ लेती हूं आपको कितने piece की जरूरत है? वान भी चाहिए।",
+      "start": 19.55,
+      "end": 25.13
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई पर मुझे quantity बता दीजिए आपको कितने piece चाहिए?",
+      "start": 26.15,
+      "end": 29.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ?",
+      "start": 32.05,
+      "end": 32.53
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे अभी भी clear नहीं हो पाया। please एक बार फिर से बता दीजिए कितनी quantity चाहिए? one piece चाहिए। ठीक है। चलिए अब internal storage के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 128 GB या कुछ और? Eight GB. ठीक है। मैं देख सकती हूं कि आपने brand में Nokia चुना है right? हाँ हाँ। आपको मैं seller details WhatsApp पे भेज दूँगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 33.67,
+      "end": 66.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 67.63,
+      "end": 68.07
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 69.17,
+      "end": 72.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 5.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

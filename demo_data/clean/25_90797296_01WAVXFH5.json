@@ -1,0 +1,152 @@
+{
+  "call_id": "25_90797296_01WAVXFH5",
+  "file": "data/recordings/25_90797296_01WAVXFH5.mp3",
+  "duration_s": 188.57,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.73
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. क्या नाम से Quantum Magnetic Resonance वाला तो है। Hello. यार कौनो बात करे लागो करे लागो।",
+      "start": 5.03,
+      "end": 21.03
+    },
+    {
+      "role": "BOT",
+      "text": "मैं सिर्फ IndiaMART product requirements में ही आपकी मदद कर सकती हूं। कृपया बताइए आपको कौन सा product खरीदना है या किसकी inquiry करनी है? Quantum Magnetic Resonance की inquiry करनी है उसमें क्या होता है वो वाला product बता दीजिए। ठीक है। Quantum Magnetic Resonance एक ऐसा device है जो health analysis और therapy के लिए use होता है। इसमें Magnetic Resonance techniques का उपयोग होता है। मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कौन सा model या generation चाहिए जैसे 32 GT Neo या कुछ और?",
+      "start": 22.87,
+      "end": 60.95
+    },
+    {
+      "role": "BUYER",
+      "text": "high quality high quality वाला बढ़िया वाला चाहिए कौन सा होता है बढ़िया वाला high quality",
+      "start": 62.95,
+      "end": 68.51
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए आप high quality वाला best model चाहते हैं। इस product में कई models available हैं जैसे 32G, 3 in 1। आपको इनमें से कोई चाहिए या कोई latest model prefer करेंगे?",
+      "start": 70.87,
+      "end": 80.67
+    },
+    {
+      "role": "BUYER",
+      "text": "latest model high best quality वाला check वो आप बताइए कौन सा है।",
+      "start": 80.91,
+      "end": 86.01
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप latest और high quality वाला model चाहते हैं? इस product में latest model option available है। क्या आपको यही चाहिए?",
+      "start": 88.05,
+      "end": 95.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हमारे तो WhatsApp पे डाले हुए हैं। आज आप दिखा दीजिए एक बार WhatsApp पे message।",
+      "start": 96.39,
+      "end": 102.57
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल आपकी inquiry पूरी करने के लिए बस एक और detail चाहिए थी इस product में। components के options हैं जैसे rod sensor, hand sensor, slippers and parts या full therapy kit। इनमें से कौन सा component चाहिए होगा आपको?",
+      "start": 104.73,
+      "end": 116.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको full therapy के लिए जिसमें पूरे equipment equipment equipment।",
+      "start": 116.97,
+      "end": 123.05
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया तो आपकी requirement है latest model और full therapy kit वाला पूरा equipment set। इसमें एक और option है therapy function। आपको with therapy चाहिए या without therapy?",
+      "start": 125.03,
+      "end": 134.31
+    },
+    {
+      "role": "BUYER",
+      "text": "with share.",
+      "start": 135.37,
+      "end": 136.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब अपनी city और state भी बता दीजिए please ताकि seller आपको सही option और price बता सके।",
+      "start": 139.49,
+      "end": 145.03
+    },
+    {
+      "role": "BUYER",
+      "text": "City Raebareli से। उत्तर प्रदेश।",
+      "start": 146.59,
+      "end": 151.19
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप City Library उत्तर प्रदेश से बोल रहे हैं? क्या यह आपकी City का नाम है? थोड़ा confirm करवा दें ताकि हम seller से सही contact करवा सकें।",
+      "start": 153.03,
+      "end": 161.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। कम करवा हाँ हाँ जी।",
+      "start": 156.37,
+      "end": 163.71
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। ठीक है? अब Shaheen जी बोल रहे हैं ना?",
+      "start": 165.99,
+      "end": 169.71
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नसीम Khan का husband बोल रहा है। मेरा number दीजिए।",
+      "start": 170.59,
+      "end": 176.19
+    },
+    {
+      "role": "BOT",
+      "text": "आप।",
+      "start": 175.21,
+      "end": 175.57
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी inquiry already record हो गई है। number हमारे पास save है। मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 177.95,
+      "end": 186.85
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका",
+      "start": 186.85,
+      "end": 188.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.5,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

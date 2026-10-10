@@ -1,0 +1,280 @@
+{
+  "call_id": "933_90797468_MT8NYXFH5",
+  "duration_s": 70.27,
+  "graded_at": "2026-10-10T12:45:56+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 50.31,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot deferred to WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.3
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed requirement and bot captured lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity needed for this product."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity given."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Which thickness do you want like 2 um 2.5 mm or something else?",
+      "timestamp": 35.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked about thickness and buyer confirmed 2.7 mm."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No second spec asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important spec missed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked thickness twice, no harm done."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No clear misheard words affecting lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded by bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "I will connect you with the most suitable one shortly",
+      "timestamp": 12.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot offered to connect seller, though closed with WhatsApp."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained correct."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 50.31,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot deferred to WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 50.3
+    }
+  ],
+  "captured_lead": {
+    "product": "HS and TCT saw blades for metal cutting",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "diameter",
+        "value": "400 mm"
+      },
+      {
+        "name": "thickness",
+        "value": "2.7 mm"
+      }
+    ],
+    "name": null,
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer said 'What madam?' indicating confusion.",
+      "timestamp": 35.3,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: other_language",
+      "timestamp": 55.99,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "",
+  "analysis": "Buyer confirmed HS and TCT saw blades for metal cutting, diameter 400 mm, thickness 2.7 mm (or 2.5 mm). Buyer provided location: Tamil Nadu, Chennai, Kanchipuram. Bot captured product, diameter, thickness, and location. Bot closed by saying it would send seller details on WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[thickness] = '2.7 mm': number(s) ['2.7'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3646,
+    "completion_tokens": 1164
+  },
+  "unresolved_problems": []
+}

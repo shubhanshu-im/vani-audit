@@ -1,0 +1,38 @@
+{
+  "call_id": "424_90853277_J66WRXVH5",
+  "file": "data/recordings/424_90853277_J66WRXVH5.mp3",
+  "duration_s": 4.97,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको wireless hearing aid की requirement है ना?",
+      "start": 0.01,
+      "end": 3.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.25,
+      "end": 0.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

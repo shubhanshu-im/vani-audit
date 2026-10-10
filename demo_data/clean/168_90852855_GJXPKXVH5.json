@@ -1,0 +1,40 @@
+{
+  "call_id": "168_90852855_GJXPKXVH5",
+  "file": "data/recordings/168_90852855_GJXPKXVH5.mp3",
+  "duration_s": 17.57,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको K2 fractional laser machine की requirement है ना? Hello क्या आप अभी line पे हैं?",
+      "start": 0.01,
+      "end": 15.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 9.24,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 4.25,
+        "end": 13.49,
+        "duration_s": 9.24,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

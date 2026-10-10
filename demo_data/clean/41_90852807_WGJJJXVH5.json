@@ -1,0 +1,182 @@
+{
+  "call_id": "41_90852807_WGJJJXVH5",
+  "file": "data/recordings/41_90852807_WGJJJXVH5.mp3",
+  "duration_s": 176.4,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 1 mm GI binding wire की requirement है ना?",
+      "start": 0.21,
+      "end": 4.11
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। हाँ हाँ।",
+      "start": 1.61,
+      "end": 5.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Dania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। कितने kilogram या ton चाहिए होंगे आपको?",
+      "start": 7.35,
+      "end": 18.01
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं। हाँ। हाँ Madam बोला हूँ कि मेरा ये दिलखुश नगर 1550 है यहाँ इंद्रिया इंद्रिया चौक के। Hello.",
+      "start": 7.85,
+      "end": 30.17
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपने quantity बता दी। अब आप अपनी city और state भी बता दीजिए please।",
+      "start": 32.11,
+      "end": 36.41
+    },
+    {
+      "role": "BUYER",
+      "text": "अह ये Dilkhush Nagar Indriya Shop.",
+      "start": 37.19,
+      "end": 44.59
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए Dilkhush Nagar किस city और state में है? कृपया अपना city और state का नाम साफ़-साफ़ बता दीजिए।",
+      "start": 44.65,
+      "end": 50.73
+    },
+    {
+      "role": "BUYER",
+      "text": "एक मिनट एक मिनट एक मिनट बता रहे हैं। Uncle Uncle इसको थोड़ा state का नाम थोड़ा area का नाम बताओ। Hello.",
+      "start": 51.95,
+      "end": 62.73
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं जिस city या area में आपकी दुकान है उसी का नाम बता दीजिए। state का नाम भी अगर याद हो तो बताइए।",
+      "start": 62.83,
+      "end": 68.75
+    },
+    {
+      "role": "BUYER",
+      "text": "यादव। சரி madam. இது Yusuf Nagar madam. జిల్సెప్ నగర్. జిల్సెప్ నగర్. సింగరాబాద్.",
+      "start": 67.59,
+      "end": 78.03
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं।",
+      "start": 74.19,
+      "end": 74.69
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 76.15,
+      "end": 76.75
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। क्या आप Simrabad Uttar Pradesh से बोल रहे हैं?",
+      "start": 79.83,
+      "end": 82.71
+    },
+    {
+      "role": "BUYER",
+      "text": "उत्तर प्रदेश। हैदराबाद में हम उत्तर प्रदेश में नहीं हैदराबाद।",
+      "start": 83.53,
+      "end": 90.77
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए कि आप Dilkhush Nagar Hyderabad Telangana से बोल रहे हैं।",
+      "start": 91.33,
+      "end": 94.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes yes yes ma'am.",
+      "start": 94.93,
+      "end": 96.77
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। चलिए आप wire gauge के बारे में बताइए। आपको कौन सा चाहिए? 18 gauge, 20 gauge या कुछ और?",
+      "start": 98.75,
+      "end": 104.59
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन सा kg बना रहे? 1.5 का आ रहा है। हाँ। 1.5 का वो 100 meter 100 meter और 100 meter break। Ma'am square 1.5 square है Ma'am। एक bundle होना।",
+      "start": 105.29,
+      "end": 120.61
+    },
+    {
+      "role": "BOT",
+      "text": "आपने wire की details बताई है लेकिन wire gauge के option में से चुनिए 18 gauge, 20 gauge या कुछ और।",
+      "start": 122.63,
+      "end": 128.67
+    },
+    {
+      "role": "BUYER",
+      "text": "अपने wire की detail। wire का ma'am wire का kg है 1.5 square mm.",
+      "start": 122.85,
+      "end": 132.03
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपने 1.5 square बताया। seller आपको और options समझा देंगे। अब बताइए texture में क्या prefer करेंगे? soft, hard या कोई और?",
+      "start": 134.35,
+      "end": 142.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ। तो सापाड़ है क्या? ओह मैं तो छापर है के हम लोग meeting का हाँ ऊपर को कापर होइल होना जे।",
+      "start": 137.45,
+      "end": 152.03
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए आपने copper wire बताया है। texture में soft hard या कोई और चाहिए?",
+      "start": 154.41,
+      "end": 158.51
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। नहीं नहीं madam वो soft वाले चाहिए मतलब थोड़ा सा hard चाहिए।",
+      "start": 156.73,
+      "end": 163.43
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपने hard वाला बताया। अब मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 165.89,
+      "end": 175.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 175.99,
+      "end": 176.53
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 13,
+    "longest_gap_s": 2.8,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

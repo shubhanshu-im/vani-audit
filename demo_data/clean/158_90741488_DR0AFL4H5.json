@@ -1,0 +1,39 @@
+{
+  "call_id": "158_90741488_DR0AFL4H5",
+  "file": "data/recordings/158_90741488_DR0AFL4H5.mp3",
+  "duration_s": 24.62,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको zero gravity massage chair की requirement है ना? आप अभी line पे हैं क्या? Please बताइए आप zero gravity massage chair के लिए interested हैं?",
+      "start": 0.01,
+      "end": 20.53
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 10.84,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 4.53,
+        "end": 15.37,
+        "duration_s": 10.84,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

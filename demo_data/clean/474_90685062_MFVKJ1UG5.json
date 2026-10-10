@@ -1,0 +1,147 @@
+{
+  "call_id": "474_90685062_MFVKJ1UG5",
+  "file": "data/recordings/474_90685062_MFVKJ1UG5.mp3",
+  "duration_s": 118.3,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ photo का दाम कितना है?",
+      "start": 4.99,
+      "end": 7.43
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी मदद सिर्फ IndiaMART product inquiries में ही कर सकती हूं। आपको कौन सा product चाहिए था?",
+      "start": 9.43,
+      "end": 16.11
+    },
+    {
+      "role": "BUYER",
+      "text": "laser welding machine दिखा रहा है ना।",
+      "start": 18.05,
+      "end": 20.15
+    },
+    {
+      "role": "BOT",
+      "text": "आपको laser holding machine चाहिए जो अक्सर industrial cutting या marking के लिए use होती है वही product लेना है ना?",
+      "start": 22.21,
+      "end": 28.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ हाँ।",
+      "start": 27.93,
+      "end": 29.73
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी line पर हैं? confirmation भी दीजिएगा please ताकि मैं आपकी inquiry आगे बढ़ा सकूं।",
+      "start": 37.27,
+      "end": 42.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ line पर है।",
+      "start": 43.25,
+      "end": 44.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने units चाहिए?",
+      "start": 48.01,
+      "end": 58.47
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 62.43,
+      "end": 62.97
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी inquiry पर ही मदद कर सकती हूं। आप बता सकते हैं कितने units की जरूरत है laser holding machine के लिए?",
+      "start": 64.97,
+      "end": 71.43
+    },
+    {
+      "role": "BUYER",
+      "text": "एक चाहिए एक ledger message चाहिए मेरे को।",
+      "start": 76.41,
+      "end": 81.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप West Midnapore से बोल रहे हैं ना?",
+      "start": 84.81,
+      "end": 87.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ West Bengal से बोल रहा हूँ।",
+      "start": 88.47,
+      "end": 90.05
+    },
+    {
+      "role": "BOT",
+      "text": "धन्यवाद। क्या आप अंगुल ओडिशा से बोल रहे हैं? बस confirm कर दीजिए।",
+      "start": 91.67,
+      "end": 95.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 98.33,
+      "end": 100.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब [NAME] जी बोल रहे हैं ना?",
+      "start": 102.65,
+      "end": 104.81
+    },
+    {
+      "role": "BUYER",
+      "text": "हां हां yes.",
+      "start": 105.41,
+      "end": 106.45
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 108.35,
+      "end": 116.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 9,
+    "longest_gap_s": 7.54,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 29.73,
+        "end": 37.27,
+        "duration_s": 7.54,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

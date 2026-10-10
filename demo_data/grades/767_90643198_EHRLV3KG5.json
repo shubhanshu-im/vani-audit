@@ -1,0 +1,306 @@
+{
+  "call_id": "767_90643198_EHRLV3KG5",
+  "duration_s": 159.05,
+  "graded_at": "2026-10-10T12:41:32+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बस आप quantity बता दीजिए please।",
+      "timestamp": 41.85,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated quantity probing 5 times, exceeding limit of 3",
+      "evidence_verified": true,
+      "llm_timestamp": 41.9
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद",
+      "timestamp": 149.37,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send WhatsApp details instead of transferring",
+      "evidence_verified": true,
+      "llm_timestamp": 149.4
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "MB [NAME] [NAME]",
+      "timestamp": 133.79,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misrecognized 'MD' as 'MB'",
+      "evidence_verified": true,
+      "llm_timestamp": 133.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "MB [NAME] [NAME], आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 137.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer intent matched and lead details captured"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No numeric quantity was given"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity appropriately"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's quantity was captured"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "7 feet का रहता है ना length length नब्बे inch नब्बे inch का आता है",
+      "timestamp": 101.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Size spec captured accurately"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "cotton data cover",
+      "timestamp": 0.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Material spec captured accurately"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No important specs missed"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "बस आप quantity बता दीजिए please।",
+      "timestamp": 41.85,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated quantity probing 5 times, exceeding limit of 3",
+      "evidence_verified": true,
+      "llm_timestamp": 41.9
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major word errors"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद",
+      "timestamp": 149.37,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send WhatsApp details instead of transferring",
+      "evidence_verified": true,
+      "llm_timestamp": 149.4
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change occurred"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "MB [NAME] [NAME]",
+      "timestamp": 133.79,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misrecognized 'MD' as 'MB'",
+      "evidence_verified": true,
+      "llm_timestamp": 133.8
+    }
+  ],
+  "captured_lead": {
+    "product": "cotton data cover",
+    "quantity": "1",
+    "quantity_unit": "bundle",
+    "specs": [
+      {
+        "name": "size",
+        "value": "7 feet length, 90 inch width"
+      },
+      {
+        "name": "material",
+        "value": "cotton"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Katihar",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Repeated quantity probing 5 times",
+      "timestamp": 41.9,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on quantity 5 times. Closing was non-standard (promising WhatsApp) instead of live transfer.",
+  "analysis": "Buyer wanted cotton data cover, 1 bundle, 7 feet length and 90 inch width, from Katihar, Bihar. Bot confirmed product, size, material, location, and name. Bot promised to send seller details on WhatsApp instead of creating a live lead/transfer. Outcome is a lead creation but with a non-standard closing.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[size] = '7 feet length, 90 inch width': number(s) ['90'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4400,
+    "completion_tokens": 1281
+  },
+  "unresolved_problems": []
+}

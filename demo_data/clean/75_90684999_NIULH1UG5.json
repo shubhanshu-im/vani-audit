@@ -1,0 +1,110 @@
+{
+  "call_id": "75_90684999_NIULH1UG5",
+  "file": "data/recordings/75_90684999_NIULH1UG5.mp3",
+  "duration_s": 59.33,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको T1000 pixel led controller की requirement है ना?",
+      "start": 0.01,
+      "end": 5.55
+    },
+    {
+      "role": "BUYER",
+      "text": "करवा। Hello. हाँ जी।",
+      "start": 0.13,
+      "end": 8.11
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 9.35,
+      "end": 15.23
+    },
+    {
+      "role": "BUYER",
+      "text": "ये चार piece चाहिए।",
+      "start": 15.69,
+      "end": 19.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब model के बारे में बात कर लेते हैं। आपको कौन सा चाहिए या कुछ और?",
+      "start": 20.17,
+      "end": 24.17
+    },
+    {
+      "role": "BUYER",
+      "text": "कर लेते हैं आपको कौन सा चाहिए या",
+      "start": 22.05,
+      "end": 23.75
+    },
+    {
+      "role": "BOT",
+      "text": "समझ रहे हो?",
+      "start": 26.53,
+      "end": 27.21
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को three one thousand है।",
+      "start": 26.79,
+      "end": 29.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं आपको light type pixel LED ही चाहिए ना?",
+      "start": 30.59,
+      "end": 34.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Pixel LED नहीं Pixel LED controller।",
+      "start": 36.39,
+      "end": 38.79
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 39.75,
+      "end": 45.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म ठीक है।",
+      "start": 47.01,
+      "end": 48.13
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 49.25,
+      "end": 52.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हं। अच्छा Thank you.",
+      "start": 52.75,
+      "end": 55.33
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.36,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

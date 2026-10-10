@@ -1,0 +1,134 @@
+{
+  "call_id": "507_90852996_XDTHMXVH5",
+  "file": "data/recordings/507_90852996_XDTHMXVH5.mp3",
+  "duration_s": 82.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Calvin Klein jacket की request IndiaMART पर raise है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.39,
+      "end": 6.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ Sir.",
+      "start": 7.37,
+      "end": 8.27
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब material के बारे में बात कर लेते हैं। आपको कौन सा चाहिए cotton या कुछ और?",
+      "start": 9.71,
+      "end": 13.77
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं। नहीं हमको ठंडी का jacket चाहिए गरम कपड़े।",
+      "start": 10.61,
+      "end": 18.33
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं समझ गया। आप ठंडी के लिए गरम jacket ढूंढ रहे हैं। बताइए material में क्या prefer करेंगे cotton, polyester या कोई और?",
+      "start": 19.23,
+      "end": 25.21
+    },
+    {
+      "role": "BUYER",
+      "text": "करेंगे। मतलब की ठंडे में जो jacket चलता है मैं समझ सकता हूँ।",
+      "start": 23.21,
+      "end": 32.41
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ सकता हूं। क्या आप please या",
+      "start": 30.91,
+      "end": 32.95
+    },
+    {
+      "role": "BUYER",
+      "text": "काटन। आप बताइए।",
+      "start": 32.95,
+      "end": 35.83
+    },
+    {
+      "role": "BOT",
+      "text": "आप बताइए gender और age के लिए मैं आपको seller से connect कर दूंगी पर पहले बस यह बता दीजिए कि आपको jacket men women या kids में से किसके लिए चाहिए।",
+      "start": 34.77,
+      "end": 43.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Main में चाहिए।",
+      "start": 44.53,
+      "end": 45.59
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक।",
+      "start": 46.61,
+      "end": 46.79
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 46.79,
+      "end": 46.89
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 46.89,
+      "end": 51.81
+    },
+    {
+      "role": "BUYER",
+      "text": "इसका price कितना होगा jacket का कम से कम?",
+      "start": 51.81,
+      "end": 57.11
+    },
+    {
+      "role": "BOT",
+      "text": "price की जानकारी के लिए मैं आपको seller से connect कर सकता हूं जहां आप अपनी पसंद के हिसाब से best trade discuss कर सकते हैं।",
+      "start": 58.33,
+      "end": 64.13
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। ठीक है फिर मैं बाद में contact कर लूँगा। तो ये कहाँ से कहाँ से आप बात कर रहे हैं?",
+      "start": 65.43,
+      "end": 70.99
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART help desk से बात कर रहा हूं। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 72.09,
+      "end": 80.13
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका। जी।",
+      "start": 79.15,
+      "end": 81.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.5,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

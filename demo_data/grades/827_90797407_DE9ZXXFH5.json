@@ -1,0 +1,314 @@
+{
+  "call_id": "827_90797407_DE9ZXXFH5",
+  "duration_s": 89.06,
+  "graded_at": "2026-10-10T12:43:08+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Looping Behavior, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी तो बताइए voltage में क्या prefer करेंगे 3.7 V, 12 V या कोई और?",
+      "timestamp": 56.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated voltage question after buyer answered.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "चौबीस voltage का है ma'am।",
+      "timestamp": 70.39,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 24V as 3.7V/12V options.",
+      "evidence_verified": true,
+      "llm_timestamp": 70.4
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी तो बताइए voltage में क्या prefer करेंगे 3.7 V, 12 V या कोई और?",
+      "timestamp": 56.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated question after buyer answered.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded with collection."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 'ek' (one) correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not specify a unit, bot captured 'ek' piece."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 24V correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never captured battery model as buyer hung up before providing it."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not provide battery model, no missed opportunity."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी तो बताइए voltage में क्या prefer करेंगे 3.7 V, 12 V या कोई और?",
+      "timestamp": 56.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated voltage question after buyer answered.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "चौबीस voltage का है ma'am।",
+      "timestamp": 70.39,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 24V as 3.7V/12V options.",
+      "evidence_verified": true,
+      "llm_timestamp": 70.4
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for or capture additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly identified 72V 30Ah lithium ion battery."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी तो बताइए voltage में क्या prefer करेंगे 3.7 V, 12 V या कोई और?",
+      "timestamp": 56.07,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated question after buyer answered.",
+      "evidence_verified": true,
+      "llm_timestamp": 56.1
+    }
+  ],
+  "captured_lead": {
+    "product": "72V 30Ah lithium ion battery",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "voltage",
+        "value": "24V"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer hung up after bot repeated voltage question.",
+      "timestamp": 87.7,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated voltage question after buyer answered.",
+      "timestamp": 56.1,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture battery model and buyer's details. Buyer hung up due to bot's repeated questioning.",
+  "analysis": "Buyer wants a 72V 30Ah lithium ion battery. Buyer specified quantity: 'ek' (one piece), voltage: 'chaubis' (24V), and battery model was not provided. Bot confirmed 'ek' and 'chaubis' but then asked about battery model again. Buyer said 'rehne do' (leave it) and hung up. Bot did not capture the battery model or the buyer's name/location. The call ended abruptly after the bot asked the third question.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[voltage] = '24V': number(s) ['24'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3744,
+    "completion_tokens": 1293
+  },
+  "unresolved_problems": []
+}

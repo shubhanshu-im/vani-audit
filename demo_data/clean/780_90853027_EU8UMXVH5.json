@@ -1,0 +1,80 @@
+{
+  "call_id": "780_90853027_EU8UMXVH5",
+  "file": "data/recordings/780_90853027_EU8UMXVH5.mp3",
+  "duration_s": 46.37,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी Amara Raja पियाजियो charger 2 KW की request IndiaMART पर range है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.49,
+      "end": 7.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 9.75,
+      "end": 10.39
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब equipment type के बारे में बात कर लेते हैं। आपको कौन सा चाहिए auto rickshaw या कुछ और?",
+      "start": 11.87,
+      "end": 16.29
+    },
+    {
+      "role": "BUYER",
+      "text": "Three-wheeler.",
+      "start": 18.07,
+      "end": 19.93
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए service type में क्या prefer करेंगे repairing, installation या कोई और?",
+      "start": 19.93,
+      "end": 24.45
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 25.79,
+      "end": 28.19
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप इस product के बारे में कोई और",
+      "start": 28.19,
+      "end": 30.41
+    },
+    {
+      "role": "BUYER",
+      "text": "details या specification share करना चाहेंगे।",
+      "start": 30.41,
+      "end": 32.85
+    },
+    {
+      "role": "BOT",
+      "text": "charger ठीक हो रहा है और कुछ आपकी details note कर ली गई। जी ठीक है। आपकी details note।",
+      "start": 34.45,
+      "end": 38.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.82,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

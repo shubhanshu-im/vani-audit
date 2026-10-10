@@ -1,0 +1,338 @@
+{
+  "call_id": "231_90643076_34JYT3KG5",
+  "duration_s": 102.02,
+  "graded_at": "2026-10-10T12:27:35+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed without creating a lead or transferring to a live seller.",
+  "fatal_params": [
+    "Outcome Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 92.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without creating a lead or transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "generator type में आपकी preference क्या है? non-silent, silent, portable या open type?",
+      "timestamp": 38.65,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated spec question once due to ASR failure.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "generator type में क्या prefer करेंगे non silent silent या कोई और?",
+      "timestamp": 27.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'open' as 'non silent silent' initially.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.4
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी",
+      "timestamp": 10.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered live seller but never asked for consent or transferred.",
+      "evidence_verified": true,
+      "llm_timestamp": 10.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 92.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send details via WhatsApp without system support.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 92.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed without creating a lead or transferring to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.1
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never gave a specific quantity; bot did not ask."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked for quantity."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was mentioned by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "power capacity 1 KVA ही चाहिए ना?",
+      "timestamp": 10.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot read back 1 KVA which matched buyer's need."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "non-silent, silent, portable या open type?",
+      "timestamp": 38.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot read back 'open' type which buyer confirmed."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot only asked for two specs as per prompt."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "generator type में आपकी preference क्या है? non-silent, silent, portable या open type?",
+      "timestamp": 38.65,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated spec question once due to ASR failure.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.6
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "generator type में क्या prefer करेंगे non silent silent या कोई और?",
+      "timestamp": 27.37,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard 'open' as 'non silent silent' initially.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.4
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी",
+      "timestamp": 10.81,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered live seller but never asked for consent or transferred.",
+      "evidence_verified": true,
+      "llm_timestamp": 10.8
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed the product and bot handled it correctly."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data provided."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 92.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised to send details via WhatsApp without system support.",
+      "evidence_verified": true,
+      "llm_timestamp": 62.1
+    }
+  ],
+  "captured_lead": {
+    "product": "gasoline generator",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "power capacity",
+        "value": "1 KVA"
+      },
+      {
+        "name": "generator type",
+        "value": "open"
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Muzaffarpur",
+    "state": "Bihar"
+  },
+  "risk_flags": [
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for seller connection but bot closed without action",
+      "timestamp": 62.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call by promising WhatsApp details instead of creating a lead or transferring to a live seller.",
+  "analysis": "Buyer wanted a gasoline generator with 1 KVA capacity, open type, priced around 75,000. Bot confirmed product, capacity, and type, but never collected quantity, name, or city/state accurately (buyer mentioned 'Meharpur corporate Jafrabad' but bot captured 'Muzaffarpur Bihar'). Bot closed by promising WhatsApp details without creating a lead or transferring.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3841,
+    "completion_tokens": 1717
+  },
+  "unresolved_problems": []
+}

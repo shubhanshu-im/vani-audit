@@ -1,0 +1,74 @@
+{
+  "call_id": "968_90853063_RHL9NXVH5",
+  "file": "data/recordings/968_90853063_RHL9NXVH5.mp3",
+  "duration_s": 53.78,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपकी electric rickshaw battery की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.07,
+      "end": 6.59
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक।",
+      "start": 8.03,
+      "end": 8.49
+    },
+    {
+      "role": "BOT",
+      "text": "कितनी piece चाहिए होगी आपको?",
+      "start": 10.33,
+      "end": 11.67
+    },
+    {
+      "role": "BUYER",
+      "text": "एक ही piece चाहिए।",
+      "start": 14.43,
+      "end": 15.95
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब brand के बारे में बात कर लेते हैं। आपको Eastman या Exide में से कौन सा चाहिए या कुछ और?",
+      "start": 17.19,
+      "end": 22.43
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं इस्तेमाल कैसे जी। ठीक है। अब battery capacity के बारे में बात कर लेते हैं। आपको 150 Ah या 140 Ah में से कौन सा चाहिए या कुछ और? one hundred forty मिल जाए तो अच्छा रहेगा साठ volt",
+      "start": 24.51,
+      "end": 43.83
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 43.81,
+      "end": 49.99
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। Okay.",
+      "start": 51.47,
+      "end": 52.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 3.88,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

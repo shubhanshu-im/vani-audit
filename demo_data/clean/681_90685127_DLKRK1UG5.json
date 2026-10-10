@@ -1,0 +1,195 @@
+{
+  "call_id": "681_90685127_DLKRK1UG5",
+  "file": "data/recordings/681_90685127_DLKRK1UG5.mp3",
+  "duration_s": 166.18,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello जी बताइए मैं आपकी क्या मदद कर सकती हूं?",
+      "start": 0.01,
+      "end": 2.71
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे तुम सुंदरम जय भारत gas लगाए का?",
+      "start": 4.49,
+      "end": 7.99
+    },
+    {
+      "role": "BOT",
+      "text": "तो आप सुंदरम भारत gas के बारे में पूछ रहे हैं ना? बताइए क्या आप वहां से कोई gas cylinder या नया connection लेना चाहते हैं?",
+      "start": 9.83,
+      "end": 16.75
+    },
+    {
+      "role": "BUYER",
+      "text": "gas cylinder हम लाए थे रुकिए एक minute बता रहे हैं।",
+      "start": 18.59,
+      "end": 22.81
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल आप आराम से देख लीजिए मैं रुकी हूं।",
+      "start": 24.07,
+      "end": 26.81
+    },
+    {
+      "role": "BUYER",
+      "text": "पच्चीस पच्चीस तारीख को लाए थे।",
+      "start": 26.75,
+      "end": 29.77
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा। तो आप 25 date को लाए हुए cylinder के बारे में कुछ बताना चाह रहे हैं? बताइए क्या कोई परेशानी हुई है?",
+      "start": 30.97,
+      "end": 37.39
+    },
+    {
+      "role": "BUYER",
+      "text": "बताना चाह रहे हैं कि gas उसमें है नहीं gas जल नहीं रहा है।",
+      "start": 37.01,
+      "end": 42.57
+    },
+    {
+      "role": "BOT",
+      "text": "अरे ये तो वाकई परेशानी की बात है। क्या ये समस्या उसी cylinder के साथ है जो आपने 25 date को लिया था?",
+      "start": 43.49,
+      "end": 49.55
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ उसी cylinder के साथ है। ओहो मैं समझ सकती हूं यह काफी दिक्कत वाली बात है। देखिए इस तरह की complaints के लिए कृपया हमारे customer care number 5 times 96 पे call करें। वो team आपकी पूरी मदद करेगी। इतना बोले फिर से बोलिए तो।",
+      "start": 50.81,
+      "end": 67.99
+    },
+    {
+      "role": "BOT",
+      "text": "जी customer care number 5 times 96 है। आप इसपे call कर लीजिए।",
+      "start": 68.97,
+      "end": 73.39
+    },
+    {
+      "role": "BUYER",
+      "text": "काइट हैं।",
+      "start": 75.01,
+      "end": 75.89
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं sorry number 5 times 9 6 है आप इसी पे call करें।",
+      "start": 76.97,
+      "end": 80.49
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे आप पहला number number अच्छे से बताइए ना फिर मैं fresh जैसा बोल रहा हूँ।",
+      "start": 81.11,
+      "end": 84.93
+    },
+    {
+      "role": "BOT",
+      "text": "देखिए number है five times nine six आप इसे note कर लीजिए।",
+      "start": 86.07,
+      "end": 89.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Five Nine.",
+      "start": 91.19,
+      "end": 92.09
+    },
+    {
+      "role": "BOT",
+      "text": "मतलब आप इसे ऐसे समझिए कि छियानवे पांच बार बोलना है five times nine sixty.",
+      "start": 93.25,
+      "end": 97.87
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका तो आवाज ही हमको समझ में नहीं आ रहा है क्या बोल रहे हैं आप। उफ़ मुझे बहुत खेद है कि आपको मेरी आवाज़ समझ नहीं आ रही। मैं फिर से कोशिश करती हूँ। नंबर है 5 times 96। न. I nine.",
+      "start": 101.31,
+      "end": 118.19
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए मैं एक बार फिर बताती हूं। number है five times nine six यानी छियानवे पांच बार।",
+      "start": 119.41,
+      "end": 123.99
+    },
+    {
+      "role": "BUYER",
+      "text": "छियानवे पाँच।",
+      "start": 127.71,
+      "end": 129.13
+    },
+    {
+      "role": "BOT",
+      "text": "जी मतलब छियानवे को पांच बार बोलना है five times nine six.",
+      "start": 130.35,
+      "end": 133.81
+    },
+    {
+      "role": "BUYER",
+      "text": "छियानवे के पांच बार।",
+      "start": 136.79,
+      "end": 138.53
+    },
+    {
+      "role": "BOT",
+      "text": "जी बिल्कुल सही समझा आपने। छियानवे पांच बार बोलना है।",
+      "start": 139.67,
+      "end": 142.69
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 146.91,
+      "end": 147.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? क्या मैं इसके अलावा आपकी कोई और मदद कर सकती हूं?",
+      "start": 148.85,
+      "end": 152.09
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 157.99,
+      "end": 158.57
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 159.65,
+      "end": 162.61
+    }
+  ],
+  "stats": {
+    "bot_turns": 14,
+    "buyer_turns": 13,
+    "longest_gap_s": 5.9,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 152.09,
+        "end": 157.99,
+        "duration_s": 5.9,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

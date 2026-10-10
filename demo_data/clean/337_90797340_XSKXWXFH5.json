@@ -1,0 +1,50 @@
+{
+  "call_id": "337_90797340_XSKXWXFH5",
+  "file": "data/recordings/337_90797340_XSKXWXFH5.mp3",
+  "duration_s": 25.49,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको hospital blankets की requirement है ना?",
+      "start": 0.63,
+      "end": 4.61
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। आपने कहा था message करूंगी आपने message किया नहीं है। details।",
+      "start": 5.63,
+      "end": 12.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 14.45,
+      "end": 22.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you आपका भी।",
+      "start": 23.29,
+      "end": 24.65
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

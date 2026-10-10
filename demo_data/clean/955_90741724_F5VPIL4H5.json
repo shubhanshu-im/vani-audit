@@ -1,0 +1,45 @@
+{
+  "call_id": "955_90741724_F5VPIL4H5",
+  "file": "data/recordings/955_90741724_F5VPIL4H5.mp3",
+  "duration_s": 14.9,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको country chicken की requirement है ना?",
+      "start": 0.01,
+      "end": 3.11
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 5.45,
+      "end": 6.21
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece या kilograms चाहिए?",
+      "start": 7.33,
+      "end": 14.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 2.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

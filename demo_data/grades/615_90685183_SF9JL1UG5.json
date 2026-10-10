@@ -1,0 +1,346 @@
+{
+  "call_id": "615_90685183_SF9JL1UG5",
+  "duration_s": 60.12,
+  "graded_at": "2026-10-10T12:37:31+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Closed call with WhatsApp transfer without capturing quantity or contact details.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Quantity Probing Error",
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 40.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed call with WhatsApp transfer without capturing quantity or contact details.",
+      "evidence_verified": true,
+      "llm_timestamp": 40.4
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "चलिए अब automation grade के बारे में बात कर लेते हैं। आपको fully automatic चाहिए या कुछ और?",
+      "timestamp": 23.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot skipped asking for quantity, which is a required field for a buy lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 23.1
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Three.",
+      "timestamp": 38.89,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer said 'Three' referring to bricks per stroke, but bot captured it as quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.9
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "timestamp": 13.81,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot did not ask for buyer's name or location.",
+      "evidence_verified": true,
+      "llm_timestamp": 13.8
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 40.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Offered WhatsApp transfer without asking for consent or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 40.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 40.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed call with WhatsApp transfer without capturing quantity or contact details.",
+      "evidence_verified": true,
+      "llm_timestamp": 40.4
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity asked or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "चलिए अब automation grade के बारे में बात कर लेते हैं। आपको fully automatic चाहिए या कुछ और?",
+      "timestamp": 23.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot skipped asking for quantity, which is a required field for a buy lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 23.1
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Three.",
+      "timestamp": 38.89,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer said 'Three' referring to bricks per stroke, but bot captured it as quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 38.9
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ठीक है। अब बताइए bricks per stroke में क्या prefer करेंगे? 8 bricks, 2 bricks या कोई और?",
+      "timestamp": 31.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured the spec value of 3."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Second spec not asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "timestamp": 13.81,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot did not ask for buyer's name or location.",
+      "evidence_verified": true,
+      "llm_timestamp": 13.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping observed."
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant ASR errors impacting the conversation."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 40.41,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Offered WhatsApp transfer without asking for consent or creating a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 40.4
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific ISQ errors observed."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search or MCAT errors evident."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "fly ash brick making machine",
+    "quantity": "3",
+    "quantity_unit": "bricks per stroke",
+    "specs": [
+      {
+        "name": "automation grade",
+        "value": "fully automatic"
+      },
+      {
+        "name": "bricks per stroke",
+        "value": "3"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Captured 3 as quantity instead of spec value.",
+      "timestamp": 38.9,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer complained about previous non-response.",
+      "timestamp": 6.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot skipped required fields (quantity, name, location) and closed the call without creating a lead.",
+  "analysis": "Buyer wants a fully automatic fly ash brick making machine. He mentioned 3 bricks per stroke. The bot captured '3' as quantity instead of '3 bricks per stroke', and did not ask for quantity or name/location. It closed with a WhatsApp message without creating a lead or transferring.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3575,
+    "completion_tokens": 1727
+  },
+  "unresolved_problems": []
+}

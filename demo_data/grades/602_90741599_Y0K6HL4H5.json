@@ -1,0 +1,320 @@
+{
+  "call_id": "602_90741599_Y0K6HL4H5",
+  "duration_s": 116.06,
+  "graded_at": "2026-10-10T12:37:03+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Buyer asked for senior agent, bot never transferred or created a lead.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Looping Behavior",
+    "OnCall AstBuy Error"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry",
+      "timestamp": 23.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked for senior agent, bot never transferred or created a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 23.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "वही green color का चाहिए",
+      "timestamp": 9.99,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot confirmed color but never asked for other specs.",
+      "evidence_verified": true,
+      "llm_timestamp": 10.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Hello क्या आप अभी line पर हैं?",
+      "timestamp": 27.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped with 'are you on the line?' 4 times without transferring.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.2
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry",
+      "timestamp": 23.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot never asked or transferred to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 23.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry",
+      "timestamp": 23.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked for senior agent, bot never transferred or created a lead.",
+      "evidence_verified": true,
+      "llm_timestamp": 23.6
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was asked."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "वही green color का चाहिए",
+      "timestamp": 9.99,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot confirmed color but never asked for other specs.",
+      "evidence_verified": true,
+      "llm_timestamp": 10.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Hello क्या आप अभी line पर हैं?",
+      "timestamp": 27.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped with 'are you on the line?' 4 times without transferring.",
+      "evidence_verified": true,
+      "llm_timestamp": 27.2
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No ASR errors that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry",
+      "timestamp": 23.55,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot never asked or transferred to a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 23.6
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was correctly identified."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breach or mispronunciation."
+    }
+  ],
+  "captured_lead": {
+    "product": "tomato cutting knife",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "color",
+        "value": "green"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer asked for senior agent but bot looped instead.",
+      "timestamp": null,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped with 'are you on the line?' instead of transferring or creating a lead.",
+  "analysis": "Buyer requested a tomato cutting knife in green color. Bot confirmed the product and color but failed to collect quantity, specs, name, or location, and did not transfer to a live seller or create a lead. Bot looped with 'are you on the line?' 4 times instead of transferring.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8837,
+    "completion_tokens": 2797
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "243_90852860_1ASSKXVH5",
+  "file": "data/recordings/243_90852860_1ASSKXVH5.mp3",
+  "duration_s": 26.06,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको clean sixty mic की requirement है।",
+      "start": 0.01,
+      "end": 3.79
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.39,
+      "end": 5.97
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 7.25,
+      "end": 16.43
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 17.73,
+      "end": 18.17
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMart चुनने के लिए धन्यवाद।",
+      "start": 19.31,
+      "end": 21.19
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद phone करने के लिए।",
+      "start": 19.65,
+      "end": 21.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 1.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

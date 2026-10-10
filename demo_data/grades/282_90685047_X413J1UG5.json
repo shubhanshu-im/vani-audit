@@ -1,0 +1,331 @@
+{
+  "call_id": "282_90685047_X413J1UG5",
+  "duration_s": 197.86,
+  "graded_at": "2026-10-10T12:28:50+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot closed with WhatsApp offer instead of lead or transfer.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 187.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with WhatsApp offer instead of lead or transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 187.4,
+      "llm_severity": "NON_FATAL"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "सब कुछ चालू नहीं हो रहा है।",
+      "timestamp": 116.25,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer mentioned device not working, bot ignored this context.",
+      "evidence_verified": true,
+      "llm_timestamp": 116.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "कोई बात नहीं बस आप अपना नाम बता दीजिए ताकि seller से आसानी से बात हो सके।",
+      "timestamp": 168.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for name 5 times despite limit 3, then gave up.",
+      "evidence_verified": true,
+      "llm_timestamp": 168.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 187.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised WhatsApp details which violates policy.",
+      "evidence_verified": true,
+      "llm_timestamp": 187.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 187.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with WhatsApp offer instead of lead or transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 187.4,
+      "llm_severity": "NON_FATAL"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed one piece and bot acknowledged."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No unit discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked quantity and buyer answered."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never confirmed a video resolution value."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never confirmed a flight time value."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "सब कुछ चालू नहीं हो रहा है।",
+      "timestamp": 116.25,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer mentioned device not working, bot ignored this context.",
+      "evidence_verified": true,
+      "llm_timestamp": 116.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "कोई बात नहीं बस आप अपना नाम बता दीजिए ताकि seller से आसानी से बात हो सके।",
+      "timestamp": 168.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot asked for name 5 times despite limit 3, then gave up.",
+      "evidence_verified": true,
+      "llm_timestamp": 168.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major ASR errors on key values."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details captured."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer corrected to home drone camera and bot adapted."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No long dead air gaps."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 187.39,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised WhatsApp details which violates policy.",
+      "evidence_verified": true,
+      "llm_timestamp": 187.4
+    }
+  ],
+  "captured_lead": {
+    "product": "drone camera",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "video resolution",
+        "value": ""
+      },
+      {
+        "name": "flight time",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot looped on name 5 times exceeding limit 3.",
+      "timestamp": 168.1,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for price which bot deferred.",
+      "timestamp": 149.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on name collection, ignored buyer's device issue and price query, and closed with a WhatsApp offer instead of a lead.",
+  "analysis": "Buyer wanted a drone camera for home use, not a school bus camera. Bot asked for quantity (1 piece), spec 1 (video resolution) and spec 2 (flight time), but buyer was confused. Bot asked for name repeatedly (5 times, limit 3) and looped on it, while buyer asked for price. Bot cut off abruptly at the end without collecting name or location, and closed with a WhatsApp offer instead of a lead or transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4641,
+    "completion_tokens": 1335
+  },
+  "unresolved_problems": []
+}

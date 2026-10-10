@@ -1,0 +1,86 @@
+{
+  "call_id": "907_90741703_CCVGIL4H5",
+  "file": "data/recordings/907_90741703_CCVGIL4H5.mp3",
+  "duration_s": 47.16,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपको 25G plain plastic balm bottle की requirement है ना?",
+      "start": 0.25,
+      "end": 4.95
+    },
+    {
+      "role": "BUYER",
+      "text": "ये बोल रहा।",
+      "start": 9.33,
+      "end": 11.11
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 12.41,
+      "end": 18.29
+    },
+    {
+      "role": "BUYER",
+      "text": "तीस।",
+      "start": 20.49,
+      "end": 21.39
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं quantity की बात कर रही हूं। आपको कितने piece की जरूरत है?",
+      "start": 22.45,
+      "end": 26.05
+    },
+    {
+      "role": "BUYER",
+      "text": "एक हजार से",
+      "start": 27.51,
+      "end": 28.87
+    },
+    {
+      "role": "BOT",
+      "text": "मैं quantity पूछ रही हूं आपको कितने pieces चाहिए? Jatayus के बारे में हम आगे बात करेंगे।",
+      "start": 30.07,
+      "end": 35.03
+    },
+    {
+      "role": "BUYER",
+      "text": "twenty thousand.",
+      "start": 34.95,
+      "end": 37.25
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई? मैं देख पा रही हूं आपको capacity 5 grams ही चाहिए ना?",
+      "start": 38.53,
+      "end": 42.39
+    },
+    {
+      "role": "BUYER",
+      "text": "बोला।",
+      "start": 44.23,
+      "end": 46.71
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 4.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

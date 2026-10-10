@@ -1,0 +1,128 @@
+{
+  "call_id": "586_90853034_UFPWMXVH5",
+  "file": "data/recordings/586_90853034_UFPWMXVH5.mp3",
+  "duration_s": 93.67,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello? आपको poultry farming की requirement है ना?",
+      "start": 0.69,
+      "end": 3.73
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। Hello.",
+      "start": 2.61,
+      "end": 6.19
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। आपको poultry farming की requirement थी ना?",
+      "start": 7.47,
+      "end": 10.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 11.95,
+      "end": 12.57
+    },
+    {
+      "role": "BOT",
+      "text": "जी, क्या आपको poultry farming की जरूरत है?",
+      "start": 13.71,
+      "end": 16.39
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 17.99,
+      "end": 18.99
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब breed variety के बारे में बात कर लेते हैं। आपको Khaki Campbell चाहिए या कुछ और?",
+      "start": 20.19,
+      "end": 29.41
+    },
+    {
+      "role": "BUYER",
+      "text": "वो five star का बच्चा कितना में है? क्षमा कीजिए मुझे आपकी बात समझ नहीं आई।",
+      "start": 31.81,
+      "end": 36.94
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप बता सकते हैं कि breed variety में आप क्या prefer करेंगे?",
+      "start": 36.94,
+      "end": 40.59
+    },
+    {
+      "role": "BUYER",
+      "text": "ও এ না আমার fighterওয়ালা কুকুর।",
+      "start": 42.35,
+      "end": 46.03
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। Seller इस detail में आपकी मदद कर देंगे। अब बताइए poultry type में आप क्या prefer करेंगे?",
+      "start": 46.97,
+      "end": 53.71
+    },
+    {
+      "role": "BUYER",
+      "text": "और fight वाला खुबड़ा है ना।",
+      "start": 55.65,
+      "end": 57.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप इसे seller के साथ discuss कर सकते हैं। बस यह बता दीजिए कि poultry type में आपको desi या broiler चाहिए या कुछ और?",
+      "start": 58.53,
+      "end": 65.83
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे बच्चा कितना है?",
+      "start": 67.75,
+      "end": 71.47
+    },
+    {
+      "role": "BOT",
+      "text": "आप price की बात कर रहे हैं? ये आप seller से discuss कर सकते हैं। वो आपको best rates देंगे। अभी please बता दीजिए कि आपको poultry type में desi या broiler चाहिए या कुछ और?",
+      "start": 72.37,
+      "end": 81.55
+    },
+    {
+      "role": "BUYER",
+      "text": "पहले पहले।",
+      "start": 82.99,
+      "end": 83.95
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको poultry type में क्या चाहिए?",
+      "start": 84.97,
+      "end": 89.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.4,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

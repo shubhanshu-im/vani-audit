@@ -1,0 +1,325 @@
+{
+  "call_id": "394_90852942_T37TLXVH5",
+  "duration_s": 60.55,
+  "graded_at": "2026-10-10T12:31:45+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Accuracy (Numeric): Buyer said 'ek crore', bot completely missed this quantity.",
+  "fatal_params": [
+    "Quantity Accuracy (Numeric)",
+    "Qty Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक करोड़ चाहिए था।",
+      "timestamp": 15.65,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'ek crore', bot completely missed this quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 15.7
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक करोड़ चाहिए था।",
+      "timestamp": 15.65,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 1 crore, bot never captured or acknowledged it.",
+      "evidence_verified": true,
+      "llm_timestamp": 15.7
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 42.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised WhatsApp instead of offering live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.1
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 42.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot deviated from standard transfer protocol to promise WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.1
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated clear product need, bot created lead."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक करोड़ चाहिए था।",
+      "timestamp": 15.65,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 'ek crore', bot completely missed this quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 15.7
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No explicit unit was discussed or captured for quantity."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked quantity, buyer provided it."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "एक करोड़ चाहिए था।",
+      "timestamp": 15.65,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 1 crore, bot never captured or acknowledged it.",
+      "evidence_verified": true,
+      "llm_timestamp": 15.7
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "four mm या six mm दोनों grade चाहिए थे madam.",
+      "timestamp": 25.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 4mm and 6mm."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "पाँच सौ मीटर चाहिए madam मुझे।",
+      "timestamp": 39.0,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly captured 500 meters."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured the main specs discussed."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not repeat questions excessively."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No major misrecognitions that derailed the call."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were explicitly recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 42.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised WhatsApp instead of offering live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.1
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not present in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not present in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps present."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 42.11,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot deviated from standard transfer protocol to promise WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.1
+    }
+  ],
+  "captured_lead": {
+    "product": "Fenolex electrical wires",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "wire size",
+        "value": "4 mm, 6 mm"
+      },
+      {
+        "name": "length",
+        "value": "500 meters"
+      }
+    ],
+    "name": null,
+    "city": "Betul",
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot missed buyer's stated quantity of 1 crore.",
+      "timestamp": 15.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot missed the buyer's quantity of 'ek crore' and closed with a WhatsApp message instead of a live transfer.",
+  "analysis": "Buyer wanted 1 crore Fenolex electrical wires, 4mm and 6mm grade, 500 meters length, from Betul. Bot confirmed 4mm/6mm and 500m, but missed the 1 crore quantity (interpreted as 1 crore = 100, but buyer likely meant 100 rolls or a large quantity). Bot closed with a lead and WhatsApp message, no live transfer.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.specs[length] = '500 meters': number(s) ['500'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3620,
+    "completion_tokens": 1353
+  },
+  "unresolved_problems": []
+}

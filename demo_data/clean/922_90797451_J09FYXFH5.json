@@ -1,0 +1,153 @@
+{
+  "call_id": "922_90797451_J09FYXFH5",
+  "file": "data/recordings/922_90797451_J09FYXFH5.mp3",
+  "duration_s": 85.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको coconut बर्फी की requirement है ना?",
+      "start": 0.01,
+      "end": 3.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. हलो।",
+      "start": 6.89,
+      "end": 13.21
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते। आपको coconut बर्फी की requirement थी ना?",
+      "start": 14.31,
+      "end": 17.47
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं।",
+      "start": 18.57,
+      "end": 19.39
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप किसी और product के बारे में जानकारी चाहते हैं?",
+      "start": 20.51,
+      "end": 23.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes connect करो मुझे कोई restaurant वालों से।",
+      "start": 25.41,
+      "end": 28.69
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं आपको सिर्फ products के लिए sellers से connect कर सकती हूं। क्या आपको किसी product की जरूरत है?",
+      "start": 29.87,
+      "end": 35.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हां professional हलवाई maker।",
+      "start": 36.79,
+      "end": 39.09
+    },
+    {
+      "role": "BOT",
+      "text": "आपको professional हलवाई maker जो आमतौर पे मिठाइयां और पकवान बनाने का काम करते हैं वही चाहिए ना?",
+      "start": 40.29,
+      "end": 45.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 46.61,
+      "end": 47.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गई। आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "start": 48.37,
+      "end": 54.63
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा।",
+      "start": 56.53,
+      "end": 57.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 58.47,
+      "end": 61.11
+    },
+    {
+      "role": "BUYER",
+      "text": "अह अबर्दला त्रिपुरा।",
+      "start": 63.03,
+      "end": 64.79
+    },
+    {
+      "role": "BOT",
+      "text": "आप Amartala Tripura से बोल रहे हैं ना?",
+      "start": 65.89,
+      "end": 67.77
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 68.93,
+      "end": 69.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप [NAME] जी बोल रहे हैं ना?",
+      "start": 70.53,
+      "end": 72.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 73.87,
+      "end": 74.39
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 75.39,
+      "end": 83.09
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा ठीक है thank you।",
+      "start": 83.27,
+      "end": 85.49
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 5.28,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 7.39,
+        "end": 12.67,
+        "duration_s": 5.28,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

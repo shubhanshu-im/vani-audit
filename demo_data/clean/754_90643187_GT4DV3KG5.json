@@ -1,0 +1,182 @@
+{
+  "call_id": "754_90643187_GT4DV3KG5",
+  "file": "data/recordings/754_90643187_GT4DV3KG5.mp3",
+  "duration_s": 144.43,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello. Hello. आपको 3 mm brass premium duct hinge की requirement है ना?",
+      "start": 0.31,
+      "end": 4.37
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. हाँ जी ये कितने का है जी ये कब्ज़ा?",
+      "start": 0.67,
+      "end": 7.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece या pack चाहिए?",
+      "start": 8.23,
+      "end": 18.89
+    },
+    {
+      "role": "BUYER",
+      "text": "कई। ठीक है। जी। नहीं pack तो मैं तभी लूँगा जी बाकी कितने का कब्जा है ये? price?",
+      "start": 10.99,
+      "end": 23.65
+    },
+    {
+      "role": "BOT",
+      "text": "आप price की बात कर सकते हैं seller से और वो आपको best rates देंगे। अभी आप बता दीजिए कि आपको कितनी quantity चाहिए?",
+      "start": 24.75,
+      "end": 31.09
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं दिए तो मैं check देख लूंगा पर मैं अलग अलग लूंगा ना तभी पूछ रहे ना अभी मैं तभी तो कितने का रखेगा ये।",
+      "start": 31.53,
+      "end": 37.55
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 1 inch, 2 inch या कुछ और?",
+      "start": 38.53,
+      "end": 43.75
+    },
+    {
+      "role": "BUYER",
+      "text": "one inch मतलब इसमें क्या one inch में।",
+      "start": 44.55,
+      "end": 48.13
+    },
+    {
+      "role": "BOT",
+      "text": "एक inch size का option है। क्या आपको यही चाहिए या कोई और size prefer करेंगे?",
+      "start": 49.29,
+      "end": 53.81
+    },
+    {
+      "role": "BUYER",
+      "text": "ਨਹੀਂ ਇਸ ਮੇਂ ਸਭ ਤੇ ਕਮ rate ਵਾਲਾ ਉਹੀ ਹੈ ਨਾ ਮੇਰੇ ਖਿਆਲ ਤੇ।",
+      "start": 54.11,
+      "end": 57.29
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए कि आप इसमें क्या prefer करेंगे brass door hinges, brass railway hinges या कोई और?",
+      "start": 58.23,
+      "end": 63.83
+    },
+    {
+      "role": "BUYER",
+      "text": "brass इसका rate क्या है अलग अलग जो brass engine railway brass engine? rupees का rupees.",
+      "start": 64.85,
+      "end": 70.41
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी पसंद समझ गई। अब बस आपकी city और state बता दीजिए please। क्षमा कीजिए मैं समझ नहीं पाई। क्या आप अपनी city और state बता सकते हैं please?",
+      "start": 70.41,
+      "end": 80.83
+    },
+    {
+      "role": "BUYER",
+      "text": "माफ़ कीजिए मैं समझ नहीं पाई। नहीं City Stage तो बता देंगे कोई बात नहीं पर मैं जी कितने का बैठेगा हिसाब से price बताओ पहले आप इसका। price के लिए मैं आपको",
+      "start": 76.99,
+      "end": 89.53
+    },
+    {
+      "role": "BOT",
+      "text": "price के लिए मैं आपको seller से connect करवा दूंगी वो आपको best rates बताएंगे। please अपनी city और state बता दीजिए।",
+      "start": 88.61,
+      "end": 94.61
+    },
+    {
+      "role": "BUYER",
+      "text": "CT का Haryana।",
+      "start": 95.87,
+      "end": 97.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। हरियाणा में आप किस city से बोल रहे हैं? please बता दीजिए।",
+      "start": 98.55,
+      "end": 102.15
+    },
+    {
+      "role": "BUYER",
+      "text": "Yamuna Nagar Yamuna Nagar।",
+      "start": 101.17,
+      "end": 103.23
+    },
+    {
+      "role": "BOT",
+      "text": "आप Yamunanagar Haryana से बोल रहे हैं ना?",
+      "start": 104.01,
+      "end": 106.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। मैंने पूर्व में",
+      "start": 106.67,
+      "end": 110.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब आप अपना नाम भी बता दीजिए please.",
+      "start": 111.85,
+      "end": 114.15
+    },
+    {
+      "role": "BUYER",
+      "text": "अब नहीं मैंने वो तो आज ठीक है नाम कितने का पड़ेगा ये कब्जा तो अभी तो पूछ रहे हैं जी अब वो तो पता नहीं रहे।",
+      "start": 112.29,
+      "end": 121.61
+    },
+    {
+      "role": "BOT",
+      "text": "price की जानकारी seller ही दे पाएंगे। please अपना नाम बता दीजिए ताकि मैं आपको उनसे connect कर सकूं।",
+      "start": 122.61,
+      "end": 128.17
+    },
+    {
+      "role": "BUYER",
+      "text": "उत्पीडित।",
+      "start": 131.41,
+      "end": 133.39
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 134.21,
+      "end": 141.97
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है देखियो।",
+      "start": 142.99,
+      "end": 144.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 13,
+    "longest_gap_s": 3.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

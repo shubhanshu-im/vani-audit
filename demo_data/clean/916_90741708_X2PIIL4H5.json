@@ -1,0 +1,38 @@
+{
+  "call_id": "916_90741708_X2PIIL4H5",
+  "file": "data/recordings/916_90741708_X2PIIL4H5.mp3",
+  "duration_s": 5.62,
+  "language_code": "hi-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Areca Palm Plant की requirement है ना?",
+      "start": 0.01,
+      "end": 3.91
+    },
+    {
+      "role": "BUYER",
+      "text": "हलो।",
+      "start": 1.25,
+      "end": 1.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

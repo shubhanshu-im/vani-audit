@@ -1,0 +1,74 @@
+{
+  "call_id": "305_90741542_UPZFGL4H5",
+  "file": "data/recordings/305_90741542_UPZFGL4H5.mp3",
+  "duration_s": 44.35,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Good Ride 235 65 AR 17 HC car radial tyre tubeless की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.19,
+      "end": 10.41
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 11.57,
+      "end": 12.23
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब size के बारे में बात कर लेते हैं। आपको कौन सा चाहिए? 175, 65, R14 या कुछ और?",
+      "start": 13.87,
+      "end": 19.89
+    },
+    {
+      "role": "BUYER",
+      "text": "दो सौ पैंतीस पैंसठ आर सत्रह।",
+      "start": 21.77,
+      "end": 24.55
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 25.41,
+      "end": 30.65
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 32.35,
+      "end": 33.41
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद दोस्तों। आपका दिन शुभ हो।",
+      "start": 34.13,
+      "end": 40.51
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you.",
+      "start": 40.55,
+      "end": 42.11
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 1.88,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

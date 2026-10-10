@@ -1,0 +1,92 @@
+{
+  "call_id": "435_90797400_4W6WXXFH5",
+  "file": "data/recordings/435_90797400_4W6WXXFH5.mp3",
+  "duration_s": 53.93,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello जीजी आपको pickup for transport की requirement है ना?",
+      "start": 0.01,
+      "end": 3.71
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 5.53,
+      "end": 6.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। मैं देख पा रही हूं आपको vehicle model pickup ही चाहिए ना?",
+      "start": 7.29,
+      "end": 14.87
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी मुझे ticket ही चाहिए।",
+      "start": 16.97,
+      "end": 19.09
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब service category के बारे में बात कर लेते हैं। आपको courier, rental या कुछ और चाहिए?",
+      "start": 20.13,
+      "end": 25.55
+    },
+    {
+      "role": "BUYER",
+      "text": "अब सब category। नहीं नहीं नहीं मुझे क्या नाम है courier नहीं मुझे सामान load करके ले जाना है दूसरी जगह।",
+      "start": 20.75,
+      "end": 33.45
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई तो आपको cargo या logistics में से क्या चाहिए या फिर कुछ और?",
+      "start": 34.33,
+      "end": 38.85
+    },
+    {
+      "role": "BUYER",
+      "text": "logistics.",
+      "start": 40.49,
+      "end": 41.33
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp से भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 42.35,
+      "end": 47.95
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 50.69,
+      "end": 51.27
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 52.33,
+      "end": 54.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

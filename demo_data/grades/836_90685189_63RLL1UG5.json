@@ -1,0 +1,319 @@
+{
+  "call_id": "836_90685189_63RLL1UG5",
+  "duration_s": 100.37,
+  "graded_at": "2026-10-10T12:43:24+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Product Change / No Product Accuracy: Bot captured wrong product ear pressure tap instead of valve cap",
+  "fatal_params": [
+    "Product Change / No Product Accuracy"
+  ],
+  "issues": [
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "यही product चाहिए ना? यही product चाहिए ना?",
+      "timestamp": 21.0,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on wrong product 4 times causing buyer confusion",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "gear sensor alert क्या चाहिए?",
+      "timestamp": 17.33,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said gear sensor but bot heard ear pressure",
+      "evidence_verified": true,
+      "llm_timestamp": 17.3
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 78.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp instead of live seller transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 78.6
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ear pressure tap चाहिए",
+      "timestamp": 29.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot captured wrong product ear pressure tap instead of valve cap",
+      "evidence_verified": true,
+      "llm_timestamp": 29.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं",
+      "timestamp": 78.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed product need and bot created lead"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed or confirmed by bot"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed or confirmed by bot"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको कितने piece चाहिए?",
+      "timestamp": 50.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity as per flow"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer answered"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked or confirmed spec1"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked or confirmed spec2"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आप इसकी details seller से भी discuss कर लीजिएगा",
+      "timestamp": 78.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer provided material, bot acknowledged and deferred to seller"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "यही product चाहिए ना? यही product चाहिए ना?",
+      "timestamp": 21.0,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot looped on wrong product 4 times causing buyer confusion",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "gear sensor alert क्या चाहिए?",
+      "timestamp": 17.33,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said gear sensor but bot heard ear pressure",
+      "evidence_verified": true,
+      "llm_timestamp": 17.3
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details recorded by bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 78.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp instead of live seller transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 78.6
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "ear pressure tap चाहिए",
+      "timestamp": 29.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot captured wrong product ear pressure tap instead of valve cap",
+      "evidence_verified": true,
+      "llm_timestamp": 29.6
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data, not visible in transcript"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "IndiaMART चुनने के लिए धन्यवाद",
+      "timestamp": 90.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No compliance breach or human claim"
+    }
+  ],
+  "captured_lead": {
+    "product": "ear pressure tap",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer said maaf kijiye twice due to bot's wrong product loop",
+      "timestamp": 27.7,
+      "source": "llm"
+    },
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured ear pressure tap instead of valve cap",
+      "timestamp": 29.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot looped on wrong product multiple times, causing buyer confusion and capturing wrong product in lead.",
+  "analysis": "Buyer wants an air pressure valve cap (not a gear sensor or ear pressure tap). Bot repeatedly asked for the wrong product. Buyer gave quantity 500 pieces and material 'एल आई सी' (likely stainless/SS). Bot created a lead and offered to send seller details on WhatsApp. Call ended with seller transfer.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 14510,
+    "completion_tokens": 4038
+  },
+  "unresolved_problems": [
+    "Looping Behavior: evidence_quote not found verbatim in any transcript line: 'यही product चाहिए ना? यही product चाहिए ना?'"
+  ]
+}

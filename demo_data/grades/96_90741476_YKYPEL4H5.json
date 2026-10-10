@@ -1,0 +1,321 @@
+{
+  "call_id": "96_90741476_YKYPEL4H5",
+  "duration_s": 60.62,
+  "graded_at": "2026-10-10T12:47:04+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Closed call without collecting lead details or transferring buyer to a seller.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 49.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed call without collecting lead details or transferring buyer to a seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 49.8
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "समझ गई। material में leather या metal चाहिए या कुछ और?",
+      "timestamp": 39.71,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot missed the buyer's stated material (plastic) and closed without collecting name or location.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.7
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे connect करवाऊंगी।",
+      "timestamp": 17.47,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to connect a live seller but failed to do so before closing.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.5
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए।",
+      "timestamp": 49.75,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used a closing phrase that was cut off, but did not make a price promise.",
+      "evidence_verified": true,
+      "llm_timestamp": 49.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 49.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed call without collecting lead details or transferring buyer to a seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 49.8
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured and confirmed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity unit was not explicitly asked or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and provided."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured and confirmed."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 was not asked or captured."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 was not asked or captured."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "समझ गई। material में leather या metal चाहिए या कुछ और?",
+      "timestamp": 39.71,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot missed the buyer's stated material (plastic) and closed without collecting name or location.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misheard words that affected the outcome."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were captured."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "हमारे पास कई अच्छे sellers available हैं जिनसे connect करवाऊंगी।",
+      "timestamp": 17.47,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to connect a live seller but failed to do so before closing.",
+      "evidence_verified": true,
+      "llm_timestamp": 17.5
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change or inaccuracy occurred."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors detected."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No MCAT or search errors detected."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "IndiaMART चुनने के लिए।",
+      "timestamp": 49.75,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used a closing phrase that was cut off, but did not make a price promise.",
+      "evidence_verified": true,
+      "llm_timestamp": 49.8
+    }
+  ],
+  "captured_lead": {
+    "product": "doctor's coat shape pen stand",
+    "quantity": "100",
+    "quantity_unit": "feet",
+    "specs": [
+      {
+        "name": "material",
+        "value": "plastic"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot closed without transferring to seller or creating a lead.",
+      "timestamp": 49.8,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call prematurely after confirming product and quantity, failing to collect name/location or transfer to a live seller.",
+  "analysis": "Buyer requested a doctor's coat shape pen stand/connection holder, confirmed 100 feet. Bot confirmed product and quantity (100 feet). Bot asked about material, buyer confirmed plastic. Bot closed by offering to send seller details on WhatsApp without collecting name or location, and without transferring or creating a lead.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '100': number(s) ['100'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3651,
+    "completion_tokens": 1306
+  },
+  "unresolved_problems": []
+}

@@ -1,0 +1,20 @@
+{
+  "call_id": "728_90643173_TLK7V3KG5",
+  "duration_s": 1.44,
+  "graded_at": "2026-10-10T12:40:35+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NO_CONVERSATION",
+  "quality": "NA",
+  "grade_reason": "call under 10 s",
+  "model": null,
+  "parameters": [],
+  "issues": [],
+  "fatal_params": [],
+  "captured_lead": null,
+  "risk_flags": [],
+  "failure_description": "",
+  "analysis": "",
+  "confidence": "high",
+  "needs_review": false,
+  "attempts": 0
+}

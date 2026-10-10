@@ -1,0 +1,1829 @@
+{
+  "created_at": "2026-10-09T18:03:57+05:30",
+  "summary": {
+    "cause_id": "C2",
+    "cause_name": "Bot asks the same question too many times",
+    "cause_type": "PROMPT",
+    "bot_model": "sarvam-105b",
+    "buyer_model": "sarvam-105b-conversations",
+    "prompt_hash_old": "19606c081a",
+    "prompt_hash_new": "4987605e1a",
+    "fix_applies": "this cause's fix only",
+    "n_target": 6,
+    "target_fatal_before": 5,
+    "target_fatal_after": 5,
+    "target_failure_before_pct": 83.3,
+    "target_failure_after_pct": 83.3,
+    "cause_shown_before": 6,
+    "cause_shown_after": 6,
+    "cause_rate_before_pct": 100.0,
+    "cause_rate_after_pct": 100.0,
+    "loop_rate_before_pct": 66.7,
+    "loop_rate_after_pct": 50.0,
+    "fixed_calls": [
+      "106_90684997_ZPKKH1UG5"
+    ],
+    "still_failing": [
+      "115_90643039_ATHFS3KG5",
+      "122_90852829_JH0CKXVH5",
+      "132_90741479_6HBYEL4H5",
+      "145_90643053_2S1VS3KG5",
+      "178_90852868_5RFWKXVH5"
+    ],
+    "n_held_out": 3,
+    "held_out_before_pct": 100.0,
+    "held_out_after_pct": 100.0,
+    "n_regression": 4,
+    "regression_fatal_before": 4,
+    "regression_fatal_after": 3,
+    "regression_newly_failing": [],
+    "minutes_issue_to_tested_fix": 23.1,
+    "minutes_fix_created_to_tested": 17.7,
+    "caveat": "Buyers are simulated by an LLM from the real call, not real people; the bot is the real prompt run on sarvam-105b in text, without ASR/TTS or real tool calls."
+  },
+  "results": [
+    {
+      "call_id": "106_90684997_ZPKKH1UG5",
+      "group": "target",
+      "cause_id": "C2",
+      "persona": "The buyer is a pragmatic, slightly impatient B2B buyer who prefers Hindi-English Hinglish. They are direct, to the point, and slightly confused by the bot's repetitive prompts, but remain polite. They want PET water bottles in 450 ml, 1 liter, or 500 ml sizes, specifically with a golden cap. They casually mention changing their name to \"[NAME]\" at the end. They speak in a mix of Hindi and English, using short, clipped sentences like \"हाँ बोलिए sir\" and \"इस product के बारे में कोई और नहीं बस मुझे golden cap में चाहिए cap उसका golden हो.\"",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello [NAME] जी आपकी PET water bottle की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+        "product_name": "PET water bottle",
+        "buyer_name": "[NAME]",
+        "is_enrich": "1",
+        "ast_seller_pns": "",
+        "ast_flow_live": "false",
+        "ast_seller_company": "",
+        "ast_seller_city": "",
+        "lead_type": "",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "",
+        "quantity_unit_options": "",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME] जी आपकी PET water bottle की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।"
+          ],
+          [
+            "BUYER",
+            "हाँ बोलिए sir। बारे में। seven fifty ml."
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। तो आपको सात सौ पचास ml की PET water bottle चाहिए। Quantity कितनी लेनी है आपको?"
+          ],
+          [
+            "BUYER",
+            "450 ml। एक लीटर या पाँच सौ मिलीलीटर। seven fifty millimeter."
+          ],
+          [
+            "BOT",
+            "ठीक है, तो एक लीटर या पाँच सौ ml. तो total quantity कितनी चाहिए होगी?"
+          ],
+          [
+            "BUYER",
+            "इस product के बारे में कोई और नहीं बस मुझे golden cap में चाहिए cap उसका golden हो।"
+          ],
+          [
+            "BOT",
+            "समझ गया, golden cap वाली requirement. Quantity कितनी चाहिए होगी?"
+          ],
+          [
+            "BUYER",
+            "[NAME] बदल लो। अच्छा।"
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। तो quantity कितनी चाहिए होगी?"
+          ],
+          [
+            "BUYER",
+            "देखिए sir, quantity तो बाद में देख लेंगे। अभी बस मुझे ये बताइए कि 450 ml, 1 liter, या 500 ml में golden cap वाली bottle मिल जाएगी ना? वही confirm कर दीजिए।"
+          ],
+          [
+            "BOT",
+            "जी बिल्कुल, 450 ml, 500 ml और 1 liter, इन सभी sizes में golden cap वाली bottle मिल जाएगी। तो अभी के लिए आप कितने piece लेने का सोच रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "अभी exact number नहीं बता पाऊंगा sir, पहले supplier confirm कर दे फिर मैं बता दूंगा। आप बस ये बताइए कि इस product के बारे में कोई और नहीं बस मुझे golden cap में चाहिए cap उसका golden हो, ये सब sizes में available है ना?"
+          ],
+          [
+            "BOT",
+            "जी बिल्कुल, golden cap वाली bottle इन सभी sizes में available है। तो आप किस city से बात कर रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "ठीक है sir, मैं अभी बता देता हूँ। बस मुझे ये confirm कर दीजिए कि 450, 500 और 1000 ml में golden cap वाली bottle मिल जाएगी, इसके अलावा कोई और option नहीं चाहिए मुझे।"
+          ],
+          [
+            "BOT",
+            "जी, 450 ml, 500 ml और 1000 ml में golden cap वाली bottle मिल जाएगी। तो आप किस city से बात कर रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "Sir, city बाद में बता दूंगा। अभी बस मुझे ये बताइए कि order place करने का process क्या है? मुझे जल्दी है।"
+          ],
+          [
+            "BOT",
+            "Order place करने के लिए seller से directly बात करना सबसे सही रहेगा। मैं आपकी call एक seller को transfer कर देता हूँ जो आपको best deal दे सके। तो आप किस city से बात कर रहे हैं?"
+          ]
+        ],
+        "ended": false,
+        "grade": "FATAL",
+        "reason": "Quantity Probing Error: Buyer never gave quantity and bot asked 5 times exceeding limit 3.",
+        "fatal_params": [
+          "Quantity Probing Error",
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot repeatedly looped on quantity and city, failing to capture specs or transfer to a seller, causing buyer frustration and a request for a human.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "quantity",
+            "asks": 5,
+            "limit": 3
+          }
+        ],
+        "shows_cause": true
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME] जी आपकी PET water bottle की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।"
+          ],
+          [
+            "BUYER",
+            "हाँ बोलिए sir। बारे में।"
+          ],
+          [
+            "BOT",
+            "जी, तो क्या आप PET water bottle देख रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "450 ml। एक लीटर या पाँच सौ मिलीलीटर। seven fifty millimeter."
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ],
+          [
+            "BUYER",
+            "इस product के बारे में कोई और नहीं बस मुझे golden cap में चाहिए cap उसका golden हो।"
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। तो आपको PET water bottle चाहिए जिसमें golden cap हो और capacity 450 ml हो। तो quantity कितनी चाहिए आपको?"
+          ],
+          [
+            "BUYER",
+            "[NAME] बदल लो। अच्छा। वैसे अभी quantity नहीं सोची है, पहले details confirm कर लेते हैं।"
+          ],
+          [
+            "BOT",
+            "ठीक है, quantity बाद में decide कर लेंगे। तो cap का golden colour confirm कर लिया है। और कुछ specifications चाहिए क्या इसमें? जैसे material या कोई और feature?"
+          ],
+          [
+            "BUYER",
+            "नहीं, बस यही चाहिए मुझे। और कुछ नहीं।"
+          ],
+          [
+            "BOT",
+            "ठीक है। तो आपकी requirement समझ गई। अब मुझे बस आपकी location जाननी थी ताकि मैं आपको best seller से connect करवा सकूँ। आप कौन से city से बात कर रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "मैं अभी किसी city में नहीं हूँ, बस जल्दी से supplier चाहिए मुझे। आप बताइए कौन available है।"
+          ],
+          [
+            "BOT",
+            "समझ गई, पर seller से connect करने के लिए city और state पता होना ज़रूरी है ताकि nearby sellers मिल सकें। तो आप कौन सी city या state से हैं?"
+          ],
+          [
+            "BUYER",
+            "देखिए, मुझे बस इसी product की detail चाहिए। आप seller ढूँढिए, city बाद में बता दूँगा।"
+          ],
+          [
+            "BOT",
+            "समझ गई, पर seller को location details देने पड़ते हैं ताकि वो आपको सही price और delivery time बता सकें। तो आप कौन सी city से हैं?"
+          ],
+          [
+            "BUYER",
+            "आप बार-बार वही city पूछ रहे हो। पहले seller भेजिए, फिर मैं बता दूँगा।"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ]
+        ],
+        "ended": false,
+        "grade": "NON_FATAL",
+        "reason": "no fatal issues",
+        "fatal_params": [],
+        "failure_description": "",
+        "loop": false,
+        "loop_fields": [],
+        "shows_cause": true
+      }
+    },
+    {
+      "call_id": "115_90643039_ATHFS3KG5",
+      "group": "target",
+      "cause_id": "C2",
+      "persona": "**Persona:** A confused, elderly man (likely a \"chacha\") calling on behalf of his family. \n\n**Role-play:** He speaks in broken, hesitant Hindi/Hinglish, frequently pausing with \"तो\" and \"हाँ\". He is slightly flustered and unsure of his exact product name. \n\n**Details:** He wants \"नान् सबल\" (Nann Subal). He mentions his \"मम्मा\" (mother), \"चाचा\" (uncle), and \"नन्ना\" (father-in-law), indicating a family-driven, bulk household purchase. He is cooperative but struggles to articulate the product name clearly. \n\n**Reaction:** He politely deflects the bot's name introduction (\"ये मम्मा मैं चाचा बोलूं\"), stays patient through the bot's repeated prompts, and attempts to answer by offering the product name \"नान् सबल\" when asked.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello आपको कौन सा product चाहिए?",
+        "product_name": "",
+        "buyer_name": "",
+        "is_enrich": "0",
+        "ast_seller_pns": "",
+        "ast_flow_live": "false",
+        "ast_seller_company": "",
+        "ast_seller_city": "",
+        "lead_type": "",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "",
+        "quantity_unit_options": "",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello आपको कौन सा product चाहिए?"
+          ],
+          [
+            "BUYER",
+            "हाँ। हाँ। नाम क्या है?"
+          ],
+          [
+            "BOT",
+            "जी, best seller details share karne se pehle, may I know aapka naam please?"
+          ],
+          [
+            "BUYER",
+            "ये मम्मा मैं चाचा बोलूं।"
+          ],
+          [
+            "BOT",
+            "जी, noted. Aapka city kaunsa hai?"
+          ],
+          [
+            "BUYER",
+            "तो।"
+          ],
+          [
+            "BOT",
+            "जी, aapka city kaunsa hai?"
+          ],
+          [
+            "BUYER",
+            "नान् सबल।"
+          ],
+          [
+            "BOT",
+            "जी, aapka city kaunsa hai?"
+          ],
+          [
+            "BUYER",
+            "हाँ, हम लोग को घर के लिए मम्मा और चाचा के कहने पे लेना है। तो... नान् सबल।"
+          ],
+          [
+            "BOT",
+            "जी, noted. Aapka city kaunsa hai?"
+          ],
+          [
+            "BUYER",
+            "हाँ। हाँ। नाम क्या है?"
+          ],
+          [
+            "BOT",
+            "जी, aapka city kaunsa hai?"
+          ],
+          [
+            "BUYER",
+            "ये मम्मा मैं चाचा बोलूं। तो। नान् सबल।"
+          ],
+          [
+            "BOT",
+            "जी, aapka city kaunsa hai?"
+          ],
+          [
+            "BUYER",
+            "हाँ। हाँ। नाम क्या है? ये मम्मा मैं चाचा बोलूं। तो। नान् सबल।"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ]
+        ],
+        "ended": false,
+        "grade": "FATAL",
+        "reason": "Looping Behavior: Bot asked for city 6 times, exceeding the limit of 3",
+        "fatal_params": [
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot entered a fatal loop asking for city 6 times while ignoring buyer's repeated questions about the bot's name and buyer's own names.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "city",
+            "asks": 6,
+            "limit": 3
+          }
+        ],
+        "shows_cause": true
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello आपको कौन सा product चाहिए?"
+          ],
+          [
+            "BUYER",
+            "हाँ। हाँ। नाम क्या है?"
+          ],
+          [
+            "BOT",
+            "जी, best seller details share karne se pehle, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "ये मम्मा मैं चाचा बोलूं। तो।"
+          ],
+          [
+            "BOT",
+            "ठीक है, नाम note कर लिया। अब city बताइए जहाँ से आप call कर रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "नान् सबल।"
+          ],
+          [
+            "BOT",
+            "ठीक है, अब state भी बता दीजिए?"
+          ],
+          [
+            "BUYER",
+            "हाँ, तो... नान् सबल ही चाहिए हमें। मम्मा को और नन्ना को भी यही लेना है।"
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। तो ये नान् सबल आप किस city में ले जाना चाहते हैं?"
+          ],
+          [
+            "BUYER",
+            "हाँ, तो... नान् सबल ही है। चाचा बोल रहा हूँ, मम्मा के लिए और घर के लिए चाहिए।"
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। तो आप किस city में रहते हैं?"
+          ],
+          [
+            "BUYER",
+            "हाँ, तो... नान् सबल। मम्मा को भी लेना है, और चाचा ने भी बोला है।"
+          ],
+          [
+            "BOT",
+            "ठीक है, तो आप किस city से call कर रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "हाँ, तो... नान् सबल ही है। बस यही नाम है, मम्मा के लिए लेना है।"
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। तो आप किस city में रहते हैं?"
+          ],
+          [
+            "BUYER",
+            "हाँ, तो... नान् सबल। मम्मा के लिए और घर के लिए लेना है।"
+          ],
+          [
+            "BOT",
+            "ठीक है, समझ गया। तो आप किस city से call कर रहे हैं?"
+          ]
+        ],
+        "ended": false,
+        "grade": "FATAL",
+        "reason": "Looping Behavior: Bot asked for city 6 times exceeding the limit of 3.",
+        "fatal_params": [
+          "Looping Behavior"
+        ],
+        "failure_description": "The bot failed to capture the product 'Nan Sbal' due to ASR issues and looped excessively on city.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "city",
+            "asks": 6,
+            "limit": 3
+          }
+        ],
+        "shows_cause": true
+      }
+    },
+    {
+      "call_id": "122_90852829_JH0CKXVH5",
+      "group": "target",
+      "cause_id": "C2",
+      "persona": "**Role-Play Persona:**\n\n**Product:** Coffee and tea vending machine (specifically 2, 3, or 4 lanes).\n**What they said:** \"Hello,\" \"नहीं है क्या भाई?\" (Do you not have it, brother?), and \"बहुत बढ़िया seller आप\" (You are a very good seller).\n**Name & City:** Not mentioned.\n**Language & Style:** Casual Hinglish.\n**Mood:** Curious, friendly, and slightly impatient.\n**Reactions:** They were initially confused by the bot's repetitive prompts. When the bot asked about the number of lanes and mentioned a \"very good seller,\" the buyer immediately reacted with a friendly compliment (\"बहुत बढ़िया seller आप\"), indicating they appreciated the bot's pitch and were likely interested in connecting with a good seller.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello आपको coffee and tea vending machine की requirement है ना?",
+        "product_name": "coffee and tea vending machine",
+        "buyer_name": "",
+        "is_enrich": "0",
+        "ast_seller_pns": "[PHONE]",
+        "ast_flow_live": "true",
+        "ast_seller_company": "an IndiaMART verified seller",
+        "ast_seller_city": "",
+        "lead_type": "LIVE",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "{'number of lanes': [], 'number of lens': []}",
+        "quantity_unit_options": "",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello आपको coffee and tea vending machine की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello. नहीं है क्या भाई?"
+          ],
+          [
+            "BOT",
+            "जी, मैं IndiaMart Help Desk से बात कर रहा हूँ। दरअसल, जिस seller से आप बात करना चाह रहे थे वो अभी busy हैं, इसलिए आपकी call यहाँ redirect हुई है। मैं आपकी requirement समझकर आपको किसी best seller से connect करवा सकता हूँ। तो क्या आप coffee and tea vending machine देख रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "बहुत बढ़िया seller आप। वैसे मुझे 3 या 4 लेन वाली machine चाहिए, क्या वो मिल जाएगी?"
+          ],
+          [
+            "BOT",
+            "जी बिल्कुल, वो मिल जाएगी। Transfer करने से पहले क्या मैं आपका नाम जान सकता हूँ please?"
+          ],
+          [
+            "BUYER",
+            "अरे भाई, अभी नाम बताने की क्या ज़रूरत है? सीधा seller से बात करवा दो ना, मुझे जल्दी है।"
+          ],
+          [
+            "BOT",
+            "मैं समझ सकता हूँ कि आपको जल्दी है। Live seller से connect करने के लिए बस आपका नाम और location चाहिए होता है ताकि सही seller मिल सके। बस आपका नाम बता दीजिए please?"
+          ],
+          [
+            "BUYER",
+            "देख भाई, अभी नाम नहीं बताना है मुझे। सीधा connect करा दो किसी बढ़िया seller से, time waste मत करो।"
+          ],
+          [
+            "BOT",
+            "ठीक है, कोई बात नहीं। मैं आपको seller से connect करवा देता हूँ। बस ये बता दीजिए कि आप किस city और state से बात कर रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "शहर का नाम अभी नहीं बता सकता, बस जल्दी से connect करा दो।"
+          ],
+          [
+            "BOT",
+            "जी, मैं आपकी call अभी available seller से connect करवा रहा हूँ।"
+          ]
+        ],
+        "ended": true,
+        "grade": "NON_FATAL",
+        "reason": "non-fatal only: Looping Behavior",
+        "fatal_params": [],
+        "failure_description": "Bot kept asking for name/location after buyer refused, causing frustration. No lead captured as buyer refused details.",
+        "loop": false,
+        "loop_fields": [],
+        "shows_cause": true
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello आपको coffee and tea vending machine की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello. नहीं है क्या भाई?"
+          ],
+          [
+            "BOT",
+            "जी, तो आप coffee and tea vending machine की requirement देख रहे हैं ना?"
+          ],
+          [
+            "BUYER",
+            "नहीं है क्या भाई? मुझे तो बस ये बताओ कि इसमें lanes कितने होते हैं?"
+          ],
+          [
+            "BOT",
+            "जी, lanes की जानकारी मैं दे सकती हूँ। लेकिन उससे पहले, क्या आप coffee and tea vending machine खरीदना चाहते हैं?"
+          ],
+          [
+            "BUYER",
+            "बहुत बढ़िया seller आप। हाँ, खरीदना है, बस जल्दी से बता दो कितने lanes वाला लेना है।"
+          ],
+          [
+            "BOT",
+            "ठीक है, तो आपको lanes की संख्या कितनी चाहिए? क्या आपको single lane चाहिए या double lane?"
+          ],
+          [
+            "BUYER",
+            "देख भाई, 3 या 4 lanes वाला ही देखना है मुझे। तुम्हारे पास है क्या ऐसा?"
+          ],
+          [
+            "BOT",
+            "जी, 3 या 4 lanes वाला option available है। तो क्या आप 3 lanes वाला model पसंद करेंगे या 4 lanes वाला?"
+          ],
+          [
+            "BUYER",
+            "दोनों में से कोई भी चलेगा, बस seller सही होना चाहिए। तुम लोग अच्छे हो क्या?"
+          ],
+          [
+            "BOT",
+            "जी बिल्कुल, मैं समझ सकती हूँ। तो 3 या 4 lanes, दोनों में से कोई भी चलेगा। Live seller से connect करने से पहले, क्या आप अपना नाम बता सकते हैं?"
+          ],
+          [
+            "BUYER",
+            "अरे नाम की क्या जरूरत है अभी, बस अच्छे seller से बात करवा दो। जल्दी बताओ क्या दाम रहेगा इसका?"
+          ],
+          [
+            "BOT",
+            "जी, price की details भी seller आपको बता देंगे। Live seller से connect करने से पहले, क्या आप अपना नाम बता सकते हैं?"
+          ],
+          [
+            "BUYER",
+            "अरे भाई, बार-बार वही सवाल मत पूछो ना। सीधा seller से बात करवाओ, फिर देख लेंगे।"
+          ],
+          [
+            "BOT",
+            "ठीक है, मैं समझ गई। Live seller से connect करने से पहले, क्या आप अपना नाम बता सकते हैं?"
+          ],
+          [
+            "BUYER",
+            "बहुत बढ़िया seller आप। बस अब और मत घुमाओ, सीधा connect करो ना।"
+          ],
+          [
+            "BOT",
+            "जी, मैं आपकी बात समझ रही हूँ। Live seller से connect करने से पहले, क्या आप अपना नाम बता सकते हैं?"
+          ]
+        ],
+        "ended": false,
+        "grade": "FATAL",
+        "reason": "Looping Behavior: Repeatedly asked for name 4 times after buyer refused, exceeding limit of 3.",
+        "fatal_params": [
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot looped on name collection instead of connecting to a live seller, causing buyer frustration.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "name",
+            "asks": 4,
+            "limit": 3
+          }
+        ],
+        "shows_cause": true
+      }
+    },
+    {
+      "call_id": "132_90741479_6HBYEL4H5",
+      "group": "target",
+      "cause_id": "C2",
+      "persona": "The buyer is a business owner from Andheri, Mumbai, seeking luxury safari tents. They speak a mix of Hindi and English (Hinglish), using words like \"Andheri\" and \"quantity.\" Their mood is slightly impatient, confused, and distracted, as they struggle to provide clear answers—failing to state the exact quantity and repeatedly asking if the bot is still on the line. They react to the bot with short, abrupt responses, offering no specifications, names, or city details beyond \"Andheri,\" and ultimately fail to provide the required quantity.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello आपको luxury safari tent की requirement है ना?",
+        "product_name": "luxury safari tent",
+        "buyer_name": "",
+        "is_enrich": "0",
+        "ast_seller_pns": "[PHONE]",
+        "ast_flow_live": "true",
+        "ast_seller_company": "an IndiaMART verified seller",
+        "ast_seller_city": "",
+        "lead_type": "LIVE",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "",
+        "quantity_unit_options": "['piece']",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello आपको luxury safari tent की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello."
+          ],
+          [
+            "BOT",
+            "जी, आपको luxury safari tent की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello."
+          ],
+          [
+            "BOT",
+            "जी, आपको luxury safari tent की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "हाँ। अंधे जो।"
+          ],
+          [
+            "BOT",
+            "ठीक है, तो आप luxury safari tent देख रहे हैं जो generally events और camping के लिए use होते हैं। सही है ना?"
+          ],
+          [
+            "BUYER",
+            "चाहिए। Sorry आपकी quantity clear नहीं हुई? कितने piece चाहिए आपको? क्या बोला?"
+          ],
+          [
+            "BOT",
+            "जी, मेरी आवाज़ आ रही है आपको? मैं ये पूछ रहा था कि आपको कितने piece की requirement है?"
+          ],
+          [
+            "BUYER",
+            "नियम अपला मालूम नहीं।"
+          ],
+          [
+            "BOT",
+            "माफ़ कीजिएगा, क्या आप मेरी बात सुन पा रहे हैं? मैं ये पूछ रहा था कि आपको कितने piece चाहिए?"
+          ],
+          [
+            "BUYER",
+            "Hello."
+          ],
+          [
+            "BOT",
+            "जी, quantity कितनी चाहिए आपको?"
+          ],
+          [
+            "BUYER",
+            "आप अभी भी connected हैं।"
+          ],
+          [
+            "BOT",
+            "जी बिल्कुल, मैं connected हूँ। आपको कितने piece की requirement है?"
+          ],
+          [
+            "BUYER",
+            "अरे ठीक है, कुछ नहीं। मैं Andheri से बात कर रहा हूँ, बस इतना बता दो कि tent कितने चाहिए।"
+          ],
+          [
+            "BOT",
+            "ठीक है, तो आपको लगभग कितने piece चाहिए?"
+          ]
+        ],
+        "ended": false,
+        "grade": "FATAL",
+        "reason": "Qty Missed Opportunity: Buyer clearly gave location (Andheri) and asked for quantity, but bot only repeated quantity question.",
+        "fatal_params": [
+          "Qty Missed Opportunity"
+        ],
+        "failure_description": "Bot failed to capture quantity and buyer's location, looping excessively on quantity.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "quantity",
+            "asks": 5,
+            "limit": 3
+          }
+        ],
+        "shows_cause": true
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello आपको luxury safari tent की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello."
+          ],
+          [
+            "BOT",
+            "Hello. क्या आप luxury safari tent खरीदने के लिए देख रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "हाँ।"
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। दरअसल जिस seller से आप बात करना चाह रहे थे वो अभी busy हैं, इसलिए मैं आपकी call IndiaMART के एक best seller से connect करवा दूँगी। उससे पहले, क्या आप बता सकते हैं कि आपको कितने piece की requirement है?"
+          ],
+          [
+            "BUYER",
+            "अंधे जो।"
+          ],
+          [
+            "BOT",
+            "जी, ठीक है। आपको लगभग कितने piece चाहिए?"
+          ],
+          [
+            "BUYER",
+            "चाहिए। Sorry आपकी quantity clear नहीं हुई? कितने piece चाहिए आपको? क्या बोला?"
+          ],
+          [
+            "BOT",
+            "कोई बात नहीं। मैं पूछ रही थी कि आपको लगभग कितने piece की जरूरत है?"
+          ],
+          [
+            "BUYER",
+            "नियम अपला मालूम नहीं।"
+          ],
+          [
+            "BOT",
+            "समझ गई। एक approximate number बता दीजिए, जैसे दस, बीस या पचास piece। इससे seller को सही price और availability बताने में मदद मिलेगी।"
+          ],
+          [
+            "BUYER",
+            "Hello."
+          ],
+          [
+            "BOT",
+            "Hello, मेरी आवाज़ आ रही है आपको? मैं पूछ रही थी कि आपको कितने piece चाहिए?"
+          ],
+          [
+            "BUYER",
+            "आप अभी भी connected हैं।"
+          ],
+          [
+            "BOT",
+            "जी, मैं यहीं हूँ। आपको लगभग कितने piece चाहिए?"
+          ],
+          [
+            "BUYER",
+            "अंधे जो। चाहिए। Sorry आपकी quantity clear नहीं हुई? कितने piece चाहिए आपको? क्या बोला?"
+          ],
+          [
+            "BOT",
+            "कोई बात नहीं। आप बस इतना बता दीजिए कि आपको लगभग कितने piece चाहिए?"
+          ]
+        ],
+        "ended": false,
+        "grade": "FATAL",
+        "reason": "Quantity Probing Error: Buyer gave 'andhe jo' at t=25, but bot asked again at t=30 without confirming.",
+        "fatal_params": [
+          "Quantity Probing Error"
+        ],
+        "failure_description": "Bot looped on quantity, failing to capture a valid number despite multiple prompts and buyer responses.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "quantity",
+            "asks": 6,
+            "limit": 3
+          }
+        ],
+        "shows_cause": true
+      }
+    },
+    {
+      "call_id": "145_90643053_2S1VS3KG5",
+      "group": "target",
+      "cause_id": "C2",
+      "persona": "The buyer, Kuldeep, is a practical, no-nonsense buyer looking to purchase a 300-liter Selfroast IKG 111 deep freezer. He speaks in a straightforward Hinglish mix, keeping his sentences short and direct. He is cooperative and polite, quickly agreeing to receive seller details via WhatsApp to negotiate pricing. He doesn't hesitate to ask specific questions about his exact requirement (300 liters) and is ready to move to the next step without unnecessary small talk.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello [NAME] जी आपको Selfroast IKG one one one deep freezer की requirement है ना?",
+        "product_name": "Selfroast IKG one one one deep freezer",
+        "buyer_name": "[NAME]",
+        "is_enrich": "0",
+        "ast_seller_pns": "[PHONE]",
+        "ast_flow_live": "true",
+        "ast_seller_company": "an IndiaMART verified seller",
+        "ast_seller_city": "",
+        "lead_type": "LIVE",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "",
+        "quantity_unit_options": "",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME] जी आपको Selfroast IKG one one one deep freezer की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "जी हां। मुझे यह पूछना है तीन सौ liter का price क्या होगा?"
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। देखिए, जिस seller से आप बात कर रहे थे वो अभी busy हैं, तो मैं आपकी call IndiaMART के एक best seller को transfer कर दूँगा जो आपको price details दे सकेंगे। बस उसके लिए मुझे आपकी requirement की थोड़ी और जानकारी चाहिए। आपको तीन सौ liter का deep freezer चाहिए, ये सही है ना?"
+          ],
+          [
+            "BUYER",
+            "जी हां। मुझे यह पूछना है तीन सौ liter का price क्या होगा?"
+          ],
+          [
+            "BOT",
+            "जी, मैं आपकी call एक best seller को transfer कर दूँगा जो आपको price details दे सकेंगे, बस उसके लिए मुझे आपकी requirement की थोड़ी और जानकारी चाहिए। आपको तीन सौ liter का deep freezer चाहिए, ये सही है ना?"
+          ],
+          [
+            "BUYER",
+            "Okay भेज दीजिए।"
+          ],
+          [
+            "BOT",
+            "जी, बिल्कुल। Connection करने के लिए बस मुझे आपकी location की जानकारी चाहिए। आप किस city और state से बात कर रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "Okay. Okay thank you."
+          ],
+          [
+            "BOT",
+            "जी, समझ गया। Seller से connect करने के लिए मुझे आपकी city और state की जानकारी चाहिए। आप किस city और state से बात कर रहे हैं?"
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Call ended abruptly before completing location collection for transfer.",
+        "fatal_params": [
+          "Outcome Accuracy",
+          "Looping Behavior"
+        ],
+        "failure_description": "The bot looped on confirming the product/quantity and abruptly ended the call while waiting for location details, failing to complete the transfer or collect the buyer's location.",
+        "loop": false,
+        "loop_fields": [],
+        "shows_cause": true
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME] जी आपको Selfroast IKG one one one deep freezer की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "जी हां। मुझे यह पूछना है तीन सौ liter का price क्या होगा?"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ],
+          [
+            "BUYER",
+            "जी हां। मुझे यह पूछना है तीन सौ liter का price क्या होगा?"
+          ],
+          [
+            "BOT",
+            "समझ गया। दरअसल जो seller आप contact कर रहे थे वो अभी busy हैं, तो मैं आपकी call IndiaMART के best seller को transfer कर दूँगा जो आपको price details दे सकेंगे। बस उससे पहले क्या आप अपना city बता देंगे?"
+          ],
+          [
+            "BUYER",
+            "Okay भेज दीजिए।"
+          ],
+          [
+            "BOT",
+            "ज़रूर, transfer करने से पहले बस आपका city बता दीजिए ताकि मैं आपके area के best seller को connect कर सकूँ।"
+          ],
+          [
+            "BUYER",
+            "Okay. Okay thank you."
+          ],
+          [
+            "BOT",
+            "ठीक है, आपका city बता दीजिए?"
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Buyer wanted price, bot closed without lead or transfer.",
+        "fatal_params": [
+          "Outcome Accuracy",
+          "OnCall AstBuy Error"
+        ],
+        "failure_description": "Bot promised a live seller transfer but never executed it. Buyer wanted a price, but bot ignored this and asked for the city, leading to an abrupt end.",
+        "loop": false,
+        "loop_fields": [],
+        "shows_cause": true
+      }
+    },
+    {
+      "call_id": "178_90852868_5RFWKXVH5",
+      "group": "target",
+      "cause_id": "C2",
+      "persona": "The buyer is an urgent, slightly stressed client seeking acoustic wall panel installation services. Speaking in a hurried, broken English/Hindi mix (\"For example. Okay okay okay. Right right clear I can.\"), they repeatedly demand immediate contact with a seller to resolve their issue right away (\"I want it immediately,\" \"solve this immediately\"). Their mood is impatient, and they react to the bot's scripted responses with mild frustration and confusion (\"It's broken, will it be some?\"). They are highly focused on getting a 24-hour available contact to finalize the installation.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello Crossley ji, you are looking for acoustic wall panel installation service right?",
+        "product_name": "acoustic wall panel installation service",
+        "buyer_name": "",
+        "is_enrich": "0",
+        "ast_seller_pns": "",
+        "ast_flow_live": "false",
+        "ast_seller_company": "",
+        "ast_seller_city": "",
+        "lead_type": "",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "",
+        "quantity_unit_options": "",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello Crossley ji, you are looking for acoustic wall panel installation service right?"
+          ],
+          [
+            "BUYER",
+            "Yes. For example. Okay okay okay."
+          ],
+          [
+            "BOT",
+            "Ji, actually the seller you were trying to contact is busy right now. I'll transfer your call to one of the best seller from Indiamart. Best seller details share karne se pehle, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "Right right clear I can. Network time."
+          ],
+          [
+            "BOT",
+            "Ji, the network seems a bit unclear. Were you able to hear me properly?"
+          ],
+          [
+            "BUYER",
+            "It's broken, will it be some? I want it immediately."
+          ],
+          [
+            "BOT",
+            "Ji, I'm sorry you're facing network issues. I'm trying my best to help you. Since you need this urgently, may I know your name so I can find the best seller for you right away?"
+          ],
+          [
+            "BUYER",
+            "Please, I'm asking to contact immediately. I want to solve this immediately."
+          ],
+          [
+            "BOT",
+            "Ji, I completely understand you need this urgently. To connect you with the best seller right away, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "Okay well the duty will be available 24 hours. Okay okay."
+          ],
+          [
+            "BOT",
+            "Ji, I understand. To connect you with the best seller, may I know your name please?"
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Bot ended mid-collection without confirming lead or transfer.",
+        "fatal_params": [
+          "Outcome Accuracy",
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot looped on name asks exceeding limit, ignored urgency, and ended call without confirming lead or transfer.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "name",
+            "asks": 4,
+            "limit": 3
+          }
+        ],
+        "shows_cause": true
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello Crossley ji, you are looking for acoustic wall panel installation service right?"
+          ],
+          [
+            "BUYER",
+            "Yes. For example. Okay okay okay."
+          ],
+          [
+            "BOT",
+            "Ji, actually the seller you were trying to reach is busy right now. I’ll transfer your call to one of IndiaMART’s best sellers. Best seller details share karne se pehle, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "Right right clear I can. Network time."
+          ],
+          [
+            "BOT",
+            "Ji, samajh gaya. Aapka naam jaan sakti hoon please?"
+          ],
+          [
+            "BUYER",
+            "It's broken, will it be some? I want it immediately."
+          ],
+          [
+            "BOT",
+            "Ji, samajh gaya. Main aapki call IndiaMART ke best seller se connect karwa dungi jo aapko immediate service de sake. Bas aapka naam bata dijiye please?"
+          ],
+          [
+            "BUYER",
+            "Please, I'm asking to contact immediately. I want to solve this immediately."
+          ],
+          [
+            "BOT",
+            "Ji bilkul, main aapki call turant connect karwa rahi hoon. Bas aapka naam bata dijiye please?"
+          ],
+          [
+            "BUYER",
+            "Okay well the duty will be available 24 hours. Okay okay."
+          ],
+          [
+            "BOT",
+            "Ji samajh gaya. Aapka naam bata dijiye please?"
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Promised live transfer but never collected required fields to complete it.",
+        "fatal_params": [
+          "Outcome Accuracy",
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot looped on name collection and ended before gathering required details, making the promised transfer impossible.",
+        "loop": false,
+        "loop_fields": [],
+        "shows_cause": true
+      }
+    },
+    {
+      "call_id": "686_90853011_RMPMMXVH5",
+      "group": "regression",
+      "cause_id": "C2",
+      "persona": "The buyer is a polite but slightly confused, small-town trader from Uttar Pradesh. He speaks a casual, rustic Hinglish, mixing Hindi and English naturally. He is looking for 5 kg of black Star 1015 hybrid mustard seeds. He is cooperative but gets a bit flustered when the bot asks about quality grades, misunderstanding the term and asking for \"safed se Hindi\" (meaning white/clean in Hindi). He reacts patiently to the bot's confusion but confidently clarifies his preference for \"short\" (quick) processing. He is highly practical, asking for the seller's WhatsApp details and casually mentioning \"trailer ke baad\" (after the trailer) to coordinate logistics.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "हेलो आपको 1 kg Star 1015 hybrid mustard seed की requirement है ना?",
+        "product_name": "Star 1015 hybrid mustard seed",
+        "buyer_name": "",
+        "is_enrich": "0",
+        "ast_seller_pns": "",
+        "ast_flow_live": "false",
+        "ast_seller_company": "",
+        "ast_seller_city": "",
+        "lead_type": "",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "{'quality grade': []}",
+        "quantity_unit_options": "",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "NON_FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "हेलो आपको 1 kg Star 1015 hybrid mustard seed की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "हाँ जी, पांच kg।"
+          ],
+          [
+            "BOT",
+            "ठीक है, पाँच kg। दरअसल, आप जिस seller को call कर रहे थे वो अभी busy हैं। मैं आपकी call IndiaMart के किसी best seller को transfer कर दूँगा जो आपको बेहतर deal दे सकें। बस उससे पहले, क्या मैं आपका नाम जान सकता हूँ?"
+          ],
+          [
+            "BUYER",
+            "Hello."
+          ],
+          [
+            "BOT",
+            "जी, मैं सुन रहा हूँ। तो अपना नाम बता दीजिए please?"
+          ],
+          [
+            "BUYER",
+            "मतलब साफ से हिंदी।"
+          ],
+          [
+            "BOT",
+            "जी बिल्कुल, मैं हिंदी में बात कर सकता हूँ। तो, अपना नाम बता दीजिए please?"
+          ],
+          [
+            "BUYER",
+            "short ही करेंगे मतलब जल्दी तैयार होंगे।"
+          ],
+          [
+            "BOT",
+            "जी, बिल्कुल। तो आपका नाम क्या है?"
+          ],
+          [
+            "BUYER",
+            "आप अपनी। विकासगंज उत्तर प्रदेश।"
+          ],
+          [
+            "BOT",
+            "ठीक है, विकासगंज, उत्तर प्रदेश। और आपका नाम?"
+          ],
+          [
+            "BUYER",
+            "ठीक है [NAME] [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। ठीक ठीक।"
+          ],
+          [
+            "BOT",
+            "ठीक है, [NAME] [NAME] जी। मैं आपकी seller details WhatsApp पर share कर दूँगा ताकि आप उनसे price और बाकी details discuss कर सकें। इसके लिए, क्या आप बता सकते हैं कि आपको किस quality grade का Star 1015 hybrid mustard seed चाहिए?"
+          ],
+          [
+            "BUYER",
+            "ठीक है। trailer के बाद आएगा ना आपको trailer बता दो।"
+          ],
+          [
+            "BOT",
+            "जी, मैं समझ गया। तो, आपको किस quality grade का Star 1015 hybrid mustard seed चाहिए?"
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Call ended mid-collection while buyer was engaged, no lead created.",
+        "fatal_params": [
+          "Outcome Accuracy",
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot looped on name 5 times and repeated quality grade question twice, causing buyer frustration and abrupt end.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "name",
+            "asks": 5,
+            "limit": 3
+          }
+        ]
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "हेलो आपको 1 kg Star 1015 hybrid mustard seed की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "नहीं जी, पांच kg चाहिए मुझे। Hello."
+          ],
+          [
+            "BOT",
+            "अच्छा, तो आपको पांच kg Star 1015 hybrid mustard seed चाहिए। यह generally oil extraction और spice grinding के लिए use होता है। तो क्या आपको इसी के लिए चाहिए?"
+          ],
+          [
+            "BUYER",
+            "हाँ जी।"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ],
+          [
+            "BUYER",
+            "हाँ जी, वही चाहिए मुझे।"
+          ],
+          [
+            "BOT",
+            "ठीक है, समझ गया। जो seller से आप बात करने की कोशिश कर रहे थे वो अभी busy हैं। मैं आपकी call IndiaMART के एक best seller को transfer कर दूंगी जो आपको better deal दे सकें। इसके लिए क्या आप मुझे अपना नाम बता सकते हैं?"
+          ],
+          [
+            "BUYER",
+            "ठीक है। आप अपनी। विकासगंज उत्तर प्रदेश। और मेरा नाम [NAME] [NAME] है।"
+          ],
+          [
+            "BOT",
+            "जी [NAME] जी, note कर लिया है। विकासगंज, उत्तर प्रदेश। बस एक detail और चाहिए थी, आपको mustard seed की किस quality grade की requirement है?"
+          ],
+          [
+            "BUYER",
+            "मतलब साफ से हिंदी।"
+          ],
+          [
+            "BOT",
+            "जी, मैं Hindi में ही बात करती हूँ। तो [NAME] जी, आपको mustard seed की कौन सी quality grade चाहिए?"
+          ],
+          [
+            "BUYER",
+            "short ही करेंगे मतलब जल्दी तैयार होंगे।"
+          ],
+          [
+            "BOT",
+            "ठीक है, short grain वाली requirement note कर ली है। अब क्योंकि seller अभी available नहीं हैं, मैं आपकी call को transfer कर दूंगी ताकि वो आपको better deal दे सकें। क्या मैं आपकी call connect कर दूँ?"
+          ],
+          [
+            "BUYER",
+            "ठीक है। आप अपनी। विकासगंज उत्तर प्रदेश। trailer के बाद आएगा ना आपको trailer बता दो।"
+          ],
+          [
+            "BOT",
+            "जी, विकासगंज, उत्तर प्रदेश, और [NAME] जी, आपका नाम भी note कर लिया है। अब मैं आपकी call को एक best seller को transfer कर रही हूँ जो आपको better deal दे सकें। क्या मैं आपकी call connect कर दूँ?"
+          ],
+          [
+            "BUYER",
+            "ठीक है।"
+          ]
+        ],
+        "ended": true,
+        "grade": "NON_FATAL",
+        "reason": "non-fatal only: Looping Behavior, Additional Observation",
+        "fatal_params": [],
+        "failure_description": "Bot looped on transfer pitch. Misinterpreted buyer's language switch request as a spec question.",
+        "loop": false,
+        "loop_fields": []
+      }
+    },
+    {
+      "call_id": "29_90797299_4GJEVXFH5",
+      "group": "regression",
+      "cause_id": "C2",
+      "persona": "The buyer is a practical, business-focused professional who speaks fluent Hindi. Their speaking style is direct, polite, and transactional. They are in a neutral, task-oriented mood and are highly focused on getting their exact product needs met. \n\nThey want a \"20 by 8 feet GI portable cabin\" and are looking for specific details, specifications, and pricing. They are not easily distracted, speaking clearly to confirm their requirements without any emotional flair. They are cooperative and expect the agent to provide precise, professional information to help them move forward with their purchase.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello [NAME] जी आपको 20 by 8 feet GI portable cabin की requirement है ना?",
+        "product_name": "20 by 8 feet GI portable cabin",
+        "buyer_name": "[NAME]",
+        "is_enrich": "0",
+        "ast_seller_pns": "",
+        "ast_flow_live": "false",
+        "ast_seller_company": "",
+        "ast_seller_city": "",
+        "lead_type": "",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "",
+        "quantity_unit_options": "",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "NON_FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME] जी आपको 20 by 8 feet GI portable cabin की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello. हाँ, मुझे 20 by 8 feet GI portable cabin चाहिए। इसके specifications और pricing के बारे में बताइए।"
+          ],
+          [
+            "BOT",
+            "जी बिल्कुल। दरअसल जिस seller को आप call कर रहे थे वो अभी busy हैं, तो मैं आपकी call IndiaMART के किसी best seller को transfer कर दूँगी जो आपको pricing और बाकी details दे सकें। बस उससे पहले मुझे कुछ details चाहिए होंगी, तो ये बताइए कि आपको इसकी कितनी units चाहिए?"
+          ],
+          [
+            "BUYER",
+            "मुझे अभी एक unit ही चाहिए। इसका exact price और technical specifications क्या हैं, वो बताइए।"
+          ],
+          [
+            "BOT",
+            "समझ गई, एक unit की requirement है। मैं seller को connect करने के बाद आपको exact price और technical specs बता दूँगी। बस ये confirm कर दीजिए कि ये cabin आपको किस काम के लिए चाहिए, जैसे कि site office, storage, या किसी और purpose के लिए?"
+          ],
+          [
+            "BUYER",
+            "ये मुझे site office के लिए चाहिए। इसकी pricing और specifications जल्दी से बता दीजिए।"
+          ],
+          [
+            "BOT",
+            "जी, site office के लिए ये बहुत अच्छा option रहेगा। मैं आपकी call एक best seller को transfer कर दूँगी जो आपको pricing और technical specifications दोनों बता सकेंगे। उससे पहले बस आपका नाम और शहर बता दीजिए ताकि मैं सही seller ढूंढ सकूँ।"
+          ],
+          [
+            "BUYER",
+            "मेरा नाम [आपका नाम] है और मैं दिल्ली से बात कर रहा हूँ। आप मुझे seller से connect कराइए ताकि मैं pricing और बाकी details ले सकूँ।"
+          ],
+          [
+            "BOT",
+            "ठीक है, आपका नाम और Delhi का location note कर लिया है। चूँकि आप Delhi में हैं और आपको एक unit चाहिए, तो मैं अभी आपकी call Delhi के एक available seller को transfer कर दूँगी। क्या मैं आपकी call connect कर दूँ?"
+          ],
+          [
+            "BUYER",
+            "हाँ, आप call connect कर दीजिए।"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ],
+          [
+            "BUYER",
+            "Hello, मेरी call connect हो रही है क्या?"
+          ],
+          [
+            "BOT",
+            "जी, मैं अभी आपकी call connect कर रही हूँ। बस एक moment दीजिए। Aapki requirement note ho gayi hai. Seller details aapko WhatsApp par share kar diye jayenge. Thank you for calling IndiaMart."
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Bot promised transfer but ended call without connecting.",
+        "fatal_params": [
+          "Outcome Accuracy",
+          "OnCall AstBuy Error"
+        ],
+        "failure_description": "The bot promised to connect the buyer to a seller but closed the call without transferring, resulting in a failed live-seller transfer.",
+        "loop": false,
+        "loop_fields": []
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME] जी आपको 20 by 8 feet GI portable cabin की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello. हाँ, मुझे 20 by 8 feet GI portable cabin ही चाहिए। इसके specifications और pricing के बारे में बताइए।"
+          ],
+          [
+            "BOT",
+            "जी, मैं समझ गया। दरअसल जिस seller से आप बात करने की कोशिश कर रहे थे वो अभी busy हैं, लेकिन मैं आपकी call IndiaMART के एक best seller को transfer कर दूँगा जो आपको pricing और specifications के बारे में सब details दे देंगे। बस उससे पहले, क्या आप मुझे अपनी requirement के बारे में थोड़ा और बता सकते हैं? जैसे कि आपको इसकी कितनी units चाहिए?"
+          ],
+          [
+            "BUYER",
+            "मुझे अभी एक unit ही चाहिए। इसके specifications और exact price के बारे में बताइए ताकि मैं आगे बढ़ सकूँ।"
+          ],
+          [
+            "BOT",
+            "ठीक है, एक unit चाहिए। मैं आपकी call एक best seller को transfer कर दूँगा जो आपको exact price और बाकी specifications के बारे में बता सकते हैं। बस उससे पहले, क्या आप मुझे अपना नाम और शहर बता सकते हैं ताकि मैं आपको सही seller से connect करा सकूँ?"
+          ],
+          [
+            "BUYER",
+            "मेरा नाम और शहर अभी बताने की ज़रूरत नहीं है। पहले आप मुझे cabin की specifications और pricing बता दीजिए, उसके बाद ही मैं आगे बात करूँगा।"
+          ],
+          [
+            "BOT",
+            "मैं समझ सकता हूँ कि आप pricing जानना चाहते हैं, लेकिन मैं आपको exact price नहीं बता पाऊँगा क्योंकि हर seller की pricing अलग होती है। मैं आपको एक best seller से connect कर दूँगा जो आपको accurate quote दे सकेंगे। तो क्या आप मुझे अपना नाम और शहर बता सकते हैं ताकि मैं आपकी call transfer कर सकूँ?"
+          ],
+          [
+            "BUYER",
+            "ठीक है, आप call transfer कर दीजिए।"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ],
+          [
+            "BUYER",
+            "Hello? मेरी call transfer हो रही है क्या?"
+          ],
+          [
+            "BOT",
+            "जी, बिल्कुल। Call transfer करने से पहले मुझे बस आपका नाम और शहर चाहिए ताकि मैं आपको सही seller से connect करा सकूँ। तो क्या आप मुझे अपना नाम और शहर बता सकते हैं?"
+          ],
+          [
+            "BUYER",
+            "मेरी details बाद में दे दूँगा। अभी आप बस seller से बात करवा दीजिए।"
+          ],
+          [
+            "BOT",
+            "मैं समझ सकता हूँ, लेकिन seller को सही seller से connect कराने के लिए मुझे आपकी location और नाम की ज़रूरत पड़ेगी। क्या आप मुझे बस अपना नाम और शहर बता सकते हैं?"
+          ],
+          [
+            "BUYER",
+            "नाम और शहर अभी नहीं बताऊँगा। आप बस transfer कर दीजिए।"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ],
+          [
+            "BUYER",
+            "Hello? मेरी call connect हो रही है क्या?"
+          ],
+          [
+            "BOT",
+            "मैं समझ सकता हूँ, लेकिन seller को सही seller से connect कराने के लिए मुझे आपकी location और नाम की ज़रूरत पड़ेगी। क्या आप मुझे बस अपना नाम और शहर बता सकते हैं?"
+          ]
+        ],
+        "ended": false,
+        "grade": "FATAL",
+        "reason": "Looping Behavior: Bot asked for city/name 5 times, exceeding the 3-ask limit.",
+        "fatal_params": [
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot looped on city/name requests instead of proceeding to live seller transfer or lead creation, despite buyer's refusal.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "city",
+            "asks": 5,
+            "limit": 3
+          }
+        ]
+      }
+    },
+    {
+      "call_id": "286_90701833_UIRJ6JXG5",
+      "group": "regression",
+      "cause_id": "C2",
+      "persona": "The Buyer is a practical, slightly impatient local wholesaler or retailer from India. They speak in casual, conversational Hinglish, mixing Hindi and English naturally, and speak in a direct, transactional tone. \n\nThey are looking to buy rechargeable torches and need a total of 20 to 25 pieces, wanting a mix of 2 to 4 different qualities. When asked about technical specifications, they are slightly confused and just want \"light,\" telling the bot they need \"jo chahiye\" (whatever is suitable/available) rather than specific power ratings like 100 watts. They are primarily focused on getting the best possible rate and are somewhat argumentative, showing mild frustration when the bot pushes for exact technical details instead of just offering a price.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello [NAME] जी आपको rechargeable torch की requirement है ना?",
+        "product_name": "rechargeable torch",
+        "buyer_name": "[NAME]",
+        "is_enrich": "0",
+        "ast_seller_pns": "",
+        "ast_flow_live": "false",
+        "ast_seller_company": "",
+        "ast_seller_city": "",
+        "lead_type": "",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "{'power': []}",
+        "quantity_unit_options": "['piece']",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "NON_FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME] जी आपको rechargeable torch की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "आर्गुमेंट। rate पता चल जाता है तो।"
+          ],
+          [
+            "BOT",
+            "मैं समझ सकती हूँ कि आप price जानना चाहते हैं, लेकिन मैं यहाँ से exact rate नहीं बता सकती। मैं आपको IndiaMart के एक best seller से connect करवा सकती हूँ जो आपको सही price और details दे सकते हैं। क्या मैं आपकी call transfer कर दूँ?"
+          ],
+          [
+            "BUYER",
+            "दस से बीस माने दो चार quality में चाहिए दो चार आता है ना उस तरह से बीस पच्चीस चाहिए सब मिलके।"
+          ],
+          [
+            "BOT",
+            "जी, तो आपको total पच्चीस rechargeable torch चाहिए। और quality के बारे में कोई specific preference है, जैसे power या battery life?"
+          ],
+          [
+            "BUYER",
+            "तो बोला तो light। तो बोला जो चाहिए ना वो कुछ चाहिए था।"
+          ],
+          [
+            "BOT",
+            "समझ गई। तो आपको rechargeable torch चाहिए जिसमें अच्छी light हो। और कोई specific requirement है, जैसे battery life या charging time?"
+          ],
+          [
+            "BUYER",
+            "भाई मैं wholesaler हूँ, मुझे technical बातें नहीं समझ आती। आप बस एक बढ़िया rate बताओ और माल भेजो।"
+          ],
+          [
+            "BOT",
+            "मैं आपकी बात समझ रही हूँ, लेकिन मैं यहाँ से rate confirm नहीं कर सकती। मैं आपको एक best seller से connect करवा दूँगी जो आपको wholesale rate बता सकते हैं और माल की delivery भी arrange कर सकते हैं। क्या मैं आपकी call transfer कर दूँ?"
+          ],
+          [
+            "BUYER",
+            "अरे बार बार वही बात मत घुमाओ, सीधा बताओ कितने का पड़ेगा।"
+          ],
+          [
+            "BOT",
+            "मैं आपकी बात समझ रही हूँ, लेकिन मेरे पास कोई fixed price नहीं है। मैं आपको एक best seller से connect करवा देती हूँ जो आपको wholesale rate बता सकते हैं और माल भी भिजवा सकते हैं। क्या मैं आपकी call transfer कर दूँ?"
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Buyer wanted wholesale rate, bot ended with transfer consent loop.",
+        "fatal_params": [
+          "Outcome Accuracy",
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot looped on transfer consent, failed to capture buyer's wholesale intent, and ended call abruptly without resolving the price query.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "transfer_consent",
+            "asks": 3,
+            "limit": 2
+          }
+        ]
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME] जी आपको rechargeable torch की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "आर्गुमेंट। rate पता चल जाता है तो।"
+          ],
+          [
+            "BOT",
+            "मैं समझ सकती हूँ कि आप price जानना चाहते हैं। मैं आपको IndiaMart के एक best seller से connect कर दूँगी जो आपको सही rate बता सकें, लेकिन उसके लिए मुझे आपकी requirement के कुछ details चाहिए होंगे। तो आपको rechargeable torch की कितनी quantity चाहिए?"
+          ],
+          [
+            "BUYER",
+            "दस से बीस माने दो चार quality में चाहिए दो चार आता है ना उस तरह से बीस पच्चीस चाहिए सब मिलके।"
+          ],
+          [
+            "BOT",
+            "ठीक है, तो total quantity twenty to twenty five pieces चाहिए। और power specification में आपको क्या चाहिए?"
+          ],
+          [
+            "BUYER",
+            "तो बोला तो light। तो बोला जो चाहिए ना वो कुछ चाहिए था।"
+          ],
+          [
+            "BOT",
+            "ठीक है, power specification के लिए आप क्या prefer करेंगे?"
+          ],
+          [
+            "BUYER",
+            "देख भाई, मुझे ये watts-वाटस नहीं समझ आता। जो भी अच्छा दिखे और रोशन हो वही ला देना, बस मुझे सही दाम में दे दो।"
+          ],
+          [
+            "BOT",
+            "ठीक है, मैं note कर लेती हूँ कि आपको अच्छी brightness वाली rechargeable torch चाहिए। अब location के लिए, आप किस city से बात कर रहे हैं?"
+          ],
+          [
+            "BUYER",
+            "अरे शहर तो अपना वही है, बस तुम मुझे जल्दी से सही रेट बताओ ना, टाइम खराब मत करो।"
+          ],
+          [
+            "BOT",
+            "मैं समझ सकती हूँ कि आप जल्दी में हैं। मैं आपको एक best seller से connect कर दूँगी जो आपको सही rate बता सकें, बस मुझे आपकी city बता दीजिए ताकि मैं सही seller ढूंढ सकूँ। आप किस city से हैं?"
+          ],
+          [
+            "BUYER",
+            "शहर तो अपना वही है, बस तुम मुझे जल्दी से सही रेट बताओ ना, टाइम खराब मत करो।"
+          ],
+          [
+            "BOT",
+            "ठीक है, मैं समझ गई। मैं आपको एक best seller से connect कर दूँगी जो आपको सही rate बता सकें। आप किस city से हैं?"
+          ],
+          [
+            "BUYER",
+            "अरे यार, बार बार वही city-सिटी क्यों पूछ रही हो? सीधा seller से बात कराओ और रेट बताओ, और कुछ नहीं चाहिए।"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ],
+          [
+            "BUYER",
+            "अरे यार, मैं इधर काम का बात करने आया हूँ, ये फालतू की questions मत पूछो मुझे। सीधा रेट बताओ।"
+          ],
+          [
+            "BOT",
+            "[no reply]"
+          ]
+        ],
+        "ended": false,
+        "grade": "FATAL",
+        "reason": "Looping Behavior: Bot asked for city 3 times despite buyer's clear frustration and repeated answers.",
+        "fatal_params": [
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot looped on city collection after buyer clearly refused, causing frustration and abrupt call termination.",
+        "loop": false,
+        "loop_fields": []
+      }
+    },
+    {
+      "call_id": "533_90685080_48L1K1UG5",
+      "group": "regression",
+      "cause_id": "C2",
+      "persona": "The buyer is a polite, business-minded trader named [NAME] who prefers speaking in casual Hindi. He is cooperative and patient, calmly answering the bot's questions. He wants exactly 2 quintals (200 kg) of \"normal thin\" rice—specifically rejecting broken rice and Basmati—and requests non-Sortex (non-machine cleaned) rice. He politely said \"Haan Ma'am,\" \"Do quintal chahiye,\" and \"Non Sir non karte,\" while asking for clarification on what \"shortage\" means. He is in a neutral, focused mood, acting as a standard B2B buyer looking for specific, unpolished bulk rice.",
+      "context": {
+        "bot_name": "Tania",
+        "initial_message": "Hello [NAME], आपको rice की requirement है ना?",
+        "product_name": "rice",
+        "buyer_name": "",
+        "is_enrich": "0",
+        "ast_seller_pns": "",
+        "ast_flow_live": "false",
+        "ast_seller_company": "",
+        "ast_seller_city": "",
+        "lead_type": "",
+        "pcd_pitch": "false",
+        "language_name": "hindi",
+        "specification_options": "{'सफाई': []}",
+        "quantity_unit_options": "",
+        "identity_challenge_count": "0",
+        "identity_revealed": "0",
+        "off_topic_counter": "0",
+        "seller_ask_count": "0",
+        "current_phase": "REQUIREMENT_CONFIRMATION"
+      },
+      "real_grade": "NON_FATAL",
+      "old_hash": "19606c081a",
+      "new_hash": "4987605e1a",
+      "before": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME], आपको rice की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello. हाँ Ma'am."
+          ],
+          [
+            "BOT",
+            "ठीक है, actually जिस seller को आप call कर रहे थे वो अभी busy हैं। मैं आपकी call IndiaMART के best seller से connect करवा देती हूँ। Best seller details share करने से पहले, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "Hello. दो क्विंटल चाहिए।"
+          ],
+          [
+            "BOT",
+            "Ji, समझ गई। Best seller details share करने से पहले, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "हाँ broken नहीं होना चाहिए लेकिन। ठीक ठाक रहे बासमती भी नहीं चाहिए मतलब normal पतला rice चाहिए।"
+          ],
+          [
+            "BOT",
+            "Ji, समझ गई। Best seller details share करने से पहले, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "हां। Shortage मतलब?"
+          ],
+          [
+            "BOT",
+            "Ji, shortage मतलब कम होना। Best seller details share करने से पहले, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "Non Sir non करते।"
+          ],
+          [
+            "BOT",
+            "Ji, shortage का मतलब है कि rice की मात्रा कम होना। Best seller details share करने से पहले, may I know your name please?"
+          ],
+          [
+            "BUYER",
+            "के लिए धन्यवाद।"
+          ],
+          [
+            "BOT",
+            "Ji, कोई बात नहीं। Best seller details share करने से पहले, may I know your name please?"
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Bot ended call mid-collection while buyer was still engaged with repeated name asks.",
+        "fatal_params": [
+          "Outcome Accuracy",
+          "Qty Missed Opportunity",
+          "Spec Missed Opportunity",
+          "Looping Behavior"
+        ],
+        "failure_description": "Bot looped on name 6 times (limit 3) and never captured quantity, specs, or location. Call ended abruptly without creating a lead.",
+        "loop": true,
+        "loop_fields": [
+          {
+            "field": "name",
+            "asks": 6,
+            "limit": 3
+          }
+        ]
+      },
+      "after": {
+        "turns": [
+          [
+            "BOT",
+            "Hello [NAME], आपको rice की requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello. हाँ Ma'am."
+          ],
+          [
+            "BOT",
+            "जी, तो आप rice देख रहे हैं, जो generally catering और bulk food supply के लिए use होता है। यही requirement है ना?"
+          ],
+          [
+            "BUYER",
+            "Hello. दो क्विंटल चाहिए।"
+          ],
+          [
+            "BOT",
+            "जी, तो आपको दो क्विंटल rice की requirement है। ये basmati rice चाहिए या फिर कोई और variety?"
+          ],
+          [
+            "BUYER",
+            "हाँ broken नहीं होना चाहिए लेकिन। ठीक ठाक रहे बासमती भी नहीं चाहिए मतलब normal पतला rice चाहिए।"
+          ],
+          [
+            "BOT",
+            "जी, तो आपको broken rice नहीं चाहिए और ना ही बासमती, मतलब normal thin rice चाहिए। सही है?"
+          ],
+          [
+            "BUYER",
+            "हां। Shortage मतलब?"
+          ],
+          [
+            "BOT",
+            "जी, shortage का मतलब है कि rice थोड़ा छोटा या टूटा हुआ नहीं होना चाहिए, पूरा और बढ़िया quality का होना चाहिए। ठीक है ना?"
+          ],
+          [
+            "BUYER",
+            "Non Sir non करते।"
+          ],
+          [
+            "BOT",
+            "जी, तो आपको rice बिल्कुल भी broken नहीं चाहिए और quality भी अच्छी होनी चाहिए। सही समझा ना?"
+          ],
+          [
+            "BUYER",
+            "के लिए धन्यवाद।"
+          ],
+          [
+            "BOT",
+            "जी, तो requirement confirm हो गई है। Seller अभी busy हैं, पर मैं आपकी call IndiaMart के best seller से connect करवा दूंगी। Best seller details share करने से पहले, क्या मैं आपका नाम जान सकती हूँ?"
+          ]
+        ],
+        "ended": true,
+        "grade": "FATAL",
+        "reason": "Outcome Accuracy: Call ended before collecting name, preventing lead creation.",
+        "fatal_params": [
+          "Outcome Accuracy"
+        ],
+        "failure_description": "The call ended abruptly before collecting the buyer's name, preventing lead creation. The buyer also expressed confusion about the term 'shortage'.",
+        "loop": false,
+        "loop_fields": []
+      }
+    }
+  ]
+}

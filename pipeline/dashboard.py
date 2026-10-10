@@ -13,19 +13,33 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import pandas as pd  # noqa: E402
 import streamlit as st  # noqa: E402
 
-from common import (OUTPUTS, RECORDINGS, TIMELINE, load_clean, load_grades, read_json,  # noqa: E402
+import common  # noqa: E402
+from common import (OUTPUTS, RECORDINGS, ROOT, TIMELINE, load_clean, load_grades, read_json,  # noqa: E402
                     transcript_text)
 
 st.set_page_config(page_title="VANI Quality Audit & Fix Loop", layout="wide")
 
+# Hosted copy (e.g. Streamlit Community Cloud): raw data and per-call outputs are not in git, so read
+# the masked copy written by pipeline/export_demo_data.py instead.
+DEMO_DATA = ROOT / "demo_data"
+DEMO = not any(common.GRADES_DIR.glob("*.json")) and DEMO_DATA.is_dir()
+if DEMO:
+    common.GRADES_DIR, common.CLEAN_DIR = DEMO_DATA / "grades", DEMO_DATA / "clean"
+
+
+def out(name):
+    """An outputs/ file, or its masked copy in demo_data/ on a hosted copy."""
+    return DEMO_DATA / name if DEMO and (DEMO_DATA / name).exists() else OUTPUTS / name
+
 
 @st.cache_data(ttl=15)
 def get_all():
-    return dict(grades=load_grades(), rank=read_json(OUTPUTS / "ranking.json"), rc=read_json(OUTPUTS / "root_causes.json"),
-                fixes=read_json(OUTPUTS / "fixes.json"), test=read_json(OUTPUTS / "test_results.json"),
-                agree=read_json(OUTPUTS / "agreement.json"), tl=read_json(TIMELINE, {}) or {},
-                audit_agree=read_json(OUTPUTS / "audit" / "agreement.json"),
-                n_rec=len(list(RECORDINGS.glob("*.mp3"))))
+    grades = load_grades()
+    return dict(grades=grades, rank=read_json(out("ranking.json")), rc=read_json(out("root_causes.json")),
+                fixes=read_json(out("fixes.json")), test=read_json(out("test_results.json")),
+                agree=read_json(out("agreement.json")), tl=read_json(TIMELINE, {}) or {},
+                audit_agree=read_json(out("audit/agreement.json")),
+                n_rec=len(grades) if DEMO else len(list(RECORDINGS.glob("*.mp3"))))
 
 
 def flags_of(g):
@@ -72,6 +86,8 @@ with st.sidebar:
         st.rerun()
 
 st.title("VANI Quality Audit & Fix Loop")
+if DEMO:
+    st.caption("Hosted copy: buyer names and phone numbers are masked, and call audio is not included.")
 tabs = st.tabs(["Audit", "Issues", "Fix", "Test", "Live agents"])
 
 # ------------------------------------------------------------------ AUDIT

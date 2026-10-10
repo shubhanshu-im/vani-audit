@@ -1,0 +1,86 @@
+{
+  "call_id": "419_90852939_3AZRLXVH5",
+  "file": "data/recordings/419_90852939_3AZRLXVH5.mp3",
+  "duration_s": 54.72,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको soybean protein concentrate की requirement है ना?",
+      "start": 0.01,
+      "end": 3.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 6.23,
+      "end": 6.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms या tons की जरूरत है?",
+      "start": 7.99,
+      "end": 15.05
+    },
+    {
+      "role": "BUYER",
+      "text": "ton की नहीं जरूरत है मुझे। यह पता करना है कि वह किस दिन खुलता है।",
+      "start": 17.45,
+      "end": 22.35
+    },
+    {
+      "role": "BOT",
+      "text": "वह seller अभी available नहीं है but मैं आपको दूसरे अच्छे sellers से connect करवा सकती हूं। बस यह बता दीजिए कि आपको कितनी quantity चाहिए?",
+      "start": 23.31,
+      "end": 30.83
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 32.17,
+      "end": 32.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अगर आप quantity नहीं बताना चाहते तो कोई बात नहीं। चलिए अब packaging size की बात करते हैं। आपको 200 grams, 500 grams या कुछ और चाहिए?",
+      "start": 33.55,
+      "end": 41.99
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं नहीं हमें सब यह पता करना है कौन दिन खुलता है।",
+      "start": 42.57,
+      "end": 46.37
+    },
+    {
+      "role": "BOT",
+      "text": "देखिए वो seller अभी available नहीं है इसलिए मैं उनके खुलने का समय नहीं बता पाऊँगी। क्या मैं आपको दूसरे अच्छे seller से connect करवाऊँ?",
+      "start": 47.45,
+      "end": 54.67
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं नहीं बता पाऊँगी। क्या मैं आपको दूसरे",
+      "start": 50.71,
+      "end": 53.13
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

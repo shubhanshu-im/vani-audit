@@ -1,0 +1,82 @@
+{
+  "call_id": "253_90797311_K8BVVXFH5",
+  "file": "data/recordings/253_90797311_K8BVVXFH5.mp3",
+  "duration_s": 60.19,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको industrial RO membrane 8040 की requirement है ना?",
+      "start": 0.35,
+      "end": 5.51
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 6.81,
+      "end": 7.57
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए होंगे?",
+      "start": 9.71,
+      "end": 19.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 10.31,
+      "end": 10.67
+    },
+    {
+      "role": "BOT",
+      "text": "एक piece चाहिए अस्सी चालीस का। बहुत बढ़िया। आपने एक piece बताया और 8040 का size बताया है। brand में कोई preference है या seller से discuss करेंगे? नहीं नहीं क्या rate है समझ गए rate की जानकारी आप seller से discuss कर सकते हैं आपको best price मिल जाएगा अब आपकी city confirm कर लूँ।",
+      "start": 20.73,
+      "end": 45.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 44.39,
+      "end": 44.71
+    },
+    {
+      "role": "BOT",
+      "text": "जी जी आप South West West से बोल रहे हैं।",
+      "start": 46.35,
+      "end": 48.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है आप South।",
+      "start": 46.75,
+      "end": 47.61
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो। Thank you sir.",
+      "start": 49.77,
+      "end": 59.53
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.14,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 3
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

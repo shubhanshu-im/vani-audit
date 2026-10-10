@@ -1,0 +1,80 @@
+{
+  "call_id": "684_90685137_M5NUK1UG5",
+  "file": "data/recordings/684_90685137_M5NUK1UG5.mp3",
+  "duration_s": 51.91,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "तो Rosidul जी आपकी Nokia 5800 refurbished mobile की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 7.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 9.03,
+      "end": 9.45
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब RAM के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 8 GB या कुछ और?",
+      "start": 10.91,
+      "end": 14.95
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ओ Nokia का five two mobile तेरा।",
+      "start": 12.19,
+      "end": 20.47
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप Nokia 5800 refurbished mobile की बात कर रहे हैं। तो बताइए RAM में क्या prefer करेंगे 8 GB, 4 GB या कोई और?",
+      "start": 21.47,
+      "end": 28.29
+    },
+    {
+      "role": "BUYER",
+      "text": "कर देंगे।",
+      "start": 29.81,
+      "end": 30.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 31.51,
+      "end": 36.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 40.21,
+      "end": 40.83
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 41.75,
+      "end": 48.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 3.48,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

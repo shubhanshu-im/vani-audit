@@ -1,0 +1,98 @@
+{
+  "call_id": "548_90853017_FGYNMXVH5",
+  "file": "data/recordings/548_90853017_FGYNMXVH5.mp3",
+  "duration_s": 62.21,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.81
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. जी आपको कौन सा product चाहिए? हम्म। Good Morning.",
+      "start": 3.95,
+      "end": 10.33
+    },
+    {
+      "role": "BOT",
+      "text": "Good Morning. आप बता सकते हैं कि आपको कौन सा product चाहिए?",
+      "start": 11.21,
+      "end": 14.39
+    },
+    {
+      "role": "BUYER",
+      "text": "अह ma'am ये हर हर महादेव का है।",
+      "start": 15.93,
+      "end": 18.21
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं समझ नहीं पाई। क्या आप बता सकते हैं कि आपको कौन सा product या service चाहिए?",
+      "start": 19.17,
+      "end": 23.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am ये क्या करना होता है? कितने दिन का काम है Ma'am?",
+      "start": 26.13,
+      "end": 30.59
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं मैं job vacancies में आपकी मदद नहीं कर सकती।",
+      "start": 31.57,
+      "end": 34.39
+    },
+    {
+      "role": "BUYER",
+      "text": "मतलब मैम ये details में बता सकते हैं क्या?",
+      "start": 37.17,
+      "end": 40.51
+    },
+    {
+      "role": "BOT",
+      "text": "मैं सिर्फ IndiaMART के products और sellers से जुड़ी जानकारी दे सकती हूं। क्या आपको कोई product खरीदना है?",
+      "start": 41.27,
+      "end": 47.05
+    },
+    {
+      "role": "BUYER",
+      "text": "No ma'am.",
+      "start": 50.11,
+      "end": 51.29
+    },
+    {
+      "role": "BOT",
+      "text": "आप अपनी future needs के लिए कभी भी IndiaMART की website visit कर सकते हैं। अपना समय देने के लिए धन्यवाद।",
+      "start": 52.11,
+      "end": 57.97
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you ma'am.",
+      "start": 59.17,
+      "end": 60.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 3.06,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

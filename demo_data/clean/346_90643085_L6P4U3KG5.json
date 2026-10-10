@@ -1,0 +1,74 @@
+{
+  "call_id": "346_90643085_L6P4U3KG5",
+  "file": "data/recordings/346_90643085_L6P4U3KG5.mp3",
+  "duration_s": 43.2,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपकी Vinola में cattle feed की request IndiaMART पर raise है बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.01,
+      "end": 6.63
+    },
+    {
+      "role": "BUYER",
+      "text": "बोलिए।",
+      "start": 8.77,
+      "end": 9.45
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कौन सा grade चाहिए जैसे premium या B grade या कुछ और?",
+      "start": 12.75,
+      "end": 15.99
+    },
+    {
+      "role": "BUYER",
+      "text": "Premium.",
+      "start": 17.91,
+      "end": 18.63
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया premium grade चुना आपने। क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "start": 20.51,
+      "end": 26.99
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं और कोई detail नहीं।",
+      "start": 29.35,
+      "end": 31.01
+    },
+    {
+      "role": "BOT",
+      "text": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 32.65,
+      "end": 39.23
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद। और पतंजलि का चना चूड़ी चाहिए था।",
+      "start": 37.67,
+      "end": 42.33
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 3.3,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

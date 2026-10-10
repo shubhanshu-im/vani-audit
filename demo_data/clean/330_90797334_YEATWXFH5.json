@@ -1,0 +1,86 @@
+{
+  "call_id": "330_90797334_YEATWXFH5",
+  "file": "data/recordings/330_90797334_YEATWXFH5.mp3",
+  "duration_s": 59.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Parker rubber hydraulic hose pipe की requirement है ना?",
+      "start": 0.01,
+      "end": 4.49
+    },
+    {
+      "role": "BUYER",
+      "text": "बिल्कुल है madam। ये temperature कितने temperature तक जाती है madam bear करती है? जैसे hot time होता है उसका temperature ज्यादा हो तो कितना temperature तक bear कर लेती है pipe?",
+      "start": 5.33,
+      "end": 15.77
+    },
+    {
+      "role": "BOT",
+      "text": "ये pipe कितने तापमान तक काम कर सकती है इस बारे में seller आपको पूरी जानकारी देंगे। पहले बताइए कितने meter चाहिए?",
+      "start": 18.41,
+      "end": 24.59
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। मीटिंग तो मेरे को आप समझो। अस्सी मीटर की जरूरत है।",
+      "start": 21.43,
+      "end": 31.49
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। चलिए अब size में क्या चाहिए जैसे 1 inch या 3 चौथाई inch या कुछ और?",
+      "start": 33.31,
+      "end": 37.91
+    },
+    {
+      "role": "BUYER",
+      "text": "बहुत बढ़िया। या कुछ एक इंच एक इंच।",
+      "start": 33.39,
+      "end": 39.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब application में क्या चाहिए? जैसे marine engine, steel या कुछ और?",
+      "start": 41.43,
+      "end": 45.59
+    },
+    {
+      "role": "BUYER",
+      "text": "petroleum.",
+      "start": 45.79,
+      "end": 47.19
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 49.09,
+      "end": 57.49
+    },
+    {
+      "role": "BUYER",
+      "text": "लेकिन। Thank you.",
+      "start": 55.35,
+      "end": 59.07
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.64,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

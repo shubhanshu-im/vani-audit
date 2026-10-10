@@ -1,0 +1,88 @@
+{
+  "call_id": "427_90797368_CXMGXXFH5",
+  "file": "data/recordings/427_90797368_CXMGXXFH5.mp3",
+  "duration_s": 36.65,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 2.43
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay Talkie Baby.",
+      "start": 3.81,
+      "end": 5.05
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं समझ नहीं पाई। आप कौन से product के बारे में बात कर रहे हैं? Please बताइए।",
+      "start": 5.81,
+      "end": 10.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हॉकी टॉकी wireless.",
+      "start": 11.53,
+      "end": 14.47
+    },
+    {
+      "role": "BOT",
+      "text": "बात करने वाला।",
+      "start": 15.39,
+      "end": 16.91
+    },
+    {
+      "role": "BUYER",
+      "text": "बात करने वाला।",
+      "start": 15.71,
+      "end": 16.93
+    },
+    {
+      "role": "BOT",
+      "text": "आपको walkie talkie जो आमतौर पे दूर बैठे लोगों से बात करने के लिए इस्तेमाल होता है वही product चाहिए ना?",
+      "start": 16.93,
+      "end": 23.13
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ बिल्कुल सही।",
+      "start": 24.37,
+      "end": 25.79
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry में आगे help करेंगे। Please wait a minute.",
+      "start": 27.07,
+      "end": 33.21
+    },
+    {
+      "role": "BUYER",
+      "text": "बात बहुत सही है। साफ सफाई ना खेल बात।",
+      "start": 29.87,
+      "end": 35.63
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 1.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0,
+      "1": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

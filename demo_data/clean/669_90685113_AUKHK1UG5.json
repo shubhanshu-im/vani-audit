@@ -1,0 +1,128 @@
+{
+  "call_id": "669_90685113_AUKHK1UG5",
+  "file": "data/recordings/669_90685113_AUKHK1UG5.mp3",
+  "duration_s": 104.11,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको painting contractors की requirement है ना?",
+      "start": 0.31,
+      "end": 4.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. नमस्ते। आपको painting contractors की requirement थी ना? Yes. हाँ जी बताइए।",
+      "start": 6.75,
+      "end": 15.41
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने square feet का काम करवाना है?",
+      "start": 16.59,
+      "end": 23.19
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे exterior पे करवाना है। और ये पड़ जाएगा आपका कम से कम।",
+      "start": 24.63,
+      "end": 29.95
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। पर आपने quantity नहीं बताई आपको कितने square feet का काम करवाना है? कृपया बता दीजिए।",
+      "start": 31.01,
+      "end": 36.57
+    },
+    {
+      "role": "BUYER",
+      "text": "सात सात सौ आठ सौ square feet area होगा।",
+      "start": 36.57,
+      "end": 39.73
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब service scope की बात करते हैं। आपको exterior काम करवाना है या interior या कुछ और?",
+      "start": 40.75,
+      "end": 46.13
+    },
+    {
+      "role": "BUYER",
+      "text": "exterior.",
+      "start": 47.53,
+      "end": 48.45
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब बताइए paint type में क्या prefer करेंगे? texture paint, PU paint या कोई और?",
+      "start": 49.69,
+      "end": 54.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ये आपका exterior पे जो paint होता है वही वाला।",
+      "start": 57.43,
+      "end": 61.57
+    },
+    {
+      "role": "BOT",
+      "text": "मैं समझ गई पर क्या आप इनमें से कोई specific option जैसे texture या PU paint चुनना चाहेंगे या कुछ और?",
+      "start": 62.93,
+      "end": 68.75
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं ma'am simple जो जो बारिश में खराब नहीं होता वो कौन सा होगा आप guide करे ना।",
+      "start": 70.17,
+      "end": 75.39
+    },
+    {
+      "role": "BOT",
+      "text": "बारिश के लिए texture या PU paint अच्छे रहते हैं। आप इनमें से क्या prefer करेंगे या फिर seller से discuss करना चाहेंगे?",
+      "start": 76.83,
+      "end": 83.23
+    },
+    {
+      "role": "BUYER",
+      "text": "ये salary से discuss करना चाहूंगी मैं अभी ना।",
+      "start": 83.47,
+      "end": 86.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। seller आपकी इस detail में मदद कर देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 88.03,
+      "end": 95.55
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है done.",
+      "start": 96.65,
+      "end": 97.61
+    },
+    {
+      "role": "BOT",
+      "text": "IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 98.73,
+      "end": 101.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.78,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 6,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "call_id": "307_90852875_PFAYKXVH5",
+  "file": "data/recordings/307_90852875_PFAYKXVH5.mp3",
+  "duration_s": 92.95,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME], आपकी engine valve KTM 125 की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.75,
+      "end": 7.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ तो हमको online मंगाना है।",
+      "start": 9.43,
+      "end": 11.85
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं समझ गया। सबसे पहले यह बता दीजिए कि आपको कितनी piece या set की जरूरत है। ठीक है मैं समझ गया। सबसे पहले यह बता दीजिए कि आपको कितनी piece या set की जरूरत है।",
+      "start": 13.27,
+      "end": 21.95
+    },
+    {
+      "role": "BUYER",
+      "text": "चार piece रेल set।",
+      "start": 23.67,
+      "end": 25.43
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब ये बता दीजिए कि आपको bike model में क्या चाहिए?",
+      "start": 26.59,
+      "end": 29.55
+    },
+    {
+      "role": "BUYER",
+      "text": "Paytm एक सौ पच्चीस CC पुराना model। ठीक है। अब यह बता दीजिए कि आपको model year में क्या चाहिए? मतलब समझा नहीं। मेरा मतलब है कि आपकी bike किस साल की है?",
+      "start": 31.43,
+      "end": 46.02
+    },
+    {
+      "role": "BOT",
+      "text": "आप बस साल बता दीजिए।",
+      "start": 46.02,
+      "end": 47.11
+    },
+    {
+      "role": "BUYER",
+      "text": "तो भाई रुको अभी देखना पड़ेगा check करके बताऊँ।",
+      "start": 48.77,
+      "end": 52.91
+    },
+    {
+      "role": "BOT",
+      "text": "बिल्कुल आप आराम से check कर लीजिए। मैं इंतजार कर रहा हूं। क्या आप अभी line पर हैं? कृपया बता दीजिए।",
+      "start": 54.15,
+      "end": 69.81
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ सर कोई बात नहीं क्या आपको",
+      "start": 70.13,
+      "end": 72.77
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं। क्या आपको अपनी bike का model year मिल? जी। तो कृपया बता दीजिए कि आपकी bike का model year क्या है?",
+      "start": 71.59,
+      "end": 77.19
+    },
+    {
+      "role": "BUYER",
+      "text": "पता है कि सुन रहे हो कि check कर रहे हो तो। कोई बात नहीं मैं समझता।",
+      "start": 79.25,
+      "end": 83.85
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं मैं समझ सकता हूँ। आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 82.87,
+      "end": 90.51
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 10.3,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 57.03,
+        "end": 67.33,
+        "duration_s": 10.3,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

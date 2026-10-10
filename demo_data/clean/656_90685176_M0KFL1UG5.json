@@ -1,0 +1,34 @@
+{
+  "call_id": "656_90685176_M0KFL1UG5",
+  "file": "data/recordings/656_90685176_M0KFL1UG5.mp3",
+  "duration_s": 5.18,
+  "language_code": "en-IN",
+  "short_call": true,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Rajiv Gandhi ji, you are looking for mixed Molly fish right?",
+      "start": 0.11,
+      "end": 3.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 0.0,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker",
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

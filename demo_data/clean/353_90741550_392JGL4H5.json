@@ -1,0 +1,33 @@
+{
+  "call_id": "353_90741550_392JGL4H5",
+  "file": "data/recordings/353_90741550_392JGL4H5.mp3",
+  "duration_s": 14.11,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको underground sum tanks की requirement है ना? इधर देखो। माफ़ कीजिए आपकी आवाज़ नहीं आई। क्या आपको",
+      "start": 0.33,
+      "end": 14.23
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 4.92,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

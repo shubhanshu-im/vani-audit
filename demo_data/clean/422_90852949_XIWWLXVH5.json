@@ -1,0 +1,262 @@
+{
+  "call_id": "422_90852949_XIWWLXVH5",
+  "file": "data/recordings/422_90852949_XIWWLXVH5.mp3",
+  "duration_s": 230.98,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 0.23,
+      "end": 0.91
+    },
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] [NAME] जी आपको cumin seed जीरा whole seeds की requirement है ना?",
+      "start": 0.57,
+      "end": 5.71
+    },
+    {
+      "role": "BUYER",
+      "text": "तो कहाँ से चाहिए?",
+      "start": 9.89,
+      "end": 11.19
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई पर क्या आपको cumin seed जीरा whole seeds की requirement है?",
+      "start": 12.53,
+      "end": 16.35
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam जी।",
+      "start": 18.17,
+      "end": 19.17
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं।",
+      "start": 20.29,
+      "end": 22.91
+    },
+    {
+      "role": "BUYER",
+      "text": "जो available",
+      "start": 20.93,
+      "end": 22.63
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूँ। आपको कितने kilograms चाहिए?",
+      "start": 23.71,
+      "end": 29.83
+    },
+    {
+      "role": "BUYER",
+      "text": "पांच के जी।",
+      "start": 31.59,
+      "end": 32.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब quality grade के बारे में बात कर लेते हैं। आपको Singapore 99 चाहिए या कुछ और?",
+      "start": 33.41,
+      "end": 38.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Rate इसमें क्या है Madam?",
+      "start": 40.89,
+      "end": 42.13
+    },
+    {
+      "role": "BOT",
+      "text": "rate के लिए आप seller से बात कर सकते हैं वो आपको best rates देंगे। आप quality grade में क्या prefer करेंगे?",
+      "start": 43.23,
+      "end": 48.85
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छी quality वाला चाहिए।",
+      "start": 51.27,
+      "end": 53.47
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। quality grade में आपको Singapore 99, Europe quality या कोई और options चाहिए?",
+      "start": 54.35,
+      "end": 59.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। तो मेरे को कल के को ऐसा मारे मालूम नहीं है ना अच्छा होना चाहिए देखने में अलग है। [change] बिल्कुल। [change] यही बात बोल रहा मैं।",
+      "start": 59.25,
+      "end": 68.91
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller आपके ठीक है seller इस detail में आपकी मदद करेंगे। अब बताइए packaging type में क्या prefer करेंगे bag, PP bag या कुछ और?",
+      "start": 68.41,
+      "end": 76.53
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारे। जिला हमको भेज चाहिए सौ ग्राम के पैकेट सौ ग्राम के पैकेट।",
+      "start": 69.45,
+      "end": 82.25
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 83.29,
+      "end": 88.75
+    },
+    {
+      "role": "BUYER",
+      "text": "बढ़िया। हाँ जी ठीक है ना। सही बात। और बड़ा नहीं करना तकेत।",
+      "start": 83.53,
+      "end": 101.83
+    },
+    {
+      "role": "BOT",
+      "text": "जी ताई। जी मैं समझ गई। आप packet वाला जीरा चाहते हैं? इसकी जानकारी मैं seller को दे दूंगी।",
+      "start": 98.51,
+      "end": 106.63
+    },
+    {
+      "role": "BUYER",
+      "text": "ना ना खाली packet है सब में पानी खाली packet जीरा packet नहीं खाली packet खाली packet।",
+      "start": 107.69,
+      "end": 114.49
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ खाली packet। आपको खाली packet चाहिए जो आमतौर पे packing के लिए इस्तेमाल होते हैं यही चाहिए ना?",
+      "start": 112.25,
+      "end": 120.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हो। हाँ जी जी।",
+      "start": 118.63,
+      "end": 122.47
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कितने pieces चाहिए?",
+      "start": 122.95,
+      "end": 124.49
+    },
+    {
+      "role": "BUYER",
+      "text": "तो कम से कम पाँच सौ case।",
+      "start": 127.01,
+      "end": 128.49
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब pouch style के बारे में बात कर लेते हैं। आपको तीन side seam चाहिए या stand up?",
+      "start": 129.61,
+      "end": 134.45
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं पांच सौ बीस वाला madam।",
+      "start": 137.53,
+      "end": 139.03
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए समझ नहीं आया। आपको कितने pieces चाहिए? ठीक है। Seller इस detail में आपकी मदद करेंगे। अब बताइए pouch style में क्या prefer करेंगे? तीन side seal stand up या कुछ और?",
+      "start": 140.57,
+      "end": 150.99
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको कितने खर्च आने थे? नहीं नहीं वो सौ ग्राम का packet जो है madam वो चाहिए इसमें packing करके भेजने के लिए हमको।",
+      "start": 140.93,
+      "end": 160.73
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप 100 grams के packet चाहते हैं? जी मैं बिल्कुल समझ गई। बस आप ये बता दीजिए कि pouch style में आपको तीन side seal चाहिए या stand up?",
+      "start": 162.25,
+      "end": 170.85
+    },
+    {
+      "role": "BUYER",
+      "text": "सौ ग्राम के packet का। बस आप ये बताइए। नहीं ठंडा तो अच्छा रहेगा madam। ठंडा भी रहेगा अच्छा रहेगा ना। लेकिन मसाला जाना quality।",
+      "start": 162.89,
+      "end": 177.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। seller in detail में आपकी मदद करेंगे। आप बताइए application में क्या prefer करेंगे snacks, spices या कुछ और?",
+      "start": 179.07,
+      "end": 185.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Madam जी जो बोल रहा है मेरे को समझ में नहीं आ रहा है क्या बोल रहा है।",
+      "start": 180.39,
+      "end": 192.21
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं फिर से समझाती हूं। आपको ये packets किस चीज के लिए चाहिए जैसे snacks, spices या किसी और चीज के लिए?",
+      "start": 193.53,
+      "end": 200.53
+    },
+    {
+      "role": "BUYER",
+      "text": "फिर Madam हमको वो जिला लेगा ना packet उसको packing करने के लिए packing करके फिर उसको selling करेगा मैं समझ गए आप।",
+      "start": 194.07,
+      "end": 209.67
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आप इसे spices यानी मसालों की packing के लिए इस्तेमाल करेंगे? आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 208.97,
+      "end": 217.63
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म। ठीक है Madam.",
+      "start": 214.21,
+      "end": 219.91
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 220.81,
+      "end": 223.63
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद। Thank you Madam.",
+      "start": 222.05,
+      "end": 226.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 19,
+    "buyer_turns": 20,
+    "longest_gap_s": 4.28,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 12
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

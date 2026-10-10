@@ -1,0 +1,41 @@
+{
+  "call_id": "463_90852964_5F94MXVH5",
+  "file": "data/recordings/463_90852964_5F94MXVH5.mp3",
+  "duration_s": 28.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] जी आपकी DMO Cruiser FC WiFi camera 2MP की request IndiaMART पर raised है बस उसी के लिए कुछ details confirm करनी थी। जी क्या आप line पर हैं?",
+      "start": 0.01,
+      "end": 18.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 10.18,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 7.49,
+        "end": 17.67,
+        "duration_s": 10.18,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

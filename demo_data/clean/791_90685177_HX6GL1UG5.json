@@ -1,0 +1,62 @@
+{
+  "call_id": "791_90685177_HX6GL1UG5",
+  "file": "data/recordings/791_90685177_HX6GL1UG5.mp3",
+  "duration_s": 27.29,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Methandrone tablets की requirement है ना?",
+      "start": 0.15,
+      "end": 4.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 5.85,
+      "end": 6.43
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपको Mephenytoin tablets की requirement थी ना?",
+      "start": 7.69,
+      "end": 10.83
+    },
+    {
+      "role": "BUYER",
+      "text": "जानबो।",
+      "start": 11.89,
+      "end": 12.77
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई? क्या आपको Methandrone tablets की requirement थी?",
+      "start": 14.01,
+      "end": 18.45
+    },
+    {
+      "role": "BUYER",
+      "text": "एक मिनट काट के करते हैं। बिल्कुल आप आराम से call कर लीजिए। Sorry क्या अब आपको मेरी",
+      "start": 20.21,
+      "end": 27.35
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 1.76,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

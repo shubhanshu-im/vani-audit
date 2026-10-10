@@ -1,0 +1,86 @@
+{
+  "call_id": "748_90643171_YPZ6V3KG5",
+  "file": "data/recordings/748_90643171_YPZ6V3KG5.mp3",
+  "duration_s": 60.84,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] आपको दस टन automatic biodiesel production plant की requirement है ना?",
+      "start": 0.13,
+      "end": 5.35
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 5.91,
+      "end": 6.55
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। मैं देख पा रही हूं आपको capacity ton day 10 ton ही चाहिए ना?",
+      "start": 7.93,
+      "end": 20.27
+    },
+    {
+      "role": "BUYER",
+      "text": "जी। नब्बे भी हो सकती है इसमें क्या है? बढ़ा भी सकती है लेकिन process कौन सा है क्या क्या करने का है वो पूछना चाहिए।",
+      "start": 15.39,
+      "end": 27.11
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आप ये सब details seller से discuss कर सकते हैं। वो आपकी पूरी मदद करेंगे। क्या आपको automatic grade ही चाहिए?",
+      "start": 28.21,
+      "end": 35.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Auto. हाँ इसमें अच्छा कौन सा रहता है?",
+      "start": 33.45,
+      "end": 37.57
+    },
+    {
+      "role": "BOT",
+      "text": "automatic grade ज्यादा efficient होता है। आप seller से अपनी जरूरत के हिसाब से best option discuss कर सकते हैं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 38.81,
+      "end": 49.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Madam.",
+      "start": 49.99,
+      "end": 50.75
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 51.81,
+      "end": 54.65
+    },
+    {
+      "role": "BUYER",
+      "text": "धन्यवाद।",
+      "start": 55.53,
+      "end": 56.27
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 1.38,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 5,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

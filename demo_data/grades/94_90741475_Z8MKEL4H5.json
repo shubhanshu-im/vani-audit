@@ -1,0 +1,325 @@
+{
+  "call_id": "94_90741475_Z8MKEL4H5",
+  "duration_s": 50.76,
+  "graded_at": "2026-10-10T12:46:35+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: No lead created or transfer made despite buyer giving specs and quantity.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 39.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "No lead created or transfer made despite buyer giving specs and quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.5
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "2 horse power के करीब चाहिए",
+      "timestamp": 19.19,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot missed the specific quantity range of 2-3 HP.",
+      "evidence_verified": true,
+      "llm_timestamp": 19.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "double side, single side या conveyor",
+      "timestamp": 19.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated a critical configuration spec which the bot ignored.",
+      "evidence_verified": true,
+      "llm_timestamp": 19.2
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 39.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to send details on WhatsApp instead of connecting a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "timestamp": 39.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "No lead created or transfer made despite buyer giving specs and quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 39.5
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity captured or confirmed by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity captured or confirmed by the bot."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was asked and provided by the buyer."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "2 horse power के करीब चाहिए",
+      "timestamp": 19.19,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot missed the specific quantity range of 2-3 HP.",
+      "evidence_verified": true,
+      "llm_timestamp": 19.2
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec1 was not asked or captured by the bot."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Spec2 was not asked or captured by the bot."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "double side, single side या conveyor",
+      "timestamp": 19.19,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer stated a critical configuration spec which the bot ignored.",
+      "evidence_verified": true,
+      "llm_timestamp": 19.2
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping occurred, the bot skipped the spec questions."
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misheard words that changed the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पे भेज दूंगी",
+      "timestamp": 39.49,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered to send details on WhatsApp instead of connecting a live seller.",
+      "evidence_verified": true,
+      "llm_timestamp": 36.6
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was correctly identified as a belt grinding machine."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "not returned by the grader"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "not returned by the grader"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "not returned by the grader"
+    }
+  ],
+  "captured_lead": {
+    "product": "belt grinding machine",
+    "quantity": "2",
+    "quantity_unit": "HP",
+    "specs": [
+      {
+        "name": "horsepower",
+        "value": "2-3"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot skipped capturing configuration spec and buyer details.",
+      "timestamp": 19.2,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot looped back to closing instead of asking for missing details.",
+      "timestamp": 36.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot skipped capturing the buyer's configuration preference and failed to create a lead or transfer to a seller, closing the call prematurely.",
+  "analysis": "Buyer wanted a belt grinding machine around 2 HP. The bot confirmed the product and asked for horsepower, but the buyer gave a range (2-3 HP) and a configuration preference (double side, single side, or conveyor). The bot then skipped capturing the configuration and the buyer's name/location, directly offering to send seller details on WhatsApp. The call ended without a live seller transfer or a buy lead being created.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3468,
+    "completion_tokens": 1289
+  },
+  "unresolved_problems": []
+}

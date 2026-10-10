@@ -1,0 +1,290 @@
+{
+  "call_id": "348_90852889_DLU3LXVH5",
+  "duration_s": 61.99,
+  "graded_at": "2026-10-10T12:30:39+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जाबको।",
+      "timestamp": 28.75,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'jaabko' as 'Gold Gold' and clarified.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 41.53,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed mungfali requirement and bot closed with seller callback."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or requested by the bot."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for quantity."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was provided by the buyer."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "variety में आप क्या prefer करेंगे Java, Bolt, Runner, Spanish",
+      "timestamp": 20.6,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for variety and buyer confirmed Gold Gold."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 41.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked a banned open-ended question but buyer clarified product."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer stated product type (mungfali) which was captured in analysis."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "क्षमा कीजिए मैं समझ नहीं पाया। क्या आप variety के बारे में बता सकते हैं जैसे Java, Boldwa, Runner या Spanish में से आपको कौन सा चाहिए?",
+      "timestamp": 30.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot repeated the question once after mishearing 'jaabko' as 'Gold Gold' and clarified."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जाबको।",
+      "timestamp": 28.75,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'jaabko' as 'Gold Gold' and clarified.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.8
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were captured by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not offer a live seller transfer."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "ये ये ये मूँगफली मूँगफली के लिए मैंने order किया था जी।",
+      "timestamp": 46.8,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer clarified product type which aligns with initial groundnut request."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system category data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data not available."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant bot silence detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 41.53,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question.",
+      "evidence_verified": true,
+      "llm_timestamp": 41.5
+    }
+  ],
+  "captured_lead": {
+    "product": "groundnut",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "variety",
+        "value": "Gold Gold"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Bot misheard 'jaabko' as 'Gold Gold' initially.",
+      "timestamp": 28.8,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked to discuss (चर्चा कर) instead of giving a spec.",
+      "timestamp": 12.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard variety initially and asked a banned open-ended question before closing without collecting quantity, name, or location.",
+  "analysis": "Buyer wanted to order roasted groundnuts (mungfali). Bot confirmed 'Gold Gold' variety but then asked a banned open-ended spec question. Buyer clarified 'mungfali' again. Bot closed with seller callback promise without collecting quantity, name, or location. Outcome is PASS because buyer intent was confirmed and bot closed appropriately after buyer gave a final spec.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3654,
+    "completion_tokens": 1452
+  },
+  "unresolved_problems": []
+}

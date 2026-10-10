@@ -1,0 +1,68 @@
+{
+  "call_id": "672_90685116_JCNKK1UG5",
+  "file": "data/recordings/672_90685116_JCNKK1UG5.mp3",
+  "duration_s": 41.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपकी Ahuja SSR 250 M 250 watts mixer amplifier की request IndiaMART पर raised है। बस उसी के लिए कुछ details confirm करनी थी।",
+      "start": 0.61,
+      "end": 9.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 12.71,
+      "end": 13.19
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब zone configuration के बारे में बात कर लेते हैं। आपको कौन सा चाहिए single zone या two zone या कुछ और?",
+      "start": 15.03,
+      "end": 20.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Tamil Nadu, अब Tiruvannamalai.",
+      "start": 22.23,
+      "end": 24.51
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं आपकी भाषा नहीं समझ पा रहा हूं। कृपया आप हिंदी या English में बात करें।",
+      "start": 25.89,
+      "end": 30.09
+    },
+    {
+      "role": "BUYER",
+      "text": "Only Tamil Tamil.",
+      "start": 32.01,
+      "end": 33.49
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry, our team will contact you in your preferred language. Thank you for calling IndiaMART.",
+      "start": 34.65,
+      "end": 38.73
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 3,
+    "longest_gap_s": 3.66,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

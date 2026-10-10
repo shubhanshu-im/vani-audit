@@ -1,0 +1,56 @@
+{
+  "call_id": "834_90643214_HARVV3KG5",
+  "file": "data/recordings/834_90643214_HARVV3KG5.mp3",
+  "duration_s": 31.61,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello P [NAME] [NAME] जी आपको disposable CPAP mask with headgear connector की requirement है ना?",
+      "start": 0.27,
+      "end": 6.41
+    },
+    {
+      "role": "BUYER",
+      "text": "कम से कम Telugu madam.",
+      "start": 8.25,
+      "end": 10.55
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं सिर्फ हिंदी या English में बात कर सकती हूँ। क्या हम इनमें से किसी भाषा में बात कर सकते हैं?",
+      "start": 11.57,
+      "end": 16.95
+    },
+    {
+      "role": "BUYER",
+      "text": "हम लोग Telugu.",
+      "start": 19.01,
+      "end": 20.39
+    },
+    {
+      "role": "BOT",
+      "text": "I am sorry, but I can only speak in Hindi or English. Since you prefer Telugu, I won't be able to assist you further. Thank you for choosing India Mart. Have a good day.",
+      "start": 21.37,
+      "end": 30.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 2.06,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

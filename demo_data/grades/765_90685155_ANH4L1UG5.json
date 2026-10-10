@@ -1,0 +1,322 @@
+{
+  "call_id": "765_90685155_ANH4L1UG5",
+  "duration_s": 46.51,
+  "graded_at": "2026-10-10T12:41:27+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: WER, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "BUYER: Poly drop.",
+      "timestamp": 24.4,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated poly drop work but bot said sorry and closed without capturing it",
+      "evidence_verified": false
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BOT: Sorry आपकी आवाज़ clear नहीं आई।",
+      "timestamp": 26.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard Poly drop but did not change the lead",
+      "evidence_verified": true,
+      "llm_timestamp": 26.6
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BOT: ...seller details WhatsApp पे भेज दूंगी...",
+      "timestamp": 26.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp transfer but never asked for buyer name/location",
+      "evidence_verified": true,
+      "llm_timestamp": 26.6
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BOT: ...seller details WhatsApp पे भेज दूंगी...",
+      "timestamp": 26.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with WhatsApp transfer without collecting buyer details",
+      "evidence_verified": true,
+      "llm_timestamp": 26.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer had a product requirement and bot proceeded"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity and buyer gave 1 piece"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit discussed"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked quantity and buyer provided it"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity 1 and bot captured it"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked for spec1, only asked for work"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot never asked for spec2"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "BUYER: Poly drop.",
+      "timestamp": 24.4,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated poly drop work but bot said sorry and closed without capturing it",
+      "evidence_verified": false
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No looping observed"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BOT: Sorry आपकी आवाज़ clear नहीं आई।",
+      "timestamp": 26.57,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot misheard Poly drop but did not change the lead",
+      "evidence_verified": true,
+      "llm_timestamp": 26.6
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details recorded"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BOT: ...seller details WhatsApp पे भेज दूंगी...",
+      "timestamp": 26.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered WhatsApp transfer but never asked for buyer name/location",
+      "evidence_verified": true,
+      "llm_timestamp": 26.6
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was confirmed as bridal silk saree"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Not enough category data"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air gaps"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "BOT: ...seller details WhatsApp पे भेज दूंगी...",
+      "timestamp": 26.57,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot closed with WhatsApp transfer without collecting buyer details",
+      "evidence_verified": true,
+      "llm_timestamp": 26.6
+    }
+  ],
+  "captured_lead": {
+    "product": "bridal silk saree",
+    "quantity": "1",
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "work",
+        "value": "poly drop"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer said poly drop work but bot closed without capturing",
+      "timestamp": 26.6,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer gave spec but bot said sorry and closed",
+      "timestamp": 26.6,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed the call without capturing the buyer's work spec (poly drop) or collecting buyer details. The call ended with a WhatsApp transfer offer but no lead was created.",
+  "analysis": "Buyer wanted 1 bridal silk saree with poly drop work. Bot asked for quantity (1 piece), then moved to work spec. Buyer said 'Poly drop' at 24.4s, bot misheard it and said 'Sorry aapki awaaz clear nahi aayi' at 26.6s, then closed the call with a WhatsApp transfer without confirming or capturing the work spec or buyer details. The buyer did not give name/location.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 13237,
+    "completion_tokens": 4018
+  },
+  "unresolved_problems": [
+    "Spec Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'BUYER: Poly drop.'"
+  ]
+}

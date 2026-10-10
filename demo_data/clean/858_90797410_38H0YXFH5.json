@@ -1,0 +1,176 @@
+{
+  "call_id": "858_90797410_38H0YXFH5",
+  "file": "data/recordings/858_90797410_38H0YXFH5.mp3",
+  "duration_s": 125.06,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको liquid nitrogen storage use aluminium LN2 container की requirement है ना?",
+      "start": 0.33,
+      "end": 5.65
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 7.39,
+      "end": 8.05
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते क्या आपको liquid nitrogen storage use aluminium LN2 container की requirement थी?",
+      "start": 9.57,
+      "end": 14.59
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 15.45,
+      "end": 16.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितने piece या container चाहिए?",
+      "start": 17.51,
+      "end": 27.99
+    },
+    {
+      "role": "BUYER",
+      "text": "एक piece चाहिए था।",
+      "start": 29.69,
+      "end": 31.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है बताइए क्या बात है?",
+      "start": 32.75,
+      "end": 34.25
+    },
+    {
+      "role": "BUYER",
+      "text": "जैसे कहने का मतलब था कि एक है liquid nitrogen storage use aluminium L3 container.",
+      "start": 36.27,
+      "end": 41.95
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 3 liters, 35 liters या कुछ और?",
+      "start": 43.67,
+      "end": 50.89
+    },
+    {
+      "role": "BUYER",
+      "text": "three liter वाला चाहिए तो इसकी rating तो बहुत कम दिखा रहा है।",
+      "start": 51.75,
+      "end": 55.11
+    },
+    {
+      "role": "BOT",
+      "text": "rating के बारे में आप seller से discuss कर सकते हैं। वो आपको best options देंगे। अब बताइए brand में क्या prefer करेंगे Indian Oil, Inox या कोई और?",
+      "start": 56.41,
+      "end": 64.45
+    },
+    {
+      "role": "BUYER",
+      "text": "brand में कौन better होगा आप बताइए?",
+      "start": 66.79,
+      "end": 70.43
+    },
+    {
+      "role": "BOT",
+      "text": "मैं इस बारे में sure नहीं हूं पर seller आपको सही brand suggest कर देंगे। आप इनमें से कोई prefer करेंगे या कुछ और?",
+      "start": 71.79,
+      "end": 77.73
+    },
+    {
+      "role": "BUYER",
+      "text": "और नहीं यही लेना था मतलब।",
+      "start": 80.25,
+      "end": 82.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है seller इस बारे में आपकी मदद कर देंगे। अब आगे बढ़ते हैं।",
+      "start": 83.77,
+      "end": 87.17
+    },
+    {
+      "role": "BUYER",
+      "text": "आपकी मदद। जी।",
+      "start": 84.89,
+      "end": 88.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 90.29,
+      "end": 92.99
+    },
+    {
+      "role": "BUYER",
+      "text": "State UP City Ghazipur.",
+      "start": 95.07,
+      "end": 97.65
+    },
+    {
+      "role": "BOT",
+      "text": "आप गाजीपुर उत्तर प्रदेश से बोल रहे हैं ना?",
+      "start": 98.77,
+      "end": 101.05
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 101.63,
+      "end": 102.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप Beauty जी बोल रहे हैं ना?",
+      "start": 103.51,
+      "end": 105.47
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या?",
+      "start": 107.39,
+      "end": 107.87
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए क्या मैं आपका नाम जान सकती हूँ?",
+      "start": 109.11,
+      "end": 111.55
+    },
+    {
+      "role": "BUYER",
+      "text": "शुभम यादव।",
+      "start": 112.65,
+      "end": 113.53
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 114.85,
+      "end": 123.43
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 12,
+    "longest_gap_s": 2.52,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

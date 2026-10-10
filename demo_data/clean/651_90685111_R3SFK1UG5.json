@@ -1,0 +1,99 @@
+{
+  "call_id": "651_90685111_R3SFK1UG5",
+  "file": "data/recordings/651_90685111_R3SFK1UG5.mp3",
+  "duration_s": 90.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए? ನಂದು brand-ಕುವ್ group-ನ ಜಾವಡೆ phone check ಮಾಡ್ತೀನಿ. माफ़ कीजिए मैं समझ नहीं पाई। आप कृपया बता सकते हैं कि आपको कौन सा product चाहिए? Nandi brand का broom stick. आपको Nandi brand की broom sticks जो आमतौर पे सफाई के काम आती है वही product चाहिए ना?",
+      "start": 0.07,
+      "end": 23.33
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 24.79,
+      "end": 25.23
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए होंगे? एक ही। ठीक है। आपको material में क्या चाहिए जैसे coconut, coconut stick या कुछ और? Coconut? ठीक है? आपको weight में क्या चाहिए जैसे 400 grams, 300 grams या कुछ और? चार सौ ग्राम का। ठीक है आप अपनी city और state भी बता दीजिए please।",
+      "start": 26.75,
+      "end": 55.87
+    },
+    {
+      "role": "BUYER",
+      "text": "बेंगलुरु देवनारिडे। आप Bengaluru Karnataka से बोल रहे हैं ना?",
+      "start": 57.69,
+      "end": 62.45
+    },
+    {
+      "role": "BOT",
+      "text": "बेंगलुरु।",
+      "start": 60.75,
+      "end": 61.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 63.79,
+      "end": 64.15
+    },
+    {
+      "role": "BOT",
+      "text": "क्या आप अभी line पर हैं?",
+      "start": 69.43,
+      "end": 70.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 72.77,
+      "end": 73.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप अपना नाम भी बता दीजिए please.",
+      "start": 74.23,
+      "end": 76.29
+    },
+    {
+      "role": "BUYER",
+      "text": "लक्ष्मी हर्ष।",
+      "start": 77.83,
+      "end": 78.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। लक्ष्मी हर्षा जी आपको मैं seller details WhatsApp से भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 80.41,
+      "end": 90.23
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 5,
+    "longest_gap_s": 5.28,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 64.15,
+        "end": 69.43,
+        "duration_s": 5.28,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

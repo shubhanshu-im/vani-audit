@@ -1,0 +1,46 @@
+{
+  "call_id": "496_90797375_SI4JXXFH5",
+  "file": "data/recordings/496_90797375_SI4JXXFH5.mp3",
+  "duration_s": 20.59,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको refurbished laptops की requirement है ना?",
+      "start": 0.01,
+      "end": 3.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हां?",
+      "start": 1.61,
+      "end": 7.65
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने piece या box चाहिए आपको?",
+      "start": 9.09,
+      "end": 15.49
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 3.94,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

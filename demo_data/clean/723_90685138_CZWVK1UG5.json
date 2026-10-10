@@ -1,0 +1,80 @@
+{
+  "call_id": "723_90685138_CZWVK1UG5",
+  "file": "data/recordings/723_90685138_CZWVK1UG5.mp3",
+  "duration_s": 58.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको pneumatic pouch packing machine की requirement है ना?",
+      "start": 0.55,
+      "end": 4.51
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Ma'am।",
+      "start": 5.35,
+      "end": 5.89
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। बताइए capacity में क्या prefer करेंगे 1000 pouch hour, 2000 pouch hour या कोई और? 1000. ठीक है, अब machine type के बारे में बात कर लेते हैं। आपको automatic, semi-automatic या कुछ और चाहिए?",
+      "start": 6.95,
+      "end": 29.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Automatic.",
+      "start": 30.51,
+      "end": 31.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please। अंबिकापुर छत्तीसगढ़।",
+      "start": 32.61,
+      "end": 37.63
+    },
+    {
+      "role": "BUYER",
+      "text": "आप अंबिकापुर छत्तीसगढ़ से बोल रहे हैं ना? हाँ जी।",
+      "start": 38.69,
+      "end": 42.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप अपना नाम भी बता दीजिए। बता दीजिए please.",
+      "start": 43.15,
+      "end": 45.61
+    },
+    {
+      "role": "BUYER",
+      "text": "सत्येंद्र सर।",
+      "start": 46.23,
+      "end": 47.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। ये आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो। Thank you.",
+      "start": 48.33,
+      "end": 58.25
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 3,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

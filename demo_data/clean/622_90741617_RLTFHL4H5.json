@@ -1,0 +1,47 @@
+{
+  "call_id": "622_90741617_RLTFHL4H5",
+  "file": "data/recordings/622_90741617_RLTFHL4H5.mp3",
+  "duration_s": 23.69,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello मिथिलेश जी। आपको human hair waste की requirement है ना? चार दिन में हमजी Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। क्या आपको human hair waste की requirement है?",
+      "start": 0.45,
+      "end": 19.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 19.29,
+      "end": 19.55
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 1,
+    "longest_gap_s": 6.84,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 4.15,
+        "end": 10.99,
+        "duration_s": 6.84,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

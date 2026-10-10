@@ -1,0 +1,310 @@
+{
+  "call_id": "545_90741573_FK4WGL4H5",
+  "duration_s": 111.17,
+  "graded_at": "2026-10-10T12:35:35+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Buyer asked about charging/running, but bot skipped capturing machine type details.",
+  "fatal_params": [
+    "Spec Missed Opportunity",
+    "Looping Behavior"
+  ],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "00:06.1 चलिए अब production capacity के बारे में बात कर लेते हैं।",
+      "timestamp": 6.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked about charging/running, but bot skipped capturing machine type details.",
+      "evidence_verified": true,
+      "llm_timestamp": 6.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "00:54.1 अब production capacity के बारे में बात कर लेते हैं।",
+      "timestamp": 6.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated spec question 3 times, exceeding the 2-turn limit and irritating the buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 54.1
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "00:40.8 seller के पास ये product available है।",
+      "timestamp": 40.8,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered seller transfer but never asked for buyer's contact details.",
+      "evidence_verified": false
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded to collect details and offer seller."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was never discussed, so probing was not required."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not state a quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was captured or read back."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No spec was captured or read back."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "00:06.1 चलिए अब production capacity के बारे में बात कर लेते हैं।",
+      "timestamp": 6.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Buyer asked about charging/running, but bot skipped capturing machine type details.",
+      "evidence_verified": true,
+      "llm_timestamp": 6.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "00:54.1 अब production capacity के बारे में बात कर लेते हैं।",
+      "timestamp": 6.09,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated spec question 3 times, exceeding the 2-turn limit and irritating the buyer.",
+      "evidence_verified": true,
+      "llm_timestamp": 54.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No misrecognized words that impacted the lead."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "00:40.8 seller के पास ये product available है।",
+      "timestamp": 40.8,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered seller transfer but never asked for buyer's contact details.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "00:31.7 क्या आपको ice making machine ही चाहिए या आप ice cream machine की बात कर रहे हैं?",
+      "timestamp": 31.7,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot correctly identified the change from ice making machine to ice cream machine."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific ISQ errors visible in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No pronunciation, language, or compliance issues."
+    }
+  ],
+  "captured_lead": {
+    "product": "ice cream machine",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Bot looped on production capacity 3 times.",
+      "timestamp": 54.1,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "Bot failed to capture buyer's capacity requirements.",
+      "timestamp": 82.4,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: spec:production capacity 3/2",
+      "timestamp": 6.09,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot failed to capture buyer's name, city, state, and machine specs. It looped on production capacity, exceeding the 2-turn limit, and ended the call abruptly.",
+  "analysis": "Buyer wanted an ice cream machine, not an ice making machine. Bot confirmed 'ice cream machine' at t=37.6. Buyer never specified a production capacity or quantity; bot asked 3 times for capacity, exceeding the 2-turn limit. Bot offered a live seller transfer at the end, but never asked for the buyer's name, city, or state. Call ended abruptly with bot cut-off.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15068,
+    "completion_tokens": 4101
+  },
+  "unresolved_problems": [
+    "OnCall AstBuy Error: evidence_quote not found verbatim in any transcript line: '00:40.8 seller के पास ये product available है।'"
+  ]
+}

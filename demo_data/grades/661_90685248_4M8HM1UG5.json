@@ -1,0 +1,326 @@
+{
+  "call_id": "661_90685248_4M8HM1UG5",
+  "duration_s": 62.71,
+  "graded_at": "2026-10-10T12:38:46+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Qty Missed Opportunity, WER, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं नहीं सात ml के दो दे देना कहीं दो दे देना बस करके।",
+      "timestamp": 27.13,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot did not explicitly capture the quantity of 2 pieces of 7ml",
+      "evidence_verified": true,
+      "llm_timestamp": 27.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "और साठ ml।",
+      "timestamp": 7.07,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Buyer's 'saath ml' might be misheard as 'so free' but meaning was captured later",
+      "evidence_verified": true,
+      "llm_timestamp": 7.1
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 43.21,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised WhatsApp details but did not explicitly offer a live seller transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 43.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "भारतMart चुनने के लिए धन्यवाद।",
+      "timestamp": 52.65,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Bot misspelled 'IndiaMART' as 'BharatMart' in the closing",
+      "evidence_verified": true,
+      "llm_timestamp": 52.6
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer shared requirement and bot closed appropriately"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said 'do de dena' but bot did not confirm a numeric quantity"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was captured by the bot"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity as per protocol"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं नहीं सात ml के दो दे देना कहीं दो दे देना बस करके।",
+      "timestamp": 27.13,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot did not explicitly capture the quantity of 2 pieces of 7ml",
+      "evidence_verified": true,
+      "llm_timestamp": 27.1
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Packaging size 100ml was proposed by bot and buyer did not object"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "जे माथे से खिंचाए उसके लिए।",
+      "timestamp": 39.5,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 'muscle pain' correctly from buyer's statement"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "All relevant specs were captured"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No repeated questions or loops observed"
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "और साठ ml।",
+      "timestamp": 7.07,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Buyer's 'saath ml' might be misheard as 'so free' but meaning was captured later",
+      "evidence_verified": true,
+      "llm_timestamp": 7.1
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were explicitly recorded by the bot"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 43.21,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot promised WhatsApp details but did not explicitly offer a live seller transfer",
+      "evidence_verified": true,
+      "llm_timestamp": 43.2
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent throughout the call"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires category data to verify spec contradictions"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data to verify search accuracy"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air detected"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "भारतMart चुनने के लिए धन्यवाद।",
+      "timestamp": 52.65,
+      "root_cause_type": "ASR",
+      "confidence": "low",
+      "reason": "Bot misspelled 'IndiaMART' as 'BharatMart' in the closing",
+      "evidence_verified": true,
+      "llm_timestamp": 52.6
+    }
+  ],
+  "captured_lead": {
+    "product": "Diclofenac 20% B soil",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "packaging size",
+        "value": "100 milliliters"
+      },
+      {
+        "name": "usage",
+        "value": "muscle pain"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "low_confidence",
+      "reason": "Buyer's speech was unclear and required multiple attempts",
+      "timestamp": 7.1,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer asked for a human seller via WhatsApp",
+      "timestamp": 27.1,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot did not capture the quantity of 2 pieces of 7ml and promised WhatsApp details instead of transferring to a live seller. Closing misspelled 'IndiaMART'.",
+  "analysis": "Buyer wants Diclofenac 60ml for muscle pain relief. Bot confirmed product, asked for quantity (2 pieces of 7ml), packaging (100ml vs other), and usage (muscle pain). Bot closed by promising seller details on WhatsApp.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3630,
+    "completion_tokens": 1397
+  },
+  "unresolved_problems": []
+}

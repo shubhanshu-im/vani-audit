@@ -1,0 +1,134 @@
+{
+  "call_id": "448_90741632_9PYLHL4H5",
+  "file": "data/recordings/448_90741632_9PYLHL4H5.mp3",
+  "duration_s": 77.47,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] [NAME] [NAME] 923 आपको Nokia 1600 की requirement है ना?",
+      "start": 0.41,
+      "end": 5.83
+    },
+    {
+      "role": "BUYER",
+      "text": "जी Sir।",
+      "start": 7.63,
+      "end": 8.61
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece की जरूरत है?",
+      "start": 9.75,
+      "end": 15.87
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको एक ही piece चाहिए था।",
+      "start": 17.49,
+      "end": 19.27
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख पा रही हूं। आपको model name 1600 ही चाहिए ना?",
+      "start": 20.63,
+      "end": 24.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 26.23,
+      "end": 26.99
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको कौन सा product condition चाहिए जैसे refurbished, new या कुछ और?",
+      "start": 27.95,
+      "end": 32.21
+    },
+    {
+      "role": "BUYER",
+      "text": "या समझा नहीं। मेरा मतलब है कि आपको phone एकदम नया चाहिए या फिर refurbished यानी पुराना पर ठीक किया हुआ?",
+      "start": 34.13,
+      "end": 41.66
+    },
+    {
+      "role": "BOT",
+      "text": "बताइए क्या prefer करेंगे?",
+      "start": 41.66,
+      "end": 43.15
+    },
+    {
+      "role": "BUYER",
+      "text": "नया चाहिए नया चाहिए।",
+      "start": 43.45,
+      "end": 45.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है, ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 46.75,
+      "end": 49.91
+    },
+    {
+      "role": "BUYER",
+      "text": "क्योंकि मेरा Sultanpur district पड़ता है।",
+      "start": 52.03,
+      "end": 54.69
+    },
+    {
+      "role": "BOT",
+      "text": "आप Sultanpur Uttar Pradesh से बोल रहे हैं ना?",
+      "start": 55.99,
+      "end": 58.35
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 59.71,
+      "end": 60.21
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप [NAME] [NAME] [NAME] जी बोल रहे हैं ना?",
+      "start": 61.15,
+      "end": 63.95
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी जी।",
+      "start": 65.29,
+      "end": 66.15
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 67.31,
+      "end": 74.99
+    },
+    {
+      "role": "BUYER",
+      "text": "कब तक गायब है?",
+      "start": 76.37,
+      "end": 77.43
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 2.12,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

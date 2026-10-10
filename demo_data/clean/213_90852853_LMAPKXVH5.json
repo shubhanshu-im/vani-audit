@@ -1,0 +1,110 @@
+{
+  "call_id": "213_90852853_LMAPKXVH5",
+  "file": "data/recordings/213_90852853_LMAPKXVH5.mp3",
+  "duration_s": 67.97,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Goot automatic steel bar cutting machine की requirement है ना?",
+      "start": 0.21,
+      "end": 5.05
+    },
+    {
+      "role": "BUYER",
+      "text": "नमस्ते मैं India",
+      "start": 4.81,
+      "end": 8.55
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते मैं IndiaMART से क्षमा कीजिए मैं समझ नहीं पाई क्या आपको Good Automatic steel bar cutting machine की जरूरत है?",
+      "start": 7.63,
+      "end": 15.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जरूरत है madam।",
+      "start": 16.59,
+      "end": 17.95
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं।",
+      "start": 19.13,
+      "end": 23.55
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 26.11,
+      "end": 26.59
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए अब cutting capacity के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 32 mm, 40 mm या कुछ और?",
+      "start": 27.93,
+      "end": 34.03
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है। नहीं 8 mm चाहिए था 8 mm चाहिए था 6.6 का मेरे पास है और 8 mm के चाहिए था हमें काटने के लिए machine।",
+      "start": 29.03,
+      "end": 43.71
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। अब machine type के बारे में बताइए।",
+      "start": 43.13,
+      "end": 46.05
+    },
+    {
+      "role": "BUYER",
+      "text": "के बारे में बताइए।",
+      "start": 44.99,
+      "end": 45.69
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 46.83,
+      "end": 52.09
+    },
+    {
+      "role": "BUYER",
+      "text": "और rate के साथ भेजिएगा price के साथ।",
+      "start": 54.09,
+      "end": 56.63
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप price और बाकी details seller के साथ discuss कर सकते हैं। वो आपको best rates देंगे। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 57.81,
+      "end": 65.27
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay.",
+      "start": 67.69,
+      "end": 68.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 7,
+    "longest_gap_s": 2.56,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

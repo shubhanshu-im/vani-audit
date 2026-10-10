@@ -1,0 +1,53 @@
+{
+  "call_id": "991_90643244_ECM8W3KG5",
+  "file": "data/recordings/991_90643244_ECM8W3KG5.mp3",
+  "duration_s": 28.08,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Deepika ji, you were looking for Claire Jet Speed Gel Pen right? Are you still there?",
+      "start": 0.07,
+      "end": 14.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Yeah yes.",
+      "start": 15.89,
+      "end": 16.79
+    },
+    {
+      "role": "BOT",
+      "text": "The seller you were trying to reach is unavailable and I'm calling from the IndiaMART help desk. How many peas do you need?",
+      "start": 17.85,
+      "end": 24.81
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 9.38,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 4.11,
+        "end": 13.49,
+        "duration_s": 9.38,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue words point to a speaker who did not open the call"
+    ]
+  }
+}

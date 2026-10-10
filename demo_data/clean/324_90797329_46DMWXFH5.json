@@ -1,0 +1,146 @@
+{
+  "call_id": "324_90797329_46DMWXFH5",
+  "file": "data/recordings/324_90797329_46DMWXFH5.mp3",
+  "duration_s": 140.69,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी, आपको Motorola GP328 walkie-talkie antenna की requirement है ना?",
+      "start": 0.63,
+      "end": 6.47
+    },
+    {
+      "role": "BUYER",
+      "text": "आसन।",
+      "start": 7.59,
+      "end": 8.67
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। आपको कितना...",
+      "start": 11.33,
+      "end": 20.51
+    },
+    {
+      "role": "BUYER",
+      "text": "लेकिन आप मेरा एक बात सुनिए। Hello. Hello.",
+      "start": 18.07,
+      "end": 26.31
+    },
+    {
+      "role": "BOT",
+      "text": "जी आपकी बात सुन रही हूं।",
+      "start": 28.73,
+      "end": 30.15
+    },
+    {
+      "role": "BUYER",
+      "text": "जी आपकी बात सुन रही हूं। हाँ ma'am मेरे को requirement है for walkie talkie ठीक है जो कि ना। Three floor है, ठीक है? उस 3 floor के अंदर चलेगा। ठीक है ऐसी range चाहिए। और और मेरा budget है 6 to 7 thousand।",
+      "start": 28.93,
+      "end": 55.43
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया आपका budget note कर लिया है। कितने piece चाहिए होंगे आपको?",
+      "start": 57.21,
+      "end": 60.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Four four.",
+      "start": 61.55,
+      "end": 62.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? 4 piece note कर लिया? अब frequency के लिए बताइए आपको कौन सी चाहिए? 49 से 174 MHz या 175 से 225 MHz या कुछ और?",
+      "start": 64.31,
+      "end": 74.33
+    },
+    {
+      "role": "BUYER",
+      "text": "कौन सी वाला अच्छा है Ma'am?",
+      "start": 75.13,
+      "end": 76.45
+    },
+    {
+      "role": "BOT",
+      "text": "अगर आपको 3 floor के अंदर अच्छी range चाहिए तो आमतौर पर 49 से 174 megahertz अच्छा रहता है। आप इसमें लेना चाहेंगे?",
+      "start": 78.43,
+      "end": 85.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ वही वाला वही वाला कीजिए और एक बार बोलिए।",
+      "start": 86.61,
+      "end": 89.63
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपने frequency में 49 से 174 megahertz चुना है। अब बताइए antenna gain में क्या चाहिए 2 dB या 3 dB या कुछ और?",
+      "start": 91.59,
+      "end": 99.79
+    },
+    {
+      "role": "BUYER",
+      "text": "समझे नहीं।",
+      "start": 102.09,
+      "end": 103.07
+    },
+    {
+      "role": "BOT",
+      "text": "Antenna gain का मतलब होता है signal कितनी दूर तक पहुंचेगा? 2 dB I छोटी दूरी के लिए, 3 dB I थोड़ी ज्यादा दूरी के लिए। आपको कौन सा चाहिए?",
+      "start": 105.03,
+      "end": 113.23
+    },
+    {
+      "role": "BUYER",
+      "text": "तीन dB जो तीन dB है ना वो वाला वो वाला कितना range देगा?",
+      "start": 113.71,
+      "end": 118.75
+    },
+    {
+      "role": "BOT",
+      "text": "3 DVI आपको 2 से 3 मंजिल तक अच्छा signal देगा। क्या आप यही लेना चाहेंगे?",
+      "start": 121.33,
+      "end": 126.11
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 126.67,
+      "end": 127.41
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 130.75,
+      "end": 138.79
+    },
+    {
+      "role": "BUYER",
+      "text": "लेकिन",
+      "start": 140.07,
+      "end": 140.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 3.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

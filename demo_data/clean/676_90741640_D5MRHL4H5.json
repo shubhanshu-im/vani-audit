@@ -1,0 +1,128 @@
+{
+  "call_id": "676_90741640_D5MRHL4H5",
+  "file": "data/recordings/676_90741640_D5MRHL4H5.mp3",
+  "duration_s": 79.85,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.05,
+      "end": 4.31
+    },
+    {
+      "role": "BUYER",
+      "text": "ये next चाहिए बारह volt दस ampere।",
+      "start": 5.83,
+      "end": 9.25
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो बारह V दस A वाला power adapter या battery charger चाहिए वही product चाहिए ना?",
+      "start": 10.59,
+      "end": 15.65
+    },
+    {
+      "role": "BUYER",
+      "text": "generator charger.",
+      "start": 16.71,
+      "end": 17.97
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो generator के लिए charger चाहिए वही product चाहिए ना?",
+      "start": 19.19,
+      "end": 22.45
+    },
+    {
+      "role": "BUYER",
+      "text": "फोटो डाले हैं WhatsApp पे। photo आप seller को directly share कर दीजिएगा। अभी मेरे पास photo देखने की facility नहीं है।",
+      "start": 23.41,
+      "end": 31.41
+    },
+    {
+      "role": "BOT",
+      "text": "बस कुछ details confirm कर दीजिए।",
+      "start": 31.41,
+      "end": 33.23
+    },
+    {
+      "role": "BUYER",
+      "text": "के लिए।",
+      "start": 34.37,
+      "end": 34.91
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो generator के लिए charger चाहिए वही product चाहिए ना?",
+      "start": 35.97,
+      "end": 39.17
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ।",
+      "start": 40.27,
+      "end": 41.07
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 42.73,
+      "end": 48.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हम दो piece लेंगे।",
+      "start": 50.19,
+      "end": 51.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब output voltage के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 12 V या कुछ और?",
+      "start": 52.69,
+      "end": 57.95
+    },
+    {
+      "role": "BUYER",
+      "text": "बारह जी।",
+      "start": 60.15,
+      "end": 60.89
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। अब charging current में क्या prefer करेंगे 10 A, 20 A या कोई और?",
+      "start": 62.15,
+      "end": 66.69
+    },
+    {
+      "role": "BUYER",
+      "text": "दा पे।",
+      "start": 67.85,
+      "end": 68.57
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 69.91,
+      "end": 78.15
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 8,
+    "longest_gap_s": 2.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

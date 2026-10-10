@@ -1,0 +1,86 @@
+{
+  "call_id": "570_90685086_IV24K1UG5",
+  "file": "data/recordings/570_90685086_IV24K1UG5.mp3",
+  "duration_s": 66.1,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको Hyundai Creta 2020 full LED tail lamp OEM की requirement है ना?",
+      "start": 0.23,
+      "end": 5.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. मैं Tamil में।",
+      "start": 0.41,
+      "end": 9.69
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मुझे समझ नहीं आया। क्या आपको Hyundai Creta 2020 full LED tail lamp OEM की requirement है?",
+      "start": 11.39,
+      "end": 17.97
+    },
+    {
+      "role": "BUYER",
+      "text": "समझ।",
+      "start": 12.15,
+      "end": 12.57
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ Sir. आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितने piece pair या set चाहिए होंगे आपको? Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। समझ गई। आपको कितने piece pair या set चाहिए please बता दीजिए। जी आपकी आवाज।",
+      "start": 19.35,
+      "end": 32.93
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. हाँ Ma'am.",
+      "start": 36.65,
+      "end": 42.13
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। Please एक बार फिर से। [change] ठीक है। Seller इस बारे में आपकी मदद करेंगे। चलिए अब vehicle brand की बात करते हैं। आपको Hyundai ही चाहिए ना?",
+      "start": 43.27,
+      "end": 52.39
+    },
+    {
+      "role": "BUYER",
+      "text": "clear नहीं हो पाया।",
+      "start": 44.17,
+      "end": 45.09
+    },
+    {
+      "role": "BOT",
+      "text": "बारे में आपके Okay Tamil.",
+      "start": 47.45,
+      "end": 55.79
+    },
+    {
+      "role": "BUYER",
+      "text": "क्षमा कीजिए। मैं सिर्फ हिंदी या English में बात कर सकती हूं। क्या आपको Hyundai ही चाहिए? I was asking if you need the hand.",
+      "start": 56.89,
+      "end": 66.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 4.14,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

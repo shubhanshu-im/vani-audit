@@ -1,0 +1,75 @@
+{
+  "call_id": "15_90852801_CEEDJXVH5",
+  "file": "data/recordings/15_90852801_CEEDJXVH5.mp3",
+  "duration_s": 63.65,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको modular farm house की requirement है ना?",
+      "start": 0.01,
+      "end": 3.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 4.77,
+      "end": 5.35
+    },
+    {
+      "role": "BOT",
+      "text": "कोई दिक्कत नहीं क्या आपको किसी और product की जरूरत है? blood खींचेंगे। आपको card से चलने वाली कोई चाबी या lock चाहिए क्या? आप किस चीज के लिए इस product का इस्तेमाल करना चाहते हैं?",
+      "start": 8.11,
+      "end": 23.25
+    },
+    {
+      "role": "BUYER",
+      "text": "आप अभी भी line पर हैं? अगर आपको carder से चलने वाली चाबी चाहिए तो थोड़ा और बता सकते हैं?",
+      "start": 33.67,
+      "end": 38.71
+    },
+    {
+      "role": "BOT",
+      "text": "उसकी शादी।",
+      "start": 40.75,
+      "end": 42.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Sorry मुझे आपके बताए product के लिए details नहीं मिल रही है। क्या आप एक बार फिर से product का नाम साफ-साफ बता सकते हैं? माफ़ कीजिए मुझे मेहंदी के लिए details नहीं मिल पा रही है। मैं आपकी जानकारी",
+      "start": 47.05,
+      "end": 63.99
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 3,
+    "longest_gap_s": 10.42,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 23.25,
+        "end": 33.67,
+        "duration_s": 10.42,
+        "after_role": "BOT"
+      },
+      {
+        "start": 53.49,
+        "end": 59.79,
+        "duration_s": 6.3,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 3,
+    "cue_hits_by_speaker": {
+      "1": 1,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

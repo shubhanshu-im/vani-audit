@@ -1,0 +1,344 @@
+{
+  "call_id": "67_90684986_FMFEH1UG5",
+  "duration_s": 114.34,
+  "graded_at": "2026-10-10T12:39:17+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Quantity Probing Error, Looping Behavior, WER, OnCall AstBuy Error, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपको कितने piece चाहिए?",
+      "timestamp": 63.03,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot re-asked quantity after buyer already stated one piece.",
+      "evidence_verified": true,
+      "llm_timestamp": 63.0
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपको कितने piece चाहिए?",
+      "timestamp": 63.03,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated quantity question unnecessarily.",
+      "evidence_verified": true,
+      "llm_timestamp": 63.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको car चाहिए जो बच्चों के खेलने के काम आती है यही product चाहिए ना?",
+      "timestamp": 55.53,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'park' as 'car'.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.5
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 94.81,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot offered to send details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 94.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 94.81,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to share seller details on WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 94.8
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer confirmed a clear product requirement and bot proceeded."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 1 piece correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer said piece, bot confirmed piece."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपको कितने piece चाहिए?",
+      "timestamp": 63.03,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot re-asked quantity after buyer already stated one piece.",
+      "evidence_verified": true,
+      "llm_timestamp": 63.0
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer's quantity was captured correctly."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Age group 4 years captured correctly."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Weight capacity 70 kg captured correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured age group and weight capacity."
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "ठीक है आपको कितने piece चाहिए?",
+      "timestamp": 63.03,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated quantity question unnecessarily.",
+      "evidence_verified": true,
+      "llm_timestamp": 63.0
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको car चाहिए जो बच्चों के खेलने के काम आती है यही product चाहिए ना?",
+      "timestamp": 55.53,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'park' as 'car'.",
+      "evidence_verified": true,
+      "llm_timestamp": 55.5
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any extra details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 94.81,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot offered to send details on WhatsApp instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 94.8
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not change the product."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Category data not available."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "timestamp": 94.81,
+      "root_cause_type": "PROMPT",
+      "confidence": "medium",
+      "reason": "Bot promised to share seller details on WhatsApp.",
+      "evidence_verified": true,
+      "llm_timestamp": 94.8
+    }
+  ],
+  "captured_lead": {
+    "product": "kids battery operated motorcycle",
+    "quantity": "1",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "age group",
+        "value": "4 years"
+      },
+      {
+        "name": "weight carrying capacity",
+        "value": "70 kilograms"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "frustration",
+      "reason": "Buyer said hello at the end, indicating possible confusion or disconnection.",
+      "timestamp": 109.8,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated quantity question unnecessarily.",
+      "timestamp": 63.0,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot misheard 'park' as 'car' and promised to send seller details on WhatsApp instead of connecting to a live seller.",
+  "analysis": "Buyer wants 1 piece of a kids battery operated motorcycle for a 4-year-old child. Bot asks for quantity, age group (4 years), and weight capacity (70 kg). Bot mishears 'park' as 'car', asks for quantity again, and promises to send seller details on WhatsApp. Call ends with buyer saying hello.",
+  "confidence": "medium",
+  "lead_unverified": [
+    "captured_lead.specs[weight carrying capacity] = '70 kilograms': number(s) ['70'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 4020,
+    "completion_tokens": 1359
+  },
+  "unresolved_problems": []
+}

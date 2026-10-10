@@ -1,0 +1,322 @@
+{
+  "call_id": "642_90741638_NBEPHL4H5",
+  "duration_s": 53.93,
+  "graded_at": "2026-10-10T12:38:08+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Spec Missed Opportunity, Looping Behavior, WER, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं ये हमारा check ना electronic छोटा सा product है हमारा ये",
+      "timestamp": 38.63,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer mentioned product type but bot did not capture it",
+      "evidence_verified": true,
+      "llm_timestamp": 38.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "input voltage range में आप क्या prefer करेंगे 180 to 260 V या कोई और",
+      "timestamp": 23.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the same spec question once",
+      "evidence_verified": true,
+      "llm_timestamp": 23.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "पाँच सौ बीए का account का CBD",
+      "timestamp": 18.19,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 500 VA as 500 BA and CBD",
+      "evidence_verified": true,
+      "llm_timestamp": 18.2
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 33.87,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question",
+      "evidence_verified": true,
+      "llm_timestamp": 33.9
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted product and bot proceeded with collection"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or captured"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was discussed or captured"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never gave a quantity; bot did not need to probe"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity was stated by the buyer"
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "input voltage range में आप क्या prefer करेंगे 180 to 260 V या कोई और",
+      "timestamp": 23.1,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked the spec, buyer did not answer"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not ask for a second spec"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "नहीं ये हमारा check ना electronic छोटा सा product है हमारा ये",
+      "timestamp": 38.63,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Buyer mentioned product type but bot did not capture it",
+      "evidence_verified": true,
+      "llm_timestamp": 38.6
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "input voltage range में आप क्या prefer करेंगे 180 to 260 V या कोई और",
+      "timestamp": 23.15,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot repeated the same spec question once",
+      "evidence_verified": true,
+      "llm_timestamp": 23.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "पाँच सौ बीए का account का CBD",
+      "timestamp": 18.19,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 500 VA as 500 BA and CBD",
+      "evidence_verified": true,
+      "llm_timestamp": 18.2
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any additional details"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer did not change the product"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific options were shown"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search was performed"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant bot-side silence"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 33.87,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot asked a banned open-ended question",
+      "evidence_verified": true,
+      "llm_timestamp": 33.9
+    }
+  ],
+  "captured_lead": {
+    "product": "CBT 500 VA",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "input voltage range",
+        "value": ""
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "loop",
+      "reason": "Bot repeated input voltage range question",
+      "timestamp": 23.1,
+      "source": "llm"
+    },
+    {
+      "flag": "human_request",
+      "reason": "Buyer mentioned past purchases from Kanpur, Delhi",
+      "timestamp": 44.2,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Call ended abruptly after bot asked a banned question. Bot failed to collect quantity, name, city, and state, and did not transfer to a live seller.",
+  "analysis": "Buyer wanted a 500 VA UPS. Bot confirmed product. Bot asked for input voltage range twice but buyer only repeated 500 VA. Bot asked a banned open-ended question. Bot cut off abruptly before collecting quantity, name, or location. Buyer mentioned regular use and past purchases from Kanpur and Delhi. Call ended abruptly.",
+  "confidence": "medium",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3667,
+    "completion_tokens": 1326
+  },
+  "unresolved_problems": []
+}

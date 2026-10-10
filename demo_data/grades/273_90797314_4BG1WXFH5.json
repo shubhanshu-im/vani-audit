@@ -1,0 +1,378 @@
+{
+  "call_id": "273_90797314_4BG1WXFH5",
+  "duration_s": 115.92,
+  "graded_at": "2026-10-10T12:28:36+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Bot ended call with vague seller WhatsApp closing instead of creating a lead or transferring.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Spec1 Accuracy",
+    "Spec2 Accuracy",
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "seller details WhatsApp पर भेज दूंगी जिनसे आप detail और price discuss कर सकते हैं",
+      "timestamp": 105.43,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ended call with vague seller WhatsApp closing instead of creating a lead or transferring.",
+      "evidence_verified": true,
+      "llm_timestamp": 63.0
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी Madam जी ये साढ़े सत्रह किलोमीटर का है हमारे यहां। चालीस सत्रह किलो।",
+      "timestamp": 21.4,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 17.5 km/kg daily requirement but bot captured only 17.5 kg.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "58 inch, 44 inch या कुछ और?",
+      "timestamp": 26.35,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot asked 58 or 44 inch but buyer said 58 inch and bot never captured it.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.4
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "foil या discharge या कुछ और?",
+      "timestamp": 84.25,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 58 print but bot never captured or confirmed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "58 inch बना रहता है इसका लेकिन छप्पन ही निकलता है",
+      "timestamp": 30.15,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot ignored buyer's detailed fabric width spec of 58 inch.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.1
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी Madam जी ये साढ़े सत्रह किलोमीटर का है हमारे यहां",
+      "timestamp": 21.4,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said kilometer but bot captured kilogram for quantity.",
+      "evidence_verified": false
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पर भेज दूंगी जिनसे आप detail और price discuss कर सकते हैं",
+      "timestamp": 105.43,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered vague WhatsApp seller details instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 63.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "seller details WhatsApp पर भेज दूंगी जिनसे आप detail और price discuss कर सकते हैं",
+      "timestamp": 105.43,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ended call with vague seller WhatsApp closing instead of creating a lead or transferring.",
+      "evidence_verified": true,
+      "llm_timestamp": 63.0
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity 17.5 kg was captured correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'kilogram' was captured correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was collected correctly."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "जी Madam जी ये साढ़े सत्रह किलोमीटर का है हमारे यहां। चालीस सत्रह किलो।",
+      "timestamp": 21.4,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 17.5 km/kg daily requirement but bot captured only 17.5 kg.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "58 inch, 44 inch या कुछ और?",
+      "timestamp": 26.35,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot asked 58 or 44 inch but buyer said 58 inch and bot never captured it.",
+      "evidence_verified": true,
+      "llm_timestamp": 26.4
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "foil या discharge या कुछ और?",
+      "timestamp": 84.25,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer said 58 print but bot never captured or confirmed it.",
+      "evidence_verified": true,
+      "llm_timestamp": 84.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "58 inch बना रहता है इसका लेकिन छप्पन ही निकलता है",
+      "timestamp": 30.15,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot ignored buyer's detailed fabric width spec of 58 inch.",
+      "evidence_verified": true,
+      "llm_timestamp": 30.1
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No excessive repetition or looping observed."
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "जी Madam जी ये साढ़े सत्रह किलोमीटर का है हमारे यहां",
+      "timestamp": 21.4,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said kilometer but bot captured kilogram for quantity.",
+      "evidence_verified": false
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record any additional details."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "seller details WhatsApp पर भेज दूंगी जिनसे आप detail और price discuss कर सकते हैं",
+      "timestamp": 105.43,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot offered vague WhatsApp seller details instead of live transfer.",
+      "evidence_verified": true,
+      "llm_timestamp": 63.0
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained rayon printed fabric throughout the call."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category-specific spec questions were asked."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No search errors visible in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air observed."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No mispronunciations or compliance breaches observed."
+    }
+  ],
+  "captured_lead": {
+    "product": "rayon printed fabric",
+    "quantity": "17.5",
+    "quantity_unit": "kilogram",
+    "specs": [
+      {
+        "name": "fabric width",
+        "value": ""
+      },
+      {
+        "name": "print type",
+        "value": ""
+      }
+    ],
+    "name": "[NAME]",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot failed to capture width 58 inch and print type 58 print.",
+      "timestamp": 30.1,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer repeated cash payment and name, indicating bot missed details.",
+      "timestamp": 54.5,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot failed to capture critical specs (width and print type), offered a vague WhatsApp closing instead of creating a lead, and ended the call without resolution.",
+  "analysis": "Buyer wanted rayon printed fabric in Ahmedabad, 58 inch width, for daily cutting. Bot collected name [NAME], city Mumbai, state Maharashtra, and quantity 17.5 kg. Bot missed recording fabric width (58 inch) and print type (58 print), and did not create a buy lead or connect a live seller; instead it ended with a vague closing about sending details on WhatsApp.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15209,
+    "completion_tokens": 4441
+  },
+  "unresolved_problems": [
+    "Qty Missed Opportunity: evidence_quote not found verbatim in any transcript line: 'जी Madam जी ये साढ़े सत्रह किलोमीटर का है हमारे यहां। चालीस सत्रह किलो।'",
+    "WER: evidence_quote not found verbatim in any transcript line: 'जी Madam जी ये साढ़े सत्रह किलोमीटर का है हमारे यहां'"
+  ]
+}

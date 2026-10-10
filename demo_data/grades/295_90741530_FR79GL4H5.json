@@ -1,0 +1,340 @@
+{
+  "call_id": "295_90741530_FR79GL4H5",
+  "duration_s": 79.49,
+  "graded_at": "2026-10-10T12:29:06+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Spec Missed Opportunity: Bot ignored the buyer's request for a 'single seat' chair.",
+  "fatal_params": [
+    "Spec Missed Opportunity"
+  ],
+  "issues": [
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको 5 feet चाहिए या कुछ और?",
+      "timestamp": 28.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 'Z by Z' but bot heard '5 feet'.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.8
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मैं single share।",
+      "timestamp": 33.73,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ignored the buyer's request for a 'single seat' chair.",
+      "evidence_verified": true,
+      "llm_timestamp": 33.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको 5 feet चाहिए या कुछ और?",
+      "timestamp": 28.77,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the length question once after buyer's first response.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको 5 feet चाहिए या कुछ और?",
+      "timestamp": 28.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Z by Z' as '5 feet'.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.8
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "India में।",
+      "timestamp": 78.51,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer's final line was likely an echo or disconnected audio.",
+      "evidence_verified": true,
+      "llm_timestamp": 78.5
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product and bot proceeded to collect details."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured 100 pieces correctly."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Unit 'pieces' was captured correctly."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer provided quantity on the first turn."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity was captured accurately."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको 5 feet चाहिए या कुछ और?",
+      "timestamp": 28.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Buyer said 'Z by Z' but bot heard '5 feet'.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.8
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Width of 1.5 feet was captured correctly."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "मैं single share।",
+      "timestamp": 33.73,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ignored the buyer's request for a 'single seat' chair.",
+      "evidence_verified": true,
+      "llm_timestamp": 33.7
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको 5 feet चाहिए या कुछ और?",
+      "timestamp": 28.77,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the length question once after buyer's first response.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.8
+    },
+    {
+      "param": "WER",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "आपको 5 feet चाहिए या कुछ और?",
+      "timestamp": 28.77,
+      "root_cause_type": "ASR",
+      "confidence": "medium",
+      "reason": "Bot misheard 'Z by Z' as '5 feet'.",
+      "evidence_verified": true,
+      "llm_timestamp": 28.8
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered or transferred."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No product change occurred."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data not available in transcript."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air gaps detected."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "India में।",
+      "timestamp": 78.51,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer's final line was likely an echo or disconnected audio.",
+      "evidence_verified": true,
+      "llm_timestamp": 78.5
+    }
+  ],
+  "captured_lead": {
+    "product": "single seat chair",
+    "quantity": "100",
+    "quantity_unit": "pieces",
+    "specs": [
+      {
+        "name": "length",
+        "value": "5 feet"
+      },
+      {
+        "name": "width",
+        "value": "1.5 feet"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Buyer asked for single seat but bot captured 5 feet length.",
+      "timestamp": 33.7,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot missed the buyer's spec of 'single seat' and misheard 'Z by Z' as '5 feet'.",
+  "analysis": "Buyer wanted single seat chairs (100 pieces). Bot asked for length and width, capturing 5 feet and 1.5 feet. Bot closed by promising to share seller details on WhatsApp. The buyer's final line 'India mein' was likely an echo or disconnected audio.",
+  "confidence": "high",
+  "lead_unverified": [
+    "captured_lead.quantity = '100': number(s) ['100'] never appear in the transcript; report only what the buyer or bot actually said (use null if unknown)"
+  ],
+  "needs_review": true,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3876,
+    "completion_tokens": 1260
+  },
+  "unresolved_problems": []
+}

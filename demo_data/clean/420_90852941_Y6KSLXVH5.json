@@ -1,0 +1,194 @@
+{
+  "call_id": "420_90852941_Y6KSLXVH5",
+  "file": "data/recordings/420_90852941_Y6KSLXVH5.mp3",
+  "duration_s": 144.36,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको कौन सा product चाहिए please details बता दीजिए।",
+      "start": 0.45,
+      "end": 4.35
+    },
+    {
+      "role": "BUYER",
+      "text": "[NAME] जी। तो जो देखा ना बारह बाई अठारह वाला।",
+      "start": 0.83,
+      "end": 10.39
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं समझ नहीं पाई। आप किस product की बात कर रहे हैं? Please उसका नाम बता दीजिए।",
+      "start": 12.53,
+      "end": 17.27
+    },
+    {
+      "role": "BUYER",
+      "text": "इस product का नाम क्या है? मैं आपकी मदद करने के लिए यहां हूं लेकिन मुझे अभी तक यह नहीं पता चला कि आप कौन सा product ढूंढ रहे हैं।",
+      "start": 21.77,
+      "end": 30.98
+    },
+    {
+      "role": "BOT",
+      "text": "Please बताइए आपको क्या चाहिए?",
+      "start": 30.98,
+      "end": 32.53
+    },
+    {
+      "role": "BUYER",
+      "text": "ओ भिकी भिकी balloon.",
+      "start": 36.63,
+      "end": 38.29
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो सजावट के लिए इस्तेमाल होने वाले foil balloons चाहिए वही product चाहिए ना?",
+      "start": 39.57,
+      "end": 44.13
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं जो मैं माफ़ कीजिये मैं।",
+      "start": 45.71,
+      "end": 49.57
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मैं आपकी call senior agent को transfer कर रही हूं जो आपकी inquiry में आगे help करेंगे। Please line पर बने रहें।",
+      "start": 48.63,
+      "end": 57.37
+    },
+    {
+      "role": "BUYER",
+      "text": "WhatsApp में नहीं होगा क्या?",
+      "start": 58.79,
+      "end": 60.59
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं details share कर दूंगी लेकिन पहले please बता दीजिए कि आपको कौन सा product चाहिए?",
+      "start": 61.69,
+      "end": 66.33
+    },
+    {
+      "role": "BUYER",
+      "text": "इसमें तो कोई नाम ही नहीं है।",
+      "start": 70.93,
+      "end": 72.57
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस product के लिए seller को call कर रहे थे उसका नाम बता दीजिए ताकि मैं आपकी मदद कर सकूं।",
+      "start": 73.43,
+      "end": 78.55
+    },
+    {
+      "role": "BUYER",
+      "text": "वो jumping है ना jumping?",
+      "start": 80.59,
+      "end": 82.09
+    },
+    {
+      "role": "BOT",
+      "text": "आपको बच्चों के कूदने और खेलने वाला jumping castle चाहिए ना?",
+      "start": 83.23,
+      "end": 86.45
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ हाँ हाँ।",
+      "start": 87.51,
+      "end": 88.33
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। चलिए अब dimensions के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे 16 feet या कुछ और?",
+      "start": 89.71,
+      "end": 99.03
+    },
+    {
+      "role": "BUYER",
+      "text": "सेलर। सोलह नहीं वो जो",
+      "start": 90.29,
+      "end": 103.83
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आपको dimensions में क्या prefer करेंगे? 14 feet, 10 feet या कोई और?",
+      "start": 104.95,
+      "end": 109.41
+    },
+    {
+      "role": "BUYER",
+      "text": "तो आपका time. बारह feet बारह।",
+      "start": 105.33,
+      "end": 113.91
+    },
+    {
+      "role": "BOT",
+      "text": "तो आप बारह feet prefer करेंगे सही है?",
+      "start": 114.95,
+      "end": 117.05
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 119.33,
+      "end": 119.79
+    },
+    {
+      "role": "BOT",
+      "text": "बताइए theme design में क्या prefer करेंगे Mickey Mouse, छोटा भीम या कोई और?",
+      "start": 120.87,
+      "end": 124.99
+    },
+    {
+      "role": "BUYER",
+      "text": "वो जो Mickey Mouse है ना वो।",
+      "start": 126.79,
+      "end": 128.55
+    },
+    {
+      "role": "BOT",
+      "text": "तो आप Mickey Mouse prefer करेंगे सही है?",
+      "start": 129.61,
+      "end": 131.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 132.87,
+      "end": 133.35
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 134.41,
+      "end": 142.37
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है ठीक है।",
+      "start": 142.37,
+      "end": 144.37
+    }
+  ],
+  "stats": {
+    "bot_turns": 14,
+    "buyer_turns": 14,
+    "longest_gap_s": 4.6,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

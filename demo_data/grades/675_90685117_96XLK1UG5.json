@@ -1,0 +1,357 @@
+{
+  "call_id": "675_90685117_96XLK1UG5",
+  "duration_s": 82.58,
+  "graded_at": "2026-10-10T12:39:10+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Outcome Accuracy: Closed with seller connect but failed to capture required lead fields like quantity, name, and city/state.",
+  "fatal_params": [
+    "Outcome Accuracy",
+    "Quantity Probing Error"
+  ],
+  "issues": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे",
+      "timestamp": 52.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed with seller connect but failed to capture required lead fields like quantity, name, and city/state.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.2
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे",
+      "timestamp": 52.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Reached lead/transfer outcome without ever asking or capturing quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.2
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "question चाहिए",
+      "timestamp": 21.37,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer asked a question about the product but bot ignored it and moved to next spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं पूछ रहा था कि आपको कौन सा machine model चाहिए जैसे HP One, ST Two या कोई और?",
+      "timestamp": 34.37,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the machine model question once due to low ASR.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.4
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 42.35,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used the banned open-ended question twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.4
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे",
+      "timestamp": 52.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Closed with seller connect but failed to capture required lead fields like quantity, name, and city/state.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.2
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed or captured."
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "आपकी details note कर ली गई हैं और जल्द ही एक seller आपसे contact करेंगे",
+      "timestamp": 52.17,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Reached lead/transfer outcome without ever asking or capturing quantity.",
+      "evidence_verified": true,
+      "llm_timestamp": 52.2
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer never stated a quantity."
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको कौन सा चाहिए जैसे HP One, ST Two या कुछ और?",
+      "timestamp": 23.4,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for compatible machine model but buyer gave X31 without confirmation."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "आपको कौन सा चाहिए piston set या कुछ और?",
+      "timestamp": 13.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for spare part type but buyer did not provide a clear answer."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "question चाहिए",
+      "timestamp": 21.37,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer asked a question about the product but bot ignored it and moved to next spec.",
+      "evidence_verified": true,
+      "llm_timestamp": 21.4
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्षमा कीजिए मैं पूछ रहा था कि आपको कौन सा machine model चाहिए जैसे HP One, ST Two या कोई और?",
+      "timestamp": 34.37,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated the machine model question once due to low ASR.",
+      "evidence_verified": true,
+      "llm_timestamp": 34.4
+    },
+    {
+      "param": "WER",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No critical ASR errors that changed the lead value."
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No extra details were recorded by the bot."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "not returned by the grader"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained agarbatti auto feeder throughout."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Requires system data; not visible in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No dead air detected in the transcript."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?",
+      "timestamp": 42.35,
+      "root_cause_type": "PROMPT",
+      "confidence": "high",
+      "reason": "Bot used the banned open-ended question twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 42.4
+    }
+  ],
+  "captured_lead": {
+    "product": "agarbatti auto feeder",
+    "quantity": null,
+    "quantity_unit": null,
+    "specs": [
+      {
+        "name": "compatible machine model",
+        "value": "X31"
+      },
+      {
+        "name": "spare part type",
+        "value": "question"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Closed with seller connect but no quantity, name, or city/state captured.",
+      "timestamp": 52.2,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer asked about price and bot ignored it.",
+      "timestamp": 49.2,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "Bot repeated machine model question once due to low ASR.",
+      "timestamp": 34.4,
+      "source": "llm"
+    },
+    {
+      "flag": "low_confidence",
+      "reason": "low ASR proxies: short_garbled_buyer_turns",
+      "timestamp": null,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot closed with a seller connect outcome but failed to capture critical lead fields (quantity, name, city/state) and used banned open-ended questions.",
+  "analysis": "Buyer inquired about agarbatti auto feeder parts (piston set, X31 machine model). Bot asked for specs but failed to capture quantity, name, or city/state. Buyer asked for price. Bot closed with seller connect, but no lead was created as quantity, name, and location are missing. Closing implies lead creation, but captured lead is empty.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 1,
+  "usage": {
+    "prompt_tokens": 3792,
+    "completion_tokens": 1508
+  },
+  "unresolved_problems": []
+}

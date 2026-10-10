@@ -1,0 +1,452 @@
+{
+  "call_id": "850_90797398_E2ZUXXFH5",
+  "file": "data/recordings/850_90797398_E2ZUXXFH5.mp3",
+  "duration_s": 345.38,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello, आपको collar type packing machine की requirement है ना?",
+      "start": 0.01,
+      "end": 3.75
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ।",
+      "start": 4.33,
+      "end": 8.19
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आपको collar type packing machine की requirement थी ना?",
+      "start": 9.39,
+      "end": 15.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म हम्म।",
+      "start": 15.75,
+      "end": 16.97
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए मुझे अभी भी clear नहीं हो पाया। क्या आपको collar type packing machine चाहिए?",
+      "start": 17.35,
+      "end": 21.99
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 23.49,
+      "end": 24.35
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। बताइए capacity में क्या prefer करेंगे? 500 pouch hour, 1000 pouch hour या कोई और?",
+      "start": 25.23,
+      "end": 38.93
+    },
+    {
+      "role": "BUYER",
+      "text": "साई कोसन।",
+      "start": 40.23,
+      "end": 41.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है अब आपकी city और state भी बता दीजिए please। Sorry मुझे आपकी city का नाम समझ नहीं आया। क्या आप अपनी city और state बता सकते हैं?",
+      "start": 42.03,
+      "end": 51.53
+    },
+    {
+      "role": "BUYER",
+      "text": "के?",
+      "start": 52.31,
+      "end": 52.81
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आप अपनी city और state बता दीजिए please।",
+      "start": 54.01,
+      "end": 58.97
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा नाम है सुजीत कुमार।",
+      "start": 59.39,
+      "end": 61.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है सुजीत जी पर पहले आप अपनी city और state बता दीजिए please।",
+      "start": 62.17,
+      "end": 65.85
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 70.49,
+      "end": 71.13
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं सुन रही हूं। Please अपनी city और state बता दीजिए।",
+      "start": 71.55,
+      "end": 74.87
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ बता रही हूँ।",
+      "start": 76.15,
+      "end": 77.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है बताइए।",
+      "start": 78.31,
+      "end": 79.33
+    },
+    {
+      "role": "BUYER",
+      "text": "बताइए। अंदर से।",
+      "start": 78.89,
+      "end": 80.67
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आप अपनी city और state बता दीजिए please।",
+      "start": 81.81,
+      "end": 86.75
+    },
+    {
+      "role": "BUYER",
+      "text": "सेफियो। पंद्रह साल।",
+      "start": 85.01,
+      "end": 88.33
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे समझ नहीं आया। क्या आप अपनी city और state बता सकते हैं?",
+      "start": 89.31,
+      "end": 93.05
+    },
+    {
+      "role": "BUYER",
+      "text": "Fifty five.",
+      "start": 93.63,
+      "end": 94.67
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं समझ नहीं पा रही हूं। Please अपनी city और state का नाम बता दीजिए।",
+      "start": 95.73,
+      "end": 99.83
+    },
+    {
+      "role": "BUYER",
+      "text": "पंद्रह साल की मैं हूँ। Sorry मुझे आपकी बात समझ नहीं आई।",
+      "start": 101.47,
+      "end": 105.77
+    },
+    {
+      "role": "BOT",
+      "text": "Please अपनी city और state का नाम बता दीजिए।",
+      "start": 105.77,
+      "end": 108.27
+    },
+    {
+      "role": "BUYER",
+      "text": "ना। Hello.",
+      "start": 109.67,
+      "end": 115.11
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं सुन रही हूं। Please अपनी city और state बता दीजिए।",
+      "start": 116.61,
+      "end": 119.93
+    },
+    {
+      "role": "BUYER",
+      "text": "गाँव उत्सव करो। Sorry आपकी आवाज़ clear नहीं आई। Please अपनी city और state बता दीजिए। मैं कर रहा हूँ।",
+      "start": 121.95,
+      "end": 131.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं इंतज़ार कर रही हूँ। बताइए।",
+      "start": 132.11,
+      "end": 134.39
+    },
+    {
+      "role": "BUYER",
+      "text": "सोता रहो मेरा घर है मेरा पंद्रह वर्ष की उम्र है।",
+      "start": 138.19,
+      "end": 140.67
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं समझ नहीं पा रही हूं। Please अपनी city और state का नाम बता दीजिए।",
+      "start": 141.75,
+      "end": 145.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ। आप कहाँ से हो?",
+      "start": 143.77,
+      "end": 150.43
+    },
+    {
+      "role": "BOT",
+      "text": "मैं IndiaMART से बोल रही हूं। Please आप अपनी city और state बता दीजिए।",
+      "start": 151.27,
+      "end": 154.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हम इतना पढ़ा लिखा नहीं है।",
+      "start": 156.05,
+      "end": 158.85
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आप बस अपनी city और state का नाम बता दीजिए।",
+      "start": 159.27,
+      "end": 162.45
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को समझ में नहीं आ रहा क्या करें।",
+      "start": 163.05,
+      "end": 165.71
+    },
+    {
+      "role": "BOT",
+      "text": "मैं बस यह पूछ रही हूं कि आप किस city और state से बोल रहे हैं? Please बता दीजिए।",
+      "start": 167.95,
+      "end": 172.41
+    },
+    {
+      "role": "BUYER",
+      "text": "मगर कहाँ भैया?",
+      "start": 173.97,
+      "end": 176.05
+    },
+    {
+      "role": "BOT",
+      "text": "आप किस city और state से बोल रहे हैं बस वही बता दीजिए please। यही बता दीजिए please। कोई बात नहीं मैं आपकी मदद करती हूँ। आप बस अपने city और state का नाम बता दीजिए।",
+      "start": 176.05,
+      "end": 185.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हवा में बता दी।",
+      "start": 185.33,
+      "end": 186.87
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप कहां से बोल रहे हैं? बस अपने city और state का नाम बता दीजिए।",
+      "start": 186.87,
+      "end": 190.71
+    },
+    {
+      "role": "BUYER",
+      "text": "चौतारा।",
+      "start": 191.11,
+      "end": 192.01
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपसे आपकी city और state का नाम पूछ रही हूं please बता दीजिए।",
+      "start": 193.23,
+      "end": 196.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारा नाम क्या लिया?",
+      "start": 196.81,
+      "end": 198.41
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे समझ नहीं आया। Please अपनी city और state का नाम बता दीजिए।",
+      "start": 199.43,
+      "end": 203.31
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ hello. जी मैं सुन रही हूं। Please अपनी city और state बता दीजिए। हम वंगाला समझ में आता।",
+      "start": 204.31,
+      "end": 212.17
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। Please अपनी city और state का नाम बता दीजिए।",
+      "start": 213.35,
+      "end": 217.81
+    },
+    {
+      "role": "BUYER",
+      "text": "उसका नाम बता दीजिये हमको नहीं समझ में आ रहा है।",
+      "start": 216.59,
+      "end": 220.13
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं। आप बस अपने city और state का नाम बता दीजिए जहां आप रहते हैं।",
+      "start": 221.11,
+      "end": 225.29
+    },
+    {
+      "role": "BUYER",
+      "text": "चौतारवा रहते।",
+      "start": 226.39,
+      "end": 229.45
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। Please अपनी city और state बता दीजिए जहाँ आप रहते हैं।",
+      "start": 230.49,
+      "end": 235.57
+    },
+    {
+      "role": "BUYER",
+      "text": "सेठ। करवा लेते हैं।",
+      "start": 232.91,
+      "end": 236.29
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे समझ नहीं आया। क्या आप अपने city और state का नाम बता सकते हैं?",
+      "start": 238.33,
+      "end": 242.53
+    },
+    {
+      "role": "BUYER",
+      "text": "आपका mic को डाला। हाँ।",
+      "start": 242.89,
+      "end": 250.87
+    },
+    {
+      "role": "BOT",
+      "text": "मैं बस आपसे आपकी city और state पूछ रही हूं। Please बता दीजिए आप कहां से बोल रहे हैं?",
+      "start": 250.87,
+      "end": 255.29
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं फसलाल मौजी टोल से। Sorry मुझे यह जगह समझ नहीं आई। क्या आप अपने city और state का नाम बता सकते हैं? तो तरवा से बोल रहा है।",
+      "start": 256.11,
+      "end": 265.77
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मैं समझ नहीं पा रही हूं। क्या आप अपने city और state का नाम बता सकते हैं?",
+      "start": 266.95,
+      "end": 271.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हैं और नहीं।",
+      "start": 271.15,
+      "end": 272.81
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। Please अपनी city और state का नाम बता दीजिए।",
+      "start": 273.77,
+      "end": 277.89
+    },
+    {
+      "role": "BUYER",
+      "text": "अपना मायके अपन बहन के दे दलो।",
+      "start": 277.89,
+      "end": 281.53
+    },
+    {
+      "role": "BOT",
+      "text": "मैं बस आपकी city और state जानना चाहती हूं ताकि सही seller से connect कर सकूं। Please बता दीजिए। हमारा घरवा बता दीजिए। क्या बात समझ में नहीं आ रहा। कोई बात नहीं मैं फिर से समझाती हूं। आप बस अपने city city और state state का नाम बता दीजिए।",
+      "start": 282.59,
+      "end": 301.51
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं। ते मन के कहा रहेले कुछ काम हो।",
+      "start": 297.03,
+      "end": 305.31
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। आप अपनी city और state बता दीजिए please।",
+      "start": 306.67,
+      "end": 311.61
+    },
+    {
+      "role": "BUYER",
+      "text": "आवाज। जी। बेटी है।",
+      "start": 307.13,
+      "end": 313.31
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं सुन रही हूं। Please अपनी city और state बता दीजिए।",
+      "start": 314.41,
+      "end": 317.87
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं जी आप कहाँ से बोल रहे हैं? Please अपनी city और state बता दीजिए। कहाँ से बोल रहे हो? सुरजीत कुमार मेरा नाम है मैं बेगूसराय जिला में रहता हूँ।",
+      "start": 319.15,
+      "end": 328.69
+    },
+    {
+      "role": "BOT",
+      "text": "जी जी नाम तो।",
+      "start": 327.85,
+      "end": 329.17
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 330.55,
+      "end": 330.89
+    },
+    {
+      "role": "BOT",
+      "text": "आप बेटियां बिहार से बोल रही हैं।",
+      "start": 330.89,
+      "end": 332.31
+    },
+    {
+      "role": "BUYER",
+      "text": "है ना? हाँ हाँ।",
+      "start": 332.31,
+      "end": 334.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है सुजीत जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हो। IndiaMART खुलने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 335.07,
+      "end": 343.67
+    }
+  ],
+  "stats": {
+    "bot_turns": 36,
+    "buyer_turns": 35,
+    "longest_gap_s": 4.64,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 7,
+    "cue_hits_by_speaker": {
+      "0": 6,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

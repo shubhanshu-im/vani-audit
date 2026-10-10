@@ -1,0 +1,56 @@
+{
+  "call_id": "543_90853004_L71JMXVH5",
+  "file": "data/recordings/543_90853004_L71JMXVH5.mp3",
+  "duration_s": 54.86,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको antioxidant syrup की requirement है ना?",
+      "start": 0.17,
+      "end": 3.69
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 5.37,
+      "end": 5.99
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। कितनी bottle चाहिए होगी आपको? एक एकटा। Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए कि आपको कितनी bottles चाहिए? एकटा बोतल एकटा क्या आपको आठ bottle चाहिए?",
+      "start": 7.85,
+      "end": 28.83
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 30.61,
+      "end": 31.25
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है चलिए अब key ingredient के बारे में बात कर लेते हैं। आपको कौन सा चाहिए जैसे lycopene, ginseng या कुछ और? Repeat कर लें एक बार, समझ में नहीं आया। क्षमा कीजिए मैं समझ नहीं पाई। क्या आप बता सकते हैं कि key ingredient में आपको क्या prefer करेंगे?",
+      "start": 32.03,
+      "end": 49.77
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 3.34,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 4,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

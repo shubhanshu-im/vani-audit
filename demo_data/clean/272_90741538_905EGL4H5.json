@@ -1,0 +1,146 @@
+{
+  "call_id": "272_90741538_905EGL4H5",
+  "file": "data/recordings/272_90741538_905EGL4H5.mp3",
+  "duration_s": 150.12,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको business inquiry from [NAME] via IndiaMART की requirement है ना?",
+      "start": 0.07,
+      "end": 5.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. Yes yes.",
+      "start": 1.45,
+      "end": 7.93
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। क्या आप job या part time job ढूंढ रहे हैं?",
+      "start": 9.17,
+      "end": 15.85
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरे को disposal plate चाहिए तीन सौ नंबर।",
+      "start": 17.87,
+      "end": 21.21
+    },
+    {
+      "role": "BOT",
+      "text": "आपको disposal plate जो आमतौर पे खाने के लिए इस्तेमाल होती है वही चाहिए ना?",
+      "start": 22.47,
+      "end": 26.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। Yes sir.",
+      "start": 23.85,
+      "end": 28.55
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 30.31,
+      "end": 36.15
+    },
+    {
+      "role": "BUYER",
+      "text": "तो। तो मेरे को क्या है मेरा दुकान है तो मेरे को हर महीने में दो चार हजार piece लगता है। bowl भी लगता है, plate लगता है, polythene छोटा-छोटा polythene bag लगता है दुकान के लिए।",
+      "start": 36.25,
+      "end": 51.01
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए। समझ गई। आपको कितने piece चाहिए कृपया बता दीजिए ताकि मैं आगे बढ़ सकूँ।",
+      "start": 51.93,
+      "end": 59.23
+    },
+    {
+      "role": "BUYER",
+      "text": "ट्रेडिंग के लिए। मेरे को disposal plate जो खाने के लिए लगता है ना वो 4000 quantity चाहिए।",
+      "start": 52.67,
+      "end": 67.33
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब material के बारे में बात कर लेते हैं। आपको plastic या paper में से कौन सा चाहिए या कुछ और?",
+      "start": 66.89,
+      "end": 72.23
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। plastic में चाहिए, paper में चाहिए, bowl भी चाहिए। बाद में polythene bag जो लगता है ना stationery दुकान और किराना माल में दुकान के लिए, वो भी 4 ton चाहिए। अलग-अलग different size में। तो मेरे को ये WhatsApp number है मेरा, उसके ऊपर manufacturer जो है ना plate का manufacturer है, polythene bag का छोटे-छोटे polythene bag का manufacturer है, उसका number, contact number दीजिए। तो क्या है मैं उनसे बात करके वो purchase कर लूँगा।",
+      "start": 68.81,
+      "end": 103.75
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब compartments के बारे में बताइए। आपको तीन compartments, पांच compartments या कुछ और चाहिए?",
+      "start": 104.83,
+      "end": 110.01
+    },
+    {
+      "role": "BUYER",
+      "text": "चलेगा ना plane में part compartment में चलेगा।",
+      "start": 112.15,
+      "end": 115.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? अब size के बारे में बताइए आपको 7 inch, 9 inch या कुछ और चाहिए?",
+      "start": 116.55,
+      "end": 121.09
+    },
+    {
+      "role": "BUYER",
+      "text": "दस इंच बारह इंच का chair plate.",
+      "start": 122.49,
+      "end": 124.47
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 125.49,
+      "end": 130.31
+    },
+    {
+      "role": "BUYER",
+      "text": "manufacturer जो है ना plate का manufacturer और polythene bag का manufacturer उनका detail भेज दीजिएगा।",
+      "start": 131.41,
+      "end": 138.85
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं आपको अच्छे sellers से connect करने में मदद करूंगी। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 140.09,
+      "end": 146.15
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay thank you.",
+      "start": 148.39,
+      "end": 149.47
+    }
+  ],
+  "stats": {
+    "bot_turns": 10,
+    "buyer_turns": 10,
+    "longest_gap_s": 2.24,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 5,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

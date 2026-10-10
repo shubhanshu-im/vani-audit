@@ -1,0 +1,177 @@
+{
+  "call_id": "109_90701601_91KGNHXG5",
+  "file": "data/recordings/109_90701601_91KGNHXG5.mp3",
+  "duration_s": 212.66,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको electrolyte level indicators and microporous vent plugs की requirement है ना?",
+      "start": 0.01,
+      "end": 5.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 7.77,
+      "end": 8.27
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 9.65,
+      "end": 15.49
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको तो thirty feet चाहिए।",
+      "start": 17.87,
+      "end": 19.81
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। अब बताइए कि आपको यह किस उपयोग के लिए चाहिए जैसे कि business use के लिए या कुछ और?",
+      "start": 21.03,
+      "end": 26.25
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं हमको तो ऐसे सब चीज में चाहिए।",
+      "start": 30.09,
+      "end": 32.45
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। मैं समझ गई कि आपको यह सब station के लिए चाहिए। बस एक minute रुकिए। अभी line पे काफी अच्छे seller available हैं। आप उनसे अपने हिसाब से price और बाकी details discuss कर लीजिए। क्या मैं आपकी बात उनसे करवा दूं?",
+      "start": 33.67,
+      "end": 46.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ ठीक है करवा दो।",
+      "start": 47.87,
+      "end": 49.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। मैं आपकी call transfer कर रही हूं और बाकी sellers की details आपको WhatsApp पर भेज दी जाएंगी। Please line पर बने रहें।",
+      "start": 50.31,
+      "end": 57.29
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. Okay. Hello. Hello आप कहां से जुड़े हैं? Kolkata से। मैं अच्छा ठीक है मैं यहां से 220 KV Bagodara substation से बोल रहा हूं Gujarat से। GAIL में से। अच्छा और",
+      "start": 57.29,
+      "end": 89.01
+    },
+    {
+      "role": "BOT",
+      "text": "अच्छा और कुछ?",
+      "start": 86.83,
+      "end": 88.55
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छा अब आजको आजको का जो two words का battery set होता है ना। उसका indicators requirement है मेरे को जो indicators दिखाते हैं ना। gravity के लिए अब।",
+      "start": 90.47,
+      "end": 102.39
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 95.75,
+      "end": 96.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay. आपको आपको मतलब उसका मेरे को ना फिर मैं आपको WhatsApp में hi लिखता हूँ आप उसमें just एक minute कीजिए। हाँ तो मेरे को कितना rate है पड़ता है और आप delivery देते हो? कौन सा? आप। duty दे सकते हो यहां पे। courier करते हैं आप आपको जी sir WhatsApp mobile number बोलिए।",
+      "start": 103.97,
+      "end": 131.19
+    },
+    {
+      "role": "BOT",
+      "text": "courier करते हो आप?",
+      "start": 127.47,
+      "end": 128.57
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या बोल रहे हैं? आपका mobile number, आपका mobile number बोलिए sir। nine two. two seven seven.",
+      "start": 133.99,
+      "end": 141.15
+    },
+    {
+      "role": "BOT",
+      "text": "Nine Seven.",
+      "start": 139.99,
+      "end": 140.55
+    },
+    {
+      "role": "BUYER",
+      "text": "My seven seven again two seven seven.",
+      "start": 142.19,
+      "end": 144.65
+    },
+    {
+      "role": "BOT",
+      "text": "गाड़ी seven के बजे।",
+      "start": 142.29,
+      "end": 143.35
+    },
+    {
+      "role": "BUYER",
+      "text": "two two zero six one. two two zero six one. Just hold on. I think it's Pathak. Yes. I will tell you a message first. ठीक है? मेरा अपना number है sir। यहां पर तो आपको मेरा number भी नहीं दिखेगा आपको। मतलब हमको भी आपको number नहीं दिखता है। अच्छा okay ठीक है कोई नहीं मेरा number से। मेरा नाम Okay. ठीक है sir आपको message आया? एक खर्चा आता है।",
+      "start": 147.09,
+      "end": 183.21
+    },
+    {
+      "role": "BOT",
+      "text": "फिर।",
+      "start": 182.45,
+      "end": 182.97
+    },
+    {
+      "role": "BUYER",
+      "text": "अभी I। ये अभी से नाम से आया है वही है आपका? Hello. Hello.",
+      "start": 194.69,
+      "end": 205.41
+    }
+  ],
+  "stats": {
+    "bot_turns": 11,
+    "buyer_turns": 11,
+    "longest_gap_s": 11.84,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 59.21,
+        "end": 71.05,
+        "duration_s": 11.84,
+        "after_role": "BUYER"
+      },
+      {
+        "start": 174.21,
+        "end": 179.25,
+        "duration_s": 5.04,
+        "after_role": "BUYER"
+      },
+      {
+        "start": 183.21,
+        "end": 194.69,
+        "duration_s": 11.48,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

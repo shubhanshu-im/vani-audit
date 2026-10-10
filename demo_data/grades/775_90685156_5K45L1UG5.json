@@ -1,0 +1,369 @@
+{
+  "call_id": "775_90685156_5K45L1UG5",
+  "duration_s": 119.02,
+  "graded_at": "2026-10-10T12:41:49+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "FATAL",
+  "quality": "FATAL",
+  "grade_reason": "Quantity Accuracy (Numeric): Bot confirmed 70 instead of buyer's 7 pieces.",
+  "fatal_params": [
+    "Quantity Accuracy (Numeric)",
+    "Qty Missed Opportunity",
+    "Spec Missed Opportunity",
+    "WER"
+  ],
+  "issues": [
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Do you need 70 pieces?",
+      "timestamp": 22.27,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot confirmed 70 instead of buyer's 7 pieces.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.3
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Yes ma'am. Parveen, Parveen, yes ma'am.",
+      "timestamp": 22.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 7 pieces, bot captured 70 pieces.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.6
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Like. I I did I did it in an eight liter aluminum can.",
+      "timestamp": 33.31,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 8 liter aluminum can, bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 33.3
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Would you prefer Dhulai, Polish or something else?",
+      "timestamp": 59.03,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated surface finish question twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.0
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Do you need 70 pieces?",
+      "timestamp": 22.27,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard 7 as 70.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.3
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "What are you?",
+      "timestamp": 112.17,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer asked if bot is human; bot did not claim to be.",
+      "evidence_verified": true,
+      "llm_timestamp": 112.2
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted a product; bot closed without lead due to confusion."
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Do you need 70 pieces?",
+      "timestamp": 22.27,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Bot confirmed 70 instead of buyer's 7 pieces.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.3
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No quantity unit was discussed or captured."
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "How many kilogram piece of set do you need?",
+      "timestamp": 8.2,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for quantity; buyer answered."
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Yes ma'am. Parveen, Parveen, yes ma'am.",
+      "timestamp": 22.55,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 7 pieces, bot captured 70 pieces.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.6
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for size but buyer's spec (8 liter can) was not captured."
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot asked for surface finish but buyer didn't provide a value."
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Like. I I did I did it in an eight liter aluminum can.",
+      "timestamp": 33.31,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Buyer stated 8 liter aluminum can, bot ignored it.",
+      "evidence_verified": true,
+      "llm_timestamp": 33.3
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Would you prefer Dhulai, Polish or something else?",
+      "timestamp": 59.03,
+      "root_cause_type": "FLOW",
+      "confidence": "medium",
+      "reason": "Bot repeated surface finish question twice.",
+      "evidence_verified": true,
+      "llm_timestamp": 59.0
+    },
+    {
+      "param": "WER",
+      "verdict": "FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "FATAL",
+      "evidence_quote": "Do you need 70 pieces?",
+      "timestamp": 22.27,
+      "root_cause_type": "ASR",
+      "confidence": "high",
+      "reason": "Misheard 7 as 70.",
+      "evidence_verified": true,
+      "llm_timestamp": 22.3
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No additional details were recorded."
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller was offered."
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product was never in question or corrected."
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category ISQ errors visible in transcript."
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Needs system data."
+    },
+    {
+      "param": "Dead air",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No bot-side silence."
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "What are you?",
+      "timestamp": 112.17,
+      "root_cause_type": null,
+      "confidence": "low",
+      "reason": "Buyer asked if bot is human; bot did not claim to be.",
+      "evidence_verified": true,
+      "llm_timestamp": 112.2
+    }
+  ],
+  "captured_lead": {
+    "product": "AL aluminium topay",
+    "quantity": "70 pieces",
+    "quantity_unit": "piece",
+    "specs": [
+      {
+        "name": "size",
+        "value": "10 18"
+      },
+      {
+        "name": "surface_finish",
+        "value": "Dulai"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot captured 70 pieces instead of 7.",
+      "timestamp": 22.3,
+      "source": "llm"
+    },
+    {
+      "flag": "frustration",
+      "reason": "Buyer confused by repeated spec questions.",
+      "timestamp": 59.0,
+      "source": "llm"
+    },
+    {
+      "flag": "loop",
+      "reason": "ask limit exceeded: spec:size 4/2",
+      "timestamp": 28.75,
+      "source": "signals"
+    }
+  ],
+  "failure_description": "Bot misheard 7 pieces as 70 pieces. It then asked for irrelevant size/finish specs, failing to capture the buyer's 8-liter can requirement, and closed without a lead or transfer.",
+  "analysis": "Buyer wanted 7 pieces of an 8 liter aluminum can (Rs 160). The bot misheard 7 as 70 and never confirmed quantity. It then asked for size and surface finish, which the buyer did not understand, and closed the call without creating a lead or transferring.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 3,
+  "usage": {
+    "prompt_tokens": 15297,
+    "completion_tokens": 4186
+  },
+  "unresolved_problems": []
+}

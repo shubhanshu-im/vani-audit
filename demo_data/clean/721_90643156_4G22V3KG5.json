@@ -1,0 +1,33 @@
+{
+  "call_id": "721_90643156_4G22V3KG5",
+  "file": "data/recordings/721_90643156_4G22V3KG5.mp3",
+  "duration_s": 22.97,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको 1500 mg Trexol-S Cefixime injection की requirement है ना? जी Ma'am. आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने vial चाहिए?",
+      "start": 0.15,
+      "end": 16.57
+    }
+  ],
+  "stats": {
+    "bot_turns": 1,
+    "buyer_turns": 0,
+    "longest_gap_s": 1.62,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "single speaker"
+    ]
+  }
+}

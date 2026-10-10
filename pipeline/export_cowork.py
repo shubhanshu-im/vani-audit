@@ -37,6 +37,8 @@ PHONE = re.compile(r"(?<!\d)(?:\+?91[\s-]?)?[6-9]\d{9}(?!\d)")
 # "Hello <name> [जी] आपकी/आपको ..." : the bot greets the buyer by name in its opening line
 GREETING_NAME = re.compile(r"^(?:hello|hi|नमस्ते|हेलो|हैलो)[,\s]+((?:(?!आप|जी\b)[^\s,।?]+[,\s]+){1,3}?)(?:जी[,\s]+)?(?:आप|आपकी|आपको|आपका)",
                            re.IGNORECASE)
+# honorifics and filler words the name patterns pick up; never mask these
+NOT_NAMES = {"जी", "ji", "jee", "sir", "madam", "सर", "मैडम", "local", "भाई", "bhai", "साहब", "sahab"}
 log = setup_logging()
 
 
@@ -54,14 +56,15 @@ class Masker:
         m = GREETING_NAME.match(first)
         if m:
             names.update(p for p in m.group(1).split() if len(p) > 1)
-        return names
+        return {n for n in names if n.lower() not in NOT_NAMES}
 
     def apply(self, text, names):
         if not self.enabled or not text:
             return text or ""
         text = PHONE.sub("[PHONE]", text)
         for n in sorted(names, key=len, reverse=True):
-            text = re.sub(rf"(?<!\w){re.escape(n)}(?!\w)", "[NAME]", text)
+            # \w misses Devanagari vowel signs, so name the script's range explicitly ("तने" inside "कितने")
+            text = re.sub(rf"(?<![\wऀ-ॿ]){re.escape(n)}(?![\wऀ-ॿ])", "[NAME]", text)
         return text
 
 

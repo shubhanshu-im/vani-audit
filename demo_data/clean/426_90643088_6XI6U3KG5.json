@@ -1,0 +1,88 @@
+{
+  "call_id": "426_90643088_6XI6U3KG5",
+  "file": "data/recordings/426_90643088_6XI6U3KG5.mp3",
+  "duration_s": 49.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello टीजी। आपको water treatment chemicals की requirement है ना?",
+      "start": 0.53,
+      "end": 4.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हां Madam. ठीक है? आप जिस seller को call कर रहे थे वो available",
+      "start": 5.59,
+      "end": 11.15
+    },
+    {
+      "role": "BOT",
+      "text": "जिस seller को call कर रहे थे वो available समझ गए आपको sodium hypochlorite चाहिए? कितने liter चाहिए होंगे आपको?",
+      "start": 8.95,
+      "end": 16.35
+    },
+    {
+      "role": "BUYER",
+      "text": "कि आपको हाँ। ten liter. बहुत बढ़िया।",
+      "start": 12.79,
+      "end": 20.55
+    },
+    {
+      "role": "BOT",
+      "text": "चलिए आप physical form के बारे में बताइए। आपको tablet या liquid चाहिए या कुछ और?",
+      "start": 20.55,
+      "end": 25.01
+    },
+    {
+      "role": "BUYER",
+      "text": "Liquid liquid.",
+      "start": 26.23,
+      "end": 27.11
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए packaging size में क्या चाहिए? पच्चीस kilogram, पचास kilogram या कुछ और?",
+      "start": 28.75,
+      "end": 33.55
+    },
+    {
+      "role": "BUYER",
+      "text": "पच्चीस किलोमीटर।",
+      "start": 35.81,
+      "end": 37.09
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 38.79,
+      "end": 47.21
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 45.49,
+      "end": 45.95
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 5,
+    "longest_gap_s": 2.26,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 2,
+      "0": 2
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

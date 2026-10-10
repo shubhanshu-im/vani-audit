@@ -1,0 +1,74 @@
+{
+  "call_id": "93_90852834_NYNFKXVH5",
+  "file": "data/recordings/93_90852834_NYNFKXVH5.mp3",
+  "duration_s": 54.79,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको marble सारस्वतिया माँ statue की requirement है ना?",
+      "start": 0.01,
+      "end": 4.15
+    },
+    {
+      "role": "BUYER",
+      "text": "मिल जाएगी। Hello.",
+      "start": 8.35,
+      "end": 12.61
+    },
+    {
+      "role": "BOT",
+      "text": "जी। Marble सारस्वत माँ statue मिल जाएगी। बस कुछ details confirm कर दीजिए ताकि मैं आपको सही seller से connect कर सकूँ।",
+      "start": 14.57,
+      "end": 21.63
+    },
+    {
+      "role": "BUYER",
+      "text": "अच्छे से अच्छी मूर्ति चाहिए और कितने में मिलेगी मेरे को सत्ताईस या छत्तीस inch चाहिए reasonable भाव में चाहिए।",
+      "start": 22.15,
+      "end": 28.07
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई आपको अच्छी quality की मूर्ति चाहिए और reasonable price भी चाहिए। delivery timing और price seller से discuss कर सकते हैं।",
+      "start": 30.19,
+      "end": 37.17
+    },
+    {
+      "role": "BUYER",
+      "text": "delivery timing और price. और पंख वाली आती ना पंख वाली भी नहीं निकली वो चाहिए मुझे पंख वाली।",
+      "start": 34.35,
+      "end": 41.53
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। पंख वाली सरजवाटी माँ statue भी available है। आपको मैं seller details WhatsApp पे भेज दूँगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 43.65,
+      "end": 54.37
+    },
+    {
+      "role": "BUYER",
+      "text": "अब।",
+      "start": 54.51,
+      "end": 54.83
+    }
+  ],
+  "stats": {
+    "bot_turns": 4,
+    "buyer_turns": 4,
+    "longest_gap_s": 4.2,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

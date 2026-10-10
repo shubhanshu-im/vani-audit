@@ -1,0 +1,304 @@
+{
+  "call_id": "383_90797363_8GZCXXFH5",
+  "duration_s": 62.71,
+  "graded_at": "2026-10-10T12:31:15+05:30",
+  "spec_hash": "30e201a04a55",
+  "grade": "NON_FATAL",
+  "quality": "NON_FATAL",
+  "grade_reason": "non-fatal only: Qty Missed Opportunity, Looping Behavior, Additional Observation",
+  "fatal_params": [],
+  "issues": [
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Thirty-five, Madam.",
+      "timestamp": 10.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ignored 35 kg quantity, did not confirm",
+      "evidence_verified": true,
+      "llm_timestamp": 10.8
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Alright, which variety do you want like hybrid, desi or something else?",
+      "timestamp": 22.73,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated variety question once, no harm done",
+      "evidence_verified": true,
+      "llm_timestamp": 22.7
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 51.99,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised direct seller contact on WhatsApp",
+      "evidence_verified": true,
+      "llm_timestamp": 52.0
+    }
+  ],
+  "parameters": [
+    {
+      "param": "Outcome Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer wanted product and bot proceeded"
+    },
+    {
+      "param": "Quantity Accuracy (Numeric)",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity mentioned but not read back by bot"
+    },
+    {
+      "param": "Quantity Unit Accuracy",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Quantity mentioned but not read back by bot"
+    },
+    {
+      "param": "Quantity Probing Error",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Buyer gave quantity before bot asked"
+    },
+    {
+      "param": "Qty Missed Opportunity",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Thirty-five, Madam.",
+      "timestamp": 10.75,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot ignored 35 kg quantity, did not confirm",
+      "evidence_verified": true,
+      "llm_timestamp": 10.8
+    },
+    {
+      "param": "Spec1 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Got it.",
+      "timestamp": 38.9,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured hybrid variety"
+    },
+    {
+      "param": "Spec2 Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "Okay.",
+      "timestamp": 49.3,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot captured J grade packaging"
+    },
+    {
+      "param": "Spec Missed Opportunity",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No other important specs missed"
+    },
+    {
+      "param": "Looping Behavior",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "Alright, which variety do you want like hybrid, desi or something else?",
+      "timestamp": 22.73,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Repeated variety question once, no harm done",
+      "evidence_verified": true,
+      "llm_timestamp": 22.7
+    },
+    {
+      "param": "WER",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant misrecognitions"
+    },
+    {
+      "param": "Additional_details",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Bot did not record extra details"
+    },
+    {
+      "param": "OnCall AstBuy Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No live seller transfer offered"
+    },
+    {
+      "param": "Product Change / No Product Accuracy",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "Product remained consistent"
+    },
+    {
+      "param": "Category ISQ's Error",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No category data available"
+    },
+    {
+      "param": "MCAT / Search errors",
+      "verdict": "NA",
+      "hit": false,
+      "assessable": false,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No system data to judge"
+    },
+    {
+      "param": "Dead air",
+      "verdict": "PASS",
+      "hit": false,
+      "assessable": true,
+      "severity": null,
+      "evidence_quote": "",
+      "timestamp": null,
+      "root_cause_type": null,
+      "confidence": null,
+      "reason": "No significant dead air"
+    },
+    {
+      "param": "Additional Observation",
+      "verdict": "NON_FATAL",
+      "hit": true,
+      "assessable": true,
+      "severity": "NON_FATAL",
+      "evidence_quote": "I will send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "timestamp": 51.99,
+      "root_cause_type": "FLOW",
+      "confidence": "high",
+      "reason": "Bot promised direct seller contact on WhatsApp",
+      "evidence_verified": true,
+      "llm_timestamp": 52.0
+    }
+  ],
+  "captured_lead": {
+    "product": "tomato rice",
+    "quantity": "Thirty-five",
+    "quantity_unit": "kg",
+    "specs": [
+      {
+        "name": "variety",
+        "value": "hybrid"
+      },
+      {
+        "name": "packaging type",
+        "value": "J grade"
+      }
+    ],
+    "name": null,
+    "city": null,
+    "state": null
+  },
+  "risk_flags": [
+    {
+      "flag": "wrong_requirement",
+      "reason": "Bot did not capture buyer's name or location",
+      "timestamp": null,
+      "source": "llm"
+    }
+  ],
+  "failure_description": "Bot closed prematurely without collecting buyer name, city, and state. Quantity was not confirmed.",
+  "analysis": "Buyer inquired about tomato rice price. Bot confirmed product. Buyer said 'Thirty-five' kg. Bot asked for variety and packaging. Buyer gave hybrid and J grade. Bot closed by promising seller details on WhatsApp without collecting name/location. Bot did not read back or confirm the 35 kg quantity.",
+  "confidence": "high",
+  "lead_unverified": [],
+  "needs_review": false,
+  "model": "sarvam-105b",
+  "attempts": 2,
+  "usage": {
+    "prompt_tokens": 8506,
+    "completion_tokens": 2384
+  },
+  "unresolved_problems": []
+}

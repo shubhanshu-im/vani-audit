@@ -1,0 +1,53 @@
+{
+  "call_id": "882_90797424_LAM6YXFH5",
+  "file": "data/recordings/882_90797424_LAM6YXFH5.mp3",
+  "duration_s": 30.82,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको कौन सा product चाहिए?",
+      "start": 0.01,
+      "end": 1.89
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 4.21,
+      "end": 4.67
+    },
+    {
+      "role": "BOT",
+      "text": "जी मैं सुन रही हूं। आप please बताइए कि आपको कौन सा product चाहिए? क्या आप अभी line पर हैं? Please बताइए आपको कौन सा product चाहिए? Wrong number wrong number. कोई बात नहीं अपना समय देने के लिए धन्यवाद। IndiaMeds सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 5.75,
+      "end": 29.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 7.46,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 9.25,
+        "end": 16.71,
+        "duration_s": 7.46,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "1": 0,
+      "0": 0
+    },
+    "ambiguous": true,
+    "reasons": [
+      "no bot cue words; used opening speaker"
+    ]
+  }
+}

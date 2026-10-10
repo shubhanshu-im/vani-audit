@@ -1,0 +1,111 @@
+{
+  "call_id": "848_90797387_KT1PXXFH5",
+  "file": "data/recordings/848_90797387_KT1PXXFH5.mp3",
+  "duration_s": 74.74,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको Shalimar Natural Blue Musk धूप sticks की requirement है ना?",
+      "start": 0.01,
+      "end": 4.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी।",
+      "start": 6.23,
+      "end": 6.93
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms चाहिए?",
+      "start": 8.35,
+      "end": 14.31
+    },
+    {
+      "role": "BUYER",
+      "text": "ನಮಗೆ ನಿಮ್ಮ customer ನಮ್ಮ ಇಂದ private ಆಗಿ.",
+      "start": 17.49,
+      "end": 20.29
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब length के बारे में बात कर लेते हैं। आपको कौन सा चाहिए? 4 inch या कुछ और?",
+      "start": 21.23,
+      "end": 25.95
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं मिसाइल पेमेंट को नहीं जानता जो normal size होती है इसकी।",
+      "start": 28.73,
+      "end": 31.97
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं मैं समझ गई। आप बस यह बता दीजिए कि fragrance में क्या prefer करेंगे चंदन, rose या कोई और?",
+      "start": 32.97,
+      "end": 38.95
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक। कोई बात नहीं। आप fragrance में क्या prefer करेंगे जैसे चंदन, rose या कुछ और? ये blue में खींचे।",
+      "start": 41.41,
+      "end": 50.61
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 51.57,
+      "end": 57.95
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है।",
+      "start": 63.01,
+      "end": 63.59
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका।",
+      "start": 64.69,
+      "end": 66.97
+    },
+    {
+      "role": "BUYER",
+      "text": "सुनने के लिए धन्यवाद। आपका। लखनऊ में कब तक available हो जाएगी?",
+      "start": 65.31,
+      "end": 74.67
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 5.64,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 57.95,
+        "end": 63.01,
+        "duration_s": 5.06,
+        "after_role": "BOT"
+      },
+      {
+        "start": 66.97,
+        "end": 72.61,
+        "duration_s": 5.64,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "call_id": "812_90643206_DV1SV3KG5",
+  "file": "data/recordings/812_90643206_DV1SV3KG5.mp3",
+  "duration_s": 82.66,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको SRX 82515 inch MT cabinet की requirement है ना?",
+      "start": 0.01,
+      "end": 6.15
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। नहीं आवे।",
+      "start": 7.77,
+      "end": 12.21
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने pair piece या box चाहिए?",
+      "start": 13.35,
+      "end": 19.97
+    },
+    {
+      "role": "BUYER",
+      "text": "जो कि ये बारह inch की camera है।",
+      "start": 21.91,
+      "end": 24.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? मैं देख पा रही हूं कि आपको compatible speaker size 12 inch का ही चाहिए ना?",
+      "start": 25.63,
+      "end": 29.77
+    },
+    {
+      "role": "BUYER",
+      "text": "मिल जाएगा।",
+      "start": 36.11,
+      "end": 36.91
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। अब बताइए speaker quantity में क्या prefer करेंगे double single या कोई और?",
+      "start": 37.87,
+      "end": 42.69
+    },
+    {
+      "role": "BUYER",
+      "text": "Double में।",
+      "start": 44.71,
+      "end": 45.47
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप Kanpur देहात Uttar Pradesh से बोल रहे हैं ना?",
+      "start": 46.79,
+      "end": 49.73
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 50.85,
+      "end": 51.51
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? आप [NAME] जी बोल रहे हैं ना?",
+      "start": 52.55,
+      "end": 54.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। कितने कितने खेती पर है ये?",
+      "start": 55.47,
+      "end": 61.71
+    },
+    {
+      "role": "BOT",
+      "text": "आप ये details seller से discuss कर सकते हैं। वो आपको best rates बता देंगे। आपको मैं seller details WhatsApp पे भेज दूंगी।",
+      "start": 62.69,
+      "end": 69.55
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 71.05,
+      "end": 71.53
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 72.67,
+      "end": 75.47
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 77.13,
+      "end": 77.59
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 6.34,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 29.77,
+        "end": 36.11,
+        "duration_s": 6.34,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

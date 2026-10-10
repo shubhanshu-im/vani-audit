@@ -1,0 +1,272 @@
+{
+  "call_id": "861_90797413_T1R1YXFH5",
+  "file": "data/recordings/861_90797413_T1R1YXFH5.mp3",
+  "duration_s": 162.94,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको collar type packing machine की requirement है ना?",
+      "start": 0.01,
+      "end": 3.75
+    },
+    {
+      "role": "BUYER",
+      "text": "कॉलर। हाँ। तू कहाँ से बोल रही है?",
+      "start": 1.33,
+      "end": 10.09
+    },
+    {
+      "role": "BOT",
+      "text": "मैं Tanya बोल रही हूं IndiaMART से। क्या आपको collar type packing machine की requirement है?",
+      "start": 10.09,
+      "end": 14.95
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं तो दिमाग में कुछ मारते हैं।",
+      "start": 15.71,
+      "end": 19.87
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी बात समझ नहीं पाई लेकिन क्या आपको collar type packing machine की requirement है?",
+      "start": 21.07,
+      "end": 25.89
+    },
+    {
+      "role": "BUYER",
+      "text": "സ്ത്രീമാരെ 1000-ൽ അധികം.",
+      "start": 26.09,
+      "end": 29.07
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी मदद नहीं कर पाऊँगी। चलिए IndiaMART पे focus करते हैं। क्या आपको collar type packing machine चाहिए?",
+      "start": 30.13,
+      "end": 35.91
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरी इच्छा है।",
+      "start": 35.91,
+      "end": 38.03
+    },
+    {
+      "role": "BOT",
+      "text": "होता है।",
+      "start": 38.03,
+      "end": 38.63
+    },
+    {
+      "role": "BUYER",
+      "text": "तो",
+      "start": 38.63,
+      "end": 41.09
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं आपकी बात समझ नहीं पाई। क्या आपको collar type packing machine की requirement है?",
+      "start": 42.23,
+      "end": 47.43
+    },
+    {
+      "role": "BUYER",
+      "text": "मेरा नाम नहीं है।",
+      "start": 48.33,
+      "end": 50.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है पर क्या आपको collar type packing machine की requirement है?",
+      "start": 51.49,
+      "end": 55.09
+    },
+    {
+      "role": "BUYER",
+      "text": "हम्म।",
+      "start": 56.03,
+      "end": 56.77
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई ज़रा दोबारा बताइए क्या आपको collar type packing machine की",
+      "start": 57.85,
+      "end": 62.89
+    },
+    {
+      "role": "BUYER",
+      "text": "सुनना सुन रहा था तो कौन है।",
+      "start": 63.39,
+      "end": 67.05
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई क्या आपको collar type packing machine की requirement है?",
+      "start": 68.05,
+      "end": 72.67
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 72.67,
+      "end": 74.57
+    },
+    {
+      "role": "BOT",
+      "text": "नहीं। क्या आपको किसी और product की जरूरत है?",
+      "start": 73.19,
+      "end": 77.67
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 77.67,
+      "end": 78.29
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ।",
+      "start": 77.71,
+      "end": 78.39
+    },
+    {
+      "role": "BUYER",
+      "text": "Sorry.",
+      "start": 78.39,
+      "end": 79.77
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई क्या आपको किसी और product की ज़रूरत है?",
+      "start": 79.39,
+      "end": 83.13
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 83.73,
+      "end": 90.39
+    },
+    {
+      "role": "BOT",
+      "text": "तट लगावा।",
+      "start": 86.11,
+      "end": 87.15
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 88.53,
+      "end": 89.15
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry मुझे अभी भी clear नहीं हो पाया। क्या आपको कोई और product चाहिए?",
+      "start": 90.17,
+      "end": 94.03
+    },
+    {
+      "role": "BUYER",
+      "text": "मुझे अभी भी clear नहीं हो पा रहा। product चाहिए sorry आपकी",
+      "start": 90.59,
+      "end": 101.23
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई please दोबारा बताइए। क्या आपको कोई और product चाहिए?",
+      "start": 100.55,
+      "end": 105.11
+    },
+    {
+      "role": "BUYER",
+      "text": "Please. बताइए क्या आपको कोई और product चाहिए hello? हाँ।",
+      "start": 102.17,
+      "end": 109.95
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते Sujit जी पर क्या आपको किसी और product की जरूरत है?",
+      "start": 110.07,
+      "end": 113.37
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ chips pack करना है।",
+      "start": 114.01,
+      "end": 116.25
+    },
+    {
+      "role": "BOT",
+      "text": "आपको जो chips pack करने वाली chips packing machine चाहिए ना? हाँ हाँ।",
+      "start": 117.25,
+      "end": 121.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। चप्पल गड़ीला।",
+      "start": 120.51,
+      "end": 127.75
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी आवाज़ clear नहीं आई। क्या आपको chips pack करने वाली chips packing machine चाहिए?",
+      "start": 128.75,
+      "end": 133.69
+    },
+    {
+      "role": "BUYER",
+      "text": "packing machine चाहिए हाँ machine चाहिए किस pack करने वाली hello",
+      "start": 132.07,
+      "end": 142.73
+    },
+    {
+      "role": "BOT",
+      "text": "Hello.",
+      "start": 142.21,
+      "end": 142.61
+    },
+    {
+      "role": "BUYER",
+      "text": "Sorry मुझे इस product की जानकारी नहीं मिल पाई। क्या आप please एक बार फिर से बता सकते हैं कि आपको कौन सी machine चाहिए? हाँ ठीक ठीक।",
+      "start": 144.01,
+      "end": 152.69
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी details देख",
+      "start": 152.69,
+      "end": 154.21
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं आपकी details ठीक है।",
+      "start": 152.99,
+      "end": 159.99
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ। pack करने वाला machine।",
+      "start": 159.99,
+      "end": 163.19
+    }
+  ],
+  "stats": {
+    "bot_turns": 21,
+    "buyer_turns": 20,
+    "longest_gap_s": 4.72,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 7,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

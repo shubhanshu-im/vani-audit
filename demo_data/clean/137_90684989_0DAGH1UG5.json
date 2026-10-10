@@ -1,0 +1,122 @@
+{
+  "call_id": "137_90684989_0DAGH1UG5",
+  "file": "data/recordings/137_90684989_0DAGH1UG5.mp3",
+  "duration_s": 76.46,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Sir जी आपको refurbished mobile Samsung M23GB 32GB की requirement है ना?",
+      "start": 0.09,
+      "end": 5.99
+    },
+    {
+      "role": "BUYER",
+      "text": "जी जी।",
+      "start": 7.47,
+      "end": 8.49
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए?",
+      "start": 9.97,
+      "end": 15.81
+    },
+    {
+      "role": "BUYER",
+      "text": "एक piece चाहिए था ma'am हमको personal use के लिए चाहिए था।",
+      "start": 18.21,
+      "end": 21.19
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। मैं देख पा रही हूं। आपको internal storage 32 GB चाहिए ना?",
+      "start": 22.21,
+      "end": 26.85
+    },
+    {
+      "role": "BUYER",
+      "text": "जी वैसे second hand phone ढूंढ रहा था वही देख रहा था।",
+      "start": 29.17,
+      "end": 33.29
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई अब brand के बारे में बात कर लेते हैं।",
+      "start": 34.61,
+      "end": 37.49
+    },
+    {
+      "role": "BUYER",
+      "text": "brand के बारे में।",
+      "start": 35.33,
+      "end": 36.25
+    },
+    {
+      "role": "BOT",
+      "text": "जी तो आप brand में क्या prefer करेंगे Samsung, Apple या कोई और?",
+      "start": 37.63,
+      "end": 41.87
+    },
+    {
+      "role": "BUYER",
+      "text": "prefer करेंगे। Vivo.",
+      "start": 39.15,
+      "end": 44.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं देख सकती हूं कि आपने RAM में 3 GB चुना है right?",
+      "start": 45.41,
+      "end": 48.79
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ RAM RAM का तो मैं ये 6 GB वाला सुना था।",
+      "start": 50.51,
+      "end": 55.31
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है समझ गई। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 56.35,
+      "end": 62.05
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक है भेज दीजिए।",
+      "start": 63.83,
+      "end": 65.27
+    },
+    {
+      "role": "BOT",
+      "text": "India Mart चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 66.39,
+      "end": 69.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Thank you. अरे।",
+      "start": 71.09,
+      "end": 76.79
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 4.36,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 4,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

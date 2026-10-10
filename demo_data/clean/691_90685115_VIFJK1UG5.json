@@ -1,0 +1,65 @@
+{
+  "call_id": "691_90685115_VIFJK1UG5",
+  "file": "data/recordings/691_90685115_VIFJK1UG5.mp3",
+  "duration_s": 48.17,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको AC ceiling fan bearing set की requirement है ना? क्या आप अभी भी line पे हैं? Please बताइए।",
+      "start": 0.09,
+      "end": 16.21
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आप इस conversation को continue करना चाहेंगे? Please बताइए।",
+      "start": 25.75,
+      "end": 29.33
+    },
+    {
+      "role": "BOT",
+      "text": "शायद आप अभी व्यस्त हैं इसलिए मैं call disconnect कर रही हूं। IndiaMART सुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 38.47,
+      "end": 44.45
+    }
+  ],
+  "stats": {
+    "bot_turns": 2,
+    "buyer_turns": 1,
+    "longest_gap_s": 9.54,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 4.35,
+        "end": 13.61,
+        "duration_s": 9.26,
+        "after_role": "BOT"
+      },
+      {
+        "start": 16.21,
+        "end": 25.75,
+        "duration_s": 9.54,
+        "after_role": "BOT"
+      },
+      {
+        "start": 29.33,
+        "end": 38.47,
+        "duration_s": 9.14,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

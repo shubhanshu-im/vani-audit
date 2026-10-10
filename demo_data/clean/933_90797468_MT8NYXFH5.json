@@ -1,0 +1,98 @@
+{
+  "call_id": "933_90797468_MT8NYXFH5",
+  "file": "data/recordings/933_90797468_MT8NYXFH5.mp3",
+  "duration_s": 70.27,
+  "language_code": "en-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello Suresh, you were looking for 14 inch HS and TCT saw blades for metal cutting size dimension 105 to 400 right?",
+      "start": 0.35,
+      "end": 8.95
+    },
+    {
+      "role": "BUYER",
+      "text": "I haven't done it.",
+      "start": 10.17,
+      "end": 11.31
+    },
+    {
+      "role": "BOT",
+      "text": "Got it. I am Tanya from IndiaMART. We have many good sellers available and I will connect you with the most suitable one shortly. First I would just like to confirm a few details. I can see you wanted 400 mm for diameter right? Yes. Perfect. Which thickness do you want like 2 um 2.5 mm or something else?",
+      "start": 12.83,
+      "end": 32.71
+    },
+    {
+      "role": "BUYER",
+      "text": "What madam?",
+      "start": 35.27,
+      "end": 35.83
+    },
+    {
+      "role": "BOT",
+      "text": "I was asking about the thickness you prefer. Would you like 2 mm, 2.5 mm or something else?",
+      "start": 36.95,
+      "end": 42.13
+    },
+    {
+      "role": "BUYER",
+      "text": "Two two two point seven okay.",
+      "start": 42.93,
+      "end": 45.05
+    },
+    {
+      "role": "BOT",
+      "text": "Do you need two point five millimeters?",
+      "start": 46.29,
+      "end": 48.15
+    },
+    {
+      "role": "BUYER",
+      "text": "Yes.",
+      "start": 48.73,
+      "end": 49.17
+    },
+    {
+      "role": "BOT",
+      "text": "I'll send you the seller details on WhatsApp where you can discuss the details and price directly.",
+      "start": 50.31,
+      "end": 55.25
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay Madam. தமிழ்நாடு Chennai and காஞ்சிபுரம்.",
+      "start": 55.99,
+      "end": 60.51
+    },
+    {
+      "role": "BOT",
+      "text": "Alright, thank you for choosing IndiaMART. Have a nice day.",
+      "start": 61.57,
+      "end": 64.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Okay thank you.",
+      "start": 65.55,
+      "end": 66.35
+    }
+  ],
+  "stats": {
+    "bot_turns": 6,
+    "buyer_turns": 6,
+    "longest_gap_s": 2.56,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

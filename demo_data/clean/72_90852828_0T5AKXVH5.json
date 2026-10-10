@@ -1,0 +1,80 @@
+{
+  "call_id": "72_90852828_0T5AKXVH5",
+  "file": "data/recordings/72_90852828_0T5AKXVH5.mp3",
+  "duration_s": 54.72,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको Neema electric grinder की requirement है ना?",
+      "start": 0.01,
+      "end": 3.63
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello. अरे Madam phone क्यों काट दिए?",
+      "start": 0.65,
+      "end": 7.13
+    },
+    {
+      "role": "BOT",
+      "text": "जी, मैं आपकी मदद के लिए यहीं हूं। आपको Nima electric grinder चाहिए था ना?",
+      "start": 9.29,
+      "end": 13.47
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ चाहिए था लेकिन आपने मेरी पूरी detail लिए बिना ही phone काट दिया।",
+      "start": 14.33,
+      "end": 19.09
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई अब पूरी detail लूँगी। मैं Tania बोल रही हूँ IndiaMART से। हमारे पास अच्छे sellers available हैं बस कुछ details confirm कर दीजिए। आपको कितने piece चाहिए होंगे?",
+      "start": 21.37,
+      "end": 30.37
+    },
+    {
+      "role": "BUYER",
+      "text": "अरे अभी बोला तो एक चीज चाहिए और जिला बता दिया सब कुछ बता दिया अब आपको फिर से बताऊं क्या? बहुत बढ़िया आपने एक",
+      "start": 31.47,
+      "end": 40.57
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया guys आपने एक speech बताया। अब बताइए इसमें आपको कौन सा...",
+      "start": 39.29,
+      "end": 43.29
+    },
+    {
+      "role": "BUYER",
+      "text": "आपको। आप बढ़िया हूँ धन्यवाद जी detail भी नहीं लिखती है किसी का मतलब है ना detail लिए बिना ही phone काट दिया मुझे नहीं चाहिए।",
+      "start": 42.31,
+      "end": 54.75
+    },
+    {
+      "role": "BOT",
+      "text": "मैं बढ़िया हूँ धन्यवाद।",
+      "start": 45.25,
+      "end": 46.75
+    }
+  ],
+  "stats": {
+    "bot_turns": 5,
+    "buyer_turns": 4,
+    "longest_gap_s": 2.46,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "0": 2,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

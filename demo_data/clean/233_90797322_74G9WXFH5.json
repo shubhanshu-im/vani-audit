@@ -1,0 +1,182 @@
+{
+  "call_id": "233_90797322_74G9WXFH5",
+  "file": "data/recordings/233_90797322_74G9WXFH5.mp3",
+  "duration_s": 158.04,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको 10 inch iron tower circle की requirement है ना?",
+      "start": 0.15,
+      "end": 3.81
+    },
+    {
+      "role": "BUYER",
+      "text": "होगा।",
+      "start": 6.13,
+      "end": 7.03
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ करिए आपकी requirement clear नहीं हुई। क्या आप 10 inch iron tower circle के लिए call कर रहे हैं?",
+      "start": 10.03,
+      "end": 15.17
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 16.05,
+      "end": 16.59
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी requirement clear नहीं हुई। क्या आप Ten in Silent Tower Circle के बारे में बात करना चाह रहे हैं?",
+      "start": 18.75,
+      "end": 24.21
+    },
+    {
+      "role": "BUYER",
+      "text": "उसका photo भेज सकते हैं क्या? photo आप seller को directly share कर दीजिएगा। अभी मेरे पास photo देखने की facility नहीं है।",
+      "start": 28.95,
+      "end": 37.89
+    },
+    {
+      "role": "BOT",
+      "text": "बस कुछ details confirm कर दीजिए। कितने kilogram या piece चाहिए होंगे आपको?",
+      "start": 37.89,
+      "end": 42.04
+    },
+    {
+      "role": "BUYER",
+      "text": "photo नहीं दिखा रहे तो ऐसे कैसे बोल सकते हैं? अगर आप photo दे देगा तभी तो मालूम पड़ेगा कितने guarantee अच्छा है कितने guarantee।",
+      "start": 42.91,
+      "end": 53.55
+    },
+    {
+      "role": "BOT",
+      "text": "seller ही आपको photo, warranty और बाकी details पूरी तरह बताएंगे। पहले quantity बता दीजिए ताकि मैं आपको सही seller से connect कर सकूं। कितने kilogram या piece चाहिए?",
+      "start": 55.99,
+      "end": 65.27
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं नहीं समझो बीस किलो वाला एक बार दिखाओ ना एक दो photo भेजो ना बीस किलो पंद्रह किलो ऐसे में।",
+      "start": 66.99,
+      "end": 74.59
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। चलिए अब type of requirement में क्या prefer करेंगे monthly या sample only या कोई और?",
+      "start": 76.45,
+      "end": 81.61
+    },
+    {
+      "role": "BUYER",
+      "text": "sample नहीं लिया वही तो वही चीज तो मैं बोल रहा हूं sample हो सकता है क्या?",
+      "start": 82.53,
+      "end": 86.03
+    },
+    {
+      "role": "BOT",
+      "text": "sample भेजने का decision seller ही लेंगे। आपने sample only select किया है बहुत बढ़िया।",
+      "start": 87.97,
+      "end": 92.73
+    },
+    {
+      "role": "BUYER",
+      "text": "तो media है मैं उससे भी sample देखना चाहता हूं।",
+      "start": 95.67,
+      "end": 98.61
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 100.73,
+      "end": 103.39
+    },
+    {
+      "role": "BUYER",
+      "text": "यही यही number से कर दो ना WhatsApp पे photo.",
+      "start": 106.37,
+      "end": 109.47
+    },
+    {
+      "role": "BOT",
+      "text": "मैं seller details WhatsApp पे भेज दूंगी। photo seller से ही share हो पाएगा। बस अपनी city और state बता दीजिए please।",
+      "start": 112.07,
+      "end": 118.19
+    },
+    {
+      "role": "BUYER",
+      "text": "video straight मतलब मैं समझाना।",
+      "start": 119.23,
+      "end": 121.15
+    },
+    {
+      "role": "BOT",
+      "text": "Sorry आपकी city और state अभी clear नहीं हो पाई। कृपया बता दीजिए आप किस city और state से बोल रहे हैं?",
+      "start": 123.11,
+      "end": 128.53
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 130.51,
+      "end": 131.33
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं आप अपना नाम बता दीजिए please.",
+      "start": 133.43,
+      "end": 135.61
+    },
+    {
+      "role": "BUYER",
+      "text": "यही। माफ़।",
+      "start": 137.91,
+      "end": 140.75
+    },
+    {
+      "role": "BOT",
+      "text": "माफ़ कीजिए आपकी आवाज़ clear नहीं आई। आप अपना नाम बता दीजिए please।",
+      "start": 140.41,
+      "end": 144.01
+    },
+    {
+      "role": "BUYER",
+      "text": "राजू राजे।",
+      "start": 144.19,
+      "end": 145.13
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है [NAME] जी आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। India Mart से।",
+      "start": 146.95,
+      "end": 153.65
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ okay.",
+      "start": 155.37,
+      "end": 156.15
+    }
+  ],
+  "stats": {
+    "bot_turns": 13,
+    "buyer_turns": 13,
+    "longest_gap_s": 4.74,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 9,
+      "1": 1
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

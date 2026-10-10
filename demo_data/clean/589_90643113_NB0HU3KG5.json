@@ -1,0 +1,147 @@
+{
+  "call_id": "589_90643113_NB0HU3KG5",
+  "file": "data/recordings/589_90643113_NB0HU3KG5.mp3",
+  "duration_s": 126.22,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको SS sink table की requirement है ना?",
+      "start": 0.01,
+      "end": 3.43
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। हाँ। Yes.",
+      "start": 1.71,
+      "end": 7.07
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tanya बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। चलिए अब overall length के बारे में बात कर लेते हैं। आपको कौन सा चाहिए 4 feet या कुछ और?",
+      "start": 8.15,
+      "end": 22.31
+    },
+    {
+      "role": "BUYER",
+      "text": "पाँच feet लंबा ठीक है अब बताइए SS grade में।",
+      "start": 23.63,
+      "end": 27.37
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। अब बताइए SS grade में क्या prefer करेंगे 304, 202 या कोई और?",
+      "start": 25.75,
+      "end": 30.85
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं SS में जैसे table पाँच feet चौड़ा दो feet दो feet चौड़ा पाँच feet लंबा उसमें एक sink होना चाहिए माने temporary kitchen type का।",
+      "start": 33.09,
+      "end": 43.51
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। पर SS grade में आप क्या prefer करेंगे जैसे 300, 400, 200, 2 या कुछ और?",
+      "start": 44.49,
+      "end": 49.83
+    },
+    {
+      "role": "BUYER",
+      "text": "Three hundred four क्या होता है?",
+      "start": 50.97,
+      "end": 52.25
+    },
+    {
+      "role": "BOT",
+      "text": "Three hundred four एक high grade stainless steel होता है जिसमें जंग कम लगता है। क्या आपको यही चाहिए या कोई और? three hundred four का ही rate बता दीजिए। rate की जानकारी आप seller से discuss कर सकते हैं वो आपको best rates देंगे। बस कुछ और details confirm कर दीजिए। ठीक है। आप अपनी city और state भी बता दीजिए please।",
+      "start": 53.61,
+      "end": 75.59
+    },
+    {
+      "role": "BUYER",
+      "text": "Noida.",
+      "start": 75.59,
+      "end": 76.53
+    },
+    {
+      "role": "BOT",
+      "text": "आप Noida Uttar Pradesh से बोल रहे हैं ना? क्या आप अभी line पर हैं? Please बता दीजिए।",
+      "start": 76.53,
+      "end": 92.13
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 91.63,
+      "end": 92.11
+    },
+    {
+      "role": "BOT",
+      "text": "हाँ लगता है। ठीक है आप Noida उत्तर प्रदेश से बोल रहे हैं ना? क्या आप अभी line पर हैं please बता दीजिए।",
+      "start": 92.31,
+      "end": 110.41
+    },
+    {
+      "role": "BUYER",
+      "text": "कहते हैं।",
+      "start": 110.41,
+      "end": 110.97
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है आप त्रिभुवन जी बोल रहे हैं ना?",
+      "start": 110.97,
+      "end": 113.89
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 114.57,
+      "end": 115.03
+    },
+    {
+      "role": "BOT",
+      "text": "आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं। IndiaMART चुनने के लिए धन्यवाद। आपका दिन शुभ हो।",
+      "start": 115.93,
+      "end": 123.63
+    },
+    {
+      "role": "BUYER",
+      "text": "ठीक okay.",
+      "start": 125.39,
+      "end": 126.39
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 8.74,
+    "gaps_over_5s": 2,
+    "long_gaps": [
+      {
+        "start": 80.81,
+        "end": 89.55,
+        "duration_s": 8.74,
+        "after_role": "BOT"
+      },
+      {
+        "start": 98.79,
+        "end": 106.89,
+        "duration_s": 8.1,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

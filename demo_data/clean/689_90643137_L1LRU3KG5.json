@@ -1,0 +1,111 @@
+{
+  "call_id": "689_90643137_L1LRU3KG5",
+  "file": "data/recordings/689_90643137_L1LRU3KG5.mp3",
+  "duration_s": 76.97,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello आपको सत्तानवे percent pure raw rhodium metal की requirement है ना?",
+      "start": 0.01,
+      "end": 4.67
+    },
+    {
+      "role": "BUYER",
+      "text": "जी।",
+      "start": 6.09,
+      "end": 6.45
+    },
+    {
+      "role": "BOT",
+      "text": "नमस्ते क्या आप वहां हैं? आपको 97% pure raw rhodium metal की requirement थी ना?",
+      "start": 14.29,
+      "end": 19.51
+    },
+    {
+      "role": "BUYER",
+      "text": "नमस्ते। जी जी।",
+      "start": 14.35,
+      "end": 21.83
+    },
+    {
+      "role": "BOT",
+      "text": "जी आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने kilograms या grams की जरूरत है?",
+      "start": 22.63,
+      "end": 29.71
+    },
+    {
+      "role": "BUYER",
+      "text": "हमको बिक्री करना है इसको।",
+      "start": 31.95,
+      "end": 35.05
+    },
+    {
+      "role": "BOT",
+      "text": "क्षमा कीजिए मैं समझ नहीं पाई। आप कितनी quantity चाहेंगे please बता दीजिए।",
+      "start": 34.53,
+      "end": 38.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हमारे पास पुराना rodial metal है आज rodial metal हमारे पास पुराना है। समझ गई पर मुझे quantity जाननी है।",
+      "start": 39.69,
+      "end": 47.8
+    },
+    {
+      "role": "BOT",
+      "text": "आपको कितने kilograms या grams की जरूरत है please बता दीजिए।",
+      "start": 47.8,
+      "end": 51.29
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ।",
+      "start": 52.75,
+      "end": 53.39
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है? 100 grams। चलिए अब purity के बारे में बात कर लेते हैं। आपको 99.6% चाहिए या कुछ और?",
+      "start": 54.29,
+      "end": 60.39
+    },
+    {
+      "role": "BUYER",
+      "text": "राज्य में बेचना है उनको बिक्री करना।",
+      "start": 63.05,
+      "end": 65.93
+    },
+    {
+      "role": "BOT",
+      "text": "selling related information के लिए कृपया customer care number 5 times 96 पर call करें। IndiaMART चुनने के लिए धन्यवाद।",
+      "start": 66.97,
+      "end": 73.97
+    }
+  ],
+  "stats": {
+    "bot_turns": 7,
+    "buyer_turns": 6,
+    "longest_gap_s": 7.84,
+    "gaps_over_5s": 1,
+    "long_gaps": [
+      {
+        "start": 6.45,
+        "end": 14.29,
+        "duration_s": 7.84,
+        "after_role": "BUYER"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "1": 4,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "call_id": "386_90797365_Y97EXXFH5",
+  "file": "data/recordings/386_90797365_Y97EXXFH5.mp3",
+  "duration_s": 130.18,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] जी आपको medicine cups की requirement है ना?",
+      "start": 0.01,
+      "end": 3.67
+    },
+    {
+      "role": "BUYER",
+      "text": "Hello.",
+      "start": 11.83,
+      "end": 13.71
+    },
+    {
+      "role": "BOT",
+      "text": "आपको medicine कब चाहिए थे ना? confirm कर दें please.",
+      "start": 14.21,
+      "end": 17.25
+    },
+    {
+      "role": "BUYER",
+      "text": "देने थे ना? ठीक है।",
+      "start": 15.39,
+      "end": 20.67
+    },
+    {
+      "role": "BOT",
+      "text": "आप जिस seller को call कर रहे थे वो available नहीं है और मैं IndiaMART से बोल रही हूं। आपको कितने piece चाहिए होंगे?",
+      "start": 23.11,
+      "end": 29.11
+    },
+    {
+      "role": "BUYER",
+      "text": "मैं खरीदने के लिए है।",
+      "start": 35.53,
+      "end": 39.81
+    },
+    {
+      "role": "BOT",
+      "text": "मैं आपकी मदद के लिए यहां हूं। medicine cups के लिए कितने piece चाहिए होंगे?",
+      "start": 40.81,
+      "end": 44.79
+    },
+    {
+      "role": "BUYER",
+      "text": "जी सर।",
+      "start": 47.03,
+      "end": 47.89
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गए आपको 10 pack चाहिए? capacity में क्या prefer करेंगे 2 milliliter या 2.5 milliliter या कुछ और?",
+      "start": 49.87,
+      "end": 55.61
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ। ठीक है।",
+      "start": 58.09,
+      "end": 60.61
+    },
+    {
+      "role": "BOT",
+      "text": "capacity में सबसे बड़ी option 125 milliliter है। आपको कौन सी चाहिए?",
+      "start": 63.07,
+      "end": 67.65
+    },
+    {
+      "role": "BUYER",
+      "text": "ये क्या वो इसमें video में बता रहा था biscuit packing के लिए।",
+      "start": 71.37,
+      "end": 77.83
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आपने packing के बारे में पूछा। Type of requirement में आपको monthly चाहिए, quarterly रहा, half yearly, yearly या सिर्फ sample only?",
+      "start": 79.73,
+      "end": 87.41
+    },
+    {
+      "role": "BUYER",
+      "text": "design simple चाहिए। नहीं मेरा मतलब था आपको ये सिर्फ sample के लिए चाहिए या regular monthly या yearly supply के लिए? इतना बड़ा।",
+      "start": 89.45,
+      "end": 101.99
+    },
+    {
+      "role": "BOT",
+      "text": "मैं पूछ रही थी कि आपको यह medicine कब सिर्फ sample के लिए चाहिए या हर महीने का सालाना supply के लिए? चीजें आपने बता दिया है अब बस यह बता दें। बहुत बढ़िया। आपका मैं",
+      "start": 104.03,
+      "end": 121.33
+    },
+    {
+      "role": "BUYER",
+      "text": "समय से आपको। केम?",
+      "start": 120.57,
+      "end": 124.85
+    }
+  ],
+  "stats": {
+    "bot_turns": 8,
+    "buyer_turns": 8,
+    "longest_gap_s": 8.16,
+    "gaps_over_5s": 3,
+    "long_gaps": [
+      {
+        "start": 3.67,
+        "end": 11.83,
+        "duration_s": 8.16,
+        "after_role": "BOT"
+      },
+      {
+        "start": 29.11,
+        "end": 35.53,
+        "duration_s": 6.42,
+        "after_role": "BOT"
+      },
+      {
+        "start": 112.09,
+        "end": 119.79,
+        "duration_s": 7.7,
+        "after_role": "BOT"
+      }
+    ]
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 1,
+    "cue_hits_by_speaker": {
+      "0": 3,
+      "1": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}

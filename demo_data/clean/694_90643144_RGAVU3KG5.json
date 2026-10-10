@@ -1,0 +1,58 @@
+{
+  "call_id": "694_90643144_RGAVU3KG5",
+  "file": "data/recordings/694_90643144_RGAVU3KG5.mp3",
+  "duration_s": 32.54,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "Hello [NAME] आपको M1 Apple refurbished laptop 13 inch की requirement है ना?",
+      "start": 0.19,
+      "end": 5.65
+    },
+    {
+      "role": "BUYER",
+      "text": "नहीं।",
+      "start": 10.31,
+      "end": 10.83
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं।",
+      "start": 12.11,
+      "end": 12.81
+    },
+    {
+      "role": "BUYER",
+      "text": "क्या आपको किसी और product की जरूरत है?",
+      "start": 12.81,
+      "end": 14.95
+    },
+    {
+      "role": "BOT",
+      "text": "हम एक season robot. मैं आपकी इस बात में मदद नहीं कर पाऊँगी। चलिए IndiaMART पे focus करते हैं। क्या आपको किसी और product की ज़रूरत है?",
+      "start": 17.27,
+      "end": 26.09
+    }
+  ],
+  "stats": {
+    "bot_turns": 3,
+    "buyer_turns": 2,
+    "longest_gap_s": 4.66,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "0",
+    "lines_reassigned_by_content": 2,
+    "cue_hits_by_speaker": {
+      "0": 1,
+      "1": 1
+    },
+    "ambiguous": true,
+    "reasons": [
+      "cue word tie between speakers"
+    ]
+  }
+}

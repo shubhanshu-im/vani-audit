@@ -1,0 +1,134 @@
+{
+  "call_id": "932_90685217_MVG2M1UG5",
+  "file": "data/recordings/932_90685217_MVG2M1UG5.mp3",
+  "duration_s": 134.21,
+  "language_code": "hi-IN",
+  "short_call": false,
+  "turns": [
+    {
+      "role": "BOT",
+      "text": "हेलो [NAME] जी आपको अब CTCT की requirement है ना?",
+      "start": 0.17,
+      "end": 3.97
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी हाँ जी।",
+      "start": 4.55,
+      "end": 5.43
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है मैं Tania बोल रही हूं IndiaMART से। हमारे पास कई अच्छे sellers available हैं जिनसे मैं अभी आपको connect करवाऊंगी। बस कुछ details confirm कर दीजिए। कितने quintal चाहिए होगी आपको?",
+      "start": 6.61,
+      "end": 16.75
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am जैसे मतलब कि अगर मैं नए business से start कर रहा हूं तो मैं सोच रहा था चाय का business करना चाहता था मैं। मैंने कहा अभी एक कोई छोटी opening की है दुकान की तो जैसे normal जैसे कम से कम कितना होता है पहले चाय का? इतनी लेनी पड़ती है?",
+      "start": 17.17,
+      "end": 31.87
+    },
+    {
+      "role": "BOT",
+      "text": "बहुत बढ़िया। आप शुरुआत के लिए एक अंदाजा बता दीजिए जैसे कि एक quintal या उससे कम कितनी quantity चाहिए होगी?",
+      "start": 33.01,
+      "end": 39.03
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am बीस kg मतलब अभी तो इतना तो बहुत होगा।",
+      "start": 39.43,
+      "end": 43.09
+    },
+    {
+      "role": "BOT",
+      "text": "ठीक है। चलिए अब के form के बारे में। जी बताइए आप कुछ कह रहे थे?",
+      "start": 44.13,
+      "end": 48.67
+    },
+    {
+      "role": "BUYER",
+      "text": "चलिए अब form के बारे में। भाई मैं मैं ऐसे कह रहा हूं कि अगर अभी ये बीस किलो ले ले अगर वो अच्छी आती है या फिर sample भी मिल सकता है क्या ऐसे का? चाय का तो फिर उसके according भाई वही चाय मंगवा ले। भाई चार पांच प्रकार की अगर BP कौन कौन सी आती है ऐसी चाय आती है बहुत सारी।",
+      "start": 44.39,
+      "end": 63.75
+    },
+    {
+      "role": "BOT",
+      "text": "जी sample और variety के लिए आप seller से बात कर सकते हैं। बस यह बता दीजिए कि tea form में आपको leaf dust या granules में से क्या चाहिए?",
+      "start": 64.89,
+      "end": 72.49
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am मैं समझा नहीं ये क्या होता है।",
+      "start": 73.79,
+      "end": 75.81
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं मैं समझा देती हूँ। Leaves यानी पत्ती वाली चाय, Dust बारीक चाय और Granular दानेदार चाय होती है। आप क्या prefer करेंगे?",
+      "start": 76.87,
+      "end": 84.27
+    },
+    {
+      "role": "BUYER",
+      "text": "हाँ जी दानेदार वाली और dust वाली दोनों चाहिएगी मेरे को।",
+      "start": 83.39,
+      "end": 86.83
+    },
+    {
+      "role": "BOT",
+      "text": "समझ गई। मैं देख पा रही हूं। आपको grade में OF ही चाहिए ना?",
+      "start": 87.91,
+      "end": 91.19
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am ये तो मैं नहीं समझता वो ऐसी वगैरह ऐसे तो पर मतलब पीने में अच्छी हो चाय मतलब ठीक हो मतलब कैसे।",
+      "start": 92.37,
+      "end": 99.55
+    },
+    {
+      "role": "BOT",
+      "text": "कोई बात नहीं मैं समझ सकती हूं। Great चाय की quality और size होता है। क्या मैं इसे OF मान लूं या आप seller से discuss करेंगे?",
+      "start": 100.97,
+      "end": 108.21
+    },
+    {
+      "role": "BUYER",
+      "text": "Ma'am यही था कि मतलब कि एक बार जैसे अगर इसका sample जैसे कभी चाय मंगवाते हैं तो जैसे sample कितने का चाय का अगर वो मिल जाता तो फिर उसी according वही मंगवा लेते फिर चाय कितने प्रकार की चाय है।",
+      "start": 110.03,
+      "end": 122.77
+    },
+    {
+      "role": "BOT",
+      "text": "sample और चाय के प्रकार की पूरी जानकारी आप seller से ले सकते हैं। आपको मैं seller details WhatsApp पे भेज दूंगी जिनसे आप details और price discuss कर सकते हैं।",
+      "start": 124.19,
+      "end": 132.33
+    },
+    {
+      "role": "BUYER",
+      "text": "को। हाँ जी।",
+      "start": 124.49,
+      "end": 133.51
+    }
+  ],
+  "stats": {
+    "bot_turns": 9,
+    "buyer_turns": 9,
+    "longest_gap_s": 1.82,
+    "gaps_over_5s": 0,
+    "long_gaps": []
+  },
+  "role_assignment": {
+    "bot_speaker_id": "1",
+    "lines_reassigned_by_content": 0,
+    "cue_hits_by_speaker": {
+      "1": 5,
+      "0": 0
+    },
+    "ambiguous": false,
+    "reasons": []
+  }
+}
