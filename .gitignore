@@ -3,3 +3,22 @@ data/
 .venv/
 __pycache__/
 *.pyc
+_incoming/
+# per-call outputs contain buyer names, cities and transcript text
+outputs/transcripts/
+outputs/signals/
+outputs/grades/
+outputs/sim/
+outputs/audio/
+outputs/.cache/
+*.log
+# aggregate outputs that quote real buyer lines / names
+outputs/test_results.json
+outputs/root_causes.json
+outputs/root_causes_review.md
+outputs/agreement.json
+outputs/audit/
+outputs/cowork/
+
+# real buyer lines from recordings (PII)
+outputs/demo_scenarios_real_calls.md

@@ -1,0 +1,614 @@
+{
+  "created_at": "2026-10-10T12:49:41+05:30",
+  "formula": "Priority = Frequency x Severity. Frequency = % of ALL audited calls in the cause. Severity = average over the cause's calls of Fatal = 3, Non-Fatal = 1.",
+  "gate": {
+    "min_calls": 10,
+    "min_pct": 1.5,
+    "min_batches": 3,
+    "type": "PROMPT",
+    "rule": "type PROMPT, >= 10 calls and >= 1.5% of audited calls, seen in >= 3 batches"
+  },
+  "total_calls": 713,
+  "ranking": [
+    {
+      "id": "C4",
+      "name": "Bot mishears or misses buyer's quantity and specs",
+      "description": "The bot fails to correctly capture the buyer's stated quantity or technical specifications due to ASR errors or not probing correctly.",
+      "type": "ASR",
+      "patterns": [
+        "b1p3",
+        "b2p2",
+        "b2p5",
+        "b3p5",
+        "b4p4",
+        "b5p3",
+        "b5p4",
+        "b5p5",
+        "b6p4",
+        "b6p5",
+        "b7p2",
+        "b7p4",
+        "b8p3",
+        "b9p2",
+        "b9p4",
+        "b10p4",
+        "b11p4",
+        "b12p3",
+        "b13p2",
+        "b13p4",
+        "b13p5",
+        "b14p2",
+        "b15p3"
+      ],
+      "n_calls": 177,
+      "fatal_calls": 110,
+      "n_batches": 15,
+      "batch_names": [
+        "Bot abruptly ends the call or closes without collecting required details",
+        "Bot closes the call or goes silent before collecting details",
+        "Bot ignores buyer's stated specs and asks banned open-ended questions",
+        "Bot misheard product names, numbers, or quantities leading to wrong lead data",
+        "Bot mishears buyer's product, quantity, or specs",
+        "Bot mishears buyer's quantity or spec and records incorrect value"
+      ],
+      "frequency_pct": 24.8,
+      "severity": 2.24,
+      "priority": 55.7,
+      "examples": [
+        "106_90684997_ZPKKH1UG5",
+        "107_90741474_EITIEL4H5",
+        "128_90852833_U13FKXVH5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type ASR is not fixable by the prompt",
+      "rank": 1
+    },
+    {
+      "id": "C1",
+      "name": "Bot promises WhatsApp instead of live seller or lead",
+      "description": "The bot deviates from the workflow by offering to send details on WhatsApp rather than creating a proper buy lead or transferring to a live seller.",
+      "type": "FLOW",
+      "patterns": [
+        "b1p1",
+        "b2p4",
+        "b3p1",
+        "b4p1",
+        "b5p1",
+        "b6p1",
+        "b7p1",
+        "b8p1",
+        "b9p5",
+        "b10p1",
+        "b11p3",
+        "b12p1",
+        "b13p1",
+        "b14p5",
+        "b15p2"
+      ],
+      "n_calls": 111,
+      "fatal_calls": 58,
+      "n_batches": 15,
+      "batch_names": [
+        "Bot closes call or creates vague lead instead of transferring to live seller",
+        "Bot closes call without creating lead or transferring to live seller, often promising WhatsApp instead",
+        "Bot closes prematurely without collecting lead details or transferring to seller",
+        "Bot closes with WhatsApp promise instead of live seller or lead",
+        "Bot offers WhatsApp details instead of live seller transfer",
+        "Bot offers WhatsApp instead of live seller or lead"
+      ],
+      "frequency_pct": 15.6,
+      "severity": 2.05,
+      "priority": 31.8,
+      "examples": [
+        "1000_90643234_F0C4W3KG5",
+        "101_90741485_EDP5FL4H5",
+        "104_90684996_4UZJH1UG5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt",
+      "rank": 2
+    },
+    {
+      "id": "Other",
+      "name": "Other",
+      "description": "Did not fit any cause",
+      "type": "OTHER",
+      "n_calls": 135,
+      "fatal_calls": 37,
+      "frequency_pct": 18.9,
+      "severity": 1.55,
+      "priority": 29.3,
+      "examples": [
+        "146_90684992_J35IH1UG5",
+        "15_90852801_CEEDJXVH5",
+        "178_90852868_5RFWKXVH5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type OTHER is not fixable by the prompt",
+      "rank": 3
+    },
+    {
+      "id": "C3",
+      "name": "Bot loops on the same question instead of moving forward",
+      "description": "The bot repeats the same question multiple times without making progress, causing buyer frustration and call drops.",
+      "type": "PROMPT",
+      "patterns": [
+        "b1p2",
+        "b2p1",
+        "b3p4",
+        "b5p2",
+        "b6p2",
+        "b7p3",
+        "b8p2",
+        "b9p3",
+        "b10p2",
+        "b11p2",
+        "b12p4",
+        "b13p3",
+        "b14p3",
+        "b15p4"
+      ],
+      "n_calls": 62,
+      "fatal_calls": 29,
+      "n_batches": 14,
+      "batch_names": [
+        "Bot looped excessively on the same question after the buyer already answered",
+        "Bot loops excessively on a question instead of moving forward or closing",
+        "Bot loops excessively or prematurely on location or product details",
+        "Bot loops on a question and exceeds retry limits",
+        "Bot loops on asking for details without progressing or closing",
+        "Bot loops on city/state or other repeated questions"
+      ],
+      "frequency_pct": 8.7,
+      "severity": 1.94,
+      "priority": 16.8,
+      "examples": [
+        "132_90741479_6HBYEL4H5",
+        "141_90643052_7VEUS3KG5",
+        "150_90643056_W0ZZS3KG5"
+      ],
+      "updates_prompt": true,
+      "gate_reason": "passes the importance gate",
+      "rank": 4
+    },
+    {
+      "id": "C2",
+      "name": "Bot closes call or creates lead without collecting details",
+      "description": "The bot ends the call or creates an incomplete lead without gathering the required buyer details like quantity, specs, name, or city.",
+      "type": "FLOW",
+      "patterns": [
+        "b9p6",
+        "b10p3",
+        "b11p1",
+        "b11p6",
+        "b12p2",
+        "b13p6",
+        "b14p1",
+        "b14p4",
+        "b14p6"
+      ],
+      "n_calls": 32,
+      "fatal_calls": 21,
+      "n_batches": 6,
+      "batch_names": [
+        "Bot closed the call or created a lead without capturing critical fields like quantity, product, or specs",
+        "Bot closes call without collecting required details or creating a lead",
+        "Bot closes call without creating lead or live transfer",
+        "Bot closes prematurely without collecting lead details",
+        "Bot closes without collecting required lead fields or creating a lead",
+        "Bot fails to capture buyer name, city, or state"
+      ],
+      "frequency_pct": 4.5,
+      "severity": 2.31,
+      "priority": 10.4,
+      "examples": [
+        "675_90685117_96XLK1UG5",
+        "686_90853011_RMPMMXVH5",
+        "689_90643137_L1LRU3KG5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt",
+      "rank": 5
+    },
+    {
+      "id": "C6",
+      "name": "Bot misidentifies buyer's product or intent",
+      "description": "The bot misunderstands what the buyer wants, capturing the wrong product category or treating a seller as a buyer.",
+      "type": "KNOWLEDGE",
+      "patterns": [
+        "b1p5",
+        "b2p6",
+        "b4p5",
+        "b8p5",
+        "b11p5",
+        "b12p5"
+      ],
+      "n_calls": 10,
+      "fatal_calls": 7,
+      "n_batches": 6,
+      "batch_names": [
+        "Bot captures wrong product or ignores buyer's product change",
+        "Bot gets stuck on the wrong product or category and ignores buyer's corrections",
+        "Bot ignores or misses critical product specifications and use cases",
+        "Bot misidentifies or changes the product requirement",
+        "Bot misidentifies the buyer's intent or product category",
+        "Bot misunderstands the buyer's intent and asks irrelevant questions"
+      ],
+      "frequency_pct": 1.4,
+      "severity": 2.4,
+      "priority": 3.4,
+      "examples": [
+        "10_90797297_EMBDVXFH5",
+        "133_90852837_DSXGKXVH5",
+        "301_90701921_L1D2PJXG5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type KNOWLEDGE is not fixable by the prompt; only 10 calls (1.4%)",
+      "rank": 6
+    },
+    {
+      "id": "C5",
+      "name": "Bot asks banned or irrelevant open-ended questions",
+      "description": "The bot goes off-topic or uses a question type that is not allowed by its instructions, derailing the conversation.",
+      "type": "PROMPT",
+      "patterns": [
+        "b1p4",
+        "b4p6",
+        "b6p6",
+        "b8p6",
+        "b10p5",
+        "b12p6",
+        "b15p1",
+        "b15p5",
+        "b15p6"
+      ],
+      "n_calls": 12,
+      "fatal_calls": 5,
+      "n_batches": 7,
+      "batch_names": [
+        "Bot asks off-topic or banned open-ended questions",
+        "Bot ignores buyer's product or quantity correction and continues with wrong item",
+        "Bot introduces itself incorrectly or asks irrelevant questions",
+        "Bot misclassifies buyer intent or product category",
+        "Bot offers seller connection but never actually transfers the call",
+        "Bot used banned open-ended questions during the conversation"
+      ],
+      "frequency_pct": 1.7,
+      "severity": 1.83,
+      "priority": 3.1,
+      "examples": [
+        "312_90852886_UWZ1LXVH5",
+        "357_90797563_9IAPZXFH5",
+        "569_90853005_B19KMXVH5"
+      ],
+      "updates_prompt": true,
+      "gate_reason": "passes the importance gate",
+      "rank": 7
+    },
+    {
+      "id": "C12",
+      "name": "Bot closes without collecting quantity, specs, or buyer details",
+      "description": "Bot ends the call without capturing the buyer's quantity, specifications, name, or location, failing to create a lead.",
+      "type": "FLOW",
+      "patterns": [
+        "b4p2"
+      ],
+      "n_calls": 4,
+      "fatal_calls": 3,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes without collecting quantity, specs, or buyer details"
+      ],
+      "frequency_pct": 0.6,
+      "severity": 2.5,
+      "priority": 1.4,
+      "examples": [
+        "313_90852891_8IF4LXVH5",
+        "339_90797343_6BN0XXFH5",
+        "365_90797565_ZBIRZXFH5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 4 calls (0.6%); seen in only 1 batch(es)",
+      "rank": 8
+    },
+    {
+      "id": "C17",
+      "name": "Bot asks for quantity after buyer already stated it",
+      "description": "Bot misses the buyer's initial quantity statement and asks for it again later, missing the opportunity to confirm.",
+      "type": "FLOW",
+      "patterns": [
+        "b7p6"
+      ],
+      "n_calls": 4,
+      "fatal_calls": 3,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot asks for quantity after buyer already stated it"
+      ],
+      "frequency_pct": 0.6,
+      "severity": 2.5,
+      "priority": 1.4,
+      "examples": [
+        "509_90797369_7U9HXXFH5",
+        "512_90685076_EED0K1UG5",
+        "540_90702700_G4JEGPXG5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 4 calls (0.6%); seen in only 1 batch(es)",
+      "rank": 9
+    },
+    {
+      "id": "C15",
+      "name": "Bot closes call without collecting any lead details",
+      "description": "Bot ends the conversation before gathering product, quantity, or buyer information, failing to create a lead or transfer.",
+      "type": "PROMPT",
+      "patterns": [
+        "b6p3"
+      ],
+      "n_calls": 3,
+      "fatal_calls": 2,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes call without collecting any lead details"
+      ],
+      "frequency_pct": 0.4,
+      "severity": 2.33,
+      "priority": 1.0,
+      "examples": [
+        "470_90685058_U6YFJ1UG5",
+        "477_90685064_XZXNJ1UG5",
+        "442_90741570_WV9UGL4H5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "only 3 calls (0.4%); seen in only 1 batch(es)",
+      "rank": 10
+    },
+    {
+      "id": "C18",
+      "name": "Bot closes the call or creates a lead without collecting required details",
+      "description": "The bot ends the conversation or generates a lead prematurely without gathering the buyer's name, location, quantity, or product specifications.",
+      "type": "FLOW",
+      "patterns": [
+        "b8p4"
+      ],
+      "n_calls": 3,
+      "fatal_calls": 2,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes the call or creates a lead without collecting required details"
+      ],
+      "frequency_pct": 0.4,
+      "severity": 2.33,
+      "priority": 1.0,
+      "examples": [
+        "579_90741613_1UJEHL4H5",
+        "58_90852822_XZ52KXVH5",
+        "593_90685100_XUUAK1UG5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 3 calls (0.4%); seen in only 1 batch(es)",
+      "rank": 11
+    },
+    {
+      "id": "C13",
+      "name": "Bot loops on product confirmation or specs",
+      "description": "Bot gets stuck repeatedly asking for product confirmation or specifications even when the buyer has already provided them.",
+      "type": "FLOW",
+      "patterns": [
+        "b4p3"
+      ],
+      "n_calls": 3,
+      "fatal_calls": 1,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot loops on product confirmation or specs"
+      ],
+      "frequency_pct": 0.4,
+      "severity": 1.67,
+      "priority": 0.7,
+      "examples": [
+        "310_90852876_E9IZKXVH5",
+        "341_90797345_W4X1XXFH5",
+        "343_90797347_KY43XXFH5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 3 calls (0.4%); seen in only 1 batch(es)",
+      "rank": 12
+    },
+    {
+      "id": "C16",
+      "name": "Bot fails to collect name, city, or state before closing",
+      "description": "Bot ends the call without gathering basic buyer details like name, city, or state, and does not create a lead.",
+      "type": "FLOW",
+      "patterns": [
+        "b7p5"
+      ],
+      "n_calls": 3,
+      "fatal_calls": 1,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot fails to collect name, city, or state before closing"
+      ],
+      "frequency_pct": 0.4,
+      "severity": 1.67,
+      "priority": 0.7,
+      "examples": [
+        "538_90643102_9PIEU3KG5",
+        "518_90643096_V23CU3KG5",
+        "544_90702687_3GLNAPXG5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 3 calls (0.4%); seen in only 1 batch(es)",
+      "rank": 13
+    },
+    {
+      "id": "C19",
+      "name": "Bot closes prematurely without collecting required lead details",
+      "description": "The bot ends the call or promises WhatsApp without capturing quantity, name, location, or transferring to a live seller.",
+      "type": "FLOW",
+      "patterns": [
+        "b9p1"
+      ],
+      "n_calls": 2,
+      "fatal_calls": 1,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes prematurely without collecting required lead details"
+      ],
+      "frequency_pct": 0.3,
+      "severity": 2.0,
+      "priority": 0.6,
+      "examples": [
+        "630_90685103_SRFBK1UG5",
+        "648_90741631_ETBLHL4H5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 2 calls (0.3%); seen in only 1 batch(es)",
+      "rank": 14
+    },
+    {
+      "id": "C10",
+      "name": "Bot closes call as no requirement despite buyer stating a product need",
+      "description": "Bot incorrectly determines there is no requirement and closes the call without collecting quantity, name, or location.",
+      "type": "FLOW",
+      "patterns": [
+        "b3p3"
+      ],
+      "n_calls": 1,
+      "fatal_calls": 1,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot closes call as no requirement despite buyer stating a product need"
+      ],
+      "frequency_pct": 0.1,
+      "severity": 3.0,
+      "priority": 0.4,
+      "examples": [
+        "243_90852860_1ASSKXVH5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 1 calls (0.1%); seen in only 1 batch(es)",
+      "rank": 15
+    },
+    {
+      "id": "C11",
+      "name": "Bot fails to capture critical specs and closes with vague WhatsApp offer",
+      "description": "Bot asks for specifications but fails to capture the buyer's answers and closes the call with a vague promise to send details via WhatsApp.",
+      "type": "FLOW",
+      "patterns": [
+        "b3p6"
+      ],
+      "n_calls": 1,
+      "fatal_calls": 1,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot fails to capture critical specs and closes with vague WhatsApp offer"
+      ],
+      "frequency_pct": 0.1,
+      "severity": 3.0,
+      "priority": 0.4,
+      "examples": [
+        "286_90701833_UIRJ6JXG5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 1 calls (0.1%); seen in only 1 batch(es)",
+      "rank": 16
+    },
+    {
+      "id": "C7",
+      "name": "Bot fails to collect required lead details like name and location",
+      "description": "Bot closes the call or creates a lead without capturing the buyer's name and city/state, which are required before connecting to a seller.",
+      "type": "FLOW",
+      "patterns": [
+        "b1p6"
+      ],
+      "n_calls": 1,
+      "fatal_calls": 0,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot fails to collect required lead details like name and location"
+      ],
+      "frequency_pct": 0.1,
+      "severity": 1.0,
+      "priority": 0.1,
+      "examples": [
+        "135_90852838_8NIHKXVH5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "type FLOW is not fixable by the prompt; only 1 calls (0.1%); seen in only 1 batch(es)",
+      "rank": 17
+    },
+    {
+      "id": "C8",
+      "name": "Bot ignores or fails to capture critical buyer requirements",
+      "description": "The bot misses important details like quantity, specific sizes, or buyer intent, and closes the call too early.",
+      "type": "PROMPT",
+      "patterns": [
+        "b2p3"
+      ],
+      "n_calls": 1,
+      "fatal_calls": 0,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot ignores or fails to capture critical buyer requirements"
+      ],
+      "frequency_pct": 0.1,
+      "severity": 1.0,
+      "priority": 0.1,
+      "examples": [
+        "191_90741506_ZYFUFL4H5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "only 1 calls (0.1%); seen in only 1 batch(es)",
+      "rank": 18
+    },
+    {
+      "id": "C9",
+      "name": "Bot asks for quantity or specs when buyer is asking for photos or verification",
+      "description": "Bot ignores the buyer's request for visual verification or photos and continues asking for quantity or specifications.",
+      "type": "PROMPT",
+      "patterns": [
+        "b3p2"
+      ],
+      "n_calls": 1,
+      "fatal_calls": 0,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot asks for quantity or specs when buyer is asking for photos or verification"
+      ],
+      "frequency_pct": 0.1,
+      "severity": 1.0,
+      "priority": 0.1,
+      "examples": [
+        "272_90741538_905EGL4H5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "only 1 calls (0.1%); seen in only 1 batch(es)",
+      "rank": 19
+    },
+    {
+      "id": "C14",
+      "name": "Bot asks banned questions or fails to handle buyer's language preference",
+      "description": "Bot asks questions that are not allowed in the prompt or refuses to speak the buyer's requested language, causing the call to fail.",
+      "type": "PROMPT",
+      "patterns": [
+        "b5p6"
+      ],
+      "n_calls": 1,
+      "fatal_calls": 0,
+      "n_batches": 1,
+      "batch_names": [
+        "Bot asks banned questions or fails to handle buyer's language preference"
+      ],
+      "frequency_pct": 0.1,
+      "severity": 1.0,
+      "priority": 0.1,
+      "examples": [
+        "391_90852937_DGRPLXVH5"
+      ],
+      "updates_prompt": false,
+      "gate_reason": "only 1 calls (0.1%); seen in only 1 batch(es)",
+      "rank": 20
+    }
+  ]
+}

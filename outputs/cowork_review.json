@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-10-10T16:45:00+05:30",
+  "reviewer": "Sarvam Cowork (knowledge base: VANI audit evidence)",
+  "decisions": [
+    {
+      "cause_id": "C3",
+      "cause_name": "Bot loops on the same question instead of moving forward",
+      "decision": "reword",
+      "reason": "Loop is real (call 132 asked quantity ~4x, over the 3-ask limit), but the proposed text contradicted the prompt's own counting rules and, read literally, would close a field after a single rephrase.",
+      "section": "Collection Control - Applies to Every Handler and Phase",
+      "insert_after": "After the final permitted ask receives no valid resolution",
+      "final_text": "- A reworded, rephrased, or example-filled version of a field question is the same question, not a new one: it counts against that field's existing ask limit and never resets or extends it. Once a field's limit is reached, do not rephrase, reopen, or re-ask it — close it as exhausted and move on."
+    },
+    {
+      "cause_id": "C5",
+      "cause_name": "Bot asks banned or irrelevant open-ended questions",
+      "decision": "drop",
+      "reason": "The banned-question rule already exists verbatim and 'once requirements are collected -> FINALISATION' is already covered; the extra clause would push toward the premature-closing failure seen in the example calls."
+    },
+    {
+      "cause_id": "C3",
+      "cause_name": "Bot loops on the same question instead of moving forward (iteration 2, from Sarvam eval failures)",
+      "decision": "keep",
+      "reason": "Sarvam evals of VANI-after v1 (rule in the state context) still asked city/state 4-6 times in 5 of 9 runs: the Location Collection section says location is complete only after explicit confirmation and to ask again, which overrides the general limit. Iteration 2 makes location obey the same 3-ask limit inside its own section.",
+      "section": "Location Collection Principles",
+      "insert_after": "Location collection is complete only after both city and state have been explicitly confirmed by the buyer.",
+      "final_text": "- Location follows Collection Control: city and state together may be requested at most 3 times in total, counting every rephrasing, explanation followed by a request, or request for a nearby city, district or landmark. If the buyer still has not given a usable city after the third request, stop asking, say the seller will confirm the location directly, mark location as exhausted and move to FINALISATION. A missing location never blocks closing."
+    }
+  ],
+  "reviewed_at_iteration2": "2026-10-10T17:45:00+05:30"
+}

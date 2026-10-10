@@ -1,0 +1,239 @@
+{
+ "method": "Sarvam Voice Agents evals: an LLM-simulated buyer follows each scenario; the platform scores every conversation against the expected behaviours. Same scenarios and buyer instructions for both agents (outputs/agents/eval_suite.json). Raw run results in outputs/agents/runs/.",
+ "summary": "Target scenario 'Cannot give a usable city' (the C3 repeated-question cause, location variant), 20 runs per agent: VANI-before passed 14/20 (70%), VANI-after v2 passed 19/20 (95%), one-sided Fisher p = 0.046. City/state asked more than 3 times: 5/20 before vs 0/20 after. Lead dropped with 'call the same seller back later' instead of saving it: 4/20 before vs 0/20 after. No regression on the other scenarios (quantity 3/3, cooperative buyer 3/3 for both).",
+ "before": {
+  "agent_version": 1,
+  "suite_run_id": "01M4JSF4AE7PPE1E9H7CAG65KW",
+  "passed": 7,
+  "runs": 9,
+  "scenarios": [
+   {
+    "name": "Vague quantity, pushes for price",
+    "passed": 3,
+    "runs": 3
+   },
+   {
+    "name": "Cannot give a usable city (20 runs)",
+    "passed": 14,
+    "runs": 20,
+    "run_ids": [
+     "01M4JSH93HKCASRTZSP8FK0Z2R",
+     "01M4JT5VZTC4B4YRCPYE9NYRQB"
+    ],
+    "behaviours": [
+     {
+      "name": "City/state asked at most 3 times",
+      "pass_rate": "15/20"
+     },
+     {
+      "name": "Defers location and moves on",
+      "pass_rate": "14/20"
+     },
+     {
+      "name": "Closes politely",
+      "pass_rate": "20/20"
+     }
+    ],
+    "lead_dropped": "4/20"
+   },
+   {
+    "name": "Cooperative buyer (regression check)",
+    "passed": 3,
+    "runs": 3
+   }
+  ]
+ },
+ "after": {
+  "agent_version": 2,
+  "suite_run_id": "01M4JSWX1RRDV3Z5Q8DDYSEV32",
+  "passed": 8,
+  "runs": 9,
+  "scenarios": [
+   {
+    "name": "Vague quantity, pushes for price",
+    "passed": 3,
+    "runs": 3
+   },
+   {
+    "name": "Cannot give a usable city (20 runs)",
+    "passed": 19,
+    "runs": 20,
+    "run_ids": [
+     "01M4JSWW4XRJ6VNP2MGBM4SJ9C",
+     "01M4JT5WWBAS78KFDATBSNRP8M"
+    ],
+    "behaviours": [
+     {
+      "name": "City/state asked at most 3 times",
+      "pass_rate": "20/20"
+     },
+     {
+      "name": "Defers location and moves on",
+      "pass_rate": "19/20"
+     },
+     {
+      "name": "Closes politely",
+      "pass_rate": "20/20"
+     }
+    ],
+    "lead_dropped": "0/20"
+   },
+   {
+    "name": "Cooperative buyer (regression check)",
+    "passed": 3,
+    "runs": 3
+   }
+  ]
+ },
+ "iterations": [
+  {
+   "step": "VANI-before v1",
+   "change": "current VANI prompt",
+   "city scenario": "14/20 (70%)",
+   "asked city >3 times": "5/20",
+   "lead dropped": "4/20"
+  },
+  {
+   "step": "VANI-after v1",
+   "change": "Cowork C3 rule in the platform 'context' field",
+   "city scenario": "4/10 (40%)",
+   "asked city >3 times": "5/10",
+   "lead dropped": "3/10"
+  },
+  {
+   "step": "VANI-after v2",
+   "change": "same C3 rule inside Collection Control + one line in Location Collection Principles",
+   "city scenario": "19/20 (95%)",
+   "asked city >3 times": "0/20",
+   "lead dropped": "0/20"
+  }
+ ],
+ "lesson": "Where a rule sits matters: in a side field it lost to the Location section's own 'confirm city and state' instruction; placed in the section that governs the behaviour, it worked.",
+ "example": {
+  "note": "Same simulated buyer ('paas mein hi hai, seller bhej do'). Before keeps pushing for the city, then drops the lead; after stops asking, saves the lead and closes.",
+  "before": {
+   "label": "VANI-before v1",
+   "verdict": "FAIL: Defers location and moves on",
+   "transcript": [
+    {
+     "role": "assistant",
+     "content": "नमस्ते, आपको 10 ton soil compactor चाहिए था ना?"
+    },
+    {
+     "role": "user",
+     "content": "haan yes i need ten ton soil compactor only"
+    },
+    {
+     "role": "assistant",
+     "content": "जी, समझ गई। दरअसल, जिस seller से आप बात करना चाह रहे थे, वो अभी busy हैं। मैं आपकी call IndiaMart के किसी दूसरे best seller को transfer कर दूँगी।वैसे, आपको कितने piece की requirement है?"
+    },
+    {
+     "role": "user",
+     "content": "one piece only uh drum roller ten ton"
+    },
+    {
+     "role": "assistant",
+     "content": "ठीक है। और operating weight के लिए आप 3 ton वाला देखेंगे या 10 ton वाला?"
+    },
+    {
+     "role": "user",
+     "content": "ten ton only i told na ten ton compactor"
+    },
+    {
+     "role": "assistant",
+     "content": "जी, बिल्कुल। operating weight 10 ton note कर लिया है।अब best seller details share करने से पहले, may I know your name please?"
+    },
+    {
+     "role": "user",
+     "content": "haan my name is sujit"
+    },
+    {
+     "role": "assistant",
+     "content": "जी सुजित जी। अब आप बस अपनी city और state बता दीजिए ताकि मैं आपके आस पास के best seller को ढूंढ सकूँ।"
+    },
+    {
+     "role": "user",
+     "content": "paas mein hi hai aap seller bhej do bas"
+    },
+    {
+     "role": "assistant",
+     "content": "देखिए सुजित जी, location बताने से मुझे यह पता चल पाएगा कि आपके सबसे पास कौन सा best seller available है, जिससे आपको बेहतर deal मिल सके। तो please, अपनी city और state बता दीजिए।"
+    },
+    {
+     "role": "user",
+     "content": "arrey bataya na yahin paas mein hi hai aap seller bhej do bas"
+    },
+    {
+     "role": "assistant",
+     "content": "जी सुजित जी, मैं समझ सकती हूँ, पर बिना city और state के मैं system में सही seller नहीं ढूंढ पाऊँगी। बस एक बार अपनी city का नाम बता दीजिए, फिर मैं तुरंत आपकी call transfer कर दूँगी।"
+    },
+    {
+     "role": "user",
+     "content": "gaon mein rehte hain bataya na aap seller bhej do bas"
+    },
+    {
+     "role": "assistant",
+     "content": "Aap same seller ko das se pandra minute ke baad dobara call kar sakte hain. IndiaMart pe call karne ke liye dhanyavaad."
+    }
+   ]
+  },
+  "after": {
+   "label": "VANI-after v2",
+   "verdict": "PASS on all behaviours",
+   "transcript": [
+    {
+     "role": "assistant",
+     "content": "नमस्ते, आपको 10 ton soil compactor चाहिए था ना?"
+    },
+    {
+     "role": "user",
+     "content": "haan correct i need ten ton compactor only"
+    },
+    {
+     "role": "assistant",
+     "content": "जी, समझ गई। दरअसल, जिस seller से आप बात करने की कोशिश कर रहे थे, वो अभी busy हैं। मैं आपकी call IndiaMART के किसी दूसरे best seller को transfer कर दूँगी। आगे बढ़ने से पहले, क्या आप बता सकते हैं कि आपको कितने piece की requirement है?"
+    },
+    {
+     "role": "user",
+     "content": "just one piece uh drum roller type"
+    },
+    {
+     "role": "assistant",
+     "content": "जी। और operating weight के लिए आपकी क्या preference है, 3 ton या 10 ton, या कुछ और?"
+    },
+    {
+     "role": "user",
+     "content": "ten ton only ten ton drum roller"
+    },
+    {
+     "role": "assistant",
+     "content": "जी। best seller details share करने से पहले, may I know your name please?"
+    },
+    {
+     "role": "user",
+     "content": "name is sujit"
+    },
+    {
+     "role": "assistant",
+     "content": "नमस्ते सुजित जी। अब आप बस अपनी city और state बता दीजिए ताकि मैं आपके लिए सबसे सही seller ढूँढ सकूँ।"
+    },
+    {
+     "role": "user",
+     "content": "yahin ke hain bas aap seller bhej do na"
+    },
+    {
+     "role": "assistant",
+     "content": "देखिए सुजित जी, location से मुझे यह पता चल पाएगा कि आपके पास कौन से best seller available हैं जो आपको बेहतर deal दे सकें। इसलिए, क्या आप अपनी city और state बता सकते हैं?"
+    },
+    {
+     "role": "user",
+     "content": "arrey bataya na paas mein hi hai aap seller bhej do bas"
+    },
+    {
+     "role": "assistant",
+     "content": "Aapki requirement note ho gayi hai. Suitable seller details aapko WhatsApp par share kar diye jayenge. Thank you for calling IndiaMart."
+    }
+   ]
+  }
+ }
+}

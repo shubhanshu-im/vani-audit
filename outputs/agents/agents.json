@@ -1,0 +1,37 @@
+{
+ "platform": "Sarvam Voice Agents (Samvaad), configured via the Sarvam Voice Agents MCP",
+ "org_id": "01a11108-b3c8-7cfe-85ac-1514553e5c64",
+ "workspace_id": "01a11108-b3cc-76cb-a700-6dc69f0148d7",
+ "agents": {
+  "before": {
+   "app_id": "VANI-before-f146c2d8-1db4",
+   "name": "VANI-before",
+   "version": 1,
+   "prompt": "outputs/agents/vani_before.txt (real VANI buyer-side prompt, main redirect-flow state, 75,348 chars)",
+   "eval_suite_id": "01M4JSESH23XTT36TGD8E7PB01"
+  },
+  "after": {
+   "app_id": "VANI-after-ae6744db-fe35",
+   "name": "VANI-after",
+   "version": 2,
+   "prompt": "outputs/agents/vani_after.txt: the same rendered VANI prompt + the Cowork-approved C3 rule (Collection Control) + a 3-ask cap line in Location Collection Principles (76,098 chars)",
+   "eval_suite_id": "01M4JSET69DK6DZ1QR0A7367V8"
+  }
+ },
+ "only_difference": "Two added lines, nothing removed. (1) Collection Control: 'A reworded, rephrased, or example-filled version of a field question is the same question, not a new one: it counts against that field's existing ask limit and never resets or extends it. Once a field's limit is reached, do not rephrase, reopen, or re-ask it, close it as exhausted and move on.' (2) Location Collection Principles: 'Location follows Collection Control: city and state together may be requested at most 3 times in total, counting every rephrasing... If the buyer still has not given a usable city after the third request, stop asking, say the seller will confirm the location directly, mark location as exhausted and move to FINALISATION. A missing location never blocks closing.'",
+ "demo_context": {
+  "product_name": "10 ton soil compactor",
+  "live_seller": false,
+  "voice": "Aparna - Support Agent (Hindi)",
+  "languages": [
+   "Hindi",
+   "English",
+   "Telugu"
+  ],
+  "post_call_variables": "call_outcome, buyer_disposition, quantity, quantity_unit, specifications, quantity_asked_count, call_step (LOOP_DETECTED) ... extracted from the transcript after each call"
+ },
+ "version_history": {
+  "after_v1": "rule only in the start state's context field (no effect, see eval_results.json iterations)",
+  "after_v2": "rules inside the prompt text"
+ }
+}

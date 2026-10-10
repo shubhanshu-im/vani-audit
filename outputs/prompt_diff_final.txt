@@ -1,0 +1,20 @@
+--- current
++++ final (reviewed)
+@@ -76,6 +76,8 @@
+ 
+ - After the final permitted ask receives no valid resolution, set @call_step to LOOP_DETECTED and close that field as exhausted. Briefly defer the detail to the seller and continue; never ask permission to skip or reopen it through a handler. Explicit refusal or seller deferral may close a field earlier.
+ 
++- A reworded, rephrased, or example-filled version of a field question is the same question, not a new one: it counts against that field's existing ask limit and never resets or extends it. Once a field's limit is reached, do not rephrase, reopen, or re-ask it — close it as exhausted and move on.
++
+ - If product identification/requirement confirmation is exhausted, do not create a lead or advance to collection: set @buyer_disposition to 'BL Deleted', then @call_outcome to 'No Product Requirement', and invoke end_interaction with a brief polite closing.
+ 
+ - If transfer consent is exhausted without agreement, do not transfer or mark silence/ambiguity as refusal. Set @buyer_disposition and then @call_outcome to 'BL Enriched', invoke end_interaction, and use the existing seller-details closing. Explicit refusals retain their existing handling.
+@@ -1464,6 +1466,8 @@
+ 
+ - Location collection is complete only after both city and state have been explicitly confirmed by the buyer.
+ 
++- Location follows Collection Control: city and state together may be requested at most 3 times in total, counting every rephrasing, explanation followed by a request, or request for a nearby city, district or landmark. If the buyer still has not given a usable city after the third request, stop asking, say the seller will confirm the location directly, mark location as exhausted and move to FINALISATION. A missing location never blocks closing.
++
+ ## Location Question Phrasing Rules 
+ 
+ {% if triangulation_response_value == "0" and triangulation_response_city != "" %}

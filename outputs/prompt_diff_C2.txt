@@ -1,0 +1,15 @@
+--- old (current)
++++ new (C2 fix)
+@@ -72,9 +72,9 @@
+ 
+ - First process the latest buyer response and capture valid information. Complete any required confirmation only within the same field's remaining allowance. Never fabricate or mark an unconfirmed value as confirmed to advance.
+ 
+-- Before selecting a question, exclude fields already collected, confirmed, validly inferred, deferred, not applicable, or exhausted. A blank value alone does not make a closed field eligible. If the pending field remains eligible and below its limit, ask it; otherwise advance through the Collection Objective Queue.
+-
+-- After the final permitted ask receives no valid resolution, set @call_step to LOOP_DETECTED and close that field as exhausted. Briefly defer the detail to the seller and continue; never ask permission to skip or reopen it through a handler. Explicit refusal or seller deferral may close a field earlier.
++- Before selecting a question, check if the field is exhausted or deferred; if so, skip it and move to the next eligible field. Do not ask again.
++
++- After the final permitted ask receives no valid resolution, set @call_step to LOOP_DETECTED, close that field as exhausted, and immediately defer the detail to the seller. Continue to the next eligible question or finalisation without asking permission to skip.
+ 
+ - If product identification/requirement confirmation is exhausted, do not create a lead or advance to collection: set @buyer_disposition to 'BL Deleted', then @call_outcome to 'No Product Requirement', and invoke end_interaction with a brief polite closing.
+ 

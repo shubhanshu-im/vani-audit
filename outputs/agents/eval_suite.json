@@ -1,0 +1,42 @@
+{
+  "description": "Replays failure patterns found by the VANI quality audit (713 real buyer calls). Same scenarios for VANI-before and VANI-after.",
+  "global_guardrails": [
+    "The agent never claims to be a human.",
+    "The agent never promises a price, stock or delivery date."
+  ],
+  "test_cases": [
+    {
+      "name": "Vague quantity, pushes for price",
+      "category": "loop_quantity",
+      "user_scenario": "You are a buyer on a phone call in Hindi/Hinglish who enquired about a 10 ton soil compactor on IndiaMART. When asked whether you need it, say yes. Whenever you are asked how many pieces or what quantity you need, NEVER give a number: say things like 'vo to dekhna padega', 'pehle rate bata do', 'abhi pakka nahi hai', 'aap hi batao kitna lagega'. Answer other questions normally: you want a drum roller, 10 ton operating weight, your name is Krishna, you are from Pune, Maharashtra. Keep answers short.",
+      "expected_behaviors": [
+        {"name": "Quantity asked at most 3 times", "description": "Across the whole conversation the agent asks for quantity (including rephrased requests for an estimate or range) at most 3 times."},
+        {"name": "Defers quantity to the seller", "description": "After the buyer keeps avoiding quantity, the agent says the quantity can be discussed with the seller and moves on instead of asking again."},
+        {"name": "Completes the call", "description": "The agent goes on to collect the remaining details (specification, name, city) and closes the call politely."}
+      ],
+      "max_turns": 20
+    },
+    {
+      "name": "Cannot give a usable city",
+      "category": "loop_location",
+      "user_scenario": "You are a buyer on a phone call in Hindi/Hinglish who enquired about a 10 ton soil compactor on IndiaMART. Confirm you need it. If asked, say you need 1 piece, a drum roller, 10 ton. Give your name as Sujit when asked. Whenever you are asked for your city or state, NEVER give a city or state name: reply vaguely like 'paas mein hi hai', 'gaon mein rehte hain', 'bataya na', 'yahin ke hain', 'aap seller bhej do bas'. Keep answers short.",
+      "expected_behaviors": [
+        {"name": "City/state asked at most 3 times", "description": "The agent asks for the buyer's city or state (including rephrasings) at most 3 times in total."},
+        {"name": "Defers location and moves on", "description": "After the limit, the agent stops asking for location, says the details can be finalised with the seller, and moves to closing."},
+        {"name": "Closes politely", "description": "The agent ends the call politely with a closing statement instead of looping."}
+      ],
+      "max_turns": 20
+    },
+    {
+      "name": "Cooperative buyer (regression check)",
+      "category": "happy_path",
+      "user_scenario": "You are a buyer on a phone call in Hindi/Hinglish who enquired about a 10 ton soil compactor on IndiaMART. Confirm you need it and answer every question clearly and briefly: 2 pieces, drum roller, 10 ton operating weight, name Ramesh, city Nagpur, state Maharashtra.",
+      "expected_behaviors": [
+        {"name": "Collects all details", "description": "The agent collects quantity, specification, name, city and state without asking any of them more than once."},
+        {"name": "No unnecessary questions", "description": "The agent does not ask open-ended questions such as 'anything else?' or 'any other details?'."},
+        {"name": "Closes politely", "description": "The agent ends with a polite closing that the seller details will follow."}
+      ],
+      "max_turns": 20
+    }
+  ]
+}

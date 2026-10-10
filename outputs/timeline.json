@@ -1,0 +1,86 @@
+{
+  "transcribe": {
+    "started_at": "2026-10-09T15:23:29+05:30",
+    "calls_total": 713,
+    "last_run_started_at": "2026-10-09T15:23:29+05:30",
+    "status": "complete",
+    "calls_done": 713,
+    "calls_failed": 0,
+    "updated_at": "2026-10-09T15:45:47+05:30",
+    "runs": [
+      {
+        "started_at": "2026-10-09T15:23:29+05:30",
+        "files": 705,
+        "finished_at": "2026-10-09T15:45:47+05:30",
+        "ok": 705,
+        "failed": 0
+      }
+    ],
+    "finished_at": "2026-10-09T15:45:47+05:30"
+  },
+  "normalise": {
+    "started_at": "2026-10-09T16:53:25+05:30",
+    "status": "complete",
+    "finished_at": "2026-10-09T16:53:26+05:30",
+    "calls": 713,
+    "short_calls": 74,
+    "ambiguous_roles": 132
+  },
+  "signals": {
+    "started_at": "2026-10-09T16:53:26+05:30",
+    "status": "complete",
+    "finished_at": "2026-10-09T16:53:31+05:30",
+    "calls": 713
+  },
+  "grade": {
+    "started_at": "2026-10-09T16:13:12+05:30",
+    "status": "complete",
+    "last_run_started_at": "2026-10-10T12:48:38+05:30",
+    "calls_graded": 713,
+    "updated_at": "2026-10-10T12:48:53+05:30",
+    "calls_total": 713,
+    "finished_at": "2026-10-10T12:48:53+05:30"
+  },
+  "agreement": {
+    "finished_at": "2026-10-10T12:48:58+05:30",
+    "status": "no_labels",
+    "labelled": 0
+  },
+  "root_causes": {
+    "started_at": "2026-10-10T12:48:58+05:30",
+    "finished_at": "2026-10-10T12:49:41+05:30",
+    "status": "complete",
+    "failed_calls": 567,
+    "causes": 20,
+    "batches": 15
+  },
+  "rank": {
+    "finished_at": "2026-10-10T12:49:41+05:30",
+    "status": "complete",
+    "causes": 20,
+    "prompt_updates": 2
+  },
+  "prompt_fix": {
+    "started_at": "2026-10-10T12:50:06+05:30",
+    "finished_at": "2026-10-10T12:50:07+05:30",
+    "status": "complete",
+    "fixes": 2
+  },
+  "test_fix": {
+    "started_at": "2026-10-09T17:55:41+05:30",
+    "finished_at": "2026-10-09T18:03:57+05:30",
+    "status": "complete",
+    "cause": "C2",
+    "calls": 10
+  },
+  "voice": {
+    "finished_at": "2026-10-09T18:05:18+05:30",
+    "status": "complete",
+    "call": "106_90684997_ZPKKH1UG5"
+  },
+  "review_applied": {
+    "finished_at": "2026-10-10T17:06:46+05:30",
+    "status": "complete",
+    "applied": 2
+  }
+}

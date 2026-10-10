@@ -1,0 +1,166 @@
+{
+  "created_at": "2026-10-10T12:50:07+05:30",
+  "base_prompt": "vani_buyer_prompt.md",
+  "fixes": [
+    {
+      "existing_rule": "Collection Control - Applies to Every Handler and Phase: After the final permitted ask receives no valid resolution, set @call_step to LOOP_DETECTED and close that field as exhausted. Briefly defer the detail to the seller and continue; never ask permission to skip or reopen it through a handler.",
+      "why_it_failed": "The bot rephrased the quantity question multiple times (e.g., 'कितने piece चाहिए', 'एक example के लिए', 'कोई बात नहीं approximate बता दीजिए') which counted as additional attempts, exceeding the 3-ask limit and causing a loop.",
+      "action": "edit",
+      "where": "Collection Control - Applies to Every Handler and Phase",
+      "old_text": "After the final permitted ask receives no valid resolution, set @call_step to LOOP_DETECTED and close that field as exhausted. Briefly defer the detail to the seller and continue; never ask permission to skip or reopen it through a handler.",
+      "new_text": "- Before rephrasing, verify that the previous attempt was actually a distinct question and not just a wording variation of the same question. If it is a variation, do not increment the count, but do not re-ask it again either; instead, close the field as exhausted and move on.",
+      "why": "This prevents the bot from counting rephrased versions of the same question as new attempts and forces it to stop probing after the limit is reached.",
+      "cause_id": "C3",
+      "cause_name": "Bot loops on the same question instead of moving forward",
+      "examples": [
+        "132_90741479_6HBYEL4H5",
+        "141_90643052_7VEUS3KG5",
+        "150_90643056_W0ZZS3KG5"
+      ],
+      "created_at": "2026-10-10T12:50:07+05:30",
+      "applied_as": "added after the existing rule"
+    },
+    {
+      "existing_rule": "Do not ask questions such as 'Any other details?', 'Anything else?', 'Any additional requirements?', or similar open-ended questions.",
+      "why_it_failed": "The rule was too generic and buried in the Live Seller Connection section, so the bot still asked banned open-ended questions like 'क्या आप इस product के बारे में कोई और details या specification share करना चाहेंगे?' during collection.",
+      "action": "edit",
+      "where": "Collection Control - Applies to Every Handler and Phase",
+      "old_text": "- Do not ask questions such as “Any other details?”, “Anything else?”, “Any additional requirements?”, or similar open-ended questions.\n- Do not introduce new information-gathering questions that are not explicitly required.",
+      "new_text": "- Do not ask questions such as “Any other details?”, “Anything else?”, “Any additional requirements?”, or similar open-ended questions.\n- If a buyer asks for open-ended extra details or specifications after the required collection is complete, briefly state that additional details can be discussed with the seller, mark the field closed, and immediately move to FINALISATION.",
+      "why": "This makes the banned question rule actionable at the moment the bot decides its next reply, forcing it to close the field and move on instead of asking the open-ended prompt.",
+      "cause_id": "C5",
+      "cause_name": "Bot asks banned or irrelevant open-ended questions",
+      "examples": [
+        "312_90852886_UWZ1LXVH5",
+        "357_90797563_9IAPZXFH5",
+        "569_90853005_B19KMXVH5"
+      ],
+      "created_at": "2026-10-10T12:50:07+05:30",
+      "applied_as": "added at the end"
+    }
+  ],
+  "not_fixable_by_prompt": [
+    {
+      "id": "C4",
+      "name": "Bot mishears or misses buyer's quantity and specs",
+      "type": "ASR",
+      "priority": 55.7,
+      "why": "Speech was misheard. A prompt cannot fix speech recognition."
+    },
+    {
+      "id": "C1",
+      "name": "Bot promises WhatsApp instead of live seller or lead",
+      "type": "FLOW",
+      "priority": 31.8,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C2",
+      "name": "Bot closes call or creates lead without collecting details",
+      "type": "FLOW",
+      "priority": 10.4,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C6",
+      "name": "Bot misidentifies buyer's product or intent",
+      "type": "KNOWLEDGE",
+      "priority": 3.4,
+      "why": "The bot lacks information. It needs new facts from IndiaMART, not a prompt tweak."
+    },
+    {
+      "id": "C12",
+      "name": "Bot closes without collecting quantity, specs, or buyer details",
+      "type": "FLOW",
+      "priority": 1.4,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C17",
+      "name": "Bot asks for quantity after buyer already stated it",
+      "type": "FLOW",
+      "priority": 1.4,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C18",
+      "name": "Bot closes the call or creates a lead without collecting required details",
+      "type": "FLOW",
+      "priority": 1.0,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C13",
+      "name": "Bot loops on product confirmation or specs",
+      "type": "FLOW",
+      "priority": 0.7,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C16",
+      "name": "Bot fails to collect name, city, or state before closing",
+      "type": "FLOW",
+      "priority": 0.7,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C19",
+      "name": "Bot closes prematurely without collecting required lead details",
+      "type": "FLOW",
+      "priority": 0.6,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C10",
+      "name": "Bot closes call as no requirement despite buyer stating a product need",
+      "type": "FLOW",
+      "priority": 0.4,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C11",
+      "name": "Bot fails to capture critical specs and closes with vague WhatsApp offer",
+      "type": "FLOW",
+      "priority": 0.4,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    },
+    {
+      "id": "C7",
+      "name": "Bot fails to collect required lead details like name and location",
+      "type": "FLOW",
+      "priority": 0.1,
+      "why": "The call logic or state handling is broken. This needs an engineering change."
+    }
+  ],
+  "watchlist": [
+    {
+      "id": "C15",
+      "name": "Bot closes call without collecting any lead details",
+      "type": "PROMPT",
+      "n_calls": 3,
+      "why": "only 3 calls (0.4%); seen in only 1 batch(es)"
+    },
+    {
+      "id": "C8",
+      "name": "Bot ignores or fails to capture critical buyer requirements",
+      "type": "PROMPT",
+      "n_calls": 1,
+      "why": "only 1 calls (0.1%); seen in only 1 batch(es)"
+    },
+    {
+      "id": "C9",
+      "name": "Bot asks for quantity or specs when buyer is asking for photos or verification",
+      "type": "PROMPT",
+      "n_calls": 1,
+      "why": "only 1 calls (0.1%); seen in only 1 batch(es)"
+    },
+    {
+      "id": "C14",
+      "name": "Bot asks banned questions or fails to handle buyer's language preference",
+      "type": "PROMPT",
+      "n_calls": 1,
+      "why": "only 1 calls (0.1%); seen in only 1 batch(es)"
+    }
+  ],
+  "note": "Only PROMPT-type causes are fixed. ASR, KNOWLEDGE and FLOW problems cannot be fixed by changing the prompt."
+}

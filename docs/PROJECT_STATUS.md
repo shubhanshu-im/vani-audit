@@ -1,139 +1,190 @@
-# vani-audit — Project Status (as of 2026-10-09)
+# vani-audit — Current Status
 
-Handoff document. The reader is planning the next build steps and writing prompts for Claude Code, which is working in this repo. The full problem statement is in `docs/PROBLEM_STATEMENT.md`.
+_Last updated: Sat 10 Oct 2026, ~17:30 IST. Deadline: **Sat 10 Oct 2026, 23:59 IST**._
 
-## 1. What we're building (one paragraph)
+Written for a Claude chat that plans the next steps and writes prompts for Claude Code in this repo. Other references:
+- Setup and commands: `README.md`
+- Developer details and file formats: `CLAUDE.md`
+- The brief: `docs/PROBLEM_STATEMENT.md`
 
-The project is Hackathon Problem Statement 01, "Quality Audit & Fix Loop". The pipeline will:
+---
 
-1. Transcribe 100% of the provided VANI voice-bot call recordings.
-2. Grade every call Fatal / Non-Fatal, each grade with a reason and evidence (a transcript snippet plus a timestamp).
-3. Flag risky calls: wrong requirement, frustration, loops, low ASR confidence, or a request for a human.
-4. Group failures into named root causes, typed as prompt / ASR / knowledge / flow, and rank them with a transparent priority score (frequency × severity).
-5. Propose a concrete prompt diff for each top root cause.
-6. Test each fix by replaying failed scenarios against the revised prompt with a simulated buyer, and report the failure rate before and after.
-7. Show all of this on one dashboard.
+## 1. Goal (one paragraph)
 
-The scoring weights are: agreement with human auditors 25%, root-cause grouping and ranking 25%, failure-rate drop after a fix 25%, time from issue to tested fix 15%, share of calls audited 10%.
+Hackathon PS-01 "Quality Audit & Fix Loop" for IndiaMART's buyer-side voice bot **VANI**:
+1. Transcribe every call.
+2. Grade each call Fatal / Non-Fatal with evidence.
+3. Flag risky calls.
+4. Find root causes in batches, ranked by frequency × severity. Only important, recurring causes may update the VANI prompt.
+5. Write the prompt fix.
+6. Prove it works by replaying calls with the old and new prompt, and live on Sarvam voice agents.
+7. Show it all on one dashboard.
 
-## 2. Status at a glance
+Scoring: human agreement 25%, root causes + ranking 25%, failure drop after fix 25%, issue→tested-fix speed 15%, calls audited 10%. Sarvam only.
 
-| Area | Status |
-|---|---|
-| Repo + Python env | ✅ Done |
-| Data sorted (only what PS-01 needs) | ✅ Done |
-| Sarvam speech-to-text (STT) | ✅ Verified on 3 calls (works well on Hindi/Hinglish) |
-| Sarvam LLM `sarvam-105b` | ✅ Verified (API reachable with our key) |
-| Bot prompt + quality rubric | ✅ In repo, converted to Markdown |
-| Transcribe all 713 calls | ⬜ Not started |
-| Grading / flagging / root causes / fixes / testing / dashboard | ⬜ Not started (no pipeline code written yet) |
-| Human audit labels | ❌ Not provided. We must hand-label a subset (see §7). |
-| Git | ⚠️ Repo initialised on branch `master`, **no commits yet** |
+**Team:**
+- **Person 1**: transcription, signals, grading, agreement.
+- **Person 2**: root causes → fix → test → dashboard. Their code is merged into `pipeline/`.
+- **Person 3**: labels.
 
-## 3. Environment
+---
 
-- Ubuntu Linux, Python 3.12.3, venv at `.venv/`. Install with `.venv/bin/pip install -r requirements.txt`.
-- `requirements.txt`: `sarvamai==0.1.36`, `python-dotenv==1.2.4`, `mutagen==1.48.1` (audio durations).
-- `.env` holds `SARVAM_API_KEY` (git-ignored). **No other LLM API key is configured yet.**
-- **ffmpeg / ffprobe are NOT installed.** Use `mutagen` for durations. If audio needs converting, install ffmpeg first.
-- Claude Code has the `sarvam-docs` MCP server connected (Sarvam API docs search). Use it rather than guessing SDK signatures.
-- **The project path contains a space**: `/home/imart/Projects/hackathon 2/vani-audit`. Every script and shell command must quote paths.
+## 1c. Update: Sat 10 Oct, ~17:30 IST (Cowork review done; live Sarvam agents show the fix working)
 
-## 4. Repo layout
+- **Cowork review** (`outputs/cowork_review.json`):
+  - C3 (repeated questions): **reworded.** The original wording conflicted with the prompt's own counting rules.
+  - C5 (banned question): **dropped.** It already exists, and the change could make the bot close too early.
+  - Final prompt: `outputs/prompts/vani_prompt_final.md`, built by `pipeline/apply_review.py`. It is the current prompt plus two added lines, nothing removed:
+    1. the C3 rule in Collection Control;
+    2. iteration 2 adds a 3-ask cap line to Location Collection Principles.
+- **Live Sarvam voice agents** (via the Voice Agents MCP; IDs in `outputs/agents/agents.json`):
+  - **VANI-before** `VANI-before-f146c2d8-1db4` v1: the real VANI prompt, main redirect-flow state, 75k characters, rendered by `pipeline/agent_prompts.py`.
+    - Demo product "10 ton soil compactor", no live seller.
+    - Voice "Aparna – Support Agent"; Hindi, English and Telugu.
+    - 19 post-call variables, such as call_outcome, quantity, quantity_asked_count and call_step=LOOP_DETECTED.
+  - **VANI-after** `VANI-after-ae6744db-fe35` **v2**: the same prompt plus the two lines (`outputs/agents/vani_after.txt`). v1 had the rule only in the platform's context field.
+- **Platform facts learned:**
+  - `@name` in a prompt is a live variable/tool reference, so VANI's prompt is native Sarvam syntax.
+  - This workspace has one state per agent and doesn't allow in-call variable updates; variables are filled after the call instead.
+  - The .docx holds several agent states one after another: main, Enrichment, Redial and Redial_AST.
+  - No phone connection exists yet, so tests run as text chat and Sarvam evals. The Samvaad test panel supports web calls.
+- **Sarvam evals** (simulated buyers, platform-scored; scenarios in `outputs/agents/eval_suite.json`, results in `outputs/agents/eval_results.json`, raw runs in `outputs/agents/runs/`). Target scenario: "Cannot give a usable city" (buyer says "paas mein hi hai, seller bhej do").
 
-```
-vani-audit/
-├── .env                      # SARVAM_API_KEY (git-ignored)
-├── requirements.txt
-├── data/                     # git-ignored (audio + personal data)
-│   ├── recordings/           # 713 .mp3 call recordings (the dataset)
-│   ├── transcripts/raw/      # raw Sarvam STT JSON (3 test calls done)
-│   └── labels/               # empty: for our hand-labelled subset
-├── docs/
-│   ├── PROBLEM_STATEMENT.md  # the hackathon brief
-│   ├── PROJECT_STATUS.md     # this file
-│   ├── DATA.md               # what each data file is
-│   ├── quality_matrix.png    # human auditors' rubric (original image)
-│   ├── quality_matrix.md     # same rubric as a table
-│   ├── vani_buyer_prompt.docx  # the bot's system prompt (original)
-│   └── vani_buyer_prompt.md    # same, as Markdown (~25.5k words, roughly 35–45k tokens)
-├── prompts/   (empty)        # for our grader / fixer / simulator LLM prompts
-├── outputs/   (empty)        # for pipeline results
-└── examples/  (empty)
-```
+  | | VANI-before v1 | VANI-after v1 (rule in context field) | **VANI-after v2 (rule in prompt)** |
+  |---|---|---|---|
+  | City scenario passed | 14/20 (70%) | 4/10 (40%) | **19/20 (95%)** |
+  | Asked city/state more than 3 times | 5/20 | 5/10 | **0/20** |
+  | Lead dropped ("call the same seller back") | 4/20 | 3/10 | **0/20** |
+  | Vague quantity / cooperative buyer (regression) | 3/3, 3/3 | 3/3, 3/3 | 3/3, 3/3 |
 
-## 5. Data facts
+  The before vs after-v2 difference is significant: one-sided Fisher p = 0.046.
+- **Lesson:** where the rule sits matters. In a side field it lost to the Location section's own "confirm city and state" instruction. Placed in the section that governs the behaviour, it worked.
+- **Honest caveats:**
+  - These are simulated text buyers on one scenario.
+  - On clean text, the current prompt already respects most ask limits. The real 32-ask loops in the recordings also involve misheard speech and possibly an older prompt.
+  - The quantity-loop variant was not reproduced: both agents pass it.
+- **Dashboard:** the "Live agents" tab shows:
+  - both agents and the two-line difference
+  - the eval scores and the iteration table
+  - a side-by-side transcript of the same stubborn buyer
 
-**Recordings (`data/recordings/`)**
-- 713 MP3s, 830.9 minutes in total. Median 64 s, p90 130 s, max 387 s.
-- **74 calls are under 10 s**: near-empty, dropped, or no-answer calls. Handle them as a separate class; don't send them to the LLM grader.
-- Filename pattern: `<index>_<call_id>_<recording_code>.mp3`, e.g. `1000_90643234_F0C4W3KG5.mp3`. Index ranges 2–1001 with gaps. call_id ranges 90643029–90853277.
-- **No metadata comes with the recordings.** There are no dispositions, captured lead fields, timestamps or labels. The organisers' `Call_Logs_Hackathon.csv` did not match a single recording by any ID, so it was dropped. The captured lead (product, qty, specs) has to be inferred from the transcript itself, i.e. what the bot said back or confirmed.
+## 1b. Update: Sat 10 Oct, 12:50 IST (credits topped up; latest results)
 
-**What the calls are:** buyer-side VANI calls. The bot (persona "Tania", female, from IndiaMART) confirms a buyer's product requirement, then collects quantity, specs, name, city and state. Then it either transfers to a live seller or creates a buy lead. The language is mostly Hindi / Hinglish code-mix; some callers speak other languages (e.g. Kannada).
+- **Agreement with IndiaMART auditors** (80 held-out audited calls, grading spec v2, decision rule "a FATAL counts only at high confidence", rule chosen on the tune split):
+  - **59.0%** Fatal-vs-not, kappa 0.09; **67.3%** weighted to real traffic.
+  - Why it's low: 21 of 27 auditor-Fatal calls are Fatal because of the **lead record (BL) in IndiaMART's system**, which isn't in the audio.
+  - Next step beyond the hackathon: feed the saved BL fields into the grader.
+- **All 713 calls regraded with v2:**
 
-**Dropped as out of scope** (other hackathon tracks): Global Context seller dataset and its data dictionary, Global Context buyer-side API logs, Persona files, Best-Time-to-Call, Seller Enrichment, and the call logs CSV. The originals remain in `~/Downloads/Aids to solve Problems-20261009T085102Z-1-001.zip`.
+  | | Calls |
+  |---|---|
+  | Fatal | 282 (44% of 639 calls with a conversation; v1 had 76%) |
+  | Non-Fatal | 285 |
+  | Pass | 72 |
+  | No conversation | 74 |
 
-## 6. What's been verified with Sarvam
+- **Batch learning:** 567 failed calls, 15 batches of 40, 90 patterns, 20 causes. **Importance gate passed by only 2:**
+  - C3 "Bot loops on the same question" (PROMPT, 112 calls, 14/15 batches)
+  - C5 "Bot asks banned open-ended questions" (PROMPT, 33 calls, 7 batches)
+- **Biggest causes the prompt can't fix:**
+  - C4 mishears quantity/specs (ASR, 177 calls)
+  - C1 promises WhatsApp instead of a live seller (FLOW, 150 calls)
+- **Prompt fixes:** 2 additive changes in `outputs/prompts/vani_prompt_v2.md`. Edits now never delete an existing rule; an edit once tried to replace the LOOP_DETECTED rule, and that's now blocked.
+- **Cowork export:** `outputs/cowork/` is regenerated (21 files, 15 batches).
+- **Voice Agents MCP:** added to Claude Code (`sarvam-voice-agents`) but needs the user's Sarvam sign-in (`/mcp` → Authenticate).
+- **Not rerun, to save credits:** the simulated fix test and voice clips. The live Sarvam agents replace them for the demo.
 
-**STT, batch API** (`client.speech_to_text_job`):
-- Settings used: `model="saaras:v4"`, `mode="codemix"`, `language_code="unknown"`, `with_diarization=True`, `num_speakers=2`.
-- Limits: max 20 files per job. Timestamps are per chunk (phrase level), not per word.
-- Output JSON has `language_code` and `diarized_transcript.entries[]`, each entry with `speaker_id`, `transcript`, `start_time_seconds` and `end_time_seconds`.
-- 3 files took a few minutes end to end. The full run will be about 36 jobs.
-- ⚠️ **`speaker_id` is not role-stable.** The bot is `0` in some calls and `1` in others. A role-assignment step is needed. Simple heuristic: the bot is the speaker of the opening line and of lines mentioning "IndiaMART", "Tania", "requirement", "seller".
-- Transcription quality on Hinglish product names (e.g. "Hawkins Contura Black 2 litre pressure cooker", "collar type packing machine") looked good.
-- The batch output carries no confidence scores. "Low ASR confidence" flags will need a proxy: the bot saying "Sorry, aapki awaaz clear nahi aayi", very short or garbled buyer turns, or the detected language not being Hindi/English.
+## 2. 🔴 Earlier blocker (resolved 10 Oct ~12:15): Sarvam credits exhausted
 
-**LLM:** `client.chat.completions(model="sarvam-105b", ...)` works. It has a 128K context, so the whole bot prompt fits. It is a reasoning model (it spends reasoning tokens, so give it enough `max_tokens`). Rate limit is about 40 requests/min on the Starter plan. **Decided:** `sarvam-105b` for grading, `sarvam-105b-conversations` for buyer simulation (`sarvam-30b` is retired; the API rejects it).
+Since **10 Oct 01:51 IST**, every Sarvam API (LLM, STT, TTS) returns `402 No credits available`. Nothing that calls Sarvam can run until the account is topped up. All code is written and tested up to that point.
 
-## 7. Grading criteria sources
+**Usage so far** (from our logs and LLM cache):
 
-- **Human rubric** (`docs/quality_matrix.md`): Outcome Accuracy (always fatal), Qty value / unit / probing / missed, Spec1/Spec2 accuracy and missed, Looping (more than 1+2 probes), WER, Additional details (BFD), OnCall AstBuy Error (seller available but not pitched = fatal), Product change / wrong product approved, Category ISQ, MCAT errors, Dead air (>5 s, or >8 s with noise), Overall (Pass / Fatal / Non-Fatal).
-  - The "Category ISQ's Error" fatal cell appears inverted in the source; the organisers need to confirm it.
-  - Some parameters (MCAT, BFD, captured qty) need system data we don't have. We can only judge them from what the bot says aloud.
-- **Bot prompt** (`docs/vani_buyer_prompt.md`): this is the spec for "correct" behaviour. Rules most useful for grading:
-  - **Ask limits:** product identification 4, quantity 3, each spec 2, name 3, city 3, state 3, transfer consent 2. Exceeding a limit is a loop.
-  - **Banned open-ended questions:** "Any other details?", "Anything else?".
-  - **Languages:** English, Hindi or Telugu only.
-  - **Never claim to be human.**
-  - **End-Call Disposition Table:** e.g. BL Deleted / No Product Requirement / Selling Related / Job Related.
-  - The intent catalogue includes TALKING_TO_AI, COMPLAINT, LANGUAGE_SWITCH and CONNECTIVITY_ISSUE.
-  - The prompt is a Jinja-style template (195 `{% %}` blocks). It has variables such as `@call_outcome`, `@buyer_disposition`, `@quantity`, `@specifications` and `@connect_ast_call`, and tools such as `end_interaction` and `ast_buy_confirmed_tool`.
-- **Hand labels:** none exist yet. `data/labels/` is ready for them. The plan is to hand-label a representative subset (e.g. 50–80 calls, stratified by duration) as Fatal / Non-Fatal plus the rubric parameter, to measure agreement (25% of score).
-
-## 8. Open decisions / risks
-
-1. **LLM choice (decided):** Sarvam only. `sarvam-105b` for grading, `sarvam-105b-conversations` for buyer simulation. Name them on the final slide.
-2. **The prompt may not match the calls.**
-   - In call `470_…`, the bot told a Kannada speaker it speaks "only Hindi or English", but the prompt says Hindi, English *or Telugu*.
-   - In call `1000_…`, the bot asked "kya aap koi aur details share karna chahenge?", which the prompt explicitly bans.
-   - So either the recordings came from an older prompt version, or these are genuine violations. Ask the organisers which prompt version produced the calls. It affects both grading and how fixes are framed.
-3. **Human labels:** the organisers marked them "to be confirmed". Ask whether they will provide any; otherwise plan time for hand-labelling.
-4. **The prompt is long** (~40k tokens). Fix-testing replays the full revised prompt each turn, so cost and latency matter. Keep the test set small and targeted (the failed calls for one root cause plus some control calls).
-5. **Audio and transcripts contain buyer names and cities.** Keep them under git-ignored `data/`. Note that `docs/` (including the internal bot prompt) *is* tracked by git, so don't push to a public remote without excluding it.
-
-## 9. Early failure examples (from the 3 probe transcripts)
-
-| Call | Observation | Likely rubric item / root-cause type |
+| What | Volume | Purpose |
 |---|---|---|
-| `1000_90643234_F0C4W3KG5` | Bot asks the banned "any other details?" question. The buyer wants 5 sizes (1.5–6.5 L) at 50% off MRP, the bot just says "details note kar li" and ends. Multi-size quantity isn't captured or confirmed. | Spec/Qty missed opportunity; prompt-violation |
-| `470_90685058_U6YFJ1UG5` | Buyer speaks Kannada; bot keeps asking quantity and specs, then repeats the language line twice. | Language handling; looping; flow |
-| `850_90797398_E2ZUXXFH5` | Bot re-confirms the product 3× despite "haan". When asked for city it captures a name ("Sujit Kumar"), and the city ask repeats. | Looping; ASR/understanding of short replies; wrong field capture |
+| Speech-to-text (saaras:v4, batch) | ~1,170 min audio = 873 calls | 713 hackathon calls (831 min) + 160 human-audited calls for calibration (339 min) |
+| LLM grading (sarvam-105b) | ~1,100 calls, ~5.6M in / ~1.8M out tokens | Grading all 713 calls once, plus retries and re-grades after fixes to the transcripts and schema |
+| LLM fix-test simulation (sarvam-105b bot + sarvam-105b-conversations buyer) | ~250 bot/persona calls, ~4.8M in tokens; ~400 short buyer turns | Replaying 10 real calls with the old and new prompt, 3–4 runs while debugging the simulator. **Most expensive per call**: every bot turn sends the full ~30k-token VANI prompt. |
+| LLM root causes / prompt fixes / checks | ~110 calls, ~0.75M in tokens | Clustering failures, writing 3 prompt fixes (each sends the full prompt), "is the problem still visible" checks |
+| Text-to-speech (bulbul:v3) | ~3,200 characters | Before/after demo audio for one call, plus 2 voice tests |
+| **Total LLM** | **~12M input + ~1.9M output tokens** | |
 
-## 10. Suggested next steps (in order)
+---
 
-1. **Bulk transcription:** a script that runs all 713 recordings through Sarvam batch STT (20 per job, resumable, skips already-done files) into `data/transcripts/`. Then normalise each to a clean JSON (turns with role bot/buyer, text, start/end) plus call-level stats (duration, turn counts, longest silence or gap for dead air).
-2. **Hand-label set:** pick a stratified subset of about 60 calls and write a simple labelling sheet (`data/labels/human_labels.csv`: call_id, grade, fatal_reason, rubric_param, notes). Label them early so the grader can be tuned against them.
-3. **Grader:**
-   - Write an LLM prompt (in `prompts/`) built from the rubric and the key bot-prompt rules.
-   - Output strict JSON per call: grade, list of issues (rubric parameter, fatal flag, evidence quote, timestamp, root-cause type), risky-call flags, and the inferred captured lead.
-   - Add deterministic checks alongside: dead-air gaps, repeated bot utterances or ask counts for loops, and "speak to a human" keywords.
-4. **Root-cause clustering + ranking:**
-   - Cluster the issue descriptions (LLM-assisted) into about 8–15 named root causes, each with type, description and example call IDs.
-   - Priority = frequency × severity weight, with the formula documented.
-5. **Fix + test loop:**
-   - For the top root causes, have the LLM propose a prompt diff against `docs/vani_buyer_prompt.md`.
-   - Build a simulated buyer from each failed call's transcript, then replay against the original and the revised prompt, grade both, and report before/after failure rates and the time taken.
-6. **Dashboard:** a single page (Streamlit or a static HTML page) reading from `outputs/`, with four panels: Audit, Issues, Fixes, Tests.
-7. Results summary + one-slide deck at the end.
+## 3. Where each stage stands
+
+| # | Stage | State | Notes |
+|---|---|---|---|
+| 1 | Transcribe | ✅ 713/713 + 160/160 audit calls | |
+| 2 | Normalise (BOT/BUYER roles, silences) | ✅ | Roles are fixed line by line (Sarvam diarization mixes speakers) |
+| 3 | Rule-based signals | ✅ 713 + 160 | Loops / ask counts, dead air, banned question, frustration, human request, low-ASR, abrupt end |
+| 4 | Grade | ⚠️ 713 graded with **spec v1, which is too strict** (76% FATAL vs auditors' ~12%). **Spec v2 is written but not yet run** (credits). | v2 = auditor-style verdicts per parameter (PASS / NON_FATAL / FATAL / NA), rules and examples taken from auditor remarks, narrowed "Outcome Accuracy" |
+| 5 | Agreement with humans | ⏳ ready, not run | Uses IndiaMART's **real audit sheet**: 160 audited calls downloaded and transcribed (80 tune / 80 test, stratified Fatal / Non-Fatal / Pass). Reports binary, 3-class and population-weighted agreement, plus per-parameter agreement. |
+| 6 | Root causes (batch learning) | ✅ code · ⏳ rerun | Failed calls in batches of 40 → patterns per batch → merged causes, with call and batch counts. The last run (old method, v1 grades) is in outputs/. |
+| 7 | Rank + importance gate | ✅ code · ⏳ rerun | Priority = freq% × severity (Fatal 3 / Non-Fatal 1). **Gate:** a cause may update the prompt only if it is PROMPT-type, has ≥10 calls and ≥1.5% of calls, and appeared in ≥3 batches; the rest go on a watchlist. |
+| 8 | Prompt fixes | ✅ ran once (v1 data) | One small behaviour-only edit per gated cause; diffs in `outputs/prompt_diff_*.txt`; updated prompt in `outputs/prompts/vani_prompt_v2.md` |
+| 9 | Fix test (simulated replay) | ✅ ran once · ⚠️ weak result | The bot runs the real prompt (Jinja template rendered per call); the simulated buyer reuses the real buyer's lines. Cause "asks the same question too many times": loops 67%→50%, FATAL 83%→83% (n=6), 0 regressions, 23 min issue→tested. Needs a rerun after v2 grading. |
+| 10 | Cowork review + live demo on Sarvam Voice Agents | ⏳ export ready (`export_cowork.py`), MCP planned | Create 2 agents (current prompt vs fixed prompt) via the App Authoring API (`https://apps.sarvam.ai/api/app-authoring`, `X-API-Key`), commit versions, talk to both live, add a "Live demo" tab. **Needs credits + our own org_id and workspace_id. Never use IndiaMART's production workspace** (`indiamart.com` / `indiamart-com-defa-22f36d`). |
+| 11 | Voice clips, summary, dashboard | ✅ | `outputs/audio/before|after.wav`, `outputs/results_summary.md`. Run the dashboard with `.venv/bin/streamlit run pipeline/dashboard.py`; it shows auditor agreement, the gate and the watchlist. |
+| – | One-slide deck | ⬜ | Not started |
+| – | Git | ⚠️ | Only the initial commit; everything since is uncommitted |
+
+---
+
+## 4. What the audit sheet taught us (use in the slide)
+
+- "Audit Source of truth.csv" (now at `data/audit/audit_source_of_truth.csv`, git-ignored): about 4,900 VANI calls hand-graded by IndiaMART auditors with our rubric.
+- None of them are our 713 calls. The SQUADSTACK recordings (2,866) download freely; the Sarvam-hosted ones need a login.
+- **Human base rates** (inbound SQUADSTACK, n=1,877):
+  - Overall: 69% Pass / 19% Non-Fatal / 12% Fatal.
+  - Call Quality Fatal: 3.5%.
+  - Outcome Accuracy Fatal: 2.8%.
+  - Most Fatals are wrong values in the lead (quantity or spec), the wrong product, or a lead created without a real requirement.
+- Our v1 grader marked 76% Fatal, with Outcome Accuracy on 73% of calls. That's why spec v2 exists.
+
+---
+
+## 5. Next steps, in order (once credits are back)
+
+```bash
+# 1. Baseline vs calibrated grader on the 160 audited calls (~1.3M tokens each)
+VANI_DATASET=audit .venv/bin/python pipeline/grade.py --spec prompts/grading_spec_v1.md
+mv outputs/audit/grades outputs/audit/grades_v1
+VANI_DATASET=audit .venv/bin/python pipeline/grade.py
+VANI_DATASET=audit .venv/bin/python pipeline/agreement.py
+# 2. Tune prompts/grading_spec.md on the "tune" split only (read the disagreements in outputs/audit/agreement.json),
+#    regrade with --force, and report the "test" split as the headline number.
+# 3. Regrade the 713 calls with the calibrated spec (~6.5M tokens), then the rest of the loop
+.venv/bin/python pipeline/grade.py --force
+.venv/bin/python pipeline/run_all.py --from 5      # agreement, batch learning, gate, fixes, fix test, voice, summary
+.venv/bin/python pipeline/export_cowork.py          # -> outputs/cowork/ (files to upload to Sarvam Cowork)
+# 4. Cowork: knowledge base = calls.csv + batches/*.md + both prompts; chat = 00_INSTRUCTIONS + 01_summary + 02_proposed_changes
+#    -> Cowork returns the approved change table and the final prompt
+# 5. Voice Agents MCP (https://mcp.sarvam.ai/voice-agents, Sarvam SSO): clone the agent into "VANI-before" / "VANI-after",
+#    set the prompts, commit; live demo in the Samvaad test panel. Use Claude Code if Cowork can't add the MCP. Never touch the production agent.
+# 5. Slide + demo walkthrough (one root cause: audit -> batch learning -> gated fix -> tested -> live agent)
+```
+
+To save credits:
+- Keep fix tests to about 10 calls (`--max-target 6 --n-reg 4`).
+- Don't run two LLM-heavy scripts at once (rate limit is 40 req/min per account).
+- Temperature-0 LLM calls are cached in `outputs/.cache/`, so re-runs of unchanged steps are free.
+
+---
+
+## 6. Key decisions (don't re-litigate)
+
+- **Sarvam only:**
+  - STT: saaras:v4.
+  - Grading, clustering, fixes and the simulated bot: sarvam-105b.
+  - Simulated buyer: sarvam-105b-conversations.
+  - TTS: bulbul:v3 ("tanya" for the bot, "rahul" for the buyer).
+  - Reasoning is off on every LLM call: `reasoning_effort=None`, otherwise answers come back empty.
+- **Code decides the grade:** any FATAL backed by a quote verified in the transcript → FATAL. `quality` is PASS / NON_FATAL / FATAL, as the auditors use it.
+- **Cause types:** VANI is prompt-driven, so its conversation behaviour is PROMPT; FLOW means telephony, tools or data; ASR means mishearing; KNOWLEDGE means missing facts.
+- **Fixes:** behaviour-only; never new numbers, prices or links; only for causes that pass the importance gate.
+- **Code layout:** one codebase in `pipeline/` (steps 1–11 in `run_all.py`). `VANI_DATASET=audit` switches to the audit calls.
+- **Privacy:** per-call outputs and anything quoting buyers are git-ignored. `docs/` holds IndiaMART's internal prompt, so any GitHub repo must be **private**.
+- **Open questions for the organisers:**
+  - Which prompt version produced the calls? The bot refuses Telugu and asks the banned question, both against the current prompt.
+  - Is the "Category ISQ's Error" Fatal cell written backwards?

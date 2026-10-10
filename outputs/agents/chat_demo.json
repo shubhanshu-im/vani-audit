@@ -1,0 +1,27 @@
+{
+ "note": "Recorded against VANI-after v1 (rule in the context field), before iteration 2. Single manual chat; the scored eval runs above are the evidence. Manual text chats via send_chat (Sarvam runtime), identical buyer lines, version 1 of each agent. Single runs are noisy; see eval_results.json for the scored comparison.",
+ "buyer_lines": [
+  "हाँ जी, soil compactor चाहिए।",
+  "वो तो देखना पड़ेगा।",
+  "पहले rate बता दो, फिर बताता हूँ।",
+  "वो roller वाला जो सड़क पे चलता है।",
+  "10 ton वाला। मेरा नाम कृष्णा है।",
+  "पास में ही है, गाँव में।"
+ ],
+ "before": [
+  "जी, दरअसल जिस seller से आप बात करना चाह रहे थे वो अभी busy हैं। मैं आपकी call IndiaMart के किसी दूसरे best seller को transfer कर दूँगी।वैसे, आपको कितने piece की requirement है?",
+  "कोई बात नहीं। क्या आप एक अंदाज़ा बता सकते हैं कि आपको लगभग कितने piece चाहिए होंगे? इससे seller आपको सही deal दे पाएंगे।",
+  "देखिए, मैं आपकी call एक best seller को transfer कर दूँगी जो आपको सबसे अच्छे rate बता पाएंगे। पर उसके लिए मुझे बस कुछ छोटी details चाहिए।क्या आप बता सकते हैं कि आपको Drum roller चाहिए या Plate compactor?",
+  "जी, समझ गई। और इसका operating weight क्या होना चाहिए, 3 ton या 10 ton?",
+  "ठीक है, कृष्णा जी। अब बस आपकी location जान लीजिए ताकि मैं आपके आस पास के best seller को ढूँढ सकूँ। आप कौन से city और state से बात कर रहे हैं?",
+  "जी, मैं समझ सकती हूँ, पर मुझे सही city और state का नाम चाहिए होगा ताकि मैं आपके सबसे नज़दीक वाला best seller ढूँढ सकूँ और आपको बेहतर deal मिल सके। आप किस city और state से हैं?"
+ ],
+ "after": [
+  "जी, दरअसल जिस seller से आप contact करने की कोशिश कर रहे थे, वो अभी busy हैं। मैं आपकी call IndiaMart के किसी दूसरे best seller को transfer कर दूँगी।वैसे, आपको कितने piece की requirement है?",
+  "कोई बात नहीं। क्या आप एक अंदाज़ा बता सकते हैं कि आपको लगभग कितने piece चाहिए होंगे? इससे seller आपको सही deal दे पाएंगे।",
+  "देखिए, मैं आपकी call एक best seller को transfer कर दूँगी जो आपको सबसे अच्छे rate बता पाएंगे। लेकिन उससे पहले मुझे कुछ ज़रूरी details चाहिए ताकि वो आपको accurate quote दे सकें।तो, क्या आप एक rough estimate बता सकते हैं कि आपको कितने piece की ज़रूरत होगी?",
+  "जी, मैं समझ गई। आप drum roller की बात कर रहे हैं। वैसे, क्या आप बता सकते हैं कि आपको कितने piece की requirement है?",
+  "ठीक है कृष्णा जी। जैसा कि आपने बताया कि आपको 10 ton वाला चाहिए, तो क्या आप बता सकते हैं कि आपको कितने piece की requirement है?"
+ ],
+ "observation": "In this single run VANI-before stayed within the quantity limit (2 asks) while VANI-after asked quantity 5 times."
+}

@@ -7,10 +7,10 @@ Source: the hackathon "Aids to solve Problems" bundle. `data/` is git-ignored be
 | Path | What it is |
 |---|---|
 | `data/recordings/*.mp3` | 713 buyer-side VANI call recordings (830.9 min total, median 64 s). Filename: `<index>_<call_id>_<recording_code>.mp3`. 74 are under 10 s (near-empty or dropped calls). |
-| `data/transcripts/raw/` | Raw Sarvam STT output per call (3 done so far: the STT test calls). `clean/` holds the normalised versions. |
-| `data/labels/` | Empty. Our hand-labelled subset goes here, since no human labels were provided. |
+| `data/transcripts/raw/`, `clean/` | Sarvam STT output for all 713 calls, and the normalised BOT/BUYER turns with silences |
+| `data/labels/` | The 60-call hand-label set (30 tune / 30 test): `human_labels.csv` (to fill in), `review/*.txt` transcripts, `LABELLING_GUIDE.md` |
 | `docs/quality_matrix.png` / `.md` | The human auditors' Call Quality Matrix (parameters, fatal and non-fatal rules). |
-| `docs/vani_buyer_prompt.docx` / `.md` | The bot's system prompt, the spec that fixes are written against. The `.docx` is the original. |
+| `docs/vani_buyer_prompt.docx` / `.md` | The bot's system prompt, the spec that fixes are written against. The `.docx` is the original; the `.md` is a Jinja template generated from it by `pipeline/convert_prompt.py` (variables kept as `{{ name }}`, bot-set variables as `@name`). |
 
 ## Left out
 

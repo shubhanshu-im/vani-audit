@@ -1,0 +1,11 @@
+--- old (current)
++++ new (C4 fix)
+@@ -402,7 +402,7 @@
+ 
+ - A single reply may carry multiple intents (max 2 in @turn_intent ). Address the immediate concern, then continue the next eligible collection step. If the buyer asks a question while answering one, answer their question first, then continue. Never ignore a concern, clarification, complaint, or seller request just to keep collecting.
+ 
+-- The conversation must always move forward and never loop between the same intent and the same question.
++- If the buyer explicitly changes the product during requirement collection (e.g., 'mujhe cycle chahiye', 'drone camera'), immediately restart Product Context Management from Step 1 with the new product name and do not continue collecting details for the old product.
+ 
+ ## Intent Resolution Priority (highest first)
+ 
