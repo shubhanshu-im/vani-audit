@@ -77,7 +77,8 @@ assign = (rc or {}).get("assignments", {})
 
 with st.sidebar:
     st.header("Pipeline status")
-    for label, ok in [("Grades", bool(grades)), ("Agreement", bool(agree and agree.get("agreement_pct") is not None)),
+    has_agreement = any(a and a.get("agreement_pct") is not None for a in (agree, D.get("audit_agree")))
+    for label, ok in [("Grades", bool(grades)), ("Agreement", has_agreement),
                       ("Root causes", bool(rc)), ("Ranking", bool(rank)), ("Prompt fixes", bool(fixes)),
                       ("Fix test", bool(test)), ("Audio before/after", (OUTPUTS / "audio" / "after.wav").exists())]:
         st.write(("✅ " if ok else "⏳ ") + label)
